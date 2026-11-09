@@ -1,0 +1,1249 @@
+{
+  "key": "crypto-tax-loss-cutoff-2026",
+  "category": "crypto",
+  "status": "draft",
+  "title": "Same crypto loss. 30 days. Yours gone this year.",
+  "object": "THE YEAR-END CRYPTO TAX-LOSS CHECKLIST",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['sb7e63a60', 's54817a27'] · 퍼스나 The shaken coin holder",
+  "fact": {
+    "num": "30",
+    "unit": "",
+    "thing": "calendar days before and after the sale in the superficial loss window",
+    "box": "Crypto held in a regular taxable (non-registered) account, reported on Schedule 3",
+    "claim": "If you sell crypto at a loss, the CRA treats it as a superficial loss when you, or a person affiliated with you such as a spouse, buy the same or identical property in the period from 30 calendar days before the sale to 30 calendar days after it, and you still own it 30 days after the sale. You can't deduct a superficial loss that year, but the CRA does not erase it. The loss is usually added to the adjusted cost base of the coin you bought back, so it lowers the gain or raises the loss when you sell that coin later. For 2025 the capital gains inclusion rate is 50%, which means half of a capital loss can be applied against taxable capital gains. The CRA guide only covers 2025, and no year-end settlement cutoff date for 2026 on any crypto platform could be confirmed on a primary source.",
+    "sources": [
+      "CRA, CAPITAL LOSSES",
+      "CRA, CAPITAL LOSSES",
+      "CRA T4037 CAPITAL GAINS 2025"
+    ],
+    "verified": "find.py · 대조 3/3",
+    "felt": {
+      "num": "500",
+      "unit": "$",
+      "a": "500",
+      "b": "0",
+      "how": "sold and waited vs sold and bought back, on the same $1,000 loss",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA, CAPITAL LOSSES",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html",
+      "what": "You, or a person affiliated with you, buys, or has a right to buy, the same or identical property (called \"substituted property\") during the period starting 30 calendar days before the sale and ending 30 calendar days after the sale",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA, CAPITAL LOSSES",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html",
+      "what": "The inclusion rate for 2025 is 50%.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA T4037 CAPITAL GAINS 2025",
+      "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4037/capital-gains.html",
+      "what": "First, you must determine if the gains or losses from disposing crypto-assets are from conducting a business in the trading of crypto-assets or on account of capital. If the disposition is on account of capital, you may have a capital gain or capital loss.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "CRYPTO · CANADA",
+      "topic": "THE BITCOIN CLOCK",
+      "hook": {
+        "pre": "Your bitcoin loss: friend keeps $",
+        "num": "500,",
+        "post": " you keep $0. Want yours?"
+      },
+      "promise": "Give me 30 seconds. Keep your money this year."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME $1,000 LOSS · TWO MOVES",
+      "title": "Same loss. Only one counts this *year.*",
+      "boxes": [
+        {
+          "h": "SOLD AND WAITED",
+          "v": "$500",
+          "win": true,
+          "d": "The full $1,000 loss counts this year.",
+          "d2": "The 2025 inclusion rate is 50%, so $1,000 × 50% = $500 can go against taxable gains.",
+          "d3": "Example math. Not a promise."
+        },
+        {
+          "h": "SOLD AND BOUGHT BACK",
+          "v": "$0",
+          "d": "$0 counts this year.",
+          "d2": "You bought the same coin back within 30 days, so the CRA calls it a superficial loss.",
+          "d3": "Delayed, not erased",
+          "lead": true
+        }
+      ],
+      "source_label": "CRA · T4037 2025",
+      "say": "Same coin. Same loss.|Different 30 days."
+    },
+    {
+      "type": "table",
+      "kicker": "THE YEAR-END CRYPTO TAX-LOSS CHECKLIST",
+      "title": "Will your loss count this *year?*",
+      "h1": "IF YOU",
+      "h2": "THIS YEAR",
+      "rows": [
+        {
+          "a": "Sell",
+          "asub": "no buys of that coin 30 days before or after",
+          "b": "Counts",
+          "gone": "Loss usable"
+        },
+        {
+          "a": "Buy back",
+          "asub": "the same coin within 30 days after the sale",
+          "b": "Blocked",
+          "gone": "Moves to new coin"
+        },
+        {
+          "a": "Bought before",
+          "asub": "the same coin in the 30 days before, still held 30 days after",
+          "b": "Blocked",
+          "gone": "Moves to new coin"
+        },
+        {
+          "a": "Spouse buys",
+          "asub": "the same coin within the 30 day window",
+          "b": "Blocked",
+          "gone": "Affiliated person counts"
+        }
+      ],
+      "note": "Blocked doesn't mean erased. The loss is usually added to the cost of the coin you bought back, so it helps when you sell that coin later. Year-end platform cutoffs couldn't be confirmed. <b>Save this. Check 30 days both ways before you sell.</b>",
+      "say": "Save this one.|Check 30 days both ways."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your bitcoin loss: $500 gone this year. Want it back?",
+      "Your bitcoin loss gave your friend $500, you nothing. Want yours?",
+      "Your bitcoin loss: one quick move cost $500. Want it back?",
+      "Your bitcoin loss saved you $0 instead of $500. Want the $500?",
+      "Your bitcoin loss: Hama watched $500 vanish this year. Want it back?",
+      "Your bitcoin loss cost you $500 this year, not your friend. Want it back?",
+      "Your bitcoin loss is worth $0 this year. Want the $500?",
+      "Your bitcoin loss: friend keeps $500, you keep $0. Want yours?",
+      "Your bitcoin loss: 30 days decide $500. Want it back?",
+      "Your bitcoin loss: one move kills $500 this year. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your bitcoin loss: friend keeps $500, you keep $0. Want yours?",
+    "spoken": "Your bitcoin loss: friend keeps $500, you keep $0. Want yours?",
+    "promise": "Give me 30 seconds. Keep your money this year.",
+    "pick_why": "The friend who keeps $500 while you keep $0 is the fear of missing what everyone else knows, in one picture a beginner reads in a second.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "KEEP IT"
+  },
+  "lede": "Sell a coin at a loss and buy it back within 30 days, and the CRA won't let you claim that loss this year.",
+  "series": "CRYPTO TAX BASICS",
+  "source_note": "CRA · CAPITAL LOSS RULES",
+  "caption": "🐶⛏️ If you sold bitcoin at a loss, $500 off your taxable gains could be stuck.\n\nBuy that coin back within 30 days either side of the sale and the CRA calls it a superficial loss. The loss isn't gone, it just can't cut your tax this year.\n\nComment CLOCK and I'll send you my year-end crypto loss checklist 🪙\nSold any coins this year?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #cryptotaxcanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 비교.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your bitcoin loss: friend keeps $500, you keep $0. Want yours?",
+        "part": "rise",
+        "data": {
+          "pill": "THE YEAR-END CRYPTO TAX-LOSS CHECKLIST",
+          "num": "$500",
+          "line": "Your bitcoin loss: friend keeps $500, you keep $0. Want yours?",
+          "promise": "Give me 30 seconds. Keep your money this year.",
+          "subj": "YOUR BITCOIN LOSS",
+          "stamp": "KEEP IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep your money this year.",
+        "nocap": true
+      },
+      {
+        "say": "Your $500 checklist is next.",
+        "cap": "low"
+      },
+      {
+        "say": "Two friends sell bitcoin at a $1,000 loss.",
+        "part": "donut",
+        "data": {
+          "k": "SAME LOSS",
+          "segs": [
+            {
+              "l": "BOUGHT BACK",
+              "v": "$0",
+              "w": 0.0
+            },
+            {
+              "l": "WAITED",
+              "v": "$500",
+              "w": 1.0
+            }
+          ],
+          "hi": 1,
+          "at": "$500"
+        },
+        "badge": "SAME LOSS",
+        "in": "iris"
+      },
+      {
+        "say": "One waits, and $500 counts this year."
+      },
+      {
+        "say": "One buys back inside 30 days, and $0 counts.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "BOUGHT BACK",
+            "big": "$0",
+            "ft": "inside 30 days"
+          },
+          "b": {
+            "k": "WAITED",
+            "big": "$500",
+            "ft": "same $1,000 loss",
+            "at": 0
+          },
+          "gap": "$500",
+          "gap_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Selling feels like enough.",
+        "part": "strike",
+        "data": {
+          "old": "SOLD, DONE",
+          "new": "30 DAYS",
+          "at": "The",
+          "k": "THE RULE",
+          "sub": "before and after, by the CRA.",
+          "sub_at": 1
+        }
+      },
+      {
+        "say": "The CRA, Canada's tax office, checks 30 days both ways."
+      },
+      {
+        "say": "Buy it back inside that window and your loss *waits.*",
+        "part": "badge",
+        "data": {
+          "old": "SOLD, DONE",
+          "new": "30 DAYS",
+          "at": 0,
+          "sub": "before and after, by the CRA.",
+          "sub_at": 0,
+          "k": "THE YEAR-END CRYPTO TAX-LOSS CHECKLIST"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Your spouse buying counts too.",
+        "part": "tabs",
+        "data": {
+          "old": "YOUR BUYS",
+          "new": "SPOUSE TOO",
+          "at": "SPOUSE",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Clear 30 days and $500 is yours.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$500",
+          "tail": "yours this year",
+          "at": "$500"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Look back 30 days.",
+        "part": "fan",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Buys, last 30 days",
+            "Your spouse's buys",
+            "Save this post"
+          ],
+          "k": "THE YEAR-END CRYPTO TAX-LOSS CHECKLIST",
+          "from": 0,
+          "to": 1
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Any buy of that coin blocks it."
+      },
+      {
+        "say": "Comment *CLOCK,* and I will send you the loss checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "CLOCK",
+          "at": "CLOCK",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the year-end crypto loss checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your bitcoin loss: friend keeps $500, you keep $0. Want yours?",
+          "Give me 30 seconds. Keep your money this year."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Your $500 checklist is next."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME LOSS",
+        "data": {
+          "a": {
+            "h": "BOUGHT BACK",
+            "v": "$0",
+            "sub": "inside 30 days",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "WAITED",
+            "v": "$500",
+            "sub": "same $1,000 loss",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two friends sell bitcoin at a $1,000 loss.",
+          "One waits, and $500 counts this year."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BOUGHT BACK",
+            "v": "$0",
+            "sub": "inside 30 days",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "WAITED",
+            "v": "$500",
+            "sub": "same $1,000 loss",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "One buys back inside 30 days, and $0 counts."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THE RULE",
+        "data": {
+          "old": "SOLD, DONE",
+          "new": "30 DAYS",
+          "sub": "before and after, by the CRA."
+        },
+        "lines": [
+          "Selling feels like enough.",
+          "The CRA, Canada's tax office, checks 30 days both ways."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "SOLD, DONE",
+          "new": "30 DAYS",
+          "sub": "before and after, by the CRA."
+        },
+        "lines": [
+          "Buy it back inside that window and your loss *waits.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "YOUR BUYS",
+          "new": "SPOUSE TOO"
+        },
+        "lines": [
+          "Your spouse buying counts too."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$500",
+          "new": "yours this year"
+        },
+        "lines": [
+          "Clear 30 days and $500 is yours."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Buys, last 30 days",
+            "Your spouse's buys"
+          ]
+        },
+        "lines": [
+          "Look back 30 days.",
+          "Any buy of that coin blocks it."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "CLOCK",
+          "gift": "the year-end crypto loss checklist"
+        },
+        "lines": [
+          "Comment *CLOCK,* and I will send you the loss checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, a one-line lock-in names the checklist they get, the compare shows $500 versus $0 on the same $1,000 loss, the first rehook pulls into the myth that explains the CRA 30-day window in plain words, the second rehook adds the spouse trap from the rule, the closing restates the $500, and the given check plus cta ending closes.",
+      "shape": "ledger",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "rise",
+      "parts": [
+        "rise",
+        "donut",
+        "compare",
+        "callout",
+        "strike",
+        "badge",
+        "tabs",
+        "tail",
+        "fan",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "zoom",
+        "iris",
+        "fade",
+        "pan",
+        "iris",
+        "wipe",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "CLOCK"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 비교.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your bitcoin loss: friend keeps $500, you keep $0. Want yours?",
+        "part": "glass",
+        "data": {
+          "pill": "THE YEAR-END CRYPTO TAX-LOSS CHECKLIST",
+          "num": "$500",
+          "line": "Your bitcoin loss: friend keeps $500, you keep $0. Want yours?",
+          "promise": "Give me 30 seconds. Keep your money this year.",
+          "subj": "YOUR BITCOIN LOSS",
+          "stamp": "KEEP IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep your money this year.",
+        "nocap": true
+      },
+      {
+        "say": "Your $500 checklist is next.",
+        "cap": "low"
+      },
+      {
+        "say": "Two friends sell bitcoin at a $1,000 loss.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "BOUGHT BACK",
+            "v": "$0",
+            "sub": "inside 30 days"
+          },
+          "b": {
+            "h": "WAITED",
+            "v": "$500",
+            "sub": "same $1,000 loss"
+          },
+          "at": "$500"
+        },
+        "badge": "SAME LOSS",
+        "in": "pan"
+      },
+      {
+        "say": "One waits, and $500 counts this year."
+      },
+      {
+        "say": "One buys back inside 30 days, and $0 counts.",
+        "part": "split",
+        "data": {
+          "k": "BOUGHT BACK vs WAITED",
+          "total": "$500",
+          "a": {
+            "v": "$0",
+            "l": "BOUGHT BACK",
+            "w": 0.12,
+            "at": "$0"
+          },
+          "b": {
+            "v": "$500",
+            "l": "WAITED",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "in": "iris"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Selling feels like enough.",
+        "part": "badge",
+        "data": {
+          "old": "SOLD, DONE",
+          "new": "30 DAYS",
+          "at": "30",
+          "sub": "before and after, by the CRA.",
+          "sub_at": 1,
+          "k": "THE RULE"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "The CRA, Canada's tax office, checks 30 days both ways."
+      },
+      {
+        "say": "Buy it back inside that window and your loss *waits.*",
+        "part": "swap",
+        "data": {
+          "old": "SOLD, DONE",
+          "new": "30 DAYS",
+          "at": "waits",
+          "sub": "before and after, by the CRA.",
+          "sub_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Your spouse buying counts too.",
+        "part": "tag",
+        "data": {
+          "old": "YOUR BUYS",
+          "new": "SPOUSE TOO",
+          "at": "SPOUSE"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Clear 30 days and $500 is yours.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "500",
+          "pre": "$",
+          "suf": "",
+          "label": "yours this year",
+          "at": "$500"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Look back 30 days.",
+        "part": "fan",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Buys, last 30 days",
+            "Your spouse's buys",
+            "Save this post"
+          ],
+          "k": "THE YEAR-END CRYPTO TAX-LOSS CHECKLIST",
+          "from": 0,
+          "to": 1
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Any buy of that coin blocks it."
+      },
+      {
+        "say": "Comment *CLOCK,* and I will send you the loss checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "CLOCK",
+          "at": "CLOCK",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the year-end crypto loss checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your bitcoin loss: friend keeps $500, you keep $0. Want yours?",
+          "Give me 30 seconds. Keep your money this year."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Your $500 checklist is next."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME LOSS",
+        "data": {
+          "a": {
+            "h": "BOUGHT BACK",
+            "v": "$0",
+            "sub": "inside 30 days",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "WAITED",
+            "v": "$500",
+            "sub": "same $1,000 loss",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two friends sell bitcoin at a $1,000 loss.",
+          "One waits, and $500 counts this year."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BOUGHT BACK",
+            "v": "$0",
+            "sub": "inside 30 days",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "WAITED",
+            "v": "$500",
+            "sub": "same $1,000 loss",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "One buys back inside 30 days, and $0 counts."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THE RULE",
+        "data": {
+          "old": "SOLD, DONE",
+          "new": "30 DAYS",
+          "sub": "before and after, by the CRA."
+        },
+        "lines": [
+          "Selling feels like enough.",
+          "The CRA, Canada's tax office, checks 30 days both ways."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "SOLD, DONE",
+          "new": "30 DAYS",
+          "sub": "before and after, by the CRA."
+        },
+        "lines": [
+          "Buy it back inside that window and your loss *waits.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "YOUR BUYS",
+          "new": "SPOUSE TOO"
+        },
+        "lines": [
+          "Your spouse buying counts too."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$500",
+          "new": "yours this year"
+        },
+        "lines": [
+          "Clear 30 days and $500 is yours."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Buys, last 30 days",
+            "Your spouse's buys"
+          ]
+        },
+        "lines": [
+          "Look back 30 days.",
+          "Any buy of that coin blocks it."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "CLOCK",
+          "gift": "the year-end crypto loss checklist"
+        },
+        "lines": [
+          "Comment *CLOCK,* and I will send you the loss checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, a one-line lock-in names the checklist they get, the compare shows $500 versus $0 on the same $1,000 loss, the first rehook pulls into the myth that explains the CRA 30-day window in plain words, the second rehook adds the spouse trap from the rule, the closing restates the $500, and the given check plus cta ending closes.",
+      "shape": "ledger",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "glass",
+      "parts": [
+        "glass",
+        "wipe",
+        "split",
+        "callout",
+        "badge",
+        "swap",
+        "tag",
+        "odometer",
+        "fan",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "iris",
+        "pan",
+        "iris",
+        "wipe",
+        "pan",
+        "iris",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "CLOCK"
+    }
+  },
+  "plain": {
+    "what": "Say you sell some bitcoin for less than you paid. Bitcoin is digital money you buy, hold, and sell, and selling it for less than you paid is a loss. If you, or your spouse, buy that same coin back in the 30 days before or after the sale and still hold it 30 days later, the CRA calls it a superficial loss and you can't claim it this year.",
+    "so_what": "For 2025 only half of a loss counts, so a clean $1,000 loss lets $500 go against your taxable gains, while a superficial loss gives you none of that this year.",
+    "do": "Write down the dates of every coin buy you made in the last 30 days.",
+    "words": [
+      {
+        "term": "bitcoin",
+        "means": "digital money you can buy, hold, and sell"
+      },
+      {
+        "term": "CRA",
+        "means": "the Canada Revenue Agency, Canada's tax office"
+      },
+      {
+        "term": "superficial loss",
+        "means": "a loss the tax office won't let you claim this year"
+      },
+      {
+        "term": "capital loss",
+        "means": "selling something for less than you paid"
+      },
+      {
+        "term": "capital gain",
+        "means": "selling something for more than you paid"
+      },
+      {
+        "term": "adjusted cost base",
+        "means": "what you paid for a coin, used for tax math"
+      },
+      {
+        "term": "inclusion rate",
+        "means": "the share of a gain or loss that counts"
+      },
+      {
+        "term": "non-registered account",
+        "means": "a regular account with no tax shelter"
+      }
+    ]
+  },
+  "subject": "Your bitcoin loss",
+  "deliver": {
+    "word": "CLOCK",
+    "gift": "the year-end crypto loss checklist"
+  },
+  "check": [
+    "Buys, last 30 days",
+    "Your spouse's buys"
+  ],
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 비교.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your bitcoin loss: friend keeps $500, you keep $0. Want yours?",
+        "part": "cover",
+        "data": {
+          "pill": "THE YEAR-END CRYPTO TAX-LOSS CHECKLIST",
+          "num": "$500",
+          "line": "Your bitcoin loss: friend keeps $500, you keep $0. Want yours?",
+          "promise": "Give me 30 seconds. Keep your money this year.",
+          "subj": "YOUR BITCOIN LOSS",
+          "stamp": "KEEP IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep your money this year.",
+        "nocap": true
+      },
+      {
+        "say": "Your $500 checklist is next.",
+        "cap": "low"
+      },
+      {
+        "say": "Two friends sell bitcoin at a $1,000 loss.",
+        "part": "split",
+        "data": {
+          "k": "BOUGHT BACK vs WAITED",
+          "total": "$500",
+          "a": {
+            "v": "$0",
+            "l": "BOUGHT BACK",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "$500",
+            "l": "WAITED",
+            "at": "$500",
+            "label_at": "$500"
+          }
+        },
+        "badge": "SAME LOSS",
+        "in": "iris"
+      },
+      {
+        "say": "One waits, and $500 counts this year."
+      },
+      {
+        "say": "One buys back inside 30 days, and $0 counts.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "BOUGHT BACK",
+            "v": "$0",
+            "sub": "inside 30 days"
+          },
+          "b": {
+            "h": "WAITED",
+            "v": "$500",
+            "sub": "same $1,000 loss"
+          },
+          "at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Selling feels like enough.",
+        "part": "badge",
+        "data": {
+          "old": "SOLD, DONE",
+          "new": "30 DAYS",
+          "at": "30",
+          "sub": "before and after, by the CRA.",
+          "sub_at": 1,
+          "k": "THE RULE"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "The CRA, Canada's tax office, checks 30 days both ways."
+      },
+      {
+        "say": "Buy it back inside that window and your loss *waits.*",
+        "part": "swap",
+        "data": {
+          "old": "SOLD, DONE",
+          "new": "30 DAYS",
+          "at": "waits",
+          "sub": "before and after, by the CRA.",
+          "sub_at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Your spouse buying counts too.",
+        "part": "tabs",
+        "data": {
+          "old": "YOUR BUYS",
+          "new": "SPOUSE TOO",
+          "at": "SPOUSE",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Clear 30 days and $500 is yours.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "500",
+          "pre": "$",
+          "suf": "",
+          "label": "yours this year",
+          "at": "$500"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Look back 30 days.",
+        "part": "fan",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Buys, last 30 days",
+            "Your spouse's buys",
+            "Save this post"
+          ],
+          "k": "THE YEAR-END CRYPTO TAX-LOSS CHECKLIST",
+          "from": 0,
+          "to": 1
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Any buy of that coin blocks it."
+      },
+      {
+        "say": "Comment *CLOCK,* and I will send you the loss checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "CLOCK",
+          "at": "CLOCK",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the year-end crypto loss checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your bitcoin loss: friend keeps $500, you keep $0. Want yours?",
+          "Give me 30 seconds. Keep your money this year."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Your $500 checklist is next."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME LOSS",
+        "data": {
+          "a": {
+            "h": "BOUGHT BACK",
+            "v": "$0",
+            "sub": "inside 30 days",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "WAITED",
+            "v": "$500",
+            "sub": "same $1,000 loss",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two friends sell bitcoin at a $1,000 loss.",
+          "One waits, and $500 counts this year."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BOUGHT BACK",
+            "v": "$0",
+            "sub": "inside 30 days",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "WAITED",
+            "v": "$500",
+            "sub": "same $1,000 loss",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "One buys back inside 30 days, and $0 counts."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THE RULE",
+        "data": {
+          "old": "SOLD, DONE",
+          "new": "30 DAYS",
+          "sub": "before and after, by the CRA."
+        },
+        "lines": [
+          "Selling feels like enough.",
+          "The CRA, Canada's tax office, checks 30 days both ways."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "SOLD, DONE",
+          "new": "30 DAYS",
+          "sub": "before and after, by the CRA."
+        },
+        "lines": [
+          "Buy it back inside that window and your loss *waits.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "YOUR BUYS",
+          "new": "SPOUSE TOO"
+        },
+        "lines": [
+          "Your spouse buying counts too."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$500",
+          "new": "yours this year"
+        },
+        "lines": [
+          "Clear 30 days and $500 is yours."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Buys, last 30 days",
+            "Your spouse's buys"
+          ]
+        },
+        "lines": [
+          "Look back 30 days.",
+          "Any buy of that coin blocks it."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "CLOCK",
+          "gift": "the year-end crypto loss checklist"
+        },
+        "lines": [
+          "Comment *CLOCK,* and I will send you the loss checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, a one-line lock-in names the checklist they get, the compare shows $500 versus $0 on the same $1,000 loss, the first rehook pulls into the myth that explains the CRA 30-day window in plain words, the second rehook adds the spouse trap from the rule, the closing restates the $500, and the given check plus cta ending closes.",
+      "shape": "ledger",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "split",
+        "wipe",
+        "callout",
+        "badge",
+        "swap",
+        "tabs",
+        "odometer",
+        "fan",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "pan",
+        "iris",
+        "zoom",
+        "pan",
+        "iris",
+        "wipe",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "CLOCK"
+    }
+  }
+}

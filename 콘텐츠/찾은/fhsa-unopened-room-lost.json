@@ -1,0 +1,1270 @@
+{
+  "key": "fhsa-unopened-room-lost",
+  "category": "tax",
+  "status": "draft",
+  "title": "Open your FHSA now. Room doesn't wait.",
+  "object": "THE FHSA OPEN-IT-NOW TIMELINE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s53720468'] · 퍼스나 The late starter",
+  "fact": {
+    "num": "8,000",
+    "unit": "$",
+    "thing": "FHSA participation room per year",
+    "box": "FHSA (First Home Savings Account)",
+    "claim": "You get $8,000 of FHSA participation room in the year you open your first FHSA. Room does not build up before the account exists: the CRA sets your carryforward to $0 in the year you open your first FHSA. After that, you can carry forward no more than $8,000 of unused room from earlier years. So each year you wait before opening one is $8,000 of deductible room you never get, though you still can't contribute more than $40,000 in total.",
+    "sources": [
+      "CRA, Contributing to your FHSA",
+      "CRA, Contributing to your FHSA (carryforward)",
+      "CRA, Contributing to your FHSA (subsequent years)"
+    ],
+    "verified": "find.py · 대조 3/3",
+    "felt": {
+      "num": "16,000",
+      "unit": "$",
+      "a": "24,000",
+      "b": "8,000",
+      "how": "open in Year 1 vs open in Year 3, room after 3 years",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA, Contributing to your FHSA",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/contributing-your-fhsa.html",
+      "what": "Your FHSA participation room in the year you open your first FHSA is $8,000.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA, Contributing to your FHSA (carryforward)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/contributing-your-fhsa.html",
+      "what": "in the year you open your first FHSA = $0",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA, Contributing to your FHSA (subsequent years)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/contributing-your-fhsa.html",
+      "what": "in the subsequent years after you open your FHSA, the lesser of:",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "Your FHSA lost $",
+        "num": "16,000",
+        "post": " of room. Want it back?"
+      },
+      "promise": "Give me 30 seconds. Keep every dollar of room."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME YEAR · TWO CHOICES",
+      "title": "Room only starts when the box *exists.*",
+      "boxes": [
+        {
+          "h": "WAIT A YEAR",
+          "v": "$0",
+          "tone": "flat",
+          "d": "This year's room: $0.",
+          "d2": "Room doesn't build up before the box exists. The CRA sets your carryforward to $0 in the year you open.",
+          "d3": "No FHSA yet",
+          "lead": true
+        },
+        {
+          "h": "OPEN THIS YEAR",
+          "v": "$8k",
+          "win": true,
+          "d": "This year's room: $8,000.",
+          "d2": "Next year you get $8,000 more, plus up to $8,000 you didn't use.",
+          "d3": "First FHSA opened this year"
+        }
+      ],
+      "source_label": "CRA",
+      "say": "Hama opened one with $0 in it.|The room started anyway."
+    },
+    {
+      "type": "table",
+      "kicker": "THE FHSA OPEN-IT-NOW TIMELINE",
+      "title": "Three years of room, by the year you *open.*",
+      "h1": "YOU OPEN IT IN",
+      "h2": "ROOM YOU GET IN 3 YEARS",
+      "rows": [
+        {
+          "a": "Year 1",
+          "asub": "$8,000 x 3 years",
+          "b": "$24,000",
+          "gone": "$0 gone"
+        },
+        {
+          "a": "Year 2",
+          "asub": "$8,000 x 2 years",
+          "b": "$16,000",
+          "gone": "−$8,000 gone"
+        },
+        {
+          "a": "Year 3",
+          "asub": "$8,000 x 1 year",
+          "b": "$8,000",
+          "gone": "−$16,000 gone"
+        }
+      ],
+      "note": "You can't carry forward more than $8,000, and you can't put in more than $40,000 in total. <b>Save this. Check the year you opened yours.</b>",
+      "say": "Save this one.|Find the year you opened yours."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your FHSA lost $16,000 of room. Want it back?",
+      "Your FHSA is missing $16,000 of room. Want it?",
+      "Your FHSA stayed closed and that cost $16,000. Still waiting?",
+      "Your FHSA room never saved up: $16,000 never came. Want it back?",
+      "Your FHSA: Hama opened one empty, kept $16,000. Want that?",
+      "Your FHSA: late openers lost $16,000 of room. Want it back?",
+      "Your FHSA timeline: waiting costs $16,000 of room. Want it back?",
+      "Your FHSA in Year 1 vs Year 3: $16,000 apart. Want it?",
+      "Your FHSA lost $16,000 while it stayed closed. Still waiting?",
+      "Your FHSA: never leave it closed, that's $16,000 gone. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your FHSA lost $16,000 of room. Want it back?",
+    "spoken": "Your FHSA lost $16,000 of room. Want it back?",
+    "promise": "Give me 30 seconds. Keep every dollar of room.",
+    "pick_why": "Nine plain words with the box, the red $16,000 and 'want it back' is the fastest stop and the easiest save for a beginner.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "DON'T WAIT"
+  },
+  "lede": "FHSA room only starts the year your first FHSA exists, so every year you wait skips $8,000 of room.",
+  "series": "FIRST HOME BOX",
+  "source_note": "CRA · CONTRIBUTING TO YOUR FHSA",
+  "caption": "🐶⛏️ If you put off your FHSA, $16,000 of room could just vanish.\n\nRoom doesn't pile up while you wait, because nothing starts until the box exists. So every year you hold off is $8,000 of room that could cut your tax, and you never get that year back.\n\nComment OPEN and I'll send you my FHSA open-it-now timeline 🪙\nOpened yours yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#fhsacanada #firsthomecanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your FHSA lost $16,000 of room. Want it back?",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE FHSA OPEN-IT-NOW TIMELINE",
+          "num": "$16,000",
+          "line": "Your FHSA lost $16,000 of room. Want it back?",
+          "promise": "Give me 30 seconds. Keep every dollar of room.",
+          "subj": "YOUR FHSA",
+          "stamp": "DON'T WAIT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep every dollar of room.",
+        "nocap": true
+      },
+      {
+        "say": "The open-it-now timeline is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people open an FHSA, a first-home savings box.",
+        "part": "split",
+        "data": {
+          "k": "OPENED YEAR 3 vs OPENED YEAR 1",
+          "total": "$24,000",
+          "a": {
+            "v": "$8,000",
+            "l": "OPENED YEAR 3",
+            "w": 0.25,
+            "at": 0
+          },
+          "b": {
+            "v": "$24,000",
+            "l": "OPENED YEAR 1",
+            "at": 1,
+            "label_at": 1
+          }
+        },
+        "badge": "3 YEARS",
+        "in": "pan"
+      },
+      {
+        "say": "One opens in Year 1, one in Year 3."
+      },
+      {
+        "say": "After 3 years, one holds $24,000 of room, one $8,000.",
+        "part": "table",
+        "data": {
+          "k": "THE FHSA OPEN-IT-NOW TIMELINE",
+          "cols": [
+            "ROOM YOU GET IN 3 YEARS"
+          ],
+          "rows": [
+            {
+              "lab": "Year 1",
+              "cells": [
+                "$24,000"
+              ]
+            },
+            {
+              "lab": "Year 2",
+              "cells": [
+                "$16,000"
+              ]
+            },
+            {
+              "lab": "Year 3",
+              "cells": [
+                "$8,000"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": "$24,000"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Nobody says why that $16,000 gap exists.",
+        "part": "callout",
+        "data": {
+          "word": "exists",
+          "line": "Nobody says why that $16,000 gap exists.",
+          "at": "exists"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "People think room piles up while they wait.",
+        "part": "swap",
+        "data": {
+          "old": "ROOM PILES UP",
+          "new": "STARTS AT $0",
+          "at": "exists",
+          "sub": "until the box exists.",
+          "sub_at": 1
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Nothing starts until the box *exists*."
+      },
+      {
+        "say": "Hama opened one with $0, and room started anyway.",
+        "part": "badge",
+        "data": {
+          "old": "ROOM PILES UP",
+          "new": "STARTS AT $0",
+          "at": 0,
+          "sub": "until the box exists.",
+          "sub_at": 0,
+          "k": "THE FHSA OPEN-IT-NOW TIMELINE"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "The catch: unused room rolls over only up to $8,000.",
+        "part": "tabs",
+        "data": {
+          "old": "ROLLS OVER",
+          "new": "$8,000 MAX",
+          "at": "$8,000",
+          "k": ""
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Open now, and $16,000 of room stays *yours*.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "16,000",
+          "pre": "$",
+          "suf": "",
+          "label": "stays yours",
+          "at": "$16,000"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Wait a year, and $8,000 of room is *gone*.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$8,000",
+              "v": "−$8,000",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "gone for good",
+              "v": "gone for good",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *OPEN,* and I will send you the FHSA open-it-now timeline.",
+        "part": "tiles",
+        "data": {
+          "word": "OPEN",
+          "at": "OPEN",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the FHSA open-it-now timeline ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your FHSA lost $16,000 of room. Want it back?",
+          "Give me 30 seconds. Keep every dollar of room."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The open-it-now timeline is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "3 YEARS",
+        "data": {
+          "a": {
+            "h": "OPENED YEAR 3",
+            "v": "$8,000",
+            "sub": "room after 3 years",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OPENED YEAR 1",
+            "v": "$24,000",
+            "sub": "room after 3 years",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people open an FHSA, a first-home savings box.",
+          "One opens in Year 1, one in Year 3."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "OPENED YEAR 3",
+            "v": "$8,000",
+            "sub": "room after 3 years",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OPENED YEAR 1",
+            "v": "$24,000",
+            "sub": "room after 3 years",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "After 3 years, one holds $24,000 of room, one $8,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Nobody says why that $16,000 gap exists."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THE MYTH",
+        "data": {
+          "old": "ROOM PILES UP",
+          "new": "STARTS AT $0",
+          "sub": "until the box exists."
+        },
+        "lines": [
+          "People think room piles up while they wait.",
+          "Nothing starts until the box *exists*."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "ROOM PILES UP",
+          "new": "STARTS AT $0",
+          "sub": "until the box exists."
+        },
+        "lines": [
+          "Hama opened one with $0, and room started anyway."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ROLLS OVER",
+          "new": "$8,000 MAX"
+        },
+        "lines": [
+          "The catch: unused room rolls over only up to $8,000."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$16,000",
+          "new": "stays yours"
+        },
+        "lines": [
+          "Open now, and $16,000 of room stays *yours*."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$8,000",
+          "new": "gone for good"
+        },
+        "lines": [
+          "Wait a year, and $8,000 of room is *gone*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "OPEN",
+          "gift": "the FHSA open-it-now timeline"
+        },
+        "lines": [
+          "Comment *OPEN,* and I will send you the FHSA open-it-now timeline."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, the lock-in names the timeline as what they get, the compare shows Year 1 against Year 3 room with the $16,000 gap, a rehook asks why, the myth scene explains room starts at $0 the year the box exists, the trap rehook gives the $8,000 rollover rule, the closing repeats $16,000, then the given loss dark cut and cta close it.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "split",
+        "table",
+        "callout",
+        "swap",
+        "badge",
+        "tabs",
+        "odometer",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "OPEN"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your FHSA lost $16,000 of room. Want it back?",
+        "part": "tease",
+        "data": {
+          "pill": "THE FHSA OPEN-IT-NOW TIMELINE",
+          "num": "$16,000",
+          "line": "Your FHSA lost $16,000 of room. Want it back?",
+          "promise": "Give me 30 seconds. Keep every dollar of room.",
+          "subj": "YOUR FHSA",
+          "stamp": "DON'T WAIT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep every dollar of room.",
+        "nocap": true
+      },
+      {
+        "say": "The open-it-now timeline is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people open an FHSA, a first-home savings box.",
+        "part": "split",
+        "data": {
+          "k": "OPENED YEAR 3 vs OPENED YEAR 1",
+          "total": "$24,000",
+          "a": {
+            "v": "$8,000",
+            "l": "OPENED YEAR 3",
+            "w": 0.25,
+            "at": 0
+          },
+          "b": {
+            "v": "$24,000",
+            "l": "OPENED YEAR 1",
+            "at": 1,
+            "label_at": 1
+          }
+        },
+        "badge": "3 YEARS",
+        "in": "zoom"
+      },
+      {
+        "say": "One opens in Year 1, one in Year 3."
+      },
+      {
+        "say": "After 3 years, one holds $24,000 of room, one $8,000.",
+        "part": "table",
+        "data": {
+          "k": "THE FHSA OPEN-IT-NOW TIMELINE",
+          "cols": [
+            "ROOM YOU GET IN 3 YEARS"
+          ],
+          "rows": [
+            {
+              "lab": "Year 1",
+              "cells": [
+                "$24,000"
+              ]
+            },
+            {
+              "lab": "Year 2",
+              "cells": [
+                "$16,000"
+              ]
+            },
+            {
+              "lab": "Year 3",
+              "cells": [
+                "$8,000"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": "$24,000"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Nobody says why that $16,000 gap exists.",
+        "part": "callout",
+        "data": {
+          "word": "exists",
+          "line": "Nobody says why that $16,000 gap exists.",
+          "at": "exists"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "People think room piles up while they wait.",
+        "part": "badge",
+        "data": {
+          "old": "ROOM PILES UP",
+          "new": "STARTS AT $0",
+          "at": "STARTS",
+          "sub": "until the box exists.",
+          "sub_at": 1,
+          "k": "THE MYTH"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Nothing starts until the box *exists*."
+      },
+      {
+        "say": "Hama opened one with $0, and room started anyway.",
+        "part": "strike",
+        "data": {
+          "old": "ROOM PILES UP",
+          "new": "STARTS AT $0",
+          "at": "Hama",
+          "k": "",
+          "sub": "until the box exists.",
+          "sub_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "The catch: unused room rolls over only up to $8,000.",
+        "part": "tabs",
+        "data": {
+          "old": "ROLLS OVER",
+          "new": "$8,000 MAX",
+          "at": "$8,000",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Open now, and $16,000 of room stays *yours*.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$16,000",
+          "tail": "stays yours",
+          "at": "$16,000"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Wait a year, and $8,000 of room is *gone*.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$8,000",
+              "v": "−$8,000",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "gone for good",
+              "v": "gone for good",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *OPEN,* and I will send you the FHSA open-it-now timeline.",
+        "part": "tiles",
+        "data": {
+          "word": "OPEN",
+          "at": "OPEN",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the FHSA open-it-now timeline ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your FHSA lost $16,000 of room. Want it back?",
+          "Give me 30 seconds. Keep every dollar of room."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The open-it-now timeline is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "3 YEARS",
+        "data": {
+          "a": {
+            "h": "OPENED YEAR 3",
+            "v": "$8,000",
+            "sub": "room after 3 years",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OPENED YEAR 1",
+            "v": "$24,000",
+            "sub": "room after 3 years",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people open an FHSA, a first-home savings box.",
+          "One opens in Year 1, one in Year 3."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "OPENED YEAR 3",
+            "v": "$8,000",
+            "sub": "room after 3 years",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OPENED YEAR 1",
+            "v": "$24,000",
+            "sub": "room after 3 years",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "After 3 years, one holds $24,000 of room, one $8,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Nobody says why that $16,000 gap exists."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THE MYTH",
+        "data": {
+          "old": "ROOM PILES UP",
+          "new": "STARTS AT $0",
+          "sub": "until the box exists."
+        },
+        "lines": [
+          "People think room piles up while they wait.",
+          "Nothing starts until the box *exists*."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "ROOM PILES UP",
+          "new": "STARTS AT $0",
+          "sub": "until the box exists."
+        },
+        "lines": [
+          "Hama opened one with $0, and room started anyway."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ROLLS OVER",
+          "new": "$8,000 MAX"
+        },
+        "lines": [
+          "The catch: unused room rolls over only up to $8,000."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$16,000",
+          "new": "stays yours"
+        },
+        "lines": [
+          "Open now, and $16,000 of room stays *yours*."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$8,000",
+          "new": "gone for good"
+        },
+        "lines": [
+          "Wait a year, and $8,000 of room is *gone*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "OPEN",
+          "gift": "the FHSA open-it-now timeline"
+        },
+        "lines": [
+          "Comment *OPEN,* and I will send you the FHSA open-it-now timeline."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, the lock-in names the timeline as what they get, the compare shows Year 1 against Year 3 room with the $16,000 gap, a rehook asks why, the myth scene explains room starts at $0 the year the box exists, the trap rehook gives the $8,000 rollover rule, the closing repeats $16,000, then the given loss dark cut and cta close it.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "split",
+        "table",
+        "callout",
+        "badge",
+        "strike",
+        "tabs",
+        "tail",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "dissolve",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "OPEN"
+    }
+  },
+  "plain": {
+    "what": "An FHSA is a First Home Savings Account. It is a Canadian account that helps you save for your first home and cuts your tax when you put money in. Your room to put money in only starts the year you open your first one, so nothing is building up for you before that.",
+    "so_what": "Each year you wait, you skip $8,000 of room that lowers your tax, and you can never get that year back.",
+    "do": "Write down the year you opened your first FHSA, or write \"none\" if you have not opened one.",
+    "words": [
+      {
+        "term": "FHSA",
+        "means": "Canadian account for saving for your first home"
+      },
+      {
+        "term": "room",
+        "means": "how much money you are allowed to put in"
+      },
+      {
+        "term": "carryforward",
+        "means": "unused room from past years you can still use"
+      },
+      {
+        "term": "deductible",
+        "means": "it lowers the income you pay tax on"
+      },
+      {
+        "term": "CRA",
+        "means": "Canada's tax office"
+      },
+      {
+        "term": "contribute",
+        "means": "put money into the account"
+      }
+    ]
+  },
+  "subject": "Your FHSA",
+  "deliver": {
+    "word": "OPEN",
+    "gift": "the FHSA open-it-now timeline"
+  },
+  "check": [],
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your FHSA lost $16,000 of room. Want it back?",
+        "part": "rise",
+        "data": {
+          "pill": "THE FHSA OPEN-IT-NOW TIMELINE",
+          "num": "$16,000",
+          "line": "Your FHSA lost $16,000 of room. Want it back?",
+          "promise": "Give me 30 seconds. Keep every dollar of room.",
+          "subj": "YOUR FHSA",
+          "stamp": "DON'T WAIT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep every dollar of room.",
+        "nocap": true
+      },
+      {
+        "say": "The open-it-now timeline is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people open an FHSA, a first-home savings box.",
+        "part": "donut",
+        "data": {
+          "k": "3 YEARS",
+          "segs": [
+            {
+              "l": "OPENED YEAR 3",
+              "v": "$8,000",
+              "w": 0.25
+            },
+            {
+              "l": "OPENED YEAR 1",
+              "v": "$24,000",
+              "w": 0.75
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "3 YEARS",
+        "in": "iris"
+      },
+      {
+        "say": "One opens in Year 1, one in Year 3."
+      },
+      {
+        "say": "After 3 years, one holds $24,000 of room, one $8,000.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "OPENED YEAR 3",
+            "big": "$8,000",
+            "ft": "room after 3 years"
+          },
+          "b": {
+            "k": "OPENED YEAR 1",
+            "big": "$24,000",
+            "ft": "room after 3 years",
+            "at": "$24,000"
+          },
+          "gap": "$16,000",
+          "gap_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Nobody says why that $16,000 gap exists.",
+        "part": "callout",
+        "data": {
+          "word": "exists",
+          "line": "Nobody says why that $16,000 gap exists.",
+          "at": "exists"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "People think room piles up while they wait.",
+        "part": "badge",
+        "data": {
+          "old": "ROOM PILES UP",
+          "new": "STARTS AT $0",
+          "at": "STARTS",
+          "sub": "until the box exists.",
+          "sub_at": 1,
+          "k": "THE MYTH"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Nothing starts until the box *exists*."
+      },
+      {
+        "say": "Hama opened one with $0, and room started anyway.",
+        "part": "swap",
+        "data": {
+          "old": "ROOM PILES UP",
+          "new": "STARTS AT $0",
+          "at": "Hama",
+          "sub": "until the box exists.",
+          "sub_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "The catch: unused room rolls over only up to $8,000.",
+        "part": "tabs",
+        "data": {
+          "old": "ROLLS OVER",
+          "new": "$8,000 MAX",
+          "at": "$8,000",
+          "k": ""
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Open now, and $16,000 of room stays *yours*.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "16,000",
+          "pre": "$",
+          "suf": "",
+          "label": "stays yours",
+          "at": "$16,000"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Wait a year, and $8,000 of room is *gone*.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$8,000",
+              "v": "−$8,000",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "gone for good",
+              "v": "gone for good",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "Comment *OPEN,* and I will send you the FHSA open-it-now timeline.",
+        "part": "tiles",
+        "data": {
+          "word": "OPEN",
+          "at": "OPEN",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the FHSA open-it-now timeline ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your FHSA lost $16,000 of room. Want it back?",
+          "Give me 30 seconds. Keep every dollar of room."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The open-it-now timeline is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "3 YEARS",
+        "data": {
+          "a": {
+            "h": "OPENED YEAR 3",
+            "v": "$8,000",
+            "sub": "room after 3 years",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OPENED YEAR 1",
+            "v": "$24,000",
+            "sub": "room after 3 years",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people open an FHSA, a first-home savings box.",
+          "One opens in Year 1, one in Year 3."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "OPENED YEAR 3",
+            "v": "$8,000",
+            "sub": "room after 3 years",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OPENED YEAR 1",
+            "v": "$24,000",
+            "sub": "room after 3 years",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "After 3 years, one holds $24,000 of room, one $8,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Nobody says why that $16,000 gap exists."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THE MYTH",
+        "data": {
+          "old": "ROOM PILES UP",
+          "new": "STARTS AT $0",
+          "sub": "until the box exists."
+        },
+        "lines": [
+          "People think room piles up while they wait.",
+          "Nothing starts until the box *exists*."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "ROOM PILES UP",
+          "new": "STARTS AT $0",
+          "sub": "until the box exists."
+        },
+        "lines": [
+          "Hama opened one with $0, and room started anyway."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ROLLS OVER",
+          "new": "$8,000 MAX"
+        },
+        "lines": [
+          "The catch: unused room rolls over only up to $8,000."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$16,000",
+          "new": "stays yours"
+        },
+        "lines": [
+          "Open now, and $16,000 of room stays *yours*."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$8,000",
+          "new": "gone for good"
+        },
+        "lines": [
+          "Wait a year, and $8,000 of room is *gone*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "OPEN",
+          "gift": "the FHSA open-it-now timeline"
+        },
+        "lines": [
+          "Comment *OPEN,* and I will send you the FHSA open-it-now timeline."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, the lock-in names the timeline as what they get, the compare shows Year 1 against Year 3 room with the $16,000 gap, a rehook asks why, the myth scene explains room starts at $0 the year the box exists, the trap rehook gives the $8,000 rollover rule, the closing repeats $16,000, then the given loss dark cut and cta close it.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "rise",
+      "parts": [
+        "rise",
+        "donut",
+        "compare",
+        "callout",
+        "badge",
+        "swap",
+        "tabs",
+        "odometer",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "wipe",
+        "iris",
+        "pan",
+        "iris",
+        "zoom",
+        "iris",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "OPEN"
+    }
+  },
+  "caption_b": "🐶⛏️ Never opened an FHSA? You can still grab $8,000 of room this year.\n\nRoom doesn't pile up while you wait, because the CRA only starts counting the year you open your first box. Every year before that is $8,000 of room that cuts your tax, and you never get it back.\n\nComment OPEN and I'll send you my FHSA open-it-now timeline 🪙\nOpened yours yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#fhsacanada #firsthomecanada #torontofinance",
+  "caption_family": "possible"
+}

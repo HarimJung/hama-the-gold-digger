@@ -1,0 +1,1241 @@
+{
+  "key": "crypto-acb-worksheet",
+  "category": "crypto",
+  "status": "draft",
+  "title": "Your crypto cost per coin is the average, not the last price.",
+  "object": "THE CRYPTO ACB WORKSHEET",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s1ea3491b', 'sb7e63a60'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "890",
+    "unit": "$",
+    "thing": "extra tax from using the last purchase price instead of the average cost",
+    "box": "Non-registered crypto holdings, Ontario resident, 2026 taxable income $58,523 to $94,907",
+    "claim": "For identical properties, the CRA says your cost per unit (ACB) is the total cost of all your purchases divided by the number of units you own. Not your last purchase price. Worked example: buy 3 coins at $9,000, $7,000 and $5,000, for an average cost of $7,000 each. Then sell all 3 for $10,000 each. The correct gain is $9,000, but using the $5,000 last price makes it $15,000. Half of a capital gain is taxable, and at Ontario's 2026 combined rate of 29.65% for this income range, the $6,000 overstated gain costs about $890 in extra tax. These prices are made up for illustration. The result depends on your real prices, your income and the order you bought in, and if your last purchase was your most expensive one, the same mistake makes you underpay instead.",
+    "sources": [
+      "CRA T4037 CAPITAL GAINS 2025",
+      "CRA T4037 CAPITAL GAINS 2025",
+      "CRA GUIDE FOR CRYPTOCURRENCY USERS",
+      "RICHTER 2026 ONTARIO TAX TABLES"
+    ],
+    "verified": "find.py · 대조 4/4",
+    "felt": {
+      "num": "890",
+      "unit": "$",
+      "a": "2,224",
+      "b": "1,334",
+      "how": "tax using last price vs tax using average cost, on 3 coins sold for $30,000",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA T4037 CAPITAL GAINS 2025",
+      "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4037/capital-gains.html",
+      "what": "You may buy and sell several identical properties at different prices over a period of time. If you do this, you have to calculate the average cost of each property in the group at the time of each purchase to determine your ACB. Dispositions of identical properties do not affect the ACB.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA T4037 CAPITAL GAINS 2025",
+      "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4037/capital-gains.html",
+      "what": "The average cost is calculated by dividing the total cost of identical properties purchased (this is usually the cost of the property plus any expenses involved in acquiring it) by the total number of identical properties owned.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA GUIDE FOR CRYPTOCURRENCY USERS",
+      "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/cryptocurrency-guide/income-crypto-transactions.html",
+      "what": "If you have disposed of a crypto-asset on account of capital, you must include half of your capital gains (known as taxable capital gains) in your income for the year.",
+      "confidence": "1차"
+    },
+    {
+      "label": "RICHTER 2026 ONTARIO TAX TABLES",
+      "url": "https://www.richter.ca/our-insights/2026-ontario-income-tax-tables/",
+      "what": "$58,523 $2,498 9.15% $5,890 20.50% $8,379 29.65% 6.39% 20.28% 14.83%",
+      "confidence": "2차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "CRYPTO · CANADA",
+      "topic": "THE BITCOIN CLOCK",
+      "hook": {
+        "pre": "Bitcoin sale, $",
+        "num": "890",
+        "post": " extra cut, gone forever."
+      },
+      "promise": "Give me 30 seconds. Keep the cut."
+    },
+    {
+      "type": "flow",
+      "kicker": "WHERE THE $890 COMES FROM",
+      "title": "One wrong price. A *$6,000* bigger gain.",
+      "lead": "You buy 3 coins at $9,000, $7,000 and $5,000. You sell all 3 at $10,000 each. <em>The CRA says use the average, $7,000.</em>",
+      "steps": [
+        {
+          "n": "$6,000",
+          "t": "gain overstated",
+          "s": "$15,000 instead of $9,000"
+        },
+        {
+          "n": "$3,000",
+          "t": "half is taxable",
+          "s": "$6,000 × 1/2"
+        },
+        {
+          "n": "−$890",
+          "t": "extra tax at 29.65%",
+          "s": "$3,000 × 29.65%, about",
+          "cut": true
+        }
+      ],
+      "tail": "Made-up prices. If your last buy was your priciest, the same mistake makes you underpay instead.",
+      "source_label": "CRA T4037 · CRA CRYPTO GUIDE",
+      "say": "The coins didn't change.|The math did."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE CRYPTO ACB WORKSHEET",
+      "title": "Fill it in with the *average*, not the last.",
+      "rowlabel": "STEP",
+      "cols": [
+        "LAST PRICE",
+        "AVERAGE COST",
+        "HOW TO GET IT"
+      ],
+      "labw": 26,
+      "rows": [
+        {
+          "a": "Cost per coin",
+          "asub": "3 coins bought",
+          "cells": [
+            "$5,000",
+            "$7,000",
+            "all buys ÷ coins owned"
+          ]
+        },
+        {
+          "a": "Total cost",
+          "asub": "3 coins",
+          "cells": [
+            "$15,000",
+            "$21,000",
+            "cost per coin × coins"
+          ]
+        },
+        {
+          "a": "Gain",
+          "asub": "sold for $30,000",
+          "cells": [
+            "$15,000",
+            "$9,000",
+            "sale − total cost"
+          ]
+        },
+        {
+          "a": "Taxable",
+          "asub": "half the gain",
+          "cells": [
+            "$7,500",
+            "$4,500",
+            "gain × 1/2"
+          ]
+        },
+        {
+          "a": "Tax",
+          "asub": "at 29.65%",
+          "cells": [
+            "$2,224",
+            "$1,334",
+            "taxable × your rate"
+          ]
+        }
+      ],
+      "hi": [
+        4,
+        1
+      ],
+      "note": "Made-up prices. Ontario 2026, income $58,523 to $94,907. Example math, not a promise. <b>Save this. Run your own coins.</b>",
+      "source_label": "CRA T4037 · RICHTER 2026"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Bitcoin tax: $890 you hand over for nothing.",
+      "Sold bitcoin at a gain? $890 walks out.",
+      "Bitcoin buyers get the price wrong. $890 gone.",
+      "Bitcoin gains look bigger than they are. $890.",
+      "Hama checked her bitcoin receipts. $890 overpaid.",
+      "Bitcoin sale, $890 extra cut, gone forever.",
+      "The bitcoin average price rule costs $890.",
+      "Same bitcoin, same sale, $890 apart.",
+      "Every bitcoin buy you ever made moves $890.",
+      "Bitcoin: never use your last buy price. $890."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Bitcoin sale, $890 extra cut, gone forever.",
+    "spoken": "Bitcoin sale, $890 extra cut, gone forever.",
+    "promise": "Give me 30 seconds. Keep the cut.",
+    "pick_why": "Biggest readable number plus a flat statement that the money is already leaving, and the promise says they keep it.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "GET IT BACK"
+  },
+  "lede": "Buy the same coin at different prices and the CRA wants your average cost. Use your last price and you can pay about $890 more on one sale.",
+  "series": "CRYPTO TAX BASICS",
+  "source_note": "CRA T4037 · CAPITAL GAINS GUIDE",
+  "caption": "🐶⛏️ If you sold bitcoin, $890 of extra tax could be hiding in your cost math.\n\nThe CRA wants your average cost per coin, but most people use their last price. When that last buy was your cheap one, you pay tax you never owed.\n\nComment COST and I'll send you my crypto cost worksheet 🪙\nDid your app use the average?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #cryptotaxcanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Bitcoin sale, $890 extra cut, gone forever.",
+        "part": "cover",
+        "data": {
+          "pill": "THE CRYPTO ACB WORKSHEET",
+          "num": "$890",
+          "line": "Bitcoin sale, $890 extra cut, gone forever.",
+          "promise": "Give me 30 seconds. Keep the cut.",
+          "subj": "BITCOIN",
+          "stamp": "GET IT BACK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep the cut.",
+        "nocap": true
+      },
+      {
+        "say": "One *worksheet* stops that $890 leak.",
+        "cap": "low"
+      },
+      {
+        "say": "Your Bitcoin cost is the *average* price you paid.",
+        "part": "split",
+        "data": {
+          "k": "AVERAGE COST vs LAST PRICE",
+          "total": "$2,224",
+          "a": {
+            "v": "$1,334",
+            "l": "AVERAGE COST",
+            "w": 0.3749297358066329,
+            "at": 0
+          },
+          "b": {
+            "v": "$2,224",
+            "l": "LAST PRICE",
+            "at": 1,
+            "label_at": 1
+          }
+        },
+        "badge": "SAME COINS"
+      },
+      {
+        "say": "Two people sell the same 3 coins for $30,000."
+      },
+      {
+        "say": "Tax on the last price is $2,224, on the average $1,334.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "AVERAGE COST",
+            "big": "$1,334",
+            "ft": "tax on $30,000"
+          },
+          "b": {
+            "k": "LAST PRICE",
+            "big": "$2,224",
+            "ft": "same 3 coins",
+            "at": "$2,224"
+          },
+          "gap": "$890",
+          "gap_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        }
+      },
+      {
+        "say": "Most people use their last price.",
+        "part": "badge",
+        "data": {
+          "old": "LAST PRICE",
+          "new": "AVERAGE COST",
+          "at": "AVERAGE",
+          "sub": "all buys ÷ coins owned",
+          "sub_at": 1,
+          "k": "THE CRYPTO ACB WORKSHEET"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "The CRA, Canada's tax office, wants the *average* of every buy."
+      },
+      {
+        "say": "Pay $9,000, $7,000 and $5,000, and your cost is $7,000 each.",
+        "part": "tag",
+        "data": {
+          "old": "LAST PRICE",
+          "new": "AVERAGE COST",
+          "at": 0,
+          "sub": "all buys ÷ coins owned",
+          "sub_at": 0
+        }
+      },
+      {
+        "say": "If your priciest buy came last, you *underpay* tax instead.",
+        "part": "tabs",
+        "data": {
+          "old": "OVERPAY",
+          "new": "UNDERPAY",
+          "at": "UNDERPAY",
+          "k": ""
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Use the average, and that $890 stays yours.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "890",
+          "pre": "$",
+          "suf": "",
+          "label": "kept with the average",
+          "at": "$890"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "These are made-up prices.",
+        "part": "tiles",
+        "data": {
+          "word": "COST",
+          "at": "COST",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the crypto cost worksheet ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *COST,* and I will send you the crypto cost worksheet."
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bitcoin sale, $890 extra cut, gone forever.",
+          "Give me 30 seconds. Keep the cut."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "One *worksheet* stops that $890 leak."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME COINS",
+        "data": {
+          "a": {
+            "h": "AVERAGE COST",
+            "v": "$1,334",
+            "sub": "tax on $30,000",
+            "tone": "win"
+          },
+          "b": {
+            "h": "LAST PRICE",
+            "v": "$2,224",
+            "sub": "same 3 coins",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "Your Bitcoin cost is the *average* price you paid.",
+          "Two people sell the same 3 coins for $30,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "AVERAGE COST",
+            "v": "$1,334",
+            "sub": "tax on $30,000",
+            "tone": "win"
+          },
+          "b": {
+            "h": "LAST PRICE",
+            "v": "$2,224",
+            "sub": "same 3 coins",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "Tax on the last price is $2,224, on the average $1,334."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "LAST PRICE",
+          "new": "AVERAGE COST",
+          "sub": "all buys ÷ coins owned"
+        },
+        "lines": [
+          "Most people use their last price.",
+          "The CRA, Canada's tax office, wants the *average* of every buy."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "LAST PRICE",
+          "new": "AVERAGE COST",
+          "sub": "all buys ÷ coins owned"
+        },
+        "lines": [
+          "Pay $9,000, $7,000 and $5,000, and your cost is $7,000 each."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "OVERPAY",
+          "new": "UNDERPAY"
+        },
+        "lines": [
+          "If your priciest buy came last, you *underpay* tax instead."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$890",
+          "new": "kept with the average"
+        },
+        "lines": [
+          "Use the average, and that $890 stays yours."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "COST",
+          "gift": "the crypto cost worksheet"
+        },
+        "lines": [
+          "These are made-up prices.",
+          "Comment *COST,* and I will send you the crypto cost worksheet."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Follows the arc in order: the given hook and promise, a one-line lock-in on what they keep, a compare that says what the cost is before any number and then shows both tax results, a 'nobody says' rehook, a myth scene with the CRA average rule worked through on the 3 buys, a trap rehook about underpaying, the $890 again as the closing, and a COST cta. Since this compare is about tax, the smaller amount ($1,334, felt.b) is box a and is marked as the winner.",
+      "shape": "ledger",
+      "ending": "cta",
+      "caption": "karaoke",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "split",
+        "compare",
+        "callout",
+        "badge",
+        "tag",
+        "tabs",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "iris",
+        "fade",
+        "iris",
+        "fade",
+        "dissolve",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "cta"
+      ],
+      "keyword": "COST"
+    }
+  },
+  "plain": {
+    "what": "If you buy the same coin at different prices, the CRA wants you to use your average cost per coin, not the price you paid last time. Say you bought 3 bitcoins at $9,000, $7,000 and $5,000, then sold all 3 for $10,000 each. The average cost is $7,000 a coin, so your gain is $9,000 — but using the last price of $5,000 makes the gain look like $15,000.",
+    "so_what": "That mistake overstates your gain by $6,000, and in Ontario in 2026 on income between $58,523 and $94,907, it means about $890 more tax than you owed.",
+    "do": "Open your tax app today and write down which cost per coin it uses: your last buy, or the average.",
+    "words": [
+      {
+        "term": "CRA",
+        "means": "Canada's tax office"
+      },
+      {
+        "term": "capital gain",
+        "means": "the profit when you sell for more than you paid"
+      },
+      {
+        "term": "ACB (cost per unit)",
+        "means": "all your buys added up, divided by coins owned"
+      },
+      {
+        "term": "taxable income",
+        "means": "the income your tax is figured on"
+      },
+      {
+        "term": "combined rate",
+        "means": "federal and provincial tax added together"
+      },
+      {
+        "term": "non-registered",
+        "means": "a regular account with no tax shelter"
+      },
+      {
+        "term": "identical properties",
+        "means": "units of the same thing, like coins of one kind"
+      }
+    ]
+  },
+  "subject": "Bitcoin",
+  "deliver": {
+    "word": "COST",
+    "gift": "the crypto cost worksheet"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Bitcoin sale, $890 extra cut, gone forever.",
+        "part": "rollnum",
+        "data": {
+          "pill": "THE CRYPTO ACB WORKSHEET",
+          "num": "$890",
+          "line": "Bitcoin sale, $890 extra cut, gone forever.",
+          "promise": "Give me 30 seconds. Keep the cut.",
+          "subj": "BITCOIN",
+          "stamp": "GET IT BACK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep the cut.",
+        "nocap": true
+      },
+      {
+        "say": "Your *cost* worksheet is 30 seconds away.",
+        "cap": "low"
+      },
+      {
+        "say": "You buy 3 Bitcoin at $9,000, $7,000 and $5,000, sell at $10,000.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "LAST PRICE",
+            "big": "$2,224",
+            "ft": "cut on 3 coins"
+          },
+          "b": {
+            "k": "AVERAGE COST",
+            "big": "$1,334",
+            "ft": "same 3 coins",
+            "at": 1
+          },
+          "gap": "$890",
+          "gap_at": 1
+        },
+        "badge": "The sale"
+      },
+      {
+        "say": "The last price makes the cut $2,224."
+      },
+      {
+        "say": "The average makes it $1,334.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "cut on 3 coins",
+              "tone": "loss",
+              "h": "LAST PRICE",
+              "v": "$2,224",
+              "at": 0
+            },
+            {
+              "sub": "same 3 coins",
+              "tone": "win",
+              "h": "AVERAGE COST",
+              "v": "$1,334",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Which price does your app use?",
+        "part": "callout",
+        "data": {
+          "word": "use",
+          "line": "Which price does your app use?",
+          "at": "use"
+        }
+      },
+      {
+        "say": "The CRA, Canada's tax office, says use your *average* cost per coin.",
+        "part": "badge",
+        "data": {
+          "old": "LAST PRICE",
+          "new": "AVERAGE",
+          "at": "AVERAGE",
+          "sub": "all your buys divided by coins owned.",
+          "sub_at": 1,
+          "k": "CRA rule"
+        },
+        "badge": "CRA rule",
+        "in": "wipe"
+      },
+      {
+        "say": "All three buys, divided by 3, is $7,000."
+      },
+      {
+        "say": "The $5,000 last price adds $6,000 of fake profit.",
+        "part": "tag",
+        "data": {
+          "old": "LAST PRICE",
+          "new": "AVERAGE",
+          "at": 0,
+          "sub": "all your buys divided by coins owned.",
+          "sub_at": 0
+        }
+      },
+      {
+        "say": "Buy your priciest coin last and you *underpay* instead.",
+        "part": "swap",
+        "data": {
+          "old": "OVERPAY",
+          "new": "UNDERPAY",
+          "at": "underpay"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Check which cost per coin your app uses.",
+        "part": "toggle",
+        "data": {
+          "k": "Check",
+          "label": "Tax app",
+          "sub": "which cost per coin",
+          "on_at": "Check",
+          "app": "Hama Savings"
+        },
+        "badge": "Check"
+      },
+      {
+        "say": "Same sale, the average keeps your $890.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "890",
+          "pre": "$",
+          "suf": "",
+          "label": "the average keeps it",
+          "at": "$890"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Comment *COINS,* and I will send you the crypto cost worksheet.",
+        "part": "tiles",
+        "data": {
+          "word": "COINS",
+          "at": "COINS",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the crypto cost worksheet ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bitcoin sale, $890 extra cut, gone forever.",
+          "Give me 30 seconds. Keep the cut."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Your *cost* worksheet is 30 seconds away."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "The sale",
+        "data": {
+          "a": {
+            "h": "LAST PRICE",
+            "v": "$2,224",
+            "sub": "cut on 3 coins",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "AVERAGE COST",
+            "v": "$1,334",
+            "sub": "same 3 coins",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "You buy 3 Bitcoin at $9,000, $7,000 and $5,000, sell at $10,000.",
+          "The last price makes the cut $2,224."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "LAST PRICE",
+            "v": "$2,224",
+            "sub": "cut on 3 coins",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "AVERAGE COST",
+            "v": "$1,334",
+            "sub": "same 3 coins",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The average makes it $1,334."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Which price does your app use?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "CRA rule",
+        "data": {
+          "old": "LAST PRICE",
+          "new": "AVERAGE",
+          "sub": "all your buys divided by coins owned."
+        },
+        "lines": [
+          "The CRA, Canada's tax office, says use your *average* cost per coin.",
+          "All three buys, divided by 3, is $7,000."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "LAST PRICE",
+          "new": "AVERAGE",
+          "sub": "all your buys divided by coins owned."
+        },
+        "lines": [
+          "The $5,000 last price adds $6,000 of fake profit."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "OVERPAY",
+          "new": "UNDERPAY"
+        },
+        "lines": [
+          "Buy your priciest coin last and you *underpay* instead."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "Check",
+        "data": {
+          "label": "Tax app",
+          "sub": "which cost per coin"
+        },
+        "lines": [
+          "Check which cost per coin your app uses."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$890",
+          "new": "the average keeps it"
+        },
+        "lines": [
+          "Same sale, the average keeps your $890."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "COINS",
+          "gift": "the crypto cost worksheet"
+        },
+        "lines": [
+          "Comment *COINS,* and I will send you the crypto cost worksheet."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Opener and lockin flip the $890 loss into the worksheet they keep, compare shows the $2,224 versus $1,334 cut on the same 3 coins, a question rehooks into the CRA average-cost rule as the catch, the underpay flip is the trust trap, a one-line step gives the viewer their own check, and the closing hands back the $890 before the given cta.",
+      "shape": "zoom",
+      "ending": "cta",
+      "caption": "karaoke",
+      "opener": "rollnum",
+      "parts": [
+        "rollnum",
+        "dumbbell",
+        "stack",
+        "callout",
+        "badge",
+        "tag",
+        "swap",
+        "toggle",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "iris",
+        "fade",
+        "wipe",
+        "fade",
+        "iris",
+        "fade",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "COINS"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Bitcoin sale, $890 extra cut, gone forever.",
+        "part": "rollnum",
+        "data": {
+          "pill": "THE CRYPTO ACB WORKSHEET",
+          "num": "$890",
+          "line": "Bitcoin sale, $890 extra cut, gone forever.",
+          "promise": "Give me 30 seconds. Keep the cut.",
+          "subj": "BITCOIN",
+          "stamp": "GET IT BACK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep the cut.",
+        "nocap": true
+      },
+      {
+        "say": "Your *cost* worksheet is 30 seconds away.",
+        "cap": "low"
+      },
+      {
+        "say": "You buy 3 Bitcoin at $9,000, $7,000 and $5,000, sell at $10,000.",
+        "part": "donut",
+        "data": {
+          "k": "The sale",
+          "segs": [
+            {
+              "l": "LAST PRICE",
+              "v": "$2,224",
+              "w": 0.6250702641933671
+            },
+            {
+              "l": "AVERAGE COST",
+              "v": "$1,334",
+              "w": 0.3749297358066329
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "The sale"
+      },
+      {
+        "say": "The last price makes the cut $2,224."
+      },
+      {
+        "say": "The average makes it $1,334.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "cut on 3 coins",
+              "tone": "loss",
+              "h": "LAST PRICE",
+              "v": "$2,224",
+              "at": 0
+            },
+            {
+              "sub": "same 3 coins",
+              "tone": "win",
+              "h": "AVERAGE COST",
+              "v": "$1,334",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Which price does your app use?",
+        "part": "callout",
+        "data": {
+          "word": "use",
+          "line": "Which price does your app use?",
+          "at": "use"
+        }
+      },
+      {
+        "say": "The CRA, Canada's tax office, says use your *average* cost per coin.",
+        "part": "badge",
+        "data": {
+          "old": "LAST PRICE",
+          "new": "AVERAGE",
+          "at": "AVERAGE",
+          "sub": "all your buys divided by coins owned.",
+          "sub_at": 1,
+          "k": "CRA rule"
+        },
+        "badge": "CRA rule",
+        "in": "zoom"
+      },
+      {
+        "say": "All three buys, divided by 3, is $7,000."
+      },
+      {
+        "say": "The $5,000 last price adds $6,000 of fake profit.",
+        "part": "tag",
+        "data": {
+          "old": "LAST PRICE",
+          "new": "AVERAGE",
+          "at": 0,
+          "sub": "all your buys divided by coins owned.",
+          "sub_at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Buy your priciest coin last and you *underpay* instead.",
+        "part": "swap",
+        "data": {
+          "old": "OVERPAY",
+          "new": "UNDERPAY",
+          "at": "underpay"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Check which cost per coin your app uses.",
+        "part": "toggle",
+        "data": {
+          "k": "Check",
+          "label": "Tax app",
+          "sub": "which cost per coin",
+          "on_at": "Check",
+          "app": "Hama Savings"
+        },
+        "badge": "Check"
+      },
+      {
+        "say": "Same sale, the average keeps your $890.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "890",
+          "pre": "$",
+          "suf": "",
+          "label": "the average keeps it",
+          "at": "$890"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *COINS,* and I will send you the crypto cost worksheet.",
+        "part": "tiles",
+        "data": {
+          "word": "COINS",
+          "at": "COINS",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the crypto cost worksheet ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bitcoin sale, $890 extra cut, gone forever.",
+          "Give me 30 seconds. Keep the cut."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Your *cost* worksheet is 30 seconds away."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "The sale",
+        "data": {
+          "a": {
+            "h": "LAST PRICE",
+            "v": "$2,224",
+            "sub": "cut on 3 coins",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "AVERAGE COST",
+            "v": "$1,334",
+            "sub": "same 3 coins",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "You buy 3 Bitcoin at $9,000, $7,000 and $5,000, sell at $10,000.",
+          "The last price makes the cut $2,224."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "LAST PRICE",
+            "v": "$2,224",
+            "sub": "cut on 3 coins",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "AVERAGE COST",
+            "v": "$1,334",
+            "sub": "same 3 coins",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The average makes it $1,334."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Which price does your app use?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "CRA rule",
+        "data": {
+          "old": "LAST PRICE",
+          "new": "AVERAGE",
+          "sub": "all your buys divided by coins owned."
+        },
+        "lines": [
+          "The CRA, Canada's tax office, says use your *average* cost per coin.",
+          "All three buys, divided by 3, is $7,000."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "LAST PRICE",
+          "new": "AVERAGE",
+          "sub": "all your buys divided by coins owned."
+        },
+        "lines": [
+          "The $5,000 last price adds $6,000 of fake profit."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "OVERPAY",
+          "new": "UNDERPAY"
+        },
+        "lines": [
+          "Buy your priciest coin last and you *underpay* instead."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "Check",
+        "data": {
+          "label": "Tax app",
+          "sub": "which cost per coin"
+        },
+        "lines": [
+          "Check which cost per coin your app uses."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$890",
+          "new": "the average keeps it"
+        },
+        "lines": [
+          "Same sale, the average keeps your $890."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "COINS",
+          "gift": "the crypto cost worksheet"
+        },
+        "lines": [
+          "Comment *COINS,* and I will send you the crypto cost worksheet."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Opener and lockin flip the $890 loss into the worksheet they keep, compare shows the $2,224 versus $1,334 cut on the same 3 coins, a question rehooks into the CRA average-cost rule as the catch, the underpay flip is the trust trap, a one-line step gives the viewer their own check, and the closing hands back the $890 before the given cta.",
+      "shape": "zoom",
+      "ending": "cta",
+      "caption": "blur",
+      "opener": "rollnum",
+      "parts": [
+        "rollnum",
+        "donut",
+        "stack",
+        "callout",
+        "badge",
+        "tag",
+        "swap",
+        "toggle",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "iris",
+        "fade",
+        "zoom",
+        "pan",
+        "iris",
+        "fade",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "COINS"
+    }
+  }
+}

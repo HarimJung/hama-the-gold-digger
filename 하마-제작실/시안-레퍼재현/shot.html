@@ -1,0 +1,338 @@
+<meta charset="utf-8">
+<title>하마 8장 재현</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap">
+<style>
+/* geu.meun.dong 뼈대 + moa_sudal 하마 자리 + charliehills 모션 명세.
+   ONE RULE: 주인공 하나가 장 면적 60~70%. 변화 하나. 회색 플레이스홀더 금지. */
+:root{
+  --cream:#FDF8EC;--paper:#FFF;--butter:#FBEFC4;--sand:#EADCBC;
+  --gold:#E3BE5A;--goldink:#6F560A;--ink:#2A2622;--inksoft:#6E6859;--hair:#E6DCC4;
+  --rose:#E8637C;--blush:#FCE3E7;--roseink:#8E2238;
+  --disp:'Fredoka',system-ui,sans-serif;--body:'Inter',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#3a352c;font-family:var(--body)}
+
+.card{width:1080px;height:1350px;background:var(--cream);position:relative;overflow:hidden;
+  display:flex;flex-direction:column;padding:30px 28px 24px}
+.card::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(circle,rgba(111,86,10,.05) .9px,transparent .9px);background-size:26px 26px}
+.card>*{position:relative;z-index:1}
+
+.pill{align-self:center;display:flex;align-items:center;gap:14px;background:var(--ink);
+  color:var(--cream);border-radius:999px;padding:13px 30px;font:800 22px/1 var(--body);letter-spacing:.13em}
+.pill i{width:7px;height:7px;border-radius:50%;background:var(--gold);display:block}
+
+/* charliehills 제목 공식: 두 단어 + 화살표. 오른쪽만 색. */
+.ab{display:flex;align-items:baseline;justify-content:center;gap:22px;margin-top:14px;
+  font:600 104px/1 var(--disp);letter-spacing:-.045em}
+.ab .a{color:var(--ink)}
+.ab .arw{font-size:62px;color:var(--gold);font-weight:700;transform:translateY(-6px)}
+.ab .b{color:var(--goldink)}
+.sub1{text-align:center;margin-top:12px;font:600 28px/1.3 var(--body);color:#7A6B45}
+.t1{text-align:center;margin-top:16px;font:600 120px/.96 var(--disp);letter-spacing:-.045em;color:var(--goldink)}
+.t2{text-align:center;font:600 96px/1.0 var(--disp);letter-spacing:-.04em;color:var(--ink)}
+.t1.sm{font-size:96px}.t2.sm{font-size:78px}
+.lede{text-align:center;margin-top:12px;font:600 27px/1.4 var(--body);color:var(--inksoft)}
+
+.rows{flex:1;display:flex;flex-direction:column;gap:10px;margin-top:20px}
+.r{flex:1;display:grid;grid-template-columns:27% 29% 22% 22%;background:var(--paper);
+  border-radius:15px;box-shadow:0 3px 12px rgba(42,38,34,.07);overflow:hidden}
+.r>div{padding:14px 18px;display:flex;flex-direction:column;justify-content:center;border-left:1px solid #F0EADA}
+.r>div:first-child{border-left:0}
+.lb{font:800 15px/1 var(--body);letter-spacing:.07em;color:var(--inksoft);margin-bottom:7px}
+.c1 .amt{font:900 44px/1 var(--body);letter-spacing:-.03em;color:var(--ink);font-variant-numeric:tabular-nums}
+.c1 .sub{font:600 14px/1.2 var(--body);color:var(--inksoft);margin-top:5px}
+.c1 .bars{display:flex;flex-direction:column;gap:4px;margin-top:9px}
+.c1 .bar{height:7px;border-radius:4px;background:var(--hair);position:relative;overflow:hidden}
+.c1 .bar i{position:absolute;inset:0 auto 0 0;border-radius:4px;display:block}
+.c1 .bar.a i{background:var(--rose)}.c1 .bar.b i{background:var(--gold);width:100%}
+.c1 .tag{font:800 12px/1 var(--body);letter-spacing:.09em;color:var(--inksoft);margin-top:8px}
+.c2 .big{font:900 50px/1 var(--body);letter-spacing:-.035em;color:var(--ink);font-variant-numeric:tabular-nums}
+.chip{align-self:flex-start;margin-top:9px;background:var(--blush);border:1.5px solid var(--rose);
+  border-radius:8px;padding:4px 10px;font:800 14px/1 var(--body);color:var(--roseink)}
+.c3 .v{font:800 31px/1 var(--body);letter-spacing:-.025em;color:var(--goldink);font-variant-numeric:tabular-nums}
+.c3 .lb2{font:800 14px/1 var(--body);letter-spacing:.07em;color:var(--inksoft);margin:11px 0 5px}
+.c3 .g{font:800 31px/1 var(--body);letter-spacing:-.025em;color:var(--roseink);font-variant-numeric:tabular-nums}
+.c4{align-items:flex-start}
+.c4 .pc{font:900 52px/1 var(--body);letter-spacing:-.04em;color:var(--rose);font-variant-numeric:tabular-nums}
+.c4 .fine{font:600 13px/1.25 var(--body);color:var(--inksoft);margin-top:6px}
+
+.note{text-align:center;margin-top:14px;font:800 19px/1.35 var(--body);color:var(--ink)}
+.note b{color:var(--roseink)}
+.foot{display:flex;justify-content:space-between;align-items:center;margin-top:12px;
+  font:700 15px/1 var(--body);letter-spacing:.05em;color:var(--inksoft)}
+
+/* moa_sudal — 하마가 표 옆에서 한마디. 사진은 자르기만. */
+.hama{display:flex;align-items:center;gap:20px;margin-top:16px}
+.hama img{flex:none;width:146px;height:146px;border-radius:50%;object-fit:cover;
+  border:5px solid var(--paper);box-shadow:0 5px 16px rgba(42,38,34,.16)}
+.hama .say{flex:1;background:var(--butter);border:2px solid var(--hair);border-radius:18px;
+  padding:18px 24px;font:700 27px/1.3 var(--body);color:var(--ink);position:relative}
+.hama .say::before{content:"";position:absolute;left:-13px;top:50%;transform:translateY(-50%);
+  border:13px solid transparent;border-right-color:var(--hair)}
+.hama .say::after{content:"";position:absolute;left:-10px;top:50%;transform:translateY(-50%);
+  border:11px solid transparent;border-right-color:var(--butter)}
+
+/* 설명 장 — 주인공 하나가 60~70% (charliehills ONE RULE) */
+.stage{flex:1;display:flex;flex-direction:column;justify-content:center;gap:24px;margin-top:20px}
+.hero{flex:1;display:flex;flex-direction:column;justify-content:center;gap:30px;
+  background:var(--paper);border-radius:26px;padding:42px 44px;box-shadow:0 8px 28px rgba(42,38,34,.10)}
+
+.hero .n{font:900 150px/.92 var(--body);letter-spacing:-.05em;color:var(--ink);
+  font-variant-numeric:tabular-nums;margin-top:18px}
+.hero .n.rose{color:var(--rose)}
+.hero .n .u{position:relative;display:inline-block}
+.hero .n .u::after{content:"";position:absolute;left:.04em;right:.05em;bottom:-.1em;height:.09em;
+  border-radius:.05em;background:var(--gold)}
+  .hero .m{font:700 38px/1.3 var(--body);color:var(--ink);margin-top:0}
+.hero .m em{font-style:normal;padding:.02em .14em;-webkit-box-decoration-break:clone;box-decoration-break:clone;
+  background:linear-gradient(transparent 52%,var(--gold) 52%,var(--gold) 92%,transparent 92%)}
+.hero .x{font:600 24px/1.34 var(--body);color:var(--inksoft);margin-top:14px}
+.flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:center;gap:16px}
+.flow .st{background:var(--cream);border-radius:18px;padding:30px 20px;text-align:center}
+.flow .st .n{display:block;font:900 54px/1 var(--body);letter-spacing:-.035em;color:var(--ink);font-variant-numeric:tabular-nums}
+.flow .st.cut .n{color:var(--roseink)}
+.flow .st b{display:block;font:800 22px/1.2 var(--body);color:var(--ink);margin-top:10px}
+.flow .st span{display:block;font:600 17px/1.3 var(--body);color:#8A7A4E;margin-top:5px}
+.flow .st.cut{background:var(--blush);border:2px solid var(--rose)}
+.flow .st.cut b{color:var(--roseink)}
+.flow .ar{font:800 34px/1 var(--body);color:var(--gold)}
+.mini{flex:1;margin-top:0;display:flex;flex-direction:column;gap:14px}
+.mini .mr{flex:1;display:grid;grid-template-columns:1fr auto;align-items:center;gap:18px;
+  background:var(--cream);border-radius:16px;padding:22px 28px}
+.mini .mr b{font:700 28px/1.3 var(--body);color:var(--ink)}
+.mini .mr .tagv{font:900 30px/1 var(--body);letter-spacing:.04em;white-space:nowrap}
+.mini .mr.ok .tagv{color:var(--goldink)}
+.mini .mr.no{background:var(--blush)}
+.mini .mr.no .tagv{color:var(--roseink)}
+.srcchip{align-self:flex-start;background:var(--butter);border:2px solid var(--gold);border-radius:12px;
+  padding:9px 18px;font:800 20px/1 var(--body);letter-spacing:.06em;color:var(--goldink)}
+
+/* 두 칸 비교 */
+.two{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.bx{display:flex;flex-direction:column;justify-content:space-between;gap:16px;
+  background:var(--paper);border-radius:22px;padding:44px 36px;box-shadow:0 6px 22px rgba(42,38,34,.09)}
+.bx.win{background:var(--butter);border:3px solid var(--gold)}
+.bx>span{display:block}
+.bx .h{font:800 24px/1 var(--body);letter-spacing:.1em;color:var(--inksoft)}
+.bx.win .h{color:var(--goldink)}
+.bx.win .d{color:#6F560A}
+.bx .v{font:900 86px/1 var(--body);letter-spacing:-.04em;margin-top:18px;color:var(--ink);font-variant-numeric:tabular-nums}
+.bx .d{font:600 24px/1.34 var(--body);color:#6B5F42;margin-top:14px}
+
+/* CTA */
+.cta{flex:1;display:flex;flex-direction:column;justify-content:center;gap:28px}
+.cta .q{font:600 62px/1.1 var(--disp);letter-spacing:-.03em;color:var(--ink)}
+.btn{background:var(--butter);border:4px solid var(--gold);border-radius:22px;padding:28px;
+  text-align:center;font:800 32px/1 var(--body);color:var(--goldink)}
+.cta .sm{font:600 22px/1.4 var(--body);color:var(--inksoft)}
+
+/* ── 모션. charliehills 브리프:
+   ONE satisfying change, then reset · Spring physics on everything · Hold the after state for 1.2 seconds.
+   장마다 변화는 하나다. 겹치지 않는다. ── */
+:root{--spr:cubic-bezier(.34,1.26,.64,1);--ease:cubic-bezier(.22,1,.36,1)}
+.deck{position:relative;width:1080px;height:1350px}
+.card{position:absolute;inset:0;opacity:0;pointer-events:none}
+.card.on{opacity:1;pointer-events:auto}
+@media (prefers-reduced-motion:no-preference){
+  /* 제목 — 화살표가 밀고 오른쪽 단어가 스프링으로 안착 */
+  .card .ab .b{display:inline-block;transform:translateX(26px) scale(.9);opacity:0}
+  .card.on .ab .b{transform:none;opacity:1;transition:transform .42s var(--spr) .1s,opacity .26s ease .1s}
+  .card .ab .arw{opacity:0;transform:translateX(-14px)}
+  .card.on .ab .arw{opacity:1;transform:none;transition:all .3s var(--ease) .04s}
+  .card .sub1{opacity:0}
+  .card.on .sub1{opacity:1;transition:opacity .3s ease .42s}
+
+  /* 1 표지 — 행이 아래에서 차례로 스프링 */
+  .card .rows .r{transform:translateY(30px);opacity:0}
+  .card.on .rows .r{transform:none;opacity:1;transition:transform .44s var(--spr),opacity .3s ease}
+  .card.on .rows .r:nth-child(1){transition-delay:.46s}
+  .card.on .rows .r:nth-child(2){transition-delay:.54s}
+  .card.on .rows .r:nth-child(3){transition-delay:.62s}
+  .card.on .rows .r:nth-child(4){transition-delay:.70s}
+  .card.on .rows .r:nth-child(5){transition-delay:.78s}
+  .card.on .rows .r:nth-child(6){transition-delay:.86s}
+
+  /* 2 흐름 — 좌에서 우로 한 칸씩, 화살표가 뒤따라 */
+  .card .flow>*{opacity:0;transform:translateX(-22px)}
+  .card.on .flow>*{opacity:1;transform:none;transition:all .4s var(--spr)}
+  .card.on .flow>*:nth-child(1){transition-delay:.46s}
+  .card.on .flow>*:nth-child(2){transition-delay:.58s}
+  .card.on .flow>*:nth-child(3){transition-delay:.66s}
+  .card.on .flow>*:nth-child(4){transition-delay:.78s}
+  .card.on .flow>*:nth-child(5){transition-delay:.86s}
+
+  /* 3 반전 — 두 판이 양쪽에서 교차해 들어온다 */
+  .card .two>*:nth-child(1){opacity:0;transform:translateX(-34px)}
+  .card .two>*:nth-child(2){opacity:0;transform:translateX(34px)}
+  .card.on .two>*{opacity:1;transform:none;transition:all .48s var(--spr) .5s}
+  .card.on .two>*:nth-child(2){transition-delay:.58s}
+
+  /* 4 단서 — 행이 왼쪽에서 밀려 들어오고 태그가 마지막에 스냅 */
+  .card .mini .mr{opacity:0;transform:translateX(-24px)}
+  .card.on .mini .mr{opacity:1;transform:none;transition:all .4s var(--spr)}
+  .card.on .mini .mr:nth-child(1){transition-delay:.48s}
+  .card.on .mini .mr:nth-child(2){transition-delay:.58s}
+  .card.on .mini .mr:nth-child(3){transition-delay:.68s}
+  .card .mini .tagv{display:inline-block;transform:scale(.6);opacity:0}
+  .card.on .mini .tagv{transform:none;opacity:1;transition:all .34s var(--spr) .86s}
+
+  /* 6 CTA — 버튼만 팝 */
+  .card .btn{transform:scale(.94);opacity:0}
+  .card.on .btn{transform:none;opacity:1;transition:all .34s var(--spr) .62s}
+
+  /* 하마는 마지막에. 말풍선이 뒤따른다 */
+  .card .hama img{transform:scale(.5);opacity:0}
+  .card.on .hama img{transform:none;opacity:1;transition:all .38s var(--spr) 1.0s}
+  .card .hama .say{opacity:0;transform:translateX(-12px)}
+  .card.on .hama .say{opacity:1;transform:none;transition:all .3s var(--ease) 1.15s}
+  .card .srcchip{opacity:0}
+  .card.on .srcchip{opacity:1;transition:opacity .3s ease .95s}
+}
+.ctl{display:flex;align-items:center;justify-content:space-between;gap:16px;width:1080px;margin-top:18px}
+.dots{display:flex;gap:9px}
+.dots b{width:11px;height:11px;border-radius:50%;background:rgba(253,248,236,.3);display:block;transition:all .22s}
+.dots b.on{width:30px;border-radius:999px;background:var(--gold)}
+.play{font:800 15px/1 var(--body);letter-spacing:.1em;border:2px solid rgba(253,248,236,.5);
+  background:transparent;color:#FDF8EC;border-radius:999px;padding:11px 22px;cursor:pointer}
+</style>
+
+<!-- 1 표지 -->
+<div class="deck" id="deck">
+<div class="card">
+  <span class="pill"><i></i>US DIVIDENDS · WHERE THE CUT GOES<i></i></span>
+  <div class="ab"><span class="a">$1,000</span><span class="arw">&#8594;</span><span class="b">$850</span></div>
+  <div class="sub1">Same dividend. One box keeps less.</div>
+  <div class="rows">
+    <div class="r"><div class="c1"><span class="amt">$100</span><span class="sub">a year in US dividends</span><span class="bars"><span class="bar a"><i style="width:85%"></i></span><span class="bar b"><i></i></span></span><span class="tag">TFSA / RRSP</span></div><div class="c2"><span class="lb">LANDS IN YOUR TFSA</span><span class="big">$85</span><span class="chip">−15% at the border</span></div><div class="c3"><span class="lb">LANDS IN RRSP</span><span class="v">$100</span><span class="lb2">GONE</span><span class="g">$15</span></div><div class="c4"><span class="lb">WITHHELD</span><span class="pc">15%</span><span class="fine">Treaty covers RRSP.<br>Not the TFSA.</span></div></div>
+    <div class="r"><div class="c1"><span class="amt">$500</span><span class="sub">a year in US dividends</span><span class="bars"><span class="bar a"><i style="width:85%"></i></span><span class="bar b"><i></i></span></span><span class="tag">TFSA / RRSP</span></div><div class="c2"><span class="lb">LANDS IN YOUR TFSA</span><span class="big">$425</span><span class="chip">−15% at the border</span></div><div class="c3"><span class="lb">LANDS IN RRSP</span><span class="v">$500</span><span class="lb2">GONE</span><span class="g">$75</span></div><div class="c4"><span class="lb">WITHHELD</span><span class="pc">15%</span><span class="fine">Treaty covers RRSP.<br>Not the TFSA.</span></div></div>
+    <div class="r"><div class="c1"><span class="amt">$1,000</span><span class="sub">a year in US dividends</span><span class="bars"><span class="bar a"><i style="width:85%"></i></span><span class="bar b"><i></i></span></span><span class="tag">TFSA / RRSP</span></div><div class="c2"><span class="lb">LANDS IN YOUR TFSA</span><span class="big">$850</span><span class="chip">−15% at the border</span></div><div class="c3"><span class="lb">LANDS IN RRSP</span><span class="v">$1,000</span><span class="lb2">GONE</span><span class="g">$150</span></div><div class="c4"><span class="lb">WITHHELD</span><span class="pc">15%</span><span class="fine">Treaty covers RRSP.<br>Not the TFSA.</span></div></div>
+    <div class="r"><div class="c1"><span class="amt">$3,000</span><span class="sub">a year in US dividends</span><span class="bars"><span class="bar a"><i style="width:85%"></i></span><span class="bar b"><i></i></span></span><span class="tag">TFSA / RRSP</span></div><div class="c2"><span class="lb">LANDS IN YOUR TFSA</span><span class="big">$2,550</span><span class="chip">−15% at the border</span></div><div class="c3"><span class="lb">LANDS IN RRSP</span><span class="v">$3,000</span><span class="lb2">GONE</span><span class="g">$450</span></div><div class="c4"><span class="lb">WITHHELD</span><span class="pc">15%</span><span class="fine">Treaty covers RRSP.<br>Not the TFSA.</span></div></div>
+    <div class="r"><div class="c1"><span class="amt">$5,000</span><span class="sub">a year in US dividends</span><span class="bars"><span class="bar a"><i style="width:85%"></i></span><span class="bar b"><i></i></span></span><span class="tag">TFSA / RRSP</span></div><div class="c2"><span class="lb">LANDS IN YOUR TFSA</span><span class="big">$4,250</span><span class="chip">−15% at the border</span></div><div class="c3"><span class="lb">LANDS IN RRSP</span><span class="v">$5,000</span><span class="lb2">GONE</span><span class="g">$750</span></div><div class="c4"><span class="lb">WITHHELD</span><span class="pc">15%</span><span class="fine">Treaty covers RRSP.<br>Not the TFSA.</span></div></div>
+    <div class="r"><div class="c1"><span class="amt">$10,000</span><span class="sub">a year in US dividends</span><span class="bars"><span class="bar a"><i style="width:85%"></i></span><span class="bar b"><i></i></span></span><span class="tag">TFSA / RRSP</span></div><div class="c2"><span class="lb">LANDS IN YOUR TFSA</span><span class="big">$8,500</span><span class="chip">−15% at the border</span></div><div class="c3"><span class="lb">LANDS IN RRSP</span><span class="v">$10,000</span><span class="lb2">GONE</span><span class="g">$1,500</span></div><div class="c4"><span class="lb">WITHHELD</span><span class="pc">15%</span><span class="fine">Treaty covers RRSP.<br>Not the TFSA.</span></div></div>
+  </div>
+  <div class="note">US-listed holdings. <b>Treaty recognises the RRSP, not the TFSA.</b> Sources in the caption.</div>
+  <div class="foot"><span>HAMA THE GOLD DIGGER · TORONTO</span><span>CONFIRM WITH CRA · 1/6</span></div>
+</div>
+
+<!-- 2 스테이크 -->
+<div class="card">
+  <span class="pill"><i></i>THE PART NOBODY MENTIONS<i></i></span>
+  <div class="ab"><span class="a">Dividend</span><span class="arw">&#8594;</span><span class="b">border</span></div>
+  <div class="sub1">Where the cut actually happens.</div>
+  <div class="stage"><div class="hero">
+    <div class="m">A US company pays you a dividend. Before it leaves the United States, <em>a cut is taken.</em></div>
+    <div class="flow">
+      <span class="st"><span class="n">$1,000</span><b>US company pays</b><span>a year in dividends</span></span>
+      <span class="ar">&#8594;</span>
+      <span class="st cut"><span class="n">&minus;$150</span><b>15% at the border</b><span>before it leaves</span></span>
+      <span class="ar">&#8594;</span>
+      <span class="st"><span class="n">$850</span><b>lands in your TFSA</b><span>what's left</span></span>
+    </div>
+    <div class="x" style="margin-top:26px">Canada doesn't tax it. The other side already did. And neither government hands it back.</div>
+  </div>
+  <span class="srcchip">CBOE CANADA · WEALTHNORTH</span></div>
+  <div class="hama"><img src="assets/hama-stand.jpg" alt=""><span class="say">Hama learned this the slow way.</span></div>
+  <div class="foot"><span>HAMA THE GOLD DIGGER · TORONTO</span><span>CONFIRM WITH CRA · 2/6</span></div>
+</div>
+
+<!-- 4 반전 -->
+<div class="card">
+  <span class="pill"><i></i>THE REVERSAL<i></i></span>
+  <div class="ab"><span class="a">TFSA</span><span class="arw">&#8594;</span><span class="b">RRSP</span></div>
+  <div class="sub1">One is on the treaty list.</div>
+  <div class="stage"><div class="two">
+    <div class="bx"><span class="h">TFSA</span><span class="v" style="color:var(--rose)">−15%</span><span class="d">Not recognised as a retirement account under the treaty.</span><span class="d" style="margin-top:10px"><b>$1,000 in dividends arrives as $850.</b> You cannot claim the rest back from either side.</span></div>
+    <div class="bx win"><span class="h">RRSP</span><span class="v" style="color:var(--goldink)">0%</span><span class="d">The treaty recognises it as a retirement account.</span><span class="d" style="margin-top:10px"><b>$1,000 in dividends arrives as $1,000.</b> Nothing is taken at the border.</span></div>
+  </div>
+  <span class="srcchip">CANADA–US TAX TREATY · WEALTHNORTH</span></div>
+  <div class="hama"><img src="assets/hama-trench.jpg" alt=""><span class="say">Same fund. Different box. Different money.</span></div>
+  <div class="foot"><span>HAMA THE GOLD DIGGER · TORONTO</span><span>CONFIRM WITH CRA · 3/6</span></div>
+</div>
+
+<!-- 5 조건 -->
+<div class="card">
+  <span class="pill"><i></i>THE CATCH<i></i></span>
+  <div class="ab"><span class="a">Ticker</span><span class="arw">&#8594;</span><span class="b">fund</span></div>
+  <div class="sub1">The treaty stops at the wrapper.</div>
+  <div class="stage"><div class="hero">
+    <div class="m">The exemption is for <em>US-listed holdings held directly</em> in the RRSP.</div>
+    <div class="mini">
+      <span class="mr ok"><b>US-listed, held directly in the RRSP</b><span class="tagv">EXEMPT</span></span>
+      <span class="mr no"><b>Canadian-listed fund that owns US assets</b><span class="tagv">STILL HIT</span></span>
+      <span class="mr no"><b>Anything US-paying inside the TFSA</b><span class="tagv">&minus;15%</span></span>
+    </div>
+    <div class="x" style="margin-top:24px">The treaty does not reach inside a fund. It only covers what the account holds directly.</div>
+  </div>
+  <span class="srcchip">FINIKI · TD ADVISORS</span></div>
+  <div class="hama"><img src="assets/hama-stand.jpg" alt=""><span class="say">So the wrapper matters too.</span></div>
+  <div class="foot"><span>HAMA THE GOLD DIGGER · TORONTO</span><span>CONFIRM WITH CRA · 4/6</span></div>
+</div>
+
+<!-- 7 저장 카드 -->
+<div class="card">
+  <span class="pill"><i></i>KEEP THIS ONE<i></i></span>
+  <div class="ab"><span class="a">All of it</span><span class="arw">&#8594;</span><span class="b">one screen</span></div>
+  <div class="sub1">Screenshot this one.</div>
+  <div class="rows" style="margin-top:18px">
+    <div class="r" style="grid-template-columns:34% 33% 33%"><div class="c1"><span class="amt" style="font-size:34px">US dividends</span><span class="sub">held directly</span></div><div class="c2"><span class="lb">TFSA</span><span class="big" style="font-size:40px;color:var(--rose)">−15%</span></div><div class="c3"><span class="lb">RRSP</span><span class="v" style="font-size:40px">0%</span></div></div>
+    <div class="r" style="grid-template-columns:34% 33% 33%"><div class="c1"><span class="amt" style="font-size:34px">Canadian dividends</span><span class="sub">any amount</span></div><div class="c2"><span class="lb">TFSA</span><span class="big" style="font-size:40px">0%</span></div><div class="c3"><span class="lb">RRSP</span><span class="v" style="font-size:40px">0%</span></div></div>
+    <div class="r" style="grid-template-columns:34% 33% 33%"><div class="c1"><span class="amt" style="font-size:34px">Growth</span><span class="sub">price going up</span></div><div class="c2"><span class="lb">TFSA</span><span class="big" style="font-size:40px">0%</span></div><div class="c3"><span class="lb">RRSP</span><span class="v" style="font-size:40px">taxed on exit</span></div></div>
+    <div class="r" style="grid-template-columns:34% 33% 33%"><div class="c1"><span class="amt" style="font-size:34px">Can you reclaim it?</span><span class="sub">the 15%</span></div><div class="c2"><span class="lb">TFSA</span><span class="big" style="font-size:40px;color:var(--rose)">No</span></div><div class="c3"><span class="lb">RRSP</span><span class="v" style="font-size:40px">N/A</span></div></div>
+    <div class="r" style="grid-template-columns:34% 33% 33%"><div class="c1"><span class="amt" style="font-size:34px">Canadian-listed fund</span><span class="sub">holding US assets</span></div><div class="c2"><span class="lb">TFSA</span><span class="big" style="font-size:40px;color:var(--rose)">leaks</span></div><div class="c3"><span class="lb">RRSP</span><span class="v" style="font-size:40px;color:var(--roseink)">can still leak</span></div></div>
+  </div>
+  <div class="note">Screenshot this one. <b>General education, not tax advice.</b></div>
+  <div class="foot"><span>HAMA THE GOLD DIGGER · TORONTO</span><span>CONFIRM WITH CRA · 5/6</span></div>
+</div>
+
+<!-- 8 CTA -->
+<div class="card">
+  <span class="pill"><i></i>ONE THING TO DO<i></i></span>
+  <div class="ab"><span class="a">Check</span><span class="arw">&#8594;</span><span class="b">done</span></div>
+  <div class="sub1">Three seconds, on your own account.</div>
+  <div class="stage">
+    <div class="hero">
+      <div class="two" style="margin-top:28px;gap:16px">
+        <div class="bx" style="box-shadow:none;background:var(--cream);padding:28px 26px">
+          <span class="h">1 · WHICH BOX</span>
+          <span class="d" style="margin-top:10px">TFSA or RRSP. It's on the account page, not the fund page.</span></div>
+        <div class="bx" style="box-shadow:none;background:var(--cream);padding:28px 26px">
+          <span class="h">2 · WHAT IT HOLDS</span>
+          <span class="d" style="margin-top:10px">US-listed and held directly, or a Canadian fund that owns US assets.</span></div>
+      </div>
+      <div class="m" style="margin-top:26px">If it's US dividends sitting in the TFSA, <em>that's the 15%.</em></div>
+    </div>
+    <div class="btn">Save the table · check before your next buy</div>
+    <div class="hama"><img src="assets/hama-trench.jpg" alt=""><span class="say">That's the whole trick.</span></div>
+  </div>
+  <div class="note" style="font-size:16px;font-weight:600;color:var(--inksoft)">General education, not investment or tax advice. Confirm your own case with the CRA or a tax professional.</div>
+  <div class="foot"><span>HAMA THE GOLD DIGGER · TORONTO</span><span>CONFIRM WITH CRA · 6/6</span></div>
+</div>
+</div>
+<div class="ctl"><div class="dots" id="dots"></div><button class="play" id="play">PAUSE</button></div>
+<script>
+// charliehills FORMAT: 장당 6초. 모션 ~1.5s + 정지 1.2s 를 담고도 남는다.
+var deck=document.getElementById('deck'),dots=document.getElementById('dots'),play=document.getElementById('play');
+var sl=[].slice.call(deck.querySelectorAll('.card')),i=0,t=null,on=true;
+sl.forEach(function(_,k){var b=document.createElement('b');b.onclick=function(){stop();go(k)};dots.appendChild(b)});
+function go(k){
+  sl[i].classList.remove('on');
+  i=(k+sl.length)%sl.length;
+  var s=sl[i]; void s.offsetWidth; s.classList.add('on');
+  [].forEach.call(dots.children,function(b,n){b.className=n===i?'on':''});
+}
+function tick(){t=setTimeout(function(){go(i+1);tick()},6000)}
+function start(){on=true;play.textContent='PAUSE';tick()}
+function stop(){on=false;play.textContent='PLAY';clearTimeout(t)}
+play.onclick=function(){on?stop():start()};
+go(0);
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches) start(); else stop();
+</script>
+<style id="shot"></style><script>
+var q=new URLSearchParams(location.search);
+if(q.has('shot')){
+  document.getElementById('shot').textContent='.ctl{display:none}.card{position:static;display:none}.card.on{display:flex}body{padding:0;gap:0}.deck{height:auto}';
+  setTimeout(function(){stop();go(parseInt(q.get('shot'),10)-1)},50);
+}
+</script>

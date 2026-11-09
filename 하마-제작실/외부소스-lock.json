@@ -1,0 +1,56 @@
+[
+  {
+    "repo": "wheresryan22/anatomy",
+    "commit": "1482e8469b0a9e0d8cc18ea2740a01423d29ae80",
+    "paths": [
+      "."
+    ],
+    "exit_code": 0
+  },
+  {
+    "repo": "charlie947/social-media-skills",
+    "commit": "10ca79c0ec0be0f7654d19cd4f0c86b6fa6ed23b",
+    "paths": [
+      "skills/voice-builder",
+      "skills/hook-generator",
+      "skills/content-matrix",
+      "skills/graphic-designer",
+      "skills/niche-research"
+    ],
+    "exit_code": 0
+  },
+  {
+    "repo": "nategoldai/instagram-agent",
+    "commit": "acd7615e7ad906809cd65284d70319dd7fe4dfac",
+    "paths": [
+      "skills/ig-audit",
+      "skills/ig-caption",
+      "skills/ig-carousel",
+      "skills/ig-comment",
+      "skills/ig-dm",
+      "skills/ig-human",
+      "skills/ig-plan",
+      "skills/ig-profile",
+      "skills/ig-reel",
+      "skills/ig-reply",
+      "skills/ig-repurpose",
+      "skills/ig-story",
+      "skills/ig-viral"
+    ],
+    "exit_code": 0
+  },
+  {
+    "repo": "remotion-dev/skills",
+    "commit": "c7cb2fdcacd134fb2ccb9b7a44f9ffa44e467271",
+    "paths": [
+      "skills/remotion-best-practices"
+    ],
+    "exit_code": 0
+  },
+  {
+    "repo": "heygen-com/hyperframes",
+    "commit": "4ef8c1de5cfc298bdbd385decd3a95b0ef301adc",
+    "installed": false,
+    "source_only": true
+  }
+]

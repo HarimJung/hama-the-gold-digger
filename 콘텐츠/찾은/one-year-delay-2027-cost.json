@@ -1,0 +1,1168 @@
+{
+  "key": "one-year-delay-2027-cost",
+  "category": "compound",
+  "status": "draft",
+  "title": "'내년부터 하지 뭐': 1년 늦게 시작하면 65세에 줄어드는 금액",
+  "object": "THE ONE-YEAR DELAY CALCULATOR",
+  "subject": "World stocks",
+  "made_by": "엔진/find.py 2026-11-07 · 신호 ['s292146ef', 's869c550b', 's0d27c638'] · 퍼스나 The late starter with unused room",
+  "fact": {
+    "num": "7.31",
+    "unit": "%",
+    "thing": "yearly return of world stocks since 2000 (MSCI ACWI, USD, net)",
+    "box": "global equity index fund in a TFSA or RRSP",
+    "claim": "The MSCI ACWI index of large and mid-size companies in 47 countries returned 7.31% a year in US dollars from Dec 29, 2000 to Oct 30, 2026, with dividends reinvested. Over that time it also fell 58% from 2007 to 2009, and some years were negative. Index funds charge fees, and Canadians see returns in Canadian dollars, so real results will differ. MSCI says past performance does not guarantee future returns, so the 7.31% is an example rate, not a promise.",
+    "felt": {
+      "num": "731",
+      "unit": "$",
+      "pct": "7.31",
+      "base": 10000,
+      "how": "7.31% of a $10,000 example",
+      "from": "calc_pct"
+    },
+    "sources": [
+      "MSCI ACWI INDEX FACTSHEET (OCT 30, 2026)",
+      "MSCI ACWI INDEX FACTSHEET (OCT 30, 2026)"
+    ],
+    "verified": "find.py · 대조 1/2"
+  },
+  "sources": [
+    {
+      "label": "MSCI ACWI INDEX FACTSHEET (OCT 30, 2026)",
+      "url": "https://www.msci.com/documents/10199/255599/msci-acwi-net.pdf",
+      "what": "MSCI ACWI -1.64 -0.14 12.33 11.18 22.30 10.10 12.39 7.31",
+      "confidence": "1차"
+    },
+    {
+      "label": "MSCI ACWI INDEX FACTSHEET (OCT 30, 2026)",
+      "url": "https://www.msci.com/documents/10199/255599/msci-acwi-net.pdf",
+      "what": "Past performance -- whether actual or back-tested -- is no indication or guarantee of future performance.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "COMPOUND · CANADA",
+      "topic": "GROW YOUR MONEY",
+      "hook": {
+        "pre": "World stocks: one year of waiting cost $",
+        "num": "731",
+        "post": ". Still waiting?"
+      },
+      "promise": "Give me 30 seconds. See what starting now keeps."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "World stocks: one year of waiting cost $731. Still waiting?",
+      "World stocks grew $731 while you waited a year. Want it back?",
+      "World stocks, next year? That cost $731. Still waiting?",
+      "World stocks don't wait for you. One year missed $731. Ready?",
+      "World stocks: Hama saw a one-year wait miss $731. Still waiting?",
+      "World stocks late starters missed $731 in one year. Want it back?",
+      "World stocks on $10,000: one year late is $731 gone. Still waiting?",
+      "World stocks: now or next year is a $731 gap. Still waiting?",
+      "World stocks: one more year on the bench is $731. Still sitting?",
+      "World stocks: never say next year. It cost $731. Still waiting?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "World stocks: one year of waiting cost $731. Still waiting?",
+    "spoken": "World stocks: one year of waiting cost $731. Still waiting?",
+    "promise": "Give me 30 seconds. See what starting now keeps.",
+    "stamp": "DON'T WAIT",
+    "pick_why": "Anyone who has said 'later' gets this in one second, and the cost of waiting makes the calculator feel worth saving.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-07"
+  },
+  "deliver": {
+    "word": "YEAR",
+    "gift": "the one-year delay calculator"
+  },
+  "check": [],
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "World stocks: one year of waiting cost $731. Still waiting?",
+        "part": "glass",
+        "data": {
+          "pill": "THE ONE-YEAR DELAY CALCULATOR",
+          "num": "$731",
+          "line": "World stocks: one year of waiting cost $731. Still waiting?",
+          "promise": "Give me 30 seconds. See what starting now keeps.",
+          "subj": "WORLD STOCKS",
+          "stamp": "DON'T WAIT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See what starting now keeps.",
+        "nocap": true
+      },
+      {
+        "say": "Your delay calculator is 30 seconds away.",
+        "cap": "low"
+      },
+      {
+        "say": "World stocks means one *fund* holding the biggest companies from 47 countries.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "$731",
+              "v": "$731",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "missed",
+              "v": "missed",
+              "w": 0.2,
+              "at": 1
+            }
+          ]
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Since 2000, world stocks grew about 7.31% a year."
+      },
+      {
+        "say": "Waiting a year on $10,000 missed $731.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$731",
+          "tail": "missed",
+          "at": "$731"
+        },
+        "dark": true
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Two friends each have $10,000.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "WAITS A YEAR",
+            "big": "$10,000",
+            "ft": "still sitting"
+          },
+          "b": {
+            "k": "STARTS NOW",
+            "big": "+$731",
+            "ft": "same $10,000",
+            "at": 1
+          }
+        },
+        "badge": "THE GAP",
+        "in": "pan"
+      },
+      {
+        "say": "One starts now, one waits a year."
+      },
+      {
+        "say": "The late one stays a year *behind* for good.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "still sitting",
+              "tone": "loss",
+              "h": "WAITS A YEAR",
+              "v": "$10,000",
+              "at": 0
+            },
+            {
+              "sub": "same $10,000",
+              "tone": "win",
+              "h": "STARTS NOW",
+              "v": "+$731",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "But world stocks fell 58% from 2007 to 2009.",
+        "part": "split",
+        "data": {
+          "k": "SMOOTH vs BUMPY",
+          "total": "BUMPY",
+          "a": {
+            "v": "SMOOTH",
+            "l": "SMOOTH",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "BUMPY",
+            "l": "BUMPY",
+            "at": 0,
+            "label_at": 0
+          }
+        }
+      },
+      {
+        "say": "Starting now keeps that $731, if past rates hold.",
+        "part": "strike",
+        "data": {
+          "old": "$731",
+          "new": "starting now keeps it",
+          "at": "Starting",
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Wait another year and $731 is *gone*.",
+        "part": "stamp",
+        "data": {
+          "old": "$731",
+          "new": "gone",
+          "at": "gone",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Comment *YEAR,* and I will send you the one-year delay calculator.",
+        "part": "tiles",
+        "data": {
+          "word": "YEAR",
+          "at": "YEAR",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the one-year delay calculator ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "World stocks: one year of waiting cost $731. Still waiting?",
+          "Give me 30 seconds. See what starting now keeps."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Your delay calculator is 30 seconds away."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$731",
+          "new": "missed"
+        },
+        "lines": [
+          "World stocks means one *fund* holding the biggest companies from 47 countries.",
+          "Since 2000, world stocks grew about 7.31% a year."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$731",
+          "new": "missed"
+        },
+        "lines": [
+          "Waiting a year on $10,000 missed $731."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "WAITS A YEAR",
+            "v": "$10,000",
+            "sub": "still sitting",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "STARTS NOW",
+            "v": "+$731",
+            "sub": "same $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two friends each have $10,000.",
+          "One starts now, one waits a year."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "WAITS A YEAR",
+            "v": "$10,000",
+            "sub": "still sitting",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "STARTS NOW",
+            "v": "+$731",
+            "sub": "same $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The late one stays a year *behind* for good."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SMOOTH",
+          "new": "BUMPY"
+        },
+        "lines": [
+          "But world stocks fell 58% from 2007 to 2009."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$731",
+          "new": "starting now keeps it"
+        },
+        "lines": [
+          "Starting now keeps that $731, if past rates hold."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$731",
+          "new": "gone"
+        },
+        "lines": [
+          "Wait another year and $731 is *gone*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "YEAR",
+          "gift": "the one-year delay calculator"
+        },
+        "lines": [
+          "Comment *YEAR,* and I will send you the one-year delay calculator."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook, a lock-in naming the calculator, a loss scene that says what world stocks is before the $731, a rehook, a compare scene of two friends showing why the late one stays behind, the 58% drop as the trap, the $731 closing with a past-rate caveat, then the dark loss cut and the DELAY call to action.",
+      "shape": "dark",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "glass",
+      "parts": [
+        "glass",
+        "shrink",
+        "tail",
+        "callout",
+        "compare",
+        "stack",
+        "split",
+        "strike",
+        "stamp",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "fade",
+        "iris",
+        "pan",
+        "iris",
+        "fade",
+        "wipe",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 2,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "YEAR"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "World stocks: one year of waiting cost $731. Still waiting?",
+        "part": "glass",
+        "data": {
+          "pill": "THE ONE-YEAR DELAY CALCULATOR",
+          "num": "$731",
+          "line": "World stocks: one year of waiting cost $731. Still waiting?",
+          "promise": "Give me 30 seconds. See what starting now keeps.",
+          "subj": "WORLD STOCKS",
+          "stamp": "DON'T WAIT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See what starting now keeps.",
+        "nocap": true
+      },
+      {
+        "say": "Your delay calculator is 30 seconds away.",
+        "cap": "low"
+      },
+      {
+        "say": "World stocks means one *fund* holding the biggest companies from 47 countries.",
+        "part": "stamp",
+        "data": {
+          "old": "$731",
+          "new": "missed",
+          "at": 1,
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Since 2000, world stocks grew about 7.31% a year."
+      },
+      {
+        "say": "Waiting a year on $10,000 missed $731.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "731",
+          "pre": "$",
+          "suf": "",
+          "label": "missed",
+          "at": "$731"
+        },
+        "dark": true,
+        "in": "iris"
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Two friends each have $10,000.",
+        "part": "split",
+        "data": {
+          "k": "WAITS A YEAR vs STARTS NOW",
+          "total": "$10,000",
+          "a": {
+            "v": "$10,000",
+            "l": "WAITS A YEAR",
+            "w": 0.88,
+            "at": "$10,000"
+          },
+          "b": {
+            "v": "+$731",
+            "l": "STARTS NOW",
+            "at": 1,
+            "label_at": 1
+          }
+        },
+        "badge": "THE GAP",
+        "in": "iris"
+      },
+      {
+        "say": "One starts now, one waits a year."
+      },
+      {
+        "say": "The late one stays a year *behind* for good.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "WAITS A YEAR",
+            "big": "$10,000",
+            "ft": "still sitting"
+          },
+          "b": {
+            "k": "STARTS NOW",
+            "big": "+$731",
+            "ft": "same $10,000",
+            "at": 0
+          }
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "But world stocks fell 58% from 2007 to 2009.",
+        "part": "tabs",
+        "data": {
+          "old": "SMOOTH",
+          "new": "BUMPY",
+          "at": 0,
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Starting now keeps that $731, if past rates hold.",
+        "part": "strike",
+        "data": {
+          "old": "$731",
+          "new": "starting now keeps it",
+          "at": "Starting",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Wait another year and $731 is *gone*.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "$731",
+              "v": "$731",
+              "w": 1.0,
+              "at": "$731"
+            },
+            {
+              "l": "gone",
+              "v": "gone",
+              "w": 0.2,
+              "at": "gone"
+            }
+          ]
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Comment *YEAR,* and I will send you the one-year delay calculator.",
+        "part": "tiles",
+        "data": {
+          "word": "YEAR",
+          "at": "YEAR",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the one-year delay calculator ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "World stocks: one year of waiting cost $731. Still waiting?",
+          "Give me 30 seconds. See what starting now keeps."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Your delay calculator is 30 seconds away."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$731",
+          "new": "missed"
+        },
+        "lines": [
+          "World stocks means one *fund* holding the biggest companies from 47 countries.",
+          "Since 2000, world stocks grew about 7.31% a year."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$731",
+          "new": "missed"
+        },
+        "lines": [
+          "Waiting a year on $10,000 missed $731."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "WAITS A YEAR",
+            "v": "$10,000",
+            "sub": "still sitting",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "STARTS NOW",
+            "v": "+$731",
+            "sub": "same $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two friends each have $10,000.",
+          "One starts now, one waits a year."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "WAITS A YEAR",
+            "v": "$10,000",
+            "sub": "still sitting",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "STARTS NOW",
+            "v": "+$731",
+            "sub": "same $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The late one stays a year *behind* for good."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SMOOTH",
+          "new": "BUMPY"
+        },
+        "lines": [
+          "But world stocks fell 58% from 2007 to 2009."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$731",
+          "new": "starting now keeps it"
+        },
+        "lines": [
+          "Starting now keeps that $731, if past rates hold."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$731",
+          "new": "gone"
+        },
+        "lines": [
+          "Wait another year and $731 is *gone*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "YEAR",
+          "gift": "the one-year delay calculator"
+        },
+        "lines": [
+          "Comment *YEAR,* and I will send you the one-year delay calculator."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook, a lock-in naming the calculator, a loss scene that says what world stocks is before the $731, a rehook, a compare scene of two friends showing why the late one stays behind, the 58% drop as the trap, the $731 closing with a past-rate caveat, then the dark loss cut and the DELAY call to action.",
+      "shape": "dark",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "glass",
+      "parts": [
+        "glass",
+        "stamp",
+        "odometer",
+        "callout",
+        "split",
+        "compare",
+        "tabs",
+        "strike",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "iris",
+        "pan",
+        "iris",
+        "wipe",
+        "pan",
+        "iris",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "YEAR"
+    }
+  },
+  "plain": {
+    "what": "MSCI ACWI is an index, a list of the biggest companies, bought all at once, from 47 countries around the world. From late 2000 to October 2026, it grew about 7.31% a year in US dollars, counting the money companies paid out and putting it back in. It was not a smooth ride, though: it fell 58% from 2007 to 2009, and some years went down.",
+    "so_what": "If you had $10,000, one year of waiting meant missing about $731 of growth at that rate. That 7.31% comes from the past, so it is only an example and not a promise.",
+    "do": "Write down an amount you have in mind, then work out 7.31% of it to see what one year of waiting might have cost in the past.",
+    "words": [
+      {
+        "term": "MSCI ACWI",
+        "means": "a list of big companies from 47 countries"
+      },
+      {
+        "term": "index",
+        "means": "a list of the biggest companies, bought all at once"
+      },
+      {
+        "term": "fund",
+        "means": "holds many companies at once"
+      },
+      {
+        "term": "return",
+        "means": "how much your money grew, shown as a percent"
+      },
+      {
+        "term": "dividend",
+        "means": "money a company pays you"
+      },
+      {
+        "term": "TFSA",
+        "means": "a Canadian account where your growth is not taxed"
+      },
+      {
+        "term": "RRSP",
+        "means": "a Canadian retirement account where tax waits until you take money out"
+      }
+    ]
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "World stocks: one year of waiting cost $731. Still waiting?",
+        "part": "glass",
+        "data": {
+          "pill": "THE ONE-YEAR DELAY CALCULATOR",
+          "num": "$731",
+          "line": "World stocks: one year of waiting cost $731. Still waiting?",
+          "promise": "Give me 30 seconds. See what starting now keeps.",
+          "subj": "WORLD STOCKS",
+          "stamp": "DON'T WAIT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See what starting now keeps.",
+        "nocap": true
+      },
+      {
+        "say": "Your delay calculator is 30 seconds away.",
+        "cap": "low"
+      },
+      {
+        "say": "World stocks means one *fund* holding the biggest companies from 47 countries.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "731",
+          "pre": "$",
+          "suf": "",
+          "label": "missed",
+          "at": 1
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Since 2000, world stocks grew about 7.31% a year."
+      },
+      {
+        "say": "Waiting a year on $10,000 missed $731.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "$731",
+              "v": "$731",
+              "w": 1.0,
+              "at": "$731"
+            },
+            {
+              "l": "missed",
+              "v": "missed",
+              "w": 0.2,
+              "at": "missed"
+            }
+          ]
+        },
+        "dark": true,
+        "in": "pan"
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Two friends each have $10,000.",
+        "part": "split",
+        "data": {
+          "k": "WAITS A YEAR vs STARTS NOW",
+          "total": "$10,000",
+          "a": {
+            "v": "$10,000",
+            "l": "WAITS A YEAR",
+            "w": 0.88,
+            "at": "$10,000"
+          },
+          "b": {
+            "v": "+$731",
+            "l": "STARTS NOW",
+            "at": 1,
+            "label_at": 1
+          }
+        },
+        "badge": "THE GAP",
+        "in": "pan"
+      },
+      {
+        "say": "One starts now, one waits a year."
+      },
+      {
+        "say": "The late one stays a year *behind* for good.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "WAITS A YEAR",
+            "v": "$10,000",
+            "sub": "still sitting"
+          },
+          "b": {
+            "h": "STARTS NOW",
+            "v": "+$731",
+            "sub": "same $10,000"
+          },
+          "at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "But world stocks fell 58% from 2007 to 2009.",
+        "part": "swap",
+        "data": {
+          "old": "SMOOTH",
+          "new": "BUMPY",
+          "at": "But"
+        }
+      },
+      {
+        "say": "Starting now keeps that $731, if past rates hold.",
+        "part": "stamp",
+        "data": {
+          "old": "$731",
+          "new": "starting now keeps it",
+          "at": "starting",
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Wait another year and $731 is *gone*.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$731",
+          "tail": "gone",
+          "at": "$731"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Comment *YEAR,* and I will send you the one-year delay calculator.",
+        "part": "tiles",
+        "data": {
+          "word": "YEAR",
+          "at": "YEAR",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the one-year delay calculator ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "World stocks: one year of waiting cost $731. Still waiting?",
+          "Give me 30 seconds. See what starting now keeps."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Your delay calculator is 30 seconds away."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$731",
+          "new": "missed"
+        },
+        "lines": [
+          "World stocks means one *fund* holding the biggest companies from 47 countries.",
+          "Since 2000, world stocks grew about 7.31% a year."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$731",
+          "new": "missed"
+        },
+        "lines": [
+          "Waiting a year on $10,000 missed $731."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "WAITS A YEAR",
+            "v": "$10,000",
+            "sub": "still sitting",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "STARTS NOW",
+            "v": "+$731",
+            "sub": "same $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two friends each have $10,000.",
+          "One starts now, one waits a year."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "WAITS A YEAR",
+            "v": "$10,000",
+            "sub": "still sitting",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "STARTS NOW",
+            "v": "+$731",
+            "sub": "same $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The late one stays a year *behind* for good."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SMOOTH",
+          "new": "BUMPY"
+        },
+        "lines": [
+          "But world stocks fell 58% from 2007 to 2009."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$731",
+          "new": "starting now keeps it"
+        },
+        "lines": [
+          "Starting now keeps that $731, if past rates hold."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$731",
+          "new": "gone"
+        },
+        "lines": [
+          "Wait another year and $731 is *gone*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "YEAR",
+          "gift": "the one-year delay calculator"
+        },
+        "lines": [
+          "Comment *YEAR,* and I will send you the one-year delay calculator."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook, a lock-in naming the calculator, a loss scene that says what world stocks is before the $731, a rehook, a compare scene of two friends showing why the late one stays behind, the 58% drop as the trap, the $731 closing with a past-rate caveat, then the dark loss cut and the DELAY call to action.",
+      "shape": "dark",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "glass",
+      "parts": [
+        "glass",
+        "odometer",
+        "shrink",
+        "callout",
+        "split",
+        "wipe",
+        "swap",
+        "stamp",
+        "tail",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "pan",
+        "iris",
+        "pan",
+        "iris",
+        "fade",
+        "wipe",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "YEAR"
+    }
+  },
+  "caption": "🐶⛏️ If you wait a year to start, $731 of growth could slip past you.\n\nWorld stocks grew about 7.31% a year in the past, so sitting out a year misses that growth. But they also dropped 58% once, so that rate isn't a promise.\n\nComment YEAR and I'll send you my one-year delay calculator 🪙\nStarted yet or still waiting?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#investingcanada #indexfunds #torontofinance",
+  "caption_b": "🐶⛏️ Everyone says wait for the dip. World stocks already had a 58% one.\n\nThat crash already sits inside the 7.31% a year, so waiting just leaves your money a year behind. That rate comes from the past, and fees and the Canadian dollar change what you'd really get.\n\nComment YEAR and I'll send you my one-year delay calculator 🪙\nStarted yet or still waiting?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#investingcanada #indexfunds #torontofinance",
+  "caption_family": "myth"
+}

@@ -1,0 +1,87 @@
+{
+  "key": "wgmi-miner-etf-drop-vs-2022-rebound",
+  "category": "stocks",
+  "status": "draft",
+  "title": "비트코인 채굴주 ETF WGMI가 시장이 오른 날 하루에 크게 빠졌다. 고점에서 얼마나 내려왔는지, 그리고 2022년에 비슷하게 무너진 뒤 실제로 어떻게 됐는지",
+  "object": "THE MINER ETF DISCOUNT TABLE",
+  "made_by": "엔진/find.py 2026-11-05 · 신호 ['s43fe2ad0', 'sd37691e4', 's6be3bbc1', 's1573138c', 's54817a27'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "8.59",
+    "unit": "%",
+    "thing": "one-day drop in the WGMI bitcoin miners ETF on Wednesday, Nov 4, 2026, a day the S&P 500 rose 1.62%",
+    "box": "CoinShares Bitcoin Mining and Digital Power ETF (WGMI), Nasdaq",
+    "claim": "On Wednesday, November 4, 2026, the CoinShares Bitcoin Mining and Digital Power ETF (WGMI) closed down 8.59%. The S&P 500 rose 1.62% that same day, after midterm election results. WGMI owns bitcoin miners that have moved into AI hosting, not bitcoin itself, so it can fall on a day the wider market goes up. This is one day's closing move and does not predict what the fund will do next.",
+    "sources": [
+      "ETF ACTION (NOV 5, 2026)",
+      "ETF ACTION (NOV 5, 2026)",
+      "THESTREET PRO (NOV 5, 2026)"
+    ],
+    "verified": "find.py · 대조 0/3"
+  },
+  "sources": [
+    {
+      "label": "ETF ACTION (NOV 5, 2026)",
+      "url": "https://www.etfaction.com/election-clarity-sparks-broad-rally-as-energy-and-oil-slide/",
+      "what": "The CoinShares Bitcoin Mining and Digital Power ETF (WGMI) also declined 8.59%, reflecting pressure on crypto-adjacent infrastructure plays.",
+      "confidence": "2차"
+    },
+    {
+      "label": "ETF ACTION (NOV 5, 2026)",
+      "url": "https://www.etfaction.com/election-clarity-sparks-broad-rally-as-energy-and-oil-slide/",
+      "what": "U.S. equities rallied sharply after midterm election results confirmed a divided Congress, with the S&P 500 (IVV) advancing 1.62% on the day even as it remains down modestly over the trailing month.",
+      "confidence": "2차"
+    },
+    {
+      "label": "THESTREET PRO (NOV 5, 2026)",
+      "url": "https://pro.thestreet.com/market-commentary/a-new-crop-of-winners-and-losers-is-emerging-after-a-major-political-shift",
+      "what": "the CoinShares Bitcoin Mining and Digital Power ETF (WGMI), which holds bitcoin miners that have pivoted to AI hosting, dropped about 9%.",
+      "confidence": "2차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "STOCKS · CANADA",
+      "topic": "WHY STOCKS",
+      "hook": {
+        "pre": "WGMI dropped ",
+        "num": "8.59",
+        "post": "% the day the S&P 500 rose 1.62%."
+      },
+      "promise": "Give me 30 seconds. See what you really own."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "WGMI dropped 8.59% the day the S&P 500 rose 1.62%.",
+      "WGMI fell 8.59% while the market rose. Want it back?",
+      "You bought WGMI for bitcoin. It fell 8.59% anyway.",
+      "WGMI fell 8.59% on a day stocks went up.",
+      "Hama checked WGMI: down 8.59% while stocks rose.",
+      "WGMI took 8.59% off your money in one day.",
+      "WGMI buys bitcoin-making companies, not bitcoin. It fell 8.59%.",
+      "WGMI down 8.59%, the S&P 500 up 1.62% same day.",
+      "WGMI lost 8.59% in one day, Wednesday, November 4.",
+      "Never call WGMI bitcoin. It fell 8.59% Wednesday."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "WGMI dropped 8.59% the day the S&P 500 rose 1.62%.",
+    "spoken": "WGMI dropped 8.59% the day the S&P 500 rose 1.62%.",
+    "promise": "Give me 30 seconds. See what you really own.",
+    "pick_why": "It leads with the drop and the market's gain in the same line, so a beginner who holds anything bitcoin-shaped stops cold and saves it to find out why their day went the wrong way.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05"
+  }
+}

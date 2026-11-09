@@ -1,0 +1,1287 @@
+{
+  "key": "carf-crypto-swap-taxable",
+  "category": "crypto",
+  "status": "draft",
+  "title": "Your coin swaps count. Missing them twice can cost 10%.",
+  "object": "THE CRYPTO RECORDS CHECKLIST",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s1ea3491b', 'sb7e63a60'] · 퍼스나 The shaken coin holder",
+  "fact": {
+    "num": "10",
+    "unit": "%",
+    "thing": "repeated failure to report income penalty",
+    "box": "Your T1 income tax return (CRA)",
+    "claim": "Trading one crypto-asset for another type of crypto-asset can count as a disposition, so you have to report it on your return. If you leave out $500 or more on your 2025 return and also left out income on your 2022, 2023 or 2024 return, the CRA can charge a penalty. The penalty is whichever is less: 10% of the amount you failed to report (federal and provincial or territorial), or 50% of the understated tax minus any tax withheld on that amount. One missed swap does not trigger it alone, because it only applies to a repeated failure. Budget 2024 said Canada would bring in the Crypto-Asset Reporting Framework effective as of 2026, with exchanges of information beginning in 2027, pending legislation.",
+    "sources": [
+      "CRA – False reporting or repeated failure to report income",
+      "CRA – False reporting or repeated failure to report income",
+      "CRA – Income from crypto-asset transactions",
+      "Budget 2024 – Chapter 8"
+    ],
+    "verified": "find.py · 대조 4/4",
+    "felt": {
+      "num": "100",
+      "unit": "$",
+      "how": "10% penalty on $1,000 of coin swaps left off the 2025 return, after a prior miss in 2022–2024",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA – False reporting or repeated failure to report income",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/interest-penalties/false-reporting.html",
+      "what": "10% of the amount that you failed to report (federal and provincial or territorial)",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – False reporting or repeated failure to report income",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/interest-penalties/false-reporting.html",
+      "what": "You may have to pay a federal and provincial or territorial penalty if you fail to report an amount of $500 or more on your:",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Income from crypto-asset transactions",
+      "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/cryptocurrency-guide/income-crypto-transactions.html",
+      "what": "Trade or exchange it for government-issued currency or another type of crypto-asset",
+      "confidence": "1차"
+    },
+    {
+      "label": "Budget 2024 – Chapter 8",
+      "url": "https://budget.canada.ca/2024/report-rapport/chap8-en.html",
+      "what": "Budget 2024 announces the government's intention to implement the OECD-agreed Crypto-Asset Reporting Framework, including consequential amendments to the Common Reporting Standard, effective as of 2026 to permit exchanges under the new and amended reporting requirements beginning in 2027.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "CRYPTO · CANADA",
+      "topic": "THE BITCOIN CLOCK",
+      "hook": {
+        "pre": "The CRA charges $",
+        "num": "100",
+        "post": " on no-cash coin swaps. Want it back?"
+      },
+      "promise": "Give me 30 seconds. Keep that money home."
+    },
+    {
+      "type": "flow",
+      "kicker": "A SWAP STILL COUNTS",
+      "title": "Where a *swap* turns into a penalty.",
+      "lead": "You trade one coin for another. No cash comes out. <em>The CRA can still count it.</em>",
+      "steps": [
+        {
+          "n": "$1,000",
+          "t": "left off your 2025 return",
+          "s": "coin for coin"
+        },
+        {
+          "n": "+1 miss",
+          "t": "also left out before",
+          "s": "in 2022, 2023 or 2024"
+        },
+        {
+          "n": "−$100",
+          "t": "up to 10% penalty",
+          "s": "10% of $1,000",
+          "cut": true
+        }
+      ],
+      "tail": "Example math. The penalty is the lesser of 10% or 50% of the understated tax minus tax withheld. One miss alone doesn't trigger it.",
+      "source_label": "CRA",
+      "say": "No cash out.|Still counts."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE CRYPTO RECORDS CHECKLIST",
+      "title": "Six lines to check before you file.",
+      "rowlabel": "YEAR",
+      "cols": [
+        "CHECK THIS",
+        "WHY IT MATTERS"
+      ],
+      "labw": 22,
+      "rows": [
+        {
+          "a": "2022",
+          "asub": "return",
+          "cells": [
+            "Any swap left out?",
+            "Counts as a past miss"
+          ]
+        },
+        {
+          "a": "2023",
+          "asub": "return",
+          "cells": [
+            "Any swap left out?",
+            "Counts as a past miss"
+          ]
+        },
+        {
+          "a": "2024",
+          "asub": "return",
+          "cells": [
+            "Any swap left out?",
+            "Counts as a past miss"
+          ]
+        },
+        {
+          "a": "2025",
+          "asub": "return",
+          "cells": [
+            "$500 or more left out?",
+            "Can trigger the 10%"
+          ]
+        },
+        {
+          "a": "2026",
+          "asub": "trades",
+          "cells": [
+            "New reporting starts",
+            "Keep your own list"
+          ]
+        },
+        {
+          "a": "2027",
+          "asub": "sharing",
+          "cells": [
+            "Info exchanges begin",
+            "Pending legislation"
+          ]
+        }
+      ],
+      "hi": [
+        3,
+        1
+      ],
+      "note": "Coin to cash and coin to coin can both count. <b>Save this. Check every line before you file.</b>",
+      "source_label": "CRA · BUDGET 2024"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "The CRA takes $100 for missed coin swaps. Want it back?",
+      "The CRA kept $100 of your coin swaps. Want it home?",
+      "The CRA bills $100 for coin swaps left off. Want it back?",
+      "The CRA charges $100 on no-cash coin swaps. Want it back?",
+      "The CRA could take $100 from Hama's coin swaps. Want yours safe?",
+      "The CRA cost coin swappers $100. Want it back?",
+      "The CRA's coin swap penalty is $100. Want it back?",
+      "The CRA: missed coin swaps $100, reported ones free. Want it back?",
+      "The CRA keeps $100 on coin swaps missed since 2022. Still waiting?",
+      "The CRA keeps $100 on coin swaps skipped twice. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "The CRA charges $100 on no-cash coin swaps. Want it back?",
+    "spoken": "The CRA charges $100 on no-cash coin swaps. Want it back?",
+    "promise": "Give me 30 seconds. Keep that money home.",
+    "pick_why": "No-cash coin swaps is the one line a beginner reads and thinks that is me, and the $100 attached makes them save it.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "FILE IT"
+  },
+  "lede": "Trading one coin for another can go on your return. Leave it out twice and the CRA can charge up to 10% of what you skipped.",
+  "series": "CRYPTO TAX BASICS",
+  "source_note": "CRA · BUDGET 2024 · CRYPTO TAX RULES",
+  "caption": "🐶⛏️ If you skip coin swaps, a $100 penalty could find you.\n\nTo the CRA, swapping coins is selling even with no cash out, so it goes on your return. One miss won't trigger it, but a second one lets them take 10% of what you left off.\n\nComment SWAP and I'll send you my crypto records checklist 🪙\nEver swapped one coin for another?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#cryptocanada #canadiantaxes #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "The CRA charges $100 on no-cash coin swaps. Want it back?",
+        "part": "window",
+        "data": {
+          "pill": "THE CRYPTO RECORDS CHECKLIST",
+          "num": "$100",
+          "line": "The CRA charges $100 on no-cash coin swaps. Want it back?",
+          "promise": "Give me 30 seconds. Keep that money home.",
+          "subj": "CRA",
+          "stamp": "FILE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep that money home.",
+        "nocap": true
+      },
+      {
+        "say": "The *checklist* is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "You swap $1,000 of one coin for another, no cash out.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "100",
+          "pre": "$",
+          "suf": "",
+          "label": "−$100",
+          "at": "$100"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Canada's tax office still counts it, up to $100 *gone*."
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "A swap means you gave up something you *owned*.",
+        "part": "table",
+        "data": {
+          "k": "THE WHY",
+          "cols": [
+            "CHECK THIS",
+            "WHY IT MATTERS"
+          ],
+          "rows": [
+            {
+              "lab": "2022",
+              "cells": [
+                "Any swap left out?",
+                "Counts as a past miss"
+              ]
+            },
+            {
+              "lab": "2023",
+              "cells": [
+                "Any swap left out?",
+                "Counts as a past miss"
+              ]
+            },
+            {
+              "lab": "2024",
+              "cells": [
+                "Any swap left out?",
+                "Counts as a past miss"
+              ]
+            },
+            {
+              "lab": "2025",
+              "cells": [
+                "$500 or more left out?",
+                "Can trigger the 10%"
+              ]
+            }
+          ],
+          "hi": 3,
+          "at": 1
+        },
+        "badge": "THE WHY"
+      },
+      {
+        "say": "To the CRA, that is selling."
+      },
+      {
+        "say": "Report it and nothing is charged.",
+        "part": "split",
+        "data": {
+          "k": "LEFT OFF vs REPORTED",
+          "total": "$1,000",
+          "a": {
+            "v": "−$100",
+            "l": "LEFT OFF",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "$1,000",
+            "l": "REPORTED",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Miss once, nothing, but miss twice and 10% can hit.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "ONE MISS",
+            "v": "ONE MISS",
+            "sub": ""
+          },
+          "b": {
+            "h": "TWICE",
+            "v": "TWICE",
+            "sub": ""
+          },
+          "at": "TWICE"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Every swap reported, and that $100 stays *home*.",
+        "part": "stamp",
+        "data": {
+          "old": "$100",
+          "new": "stays home",
+          "at": "stays",
+          "k": ""
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Open your 2022 to 2025 returns.",
+        "part": "fan",
+        "data": {
+          "items": [
+            "Start · your account",
+            "2022 to 2024 returns",
+            "2025, $500 or more",
+            "Your own swap list",
+            "Save this post"
+          ],
+          "k": "THE CRYPTO RECORDS CHECKLIST",
+          "from": 0,
+          "to": 1
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "List any swap you left off."
+      },
+      {
+        "say": "Comment *SWAP,* and I will send you the crypto records checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "SWAP",
+          "at": "SWAP",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the crypto records checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "The CRA charges $100 on no-cash coin swaps. Want it back?",
+          "Give me 30 seconds. Keep that money home."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The *checklist* is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "THE SWAP",
+        "data": {
+          "old": "−$100",
+          "new": "$0 back"
+        },
+        "lines": [
+          "You swap $1,000 of one coin for another, no cash out.",
+          "Canada's tax office still counts it, up to $100 *gone*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE WHY",
+        "data": {
+          "a": {
+            "h": "LEFT OFF",
+            "v": "−$100",
+            "sub": "10% of $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "REPORTED",
+            "v": "$1,000",
+            "sub": "all of it stays",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "A swap means you gave up something you *owned*.",
+          "To the CRA, that is selling."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "LEFT OFF",
+            "v": "−$100",
+            "sub": "10% of $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "REPORTED",
+            "v": "$1,000",
+            "sub": "all of it stays",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Report it and nothing is charged."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ONE MISS",
+          "new": "TWICE"
+        },
+        "lines": [
+          "Miss once, nothing, but miss twice and 10% can hit."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$100",
+          "new": "stays home"
+        },
+        "lines": [
+          "Every swap reported, and that $100 stays *home*."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "2022 to 2024 returns",
+            "2025, $500 or more",
+            "Your own swap list"
+          ]
+        },
+        "lines": [
+          "Open your 2022 to 2025 returns.",
+          "List any swap you left off."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "SWAP",
+          "gift": "the crypto records checklist"
+        },
+        "lines": [
+          "Comment *SWAP,* and I will send you the crypto records checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Follows the given arc exactly: hook and promise, a one-breath lock-in naming the checklist, a loss scene showing the $100 gone from a $1,000 swap, a rehook, a compare explaining why a swap counts as selling, the repeated-failure trap as the second rehook, the $100 closing, then the given check and cta ending.",
+      "shape": "dark",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "window",
+      "parts": [
+        "window",
+        "odometer",
+        "callout",
+        "table",
+        "split",
+        "wipe",
+        "stamp",
+        "fan",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "wipe",
+        "fade",
+        "pan",
+        "iris",
+        "dissolve",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "SWAP"
+    }
+  },
+  "plain": {
+    "what": "Trading one coin for another — like swapping bitcoin for a different coin — can count as a \"disposition\" to the CRA. That means Canada's tax office sees it as you giving something up, so it belongs on your tax return, even if no cash ever landed in your bank account. If you leave out $500 or more on your 2025 return and you also left out income on your 2022, 2023 or 2024 return, the CRA can charge a penalty.",
+    "so_what": "The penalty can be 10% of what you left out, so leaving out $1,000 means up to $100 gone, and one missed swap alone does not trigger it.",
+    "do": "Pull up your 2022 to 2025 tax returns today and write down any coin swap you left off.",
+    "words": [
+      {
+        "term": "coin swap",
+        "means": "trading one crypto coin for a different kind of coin"
+      },
+      {
+        "term": "disposition",
+        "means": "giving up something you owned, which the CRA counts"
+      },
+      {
+        "term": "CRA",
+        "means": "Canada's tax office"
+      },
+      {
+        "term": "T1 return",
+        "means": "the yearly tax form you file with the CRA"
+      },
+      {
+        "term": "penalty",
+        "means": "extra money the tax office charges you for a mistake"
+      },
+      {
+        "term": "understated tax",
+        "means": "tax you should have paid but reported as less"
+      },
+      {
+        "term": "withheld",
+        "means": "tax already taken off before you got the money"
+      },
+      {
+        "term": "bitcoin",
+        "means": "a digital coin kept and traded online, not cash"
+      }
+    ]
+  },
+  "subject": "The CRA",
+  "deliver": {
+    "word": "SWAP",
+    "gift": "the crypto records checklist"
+  },
+  "check": [
+    "2022 to 2024 returns",
+    "2025, $500 or more",
+    "Your own swap list"
+  ],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "The CRA charges $100 on no-cash coin swaps. Want it back?",
+        "part": "glass",
+        "data": {
+          "pill": "THE CRYPTO RECORDS CHECKLIST",
+          "num": "$100",
+          "line": "The CRA charges $100 on no-cash coin swaps. Want it back?",
+          "promise": "Give me 30 seconds. Keep that money home.",
+          "subj": "CRA",
+          "stamp": "FILE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep that money home.",
+        "nocap": true
+      },
+      {
+        "say": "The *checklist* is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "You swap $1,000 of one coin for another, no cash out.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "100",
+          "pre": "$",
+          "suf": "",
+          "label": "−$100",
+          "at": "$100"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Canada's tax office still counts it, up to $100 *gone*."
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        }
+      },
+      {
+        "say": "A swap means you gave up something you *owned*.",
+        "part": "table",
+        "data": {
+          "k": "THE WHY",
+          "cols": [
+            "CHECK THIS",
+            "WHY IT MATTERS"
+          ],
+          "rows": [
+            {
+              "lab": "2022",
+              "cells": [
+                "Any swap left out?",
+                "Counts as a past miss"
+              ]
+            },
+            {
+              "lab": "2023",
+              "cells": [
+                "Any swap left out?",
+                "Counts as a past miss"
+              ]
+            },
+            {
+              "lab": "2024",
+              "cells": [
+                "Any swap left out?",
+                "Counts as a past miss"
+              ]
+            },
+            {
+              "lab": "2025",
+              "cells": [
+                "$500 or more left out?",
+                "Can trigger the 10%"
+              ]
+            }
+          ],
+          "hi": 3,
+          "at": 1
+        },
+        "badge": "THE WHY",
+        "in": "wipe"
+      },
+      {
+        "say": "To the CRA, that is selling."
+      },
+      {
+        "say": "Report it and nothing is charged.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "LEFT OFF",
+            "big": "−$100",
+            "ft": "10% of $1,000"
+          },
+          "b": {
+            "k": "REPORTED",
+            "big": "$1,000",
+            "ft": "all of it stays",
+            "at": 0
+          }
+        }
+      },
+      {
+        "say": "Miss once, nothing, but miss twice and 10% can hit.",
+        "part": "tabs",
+        "data": {
+          "old": "ONE MISS",
+          "new": "TWICE",
+          "at": "TWICE",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Every swap reported, and that $100 stays *home*.",
+        "part": "stamp",
+        "data": {
+          "old": "$100",
+          "new": "stays home",
+          "at": "stays",
+          "k": ""
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Open your 2022 to 2025 returns.",
+        "part": "fan",
+        "data": {
+          "items": [
+            "Start · your account",
+            "2022 to 2024 returns",
+            "2025, $500 or more",
+            "Your own swap list",
+            "Save this post"
+          ],
+          "k": "THE CRYPTO RECORDS CHECKLIST",
+          "from": 0,
+          "to": 1
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "List any swap you left off."
+      },
+      {
+        "say": "Comment *SWAP,* and I will send you the crypto records checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "SWAP",
+          "at": "SWAP",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the crypto records checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "The CRA charges $100 on no-cash coin swaps. Want it back?",
+          "Give me 30 seconds. Keep that money home."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The *checklist* is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "THE SWAP",
+        "data": {
+          "old": "−$100",
+          "new": "$0 back"
+        },
+        "lines": [
+          "You swap $1,000 of one coin for another, no cash out.",
+          "Canada's tax office still counts it, up to $100 *gone*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE WHY",
+        "data": {
+          "a": {
+            "h": "LEFT OFF",
+            "v": "−$100",
+            "sub": "10% of $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "REPORTED",
+            "v": "$1,000",
+            "sub": "all of it stays",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "A swap means you gave up something you *owned*.",
+          "To the CRA, that is selling."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "LEFT OFF",
+            "v": "−$100",
+            "sub": "10% of $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "REPORTED",
+            "v": "$1,000",
+            "sub": "all of it stays",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Report it and nothing is charged."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ONE MISS",
+          "new": "TWICE"
+        },
+        "lines": [
+          "Miss once, nothing, but miss twice and 10% can hit."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$100",
+          "new": "stays home"
+        },
+        "lines": [
+          "Every swap reported, and that $100 stays *home*."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "2022 to 2024 returns",
+            "2025, $500 or more",
+            "Your own swap list"
+          ]
+        },
+        "lines": [
+          "Open your 2022 to 2025 returns.",
+          "List any swap you left off."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "SWAP",
+          "gift": "the crypto records checklist"
+        },
+        "lines": [
+          "Comment *SWAP,* and I will send you the crypto records checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Follows the given arc exactly: hook and promise, a one-breath lock-in naming the checklist, a loss scene showing the $100 gone from a $1,000 swap, a rehook, a compare explaining why a swap counts as selling, the repeated-failure trap as the second rehook, the $100 closing, then the given check and cta ending.",
+      "shape": "dark",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "glass",
+      "parts": [
+        "glass",
+        "odometer",
+        "callout",
+        "table",
+        "dumbbell",
+        "tabs",
+        "stamp",
+        "fan",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "fade",
+        "wipe",
+        "fade",
+        "iris",
+        "dissolve",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "SWAP"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "The CRA charges $100 on no-cash coin swaps. Want it back?",
+        "part": "boil",
+        "data": {
+          "pill": "THE CRYPTO RECORDS CHECKLIST",
+          "num": "$100",
+          "line": "The CRA charges $100 on no-cash coin swaps. Want it back?",
+          "promise": "Give me 30 seconds. Keep that money home.",
+          "subj": "CRA",
+          "stamp": "FILE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep that money home.",
+        "nocap": true
+      },
+      {
+        "say": "The *checklist* is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "You swap $1,000 of one coin for another, no cash out.",
+        "part": "tail",
+        "data": {
+          "k": "THE SWAP",
+          "big": "−$100",
+          "tail": "$0 back",
+          "at": 1
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Canada's tax office still counts it, up to $100 *gone*."
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "A swap means you gave up something you *owned*.",
+        "part": "table",
+        "data": {
+          "k": "THE WHY",
+          "cols": [
+            "CHECK THIS",
+            "WHY IT MATTERS"
+          ],
+          "rows": [
+            {
+              "lab": "2022",
+              "cells": [
+                "Any swap left out?",
+                "Counts as a past miss"
+              ]
+            },
+            {
+              "lab": "2023",
+              "cells": [
+                "Any swap left out?",
+                "Counts as a past miss"
+              ]
+            },
+            {
+              "lab": "2024",
+              "cells": [
+                "Any swap left out?",
+                "Counts as a past miss"
+              ]
+            },
+            {
+              "lab": "2025",
+              "cells": [
+                "$500 or more left out?",
+                "Can trigger the 10%"
+              ]
+            }
+          ],
+          "hi": 3,
+          "at": 1
+        },
+        "badge": "THE WHY",
+        "in": "pan"
+      },
+      {
+        "say": "To the CRA, that is selling."
+      },
+      {
+        "say": "Report it and nothing is charged.",
+        "part": "donut",
+        "data": {
+          "k": "",
+          "segs": [
+            {
+              "l": "LEFT OFF",
+              "v": "−$100",
+              "w": 0.09090909090909091
+            },
+            {
+              "l": "REPORTED",
+              "v": "$1,000",
+              "w": 0.9090909090909091
+            }
+          ],
+          "hi": 1,
+          "at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Miss once, nothing, but miss twice and 10% can hit.",
+        "part": "tabs",
+        "data": {
+          "old": "ONE MISS",
+          "new": "TWICE",
+          "at": "TWICE",
+          "k": ""
+        }
+      },
+      {
+        "say": "Every swap reported, and that $100 stays *home*.",
+        "part": "strike",
+        "data": {
+          "old": "$100",
+          "new": "stays home",
+          "at": "home",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Open your 2022 to 2025 returns.",
+        "part": "fan",
+        "data": {
+          "items": [
+            "Start · your account",
+            "2022 to 2024 returns",
+            "2025, $500 or more",
+            "Your own swap list",
+            "Save this post"
+          ],
+          "k": "THE CRYPTO RECORDS CHECKLIST",
+          "from": 0,
+          "to": 1
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "List any swap you left off."
+      },
+      {
+        "say": "Comment *SWAP,* and I will send you the crypto records checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "SWAP",
+          "at": "SWAP",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the crypto records checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "The CRA charges $100 on no-cash coin swaps. Want it back?",
+          "Give me 30 seconds. Keep that money home."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The *checklist* is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "THE SWAP",
+        "data": {
+          "old": "−$100",
+          "new": "$0 back"
+        },
+        "lines": [
+          "You swap $1,000 of one coin for another, no cash out.",
+          "Canada's tax office still counts it, up to $100 *gone*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE WHY",
+        "data": {
+          "a": {
+            "h": "LEFT OFF",
+            "v": "−$100",
+            "sub": "10% of $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "REPORTED",
+            "v": "$1,000",
+            "sub": "all of it stays",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "A swap means you gave up something you *owned*.",
+          "To the CRA, that is selling."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "LEFT OFF",
+            "v": "−$100",
+            "sub": "10% of $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "REPORTED",
+            "v": "$1,000",
+            "sub": "all of it stays",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Report it and nothing is charged."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ONE MISS",
+          "new": "TWICE"
+        },
+        "lines": [
+          "Miss once, nothing, but miss twice and 10% can hit."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$100",
+          "new": "stays home"
+        },
+        "lines": [
+          "Every swap reported, and that $100 stays *home*."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "2022 to 2024 returns",
+            "2025, $500 or more",
+            "Your own swap list"
+          ]
+        },
+        "lines": [
+          "Open your 2022 to 2025 returns.",
+          "List any swap you left off."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "SWAP",
+          "gift": "the crypto records checklist"
+        },
+        "lines": [
+          "Comment *SWAP,* and I will send you the crypto records checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Follows the given arc exactly: hook and promise, a one-breath lock-in naming the checklist, a loss scene showing the $100 gone from a $1,000 swap, a rehook, a compare explaining why a swap counts as selling, the repeated-failure trap as the second rehook, the $100 closing, then the given check and cta ending.",
+      "shape": "dark",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "boil",
+      "parts": [
+        "boil",
+        "tail",
+        "callout",
+        "table",
+        "donut",
+        "tabs",
+        "strike",
+        "fan",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "wipe",
+        "fade",
+        "pan",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "SWAP"
+    }
+  },
+  "caption_b": "🐶⛏️ Can a beginner who skipped swaps since 2022 still clean this up?\n\nTo the CRA, a coin for coin swap is selling, so it goes on your return even with no cash out. One missed year does nothing, but a second miss can cost you 10% of what you left out.\n\nComment SWAP and I'll send you my crypto records checklist 🪙\nSwapped coins this year?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#cryptotaxcanada #bitcoincanada #torontofinance",
+  "caption_family": "possible"
+}

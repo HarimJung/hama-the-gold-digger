@@ -1,0 +1,1386 @@
+{
+  "key": "crypto-capital-gain-inclusion",
+  "category": "crypto",
+  "status": "draft",
+  "title": "The cut on your crypto win",
+  "object": "THE CRYPTO GAIN TAX TABLE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s1ea3491b'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "1,483",
+    "unit": "$",
+    "thing": "tax on a $10,000 crypto gain at a $60k–$107k Ontario income",
+    "box": "Taxable (non-registered) account, Ontario resident, 2026",
+    "claim": "When you sell crypto at a profit in a regular account, 50% of the gain is added to your taxable income. A $10,000 gain adds $5,000 to your income, and that $5,000 is taxed at your top rate. If your taxable income is between about $58,523 and $107,785 in 2026, that rate is 20.5% federal plus 9.15% Ontario, or 29.65%, which comes to about $1,483. At income under $53,891 the combined rate is 19.05% (about $953), and higher brackets owe more. Ontario surtax, the Ontario Health Premium and credits can shift the exact amount, and gains inside a TFSA are not taxed.",
+    "sources": [
+      "CRA – Calculating capital gains",
+      "CRA – 2026 tax rates (federal)",
+      "CRA – 2026 tax rates (Ontario)"
+    ],
+    "verified": "find.py · 대조 3/3",
+    "felt": {
+      "num": "1,483",
+      "unit": "$",
+      "a": null,
+      "b": null,
+      "how": "tax paid on a $10,000 crypto gain at $58,523–$107,785 Ontario income",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA – Calculating capital gains",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/calculating-reporting-your-capital-gains-losses.html",
+      "what": "Fifty percent of the capital gain would be taxable and you would report $1,220 as your taxable capital gain on line 12700 of your 2025 Income Tax and Benefit Return.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – 2026 tax rates (federal)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "what": "Federal rate: 2026",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – 2026 tax rates (Ontario)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "what": "The rate is determined by your province or territory of residence on December 31, 2026.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "CRYPTO · CANADA",
+      "topic": "THE BITCOIN CLOCK",
+      "hook": {
+        "pre": "Your $",
+        "num": "10,000",
+        "post": " bitcoin gain costs you $1,483."
+      },
+      "promise": "Give me 30 seconds. Keep more of your gain."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE CRYPTO GAIN TAX TABLE",
+      "title": "Your crypto gain. The *cut* by income.",
+      "rowlabel": "YOUR GAIN",
+      "cols": [
+        "HALF IS TAXED",
+        "INCOME UNDER $53,891",
+        "INCOME $58,523 TO $107,785"
+      ],
+      "labw": 22,
+      "rows": [
+        {
+          "a": "$1,000",
+          "asub": "gain",
+          "cells": [
+            "$500",
+            "$95",
+            "$148"
+          ]
+        },
+        {
+          "a": "$3,000",
+          "asub": "gain",
+          "cells": [
+            "$1,500",
+            "$286",
+            "$445"
+          ]
+        },
+        {
+          "a": "$5,000",
+          "asub": "gain",
+          "cells": [
+            "$2,500",
+            "$476",
+            "$741"
+          ]
+        },
+        {
+          "a": "$10,000",
+          "asub": "gain",
+          "cells": [
+            "$5,000",
+            "$953",
+            "$1,483"
+          ]
+        }
+      ],
+      "hi": [
+        3,
+        2
+      ],
+      "note": "Ontario, 2026, regular box. Gain × 50% × 19.05% or 29.65%. Example math, not your final bill. Surtax, health premium and credits can shift it. A big gain can push you into the next bracket. <b>Save this. Find your row.</b>",
+      "source_label": "CRA 2026 RATES"
+    },
+    {
+      "type": "flow",
+      "kicker": "WHERE THE $1,483 COMES FROM",
+      "lead": "You sell crypto for a $10,000 profit in a regular box. <em>Half of it joins your income.</em>",
+      "steps": [
+        {
+          "n": "$10,000",
+          "t": "your crypto gain",
+          "s": "sold in a regular box"
+        },
+        {
+          "n": "$5,000",
+          "t": "50% added to income",
+          "s": "the taxable half"
+        },
+        {
+          "n": "−$1,483",
+          "t": "29.65% cut",
+          "s": "20.5% federal + 9.15% Ontario",
+          "cut": true
+        }
+      ],
+      "tail": "That's at a $58,523 to $107,785 income. Under $53,891 it's about $953. Inside a TFSA the gain isn't taxed.",
+      "source_label": "CRA · CAPITAL GAINS",
+      "say": "Hama checked the math.|Twice.",
+      "title": "Half the gain, taxed at your rate."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your $10,000 bitcoin gain costs you $1,483.",
+      "Bitcoin gain of $10,000. Want to lose $1,483?",
+      "Bitcoin sellers forget 50% of the gain gets taxed.",
+      "Bitcoin won you $10,000. Then $1,483 walked out.",
+      "Hama's $10,000 bitcoin gain lost $1,483 to the cut.",
+      "A $10,000 bitcoin profit pays a $1,483 cut.",
+      "Bitcoin gains sit on a table. Yours says $1,483.",
+      "Same $10,000 bitcoin gain. One pays $953, one $1,483.",
+      "Bitcoin's 2026 cut takes $1,483 of a $10,000 gain.",
+      "Never guess your bitcoin cut. On $10,000 it's $1,483."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your $10,000 bitcoin gain costs you $1,483.",
+    "spoken": "Your $10,000 bitcoin gain costs you $1,483.",
+    "promise": "Give me 30 seconds. Keep more of your gain.",
+    "pick_why": "It puts their own gain and the exact dollars they lose in eight words, so anyone holding bitcoin saves it to check their own number.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "KEEP IT"
+  },
+  "lede": "Half your gain counts as income. The table shows the cut at two Ontario income levels.",
+  "series": "CRYPTO TAX BASICS",
+  "source_note": "CRA · CAPITAL GAINS RULES AND 2026 TAX RATES",
+  "caption": "🐶⛏️ If you sell bitcoin, $1,483 of a $10,000 gain could go to tax.\n\nIn a regular box, half the gain gets added to your income and taxed at your top rate, so tax season stings. The same gain inside a TFSA isn't taxed at all.\n\nComment KEEP and I'll send you my crypto gain tax table 🪙\nWhich row are you in?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #cryptotaxcanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your $10,000 bitcoin gain costs you $1,483.",
+        "part": "window",
+        "data": {
+          "pill": "THE CRYPTO GAIN TAX TABLE",
+          "num": "$1,483",
+          "line": "Your $10,000 bitcoin gain costs you $1,483.",
+          "promise": "Give me 30 seconds. Keep more of your gain.",
+          "subj": "YOUR $10,000 BITCOIN GAIN",
+          "stamp": "KEEP IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep more of your gain.",
+        "nocap": true
+      },
+      {
+        "say": "The tax *table* by income is yours.",
+        "cap": "low"
+      },
+      {
+        "say": "You sell bitcoin for a $10,000 profit in a regular box.",
+        "part": "funnel",
+        "data": {
+          "in": "$10,000",
+          "leak": "$5,000",
+          "out": "−$1,483",
+          "label": "29.65% cut",
+          "in_at": "$10,000",
+          "leak_at": "$5,000",
+          "out_at": 1
+        },
+        "badge": "THE RECEIPT",
+        "in": "dissolve"
+      },
+      {
+        "say": "*Half*, $5,000, joins your income."
+      },
+      {
+        "say": "Taxed at 29.65%, about $1,483.",
+        "part": "notify",
+        "data": {
+          "items": [
+            {
+              "app": "Your gain, regular box",
+              "v": "$10,000",
+              "at": 0
+            },
+            {
+              "app": "Half joins your income",
+              "v": "$5,000",
+              "at": 0
+            }
+          ],
+          "total": "−$1,483",
+          "total_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "What about the same gain in another box?",
+        "part": "callout",
+        "data": {
+          "word": "box",
+          "line": "What about the same gain in another box?",
+          "at": "box"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "A regular box has no shelter, so half is taxed.",
+        "part": "table",
+        "data": {
+          "k": "OTHER BOX",
+          "cols": [
+            "HALF IS TAXED",
+            "INCOME UNDER $53,891",
+            "INCOME $58,523 TO $107,785"
+          ],
+          "rows": [
+            {
+              "lab": "$1,000",
+              "cells": [
+                "$500",
+                "$95",
+                "$148"
+              ]
+            },
+            {
+              "lab": "$3,000",
+              "cells": [
+                "$1,500",
+                "$286",
+                "$445"
+              ]
+            },
+            {
+              "lab": "$5,000",
+              "cells": [
+                "$2,500",
+                "$476",
+                "$741"
+              ]
+            },
+            {
+              "lab": "$10,000",
+              "cells": [
+                "$5,000",
+                "$953",
+                "$1,483"
+              ]
+            }
+          ],
+          "hi": 3,
+          "at": 1
+        },
+        "badge": "OTHER BOX",
+        "in": "iris"
+      },
+      {
+        "say": "A TFSA is a savings box where gains are *not* taxed."
+      },
+      {
+        "say": "But a big gain can push you into a *higher* rate.",
+        "part": "split",
+        "data": {
+          "k": "ONE RATE vs HIGHER RATE",
+          "total": "HIGHER RATE",
+          "a": {
+            "v": "ONE RATE",
+            "l": "ONE RATE",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "HIGHER RATE",
+            "l": "HIGHER RATE",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Write down your 2026 income and find your row.",
+        "part": "toggle",
+        "data": {
+          "k": "YOUR ROW",
+          "label": "Your 2026 income",
+          "sub": "find your row before selling",
+          "on_at": "Write",
+          "app": "Hama Savings"
+        },
+        "badge": "YOUR ROW"
+      },
+      {
+        "say": "Know the $1,483 on your $10,000 gain before you sell.",
+        "part": "stamp",
+        "data": {
+          "old": "$1,483",
+          "new": "know it before selling",
+          "at": "know",
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "*Gone* for good.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$1,483",
+              "v": "−$1,483",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "never comes back",
+              "v": "never comes back",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *KEEP,* and I will send you the crypto gain tax table.",
+        "part": "tiles",
+        "data": {
+          "word": "KEEP",
+          "at": "KEEP",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the crypto gain tax table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your $10,000 bitcoin gain costs you $1,483.",
+          "Give me 30 seconds. Keep more of your gain."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The tax *table* by income is yours."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE RECEIPT",
+        "data": {
+          "title": "YOUR $10,000 GAIN",
+          "rows": [
+            [
+              "Your gain, regular box",
+              "$10,000"
+            ],
+            [
+              "Half joins your income",
+              "$5,000"
+            ]
+          ],
+          "total": [
+            "29.65% cut",
+            "−$1,483"
+          ]
+        },
+        "lines": [
+          "You sell bitcoin for a $10,000 profit in a regular box.",
+          "*Half*, $5,000, joins your income."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "YOUR $10,000 GAIN",
+          "rows": [
+            [
+              "Your gain, regular box",
+              "$10,000"
+            ],
+            [
+              "Half joins your income",
+              "$5,000"
+            ]
+          ],
+          "total": [
+            "29.65% cut",
+            "−$1,483"
+          ]
+        },
+        "lines": [
+          "Taxed at 29.65%, about $1,483."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "What about the same gain in another box?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "OTHER BOX",
+        "data": {
+          "a": {
+            "h": "REGULAR BOX",
+            "v": "−$1,483",
+            "sub": "no tax shelter",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "TFSA",
+            "v": "NOT TAXED",
+            "sub": "same $10,000 gain",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "A regular box has no shelter, so half is taxed.",
+          "A TFSA is a savings box where gains are *not* taxed."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ONE RATE",
+          "new": "HIGHER RATE"
+        },
+        "lines": [
+          "But a big gain can push you into a *higher* rate."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR ROW",
+        "data": {
+          "label": "Your 2026 income",
+          "sub": "find your row before selling"
+        },
+        "lines": [
+          "Write down your 2026 income and find your row."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,483",
+          "new": "know it before selling"
+        },
+        "lines": [
+          "Know the $1,483 on your $10,000 gain before you sell."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$1,483",
+          "new": "never comes back"
+        },
+        "lines": [
+          "*Gone* for good."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "KEEP",
+          "gift": "the crypto gain tax table"
+        },
+        "lines": [
+          "Comment *KEEP,* and I will send you the crypto gain tax table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, one lock-in names the table they get, the flow receipt walks $10,000 to $5,000 to the $1,483 cut, a question rehooks into the regular box versus TFSA compare, the higher-rate trap rehooks into the one step of finding your income row, the closing repeats $1,483, then the given loss cut and KEEP cta end it.",
+      "shape": "receipt",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "window",
+      "parts": [
+        "window",
+        "funnel",
+        "notify",
+        "callout",
+        "table",
+        "split",
+        "toggle",
+        "stamp",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "zoom",
+        "dissolve",
+        "iris",
+        "pan",
+        "fade",
+        "wipe",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "KEEP"
+    }
+  },
+  "plain": {
+    "what": "Bitcoin is digital money you can buy and sell online. Say you sell it for a $10,000 profit in a regular account, meaning one with no tax shelter. Half of that profit, $5,000, gets added to your income for the year, and that $5,000 is taxed at your top rate.",
+    "so_what": "If your Ontario taxable income in 2026 is between about $58,523 and $107,785, that one win costs you about $1,483 in tax, and it never comes back. The same gain inside a TFSA is not taxed at all.",
+    "do": "Write down your 2026 taxable income and see which row you land in: under $53,891, or between about $58,523 and $107,785.",
+    "words": [
+      {
+        "term": "bitcoin",
+        "means": "digital money you can buy and sell online"
+      },
+      {
+        "term": "capital gain",
+        "means": "your profit when you sell for more than you paid"
+      },
+      {
+        "term": "taxable income",
+        "means": "the income the government counts when working out your tax"
+      },
+      {
+        "term": "top rate",
+        "means": "the tax rate on your last dollar of income"
+      },
+      {
+        "term": "TFSA",
+        "means": "a savings box where your gains are not taxed"
+      },
+      {
+        "term": "non-registered account",
+        "means": "a regular account with no tax shelter"
+      },
+      {
+        "term": "surtax",
+        "means": "an extra tax charged on top of your tax"
+      }
+    ]
+  },
+  "subject": "Your $10,000 bitcoin gain",
+  "deliver": {
+    "word": "KEEP",
+    "gift": "the crypto gain tax table"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your $10,000 bitcoin gain costs you $1,483.",
+        "part": "window",
+        "data": {
+          "pill": "THE CRYPTO GAIN TAX TABLE",
+          "num": "$1,483",
+          "line": "Your $10,000 bitcoin gain costs you $1,483.",
+          "promise": "Give me 30 seconds. Keep more of your gain.",
+          "subj": "YOUR $10,000 BITCOIN GAIN",
+          "stamp": "KEEP IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep more of your gain.",
+        "nocap": true
+      },
+      {
+        "say": "The tax *table* by income is yours.",
+        "cap": "low"
+      },
+      {
+        "say": "You sell bitcoin for a $10,000 profit in a regular box.",
+        "part": "funnel",
+        "data": {
+          "in": "$10,000",
+          "leak": "$5,000",
+          "out": "−$1,483",
+          "label": "29.65% cut",
+          "in_at": "$10,000",
+          "leak_at": "$5,000",
+          "out_at": 1
+        },
+        "badge": "THE RECEIPT"
+      },
+      {
+        "say": "*Half*, $5,000, joins your income."
+      },
+      {
+        "say": "Taxed at 29.65%, about $1,483.",
+        "part": "notify",
+        "data": {
+          "items": [
+            {
+              "app": "Your gain, regular box",
+              "v": "$10,000",
+              "at": 0
+            },
+            {
+              "app": "Half joins your income",
+              "v": "$5,000",
+              "at": 0
+            }
+          ],
+          "total": "−$1,483",
+          "total_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "What about the same gain in another box?",
+        "part": "callout",
+        "data": {
+          "word": "box",
+          "line": "What about the same gain in another box?",
+          "at": "box"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "A regular box has no shelter, so half is taxed.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "REGULAR BOX",
+            "big": "−$1,483",
+            "ft": "no tax shelter"
+          },
+          "b": {
+            "k": "TFSA",
+            "big": "NOT TAXED",
+            "ft": "same $10,000 gain",
+            "at": 1
+          }
+        },
+        "badge": "OTHER BOX",
+        "in": "dissolve"
+      },
+      {
+        "say": "A TFSA is a savings box where gains are *not* taxed."
+      },
+      {
+        "say": "But a big gain can push you into a *higher* rate.",
+        "part": "tabs",
+        "data": {
+          "old": "ONE RATE",
+          "new": "HIGHER RATE",
+          "at": "HIGHER",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Write down your 2026 income and find your row.",
+        "part": "stamp",
+        "data": {
+          "old": "YOUR 2026 INCOME",
+          "new": "FIND YOUR ROW BEFO",
+          "at": "FIND",
+          "k": "YOUR ROW",
+          "sub": "find your row before selling",
+          "sub_at": 0
+        },
+        "badge": "YOUR ROW"
+      },
+      {
+        "say": "Know the $1,483 on your $10,000 gain before you sell.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "1,483",
+          "pre": "$",
+          "suf": "",
+          "label": "know it before selling",
+          "at": "$1,483"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "*Gone* for good.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$1,483",
+              "v": "−$1,483",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "never comes back",
+              "v": "never comes back",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *KEEP,* and I will send you the crypto gain tax table.",
+        "part": "tiles",
+        "data": {
+          "word": "KEEP",
+          "at": "KEEP",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the crypto gain tax table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your $10,000 bitcoin gain costs you $1,483.",
+          "Give me 30 seconds. Keep more of your gain."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The tax *table* by income is yours."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE RECEIPT",
+        "data": {
+          "title": "YOUR $10,000 GAIN",
+          "rows": [
+            [
+              "Your gain, regular box",
+              "$10,000"
+            ],
+            [
+              "Half joins your income",
+              "$5,000"
+            ]
+          ],
+          "total": [
+            "29.65% cut",
+            "−$1,483"
+          ]
+        },
+        "lines": [
+          "You sell bitcoin for a $10,000 profit in a regular box.",
+          "*Half*, $5,000, joins your income."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "YOUR $10,000 GAIN",
+          "rows": [
+            [
+              "Your gain, regular box",
+              "$10,000"
+            ],
+            [
+              "Half joins your income",
+              "$5,000"
+            ]
+          ],
+          "total": [
+            "29.65% cut",
+            "−$1,483"
+          ]
+        },
+        "lines": [
+          "Taxed at 29.65%, about $1,483."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "What about the same gain in another box?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "OTHER BOX",
+        "data": {
+          "a": {
+            "h": "REGULAR BOX",
+            "v": "−$1,483",
+            "sub": "no tax shelter",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "TFSA",
+            "v": "NOT TAXED",
+            "sub": "same $10,000 gain",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "A regular box has no shelter, so half is taxed.",
+          "A TFSA is a savings box where gains are *not* taxed."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ONE RATE",
+          "new": "HIGHER RATE"
+        },
+        "lines": [
+          "But a big gain can push you into a *higher* rate."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR ROW",
+        "data": {
+          "label": "Your 2026 income",
+          "sub": "find your row before selling"
+        },
+        "lines": [
+          "Write down your 2026 income and find your row."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,483",
+          "new": "know it before selling"
+        },
+        "lines": [
+          "Know the $1,483 on your $10,000 gain before you sell."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$1,483",
+          "new": "never comes back"
+        },
+        "lines": [
+          "*Gone* for good."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "KEEP",
+          "gift": "the crypto gain tax table"
+        },
+        "lines": [
+          "Comment *KEEP,* and I will send you the crypto gain tax table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, one lock-in names the table they get, the flow receipt walks $10,000 to $5,000 to the $1,483 cut, a question rehooks into the regular box versus TFSA compare, the higher-rate trap rehooks into the one step of finding your income row, the closing repeats $1,483, then the given loss cut and KEEP cta end it.",
+      "shape": "receipt",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "window",
+      "parts": [
+        "window",
+        "funnel",
+        "notify",
+        "callout",
+        "dumbbell",
+        "tabs",
+        "stamp",
+        "odometer",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "wipe",
+        "zoom",
+        "dissolve",
+        "iris",
+        "fade",
+        "wipe",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "KEEP"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your $10,000 bitcoin gain costs you $1,483.",
+        "part": "window",
+        "data": {
+          "pill": "THE CRYPTO GAIN TAX TABLE",
+          "num": "$1,483",
+          "line": "Your $10,000 bitcoin gain costs you $1,483.",
+          "promise": "Give me 30 seconds. Keep more of your gain.",
+          "subj": "YOUR $10,000 BITCOIN GAIN",
+          "stamp": "KEEP IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep more of your gain.",
+        "nocap": true
+      },
+      {
+        "say": "The tax *table* by income is yours.",
+        "cap": "low"
+      },
+      {
+        "say": "You sell bitcoin for a $10,000 profit in a regular box.",
+        "part": "funnel",
+        "data": {
+          "in": "$10,000",
+          "leak": "$5,000",
+          "out": "−$1,483",
+          "label": "29.65% cut",
+          "in_at": "$10,000",
+          "leak_at": "$5,000",
+          "out_at": 1
+        },
+        "badge": "THE RECEIPT",
+        "in": "pan"
+      },
+      {
+        "say": "*Half*, $5,000, joins your income."
+      },
+      {
+        "say": "Taxed at 29.65%, about $1,483.",
+        "part": "notify",
+        "data": {
+          "items": [
+            {
+              "app": "Your gain, regular box",
+              "v": "$10,000",
+              "at": 0
+            },
+            {
+              "app": "Half joins your income",
+              "v": "$5,000",
+              "at": 0
+            }
+          ],
+          "total": "−$1,483",
+          "total_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "What about the same gain in another box?",
+        "part": "callout",
+        "data": {
+          "word": "box",
+          "line": "What about the same gain in another box?",
+          "at": "box"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "A regular box has no shelter, so half is taxed.",
+        "part": "table",
+        "data": {
+          "k": "OTHER BOX",
+          "cols": [
+            "HALF IS TAXED",
+            "INCOME UNDER $53,891",
+            "INCOME $58,523 TO $107,785"
+          ],
+          "rows": [
+            {
+              "lab": "$1,000",
+              "cells": [
+                "$500",
+                "$95",
+                "$148"
+              ]
+            },
+            {
+              "lab": "$3,000",
+              "cells": [
+                "$1,500",
+                "$286",
+                "$445"
+              ]
+            },
+            {
+              "lab": "$5,000",
+              "cells": [
+                "$2,500",
+                "$476",
+                "$741"
+              ]
+            },
+            {
+              "lab": "$10,000",
+              "cells": [
+                "$5,000",
+                "$953",
+                "$1,483"
+              ]
+            }
+          ],
+          "hi": 3,
+          "at": 1
+        },
+        "badge": "OTHER BOX",
+        "in": "zoom"
+      },
+      {
+        "say": "A TFSA is a savings box where gains are *not* taxed."
+      },
+      {
+        "say": "But a big gain can push you into a *higher* rate.",
+        "part": "tabs",
+        "data": {
+          "old": "ONE RATE",
+          "new": "HIGHER RATE",
+          "at": "HIGHER",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Write down your 2026 income and find your row.",
+        "part": "toggle",
+        "data": {
+          "k": "YOUR ROW",
+          "label": "Your 2026 income",
+          "sub": "find your row before selling",
+          "on_at": "Write",
+          "app": "Hama Savings"
+        },
+        "badge": "YOUR ROW"
+      },
+      {
+        "say": "Know the $1,483 on your $10,000 gain before you sell.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$1,483",
+          "tail": "know it before selling",
+          "at": "$1,483"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "*Gone* for good.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$1,483",
+              "v": "−$1,483",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "never comes back",
+              "v": "never comes back",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *KEEP,* and I will send you the crypto gain tax table.",
+        "part": "tiles",
+        "data": {
+          "word": "KEEP",
+          "at": "KEEP",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the crypto gain tax table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your $10,000 bitcoin gain costs you $1,483.",
+          "Give me 30 seconds. Keep more of your gain."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The tax *table* by income is yours."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE RECEIPT",
+        "data": {
+          "title": "YOUR $10,000 GAIN",
+          "rows": [
+            [
+              "Your gain, regular box",
+              "$10,000"
+            ],
+            [
+              "Half joins your income",
+              "$5,000"
+            ]
+          ],
+          "total": [
+            "29.65% cut",
+            "−$1,483"
+          ]
+        },
+        "lines": [
+          "You sell bitcoin for a $10,000 profit in a regular box.",
+          "*Half*, $5,000, joins your income."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "YOUR $10,000 GAIN",
+          "rows": [
+            [
+              "Your gain, regular box",
+              "$10,000"
+            ],
+            [
+              "Half joins your income",
+              "$5,000"
+            ]
+          ],
+          "total": [
+            "29.65% cut",
+            "−$1,483"
+          ]
+        },
+        "lines": [
+          "Taxed at 29.65%, about $1,483."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "What about the same gain in another box?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "OTHER BOX",
+        "data": {
+          "a": {
+            "h": "REGULAR BOX",
+            "v": "−$1,483",
+            "sub": "no tax shelter",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "TFSA",
+            "v": "NOT TAXED",
+            "sub": "same $10,000 gain",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "A regular box has no shelter, so half is taxed.",
+          "A TFSA is a savings box where gains are *not* taxed."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ONE RATE",
+          "new": "HIGHER RATE"
+        },
+        "lines": [
+          "But a big gain can push you into a *higher* rate."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR ROW",
+        "data": {
+          "label": "Your 2026 income",
+          "sub": "find your row before selling"
+        },
+        "lines": [
+          "Write down your 2026 income and find your row."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,483",
+          "new": "know it before selling"
+        },
+        "lines": [
+          "Know the $1,483 on your $10,000 gain before you sell."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$1,483",
+          "new": "never comes back"
+        },
+        "lines": [
+          "*Gone* for good."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "KEEP",
+          "gift": "the crypto gain tax table"
+        },
+        "lines": [
+          "Comment *KEEP,* and I will send you the crypto gain tax table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, one lock-in names the table they get, the flow receipt walks $10,000 to $5,000 to the $1,483 cut, a question rehooks into the regular box versus TFSA compare, the higher-rate trap rehooks into the one step of finding your income row, the closing repeats $1,483, then the given loss cut and KEEP cta end it.",
+      "shape": "receipt",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "window",
+      "parts": [
+        "window",
+        "funnel",
+        "notify",
+        "callout",
+        "table",
+        "tabs",
+        "toggle",
+        "tail",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "fade",
+        "wipe",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "KEEP"
+    }
+  },
+  "caption_b": "🐶⛏️ Don't cash out bitcoin until you know if it's sitting in a TFSA.\n\nIn a regular box, half your gain joins your income and gets taxed at your top rate, but inside a TFSA the same gain isn't taxed at all.\n\nComment KEEP and I'll send you my crypto gain tax table 🪙\nWhich box is yours in?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #tfsacanada #torontofinance",
+  "caption_family": "warning"
+}

@@ -1,0 +1,907 @@
+{
+  "_": "훅 정본. 축은 안 바뀐다. 2026-11-06: 훅 공식 = [이름] + [잃은 것 $] + [얻는 것 질문] (하림님 «sellers missed $71,000. Want it back? 이거지»). 숫자는 fact.felt(느끼는 숫자) 한 곳. hook.py 관문이 강제한다.",
+  "spine": {
+    "name": "HAMA THE GOLD DIGGER",
+    "line": "Toronto chihuahua · digging to $1M",
+    "note": "매 장 같은 자리. 바꾸지 않는다. 여정 선언이지 수익 약속이 아니다."
+  },
+  "one_second": {
+    "_": "훅 세 자리 공식 (하림님 2026-11-04 확정). 모든 릴스·모든 캐러셀 표지에 같다. 1초에 훅, 2초 안에 «저장해야겠다», 내가 뭘 얻는지가 보인다. 아저씨 말투: 직접 you, 짧게, 약간 자극적, 문제는 없게. 2026-11-05 하림님: «첫 장에서 뭘 얘기하는지 모르겠다. SOXL이면 SOXL이라고 말해야. 돈 잃기 싫지? 부자 되고 싶지?» → ① 에 대상 이름 + 욕망 방아쇠 필수.",
+    "slots": [
+      {
+        "id": "③ 물건 알약",
+        "time": "0초, 훅 위",
+        "what": "저장 이유 = 가져갈 물건 (post.json object)",
+        "example": "THE US DIVIDEND LEAK TABLE"
+      },
+      {
+        "id": "① 훅",
+        "time": "0~1초",
+        "what": "화면 제일 큰 글 = 첫마디. 한 문장 12단어 안에 세 조각: [이름: 이게 뭔지, 앞 3단어 안 (SOXL · Bitcoin · Your TFSA · World stocks)] + [잃은 것: 시청자 주머니 기준 손해·차이 금액 $ = fact.felt. 입력 수익률(7.31%)·입력 비율(138%)은 훅이 아니다] + [얻는 것: 질문 (Want it back? / Still waiting? / Want the mix?)]. 답 없음. 하림님 11/06 확정",
+        "max_words": 12,
+        "example": "SOXL sellers missed $71,000. Want it back?",
+        "examples": [
+          "SOXL sellers missed $71,000. Want it back?",
+          "Bitcoin sellers in 2022 missed $4,100. Scared of the next dip?",
+          "Waiting 10 years cost $156,700. Still waiting?",
+          "Your TFSA lost $850 to US tax. Want it back?",
+          "Hama's 2-ETF mix: $100 a month became $286,500. Want the mix?"
+        ]
+      },
+      {
+        "id": "② 약속",
+        "time": "1~2초",
+        "what": "시간 약속 + 내가 얻는 것을 구체적으로. 빈말(Be the holder) 금지. 방법은 말하지 않는다",
+        "example": "Give me 30 seconds. See what the rich do."
+      }
+    ],
+    "reel": "첫 장면이 ①②③ 을 0초부터 다 보여 주고, 목소리는 ① → ② 순서로 말한다",
+    "carousel": "표지 제일 큰 글 ①, 그 아래 작은 줄 ②, 위에 알약 ③. 시리즈 이름(series)은 작게 내린다",
+    "psychology": "한 편에 둘 다: 훅이 «가난해지기 싫다»(손해 $)를 들면 ② lock-in 이 «부자 되고 싶다»(얻는 것)를 들고, 훅이 얻는 것(Want the mix?)이면 lock-in 이 안 보면 계속되는 손해를 든다. hook.py 가 경고로 본다",
+    "fail": [
+      "지어낸 숫자 (felt·fact·slides·sources·why 밖)",
+      "매수·매도 콜",
+      "이름 없음 (앞 3단어)",
+      "훅에 $ 손해·차이 없음 (felt 없음 포함)"
+    ],
+    "fail_note": "FAIL 은 이 넷뿐. 나머지(단어 수·욕망 말·어려운 말·같은 뒷문장)는 경고 (하림님 11/04·11/05·11/06)",
+    "stamp": "④ 도장 (11/06 하림님): 큰 숫자 옆 로즈 도장 = 이 릴스가 시키는 것, 포모 명령 2~3단어 (DON'T MISS THIS · GET IT BACK · DON'T LOSE IT · CLAIM YOURS). 사실이 아니라 명령. 한 장에 «뭘 알려주고 뭘 하게 하는지». hooks.stamp, hook.py 가 훅과 같이 뽑는다. 매수·매도 콜 금지"
+  },
+  "formulas": [
+    {
+      "id": "H1-only-this",
+      "shape": "{N} {thing}. Know them and you stop {losing}.",
+      "example": "4 letters. Know them and you stop buying the wrong ETF.",
+      "needs": "숫자 1개 + 출처",
+      "benefit": "실수 안 함"
+    },
+    {
+      "id": "H2-stop-wasting",
+      "shape": "{N}% of your {thing} disappears. Here is where it goes.",
+      "example": "15% of your US dividends disappears. Here is where it goes.",
+      "needs": "검증된 %와 출처",
+      "benefit": "돈 안 날림"
+    },
+    {
+      "id": "H3-my-split",
+      "shape": "If I had ${X}, I would split it {N} ways.",
+      "example": "If I had $[ ], I would split it 3 ways.",
+      "needs": "금액은 빈칸. 종목은 못 찍는다 — 역할·성격으로만",
+      "benefit": "바로 써먹는 꿀조합"
+    },
+    {
+      "id": "H4-time-to-amount",
+      "shape": "${X} in {N} years. Here is the only math.",
+      "example": "$[ ] in [ ] years. Here is the only math.",
+      "needs": "월 금액·가정 수익률·기간 전부 빈칸 + '계산기 결과, 실제 수익 보장 아님'",
+      "benefit": "돈 불리는 법"
+    },
+    {
+      "id": "H5-how-hama-did",
+      "shape": "How Hama {did} ${X} in {N} months.",
+      "example": "How Hama saved $[Taylor가 채움] in [ ] months.",
+      "needs": "하마 실제 숫자. 없으면 이 공식은 못 쓴다",
+      "benefit": "여정 증명"
+    },
+    {
+      "id": "H6-n-moves",
+      "shape": "{N} moves. That is the whole plan.",
+      "example": "3 moves. That is the whole plan for this year.",
+      "needs": "숫자 1개",
+      "benefit": "따라 하면 됨"
+    },
+    {
+      "id": "H7-tax",
+      "shape": "{N} {thing} the CRA never charges you for.",
+      "example": "3 accounts the CRA never taxes you inside.",
+      "needs": "검증된 출처 + CONFIRM WITH CRA",
+      "benefit": "세금 안 냄"
+    },
+    {
+      "id": "H8-flip",
+      "shape": "A {bad thing} makes your {thing} bigger. Here is why.",
+      "example": "A crash makes your room bigger. Here is why.",
+      "needs": "출처",
+      "benefit": "뒤집어 보기"
+    }
+  ],
+  "cover_rules": {
+    "hero_must_be_number": true,
+    "hero_note": "표지에서 제일 큰 것은 숫자나 금액. 코드·글자는 안 된다 (.F 같은 것)",
+    "max_words": 15,
+    "object_above": true,
+    "object_note": "저장 이유(물건 이름)가 훅 위에 온다. 1초 안에 왜 저장하는지 보여야 한다"
+  },
+  "banned": [
+    "종목 매수·매도 콜 (이름은 설명 소재로만 — 하림님 2026-11-04)",
+    "지어낸 금액·수익률·비중",
+    "은퇴 약속",
+    "영원히 들고 가라",
+    "라이브 매수·매도 콜"
+  ],
+  "indirect": {
+    "_": "직접 표현은 막고 간접으로 돌린다. 세기는 그대로, 약속만 뺀다 (하림님 2026-11-03).",
+    "map": [
+      {
+        "direct": "buy this",
+        "indirect": "The combo nobody argues with"
+      },
+      {
+        "direct": "buy now",
+        "indirect": "The window nobody tells you closes"
+      },
+      {
+        "direct": "will go up",
+        "indirect": "What a drop actually does to your room"
+      },
+      {
+        "direct": "going to rise",
+        "indirect": "What a drop actually does to your room"
+      },
+      {
+        "direct": "only buy",
+        "indirect": "The 3 boxes Hama splits everything into"
+      },
+      {
+        "direct": "you should buy",
+        "indirect": "The boxes Hama splits everything into"
+      },
+      {
+        "direct": "guaranteed",
+        "indirect": "Here is the only math. Not a promise"
+      },
+      {
+        "direct": "best etf",
+        "indirect": "The combo nobody argues with"
+      },
+      {
+        "direct": "high returns",
+        "indirect": "Hama did not sell. Hama wrote it down"
+      },
+      {
+        "direct": "수익 보장",
+        "indirect": "계산기 결과임을 명시하고 빈칸으로 둔다"
+      }
+    ],
+    "routes": [
+      "기준으로 바꾼다 — 뭘 사느냐 대신 어떤 성격을 어느 상자에",
+      "하마가 한 일로 바꾼다 — 권유가 아니라 기록",
+      "빈칸으로 바꾼다 — 금액·기간·수익률은 [ ] + 보장 아님"
+    ]
+  },
+  "henry": {
+    "_": "henry_upnomad 방식. 2026-11-03 하림님 지시로 1순위 규칙이 됨. 기존 1초 법칙과 충돌하면 이쪽이 이긴다.",
+    "rule": "정답을 말하지 않는다. 궁금증만 남긴다. 답을 말한 훅은 점수가 높아도 안 넘긴다.",
+    "screen_equals_first_line": "화면 글자 = 영상 첫마디. 같은 문장이다.",
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "conditions": [
+      "정답은 말하지 말고, 끝까지 보고 싶게 궁금증만 남긴다",
+      "화면에 띄울 글자이니 한 문장 12단어 이하 (cover.hook.max_words 한 곳)",
+      "10개를 서로 다른 방식으로 (modes 참조)",
+      "각 훅 옆에 첫마디로 말할 문장을 한 줄씩",
+      "마지막에 궁금증이 제일 큰 1개를 고르고 이유 한 줄"
+    ],
+    "doc": "하마-제작실/훅-규칙-문서.md"
+  },
+  "cover": {
+    "_": "표지 공식 (2026-11-03 하림님, 3차 — SDG hook_system 2.1 이식). 1줄 대제목(시리즈, 고정) + 2줄 소제목(대상+숫자+이득/함정) + 그림 + 저장 띠. 회색 부제 없음. 생성·판정은 prompts/hook.md 로 claude -p 가 한다.",
+    "pill": {
+      "what": "시리즈·카테고리 라벨. 작다",
+      "max_words": 4
+    },
+    "topic": {
+      "what": "시리즈 이름 = hooks.json series.title[category]. 고정. 코드가 넣는다. 2026-11-04부터 작게 (① 이 제일 크다)",
+      "from": "series"
+    },
+    "hook": {
+      "what": "① 훅 = [이름] + [잃은 것 $ (fact.felt)] + [얻는 것 질문]. 세 조각 필수. 제일 쉬운 말. 답 없음 (11/06)",
+      "max_words": 12,
+      "needs_number": true
+    },
+    "sub": {
+      "what": "선택. 쓰면 8단어 이하. 기본은 없음 — 빈 칸보다 그림이 낫다",
+      "max_words": 8
+    },
+    "total_max_words": 14,
+    "fomo_words": [
+      "lose",
+      "loses",
+      "losing",
+      "lost",
+      "cost",
+      "costs",
+      "costing",
+      "gone",
+      "missing",
+      "miss",
+      "missed",
+      "took",
+      "takes",
+      "leak",
+      "leaks",
+      "leaking",
+      "disappear",
+      "disappears",
+      "never",
+      "overpay",
+      "overpaying",
+      "paying",
+      "wasted",
+      "wasting",
+      "taken",
+      "cut",
+      "behind",
+      "late",
+      "wrong",
+      "trap",
+      "hidden",
+      "quietly",
+      "silently",
+      "less",
+      "halves",
+      "penalty",
+      "owes",
+      "unclaimed",
+      "skip",
+      "skipped",
+      "owe"
+    ],
+    "answer_words": [
+      "because",
+      "therefore",
+      "instead",
+      "the reason",
+      "here's why",
+      "here is why",
+      "how to",
+      "the trick",
+      "the fix",
+      "the answer",
+      "the rule is",
+      "exempt",
+      "treaty"
+    ],
+    "answer_note": "표지에 이유·방법·결론이 나오면 끝까지 볼 이유가 없다 (henry). 숫자는 넣되 결론은 뺀다.",
+    "desire_words": [
+      "want",
+      "want it back",
+      "still waiting",
+      "scared",
+      "afraid",
+      "rich",
+      "richer",
+      "keep",
+      "don't",
+      "lose",
+      "losing",
+      "lost",
+      "miss",
+      "back",
+      "yours",
+      "ready"
+    ],
+    "fomo_note": "손해 말. 훅에 하나는 있어야 포모가 선다 (경고). 이득 말(pays·grows·free·every)은 11/06 에 뺐다: «paid 7.31% every year» 가 통과하던 구멍",
+    "call_words": [
+      "buy",
+      "sell now",
+      "sell it",
+      "short",
+      "go all in",
+      "load up",
+      "dump"
+    ],
+    "call_note": "매수·매도 콜 = FAIL. «sellers missed» 처럼 판 사람을 가리키는 말은 콜이 아니다 (단어 경계로 본다)"
+  },
+  "series": {
+    "_": "표지 대제목. 카테고리당 하나, 고정. 제일 쉬운 말로 «이 편이 내게 뭘 주나». build.py 가 넣고 check.py F-2 가 대조한다. 바꾸면 as_of 를 올린다.",
+    "as_of": "2026-11-05",
+    "title": {
+      "compound": "GROW YOUR MONEY",
+      "etf": "THE ETF COMBO",
+      "crypto": "THE BITCOIN CLOCK",
+      "tax": "TAX-FREE BOXES",
+      "basics": "YOUR FIRST $100",
+      "ledger": "HAMA'S LEDGER",
+      "mistake": "HAMA'S MISTAKES",
+      "qa": "YOU ASKED",
+      "daily": "HAMA TODAY",
+      "stocks": "WHY STOCKS",
+      "fear": "RICH PEOPLE ARE BORN IN FEAR"
+    },
+    "angle": {
+      "_": "카테고리별 훅 방향. hook.py 가 프롬프트에 넣는다 (하림님 11/05)",
+      "fear": "Series 'Rich people are born in fear'. Follow playbook.fear. The hook is '[NAME] sellers missed $[felt]. Want it back?' for seller-vs-holder posts, else the $ the drop took on the example amount. The drop % belongs to scene 2 (the chart), never the hook. Use the SAME name the chart uses everywhere. Superlatives only if the why sources say so. Never say buy or sell.",
+      "as_of": "2026-11-06"
+    },
+    "reel_only": {
+      "_": "이 카테고리는 릴스만 만든다. 캐러셀 없음 (하림님 11/05)",
+      "list": [
+        "fear"
+      ]
+    },
+    "no_dark": {
+      "_": "이 카테고리는 다크(검정 바탕) 장면을 쓰지 않는다 (하림님 11/05 «까만 배경에 숫자 하나, 안 예쁘고 재미없어서 넘긴다» 두 번)",
+      "list": [
+        "fear"
+      ]
+    }
+  },
+  "promise": {
+    "_": "② 약속 줄. hook.py 가 ① 과 짝으로 만들고 관문을 돌린다. 이득만 말하고 방법은 숨긴다.",
+    "starts": "Give me 30 seconds.",
+    "max_words": 12,
+    "gain_note": "뒤 문장은 2~5단어, 내가 얻는 것을 구체적으로. 예: See what the rich do. / Keep all of it. / Get it back. 빈말(Be the holder, Get their side) 금지 (11/05)"
+  },
+  "names": {
+    "_": "티커 → 첫 화면에 쓰는 이름. 초보가 아는 말로 (11/05)",
+    "BTC-USD": "Bitcoin",
+    "ETH-USD": "Ethereum",
+    "XIC": "the TSX",
+    "XIU": "the TSX",
+    "VFV": "the S&P 500",
+    "SPY": "the S&P 500",
+    "QQQ": "the Nasdaq"
+  },
+  "say": {
+    "_": "릴스 목소리 발음표. 표에 없는 대문자 약어는 글자로 읽는다 (11/05 레드팀: SOXL→Soxel, IREN→Iron, US→us) · SOXL=«쏙슬» (하림님 11/05) · 11/06: 영어 낱말은 낱말로(맥 사전), 표에 없는 진짜 약어만 글자로",
+    "SOXL": "Socksul",
+    "SOXX": "socks",
+    "CIFR": "Cipher",
+    "IREN": "I ren",
+    "WGMI": "W G M I",
+    "US": "U.S.",
+    "USA": "U.S.A.",
+    "MW": "megawatts",
+    "GW": "gigawatts",
+    "AI": "A.I.",
+    "ETF": "E T F",
+    "ETFs": "E T Fs",
+    "GIC": "G I C",
+    "TSX": "T S X",
+    "TFSA": "T F S A",
+    "RRSP": "R R S P",
+    "FHSA": "F H S A",
+    "RESP": "R E S P",
+    "CRA": "C R A",
+    "HPC": "H P C",
+    "GPU": "G P U",
+    "GPUs": "G P Us",
+    "S&P": "S and P",
+    "BTC": "bitcoin",
+    "XEQT": "X E Q T",
+    "VFV": "V F V",
+    "XIC": "X I C",
+    "XIU": "X I U",
+    "OK": "okay",
+    "CEO": "C E O",
+    "NASDAQ": "Nasdaq",
+    "NVIDIA": "Nvidia",
+    "TSLU": "T S L U",
+    "CNYE": "C N Y E",
+    "CIPF": "C I P F",
+    "CDIC": "C D I C",
+    "FBTC": "F B T C",
+    "BTCC": "B T C C",
+    "VSP": "V S P",
+    "VEQT": "V E Q T",
+    "BMO": "B M O",
+    "T1A": "T 1 A",
+    "BINANCE": "Binance",
+    "NEWTON": "Newton",
+    "HUT": "Hut",
+    "MSCI": "M S C I",
+    "ACWI": "ack-wee",
+    "CESG": "C E S G",
+    "GST": "G S T",
+    "HST": "H S T",
+    "HBP": "H B P",
+    "MER": "M E R",
+    "SCOTIA": "Scotia",
+    "vs": "versus",
+    "vs.": "versus",
+    "etc": "and so on"
+  },
+  "playbook": {
+    "_": "카테고리별 훅·대본 공식. hook.py 와 director.py 가 읽는다. 검열이 아니라 방향이다: FAIL 은 one_second.fail 넷뿐, 나머지는 경고 (11/04·11/05·11/06). 2026-11-06 2단계: 대본은 kallaway 9칸(shapes·endings) 위에 선다. 꼴·끝맺음·첫 장면·부품·전환은 director 가 최근 6편과 겹치지 않게 고른다. 카테고리는 몸통 힌트(bodies)만.",
+    "common": {
+      "hook": "[이름: 이게 뭔지, 앞 3단어] + [잃은 것: fact.felt 의 $ 손해·차이] + [얻는 것: 질문]. 한 문장 12단어. 카테고리는 이름을 어떻게 부르는지만 정한다",
+      "promise": "Give me 30 seconds. + 훅과 반대 극: 훅이 손해면 얻는 물건(See the holder's ledger.), 훅이 얻는 것이면 안 보면 계속되는 손해. 10단어 이하, 방법은 없다",
+      "opener_seconds": 4,
+      "lockin": "Lock-in zone right after the hook, 2 to 3 sentences: the promise line «Give me 30 seconds. …» (given) + one line naming the thing they get (the object) + one line saying the loss keeps running if they scroll. Opposite pole of the hook.",
+      "skeleton": [
+        "opener (hook + promise, given)",
+        "lockin (1 to 2 more lines)",
+        "body 1: the gap, seen (two choices side by side)",
+        "rehook 1: «but here is the part nobody says» / the next number / a question",
+        "body 2: why, in plain words (one hard word explained in the same breath)",
+        "rehook 2: the trap (it was not smooth · the past is not a promise · the CRA rule)",
+        "body 3 (optional): how to find your own number",
+        "closing: the $ again, one line",
+        "ending (given): check+cta / cta / dark one word+cta / my row+cta"
+      ]
+    },
+    "fear": {
+      "hook": "NAME = the ticker as the chart shows it (SOXL, Bitcoin, the TSX). Seller-vs-holder posts: '[NAME] sellers missed $[felt]. Want it back?'. Other drop posts: the dollars $[felt] on the slide's example amount that the drop or the panic took. The drop % itself is scene 2 (the chart), not the hook.",
+      "example": "SOXL sellers missed $71,000. Want it back?",
+      "promise": "desire trigger + why the rich watch",
+      "example_promise": "Give me 30 seconds. See the holder's ledger.",
+      "min_drop": 20,
+      "bodies": "compare: the chart. If the hook already said the short drop, line one names only the window ('That was one month.'), no number. Line two: 'Now zoom out.' + the long-run result. If the long window is also down, do NOT say zoom out: say what was signed or built instead (from why).; flow or step: why it matters (why.line, why.line2), plain words, the subject's name, a new fact; catch: line 1 what the rich see in this drop (from why, no buy word). Line 2 one honest risk (from why.means)"
+    },
+    "stocks": {
+      "hook": "NAME = the ticker or company. [NAME] + the $[felt] it took from the example amount + question. Explain, never call.",
+      "example": "TSLU holders lost $2,210 on $10,000 while Tesla went nowhere. Want it back?",
+      "promise": "how it really works",
+      "bodies": "step: what it is in one plain line; flow: how the money moves; catch: the trap; compare"
+    },
+    "crypto": {
+      "hook": "NAME = Bitcoin / the app / the ETF name. [NAME] + $[felt] the viewer loses + question.",
+      "example": "Your weekly Bitcoin buy leaks $26 a year. Want it back?",
+      "promise": "where the money goes",
+      "bodies": "flow: receipt, where it goes; compare: app vs spot ETF or another way; grow: the same over a year"
+    },
+    "compound": {
+      "hook": "NAME = what the money sits in (World stocks, the S&P 500) or 'Waiting N years'. [NAME] + $[felt] gap between the two starts + question.",
+      "example": "Waiting 10 years cost $156,700. Still waiting?",
+      "promise": "the same math for you",
+      "bodies": "grow: coins or counter stacking; compare: start at 25 vs 35; catch: assumed rate, not a promise; step: one thing to set up"
+    },
+    "tax": {
+      "hook": "NAME = the account (Your TFSA, FHSA, RESP, the CRA). [NAME] + $[felt] lost or left on the table + question.",
+      "example": "Your TFSA lost $850 to US tax. Want it back?",
+      "promise": "keep all of it",
+      "bodies": "myth: what people believe; flow: where the money goes; compare: the box that keeps it; catch: the exception"
+    },
+    "mistake": {
+      "hook": "NAME = the fee or rule. [NAME] + $[felt] gone + question.",
+      "example": "Your TFSA leaks $300 every month. Want it back?",
+      "promise": "stop the leak",
+      "bodies": "flow: receipt; loss: the money gone; step: the fix"
+    },
+    "etf": {
+      "hook": "NAME = Hama's mix or the fund names. [NAME] + $[felt] the mix makes or the fee gap + question. 'Hama holds', never 'buy'.",
+      "example": "Hama's 2-ETF mix: $100 a month became $286,500. Want the mix?",
+      "promise": "the exact mix",
+      "bodies": "compare: the mix stacked by role, with names; flow: what $100 a month looks like inside it; catch: the one thing people get wrong; step: how Hama set it up"
+    },
+    "ledger": {
+      "hook": "Hama put in $X, here's what's left. [Hama's ledger] + $[felt] + question. Numbers only from Hama's real record",
+      "promise": "Hama's real numbers",
+      "needs_hama": true,
+      "bodies": "flow: receipt; grow"
+    },
+    "shapes": {
+      "_": "대본 꼴 4종. 모두 kallaway 9칸 위에 서고, 몸통 블록의 부품과 끝맺음만 다르다. director 가 least_used 로 고른다 (같은 꼴 연속 금지, 한 꼴 50% 넘으면 FAIL)",
+      "ledger": {
+        "name": "원장형",
+        "arc": [
+          "opener",
+          "lockin",
+          "compare: body 1, the two choices side by side, the felt gap between them",
+          "rehook: the part nobody says",
+          "myth: body 2, what people believe about it, then what is true, in plain words (why.line if given)",
+          "rehook: the trap (not smooth · past is not a promise · the rule)",
+          "closing: the $ again in one line"
+        ],
+        "opener_pref": [
+          "tease",
+          "hooknum",
+          "rollnum",
+          "title2",
+          "slam",
+          "cover",
+          "rise",
+          "window",
+          "glass",
+          "boil"
+        ],
+        "ending_pref": "check_cta"
+      },
+      "zoom": {
+        "name": "줌아웃 차트형",
+        "arc": [
+          "opener",
+          "lockin",
+          "compare: body 1, the short window then zoom out to the long run (the chart if there is one, else the two dates)",
+          "rehook: a question",
+          "catch: body 2, why it matters, the rule or the trap in plain words",
+          "rehook: the next number",
+          "closing: the $ again in one line"
+        ],
+        "opener_pref": [
+          "slam",
+          "hooknum",
+          "rollnum",
+          "tease",
+          "title2",
+          "boil",
+          "glass",
+          "rise",
+          "window",
+          "cover"
+        ],
+        "ending_pref": "cta"
+      },
+      "dark": {
+        "name": "한 단어 컷형",
+        "arc": [
+          "opener",
+          "lockin",
+          "loss: body 1, the money gone, one word",
+          "rehook: the part nobody says",
+          "compare: body 2, the gap between the two choices",
+          "rehook: the trap",
+          "closing: the $ again in one line"
+        ],
+        "opener_pref": [
+          "title2",
+          "slam",
+          "rollnum",
+          "hooknum",
+          "tease",
+          "glass",
+          "window",
+          "boil",
+          "rise",
+          "cover"
+        ],
+        "ending_pref": "dark_cta"
+      },
+      "receipt": {
+        "name": "영수증형",
+        "arc": [
+          "opener",
+          "lockin",
+          "flow: body 1, the receipt, line by line, the total",
+          "rehook: a question",
+          "compare: body 2, the other way, side by side",
+          "rehook: the trap",
+          "step: body 3, the one thing to set up",
+          "closing: the $ again in one line"
+        ],
+        "opener_pref": [
+          "hooknum",
+          "tease",
+          "rollnum",
+          "slam",
+          "title2",
+          "window",
+          "cover",
+          "rise",
+          "boil",
+          "glass"
+        ],
+        "ending_pref": "myrow_cta"
+      }
+    },
+    "endings": {
+      "_": "끝맺음 4종 (closing 뒤). director 가 least_used 로 고른다. 한 종류가 60% 넘으면 FAIL",
+      "check_cta": [
+        "check: what the viewer checks on their own account, two short lines",
+        "cta"
+      ],
+      "cta": [
+        "cta"
+      ],
+      "dark_cta": [
+        "loss: one word, the money gone for good (dark cut)",
+        "cta"
+      ],
+      "myrow_cta": [
+        "myrow: find your own row, your amount vs the other choice",
+        "cta"
+      ]
+    }
+  },
+  "plain": {
+    "_": "쉬운 말 사전 (하림님 11/05 «칩이라 하면 못 알아들어. AI 칩이 뭔지까지 쉽게»). 왼쪽 말이 처음 나오는 줄에서 오른쪽처럼 풀어 말해야 한다. 풀이 없이 나오면 대본 FAIL.",
+    "chip": "the tiny brains inside every phone and AI computer",
+    "chips": "the tiny brains inside every phone and AI computer",
+    "semiconductor": "the tiny brains inside every phone and AI computer",
+    "GPU": "the tiny brains inside every phone and AI computer",
+    "AI chip": "the tiny brains AI runs on",
+    "AI chips": "the tiny brains AI runs on",
+    "HBM": "the memory AI needs to think",
+    "RAM": "the memory AI needs to think",
+    "data center": "a giant building full of computers that run AI",
+    "data centers": "giant buildings full of computers that run AI",
+    "HPC": "giant buildings full of computers that run AI",
+    "AI cloud": "renting out computers that run AI",
+    "miner": "a company whose computers make new bitcoin",
+    "mining": "running computers that make new bitcoin",
+    "bitcoin makers": "companies whose computers make new bitcoin",
+    "3x": "moves three times as much as the market, up and down",
+    "leveraged": "moves three times as much as the market, up and down",
+    "ETF": "one fund that holds many companies at once",
+    "fund": "holds many companies at once",
+    "basket": "holds many companies at once",
+    "index": "a list of the biggest companies, bought all at once",
+    "hashrate": "how much bitcoin-making power it has",
+    "yield": "what it pays you",
+    "dividend": "money a company pays you",
+    "GIC": "a bank deposit with a fixed rate",
+    "fear index": "the market's fear meter",
+    "VIX": "the market's fear meter",
+    "reset": "starts over every day",
+    "resets": "starts over every day",
+    "supply": "how many will ever exist",
+    "lease": "a rent deal",
+    "landlord": "a company that rents out its buildings"
+  },
+  "plain_ok": {
+    "_": "풀이의 핵심 조각. 이 조각이 같은 편에 있으면 풀린 것으로 친다",
+    "chip": [
+      "tiny brains"
+    ],
+    "chips": [
+      "tiny brains"
+    ],
+    "semiconductor": [
+      "tiny brains"
+    ],
+    "GPU": [
+      "tiny brains"
+    ],
+    "AI chip": [
+      "tiny brains"
+    ],
+    "AI chips": [
+      "tiny brains"
+    ],
+    "data center": [
+      "full of computers",
+      "computers that run ai"
+    ],
+    "data centers": [
+      "full of computers",
+      "computers that run ai"
+    ],
+    "HPC": [
+      "full of computers",
+      "computers that run ai"
+    ],
+    "AI cloud": [
+      "renting out computers",
+      "computers that run ai"
+    ],
+    "miner": [
+      "make new bitcoin",
+      "makes new bitcoin",
+      "making new bitcoin"
+    ],
+    "mining": [
+      "make new bitcoin",
+      "makes new bitcoin"
+    ],
+    "bitcoin makers": [
+      "make new bitcoin",
+      "makes new bitcoin"
+    ],
+    "3x": [
+      "three times as much",
+      "3 times as much",
+      "three times the daily",
+      "three times the"
+    ],
+    "leveraged": [
+      "three times as much",
+      "3 times as much"
+    ],
+    "ETF": [
+      "many companies at once",
+      "companies at once",
+      "holding canada's",
+      "holding the biggest",
+      "holds the biggest",
+      "holds every big",
+      "companies in one",
+      "us companies",
+      "canadian companies",
+      "biggest companies",
+      "holds stocks",
+      "holding stocks",
+      "one fund holding",
+      "holds 30",
+      "holds thirty",
+      "30 makers",
+      "thirty makers",
+      "makers of"
+    ],
+    "fund": [
+      "many companies at once",
+      "companies at once",
+      "holding canada's",
+      "holding the biggest",
+      "holds the biggest",
+      "holds every big",
+      "holds stocks from",
+      "holds big us",
+      "companies in one",
+      "us companies",
+      "canadian companies",
+      "biggest companies",
+      "holds stocks",
+      "holding stocks",
+      "one fund holding",
+      "holds 30",
+      "holds thirty",
+      "30 makers",
+      "thirty makers",
+      "makers of"
+    ],
+    "basket": [
+      "many companies at once",
+      "companies at once",
+      "companies in one",
+      "us companies",
+      "canadian companies",
+      "biggest companies",
+      "holds stocks",
+      "holding stocks",
+      "one fund holding",
+      "holds 30",
+      "holds thirty",
+      "30 makers",
+      "thirty makers",
+      "makers of"
+    ],
+    "index": [
+      "biggest companies"
+    ],
+    "yield": [
+      "pays you"
+    ],
+    "dividend": [
+      "pays you"
+    ],
+    "GIC": [
+      "bank deposit"
+    ],
+    "fear index": [
+      "fear meter"
+    ],
+    "VIX": [
+      "fear meter"
+    ],
+    "reset": [
+      "starts over"
+    ],
+    "resets": [
+      "starts over"
+    ],
+    "supply": [
+      "will ever exist",
+      "ever exist"
+    ],
+    "lease": [
+      "rent deal",
+      "rents out",
+      "rent"
+    ],
+    "landlord": [
+      "rents out its buildings",
+      "rents out"
+    ]
+  },
+  "grammar": {
+    "_": "감독 상수 한 소스 (11/07 v2.1, 레드팀 1·2·12). roles = 역할→부품 후보, 1순위가 서로 다르게 (예전엔 myth·catch·loss·rehook·closing 다섯이 전부 stamp·swap·strike 를 받아 몸통의 40%). rehook_nodata = 데이터 없는 rehook 도 그림을 받는다(callout, T9/T10). text_swap_cap = 글자교체 3종 편당 상한. react_min·still_max = review 기준값. director.py 는 여기서 읽기만 한다. 11/07 4라운드(claude-37): roles 에 fan·hub(check) · paid·tabs(step) · tag·badge(myth·catch·rehook) · tail(closing·loss) 추가 — ○ 가족 7개 ●. still_max 5→1.5 (하림님 «정지하면 사람들이 넘겨»): review 의 트윈 정지와 deliver.py 의 실측 정지가 같이 읽는다. gap_max 1.5 = build_rail 공백 관문(그림 트윈 틈이 이만큼이면 낱말 칩·펄스·끄덕임을 넣는다).",
+    "roles": {
+      "myth": [
+        "strike",
+        "tag",
+        "badge",
+        "wipe",
+        "swap"
+      ],
+      "catch": [
+        "badge",
+        "stamp",
+        "tag",
+        "stack",
+        "strike"
+      ],
+      "loss": [
+        "shrink",
+        "odometer",
+        "stamp",
+        "tail",
+        "funnel"
+      ],
+      "rehook": [
+        "tag",
+        "swap",
+        "tabs",
+        "wipe",
+        "split"
+      ],
+      "rehook_nodata": [
+        "callout"
+      ],
+      "closing": [
+        "tail",
+        "odometer",
+        "stamp",
+        "strike"
+      ],
+      "flow": [
+        "waterfall",
+        "receipt",
+        "checkout",
+        "amount",
+        "funnel",
+        "notify",
+        "shrink"
+      ],
+      "compare": [
+        "dumbbell",
+        "wipe",
+        "stack",
+        "compare",
+        "split",
+        "donut",
+        "table"
+      ],
+      "myrow": [
+        "table",
+        "dumbbell",
+        "wipe",
+        "compare",
+        "donut",
+        "split"
+      ],
+      "grow": [
+        "coins",
+        "counter",
+        "odometer",
+        "multiply",
+        "clock",
+        "split"
+      ],
+      "step": [
+        "toggle",
+        "paid",
+        "tabs",
+        "countdown",
+        "swap",
+        "stamp"
+      ],
+      "check": [
+        "checklist",
+        "fan",
+        "hub"
+      ],
+      "cta": [
+        "tiles"
+      ]
+    },
+    "text_swap": [
+      "stamp",
+      "swap",
+      "strike"
+    ],
+    "text_swap_cap": 2,
+    "react_min": 0.6,
+    "still_max": 1.5,
+    "heavy_parts": [
+      "stack"
+    ],
+    "heavy_max": 3,
+    "chart_lines": "zoom out|\\bfell\\b|dropped|crash|sits below|below (?:its|the) ",
+    "pair_only": [
+      "dumbbell",
+      "compare"
+    ],
+    "gap_max": 1.5
+  }
+}

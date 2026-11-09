@@ -1,0 +1,1241 @@
+{
+  "key": "leveraged-etf-daily-reset-decay",
+  "category": "stocks",
+  "status": "draft",
+  "title": "Your stock ends flat. You still lose 22.1%.",
+  "object": "THE LEVERAGE DECAY TABLE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s3b87552b', 'se93fc621'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "22.1",
+    "unit": "%",
+    "thing": "hypothetical one-year loss of a 2x single-stock ETF when the stock ends flat at 50% volatility",
+    "box": "LongPoint SavvyLong (2X) single-stock ETFs on the TSX (AAPU, AMZU, ALPU, MSFU, NVDU, TSLU)",
+    "claim": "LongPoint's prospectus for its Canadian 2x single-stock ETFs gives an example: a stock ends a year exactly where it started, with 50% annualized volatility. The 2x ETF would be expected to lose 22.1% over that year. At 25% volatility the loss is 6%, so the bigger the daily swings, the bigger the loss. The figures are hypothetical, cover one year rather than one month, are before fees and expenses, and are not a forecast.",
+    "sources": [
+      "LONGPOINT SAVVYLONG PROSPECTUS (PRICE VOLATILITY RISK)",
+      "LONGPOINT SAVVYLONG PROSPECTUS (LONG TERM PERFORMANCE RISK)"
+    ],
+    "verified": "find.py · 대조 2/2",
+    "felt": {
+      "num": "221",
+      "unit": "$",
+      "a": "1,000",
+      "b": "779",
+      "how": "$1,000 in a 2x single-stock ETF vs what's left after one flat year at 50% swings",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "LONGPOINT SAVVYLONG PROSPECTUS (PRICE VOLATILITY RISK)",
+      "url": "https://cdn.prod.website-files.com/673b448cba170146346ba90f/683786a1b582caf54405d1c4_FinalPros_EN.pdf",
+      "what": "If a respective common stock provided no return over a one-year period and experienced annualized volatility of 50%, the hypothetical loss for a one-year period for a Double Single Stock ETF rises to 22.1% (as shown in Table 1 below).",
+      "confidence": "1차"
+    },
+    {
+      "label": "LONGPOINT SAVVYLONG PROSPECTUS (LONG TERM PERFORMANCE RISK)",
+      "url": "https://cdn.prod.website-files.com/673b448cba170146346ba90f/683786a1b582caf54405d1c4_FinalPros_EN.pdf",
+      "what": "For periods longer than a single day, the Double Single Stock ETFs will typically decline in value if the return of the respective common stock is flat, it is even possible that a SavvyLong ETF can decline in value even if the return of the respective common stock is positive over a period longer than a single day and that a SavvyShort ETF can decline in value even if the return of the respective common stock is negative over a period longer than a single day.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "STOCKS · CANADA",
+      "topic": "WHY STOCKS",
+      "hook": {
+        "pre": "TSLU took $",
+        "num": "221",
+        "post": " while Tesla went nowhere. Want it back?"
+      },
+      "promise": "Give me 30 seconds. Keep your money growing."
+    },
+    {
+      "type": "flow",
+      "kicker": "THE PART NOBODY MENTIONS",
+      "title": "Flat stock. *Shrinking* fund.",
+      "lead": "The stock ends the year exactly where it started. <em>The 2x ETF doesn't.</em>",
+      "steps": [
+        {
+          "n": "$1,000",
+          "t": "you put in",
+          "s": "a 2x single-stock ETF"
+        },
+        {
+          "n": "−$221",
+          "t": "22.1% gone at 50% swings",
+          "s": "stock ends the year flat",
+          "cut": true
+        },
+        {
+          "n": "$779",
+          "t": "what's left",
+          "s": "after one year, before fees"
+        }
+      ],
+      "tail": "The fund resets every day. Big daily swings wear it down even when the stock goes nowhere.",
+      "source_label": "LONGPOINT PROSPECTUS",
+      "say": "Hama checked twice.|The stock didn't move."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE LEVERAGE DECAY TABLE",
+      "title": "Same flat stock. What one year *leaves.*",
+      "rowlabel": "YOU PUT IN",
+      "cols": [
+        "THE STOCK ITSELF",
+        "2X ETF · 25% SWINGS",
+        "2X ETF · 50% SWINGS"
+      ],
+      "labw": 22,
+      "rows": [
+        {
+          "a": "$100",
+          "asub": "invested",
+          "cells": [
+            "$100",
+            "$94",
+            "$77.90"
+          ]
+        },
+        {
+          "a": "$1,000",
+          "asub": "invested",
+          "cells": [
+            "$1,000",
+            "$940",
+            "$779"
+          ]
+        },
+        {
+          "a": "$5,000",
+          "asub": "invested",
+          "cells": [
+            "$5,000",
+            "$4,700",
+            "$3,895"
+          ]
+        },
+        {
+          "a": "$10,000",
+          "asub": "invested",
+          "cells": [
+            "$10,000",
+            "$9,400",
+            "$7,790"
+          ]
+        }
+      ],
+      "hi": [
+        1,
+        2
+      ],
+      "note": "Prospectus example: stock flat for one year, losses of 6% and 22.1%, before fees. Hypothetical, not a forecast. Example math, not a promise. <b>Save this. Check the swings first.</b>",
+      "source_label": "LONGPOINT PROSPECTUS"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "TSLU took $221 while Tesla went nowhere. Want it back?",
+      "TSLU holders lost $221 on a flat year. Want it back?",
+      "TSLU buyers lost $221 waiting for Tesla to move. Want it back?",
+      "TSLU lost $221 while Tesla lost nothing. Want your money safe?",
+      "Hama watched TSLU take $221 from a flat Tesla. Want it back?",
+      "TSLU holders paid $221 while Tesla stood still. Want it back?",
+      "TSLU: Tesla stood still, you still lost $221. Want it back?",
+      "TSLU vs Tesla, same flat year: you're down $221. Want it back?",
+      "TSLU: one flat year ate $221 of your $1,000. Want it back?",
+      "Never ignore TSLU's $221 bite on a flat year. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "TSLU took $221 while Tesla went nowhere. Want it back?",
+    "spoken": "TSLU took $221 while Tesla went nowhere. Want it back?",
+    "promise": "Give me 30 seconds. Keep your money growing.",
+    "pick_why": "TSLU took $221 while Tesla went nowhere is the shortest line with the whole contradiction in it, so the most people grasp the loss in one second and save it.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "STOP THE LEAK"
+  },
+  "lede": "A 2x single-stock ETF resets every day. In a flat year with big swings, LongPoint's own prospectus shows it losing 22.1%.",
+  "series": "LEVERAGED ETF TRAPS",
+  "source_note": "LONGPOINT SAVVYLONG PROSPECTUS · FUND RISK DOCUMENT",
+  "caption": "🐶⛏️ If you hold TSLU, $221 of every $1,000 could vanish while Tesla goes nowhere.\n\nFunds like TSLU start over every day, so big daily swings wear them down even when the stock ends flat. LongPoint's own paperwork shows a made-up flat year where you're left with $779, before fees.\n\nComment DECAY and I'll send you my flat-year loss table 🪙\nDoes yours say 2x?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#leveragedetf #etfcanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "TSLU took $221 while Tesla went nowhere. Want it back?",
+        "part": "rollnum",
+        "data": {
+          "pill": "THE LEVERAGE DECAY TABLE",
+          "num": "$221",
+          "line": "TSLU took $221 while Tesla went nowhere. Want it back?",
+          "promise": "Give me 30 seconds. Keep your money growing.",
+          "subj": "TSLU",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep your money growing.",
+        "nocap": true
+      },
+      {
+        "say": "The flat-year loss table is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "TSLU is a fund betting on Tesla, two times *harder*.",
+        "part": "donut",
+        "data": {
+          "k": "Flat year",
+          "segs": [
+            {
+              "l": "HELD TSLU",
+              "v": "$779",
+              "w": 0.4378864530635188
+            },
+            {
+              "l": "HELD TESLA",
+              "v": "$1,000",
+              "w": 0.5621135469364812
+            }
+          ],
+          "hi": 1,
+          "at": "$1,000"
+        },
+        "badge": "Flat year",
+        "in": "wipe"
+      },
+      {
+        "say": "Two friends put in $1,000, one Tesla, one TSLU."
+      },
+      {
+        "say": "A year later, Tesla has $1,000 and TSLU has $779.",
+        "part": "table",
+        "data": {
+          "k": "THE LEVERAGE DECAY TABLE",
+          "cols": [
+            "THE STOCK ITSELF",
+            "2X ETF · 25% SWINGS",
+            "2X ETF · 50% SWINGS"
+          ],
+          "rows": [
+            {
+              "lab": "$100",
+              "cells": [
+                "$100",
+                "$94",
+                "$77.90"
+              ]
+            },
+            {
+              "lab": "$1,000",
+              "cells": [
+                "$1,000",
+                "$940",
+                "$779"
+              ]
+            },
+            {
+              "lab": "$5,000",
+              "cells": [
+                "$5,000",
+                "$4,700",
+                "$3,895"
+              ]
+            },
+            {
+              "lab": "$10,000",
+              "cells": [
+                "$10,000",
+                "$9,400",
+                "$7,790"
+              ]
+            }
+          ],
+          "hi": 1,
+          "at": "$779"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "So where did $221 go?",
+        "part": "callout",
+        "data": {
+          "word": "go",
+          "line": "So where did $221 go?",
+          "at": "go"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Funds like TSLU start over every day.",
+        "part": "strike",
+        "data": {
+          "old": "FLAT STOCK",
+          "new": "SHRINKING FUND",
+          "at": "swings",
+          "k": "Why",
+          "sub": "it starts over every day.",
+          "sub_at": 1
+        },
+        "badge": "Why",
+        "in": "dissolve"
+      },
+      {
+        "say": "Big daily price *swings* wear them down."
+      },
+      {
+        "say": "Calmer 25% swings still cost 6%, in a *made-up* example.",
+        "part": "swap",
+        "data": {
+          "old": "CALM",
+          "new": "STILL DOWN",
+          "at": "made-up"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "$221 gone from $1,000 while the stock went *nowhere*.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "221",
+          "pre": "$",
+          "suf": "",
+          "label": "gone, stock went nowhere",
+          "at": "$221"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Find your row.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "YOUR $10,000",
+            "big": "$7,790",
+            "ft": "2x fund, 50% swings"
+          },
+          "b": {
+            "k": "SAME $10,000",
+            "big": "$10,000",
+            "ft": "the stock itself",
+            "at": "$10,000"
+          }
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Your $10,000 in that flat year leaves $7,790."
+      },
+      {
+        "say": "Comment *DECAY,* and I will send you the loss table.",
+        "part": "tiles",
+        "data": {
+          "word": "DECAY",
+          "at": "DECAY",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the flat-year loss table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "TSLU took $221 while Tesla went nowhere. Want it back?",
+          "Give me 30 seconds. Keep your money growing."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The flat-year loss table is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "Flat year",
+        "data": {
+          "a": {
+            "h": "HELD TSLU",
+            "v": "$779",
+            "sub": "same $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "HELD TESLA",
+            "v": "$1,000",
+            "sub": "stock ended flat",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "TSLU is a fund betting on Tesla, two times *harder*.",
+          "Two friends put in $1,000, one Tesla, one TSLU."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "HELD TSLU",
+            "v": "$779",
+            "sub": "same $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "HELD TESLA",
+            "v": "$1,000",
+            "sub": "stock ended flat",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "A year later, Tesla has $1,000 and TSLU has $779."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So where did $221 go?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "Why",
+        "data": {
+          "old": "FLAT STOCK",
+          "new": "SHRINKING FUND",
+          "sub": "it starts over every day."
+        },
+        "lines": [
+          "Funds like TSLU start over every day.",
+          "Big daily price *swings* wear them down."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "CALM",
+          "new": "STILL DOWN"
+        },
+        "lines": [
+          "Calmer 25% swings still cost 6%, in a *made-up* example."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$221",
+          "new": "gone, stock went nowhere"
+        },
+        "lines": [
+          "$221 gone from $1,000 while the stock went *nowhere*."
+        ]
+      },
+      {
+        "role": "myrow",
+        "data": {
+          "a": {
+            "h": "YOUR $10,000",
+            "v": "$7,790",
+            "sub": "2x fund, 50% swings",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $10,000",
+            "v": "$10,000",
+            "sub": "the stock itself",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find your row.",
+          "Your $10,000 in that flat year leaves $7,790."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DECAY",
+          "gift": "the flat-year loss table"
+        },
+        "lines": [
+          "Comment *DECAY,* and I will send you the loss table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook and promise, a lock-in offering the table, a Tesla vs TSLU compare built on $1,000 against $779, a question rehook, the plain why (starts over every day, swings wear it down), a trap rehook with the made-up 25% example costing 6%, the $221 closing, then the given myrow and DECAY cta in 9 scenes, 14 lines and about 115 words.",
+      "shape": "zoom",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "rollnum",
+      "parts": [
+        "rollnum",
+        "donut",
+        "table",
+        "callout",
+        "strike",
+        "swap",
+        "odometer",
+        "dumbbell",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "wipe",
+        "zoom",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "DECAY"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "TSLU took $221 while Tesla went nowhere. Want it back?",
+        "part": "cover",
+        "data": {
+          "pill": "THE LEVERAGE DECAY TABLE",
+          "num": "$221",
+          "line": "TSLU took $221 while Tesla went nowhere. Want it back?",
+          "promise": "Give me 30 seconds. Keep your money growing.",
+          "subj": "TSLU",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep your money growing.",
+        "nocap": true
+      },
+      {
+        "say": "The decay table, in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people put $1,000 on Tesla, one flat year.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "TSLU, 50% SWINGS",
+            "big": "$779",
+            "ft": "same $1,000, flat year"
+          },
+          "b": {
+            "k": "TESLA STOCK",
+            "big": "$1,000",
+            "ft": "flat year",
+            "at": "$1,000"
+          },
+          "gap": "$221",
+          "gap_at": 1
+        },
+        "badge": "THE GAP",
+        "in": "dissolve"
+      },
+      {
+        "say": "The stock kept $1,000. TSLU, the fund moving twice as hard, kept $779."
+      },
+      {
+        "say": "The $221 gap is swings wearing TSLU down.",
+        "part": "donut",
+        "data": {
+          "k": "",
+          "segs": [
+            {
+              "l": "TSLU, 50% SWINGS",
+              "v": "$779",
+              "w": 0.4378864530635188
+            },
+            {
+              "l": "TESLA STOCK",
+              "v": "$1,000",
+              "w": 0.5621135469364812
+            }
+          ],
+          "hi": 1,
+          "at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Now the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Now the part nobody says.",
+          "at": "says"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "People think TSLU is just Tesla, *doubled*.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "TESLA, DOUBLED",
+            "v": "TESLA, DOUBLED",
+            "sub": ""
+          },
+          "b": {
+            "h": "STARTS OVER DAILY",
+            "v": "STARTS OVER DAILY",
+            "sub": ""
+          },
+          "at": 1
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "It resets, starts over daily. A year is not twice Tesla."
+      },
+      {
+        "say": "That is the fund's *own* example, not a promise.",
+        "part": "tag",
+        "data": {
+          "old": "PROMISE",
+          "new": "EXAMPLE",
+          "at": "EXAMPLE"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "At 25% swings, $1,000 became $940.",
+        "part": "strike",
+        "data": {
+          "old": "25% SWINGS",
+          "new": "50% SWINGS",
+          "at": "At",
+          "k": "SWINGS",
+          "sub": "$940 vs $779, before fees.",
+          "sub_at": 1
+        },
+        "badge": "SWINGS",
+        "in": "wipe"
+      },
+      {
+        "say": "At 50% swings, $1,000 became $779, before fees."
+      },
+      {
+        "say": "That $221 left TSLU while Tesla sat *still*.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "221",
+          "pre": "$",
+          "suf": "",
+          "label": "gone, Tesla flat",
+          "at": "$221"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *DECAY,* and I will send you the decay table.",
+        "part": "tiles",
+        "data": {
+          "word": "DECAY",
+          "at": "DECAY",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the decay table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "TSLU took $221 while Tesla went nowhere. Want it back?",
+          "Give me 30 seconds. Keep your money growing."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The decay table, in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "TSLU, 50% SWINGS",
+            "v": "$779",
+            "sub": "same $1,000, flat year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "TESLA STOCK",
+            "v": "$1,000",
+            "sub": "flat year",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people put $1,000 on Tesla, one flat year.",
+          "The stock kept $1,000. TSLU, the fund moving twice as hard, kept $779."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "TSLU, 50% SWINGS",
+            "v": "$779",
+            "sub": "same $1,000, flat year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "TESLA STOCK",
+            "v": "$1,000",
+            "sub": "flat year",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The $221 gap is swings wearing TSLU down."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Now the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "RESETS",
+        "data": {
+          "old": "TESLA, DOUBLED",
+          "new": "STARTS OVER DAILY",
+          "sub": "a year is not twice the stock."
+        },
+        "lines": [
+          "People think TSLU is just Tesla, *doubled*.",
+          "It resets, starts over daily. A year is not twice Tesla."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "PROMISE",
+          "new": "EXAMPLE"
+        },
+        "lines": [
+          "That is the fund's *own* example, not a promise."
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "SWINGS",
+        "data": {
+          "old": "25% SWINGS",
+          "new": "50% SWINGS",
+          "sub": "$940 vs $779, before fees."
+        },
+        "lines": [
+          "At 25% swings, $1,000 became $940.",
+          "At 50% swings, $1,000 became $779, before fees."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$221",
+          "new": "gone, Tesla flat"
+        },
+        "lines": [
+          "That $221 left TSLU while Tesla sat *still*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DECAY",
+          "gift": "the decay table"
+        },
+        "lines": [
+          "Comment *DECAY,* and I will send you the decay table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc scene by scene: hook and promise, a one-breath lock-in naming the table, a compare that shows $1,000 against $779 and says the swings caused it, a rehook, a myth that explains the daily reset in plain words, a trap rehook that the figure is the fund's own example, a short catch with the 25% and 50% numbers, the $221 closing, and the cta ending.",
+      "shape": "ledger",
+      "ending": "cta",
+      "caption": "blur",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "dumbbell",
+        "donut",
+        "callout",
+        "wipe",
+        "tag",
+        "strike",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "rehook",
+        "catch",
+        "closing",
+        "cta"
+      ],
+      "keyword": "DECAY"
+    }
+  },
+  "plain": {
+    "what": "TSLU is a fund that bets on Tesla stock, two times harder than normal. Funds like this start over every day, which wears them down when the stock bounces around a lot. In LongPoint's own paperwork, there is an example where the stock ends the year exactly where it started, and the fund still ends down 22.1%.",
+    "so_what": "If you put in $1,000 and the stock went nowhere all year, you could still be left with $779, before fees.",
+    "do": "Write down whether your fund says 2x, and how much the stock it follows swings in a year.",
+    "words": [
+      {
+        "term": "TSLU",
+        "means": "a fund that moves twice as much as Tesla stock"
+      },
+      {
+        "term": "ETF",
+        "means": "one fund you can buy that holds things for you"
+      },
+      {
+        "term": "2x (leveraged)",
+        "means": "moves twice as much as the stock, up and down"
+      },
+      {
+        "term": "resets",
+        "means": "starts over every day"
+      },
+      {
+        "term": "volatility (swings)",
+        "means": "how much the price jumps up and down"
+      },
+      {
+        "term": "prospectus",
+        "means": "the fund's own official paperwork"
+      },
+      {
+        "term": "hypothetical",
+        "means": "a made-up example, not a real result"
+      }
+    ]
+  },
+  "subject": "TSLU",
+  "deliver": {
+    "word": "DECAY",
+    "gift": "the flat-year loss table"
+  },
+  "check": [],
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "TSLU took $221 while Tesla went nowhere. Want it back?",
+        "part": "cover",
+        "data": {
+          "pill": "THE LEVERAGE DECAY TABLE",
+          "num": "$221",
+          "line": "TSLU took $221 while Tesla went nowhere. Want it back?",
+          "promise": "Give me 30 seconds. Keep your money growing.",
+          "subj": "TSLU",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep your money growing.",
+        "nocap": true
+      },
+      {
+        "say": "The decay table, in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people put $1,000 on Tesla, one flat year.",
+        "part": "donut",
+        "data": {
+          "k": "THE GAP",
+          "segs": [
+            {
+              "l": "TSLU, 50% SWINGS",
+              "v": "$779",
+              "w": 0.4378864530635188
+            },
+            {
+              "l": "TESLA STOCK",
+              "v": "$1,000",
+              "w": 0.5621135469364812
+            }
+          ],
+          "hi": 1,
+          "at": "$1,000"
+        },
+        "badge": "THE GAP",
+        "in": "dissolve"
+      },
+      {
+        "say": "The stock kept $1,000. TSLU, the fund moving twice as hard, kept $779."
+      },
+      {
+        "say": "The $221 gap is swings wearing TSLU down.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "TSLU, 50% SWINGS",
+            "v": "$779",
+            "sub": "same $1,000, flat year"
+          },
+          "b": {
+            "h": "TESLA STOCK",
+            "v": "$1,000",
+            "sub": "flat year"
+          },
+          "at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Now the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Now the part nobody says.",
+          "at": "says"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "People think TSLU is just Tesla, *doubled*.",
+        "part": "strike",
+        "data": {
+          "old": "TESLA, DOUBLED",
+          "new": "STARTS OVER DAILY",
+          "at": "It",
+          "k": "RESETS",
+          "sub": "a year is not twice the stock.",
+          "sub_at": 1
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "It resets, starts over daily. A year is not twice Tesla."
+      },
+      {
+        "say": "That is the fund's *own* example, not a promise.",
+        "part": "swap",
+        "data": {
+          "old": "PROMISE",
+          "new": "EXAMPLE",
+          "at": "own"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "At 25% swings, $1,000 became $940.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "",
+              "tone": "loss",
+              "h": "25% SWINGS",
+              "v": "25% SWINGS",
+              "at": 0
+            },
+            {
+              "sub": "",
+              "tone": "win",
+              "h": "50% SWINGS",
+              "v": "50% SWINGS",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "SWINGS",
+        "in": "dissolve"
+      },
+      {
+        "say": "At 50% swings, $1,000 became $779, before fees."
+      },
+      {
+        "say": "That $221 left TSLU while Tesla sat *still*.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "221",
+          "pre": "$",
+          "suf": "",
+          "label": "gone, Tesla flat",
+          "at": "$221"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Comment *DECAY,* and I will send you the decay table.",
+        "part": "tiles",
+        "data": {
+          "word": "DECAY",
+          "at": "DECAY",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the decay table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "TSLU took $221 while Tesla went nowhere. Want it back?",
+          "Give me 30 seconds. Keep your money growing."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The decay table, in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "TSLU, 50% SWINGS",
+            "v": "$779",
+            "sub": "same $1,000, flat year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "TESLA STOCK",
+            "v": "$1,000",
+            "sub": "flat year",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people put $1,000 on Tesla, one flat year.",
+          "The stock kept $1,000. TSLU, the fund moving twice as hard, kept $779."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "TSLU, 50% SWINGS",
+            "v": "$779",
+            "sub": "same $1,000, flat year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "TESLA STOCK",
+            "v": "$1,000",
+            "sub": "flat year",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The $221 gap is swings wearing TSLU down."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Now the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "RESETS",
+        "data": {
+          "old": "TESLA, DOUBLED",
+          "new": "STARTS OVER DAILY",
+          "sub": "a year is not twice the stock."
+        },
+        "lines": [
+          "People think TSLU is just Tesla, *doubled*.",
+          "It resets, starts over daily. A year is not twice Tesla."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "PROMISE",
+          "new": "EXAMPLE"
+        },
+        "lines": [
+          "That is the fund's *own* example, not a promise."
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "SWINGS",
+        "data": {
+          "old": "25% SWINGS",
+          "new": "50% SWINGS",
+          "sub": "$940 vs $779, before fees."
+        },
+        "lines": [
+          "At 25% swings, $1,000 became $940.",
+          "At 50% swings, $1,000 became $779, before fees."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$221",
+          "new": "gone, Tesla flat"
+        },
+        "lines": [
+          "That $221 left TSLU while Tesla sat *still*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DECAY",
+          "gift": "the decay table"
+        },
+        "lines": [
+          "Comment *DECAY,* and I will send you the decay table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc scene by scene: hook and promise, a one-breath lock-in naming the table, a compare that shows $1,000 against $779 and says the swings caused it, a rehook, a myth that explains the daily reset in plain words, a trap rehook that the figure is the fund's own example, a short catch with the 25% and 50% numbers, the $221 closing, and the cta ending.",
+      "shape": "ledger",
+      "ending": "cta",
+      "caption": "karaoke",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "donut",
+        "wipe",
+        "callout",
+        "strike",
+        "swap",
+        "stack",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "wipe",
+        "iris",
+        "dissolve",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "rehook",
+        "catch",
+        "closing",
+        "cta"
+      ],
+      "keyword": "DECAY"
+    }
+  },
+  "caption_b": "🐶⛏️ Before you hold a 2x fund like TSLU, check how much Tesla swings in a year.\n\nFunds like TSLU start over every day, so big swings wear them down even when Tesla ends flat. LongPoint's own made-up example has the fund down 22.1% after a flat year.\n\nComment DECAY and I'll send you my flat-year loss table 🪙\nDoes yours say 2x?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#etfcanada #teslacanada #torontofinance",
+  "caption_family": "warning"
+}

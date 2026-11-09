@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-03",
+  "day": 2,
+  "slot": "main",
+  "category": "tax",
+  "status": "draft",
+  "supersedes": "2026-11-03-01-main-v2.json",
+  "note_": "2026-11-03 밤: 6장 → 3장. 장 수는 내용이 정한다. 속장은 표지 언어(알약·블러시 제목판·버터/블러시 카드·카테고리 일러). CSS 정본은 template.html 한 곳. 릴스·스토리는 같은 장을 9:16 으로. 11/03 밤 2차: AI 티·색 조합 반려 → 크림·검정·골드 하나·로즈는 손해 숫자뿐. Bricolage Grotesque(제목·숫자) + Figtree(라벨) + Fredoka(하마 목소리만).",
+  "title": "Day 2 · US dividends in the wrong box",
+  "lede": "3장. 표지(15%) → 반전(TFSA vs RRSP) → 저장표. 조약은 RRSP 를 인정하고 TFSA 를 인정하지 않는다.",
+  "series": "TFSA · WHERE THE CUT GOES",
+  "source_note": "CONFIRM WITH CRA",
+  "place": "TORONTO",
+  "object": "US DIVIDEND LEAK TABLE",
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "15% of your US payouts is gone.",
+      "Is your box quietly losing 15%?",
+      "Wrong box, and you lose 15%.",
+      "Your 'free' box still cuts you 15%.",
+      "Hama lost 15%. Check if you did.",
+      "You lose 15% before it reaches you.",
+      "The 15% leak your box never shows.",
+      "Same stock. Your box loses 15% more.",
+      "Since day one, you lose 15% every payout.",
+      "Never let the border cut your 15%."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your 'free' box still cuts you 15%.",
+    "spoken": "Your 'free' box still cuts you 15%.",
+    "promise": "Give me 30 seconds. Keep all of it.",
+    "pick_why": "Beginners trust that a free box is safe, so finding out it still cuts 15% is the hardest thing to scroll past and the one most worth saving.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-04"
+  },
+  "sources": [
+    {
+      "label": "WEALTHNORTH",
+      "what": "TFSA 안의 미국 배당에는 15% 가 붙고 되돌려받을 수 없다",
+      "url": "https://wealthnorth.ca/investing/etfs/foreign-dividend-withholding-tax-canada/",
+      "confidence": "교육 페이지 — 1차 자료 아님. CONFIRM WITH CRA"
+    },
+    {
+      "label": "QUESTRADE · RRSP",
+      "what": "조약이 RRSP·RRIF 를 미국 배당 15% 에서 면제한다 (W-8BEN 필요)",
+      "url": "https://www.questrade.com/learning/accounts-taxes/rrsp-foreign-withholding-tax",
+      "confidence": "증권사 교육 페이지 — 1차 자료 아님"
+    },
+    {
+      "label": "QUESTRADE · TFSA",
+      "what": "TFSA 는 조약이 인정하는 은퇴계좌 목록에 없다",
+      "url": "https://www.questrade.com/learning/accounts-taxes/us-stocks-in-tfsa",
+      "confidence": "증권사 교육 페이지 — 1차 자료 아님"
+    },
+    {
+      "label": "FINIKI",
+      "what": "캐나다 상장 펀드가 미국 자산을 담으면 RRSP 안에서도 펀드 단에서 떼인다",
+      "url": "https://finiki.org/wiki/Foreign_withholding_taxes",
+      "confidence": "위키 — 1차 자료 아님"
+    },
+    {
+      "label": "GLOBE ADVISOR",
+      "what": "RRSP 안의 외국 원천징수를 줄이는 쪽은 직접 보유 쪽이다",
+      "url": "https://theglobeandmail.com/investing/globe-advisor/advisor-funds/article-avoiding-the-silent-enemy-of-foreign-withholding-tax-in-rrsps",
+      "confidence": "기사 — 1차 자료 아님"
+    }
+  ],
+  "unverified": [
+    "조약 조문 번호(Article XXI)와 IRS·CRA 원문은 아직 안 봤다. 5개 모두 2차 자료다.",
+    "표의 금액은 확인된 15% 에 산수만 한 것이다. 지어낸 수익률이 아니다."
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "US DIVIDENDS · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "Your 'free' box still cuts you ",
+        "num": "15",
+        "post": "%."
+      },
+      "promise": "Give me 30 seconds. Keep all of it."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME STOCKS · TWO BOXES",
+      "title": "One box keeps it all. One box *leaks.*",
+      "boxes": [
+        {
+          "h": "TFSA",
+          "v": "−15%",
+          "d": "$1,000 pays you $850.",
+          "d2": "$10,000 pays you $8,500. The cut happens before it lands. Nobody refunds it.",
+          "d3": "US stocks held inside a TFSA",
+          "lead": true
+        },
+        {
+          "h": "RRSP",
+          "v": "0%",
+          "win": true,
+          "d": "$1,000 pays you $1,000.",
+          "d2": "$10,000 pays you $10,000. The Canada‑US tax deal covers this box, not the TFSA.",
+          "d3": "US stocks held directly in an RRSP"
+        }
+      ],
+      "source_label": "QUESTRADE · WEALTHNORTH",
+      "say": "Same stocks. Different box.|Different money."
+    },
+    {
+      "type": "table",
+      "kicker": "US DIVIDEND LEAK TABLE",
+      "title": "What actually lands in your TFSA.",
+      "h1": "US STOCKS PAY YOU",
+      "h2": "LANDS IN YOUR TFSA",
+      "rows": [
+        {
+          "a": "$100",
+          "asub": "a year in US dividends",
+          "b": "$85",
+          "gone": "−$15 gone"
+        },
+        {
+          "a": "$1,000",
+          "asub": "a year in US dividends",
+          "b": "$850",
+          "gone": "−$150 gone"
+        },
+        {
+          "a": "$10,000",
+          "asub": "a year in US dividends",
+          "b": "$8,500",
+          "gone": "−$1,500 gone"
+        }
+      ],
+      "note": "In an RRSP the same payout lands whole. <b>Save this. Check your box before your next buy.</b>",
+      "say": "Save this one. Check your box before your next buy."
+    }
+  ],
+  "caption": "15% of your US dividends never make it into your TFSA, and you can't claim it back.\n\nThe Canada-US treaty keeps a list of retirement accounts. The RRSP is on it. The TFSA isn't.\n\nSo a US company pays $1,000. The border takes $150 on the way out. $850 lands in your tax-free box, and Canada can't refund the rest, because you owe nothing here to claim it against.\n\nSame fund, same dividend. In an RRSP it arrives whole.\n\nThere's a catch, and it's the part that trips people up. The exemption covers US-listed holdings you hold directly. A Canadian-listed fund that owns US assets can still leak at the fund level, in either account.\n\nSo before your next buy, two things. What box it sits in, and what it actually holds.\n\nGeneral education, not tax advice. Confirm your own case with the CRA or a tax professional.\n\nSave this one and check before your next buy.\n\n#tfsa #rrsp #canadianinvesting #withholdingtax #dividendinvesting",
+  "fact": {
+    "num": "15",
+    "unit": "%",
+    "thing": "US dividends",
+    "box": "tax-free box (TFSA)",
+    "claim": "US dividends held in a TFSA lose 15% at the border and it cannot be claimed back. The RRSP is exempt. Canadian-listed funds that hold US assets can still leak inside either.",
+    "sources": [
+      "WEALTHNORTH",
+      "QUESTRADE · RRSP",
+      "QUESTRADE · TFSA",
+      "FINIKI",
+      "GLOBE ADVISOR"
+    ],
+    "verified": "2차 자료 5개. 1차(조약·CRA) 미확인"
+  },
+  "reel": {
+    "format": "1080x1920 · 3장 × 6초 = 18초 · 무음(음악은 앱에서)",
+    "spoken": [
+      "15% of your payout leaks, even in a tax-free box.",
+      "Same stocks. Different box. Different money.",
+      "Save this one. Check your box before your next buy."
+    ],
+    "made_by": "엔진/build.py --reel → HyperFrames (npx hyperframes render)"
+  },
+  "story": {
+    "frames": [
+      {
+        "n": 1,
+        "image": "01-hero (9x16)",
+        "sticker": "Poll · «Did you know this?» · Knew it / No way",
+        "where": "그림 아래, 저장 띠 위 (y≈1300~1400)"
+      },
+      {
+        "n": 2,
+        "image": "02-two (9x16)",
+        "sticker": "없음",
+        "note": "답을 보여주는 장. 글만"
+      },
+      {
+        "n": 3,
+        "image": "03-table (9x16)",
+        "sticker": "Link · 게시물 링크 «Save the table»",
+        "where": "표 아래 노트 위"
+      }
+    ],
+    "after": "No way 에 투표한 사람에게만 답장. 표 링크 한 줄. (ig-story: they act first, then you reply)",
+    "daily_story_note": "plan.json 의 «아침 가격 + 밤 딸기 넥카라» 는 하림님 실제 사진이 있어야 한다. 지어내지 않는다."
+  }
+}

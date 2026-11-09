@@ -1,0 +1,1267 @@
+{
+  "key": "advisor-portfolio-vs-one-fund-fee",
+  "category": "etf",
+  "status": "draft",
+  "title": "Bank fund vs one ETF: the $1,720 yearly gap",
+  "object": "THE ADVISOR MIX VS ONE FUND TABLE",
+  "subject": "Your advisor's fund",
+  "made_by": "엔진/find.py 2026-11-07 · 신호 ['s44cd2ff6', 's03d5eecd', 's1e8fd79e'] · 퍼스나 The bank-branch fund holder",
+  "fact": {
+    "num": "1,720",
+    "unit": "$",
+    "thing": "extra yearly fee on $100,000, bank balanced fund vs one all-in-one ETF",
+    "box": "RBC Select Balanced Portfolio Series A vs Vanguard Balanced ETF Portfolio (VBAL)",
+    "claim": "RBC Select Balanced Portfolio Series A, a balanced fund sold through a big bank, has an MER of 1.94%. Vanguard's all-in-one balanced ETF, VBAL, has an MER of 0.22%. On $100,000 that works out to about $1,940 a year against $220, a gap of about $1,720. The fund's MER pays for advice through the bank, while the ETF comes with no advice and you buy it yourself in a brokerage account. This compares one fund with one ETF and is not an average of all bank funds.",
+    "felt": {
+      "num": "1,720",
+      "unit": "$",
+      "a": "1,940",
+      "b": "220",
+      "how": "yearly MER cost on $100,000: RBC Select Balanced Series A (1.94%) vs VBAL (0.22%)"
+    },
+    "sources": [
+      "RBC GAM FUND SHEET (RBF460, SEP 30 2026)",
+      "VANGUARD CANADA VBAL PAGE"
+    ],
+    "verified": "find.py · 대조 1/2"
+  },
+  "sources": [
+    {
+      "label": "RBC GAM FUND SHEET (RBF460, SEP 30 2026)",
+      "url": "https://www.rbcgam.com/documents/fund-pages/monthly/rbf460_e.pdf",
+      "what": "Series A MER % 1.94",
+      "confidence": "1차"
+    },
+    {
+      "label": "VANGUARD CANADA VBAL PAGE",
+      "url": "https://www.vanguard.ca/en/advisor/products/products-group/etfs/VBAL",
+      "what": "Management Expense Ratio (MER) 0.22%",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "ETF · CANADA",
+      "topic": "THE ETF COMBO",
+      "hook": {
+        "pre": "Your advisor's fund: $",
+        "num": "1,720",
+        "post": " extra a year on $100,000. Want it back?"
+      },
+      "promise": "Give me 30 seconds. See the cheaper row."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE ADVISOR MIX VS ONE FUND TABLE",
+      "title": "Your balance. Two yearly *price tags.*",
+      "rowlabel": "YOU HAVE",
+      "cols": [
+        "BANK FUND 1.94%",
+        "ONE ETF 0.22%",
+        "GAP A YEAR"
+      ],
+      "labw": 22,
+      "rows": [
+        {
+          "a": "$10,000",
+          "asub": "invested",
+          "cells": [
+            "$194",
+            "$22",
+            "$172"
+          ]
+        },
+        {
+          "a": "$25,000",
+          "asub": "invested",
+          "cells": [
+            "$485",
+            "$55",
+            "$430"
+          ]
+        },
+        {
+          "a": "$50,000",
+          "asub": "invested",
+          "cells": [
+            "$970",
+            "$110",
+            "$860"
+          ]
+        },
+        {
+          "a": "$100,000",
+          "asub": "invested",
+          "cells": [
+            "$1,940",
+            "$220",
+            "$1,720"
+          ]
+        },
+        {
+          "a": "$250,000",
+          "asub": "invested",
+          "cells": [
+            "$4,850",
+            "$550",
+            "$4,300"
+          ]
+        }
+      ],
+      "hi": [
+        3,
+        2
+      ],
+      "note": "Balance × MER, one year, before any growth. RBC Select Balanced Series A vs VBAL. Simple math, not a promise. <b>Save this. Find your row.</b>",
+      "source_label": "RBC GAM · VANGUARD CANADA"
+    },
+    {
+      "type": "flow",
+      "kicker": "THE PART YOU NEVER SEE",
+      "title": "Where the 1.94% *goes.*",
+      "lead": "The MER is the fund's yearly fee. It comes out inside the fund, <em>so no bill ever arrives.</em>",
+      "steps": [
+        {
+          "n": "$1,940",
+          "t": "bank fund, 1.94%",
+          "s": "a year on $100,000",
+          "cut": true
+        },
+        {
+          "n": "$220",
+          "t": "one ETF, 0.22%",
+          "s": "a year on $100,000"
+        },
+        {
+          "n": "$1,720",
+          "t": "the gap each year",
+          "s": "$1,940 minus $220"
+        }
+      ],
+      "tail": "The bigger fee pays for advice through the bank. The ETF has no advice, and you buy it yourself in a brokerage box. One fund against one ETF, not every bank fund.",
+      "source_label": "RBC GAM · VANGUARD CANADA",
+      "say": "No bill ever arrives.|Hama read the fund sheet."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your advisor's fund: $1,720 extra a year on $100,000. Want it back?",
+      "Your advisor's fund charges $1,720 extra a year. Want to keep it?",
+      "Your advisor's fund, never checked, costs $1,720 extra yearly. Want it back?",
+      "Your advisor's fund feels free but costs $1,720 extra yearly. Want it back?",
+      "Your advisor's fund: Hama found $1,720 extra fees yearly. Want it back?",
+      "Your advisor's fund holders pay $1,720 extra a year. Want it back?",
+      "Your advisor's fund from a bank takes $1,720 extra yearly. Keep it?",
+      "Your advisor's fund vs one fund: $1,720 yearly gap. Want it back?",
+      "Your advisor's fund takes $1,720 extra every single year. Still waiting?",
+      "Your advisor's fund: don't ignore $1,720 extra a year. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your advisor's fund: $1,720 extra a year on $100,000. Want it back?",
+    "spoken": "Your advisor's fund: $1,720 extra a year on $100,000. Want it back?",
+    "promise": "Give me 30 seconds. See the cheaper row.",
+    "stamp": "STOP THE LEAK",
+    "pick_why": "The name, the $1,720 gap and its $100,000 base all fit on one cover, so a beginner sees their own risk and saves the table to check their fund.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-07"
+  },
+  "lede": "On $100,000, a 1.94% bank balanced fund costs $1,940 a year. A 0.22% all-in-one ETF costs $220.",
+  "series": "FUND FEE CHECK",
+  "source_note": "RBC GAM + VANGUARD CANADA · MER PAGES",
+  "caption": "🐶⛏️ If you're paying $1,720 extra a year in fund fees, no bill will tell you.\n\nThe MER is your fund's yearly fee, and it comes out inside the fund, so you never notice it. Part of that bank fee pays for advice and VBAL has none, so it's worth knowing what you're getting.\n\nComment ADVISO and I'll send you the fee table for every balance 🪙\nKnow your fund's MER?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#etfcanada #vbal #torontofinance",
+  "deliver": {
+    "word": "ADVISO",
+    "gift": "the fee table for every balance"
+  },
+  "check": [
+    "Your fund sheet",
+    "Its MER",
+    "Your row"
+  ],
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your advisor's fund: $1,720 extra a year on $100,000. Want it back?",
+        "part": "boil",
+        "data": {
+          "pill": "THE ADVISOR MIX VS ONE FUND TABLE",
+          "num": "$1,720",
+          "line": "Your advisor's fund: $1,720 extra a year on $100,000. Want it back?",
+          "promise": "Give me 30 seconds. See the cheaper row.",
+          "subj": "YOUR ADVISOR'S FUND",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the cheaper row.",
+        "nocap": true
+      },
+      {
+        "say": "Both yearly price tags for your *balance*.",
+        "cap": "low"
+      },
+      {
+        "say": "Your advisor's fund and Vanguard's VBAL each hold many companies at once.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "a year on $100,000",
+              "tone": "win",
+              "h": "VBAL",
+              "v": "$220",
+              "at": "VBAL"
+            },
+            {
+              "sub": "same $100,000",
+              "tone": "loss",
+              "h": "ADVISOR'S FUND",
+              "v": "$1,940",
+              "at": 1
+            }
+          ],
+          "hi": 0,
+          "hi_at": "VBAL",
+          "stand_at": 1
+        },
+        "badge": "THE GAP",
+        "in": "dissolve"
+      },
+      {
+        "say": "Your advisor's fund takes $1,940 a year on $100,000."
+      },
+      {
+        "say": "VBAL takes $220 on the same $100,000.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "VBAL",
+            "big": "$220",
+            "ft": "a year on $100,000"
+          },
+          "b": {
+            "k": "ADVISOR'S FUND",
+            "big": "$1,940",
+            "ft": "same $100,000",
+            "at": 0
+          },
+          "gap": "$1,720",
+          "gap_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Why does nobody *notice* this fee?",
+        "part": "callout",
+        "data": {
+          "word": "notice",
+          "line": "Why does nobody *notice* this fee?",
+          "at": "notice"
+        }
+      },
+      {
+        "say": "The *MER* is the fund's yearly fee, taken out inside the fund.",
+        "part": "tag",
+        "data": {
+          "old": "YOU'D SEE IT",
+          "new": "NO BILL",
+          "at": "NO",
+          "sub": "it comes out inside the fund.",
+          "sub_at": 1
+        },
+        "badge": "THE FEE",
+        "in": "iris"
+      },
+      {
+        "say": "No *bill* ever comes."
+      },
+      {
+        "say": "That bank fee buys *advice*, and VBAL has none.",
+        "part": "split",
+        "data": {
+          "k": "FOR NOTHING vs BUYS ADVICE",
+          "total": "BUYS ADVICE",
+          "a": {
+            "v": "FOR NOTHING",
+            "l": "FOR NOTHING",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "BUYS ADVICE",
+            "l": "BUYS ADVICE",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "On $100,000, the gap is $1,720 a year.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "1,720",
+          "pre": "$",
+          "suf": "",
+          "label": "a year, no bill",
+          "at": "$1,720"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Find the *MER* on your fund sheet.",
+        "part": "checklist",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Your fund sheet",
+            "Its MER",
+            "Your row",
+            "Save this post"
+          ],
+          "from": 0,
+          "to": 1,
+          "top": 420
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Then find your row."
+      },
+      {
+        "say": "Comment *ADVISO,* and I will send you the fee table.",
+        "part": "tiles",
+        "data": {
+          "word": "ADVISO",
+          "at": "ADVISO",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the fee table for every balance ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your advisor's fund: $1,720 extra a year on $100,000. Want it back?",
+          "Give me 30 seconds. See the cheaper row."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Both yearly price tags for your *balance*."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "VBAL",
+            "v": "$220",
+            "sub": "a year on $100,000",
+            "tone": "win"
+          },
+          "b": {
+            "h": "ADVISOR'S FUND",
+            "v": "$1,940",
+            "sub": "same $100,000",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "Your advisor's fund and Vanguard's VBAL each hold many companies at once.",
+          "Your advisor's fund takes $1,940 a year on $100,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "VBAL",
+            "v": "$220",
+            "sub": "a year on $100,000",
+            "tone": "win"
+          },
+          "b": {
+            "h": "ADVISOR'S FUND",
+            "v": "$1,940",
+            "sub": "same $100,000",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "VBAL takes $220 on the same $100,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Why does nobody *notice* this fee?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE FEE",
+        "data": {
+          "old": "YOU'D SEE IT",
+          "new": "NO BILL",
+          "sub": "it comes out inside the fund."
+        },
+        "lines": [
+          "The *MER* is the fund's yearly fee, taken out inside the fund.",
+          "No *bill* ever comes."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FOR NOTHING",
+          "new": "BUYS ADVICE"
+        },
+        "lines": [
+          "That bank fee buys *advice*, and VBAL has none."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,720",
+          "new": "a year, no bill"
+        },
+        "lines": [
+          "On $100,000, the gap is $1,720 a year."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Your fund sheet",
+            "Its MER",
+            "Your row"
+          ]
+        },
+        "lines": [
+          "Find the *MER* on your fund sheet.",
+          "Then find your row."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "ADVISO",
+          "gift": "the fee table for every balance"
+        },
+        "lines": [
+          "Comment *ADVISO,* and I will send you the fee table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook and promise, a lock-in on what they get, a compare that names both funds before showing $1,940 against $220 on $100,000, a question rehook, a catch that explains the MER and why no bill shows up, a trust rehook saying the bank fee buys advice, the $1,720 closing, then the given check and cta ending.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "boil",
+      "parts": [
+        "boil",
+        "stack",
+        "compare",
+        "callout",
+        "tag",
+        "split",
+        "odometer",
+        "checklist",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "wipe",
+        "fade",
+        "iris",
+        "zoom",
+        "dissolve",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "ADVISO"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your advisor's fund: $1,720 extra a year on $100,000. Want it back?",
+        "part": "boil",
+        "data": {
+          "pill": "THE ADVISOR MIX VS ONE FUND TABLE",
+          "num": "$1,720",
+          "line": "Your advisor's fund: $1,720 extra a year on $100,000. Want it back?",
+          "promise": "Give me 30 seconds. See the cheaper row.",
+          "subj": "YOUR ADVISOR'S FUND",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the cheaper row.",
+        "nocap": true
+      },
+      {
+        "say": "Both yearly price tags for your *balance*.",
+        "cap": "low"
+      },
+      {
+        "say": "Your advisor's fund and Vanguard's VBAL each hold many companies at once.",
+        "part": "split",
+        "data": {
+          "k": "VBAL vs ADVISOR'S FUND",
+          "total": "$1,940",
+          "a": {
+            "v": "$220",
+            "l": "VBAL",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "$1,940",
+            "l": "ADVISOR'S FUND",
+            "at": "$1,940",
+            "label_at": "$1,940"
+          }
+        },
+        "badge": "THE GAP",
+        "in": "dissolve"
+      },
+      {
+        "say": "Your advisor's fund takes $1,940 a year on $100,000."
+      },
+      {
+        "say": "VBAL takes $220 on the same $100,000.",
+        "part": "table",
+        "data": {
+          "k": "THE ADVISOR MIX VS ONE FUND TABLE",
+          "cols": [
+            "BANK FUND 1.94%",
+            "ONE ETF 0.22%",
+            "GAP A YEAR"
+          ],
+          "rows": [
+            {
+              "lab": "$10,000",
+              "cells": [
+                "$194",
+                "$22",
+                "$172"
+              ]
+            },
+            {
+              "lab": "$25,000",
+              "cells": [
+                "$485",
+                "$55",
+                "$430"
+              ]
+            },
+            {
+              "lab": "$50,000",
+              "cells": [
+                "$970",
+                "$110",
+                "$860"
+              ]
+            },
+            {
+              "lab": "$100,000",
+              "cells": [
+                "$1,940",
+                "$220",
+                "$1,720"
+              ]
+            }
+          ],
+          "hi": 3,
+          "at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Why does nobody *notice* this fee?",
+        "part": "callout",
+        "data": {
+          "word": "notice",
+          "line": "Why does nobody *notice* this fee?",
+          "at": "notice"
+        }
+      },
+      {
+        "say": "The *MER* is the fund's yearly fee, taken out inside the fund.",
+        "part": "tag",
+        "data": {
+          "old": "YOU'D SEE IT",
+          "new": "NO BILL",
+          "at": "NO",
+          "sub": "it comes out inside the fund.",
+          "sub_at": 1
+        },
+        "badge": "THE FEE",
+        "in": "iris"
+      },
+      {
+        "say": "No *bill* ever comes."
+      },
+      {
+        "say": "That bank fee buys *advice*, and VBAL has none.",
+        "part": "swap",
+        "data": {
+          "old": "FOR NOTHING",
+          "new": "BUYS ADVICE",
+          "at": "advice"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "On $100,000, the gap is $1,720 a year.",
+        "part": "stamp",
+        "data": {
+          "old": "$1,720",
+          "new": "a year, no bill",
+          "at": "a",
+          "k": ""
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Find the *MER* on your fund sheet.",
+        "part": "hub",
+        "data": {
+          "items": [
+            "Your fund sheet",
+            "Its MER",
+            "Your row"
+          ],
+          "k": "THE ADVISOR MIX VS ONE FUND TABLE",
+          "from": 0,
+          "to": 1
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Then find your row."
+      },
+      {
+        "say": "Comment *ADVISO,* and I will send you the fee table.",
+        "part": "tiles",
+        "data": {
+          "word": "ADVISO",
+          "at": "ADVISO",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the fee table for every balance ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your advisor's fund: $1,720 extra a year on $100,000. Want it back?",
+          "Give me 30 seconds. See the cheaper row."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Both yearly price tags for your *balance*."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "VBAL",
+            "v": "$220",
+            "sub": "a year on $100,000",
+            "tone": "win"
+          },
+          "b": {
+            "h": "ADVISOR'S FUND",
+            "v": "$1,940",
+            "sub": "same $100,000",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "Your advisor's fund and Vanguard's VBAL each hold many companies at once.",
+          "Your advisor's fund takes $1,940 a year on $100,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "VBAL",
+            "v": "$220",
+            "sub": "a year on $100,000",
+            "tone": "win"
+          },
+          "b": {
+            "h": "ADVISOR'S FUND",
+            "v": "$1,940",
+            "sub": "same $100,000",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "VBAL takes $220 on the same $100,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Why does nobody *notice* this fee?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE FEE",
+        "data": {
+          "old": "YOU'D SEE IT",
+          "new": "NO BILL",
+          "sub": "it comes out inside the fund."
+        },
+        "lines": [
+          "The *MER* is the fund's yearly fee, taken out inside the fund.",
+          "No *bill* ever comes."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FOR NOTHING",
+          "new": "BUYS ADVICE"
+        },
+        "lines": [
+          "That bank fee buys *advice*, and VBAL has none."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,720",
+          "new": "a year, no bill"
+        },
+        "lines": [
+          "On $100,000, the gap is $1,720 a year."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Your fund sheet",
+            "Its MER",
+            "Your row"
+          ]
+        },
+        "lines": [
+          "Find the *MER* on your fund sheet.",
+          "Then find your row."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "ADVISO",
+          "gift": "the fee table for every balance"
+        },
+        "lines": [
+          "Comment *ADVISO,* and I will send you the fee table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook and promise, a lock-in on what they get, a compare that names both funds before showing $1,940 against $220 on $100,000, a question rehook, a catch that explains the MER and why no bill shows up, a trust rehook saying the bank fee buys advice, the $1,720 closing, then the given check and cta ending.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "boil",
+      "parts": [
+        "boil",
+        "split",
+        "table",
+        "callout",
+        "tag",
+        "swap",
+        "stamp",
+        "hub",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "wipe",
+        "fade",
+        "iris",
+        "zoom",
+        "dissolve",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "ADVISO"
+    }
+  },
+  "plain": {
+    "what": "RBC Select Balanced Portfolio is a big bank's fund, which means it holds many companies at once. Its yearly fee, called the MER, is 1.94%, and part of that pays for advice through the bank. VBAL is an ETF from Vanguard, one fund that holds many companies at once, and its fee is 0.22% with no advice included.",
+    "so_what": "On $100,000, the bank fund costs about $1,720 more in fees every year. The fee comes out inside the fund, so no bill ever shows up to remind you.",
+    "do": "Find the fund sheet for your own fund and write down its MER.",
+    "words": [
+      {
+        "term": "MER",
+        "means": "the fund's yearly fee, taken out inside the fund"
+      },
+      {
+        "term": "fund",
+        "means": "holds many companies at once"
+      },
+      {
+        "term": "ETF",
+        "means": "one fund that holds many companies at once"
+      },
+      {
+        "term": "balanced fund",
+        "means": "a fund that mixes safer and riskier things"
+      },
+      {
+        "term": "VBAL",
+        "means": "Vanguard's all-in-one balanced ETF"
+      },
+      {
+        "term": "advisor",
+        "means": "a person who helps you choose what to own"
+      },
+      {
+        "term": "brokerage account",
+        "means": "an account where you pick and hold investments yourself"
+      }
+    ]
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your advisor's fund: $1,720 extra a year on $100,000. Want it back?",
+        "part": "tease",
+        "data": {
+          "pill": "THE ADVISOR MIX VS ONE FUND TABLE",
+          "num": "$1,720",
+          "line": "Your advisor's fund: $1,720 extra a year on $100,000. Want it back?",
+          "promise": "Give me 30 seconds. See the cheaper row.",
+          "subj": "YOUR ADVISOR'S FUND",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the cheaper row.",
+        "nocap": true
+      },
+      {
+        "say": "Both yearly price tags for your *balance*.",
+        "cap": "low"
+      },
+      {
+        "say": "Your advisor's fund and Vanguard's VBAL each hold many companies at once.",
+        "part": "table",
+        "data": {
+          "k": "THE GAP",
+          "cols": [
+            "BANK FUND 1.94%",
+            "ONE ETF 0.22%",
+            "GAP A YEAR"
+          ],
+          "rows": [
+            {
+              "lab": "$10,000",
+              "cells": [
+                "$194",
+                "$22",
+                "$172"
+              ]
+            },
+            {
+              "lab": "$25,000",
+              "cells": [
+                "$485",
+                "$55",
+                "$430"
+              ]
+            },
+            {
+              "lab": "$50,000",
+              "cells": [
+                "$970",
+                "$110",
+                "$860"
+              ]
+            },
+            {
+              "lab": "$100,000",
+              "cells": [
+                "$1,940",
+                "$220",
+                "$1,720"
+              ]
+            }
+          ],
+          "hi": 3,
+          "at": 1
+        },
+        "badge": "THE GAP",
+        "in": "zoom"
+      },
+      {
+        "say": "Your advisor's fund takes $1,940 a year on $100,000."
+      },
+      {
+        "say": "VBAL takes $220 on the same $100,000.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "VBAL",
+            "big": "$220",
+            "ft": "a year on $100,000"
+          },
+          "b": {
+            "k": "ADVISOR'S FUND",
+            "big": "$1,940",
+            "ft": "same $100,000",
+            "at": 0
+          },
+          "gap": "$1,720",
+          "gap_at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Why does nobody *notice* this fee?",
+        "part": "callout",
+        "data": {
+          "word": "notice",
+          "line": "Why does nobody *notice* this fee?",
+          "at": "notice"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "The *MER* is the fund's yearly fee, taken out inside the fund.",
+        "part": "badge",
+        "data": {
+          "old": "YOU'D SEE IT",
+          "new": "NO BILL",
+          "at": "NO",
+          "sub": "it comes out inside the fund.",
+          "sub_at": 1,
+          "k": "THE FEE"
+        },
+        "badge": "THE FEE",
+        "in": "pan"
+      },
+      {
+        "say": "No *bill* ever comes."
+      },
+      {
+        "say": "That bank fee buys *advice*, and VBAL has none.",
+        "part": "tabs",
+        "data": {
+          "old": "FOR NOTHING",
+          "new": "BUYS ADVICE",
+          "at": "BUYS",
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "On $100,000, the gap is $1,720 a year.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$1,720",
+          "tail": "a year, no bill",
+          "at": "$1,720"
+        }
+      },
+      {
+        "say": "Find the *MER* on your fund sheet.",
+        "part": "hub",
+        "data": {
+          "items": [
+            "Your fund sheet",
+            "Its MER",
+            "Your row"
+          ],
+          "k": "THE ADVISOR MIX VS ONE FUND TABLE",
+          "from": 0,
+          "to": 1
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Then find your row."
+      },
+      {
+        "say": "Comment *ADVISO,* and I will send you the fee table.",
+        "part": "tiles",
+        "data": {
+          "word": "ADVISO",
+          "at": "ADVISO",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the fee table for every balance ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your advisor's fund: $1,720 extra a year on $100,000. Want it back?",
+          "Give me 30 seconds. See the cheaper row."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Both yearly price tags for your *balance*."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "VBAL",
+            "v": "$220",
+            "sub": "a year on $100,000",
+            "tone": "win"
+          },
+          "b": {
+            "h": "ADVISOR'S FUND",
+            "v": "$1,940",
+            "sub": "same $100,000",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "Your advisor's fund and Vanguard's VBAL each hold many companies at once.",
+          "Your advisor's fund takes $1,940 a year on $100,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "VBAL",
+            "v": "$220",
+            "sub": "a year on $100,000",
+            "tone": "win"
+          },
+          "b": {
+            "h": "ADVISOR'S FUND",
+            "v": "$1,940",
+            "sub": "same $100,000",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "VBAL takes $220 on the same $100,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Why does nobody *notice* this fee?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE FEE",
+        "data": {
+          "old": "YOU'D SEE IT",
+          "new": "NO BILL",
+          "sub": "it comes out inside the fund."
+        },
+        "lines": [
+          "The *MER* is the fund's yearly fee, taken out inside the fund.",
+          "No *bill* ever comes."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FOR NOTHING",
+          "new": "BUYS ADVICE"
+        },
+        "lines": [
+          "That bank fee buys *advice*, and VBAL has none."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,720",
+          "new": "a year, no bill"
+        },
+        "lines": [
+          "On $100,000, the gap is $1,720 a year."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Your fund sheet",
+            "Its MER",
+            "Your row"
+          ]
+        },
+        "lines": [
+          "Find the *MER* on your fund sheet.",
+          "Then find your row."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "ADVISO",
+          "gift": "the fee table for every balance"
+        },
+        "lines": [
+          "Comment *ADVISO,* and I will send you the fee table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook and promise, a lock-in on what they get, a compare that names both funds before showing $1,940 against $220 on $100,000, a question rehook, a catch that explains the MER and why no bill shows up, a trust rehook saying the bank fee buys advice, the $1,720 closing, then the given check and cta ending.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "table",
+        "dumbbell",
+        "callout",
+        "badge",
+        "tabs",
+        "tail",
+        "hub",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "wipe",
+        "fade",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "ADVISO"
+    }
+  },
+  "caption_b": "🐶⛏️ What happens to a 1.94% fee that never sends you a bill?\n\nIt comes out inside the fund, so you never see it leave, and part of it pays for bank advice. VBAL takes 0.22% with no advice, and that gap is the price of the help.\n\nComment ADVISO and I'll send you my fee table for every balance 🪙\nKnow your fund's MER yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#etfcanada #vbal #torontofinance",
+  "caption_family": "curious"
+}

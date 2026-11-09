@@ -1,0 +1,1261 @@
+{
+  "key": "cnye-yield-vs-total-return",
+  "category": "stocks",
+  "status": "draft",
+  "title": "CNYE's 51.72% yield vs its real 2026 return",
+  "object": "THE YIELD VS TOTAL RETURN CHECK",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['se93fc621', 's3b87552b'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "13.75",
+    "unit": "%",
+    "thing": "CNYE's fall in 2026 through Sept 30, even though its current yield is listed at 51.72%",
+    "box": "Harvest Coinbase Enhanced High Income Shares ETF (TSX: CNYE)",
+    "claim": "Harvest's own CNYE page lists a current yield of 51.72% as of November 3, 2026. The same page shows the fund's performance for 2026 to date, as of September 30, as (13.75), a loss of 13.75%. The page doesn't say whether that figure uses the unit's net asset value or its market price, and the October drop is not included yet. The monthly payout is now $0.15 per unit, and a high yield can sit next to a shrinking investment when the unit price falls faster than the payouts come in.",
+    "sources": [
+      "HARVEST PORTFOLIOS CNYE FUND PAGE",
+      "HARVEST PORTFOLIOS CNYE FUND PAGE",
+      "STOCKANALYSIS CNYE"
+    ],
+    "verified": "find.py · 대조 1/3",
+    "felt": {
+      "num": "576.50",
+      "unit": "$",
+      "a": "1,000",
+      "b": "423.50",
+      "how": "$1,000 put in vs $423.50 left after the past year's −57.65% total return, payouts included",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "HARVEST PORTFOLIOS CNYE FUND PAGE",
+      "url": "https://harvestportfolios.com/etf/cnye/",
+      "what": "Annualized Performance (%) (As at 2026/09/30) YTD (13.75)",
+      "confidence": "1차"
+    },
+    {
+      "label": "HARVEST PORTFOLIOS CNYE FUND PAGE",
+      "url": "https://harvestportfolios.com/etf/cnye/",
+      "what": "Fund Details As at 2026/11/03 Current Yield 51.72%",
+      "confidence": "1차"
+    },
+    {
+      "label": "STOCKANALYSIS CNYE",
+      "url": "https://stockanalysis.com/quote/tsx/CNYE/",
+      "what": "CNYE had a total return of -57.65% in the past year, including dividends.",
+      "confidence": "2차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "STOCKS · CANADA",
+      "topic": "WHY STOCKS",
+      "hook": {
+        "pre": "CNYE paid monthly, yet holders lost $",
+        "num": "576.50",
+        "post": ". Want it back?"
+      },
+      "promise": "Give me 30 seconds. See where your money went."
+    },
+    {
+      "type": "flow",
+      "kicker": "THE PART THE YIELD SKIPS",
+      "title": "The yield is not what you *kept.*",
+      "lead": "The yield shows what it pays you. It doesn't show <em>what happened to your money.</em>",
+      "steps": [
+        {
+          "n": "51.72%",
+          "t": "listed yield",
+          "s": "as of Nov 3, 2026"
+        },
+        {
+          "n": "$0.15",
+          "t": "pays you each month",
+          "s": "per unit"
+        },
+        {
+          "n": "−13.75%",
+          "t": "2026 through Sept 30",
+          "s": "on the fund's own page",
+          "cut": true
+        }
+      ],
+      "tail": "The page doesn't say if that uses unit value or market price. October isn't counted yet.",
+      "source_label": "HARVEST PORTFOLIOS",
+      "say": "Hama read the second line."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME FUND · TWO NUMBERS",
+      "title": "Two numbers. Only one *counts* what you kept.",
+      "boxes": [
+        {
+          "h": "YIELD",
+          "v": "51.72%",
+          "tone": "flat",
+          "d": "What it pays you, against today's price.",
+          "d2": "$0.15 a month per unit. It says nothing about where the unit price went.",
+          "d3": "Harvest page, Nov 3, 2026"
+        },
+        {
+          "h": "TOTAL RETURN",
+          "v": "−57.65%",
+          "d": "Past year, payouts included.",
+          "d2": "$1,000 × (1 − 57.65%) = $423.50 left. Simple math on the listed figure.",
+          "d3": "StockAnalysis, past year",
+          "lead": true
+        }
+      ],
+      "source_label": "HARVEST · STOCKANALYSIS",
+      "say": "Hama likes being paid.|Hama likes keeping it more."
+    },
+    {
+      "type": "do",
+      "kicker": "THE YIELD VS TOTAL RETURN CHECK",
+      "title": "Three checks before a big payout wins you over.",
+      "checks": [
+        {
+          "h": "1 · FIND TOTAL RETURN",
+          "d": "On the fund page, look for performance or total return, not yield."
+        },
+        {
+          "h": "2 · CHECK THE DATES",
+          "d": "Yield and returns are often dated differently. Here it's Nov 3 and Sept 30."
+        },
+        {
+          "h": "3 · ASK WHAT IT MEASURES",
+          "d": "Unit value or market price. If the page doesn't say, note it."
+        }
+      ],
+      "lead": "High yield and negative total return means <em>you lost money while it paid you.</em>",
+      "button": "Save the check · run it before your next buy",
+      "fine": "General education, not investment or tax advice. Confirm your own case with a licensed professional.",
+      "say": "Big yield. Small dog.|Check the other number."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "CNYE took $576.50 from $1,000 in a year. Want it back?",
+      "CNYE holders lost $576.50 on $1,000. Want to know where it went?",
+      "CNYE holders got paid monthly and still lost $576.50. Want it back?",
+      "CNYE paid monthly, yet holders lost $576.50. Want it back?",
+      "Hama watched CNYE eat $576.50 of $1,000. Want it back?",
+      "CNYE holders lost $576.50 of every $1,000 last year. Want it back?",
+      "CNYE: $576.50 gone from $1,000 in one year. Want it back?",
+      "CNYE holders ended $576.50 behind someone who did nothing. Still holding?",
+      "CNYE took one year to turn $1,000 into $423.50. Want $576.50 back?",
+      "CNYE holders lost $576.50 reading one number wrong. Want the check?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "CNYE paid monthly, yet holders lost $576.50. Want it back?",
+    "spoken": "CNYE paid monthly, yet holders lost $576.50. Want it back?",
+    "promise": "Give me 30 seconds. See where your money went.",
+    "pick_why": "Paid monthly yet lost $576.50 breaks the one belief every yield chaser holds, so the most people stop, feel caught, and save it to learn what they missed.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "STOP THE LEAK"
+  },
+  "lede": "A huge yield and a shrinking investment can sit on the same fund page.",
+  "series": "HIGH PAYOUT TRAPS",
+  "source_note": "HARVEST PORTFOLIOS · CNYE FUND PAGE",
+  "caption": "🐶⛏️ If you held CNYE for a year, $576.50 of your $1,000 slipped away.\n\nIt pays you every month and Harvest lists the yield at 51.72%, but the price fell faster than the payouts came in. So your investment kept shrinking while the money kept landing.\n\nComment YIELD and I'll send you my three-step yield check 🪙\nStill holding yours?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#cnye #etfcanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "CNYE paid monthly, yet holders lost $576.50. Want it back?",
+        "part": "slam",
+        "data": {
+          "pill": "THE YIELD VS TOTAL RETURN CHECK",
+          "num": "$576.50",
+          "line": "CNYE paid monthly, yet holders lost $576.50. Want it back?",
+          "promise": "Give me 30 seconds. See where your money went.",
+          "subj": "CNYE",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See where your money went.",
+        "nocap": true
+      },
+      {
+        "say": "One check shows what you really *kept.*",
+        "cap": "low"
+      },
+      {
+        "say": "CNYE is a Harvest *fund* holding many companies at once.",
+        "part": "donut",
+        "data": {
+          "k": "CNYE",
+          "segs": [
+            {
+              "l": "HELD CNYE",
+              "v": "$423.50",
+              "w": 0.2975061468212153
+            },
+            {
+              "l": "KEPT CASH",
+              "v": "$1,000",
+              "w": 0.7024938531787847
+            }
+          ],
+          "hi": 1,
+          "at": "$1,000"
+        },
+        "badge": "CNYE",
+        "in": "wipe"
+      },
+      {
+        "say": "Two friends had $1,000, and one bought CNYE."
+      },
+      {
+        "say": "A year on, payouts included, $1,000 was $423.50.",
+        "part": "split",
+        "data": {
+          "k": "HELD CNYE vs KEPT CASH",
+          "total": "$423.50",
+          "a": {
+            "v": "$423.50",
+            "l": "HELD CNYE",
+            "w": 0.88,
+            "at": "$423.50"
+          },
+          "b": {
+            "v": "$1,000",
+            "l": "KEPT CASH",
+            "at": "$1,000",
+            "label_at": "$1,000"
+          }
+        }
+      },
+      {
+        "say": "So how did a fund paying 51.72% *lose* money?",
+        "part": "callout",
+        "data": {
+          "word": "lose",
+          "line": "So how did a fund paying 51.72% *lose* money?",
+          "at": "lose"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Yield is only what it *pays* you.",
+        "part": "stamp",
+        "data": {
+          "old": "51.72% PAID",
+          "new": "57.65% GONE",
+          "at": 1,
+          "k": "THE TRAP",
+          "sub": "past year, payouts included.",
+          "sub_at": 1
+        },
+        "badge": "THE TRAP",
+        "in": "iris"
+      },
+      {
+        "say": "Total return is what you kept, payouts and price together."
+      },
+      {
+        "say": "The price fell *faster* than the payouts came in.",
+        "part": "strike",
+        "data": {
+          "old": "51.72% PAID",
+          "new": "57.65% GONE",
+          "at": "faster",
+          "k": "",
+          "sub": "past year, payouts included.",
+          "sub_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Even Harvest's own page has it down 13.75% in 2026.",
+        "part": "tabs",
+        "data": {
+          "old": "PAID MONTHLY",
+          "new": "STILL DOWN",
+          "at": 0,
+          "k": ""
+        }
+      },
+      {
+        "say": "That's where $576.50 of your $1,000 *went.*",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "576.50",
+          "pre": "$",
+          "suf": "",
+          "label": "lost to price",
+          "at": "$576.50"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Find *total return* on your fund's page.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "YOUR $1,000",
+            "big": "$423.50",
+            "ft": "held a year"
+          },
+          "b": {
+            "k": "SAME $1,000",
+            "big": "$1,000",
+            "ft": "kept as cash",
+            "at": 1
+          },
+          "gap": "$576.50",
+          "gap_at": 1
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Put your amount against keeping cash."
+      },
+      {
+        "say": "Comment *YIELD,* and I will send you the three-step check.",
+        "part": "tiles",
+        "data": {
+          "word": "YIELD",
+          "at": "YIELD",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the three-step yield check ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "CNYE paid monthly, yet holders lost $576.50. Want it back?",
+          "Give me 30 seconds. See where your money went."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "One check shows what you really *kept.*"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "CNYE",
+        "data": {
+          "a": {
+            "h": "HELD CNYE",
+            "v": "$423.50",
+            "sub": "one year, payouts in",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "KEPT CASH",
+            "v": "$1,000",
+            "sub": "same $1,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "CNYE is a Harvest *fund* holding many companies at once.",
+          "Two friends had $1,000, and one bought CNYE."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "HELD CNYE",
+            "v": "$423.50",
+            "sub": "one year, payouts in",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "KEPT CASH",
+            "v": "$1,000",
+            "sub": "same $1,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "A year on, payouts included, $1,000 was $423.50."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So how did a fund paying 51.72% *lose* money?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE TRAP",
+        "data": {
+          "old": "51.72% PAID",
+          "new": "57.65% GONE",
+          "sub": "past year, payouts included."
+        },
+        "lines": [
+          "Yield is only what it *pays* you.",
+          "Total return is what you kept, payouts and price together."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "51.72% PAID",
+          "new": "57.65% GONE",
+          "sub": "past year, payouts included."
+        },
+        "lines": [
+          "The price fell *faster* than the payouts came in."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "PAID MONTHLY",
+          "new": "STILL DOWN"
+        },
+        "lines": [
+          "Even Harvest's own page has it down 13.75% in 2026."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$576.50",
+          "new": "lost to price"
+        },
+        "lines": [
+          "That's where $576.50 of your $1,000 *went.*"
+        ]
+      },
+      {
+        "role": "myrow",
+        "data": {
+          "a": {
+            "h": "YOUR $1,000",
+            "v": "$423.50",
+            "sub": "held a year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $1,000",
+            "v": "$1,000",
+            "sub": "kept as cash",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find *total return* on your fund's page.",
+          "Put your amount against keeping cash."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "YIELD",
+          "gift": "the three-step yield check"
+        },
+        "lines": [
+          "Comment *YIELD,* and I will send you the three-step check."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc in order: the hook and promise, a lock-in on what they get, a cash versus CNYE compare built from felt $1,000 and $423.50, a question rehook, a catch that explains yield against total return, a rehook with the 13.75% from Harvest's own page, the $576.50 closing, then the given myrow and cta ending.",
+      "shape": "zoom",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "donut",
+        "split",
+        "callout",
+        "stamp",
+        "strike",
+        "tabs",
+        "odometer",
+        "compare",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "fade",
+        "wipe",
+        "iris",
+        "wipe",
+        "fade",
+        "wipe",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "YIELD"
+    }
+  },
+  "plain": {
+    "what": "CNYE is a Harvest fund that holds many companies at once and pays you $0.15 for each unit every month. Harvest's own page says it pays 51.72% a year against today's price, as of November 3. The same page says the fund was down 13.75% in 2026 as of September 30, and October is not in that number yet.",
+    "so_what": "StockAnalysis says that over the past year, payouts included, it fell 57.65%, which would turn $1,000 into about $423.50.",
+    "do": "Write down both numbers from the fund page today: the yield and the total return, and the date printed next to each one.",
+    "words": [
+      {
+        "term": "ETF",
+        "means": "one fund that holds many companies at once"
+      },
+      {
+        "term": "yield",
+        "means": "what it pays you"
+      },
+      {
+        "term": "unit",
+        "means": "one small piece of the fund you own"
+      },
+      {
+        "term": "total return",
+        "means": "what you kept, payouts and price change together"
+      },
+      {
+        "term": "net asset value",
+        "means": "what the fund's own holdings are worth"
+      },
+      {
+        "term": "market price",
+        "means": "what buyers paid for it that day"
+      },
+      {
+        "term": "TSX",
+        "means": "the Toronto stock market where it trades"
+      }
+    ]
+  },
+  "subject": "CNYE",
+  "deliver": {
+    "word": "YIELD",
+    "gift": "the three-step yield check"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "CNYE paid monthly, yet holders lost $576.50. Want it back?",
+        "part": "boil",
+        "data": {
+          "pill": "THE YIELD VS TOTAL RETURN CHECK",
+          "num": "$576.50",
+          "line": "CNYE paid monthly, yet holders lost $576.50. Want it back?",
+          "promise": "Give me 30 seconds. See where your money went.",
+          "subj": "CNYE",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See where your money went.",
+        "nocap": true
+      },
+      {
+        "say": "One check shows what you *kept.*",
+        "cap": "low"
+      },
+      {
+        "say": "Two people had $1,000, and one bought CNYE last year.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "BOUGHT CNYE",
+            "big": "$423.50",
+            "ft": "payouts included"
+          },
+          "b": {
+            "k": "KEPT CASH",
+            "big": "$1,000",
+            "ft": "same $1,000",
+            "at": "$1,000"
+          },
+          "gap": "$576.50",
+          "gap_at": 1
+        },
+        "badge": "ONE YEAR",
+        "in": "iris"
+      },
+      {
+        "say": "With payouts, that $1,000 is now $423.50."
+      },
+      {
+        "say": "$576.50 gone: the price fell faster than it paid.",
+        "part": "donut",
+        "data": {
+          "k": "",
+          "segs": [
+            {
+              "l": "BOUGHT CNYE",
+              "v": "$423.50",
+              "w": 0.2975061468212153
+            },
+            {
+              "l": "KEPT CASH",
+              "v": "$1,000",
+              "w": 0.7024938531787847
+            }
+          ],
+          "hi": 1,
+          "at": 0
+        }
+      },
+      {
+        "say": "How does 51.72% *yield,* what it pays you, lose money?",
+        "part": "callout",
+        "data": {
+          "word": "yield",
+          "line": "How does 51.72% *yield,* what it pays you, lose money?",
+          "at": "yield"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "CNYE, a fund holding many companies, pays $0.15 monthly per piece.",
+        "part": "badge",
+        "data": {
+          "old": "PAYS $0.15",
+          "new": "PRICE FELL",
+          "at": "PRICE",
+          "sub": "faster than it paid you.",
+          "sub_at": 1,
+          "k": "CNYE"
+        },
+        "badge": "CNYE",
+        "in": "iris"
+      },
+      {
+        "say": "Yield counts payouts against today's price."
+      },
+      {
+        "say": "It skips where your money went.",
+        "part": "strike",
+        "data": {
+          "old": "PAYS $0.15",
+          "new": "PRICE FELL",
+          "at": "It",
+          "k": "",
+          "sub": "faster than it paid you.",
+          "sub_at": 0
+        }
+      },
+      {
+        "say": "Its own page shows 2026 down 13.75%, before October counts.",
+        "part": "tabs",
+        "data": {
+          "old": "51.72% YIELD",
+          "new": "DOWN 13.75%",
+          "at": "DOWN",
+          "k": ""
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Before buying, find total return, what you *kept.*",
+        "part": "paid",
+        "data": {
+          "k": "YOUR CHECK",
+          "label": "Total return line",
+          "sub": "not the yield",
+          "at": "kept"
+        },
+        "badge": "YOUR CHECK",
+        "in": "iris"
+      },
+      {
+        "say": "$1,000 became $423.50 while paid monthly, a $576.50 hole.",
+        "part": "stamp",
+        "data": {
+          "old": "$576.50",
+          "new": "gone while paid",
+          "at": 0,
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Comment *CHECK,* and I will send you the two-number check.",
+        "part": "tiles",
+        "data": {
+          "word": "CHECK",
+          "at": "CHECK",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the two-number check ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "CNYE paid monthly, yet holders lost $576.50. Want it back?",
+          "Give me 30 seconds. See where your money went."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "One check shows what you *kept.*"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "ONE YEAR",
+        "data": {
+          "a": {
+            "h": "BOUGHT CNYE",
+            "v": "$423.50",
+            "sub": "payouts included",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "KEPT CASH",
+            "v": "$1,000",
+            "sub": "same $1,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people had $1,000, and one bought CNYE last year.",
+          "With payouts, that $1,000 is now $423.50."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BOUGHT CNYE",
+            "v": "$423.50",
+            "sub": "payouts included",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "KEPT CASH",
+            "v": "$1,000",
+            "sub": "same $1,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "$576.50 gone: the price fell faster than it paid."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "How does 51.72% *yield,* what it pays you, lose money?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "CNYE",
+        "data": {
+          "old": "PAYS $0.15",
+          "new": "PRICE FELL",
+          "sub": "faster than it paid you."
+        },
+        "lines": [
+          "CNYE, a fund holding many companies, pays $0.15 monthly per piece.",
+          "Yield counts payouts against today's price."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "PAYS $0.15",
+          "new": "PRICE FELL",
+          "sub": "faster than it paid you."
+        },
+        "lines": [
+          "It skips where your money went."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "51.72% YIELD",
+          "new": "DOWN 13.75%"
+        },
+        "lines": [
+          "Its own page shows 2026 down 13.75%, before October counts."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR CHECK",
+        "data": {
+          "label": "Total return line",
+          "sub": "not the yield"
+        },
+        "lines": [
+          "Before buying, find total return, what you *kept.*"
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$576.50",
+          "new": "gone while paid"
+        },
+        "lines": [
+          "$1,000 became $423.50 while paid monthly, a $576.50 hole."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "CHECK",
+          "gift": "the two-number check"
+        },
+        "lines": [
+          "Comment *CHECK,* and I will send you the two-number check."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc: hook and promise, a one-line lock-in naming the check, a compare that shows $1,000 against $423.50 and why, a question rehook, a catch explaining yield in plain words, a number rehook with the 13.75% trap, one step to find your own number, the $576.50 closing, then the given cta ending.",
+      "shape": "zoom",
+      "ending": "cta",
+      "caption": "blur",
+      "opener": "boil",
+      "parts": [
+        "boil",
+        "dumbbell",
+        "donut",
+        "callout",
+        "badge",
+        "strike",
+        "tabs",
+        "paid",
+        "stamp",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "fade",
+        "zoom",
+        "iris",
+        "fade",
+        "zoom",
+        "iris",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "CHECK"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "CNYE paid monthly, yet holders lost $576.50. Want it back?",
+        "part": "slam",
+        "data": {
+          "pill": "THE YIELD VS TOTAL RETURN CHECK",
+          "num": "$576.50",
+          "line": "CNYE paid monthly, yet holders lost $576.50. Want it back?",
+          "promise": "Give me 30 seconds. See where your money went.",
+          "subj": "CNYE",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See where your money went.",
+        "nocap": true
+      },
+      {
+        "say": "One check shows what you *kept.*",
+        "cap": "low"
+      },
+      {
+        "say": "Two people had $1,000, and one bought CNYE last year.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "payouts included",
+              "tone": "loss",
+              "h": "BOUGHT CNYE",
+              "v": "$423.50",
+              "at": 0
+            },
+            {
+              "sub": "same $1,000",
+              "tone": "win",
+              "h": "KEPT CASH",
+              "v": "$1,000",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "ONE YEAR",
+        "in": "iris"
+      },
+      {
+        "say": "With payouts, that $1,000 is now $423.50."
+      },
+      {
+        "say": "$576.50 gone: the price fell faster than it paid.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "BOUGHT CNYE",
+            "v": "$423.50",
+            "sub": "payouts included"
+          },
+          "b": {
+            "h": "KEPT CASH",
+            "v": "$1,000",
+            "sub": "same $1,000"
+          },
+          "at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "How does 51.72% *yield,* what it pays you, lose money?",
+        "part": "callout",
+        "data": {
+          "word": "yield",
+          "line": "How does 51.72% *yield,* what it pays you, lose money?",
+          "at": "yield"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "CNYE, a fund holding many companies, pays $0.15 monthly per piece.",
+        "part": "tag",
+        "data": {
+          "old": "PAYS $0.15",
+          "new": "PRICE FELL",
+          "at": "PRICE",
+          "sub": "faster than it paid you.",
+          "sub_at": 1
+        },
+        "badge": "CNYE",
+        "in": "pan"
+      },
+      {
+        "say": "Yield counts payouts against today's price."
+      },
+      {
+        "say": "It skips where your money went.",
+        "part": "strike",
+        "data": {
+          "old": "PAYS $0.15",
+          "new": "PRICE FELL",
+          "at": "It",
+          "k": "",
+          "sub": "faster than it paid you.",
+          "sub_at": 0
+        }
+      },
+      {
+        "say": "Its own page shows 2026 down 13.75%, before October counts.",
+        "part": "swap",
+        "data": {
+          "old": "51.72% YIELD",
+          "new": "DOWN 13.75%",
+          "at": "Its"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Before buying, find total return, what you *kept.*",
+        "part": "paid",
+        "data": {
+          "k": "YOUR CHECK",
+          "label": "Total return line",
+          "sub": "not the yield",
+          "at": "kept"
+        },
+        "badge": "YOUR CHECK",
+        "in": "wipe"
+      },
+      {
+        "say": "$1,000 became $423.50 while paid monthly, a $576.50 hole.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$576.50",
+          "tail": "gone while paid",
+          "at": "$576.50"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Comment *CHECK,* and I will send you the two-number check.",
+        "part": "tiles",
+        "data": {
+          "word": "CHECK",
+          "at": "CHECK",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the two-number check ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "CNYE paid monthly, yet holders lost $576.50. Want it back?",
+          "Give me 30 seconds. See where your money went."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "One check shows what you *kept.*"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "ONE YEAR",
+        "data": {
+          "a": {
+            "h": "BOUGHT CNYE",
+            "v": "$423.50",
+            "sub": "payouts included",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "KEPT CASH",
+            "v": "$1,000",
+            "sub": "same $1,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people had $1,000, and one bought CNYE last year.",
+          "With payouts, that $1,000 is now $423.50."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BOUGHT CNYE",
+            "v": "$423.50",
+            "sub": "payouts included",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "KEPT CASH",
+            "v": "$1,000",
+            "sub": "same $1,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "$576.50 gone: the price fell faster than it paid."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "How does 51.72% *yield,* what it pays you, lose money?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "CNYE",
+        "data": {
+          "old": "PAYS $0.15",
+          "new": "PRICE FELL",
+          "sub": "faster than it paid you."
+        },
+        "lines": [
+          "CNYE, a fund holding many companies, pays $0.15 monthly per piece.",
+          "Yield counts payouts against today's price."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "PAYS $0.15",
+          "new": "PRICE FELL",
+          "sub": "faster than it paid you."
+        },
+        "lines": [
+          "It skips where your money went."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "51.72% YIELD",
+          "new": "DOWN 13.75%"
+        },
+        "lines": [
+          "Its own page shows 2026 down 13.75%, before October counts."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR CHECK",
+        "data": {
+          "label": "Total return line",
+          "sub": "not the yield"
+        },
+        "lines": [
+          "Before buying, find total return, what you *kept.*"
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$576.50",
+          "new": "gone while paid"
+        },
+        "lines": [
+          "$1,000 became $423.50 while paid monthly, a $576.50 hole."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "CHECK",
+          "gift": "the two-number check"
+        },
+        "lines": [
+          "Comment *CHECK,* and I will send you the two-number check."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc: hook and promise, a one-line lock-in naming the check, a compare that shows $1,000 against $423.50 and why, a question rehook, a catch explaining yield in plain words, a number rehook with the 13.75% trap, one step to find your own number, the $576.50 closing, then the given cta ending.",
+      "shape": "zoom",
+      "ending": "cta",
+      "caption": "karaoke",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "stack",
+        "wipe",
+        "callout",
+        "tag",
+        "strike",
+        "swap",
+        "paid",
+        "tail",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "pan",
+        "iris",
+        "pan",
+        "fade",
+        "iris",
+        "wipe",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "CHECK"
+    }
+  },
+  "caption_b": "🐶⛏️ Ever watched CNYE pay you monthly while your balance kept shrinking?\n\nYield is only what it pays you, but the unit price fell faster than the payouts came in. Even Harvest's own page has CNYE down 13.75% this year, and October isn't in that number yet.\n\nComment YIELD and I'll send you my three-step yield check 🪙\nChecked your fund's page yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#cnye #torontofinance #investingcanada",
+  "caption_family": "feel"
+}

@@ -1,0 +1,366 @@
+/* 레일 릴스 피부 — 정본 한 곳. 2026-11-04 «존나 좋다» 판(hama-100 template.2026-11-04-liked) 값 그대로.
+   mrcreates 문법: 흰 모눈 · 위쪽 한 줄 단어 자막 · 세리프 이탤릭 선택 상자 · 왼쪽 레일 배지 · UI 카드.  색은 골드 하나, 로즈는 경고·취소선만.
+   부품 CSS 는 .p-<부품> 아래에만. GSAP 가 움직이는 요소에는 CSS transform 을 두지 않는다. */
+:root{--ink:#16140F;--soft:#8C877C;--line:#ECE9E1;--gold:#E3BE5A;--goldink:#9A7414;--tint:rgba(227,190,90,.24);--rose:#D8415C;
+  --sans:"Inter",sans-serif;--serif:"Playfair Display",serif;--mono:"JetBrains Mono",monospace}
+*{box-sizing:border-box;margin:0}
+body{background:#fff}
+#root{position:absolute;inset:0;overflow:hidden;background:#fff;color:var(--ink);font-family:var(--sans)}
+#grid{position:absolute;inset:0;background-image:linear-gradient(var(--line) 2px,transparent 2px),linear-gradient(90deg,var(--line) 2px,transparent 2px);background-size:90px 90px;background-position:-2px -2px}
+#glow{position:absolute;left:-200px;right:-200px;bottom:-500px;height:1300px;background:radial-gradient(closest-side,rgba(227,190,90,.55),rgba(227,190,90,0));opacity:0}
+.layer{position:absolute;inset:0;opacity:0}
+
+/* 위쪽 한 줄 자막 */
+.cap{position:absolute;left:0;right:0;top:205px;text-align:center;font:500 62px/1.2 var(--sans);letter-spacing:-.01em;opacity:0;white-space:nowrap}
+.cap.low{top:1500px}   /* 첫 장면 위 lock-in 자막 띠 (11/06): 얼굴 아래 */
+.w{display:inline-block;opacity:0}
+.em{position:relative;isolation:isolate;font:italic 500 70px/1 var(--serif);padding:0 10px;--box:0}
+.em::before{content:"";position:absolute;inset:-6px -2px -10px;background:var(--tint);border:2.5px solid var(--goldink);transform:scaleX(var(--box));transform-origin:left}
+.em::after{content:"";position:absolute;right:-7px;bottom:-15px;width:10px;height:10px;background:#fff;border:2.5px solid var(--goldink);opacity:var(--box)}
+.em i{position:relative;font-style:italic}
+
+/* 왼쪽 레일 + 단계 배지 + 아바타 */
+#rail{position:absolute;left:60px;top:300px;width:8px;height:1030px;background:var(--line);border-radius:4px;opacity:0}
+#railfill{position:absolute;inset:0;background:var(--gold);border-radius:4px;transform-origin:top}
+#ava{position:absolute;left:224px;top:470px;width:632px;height:632px;border-radius:50%;background:url(assets/hama-face.png) center/cover;border:5px solid var(--ink)}
+.badge{position:absolute;left:112px;top:316px;height:56px;padding:0 26px 0 12px;border-radius:28px;background:var(--gold);color:var(--ink);font:700 28px/56px var(--sans);opacity:0;white-space:nowrap}
+.badge b{display:inline-block;width:40px;height:40px;margin:8px 12px 0 0;vertical-align:top;border-radius:50%;background:var(--ink);color:var(--gold);font:700 20px/40px var(--sans);text-align:center}
+
+.card{position:absolute;background:#fff;border:2px solid #E7E3DA;border-radius:36px;box-shadow:0 24px 60px rgba(22,20,15,.10)}
+.k{font:700 24px/1 var(--sans);letter-spacing:.14em;color:var(--soft);text-transform:uppercase}
+.note{position:absolute;left:0;right:0;margin:auto;width:fit-content;height:60px;padding:0 26px;border-radius:30px;background:#fff;border:2px solid #E7E3DA;font:500 28px/56px var(--sans);color:var(--soft);white-space:nowrap}
+.face{background:url(assets/hama-face.png) center/cover;border-radius:50%}
+
+/* hook: LIVE 칩 */
+.p-hook .chip{position:absolute;left:0;right:0;margin:auto;width:fit-content;top:345px;height:76px;padding:0 30px;border-radius:38px;background:#fff;border:2px solid #E7E3DA;box-shadow:0 10px 30px rgba(0,0,0,.06);font:700 34px/76px var(--sans);white-space:nowrap;opacity:0}
+.p-hook .chip i{display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--rose);margin-right:14px;vertical-align:middle}
+.p-hook .chip small{font:700 22px var(--sans);letter-spacing:.12em;color:var(--rose);margin-right:16px}
+.p-hook .chip em{font:500 26px var(--sans);color:var(--soft);font-style:normal;margin-left:14px}
+
+/* checkout: 결제·입금창 */
+.p-checkout .card{left:110px;top:470px;width:860px;padding:44px}
+.p-checkout .top{display:flex;justify-content:space-between;align-items:center;font:700 36px var(--sans)}
+.p-checkout .lock{height:54px;padding:0 22px;border-radius:27px;background:var(--ink);color:#fff;font:700 24px/54px var(--sans)}
+.p-checkout .row{display:flex;gap:28px;margin-top:40px;align-items:center}
+.p-checkout .ic{width:150px;height:150px;border-radius:24px;background:var(--ink);color:var(--gold);font:700 26px/1.2 var(--mono);display:flex;align-items:center;justify-content:center;text-align:center}
+.p-checkout h3{font:700 40px/1.15 var(--sans)}.p-checkout p{font:400 26px/1.4 var(--sans);color:var(--soft)}
+.p-checkout .price{font:700 80px/1 var(--sans);margin-top:12px;position:relative;display:inline-block}
+.p-checkout .price s{position:absolute;left:-8px;right:-8px;top:50%;height:7px;background:var(--rose);transform-origin:left}
+.p-checkout .field{height:84px;border-radius:16px;background:#F5F3EE;margin-top:22px;font:400 28px/84px var(--sans);color:#B5B0A5;padding-left:28px}
+.p-checkout .btn{height:110px;border-radius:20px;background:var(--ink);color:#fff;margin-top:30px;font:700 38px/110px var(--sans);text-align:center}
+.p-checkout .sec{position:absolute;left:820px;top:420px;width:190px;height:190px;border-radius:50%;background:var(--gold);color:var(--ink);text-align:center;font:800 84px/1 var(--sans);padding-top:38px;opacity:0;box-shadow:0 16px 40px rgba(154,116,20,.35)}
+.p-checkout .sec small{display:block;font:700 20px var(--sans);letter-spacing:.14em;margin-top:6px}
+
+/* amount: 앱 카드 + 금액 고르기 */
+.p-amount .card{left:150px;top:470px;width:820px;padding:44px}
+.app{display:flex;gap:30px;align-items:center}
+.app .appic{width:150px;height:150px;border-radius:34px;background:#FFF6DD url(assets/hama-face.png) center/86% no-repeat;border:2px solid #F0E3BC}
+.app h3{font:700 50px/1.1 var(--sans)}.app p{font:400 28px/1.4 var(--sans);color:var(--soft)}
+.p-amount .seg{display:flex;gap:18px;margin-top:44px}
+.p-amount .seg span{flex:1;height:110px;border-radius:22px;border:3px solid #E7E3DA;text-align:center;font:700 44px/104px var(--sans);color:var(--soft)}
+.p-amount .big{margin-top:40px;font:800 150px/1 var(--sans);letter-spacing:-.04em;opacity:0}
+.p-amount .big small{font:500 44px var(--sans);letter-spacing:0;color:var(--soft)}
+
+/* toggle: 스위치 + 터미널 */
+.p-toggle .main{left:150px;top:470px;width:820px;padding:44px}
+.p-toggle .tg{display:flex;justify-content:space-between;align-items:center;margin-top:44px;padding:34px;border-radius:24px;background:#F8F6F1}
+.p-toggle .tg b{font:700 44px var(--sans)}.p-toggle .tg p{font:400 28px var(--sans);color:var(--soft);margin-top:8px}
+.p-toggle .track{position:relative;width:170px;height:96px;border-radius:48px;background:#D9D5CC}
+.p-toggle .knob{position:absolute;left:8px;top:8px;width:80px;height:80px;border-radius:50%;background:#fff;box-shadow:0 4px 10px rgba(0,0,0,.18)}
+.p-toggle .term{left:150px;top:1010px;width:820px;padding:34px 40px;font:500 30px/1.7 var(--mono);opacity:0}
+.p-toggle .term .t{display:flex;gap:14px;align-items:center;font:700 28px var(--sans);margin-bottom:10px}
+.p-toggle .term .t i{width:28px;height:28px}
+.p-toggle .term .l{opacity:0}
+
+/* counter: 해마다 숫자가 올라가는 카드 */
+.p-counter .card{left:150px;top:460px;width:820px;padding:50px}
+.p-counter .yr{position:relative;height:40px}.p-counter .yr span{position:absolute;left:0;top:0;opacity:0}
+.p-counter .num{font:800 168px/1 var(--sans);letter-spacing:-.045em;margin-top:30px;font-variant-numeric:tabular-nums}
+.p-counter .bar{height:40px;border-radius:20px;background:#F1EEE7;margin-top:44px;overflow:hidden}
+.p-counter .barf{height:100%;background:var(--gold);border-radius:20px;transform-origin:left}
+.p-counter .ticks{display:flex;justify-content:space-between;margin-top:18px;font:600 26px var(--sans);color:var(--soft)}
+.p-counter .note{top:1010px;opacity:0}
+
+/* split: 넣은 돈 | 시간이 보탠 돈 */
+.p-split .card{left:150px;top:470px;width:820px;padding:50px}
+.p-split h3{font:800 96px/1 var(--sans);letter-spacing:-.04em;margin-top:22px}
+.p-split .sb{display:flex;height:150px;border-radius:26px;overflow:hidden;margin-top:48px;background:#F1EEE7}
+.p-split .sa{background:var(--ink);transform-origin:left}.p-split .sbb{background:var(--gold);transform-origin:left}
+.p-split .sl{display:flex;margin-top:30px}
+.p-split .sl div{opacity:0}
+.p-split .sl b{display:block;font:800 60px/1 var(--sans);letter-spacing:-.03em}.p-split .sl span{font:500 28px var(--sans);color:var(--soft)}
+.p-split .sl div+div b{color:var(--goldink)}
+
+/* checklist: 위에서 아래로 체크 */
+.p-checklist .list{position:absolute;left:60px;top:330px}
+.p-checklist .li{position:absolute;left:0;white-space:nowrap;font:500 44px/64px var(--sans);color:#BDB8AD;padding-left:96px}
+.p-checklist .li.b{font-weight:700}
+.p-checklist .dot{position:absolute;left:0;top:0;width:64px;height:64px;border-radius:50%;border:4px solid #D3CEC4;background:#fff}
+.p-checklist .dot svg{width:100%;height:100%;fill:none;stroke:#fff;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}
+.p-checklist .dot path{stroke-dasharray:24;stroke-dashoffset:24}
+.p-checklist .lline{position:absolute;left:28px;top:64px;width:8px;background:var(--gold);transform-origin:top}
+
+/* compare: 카드 두 장 */
+.p-compare .card{top:430px;width:440px;height:760px;padding:40px}
+.p-compare .ca{left:90px}.p-compare .cb{left:550px}
+.p-compare b.big{display:block;font:800 130px/1 var(--sans);letter-spacing:-.05em;margin-top:40px}
+.p-compare .cb b.big{color:var(--goldink)}
+.p-compare .dots{display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:56px}
+.p-compare .dots i{height:34px;width:34px;border-radius:50%;background:var(--ink);opacity:.85}
+.p-compare .ft{position:absolute;left:40px;bottom:40px;font:500 34px var(--sans);color:var(--soft)}
+.p-compare .cb .ft{font:italic 500 44px var(--serif);color:var(--goldink)}
+.p-compare .bar{margin-top:44px;height:46px;border-radius:23px;background:#F1EEE7;overflow:hidden}
+.p-compare .bar i{display:block;height:100%;border-radius:23px;background:var(--ink);transform-origin:left}
+.p-compare .cb .bar i{background:var(--gold)}
+.p-compare .gap{position:absolute;left:0;right:0;margin:auto;width:fit-content;top:1230px;padding:0 34px;height:110px;border:7px solid var(--rose);border-radius:18px;color:var(--rose);background:rgba(255,255,255,.92);font:800 56px/96px var(--sans);letter-spacing:.02em;white-space:nowrap;opacity:0;z-index:3}
+.p-compare .gap small{font:700 30px var(--sans);letter-spacing:.14em;margin-left:10px}
+.p-compare .mid{position:absolute;left:450px;top:900px;width:180px;height:180px;border:5px solid var(--ink);opacity:0}
+
+/* tiles: 키워드 댓글 CTA */
+.p-tiles .cava{position:absolute;left:390px;top:400px;width:300px;height:300px;border:5px solid var(--ink)}
+.p-tiles .cbar{left:110px;top:760px;width:860px;height:120px;border-radius:60px;padding:0 40px;font:400 34px/116px var(--sans);color:#B5B0A5}
+.p-tiles .tiles{position:absolute;left:0;right:0;top:920px;display:flex;justify-content:center;gap:22px}
+.p-tiles .tile{width:146px;height:160px;border-radius:24px;background:#fff;border:3px solid var(--ink);box-shadow:0 10px 0 var(--ink);font:800 92px/150px var(--sans);text-align:center;opacity:0}
+.p-tiles .dm{left:110px;top:1120px;width:860px;padding:28px 32px;display:flex;gap:24px;align-items:center;opacity:0}
+.p-tiles .dm i{flex:none;width:88px;height:88px}
+.p-tiles .dm b{font:700 32px var(--sans)}.p-tiles .dm p{font:400 28px var(--sans);color:var(--soft);margin-top:4px}
+.p-tiles .note{top:1290px;opacity:0}
+
+/* coins: 해마다 동전 더미가 쌓인다 (하마 부품, 11/04). 동전은 떨어져 쌓일 뿐 커지지 않는다 */
+.p-coins .card{left:150px;top:440px;width:820px;height:860px;padding:50px}
+.p-coins .yr{position:relative;height:40px}.p-coins .yr span{position:absolute;left:0;top:0;opacity:0}
+.p-coins .num{font:800 150px/1 var(--sans);letter-spacing:-.045em;margin-top:26px;font-variant-numeric:tabular-nums}
+.p-coins .stacks{position:absolute;left:50px;right:50px;bottom:50px;height:440px;display:flex;justify-content:space-around;align-items:flex-end;border-bottom:4px solid var(--line)}
+.p-coins .col{position:relative;width:170px;height:100%}
+.p-coins .coin{position:absolute;left:0;width:170px;height:46px;border-radius:50%;background:radial-gradient(ellipse at 50% 35%,#F6DC8C 0 45%,#E3BE5A 46% 70%,#C99A2E 71%);border:3px solid var(--goldink);opacity:0}
+.p-coins .lab{position:absolute;left:0;right:0;bottom:-58px;text-align:center;font:600 26px var(--sans);color:var(--soft)}
+
+/* receipt: 프린터에서 영수증이 나온다 (하마 부품, 11/04) */
+.p-chart .chw{position:absolute;left:36px;right:36px;top:400px;font-size:26px}
+.p-chart .chw .area{height:27em}
+.p-chart .zz .chw{position:absolute}
+.p-chart .w2 .chw{top:960px}   /* 둘째 티커 창 (11/07) */
+.p-chart .zbadge{position:absolute;left:50%;top:300px;transform:translateX(-50%);background:var(--ink);color:#fff;font:800 44px/1 var(--sans,Inter);letter-spacing:.16em;padding:22px 40px;border-radius:999px;opacity:0;z-index:5;box-shadow:0 12px 40px rgba(22,20,15,.25)}
+.p-receipt .slot{position:absolute;left:150px;top:430px;width:780px;height:56px;border-radius:28px;background:var(--ink)}
+.p-receipt .win{position:absolute;left:190px;top:458px;width:700px;height:860px;overflow:hidden}
+.p-receipt .paper{position:absolute;left:0;top:0;width:700px;padding:56px 56px 70px;background:#fff;border:2px solid #E7E3DA;border-top:0;box-shadow:0 24px 60px rgba(22,20,15,.10);font:500 32px/1.3 var(--mono);
+  -webkit-mask:linear-gradient(#000 0 0) top/100% calc(100% - 20px) no-repeat,conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/40px 20px repeat-x}
+.p-receipt .hd{text-align:center;font:700 34px var(--mono);letter-spacing:.12em}
+.p-receipt .sub{text-align:center;color:var(--soft);font-size:26px;margin-top:8px}
+.p-receipt hr{border:0;border-top:3px dashed #D3CEC4;margin:34px 0}
+.p-receipt .r{display:flex;justify-content:space-between;gap:20px;margin-top:22px;opacity:0}
+.p-receipt .r b{font-weight:700}
+.p-receipt .tot{display:flex;justify-content:space-between;align-items:baseline;opacity:0;font:800 40px var(--sans)}
+.p-receipt .tot b{position:relative;font:800 76px var(--sans);letter-spacing:-.03em;padding:0 8px}
+.p-receipt .tot b i{position:absolute;left:0;right:0;bottom:6px;height:30px;background:var(--tint);transform-origin:left;z-index:0}
+.p-receipt .tot b span{position:relative}
+.p-receipt .ft{text-align:center;color:var(--soft);font-size:24px;margin-top:34px;opacity:0}
+
+/* ── 1라운드 전환 (11/04, fx-목록 D1·D2·D6·D8) ── */
+#dark{position:absolute;inset:0;opacity:0;background-color:#16140F;background-image:linear-gradient(rgba(255,255,255,.06) 2px,transparent 2px),linear-gradient(90deg,rgba(255,255,255,.06) 2px,transparent 2px);background-size:90px 90px;background-position:-2px -2px}
+.half{position:absolute;inset:0}
+.hl{clip-path:polygon(0 0,540px 0,522px 120px,558px 240px,520px 360px,560px 480px,524px 600px,556px 720px,518px 840px,562px 960px,522px 1080px,558px 1200px,520px 1320px,560px 1440px,524px 1560px,556px 1680px,520px 1800px,540px 1920px,0 1920px)}
+.hr{clip-path:polygon(540px 0,1080px 0,1080px 1920px,540px 1920px,520px 1800px,556px 1680px,524px 1560px,560px 1440px,520px 1320px,558px 1200px,522px 1080px,562px 960px,518px 840px,556px 720px,524px 600px,560px 480px,520px 360px,558px 240px,522px 120px)}
+.spark{position:absolute;left:500px;top:760px;width:80px;height:80px;fill:var(--gold);opacity:0}
+
+/* swap: 큰 단어가 흐려지고 새 단어가 글자마다 올라온다 (fx-목록 T3) */
+.p-swap .old,.p-swap .new{position:absolute;left:0;right:0;top:640px;text-align:center;font:800 150px/1 var(--sans);letter-spacing:-.04em;white-space:nowrap}
+.p-swap .old{color:#BDB8AD}
+.p-swap .new{color:var(--goldink)}.p-swap.dk .new{color:var(--gold)}
+.p-swap .new span{display:inline-block;opacity:0}
+.p-swap .sub{position:absolute;left:0;right:0;top:860px;text-align:center;font:italic 500 64px var(--serif);color:var(--soft);opacity:0}
+.p-swap.dk .sub{color:#CFC9BC}
+
+/* stack: 아이소 3D 판이 날아와 쌓이고, 바로 서며 나란해진다 (fx-목록 D3·H8) */
+.p-stack .stage{position:absolute;left:0;top:380px;width:1080px;height:950px;perspective:2600px}
+.p-stack .iso{position:absolute;left:220px;top:250px;width:640px;height:400px;transform-style:preserve-3d}
+.p-stack .plate{position:absolute;left:0;top:0;width:640px;height:400px;border-radius:40px;background:#fff;border:3px solid #E7E3DA;box-shadow:0 30px 60px rgba(22,20,15,.14);padding:44px 50px;opacity:0}
+.p-stack .plate b{display:block;font:800 64px/1 var(--sans);letter-spacing:-.02em}
+.p-stack .plate em{display:block;font:800 130px/1.1 var(--sans);font-style:normal;letter-spacing:-.04em;margin-top:12px}
+.p-stack .plate.loss em{color:var(--rose)}.p-stack .plate.win em{color:var(--goldink)}
+.p-stack .plate span{display:block;font:500 30px var(--sans);color:var(--soft);margin-top:8px}
+
+/* 첫 장면 (1초 훅 공식, hooks.json): 0초 프레임에 전부 보인다 · 제일 큰 건 숫자 · 물건 이름이 훅 위 · 화면 글 = 첫마디 */
+.opill{position:absolute;left:0;right:0;margin:auto;width:fit-content;top:330px;height:64px;padding:0 30px;border-radius:32px;background:var(--ink);color:#fff;font:700 26px/64px var(--sans);letter-spacing:.12em;white-space:nowrap}
+.opill i{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--gold);margin-right:14px;vertical-align:middle}
+.oline{position:absolute;left:80px;right:80px;text-align:center;font:700 68px/1.16 var(--sans);letter-spacing:-.015em;text-wrap:balance}
+.oline span{color:var(--ink)}
+.oav{position:absolute;left:450px;top:1130px;width:180px;height:180px;border:5px solid var(--ink)}
+/* ② 약속 줄 (2026-11-04). ① 아래, 하마 얼굴 위. 있으면 얼굴을 내린다 */
+.oprom{position:absolute;left:80px;right:80px;top:1110px;text-align:center;font:italic 500 64px/1.12 var(--serif);color:var(--goldink);text-wrap:balance}
+.oprom span{color:var(--goldink)}
+.oprom~.oav{top:1290px}
+.p-hooknum .num{position:absolute;left:0;right:0;top:440px;text-align:center;font:800 400px/1 var(--sans);letter-spacing:-.06em;white-space:nowrap}
+.p-hooknum .ul{position:absolute;left:240px;width:600px;top:842px;height:26px;background:var(--gold);transform-origin:left}
+.p-hooknum .oline{top:900px}
+.p-slam .num{position:absolute;left:0;right:0;top:440px;text-align:center;font:800 400px/1 var(--sans);letter-spacing:-.06em;white-space:nowrap;color:var(--rose)}
+.p-slam .ul{position:absolute;left:240px;width:600px;top:842px;height:26px;background:var(--gold);transform-origin:left}
+.p-slam .oline{top:900px}
+.p-tease .num{position:absolute;left:0;right:0;top:420px;text-align:center;font:800 400px/1 var(--sans);letter-spacing:-.06em;white-space:nowrap}
+.p-tease .ul{position:absolute;left:240px;width:600px;top:822px;height:26px;background:var(--gold);transform-origin:left}
+.p-tease .oline{top:880px}
+.p-tease .oprom{top:1040px;font-size:54px}
+.gchip{position:absolute;left:0;right:0;margin:auto;width:fit-content;top:1170px;padding:20px 46px;background:var(--gold);color:var(--ink);font:800 66px/1 var(--sans);letter-spacing:.02em;border:5px solid var(--ink);border-radius:18px;box-shadow:0 10px 0 var(--ink);white-space:nowrap}
+.tcard{position:absolute;left:150px;right:150px;bottom:-60px;height:380px;background:#fff;border:5px solid var(--ink);border-radius:28px 28px 0 0;padding:42px 50px;overflow:hidden}
+.tcard b{display:block;font:700 40px/1 var(--sans);letter-spacing:.08em;margin-bottom:30px}
+.tcard i{display:block;height:34px;border-radius:17px;background:var(--line);margin:24px 0;filter:blur(7px)}
+.p-title2 .l1{top:470px;font-size:96px;font-weight:800}
+.p-title2 .l1 b{display:block;font:800 260px/1 var(--sans);letter-spacing:-.06em;margin-bottom:10px}
+.p-title2 .l2{top:880px;font:italic 500 92px/1.1 var(--serif);color:var(--goldink)}
+.p-title2 .l2 span{color:var(--goldink)}
+
+/* stamp: 금액 카드에 빨간 도장 (fx-목록 T6, 손해) */
+.p-stamp .card{left:190px;top:520px;width:700px;height:520px;padding:56px;text-align:center}
+.p-stamp .card .k{margin-top:10px}
+.p-stamp .amt{font:800 190px/1 var(--sans);letter-spacing:-.05em;margin-top:60px}
+.p-stamp .st{position:absolute;left:250px;top:1090px;width:580px;height:170px;border:10px solid var(--rose);border-radius:24px;color:var(--rose);font:800 92px/150px var(--sans);letter-spacing:.06em;text-align:center;opacity:0;background:#fff}
+.p-stamp.dk .st{background:var(--ink)}
+
+/* strike: 체크된 말에 취소선 + 빨간 X, 아래에서 진짜 말 (fx-목록 T5, 예외·믿음) */
+.p-strike .chip{position:absolute;left:0;right:0;margin:auto;width:fit-content;top:600px;height:150px;padding:0 60px 0 40px;border-radius:75px;background:#fff;border:3px solid #E7E3DA;box-shadow:0 20px 50px rgba(22,20,15,.1);font:800 84px/144px var(--sans);white-space:nowrap}
+.p-strike .chip i{display:inline-block;width:70px;height:70px;border-radius:50%;background:var(--gold);color:#fff;font:800 44px/70px var(--sans);text-align:center;margin-right:28px;vertical-align:middle;font-style:normal}
+.p-strike .line{position:absolute;left:-10px;right:-10px;top:50%;height:10px;background:var(--rose);transform-origin:left}
+.p-strike .x{position:absolute;right:-40px;top:-40px;width:100px;height:100px;border-radius:50%;background:var(--rose);color:#fff;font:800 60px/100px var(--sans);text-align:center;opacity:0}
+.p-strike .tru{position:absolute;left:0;right:0;top:830px;text-align:center;font:800 120px/1 var(--sans);letter-spacing:-.03em;color:var(--rose);opacity:0}
+.p-strike .sub{position:absolute;left:0;right:0;top:980px;text-align:center;font:italic 500 60px var(--serif);color:var(--soft);opacity:0}
+
+/* 마이너스 숫자 = 로즈 (11/05 하림님) */
+.neg,.num.neg,.oline b.neg{color:var(--rose)!important}
+
+/* 첫 장면 대상 이름 (11/05 «SOXL이면 SOXL이라고»): 알약을 위로 올리고 숫자 바로 위에 크게 */
+.osubj{position:absolute;left:0;right:0;top:300px;text-align:center;font:800 130px/1 var(--sans);letter-spacing:-.04em;color:var(--ink);white-space:nowrap}
+.osubj~.opill{top:190px}
+
+.ostamp{position:absolute;right:70px;padding:0 22px;height:84px;border:7px solid var(--rose);border-radius:16px;color:var(--rose);font:800 48px/70px var(--sans);letter-spacing:.08em;white-space:nowrap;opacity:0;background:rgba(255,255,255,.85);transform:rotate(-12deg);z-index:2}   /* 첫 장면 동사 도장 (11/06) */
+
+/* ── 3단계 1라운드 (11/06): H4 장표 «내 행» · D11 와이프 · N2 오도미터 ── */
+.p-table .card{left:110px;top:440px;width:860px;padding:40px 40px 50px}
+.p-table .th,.p-table .tr{display:grid;grid-template-columns:200px repeat(var(--cols),1fr);gap:0 14px;align-items:center;height:104px;position:relative;z-index:1}
+.p-table .th{height:60px;margin-top:30px;font:700 22px var(--sans);letter-spacing:.12em;color:var(--soft);text-transform:uppercase;border-bottom:3px solid var(--line)}
+.p-table .tr{font:600 44px var(--sans);border-bottom:2px solid var(--line);opacity:0}
+.p-table .tr .lab{font:700 36px var(--sans);color:var(--soft)}
+.p-table .tr span{text-align:right}.p-table .tr .lab{text-align:left}
+.p-table .hl{position:absolute;left:24px;right:24px;height:104px;background:var(--tint);border-left:10px solid var(--gold);border-radius:14px;opacity:0;transform-origin:left;z-index:0}
+.p-wipe .pane{position:absolute;left:110px;top:470px;width:860px;height:760px;border-radius:40px;padding:60px;background:#fff;border:3px solid #E7E3DA;box-shadow:0 24px 60px rgba(22,20,15,.10);opacity:0}
+.p-wipe .pane b{display:block;font:800 170px/1 var(--sans);letter-spacing:-.05em;margin-top:60px;white-space:nowrap}
+.p-wipe .pane span{display:block;font:italic 500 46px var(--serif);color:var(--soft);margin-top:40px}
+.p-wipe .la b{color:var(--rose)}.p-wipe .wb{background:#FFF9E6;border-color:var(--gold)}.p-wipe .wb b{color:var(--goldink)}
+.p-wipe .wline{position:absolute;left:110px;top:440px;width:14px;height:820px;background:var(--gold);box-shadow:0 0 40px rgba(227,190,90,.9);opacity:0;z-index:3}
+.p-odometer .card{left:110px;top:520px;width:860px;padding:50px 40px 60px;text-align:center}
+.p-odometer .od{display:flex;justify-content:center;align-items:flex-end;margin-top:40px;font-weight:800;letter-spacing:-.04em;line-height:1;font-family:var(--sans);font-variant-numeric:tabular-nums}
+.p-odometer .dg{display:inline-block;height:1em;overflow:hidden;width:.62em;text-align:center}
+.p-odometer .dg i{display:block;font-style:normal}
+.p-odometer .dg b{display:block;height:1em;line-height:1}
+.p-odometer .sep{display:inline-block;height:1em;line-height:1}
+
+/* ── 3단계 2라운드 (11/06): D14 multiply · N6 shrink · P4 funnel · N4 clock · U13 countdown · U9 notify · N8 donut · rollnum ── */
+.p-multiply .card{left:110px;top:440px;width:860px;padding:50px}
+.p-multiply .num{font:800 150px/1 var(--sans);letter-spacing:-.045em;margin-top:20px;font-variant-numeric:tabular-nums}
+.p-multiply .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:40px}
+.p-multiply .grid i{display:block;height:150px;border-radius:24px;background:var(--gold);border:3px solid var(--goldink);opacity:0}
+.p-shrink .card{left:110px;top:470px;width:860px;padding:50px}
+.p-shrink .row{display:grid;grid-template-columns:230px 1fr 230px;gap:20px;align-items:center;margin-top:44px}
+.p-shrink .row .l{font:600 32px var(--sans);color:var(--soft)}
+.p-shrink .bar{height:64px;border-radius:32px;background:#F1EEE7;overflow:hidden}
+.p-shrink .f{height:100%;border-radius:32px;background:var(--gold)}
+.p-shrink .row b{font:800 44px var(--sans);text-align:right;white-space:nowrap}
+.p-funnel .fun{position:absolute;left:0;top:380px;width:1080px;height:1000px}
+.p-funnel .shape{position:absolute;left:240px;top:200px;width:600px;height:420px;fill:#FFF9E6;stroke:var(--goldink);stroke-width:8}
+.p-funnel .top{position:absolute;left:0;right:0;top:40px;text-align:center;opacity:0}
+.p-funnel .top span,.p-funnel .out span{display:block;font:700 24px var(--sans);letter-spacing:.14em;color:var(--soft)}
+.p-funnel .top b{display:block;font:800 70px/1 var(--sans);margin-top:8px}
+.p-funnel .dot{position:absolute;top:160px;width:26px;height:26px;border-radius:50%;background:var(--gold);border:3px solid var(--goldink);opacity:0}
+.p-funnel .leak{position:absolute;left:640px;top:420px;width:380px;opacity:0}
+.p-funnel .leak b{display:block;font:800 60px/1 var(--sans);color:var(--rose)}
+.p-funnel .leak span{display:block;font:italic 500 34px var(--serif);color:var(--soft);margin-top:8px}
+.p-funnel .out{position:absolute;left:0;right:0;top:680px;text-align:center;opacity:0}
+.p-funnel .out b{display:block;font:800 96px/1 var(--sans);color:var(--goldink);margin-top:10px}
+.p-clock .card,.p-donut .card{left:110px;top:430px;width:860px;height:900px;padding:44px;text-align:center}
+.p-clock .ring,.p-donut .ring{position:absolute;left:80px;top:120px;width:700px;height:700px;transform:rotate(-90deg)}
+.p-clock .bg{fill:none;stroke:#F1EEE7;stroke-width:70}
+.p-clock .fg{fill:none;stroke:var(--gold);stroke-width:70;stroke-linecap:round}
+.p-clock .mid{position:absolute;left:0;right:0;top:400px;text-align:center}
+.p-clock .mid b{display:block;font:800 150px/1 var(--sans);letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.p-clock .mid span{display:block;font:italic 500 44px var(--serif);color:var(--soft);margin-top:10px}
+.p-countdown .isl{position:absolute;left:0;right:0;margin:auto;width:440px;height:120px;top:560px;border-radius:60px;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;gap:24px;font:700 40px var(--sans);opacity:0}
+.p-countdown .cnt{display:inline-block;width:80px;height:80px;border-radius:50%;background:var(--gold);color:var(--ink);font:800 50px/80px var(--sans);text-align:center}
+.p-countdown .dl{position:absolute;left:0;right:0;top:760px;text-align:center;opacity:0}
+.p-countdown .dl span{display:block;font:700 26px var(--sans);letter-spacing:.16em;color:var(--soft)}
+.p-countdown .dl b{display:block;font:800 150px/1 var(--sans);letter-spacing:-.04em;margin-top:14px;white-space:nowrap}
+.p-countdown .live{display:inline-block;margin-top:30px;padding:0 28px;height:64px;border-radius:32px;background:var(--rose);color:#fff;font:700 28px/64px var(--sans);letter-spacing:.14em;font-style:normal}
+.p-countdown .live u{display:inline-block;width:14px;height:14px;border-radius:50%;background:#fff;margin-right:12px;vertical-align:middle}
+.p-notify .phone{position:absolute;left:170px;top:400px;width:740px;height:960px;border-radius:70px;background:#fff;border:8px solid var(--ink);box-shadow:0 24px 60px rgba(22,20,15,.12);overflow:hidden}
+.p-notify .badge2{position:absolute;right:40px;top:30px;min-width:64px;height:64px;padding:0 18px;border-radius:32px;background:var(--rose);color:#fff;font:800 36px/64px var(--sans);text-align:center}
+.p-notify .nt{position:absolute;left:40px;right:40px;height:124px;border-radius:30px;background:#F8F6F1;border:2px solid #E7E3DA;display:flex;align-items:center;gap:24px;padding:0 30px;opacity:0}
+.p-notify .nt i{width:72px;height:72px;flex:none}
+.p-notify .nt b{display:block;font:700 32px var(--sans)}.p-notify .nt span{display:block;font:500 30px var(--sans);color:var(--goldink);margin-top:4px}
+.p-notify .tot{position:absolute;left:40px;right:40px;bottom:40px;text-align:center;opacity:0}
+.p-notify .tot span{display:block;font:700 24px var(--sans);letter-spacing:.14em;color:var(--soft)}
+.p-notify .tot b{display:block;font:800 90px/1 var(--sans);margin-top:8px}
+.p-donut .sg{fill:none;stroke:#D9D5CC;stroke-width:90}.p-donut .hi{fill:none;stroke:var(--gold);stroke-width:90}
+.p-donut .legend{position:absolute;left:60px;right:60px;bottom:40px;display:flex;justify-content:center;gap:40px}
+.p-donut .lg{text-align:left}.p-donut .lg i{display:inline-block;width:22px;height:22px;border-radius:50%;background:#D9D5CC;margin-right:10px}.p-donut .lg.hi i{background:var(--gold)}
+.p-donut .lg b{font:800 48px var(--sans)}.p-donut .lg span{display:block;font:500 28px var(--sans);color:var(--soft)}
+.p-rollnum .num{position:absolute;left:0;right:0;text-align:center;font:800 400px/1 var(--sans);letter-spacing:-.06em;white-space:nowrap;display:flex;justify-content:center}
+.p-rollnum .dg{display:inline-block;height:1em;overflow:hidden;width:.62em;text-align:center}.p-rollnum .dg i{display:block;font-style:normal}.p-rollnum .dg b{display:block;height:1em;line-height:1}.p-rollnum .sep{display:inline-block;height:1em;line-height:1}
+.p-rollnum .ul{position:absolute;left:240px;width:600px;top:842px;height:26px;background:var(--gold);transform-origin:left}
+.p-rollnum .oline{top:900px}
+
+/* ── 3단계 3라운드 (11/07): 첫 장면 5종 rise(T4) · cover(K2) · boil(K3) · glass(K4) · window(K5). 레퍼 REF/fx-kyleherbel.md ── */
+.p-rise .mask{position:absolute;left:0;right:0;overflow:hidden;line-height:1;text-align:center}
+.p-rise .num{position:relative;font:800 1em/1 var(--sans);letter-spacing:-.06em;white-space:nowrap}
+.p-rise .ul,.p-boil .ul,.p-glass .ul{position:absolute;left:240px;width:600px;top:842px;height:26px;background:var(--gold);transform-origin:left}
+.p-rise .oline,.p-boil .oline,.p-glass .oline{top:900px}
+.mk{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.08em}
+.mk>span{display:inline-block}
+.p-cover .mag{position:absolute;left:130px;top:300px;width:820px;height:1180px;background:#fff;border:4px solid var(--ink);border-radius:18px;box-shadow:0 30px 70px rgba(22,20,15,.16);overflow:hidden}
+.p-cover .head{position:absolute;left:0;right:0;top:40px;text-align:center;font:800 190px/1 var(--sans);letter-spacing:-.04em;color:var(--ink);white-space:nowrap}
+.p-cover .kick{position:absolute;left:0;right:0;top:250px;text-align:center;font:700 24px var(--sans);letter-spacing:.2em;color:var(--goldink);text-transform:uppercase}
+.p-cover .oav.big{left:230px;top:300px;width:360px;height:360px;border:6px solid var(--ink)}
+.p-cover .num{position:absolute;left:50px;top:700px;font:800 150px/1 var(--sans);letter-spacing:-.05em;white-space:nowrap;color:var(--goldink)}
+.p-cover .bar{position:absolute;left:50px;bottom:40px;width:220px;height:70px;background:repeating-linear-gradient(90deg,var(--ink) 0 4px,transparent 4px 9px,var(--ink) 9px 11px,transparent 11px 17px)}
+.p-cover .oline{top:1180px;font-size:56px;left:190px;right:190px}
+.p-cover .oprom{top:1520px;font-size:50px}
+.p-cover .ostamp{right:90px}
+.p-boil .num{position:absolute;left:0;right:0;top:440px;text-align:center;font:800 400px/1 var(--sans);letter-spacing:-.06em;white-space:nowrap}
+.p-boil .sk{position:absolute;inset:0;width:1080px;height:1920px;pointer-events:none}
+.p-boil .sk path{fill:none;stroke:var(--ink);stroke-width:7;stroke-linejoin:round;stroke-linecap:round;opacity:0}
+.p-glass .gl{position:absolute;left:0;right:0;top:420px;text-align:center;font:800 360px/1 var(--sans);letter-spacing:-.05em;white-space:nowrap;color:rgba(255,255,255,.5);-webkit-text-stroke:4px rgba(22,20,15,.28);text-shadow:0 18px 40px rgba(22,20,15,.12),inset 0 0 0 #fff;z-index:0}
+.p-glass .num{position:absolute;left:0;right:0;top:440px;text-align:center;font:800 400px/1 var(--sans);letter-spacing:-.06em;white-space:nowrap;z-index:1;text-shadow:0 10px 0 #fff,0 0 30px #fff}
+.p-glass .osubj,.p-glass .opill,.p-glass .oline,.p-glass .oprom,.p-glass .oav,.p-glass .ul{z-index:1}
+.p-window .win{position:absolute;left:90px;top:400px;width:900px;height:1000px;background:#fff;border:4px solid var(--ink);border-radius:30px;box-shadow:0 30px 70px rgba(22,20,15,.16);overflow:visible}
+.p-window .tb{height:84px;border-bottom:4px solid var(--ink);display:flex;align-items:center;gap:14px;padding:0 30px;font:700 24px var(--sans);letter-spacing:.14em;color:var(--soft)}
+.p-window .tb i{width:26px;height:26px;border-radius:50%;background:#D9D5CC}.p-window .tb i:first-child{background:var(--rose)}.p-window .tb i:nth-child(3){background:var(--gold)}
+.p-window .tb span{margin-left:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.p-window .wsubj{position:absolute;left:0;right:0;top:120px;text-align:center;font:800 60px/1 var(--sans);letter-spacing:-.03em;white-space:nowrap}
+.p-window .num{position:absolute;left:0;right:0;top:200px;text-align:center;font:800 220px/1 var(--sans);letter-spacing:-.06em;white-space:nowrap}
+.p-window .ul{position:absolute;left:150px;width:600px;top:440px;height:22px;background:var(--gold);transform-origin:left}
+.p-window .oline{position:absolute;left:50px;right:50px;top:500px;font-size:54px}
+.p-window .oprom{position:absolute;left:50px;right:50px;top:700px;font-size:48px}
+.p-window .oav{left:360px;top:800px;width:160px;height:160px}
+.p-window .oprom~.oav{top:820px}
+.p-window .tab{position:absolute;left:-30px;top:440px;width:30px;height:120px;border-radius:14px 0 0 14px;background:var(--gold);border:4px solid var(--ink);border-right:0}
+.p-window .ostamp{right:120px}
+
+/* 줄 칩 (11/07): 이어지는 줄이 말한 숫자가 아래 띠에 팝 */
+.lchip{position:absolute;left:0;right:0;margin:auto;width:fit-content;top:1420px;padding:0 40px;height:96px;border-radius:48px;background:var(--ink);color:var(--gold);font:800 54px/96px var(--sans);letter-spacing:-.01em;white-space:nowrap;opacity:0;z-index:4}
+
+/* ── v2.1 (11/07): callout(T9/T10) · dumbbell · waterfall (charts.py, diagram-design 문법) ── */
+.p-callout .qline{position:absolute;left:80px;right:80px;top:560px;text-align:center;font:500 48px/1.3 var(--sans);color:var(--soft);text-wrap:balance;opacity:0}
+.p-callout .card.word{left:120px;right:120px;top:760px;height:260px;text-align:center;font:italic 500 150px/250px var(--serif);color:var(--goldink);opacity:0;white-space:nowrap}
+.p-callout .oav.small{left:470px;top:1090px;width:140px;height:140px;opacity:0}
+.p-dumbbell .card,.p-waterfall .card{left:70px;top:470px;width:940px;padding:40px 30px 30px}
+.p-dumbbell svg,.p-waterfall svg{display:block;width:100%;height:auto;margin-top:16px;font-family:var(--sans)}
+.p-dumbbell .g,.p-waterfall .ax{stroke:var(--line);stroke-width:2}
+.p-dumbbell .tk,.p-waterfall .nm{fill:var(--soft);font-size:26px;font-weight:600;text-anchor:middle}
+.p-dumbbell .ln{stroke:var(--ink);stroke-width:8;stroke-linecap:round}
+.p-dumbbell .da{fill:var(--ink)}.p-dumbbell .dbb{fill:var(--gold);stroke:var(--goldink);stroke-width:5}
+.p-dumbbell .va,.p-dumbbell .vb{font-size:60px;font-weight:800;text-anchor:middle;letter-spacing:-.03em}.p-dumbbell .vb{fill:var(--goldink)}
+.p-dumbbell .ka,.p-dumbbell .kb{fill:var(--soft);font-size:22px;font-weight:700;letter-spacing:.12em;text-anchor:middle}
+.p-dumbbell .gap{fill:var(--rose);font-size:52px;font-weight:800;text-anchor:middle;opacity:0}
+.p-waterfall rect.tot{fill:rgba(22,20,15,.08);stroke:var(--ink);stroke-width:3}
+.p-waterfall rect.up{fill:rgba(227,190,90,.35);stroke:var(--goldink);stroke-width:3}
+.p-waterfall rect.dn{fill:#fff;stroke:var(--soft);stroke-width:3}
+.p-waterfall rect.foc{fill:rgba(216,65,92,.12);stroke:var(--rose);stroke-width:4}
+.p-waterfall .carry{stroke:rgba(22,20,15,.55);stroke-width:2}
+.p-waterfall text.v{font-size:34px;font-weight:800;text-anchor:middle}.p-waterfall text.v.foc{fill:var(--rose)}.p-waterfall text.v.dn{fill:var(--soft)}

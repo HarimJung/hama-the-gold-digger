@@ -1,0 +1,1333 @@
+{
+  "key": "self-custody-withdrawal-fee",
+  "category": "crypto",
+  "status": "draft",
+  "title": "The $10 hurry fee on your bitcoin.",
+  "object": "THE EXCHANGE WITHDRAWAL FEE TABLE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['sf87b673f', 's6c72ab73'] · 퍼스나 The shaken coin holder",
+  "fact": {
+    "num": "10",
+    "unit": "$",
+    "thing": "Newton's extra fee on a Fast lane bitcoin withdrawal, on top of the network fee",
+    "box": "Newton (Canadian crypto exchange) BTC withdrawal to your own wallet",
+    "claim": "Newton gives three speeds for moving bitcoin to your own wallet. Fast costs $10 CAD plus the network fee, Standard costs only the network fee, and Free has no fee but goes out once a night. On your first withdrawal each day, Newton pays up to $5 CAD of the network fee. At Wealthsimple you pay just the network fee the blockchain charges, and the app shows you an estimate before you send.",
+    "sources": [
+      "Newton – Funding & Withdrawals",
+      "Newton – Funding & Withdrawals",
+      "Wealthsimple – Crypto fees"
+    ],
+    "verified": "find.py · 대조 3/3",
+    "felt": {
+      "num": "120",
+      "unit": "$",
+      "a": "120",
+      "b": "0",
+      "how": "tapping Fast monthly for a year vs Standard or Free, 12 sends",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "Newton – Funding & Withdrawals",
+      "url": "https://www.newton.co/funding-and-withdrawals",
+      "what": "$10 CAD + Network fee",
+      "confidence": "1차"
+    },
+    {
+      "label": "Newton – Funding & Withdrawals",
+      "url": "https://www.newton.co/funding-and-withdrawals",
+      "what": "The first time you withdraw each day, we'll cover up to $5 CAD in gas fees.",
+      "confidence": "1차"
+    },
+    {
+      "label": "Wealthsimple – Crypto fees",
+      "url": "https://wealthsimple.com/en-ca/legal/fees/crypto",
+      "what": "Once the crypto is sent, you will pay the network fee actually charged by the blockchain network.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "CRYPTO · CANADA",
+      "topic": "THE BITCOIN CLOCK",
+      "hook": {
+        "pre": "Newton's Fast button cost you $",
+        "num": "120",
+        "post": " a year. Want it back?"
+      },
+      "promise": "Give me 30 seconds. See the cheaper app."
+    },
+    {
+      "type": "mini",
+      "kicker": "THREE SPEEDS · ONE WALLET",
+      "title": "Same wallet. Three speeds. One *costs* $10.",
+      "lead": "Newton gives you three speeds to your own wallet. <em>Only Fast adds $10.</em>",
+      "rows": [
+        {
+          "t": "Fast: $10 CAD plus the network fee",
+          "v": "+$10"
+        },
+        {
+          "t": "Standard: the network fee only",
+          "v": "NO EXTRA",
+          "ok": true
+        },
+        {
+          "t": "Free: goes out once a night",
+          "v": "$0",
+          "ok": true
+        }
+      ],
+      "tail": "On your first send each day, Newton pays up to $5 of the network fee. Wealthsimple charges just the network fee and shows an estimate before you send.",
+      "source_label": "NEWTON · WEALTHSIMPLE",
+      "say": "Hama can wait for the night run.|Hama keeps the $10."
+    },
+    {
+      "type": "table",
+      "kicker": "THE EXCHANGE WITHDRAWAL FEE TABLE",
+      "title": "Tap Fast often. *Watch* it add up.",
+      "h1": "YOU SEND BTC",
+      "h2": "FAST LANE EXTRA",
+      "h3": "STANDARD OR FREE EXTRA",
+      "rows": [
+        {
+          "a": "1 send",
+          "asub": "one time",
+          "bar": 1,
+          "b": "$10",
+          "gone": "−$10 gone",
+          "c": "$0",
+          "csub": "no extra fee"
+        },
+        {
+          "a": "5 sends",
+          "asub": "a few moves",
+          "bar": 5,
+          "b": "$50",
+          "gone": "−$50 gone",
+          "c": "$0",
+          "csub": "no extra fee"
+        },
+        {
+          "a": "12 sends",
+          "asub": "monthly for a year",
+          "bar": 12,
+          "b": "$120",
+          "gone": "−$120 gone",
+          "c": "$0",
+          "csub": "no extra fee"
+        },
+        {
+          "a": "24 sends",
+          "asub": "twice a month for a year",
+          "bar": 23,
+          "b": "$240",
+          "gone": "−$240 gone",
+          "c": "$0",
+          "csub": "no extra fee"
+        },
+        {
+          "a": "52 sends",
+          "asub": "weekly for a year",
+          "bar": 50,
+          "b": "$520",
+          "gone": "−$520 gone",
+          "c": "$0",
+          "csub": "no extra fee"
+        },
+        {
+          "a": "104 sends",
+          "asub": "twice a week for a year",
+          "bar": 100,
+          "b": "$1,040",
+          "gone": "−$1,040 gone",
+          "c": "$0",
+          "csub": "no extra fee"
+        }
+      ],
+      "note": "Newton's $10 CAD Fast fee times the number of sends. The network fee is on top in every lane. <b>Free goes out once a night.</b>"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Newton's Fast button cost you $120 a year. Want it back?",
+      "Newton took $120 off your bitcoin. Want it back?",
+      "Newton's Fast tap costs you $120 a year. Still tapping?",
+      "Newton charged you $120 to hurry. Want it back?",
+      "Newton nearly took $120 from Hama. Want to keep yours?",
+      "Newton's Fast tappers lose $120 a year. Want it back?",
+      "Newton's $120 hurry fee hides in one tap. Want it back?",
+      "Newton Fast vs Free costs you $120 a year. Want it back?",
+      "Newton's hurry fee: 12 taps a year, $120 gone. Want it back?",
+      "Newton Fast tappers, stop: that's $120 a year. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Newton's Fast button cost you $120 a year. Want it back?",
+    "spoken": "Newton's Fast button cost you $120 a year. Want it back?",
+    "promise": "Give me 30 seconds. See the cheaper app.",
+    "pick_why": "The app name, the one button and the yearly $120 land in the first second, and every Newton user will check if that is them before scrolling.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "STOP THE LEAK"
+  },
+  "lede": "Newton charges $10 extra when you pick Fast. Standard and Free don't.",
+  "series": "CRYPTO FEE LEAKS",
+  "source_note": "NEWTON · WEALTHSIMPLE · FEE PAGES",
+  "caption": "🐶⛏️ If you tap Fast on Newton, $120 a year could be leaving your pocket.\n\nNewton adds $10 every time you pick Fast, so once a month for a year adds up fast. Standard and Free skip it, but every speed still pays the blockchain's network fee.\n\nComment SPEED and I'll send you my three-speed fee table 🪙\nWhat speed did you pick?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #cryptocanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Newton's Fast button cost you $120 a year. Want it back?",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE EXCHANGE WITHDRAWAL FEE TABLE",
+          "num": "$120",
+          "line": "Newton's Fast button cost you $120 a year. Want it back?",
+          "promise": "Give me 30 seconds. See the cheaper app.",
+          "subj": "NEWTON",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the cheaper app.",
+        "nocap": true
+      },
+      {
+        "say": "The fee table is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people send bitcoin, digital money, out of Newton monthly.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "FAST LANE",
+            "v": "$120",
+            "sub": "12 sends, $10 each"
+          },
+          "b": {
+            "h": "STANDARD OR FREE",
+            "v": "$0",
+            "sub": "same 12 sends"
+          },
+          "at": 1
+        },
+        "badge": "THE GAP",
+        "in": "pan"
+      },
+      {
+        "say": "One taps Fast, one picks Standard. 12 sends."
+      },
+      {
+        "say": "Fast adds $10 a send, $120 *gone*. Standard adds $0.",
+        "part": "table",
+        "data": {
+          "k": "THE EXCHANGE WITHDRAWAL FEE TABLE",
+          "cols": [
+            "FAST LANE EXTRA",
+            "STANDARD OR FREE EXTRA"
+          ],
+          "rows": [
+            {
+              "lab": "1 send",
+              "cells": [
+                "$10",
+                "$0"
+              ]
+            },
+            {
+              "lab": "5 sends",
+              "cells": [
+                "$50",
+                "$0"
+              ]
+            },
+            {
+              "lab": "12 sends",
+              "cells": [
+                "$120",
+                "$0"
+              ]
+            },
+            {
+              "lab": "24 sends",
+              "cells": [
+                "$240",
+                "$0"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": "$0"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Now the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Now the part nobody says.",
+          "at": "says"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "People think Fast is the only way out.",
+        "part": "badge",
+        "data": {
+          "old": "ONE SPEED",
+          "new": "THREE SPEEDS",
+          "at": "THREE",
+          "sub": "only Fast adds $10.",
+          "sub_at": 1,
+          "k": "THREE SPEEDS"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Newton has three speeds. *Only* Fast adds $10."
+      },
+      {
+        "say": "Free goes out once a night, for nothing.",
+        "part": "swap",
+        "data": {
+          "old": "ONE SPEED",
+          "new": "THREE SPEEDS",
+          "at": "Free",
+          "sub": "only Fast adds $10.",
+          "sub_at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "One *catch*. Every speed still pays the network fee the blockchain takes.",
+        "part": "tabs",
+        "data": {
+          "old": "FREE",
+          "new": "NETWORK FEE",
+          "at": "NETWORK",
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Standard, Free, or Wealthsimple keeps that $120 yours.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "120",
+          "pre": "$",
+          "suf": "",
+          "label": "stays in your pocket",
+          "at": "$120"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Gone.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$120",
+              "v": "−$120",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "$0 back",
+              "v": "$0 back",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *SPEED,* and I will send you the three-speed fee table.",
+        "part": "tiles",
+        "data": {
+          "word": "SPEED",
+          "at": "SPEED",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the three-speed fee table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Newton's Fast button cost you $120 a year. Want it back?",
+          "Give me 30 seconds. See the cheaper app."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The fee table is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "FAST LANE",
+            "v": "$120",
+            "sub": "12 sends, $10 each",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "STANDARD OR FREE",
+            "v": "$0",
+            "sub": "same 12 sends",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people send bitcoin, digital money, out of Newton monthly.",
+          "One taps Fast, one picks Standard. 12 sends."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "FAST LANE",
+            "v": "$120",
+            "sub": "12 sends, $10 each",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "STANDARD OR FREE",
+            "v": "$0",
+            "sub": "same 12 sends",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Fast adds $10 a send, $120 *gone*. Standard adds $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Now the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THREE SPEEDS",
+        "data": {
+          "old": "ONE SPEED",
+          "new": "THREE SPEEDS",
+          "sub": "only Fast adds $10."
+        },
+        "lines": [
+          "People think Fast is the only way out.",
+          "Newton has three speeds. *Only* Fast adds $10."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "ONE SPEED",
+          "new": "THREE SPEEDS",
+          "sub": "only Fast adds $10."
+        },
+        "lines": [
+          "Free goes out once a night, for nothing."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FREE",
+          "new": "NETWORK FEE"
+        },
+        "lines": [
+          "One *catch*. Every speed still pays the network fee the blockchain takes."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$120",
+          "new": "stays in your pocket"
+        },
+        "lines": [
+          "Standard, Free, or Wealthsimple keeps that $120 yours."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$120",
+          "new": "$0 back"
+        },
+        "lines": [
+          "Gone."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "SPEED",
+          "gift": "the three-speed fee table"
+        },
+        "lines": [
+          "Comment *SPEED,* and I will send you the three-speed fee table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: hook and promise, a one-breath lock-in that promises the table, a compare that shows Fast's $120 against $0 over 12 sends and why, a rehook, a myth scene that turns one speed into three speeds in plain words, a trap rehook on the network fee every lane pays, the $120 closing, then the given loss cut and cta.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "wipe",
+        "table",
+        "callout",
+        "badge",
+        "swap",
+        "tabs",
+        "odometer",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "wipe",
+        "pan",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "SPEED"
+    }
+  },
+  "plain": {
+    "what": "Newton is a Canadian app for buying and selling bitcoin. When you move your bitcoin out of Newton into your own wallet, Newton gives you three speeds. Fast costs $10 CAD plus the network fee, which is what the blockchain itself charges to move the coins. Standard costs only that network fee, and Free costs nothing but only goes out once a night.",
+    "so_what": "That $10 is easy to miss, but tapping Fast once a month adds up to $120 in a year, and once a week comes to $520, before any network fee.",
+    "do": "Open your app and write down which speed is already picked for your next bitcoin withdrawal.",
+    "words": [
+      {
+        "term": "bitcoin",
+        "means": "digital money, not run by any bank"
+      },
+      {
+        "term": "wallet",
+        "means": "where you hold your own bitcoin yourself"
+      },
+      {
+        "term": "exchange",
+        "means": "an app where you buy and sell bitcoin"
+      },
+      {
+        "term": "network fee",
+        "means": "what the blockchain charges to move your coins"
+      },
+      {
+        "term": "withdrawal",
+        "means": "moving your money or coins out of an app"
+      },
+      {
+        "term": "Newton",
+        "means": "a Canadian app for buying and selling bitcoin"
+      },
+      {
+        "term": "Wealthsimple",
+        "means": "another Canadian money app that also handles bitcoin"
+      }
+    ]
+  },
+  "subject": "Newton",
+  "deliver": {
+    "word": "SPEED",
+    "gift": "the three-speed fee table"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Newton's Fast button cost you $120 a year. Want it back?",
+        "part": "tease",
+        "data": {
+          "pill": "THE EXCHANGE WITHDRAWAL FEE TABLE",
+          "num": "$120",
+          "line": "Newton's Fast button cost you $120 a year. Want it back?",
+          "promise": "Give me 30 seconds. See the cheaper app.",
+          "subj": "NEWTON",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the cheaper app.",
+        "nocap": true
+      },
+      {
+        "say": "The fee table is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people send bitcoin, digital money, out of Newton monthly.",
+        "part": "donut",
+        "data": {
+          "k": "THE GAP",
+          "segs": [
+            {
+              "l": "FAST LANE",
+              "v": "$120",
+              "w": 1.0
+            },
+            {
+              "l": "STANDARD OR FREE",
+              "v": "$0",
+              "w": 0.0
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "THE GAP",
+        "in": "zoom"
+      },
+      {
+        "say": "One taps Fast, one picks Standard. 12 sends."
+      },
+      {
+        "say": "Fast adds $10 a send, $120 *gone*. Standard adds $0.",
+        "part": "table",
+        "data": {
+          "k": "THE EXCHANGE WITHDRAWAL FEE TABLE",
+          "cols": [
+            "FAST LANE EXTRA",
+            "STANDARD OR FREE EXTRA"
+          ],
+          "rows": [
+            {
+              "lab": "1 send",
+              "cells": [
+                "$10",
+                "$0"
+              ]
+            },
+            {
+              "lab": "5 sends",
+              "cells": [
+                "$50",
+                "$0"
+              ]
+            },
+            {
+              "lab": "12 sends",
+              "cells": [
+                "$120",
+                "$0"
+              ]
+            },
+            {
+              "lab": "24 sends",
+              "cells": [
+                "$240",
+                "$0"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": "$0"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Now the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Now the part nobody says.",
+          "at": "says"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "People think Fast is the only way out.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "ONE SPEED",
+            "v": "ONE SPEED",
+            "sub": ""
+          },
+          "b": {
+            "h": "THREE SPEEDS",
+            "v": "THREE SPEEDS",
+            "sub": ""
+          },
+          "at": 1
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Newton has three speeds. *Only* Fast adds $10."
+      },
+      {
+        "say": "Free goes out once a night, for nothing.",
+        "part": "strike",
+        "data": {
+          "old": "ONE SPEED",
+          "new": "THREE SPEEDS",
+          "at": "Free",
+          "k": "",
+          "sub": "only Fast adds $10.",
+          "sub_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "One *catch*. Every speed still pays the network fee the blockchain takes.",
+        "part": "tabs",
+        "data": {
+          "old": "FREE",
+          "new": "NETWORK FEE",
+          "at": "NETWORK",
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Standard, Free, or Wealthsimple keeps that $120 yours.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$120",
+          "tail": "stays in your pocket",
+          "at": "$120"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Gone.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$120",
+              "v": "−$120",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "$0 back",
+              "v": "$0 back",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *SPEED,* and I will send you the three-speed fee table.",
+        "part": "tiles",
+        "data": {
+          "word": "SPEED",
+          "at": "SPEED",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the three-speed fee table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Newton's Fast button cost you $120 a year. Want it back?",
+          "Give me 30 seconds. See the cheaper app."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The fee table is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "FAST LANE",
+            "v": "$120",
+            "sub": "12 sends, $10 each",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "STANDARD OR FREE",
+            "v": "$0",
+            "sub": "same 12 sends",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people send bitcoin, digital money, out of Newton monthly.",
+          "One taps Fast, one picks Standard. 12 sends."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "FAST LANE",
+            "v": "$120",
+            "sub": "12 sends, $10 each",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "STANDARD OR FREE",
+            "v": "$0",
+            "sub": "same 12 sends",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Fast adds $10 a send, $120 *gone*. Standard adds $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Now the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THREE SPEEDS",
+        "data": {
+          "old": "ONE SPEED",
+          "new": "THREE SPEEDS",
+          "sub": "only Fast adds $10."
+        },
+        "lines": [
+          "People think Fast is the only way out.",
+          "Newton has three speeds. *Only* Fast adds $10."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "ONE SPEED",
+          "new": "THREE SPEEDS",
+          "sub": "only Fast adds $10."
+        },
+        "lines": [
+          "Free goes out once a night, for nothing."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FREE",
+          "new": "NETWORK FEE"
+        },
+        "lines": [
+          "One *catch*. Every speed still pays the network fee the blockchain takes."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$120",
+          "new": "stays in your pocket"
+        },
+        "lines": [
+          "Standard, Free, or Wealthsimple keeps that $120 yours."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$120",
+          "new": "$0 back"
+        },
+        "lines": [
+          "Gone."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "SPEED",
+          "gift": "the three-speed fee table"
+        },
+        "lines": [
+          "Comment *SPEED,* and I will send you the three-speed fee table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: hook and promise, a one-breath lock-in that promises the table, a compare that shows Fast's $120 against $0 over 12 sends and why, a rehook, a myth scene that turns one speed into three speeds in plain words, a trap rehook on the network fee every lane pays, the $120 closing, then the given loss cut and cta.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "donut",
+        "table",
+        "callout",
+        "wipe",
+        "strike",
+        "tabs",
+        "tail",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "dissolve",
+        "zoom",
+        "wipe",
+        "pan",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "SPEED"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Newton's Fast button cost you $120 a year. Want it back?",
+        "part": "slam",
+        "data": {
+          "pill": "THE EXCHANGE WITHDRAWAL FEE TABLE",
+          "num": "$120",
+          "line": "Newton's Fast button cost you $120 a year. Want it back?",
+          "promise": "Give me 30 seconds. See the cheaper app.",
+          "subj": "NEWTON",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the cheaper app.",
+        "nocap": true
+      },
+      {
+        "say": "The fee table is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people send bitcoin, digital money, out of Newton monthly.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "FAST LANE",
+            "big": "$120",
+            "ft": "12 sends, $10 each"
+          },
+          "b": {
+            "k": "STANDARD OR FREE",
+            "big": "$0",
+            "ft": "same 12 sends",
+            "at": 1
+          },
+          "gap": "$120",
+          "gap_at": 1
+        },
+        "badge": "THE GAP",
+        "in": "iris"
+      },
+      {
+        "say": "One taps Fast, one picks Standard. 12 sends."
+      },
+      {
+        "say": "Fast adds $10 a send, $120 *gone*. Standard adds $0.",
+        "part": "donut",
+        "data": {
+          "k": "",
+          "segs": [
+            {
+              "l": "FAST LANE",
+              "v": "$120",
+              "w": 1.0
+            },
+            {
+              "l": "STANDARD OR FREE",
+              "v": "$0",
+              "w": 0.0
+            }
+          ],
+          "hi": 1,
+          "at": "$0"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Now the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Now the part nobody says.",
+          "at": "says"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "People think Fast is the only way out.",
+        "part": "swap",
+        "data": {
+          "old": "ONE SPEED",
+          "new": "THREE SPEEDS",
+          "at": "Only",
+          "sub": "only Fast adds $10.",
+          "sub_at": 1
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Newton has three speeds. *Only* Fast adds $10."
+      },
+      {
+        "say": "Free goes out once a night, for nothing.",
+        "part": "tag",
+        "data": {
+          "old": "ONE SPEED",
+          "new": "THREE SPEEDS",
+          "at": 0,
+          "sub": "only Fast adds $10.",
+          "sub_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "One *catch*. Every speed still pays the network fee the blockchain takes.",
+        "part": "tabs",
+        "data": {
+          "old": "FREE",
+          "new": "NETWORK FEE",
+          "at": "NETWORK",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Standard, Free, or Wealthsimple keeps that $120 yours.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "120",
+          "pre": "$",
+          "suf": "",
+          "label": "stays in your pocket",
+          "at": "$120"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Gone.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$120",
+              "v": "−$120",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "$0 back",
+              "v": "$0 back",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *SPEED,* and I will send you the three-speed fee table.",
+        "part": "tiles",
+        "data": {
+          "word": "SPEED",
+          "at": "SPEED",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the three-speed fee table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Newton's Fast button cost you $120 a year. Want it back?",
+          "Give me 30 seconds. See the cheaper app."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The fee table is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "FAST LANE",
+            "v": "$120",
+            "sub": "12 sends, $10 each",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "STANDARD OR FREE",
+            "v": "$0",
+            "sub": "same 12 sends",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people send bitcoin, digital money, out of Newton monthly.",
+          "One taps Fast, one picks Standard. 12 sends."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "FAST LANE",
+            "v": "$120",
+            "sub": "12 sends, $10 each",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "STANDARD OR FREE",
+            "v": "$0",
+            "sub": "same 12 sends",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Fast adds $10 a send, $120 *gone*. Standard adds $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Now the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THREE SPEEDS",
+        "data": {
+          "old": "ONE SPEED",
+          "new": "THREE SPEEDS",
+          "sub": "only Fast adds $10."
+        },
+        "lines": [
+          "People think Fast is the only way out.",
+          "Newton has three speeds. *Only* Fast adds $10."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "ONE SPEED",
+          "new": "THREE SPEEDS",
+          "sub": "only Fast adds $10."
+        },
+        "lines": [
+          "Free goes out once a night, for nothing."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FREE",
+          "new": "NETWORK FEE"
+        },
+        "lines": [
+          "One *catch*. Every speed still pays the network fee the blockchain takes."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$120",
+          "new": "stays in your pocket"
+        },
+        "lines": [
+          "Standard, Free, or Wealthsimple keeps that $120 yours."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$120",
+          "new": "$0 back"
+        },
+        "lines": [
+          "Gone."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "SPEED",
+          "gift": "the three-speed fee table"
+        },
+        "lines": [
+          "Comment *SPEED,* and I will send you the three-speed fee table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: hook and promise, a one-breath lock-in that promises the table, a compare that shows Fast's $120 against $0 over 12 sends and why, a rehook, a myth scene that turns one speed into three speeds in plain words, a trap rehook on the network fee every lane pays, the $120 closing, then the given loss cut and cta.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "compare",
+        "donut",
+        "callout",
+        "swap",
+        "tag",
+        "tabs",
+        "odometer",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "wipe",
+        "iris",
+        "wipe",
+        "iris",
+        "pan",
+        "iris",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "SPEED"
+    }
+  },
+  "caption_b": "🐶⛏️ People think Fast is the only way out of Newton. There are three.\n\nOnly Fast adds $10 on top of the network fee, and Standard just pays the network fee. Free skips Newton's charge too, but it only goes out once a night.\n\nComment SPEED and I'll send you the three-speed fee table 🪙\nWhich speed do you tap?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #newtoncrypto #torontofinance",
+  "caption_family": "myth"
+}

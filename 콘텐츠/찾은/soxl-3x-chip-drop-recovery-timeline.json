@@ -1,0 +1,49 @@
+{
+  "key": "soxl-3x-chip-drop-recovery-timeline",
+  "category": "stocks",
+  "status": "draft",
+  "title": "3배 반도체 ETF SOXL이 6월 고점에서 3분의 2 가까이 빠졌다. 지수는 얼마 빠졌는데 SOXL은 왜 훨씬 더 빠졌는지, 그리고 과거 -90%급 폭락 뒤 새 고점까지 걸린 시간",
+  "object": "THE 3X CHIP CRASH RECOVERY CLOCK",
+  "made_by": "엔진/find.py 2026-11-05 · 신호 ['sb2e2236d', 's47dda5aa', 'sd3ba8578', 's9027c692', 'sf1a90d28'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "77.8",
+    "unit": "%",
+    "thing": "SOXL fall from its June 22, 2026 all-time high (Nov 4 close)",
+    "box": "Direxion Daily Semiconductor Bull 3X Shares (SOXL), a US-listed ETF",
+    "claim": "At the November 4, 2026 close, SOXL was 77.8% below its June 22, 2026 all-time high, so $1,000 bought at that peak would be worth about $222. Over the same stretch the unleveraged chip ETF SOXX fell 31.19%, because SOXL resets its 3x leverage every day and losses compound. On November 5 SOXL dropped another 26.2% in morning trading to $49.18, so it is deeper now, but no closing figure for today was published yet. The last time it fell this far (-90.5% from December 2021 to October 2022), it did not reach a new price high until April 10, 2026, about 4.3 years after the old peak, and past recoveries are no promise of a future one.",
+    "sources": [
+      "CHARTROW SOXL DRAWDOWN",
+      "TOTALREALRETURNS SOXX VS SOXL",
+      "INVESTING.COM NOV 5 2026",
+      "CHARTROW SOXL DRAWDOWN"
+    ],
+    "verified": "find.py · 대조 3/4"
+  },
+  "sources": [
+    {
+      "label": "CHARTROW SOXL DRAWDOWN",
+      "url": "https://chartrow.com/quote/soxl/drawdown",
+      "what": "Direxion Daily Semiconductor Bull 3X Shares is 77.8% below its all-time high, set Jun 22, 2026 (as of market close, Nov 4, 2026), measured on price alone — dividends are not included, the convention headlines and crash histories use.",
+      "confidence": "2차"
+    },
+    {
+      "label": "TOTALREALRETURNS SOXX VS SOXL",
+      "url": "https://totalrealreturns.com/n/SOXX,SOXL",
+      "what": "−31.19% on 2026-11-04 from 2026-06-22 peak",
+      "confidence": "2차"
+    },
+    {
+      "label": "INVESTING.COM NOV 5 2026",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-direxion-daily-semiconductor-bull-3x-shares-plummeting-today-93CH-5005035",
+      "what": "Investing.com -- Direxion Daily Semiconductor Bull 3X Shares stock plunged 26.2% in morning trading to reach $49.18, as a fresh wave of selling swept through the semiconductor sector following Qualcomm's disappointing quarterly results and growing anxiety over the regulatory implications of the U.S. midterm election outcome.",
+      "confidence": "2차"
+    },
+    {
+      "label": "CHARTROW SOXL DRAWDOWN",
+      "url": "https://chartrow.com/quote/soxl/drawdown",
+      "what": "The deepest decline on record in our data (since 2010) took Direxion Daily Semiconductor Bull 3X Shares 90.5% below its prior high, bottoming Oct 14, 2022. The table on this page lists every major episode with its peak, trough and recovery date.",
+      "confidence": "2차"
+    }
+  ],
+  "slides": []
+}

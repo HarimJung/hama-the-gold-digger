@@ -1,0 +1,440 @@
+{
+  "date": "2026-11-05",
+  "day": 4,
+  "slot": "main",
+  "category": "compound",
+  "status": "draft",
+  "note_": "2026-11-03 밤 하림님 «제일 저장 많이 될 것 하나». 레퍼 수치상 저장·공유 1위는 «내 돈 X → 결과 Y» 조회표(geu.meun.dong 1,817 공유). 계획 Day 4·11·25 «복리 계산기 틀» + 각도 A5. 10/31 명세 19행: 가정 수익률은 «예시일 뿐», 계산기 결과, 보장 아님 — 그대로 박았다.",
+  "title": "Day 4 · $100 a month, 30 years",
+  "lede": "3장. 표지 → 조회표(4행 × 3열) → 넣은 돈 vs 시간이 보탠 돈.",
+  "series": "GROW YOUR MONEY",
+  "source_note": "EXAMPLE · NOT A PROMISE",
+  "place": "TORONTO",
+  "object": "THE $100 A MONTH TABLE",
+  "sources": [
+    {
+      "label": "OSC · GET SMARTER ABOUT MONEY",
+      "what": "복리 계산기 (온타리오 증권위원회). 표의 숫자를 누구나 다시 돌려볼 수 있다",
+      "url": "[검색 결과로 채움]",
+      "confidence": "규제기관 교육 사이트. 숫자는 계산기 산수"
+    },
+    {
+      "label": "FV FORMULA",
+      "what": "월말 납입 미래가치 FV = P × ((1+r)^n − 1) / r, r = 7%/12, n = 개월. 표는 이 식 그대로",
+      "url": "",
+      "confidence": "산수. 가정(7%)은 예시"
+    }
+  ],
+  "unverified": [
+    "7% 는 가정이다. 실제 수익률이 아니다. 표지·표·캡션에 «example · not a promise» 를 박았다.",
+    "세금·수수료·인플레는 뺀 산수다."
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "START SMALL · CANADA",
+      "topic": "GROW YOUR MONEY",
+      "hook": {
+        "pre": "Hama found $",
+        "num": "86,000",
+        "post": " you never put in"
+      },
+      "promise": "Give me 30 seconds. Grab the same math."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE $100 A MONTH TABLE",
+      "title": "$100 a month. Here is what you would have.",
+      "rowlabel": "YOU PUT IN",
+      "cols": [
+        "10 YEARS",
+        "20 YEARS",
+        "30 YEARS"
+      ],
+      "labw": 22,
+      "rows": [
+        {
+          "a": "$100",
+          "asub": "a month",
+          "cells": [
+            "$17,300",
+            "$52,100",
+            "$122,000"
+          ]
+        },
+        {
+          "a": "$300",
+          "asub": "a month",
+          "cells": [
+            "$51,900",
+            "$156,300",
+            "$366,000"
+          ]
+        },
+        {
+          "a": "$500",
+          "asub": "a month",
+          "cells": [
+            "$86,500",
+            "$260,500",
+            "$610,000"
+          ]
+        },
+        {
+          "a": "$1,000",
+          "asub": "a month",
+          "cells": [
+            "$173,100",
+            "$520,900",
+            "$1,220,000"
+          ]
+        }
+      ],
+      "hi": [
+        0,
+        2
+      ],
+      "note": "Example at 7% a year, monthly. Calculator math, not a promise. <b>Save this. Find your row.</b>",
+      "source_label": "OSC CALCULATOR"
+    },
+    {
+      "type": "two",
+      "kicker": "$100 A MONTH · 30 YEARS",
+      "title": "You put in $36,000. Time added *$86,000.*",
+      "boxes": [
+        {
+          "h": "YOU PUT IN",
+          "v": "$36k",
+          "tone": "flat",
+          "d": "$36,000 in deposits.",
+          "d2": "$100 a month for 360 months. The only part you control.",
+          "d3": "Boring, steady, yours"
+        },
+        {
+          "h": "TIME ADDED",
+          "v": "$86k",
+          "tone": "win",
+          "d": "$86,000 you never deposited.",
+          "d2": "At an assumed 7% a year, the growth passes your deposits around year 20.",
+          "d3": "Example math. Not a promise.",
+          "lead": true
+        }
+      ],
+      "source_label": "FV FORMULA",
+      "say": "Hama cannot pick winners.|Hama can start early."
+    }
+  ],
+  "caption": "$100 a month for 30 years comes out to about $122,000. You put in $36,000 of it. Time adds the rest.\n\nThat's calculator math at an assumed 7% a year, not a promise. Real returns move around, and fees and taxes aren't in it. But the shape doesn't change: the deposits are the small part, the years are the big part.\n\n$300 a month gets you to about $366,000. $500 a month, about $610,000. $1,000 a month, about $1.2 million.\n\nHama can't pick winners. Hama can start early and not stop.\n\nFind your row in the table and run your own numbers at the OSC compound interest calculator. General education, not investment advice.\n\nSave this one for the day you want to quit.\n\n#compoundinterest #canadianinvesting #tfsa #personalfinancecanada #investingforbeginners",
+  "fact": {
+    "num": "100",
+    "unit": "$",
+    "thing": "a month",
+    "box": "savings",
+    "claim": "$100 a month at an assumed 7% a year grows to about $122,000 in 30 years. $36,000 of that is what you put in; about $86,000 is growth from time. Calculator math, not a promise. $1,000 a month comes to about $1.2 million.",
+    "sources": [
+      "OSC · GET SMARTER ABOUT MONEY",
+      "FV FORMULA"
+    ],
+    "verified": "산수 (월 복리, 월말 납입). 가정 7% 는 예시"
+  },
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "You are missing $86,000 you never paid for",
+      "Is your $100 a month quietly doing nothing?",
+      "You skip $100 a month. Wrong move.",
+      "Your small $100 never stays small",
+      "Hama found $86,000 you never put in",
+      "Never start and you lose $86,000",
+      "The $100 a month table you never saw",
+      "Same $100 a month. Yours quietly stays small.",
+      "Every year you wait, your $100 loses more",
+      "Never wait on your $100 a month"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Hama found $86,000 you never put in",
+    "spoken": "Hama found $86,000 you never put in",
+    "promise": "Give me 30 seconds. Grab the same math.",
+    "pick_why": "Telling someone they are missing $86,000 they never paid for makes them stop and want the table, and the fact block backs every word.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-04"
+  },
+  "motion": {
+    "template": "number-story",
+    "show": "GROW YOUR MONEY · HAMA",
+    "t": {
+      "t1": 2.6,
+      "stage": 2.7,
+      "t3": 11.6,
+      "t4": 14.8,
+      "end": 18.4
+    },
+    "hook": {
+      "num": "$100",
+      "line": "a month.",
+      "tag": "That's it. Nothing clever."
+    },
+    "stages": [
+      {
+        "label": "YEAR 10",
+        "value": 17308,
+        "pct": 0.14
+      },
+      {
+        "label": "YEAR 20",
+        "value": 52093,
+        "pct": 0.43
+      },
+      {
+        "label": "YEAR 30",
+        "value": 121997,
+        "pct": 1.0
+      }
+    ],
+    "grow_cap": "At 7% a year. Example, not a promise.",
+    "split": {
+      "line": "Where did $122k come from?",
+      "in": [
+        "$36,000",
+        "you put in"
+      ],
+      "add": [
+        "$85,997",
+        "time added"
+      ],
+      "fine": "You did the small part. The years did the rest."
+    },
+    "payoff": {
+      "say": "Hama can't pick winners. Hama can start early.",
+      "hi": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "pill": "THE $100 A MONTH TABLE · SAVE",
+      "fine": "Calculator math at 7%. Not investment advice."
+    },
+    "pic": "stage/compound.png",
+    "sources_note": "숫자는 fact.claim 과 같다 (FV 공식). 7% 는 예시"
+  },
+  "reel": {
+    "note_": "2026-11-04 레일 릴스(mrcreates 문법) 정본 대본. 숫자는 이 파일 fact·slides 에 있는 값만. 목소리는 하림님 목소리 전까지 af_heart.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "beats": [
+      {
+        "say": "Everyone is trying to *grow* their money now,",
+        "part": "hook",
+        "data": {
+          "chip": "$100 / month",
+          "chip_note": "· too small?"
+        }
+      },
+      {
+        "say": "but most people think $100 is too *small.*",
+        "part": "checkout",
+        "data": {
+          "title": "Monthly deposit",
+          "tag": "Feels too small",
+          "icon": "INDEX<br>FUND",
+          "h": "Auto-invest",
+          "p": "every month · 30 years",
+          "price": "$100.00",
+          "fields": [
+            "Email",
+            "Bank account"
+          ],
+          "btn": "Deposit $100 →",
+          "strike_at": "small",
+          "seal": [
+            "40",
+            "SECONDS",
+            "40"
+          ]
+        }
+      },
+      {
+        "say": "Give me 40 seconds and I will show you the *whole* thing."
+      },
+      {
+        "say": "First, pick *one* amount. $100 a month.",
+        "part": "amount",
+        "badge": "One amount",
+        "data": {
+          "app": "Hama Savings",
+          "sub": "Monthly amount",
+          "options": [
+            "$100",
+            "$300",
+            "$500"
+          ],
+          "pick": 0,
+          "pick_at": "$100",
+          "big": "$100",
+          "big_sub": "/ month"
+        }
+      },
+      {
+        "say": "Then, put it on *autopilot,* so you never decide again.",
+        "part": "toggle",
+        "badge": "Autopilot",
+        "data": {
+          "k": "Step 02",
+          "label": "Auto-deposit",
+          "sub": "1st of every month",
+          "on_at": "autopilot",
+          "app": "Hama Savings",
+          "term": [
+            [
+              "auto-deposit: on",
+              "autopilot"
+            ],
+            [
+              "decisions left: 0",
+              "never"
+            ]
+          ]
+        }
+      },
+      {
+        "say": "Now, just *wait.* 10 years, about $17,300.",
+        "part": "counter",
+        "badge": "Just wait",
+        "data": {
+          "steps": [
+            {
+              "label": "Year 10",
+              "label_at": "10",
+              "value": 17300,
+              "value_at": "$17,300",
+              "bar": 0.142
+            },
+            {
+              "label": "Year 20",
+              "label_at": "20",
+              "value": 52100,
+              "value_at": "$52,100",
+              "bar": 0.427
+            },
+            {
+              "label": "Year 30",
+              "label_at": "30",
+              "value": 122000,
+              "value_at": "$122,000",
+              "bar": 1
+            }
+          ],
+          "ticks": [
+            "0",
+            "10",
+            "20",
+            "30 yrs"
+          ],
+          "note": "Example at 7% a year · not a promise"
+        }
+      },
+      {
+        "say": "20 years, $52,100."
+      },
+      {
+        "say": "30 years, *$122,000.*"
+      },
+      {
+        "say": "But you only put in $36,000.",
+        "part": "split",
+        "badge": "The split",
+        "data": {
+          "k": "After 30 years",
+          "total": "$122,000",
+          "a": {
+            "v": "$36,000",
+            "l": "you put in",
+            "w": 0.295,
+            "at": "$36,000"
+          },
+          "b": {
+            "v": "$86,000",
+            "l": "time added",
+            "at": "Time",
+            "label_at": "$86,000"
+          }
+        }
+      },
+      {
+        "say": "*Time* added the other $86,000."
+      },
+      {
+        "say": "That is the full plan, from an *empty* account to a *six-figure* one.",
+        "part": "checklist",
+        "data": {
+          "items": [
+            "Start · empty account",
+            "One amount",
+            "Autopilot",
+            "Year 10",
+            "Year 20",
+            "Year 30",
+            "The split",
+            "Six figures"
+          ],
+          "from": "full",
+          "to": "one"
+        }
+      },
+      {
+        "say": "You do the *small* part,",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "You",
+            "big": "$36k",
+            "ft": "the small part",
+            "dots": 12
+          },
+          "b": {
+            "k": "Time",
+            "big": "$86k",
+            "ft": "does the rest",
+            "curve": true,
+            "at": "but"
+          }
+        }
+      },
+      {
+        "say": "but time does the *rest.*"
+      },
+      {
+        "say": "Comment *TABLE,* and I will send you the full table.",
+        "part": "tiles",
+        "data": {
+          "word": "TABLE",
+          "at": "TABLE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the full $100 a month table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "Example math at 7% a year. Not investment advice."
+        }
+      }
+    ]
+  }
+}

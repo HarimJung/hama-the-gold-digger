@@ -1,0 +1,1309 @@
+{
+  "key": "fhsa-second-year-double-deduction",
+  "category": "tax",
+  "status": "draft",
+  "title": "Skipped last year's FHSA? Your room can be $16,000.",
+  "object": "THE FHSA CATCH-UP CALCULATOR",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s53720468'] · 퍼스나 The late starter with unused room",
+  "fact": {
+    "num": "16,000",
+    "unit": "$",
+    "thing": "maximum FHSA participation room in the second year when nothing was put in the first year",
+    "box": "FHSA (First Home Savings Account)",
+    "claim": "In the year you open your first FHSA you get $8,000 of participation room. Each later year adds another $8,000, and up to $8,000 of room you did not use can carry into the next year. So if you opened an FHSA last year and put nothing in, your room this year can be $16,000, and the contributions can be claimed as a tax deduction. Unused room only starts carrying forward once an FHSA is open, the carry-forward is capped at $8,000, and the lifetime limit is $40,000.",
+    "sources": [
+      "CRA – Participating in your FHSAs",
+      "CRA – Participating in your FHSAs",
+      "CRA – Participating in your FHSAs",
+      "CRA – Participating in your FHSAs",
+      "CRA TAX TIP – Make the most of your FHSA"
+    ],
+    "verified": "find.py · 대조 5/5",
+    "felt": {
+      "num": "8,000",
+      "unit": "$",
+      "a": "16,000",
+      "b": "8,000",
+      "how": "room this year if you count only the new $8,000 vs CRA's $16,000 with the $8,000 carried over, for an FHSA opened last year with $0 put in",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA – Participating in your FHSAs",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/contributing-your-fhsa.html",
+      "what": "When Wendy received the notice of assessment for her 2026 income tax and benefit return, she also received a statement which showed that her FHSA participation room for 2027 was $16,000.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Participating in your FHSAs",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/contributing-your-fhsa.html",
+      "what": "Wendy did not make any contributions to her FHSA or transfers from her RRSP to her FHSA in 2026.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Participating in your FHSAs",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/contributing-your-fhsa.html",
+      "what": "Your FHSA participation room in the year you open your first FHSA is $8,000.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Participating in your FHSAs",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/contributing-your-fhsa.html",
+      "what": "In addition, only the holder of the FHSA can claim the FHSA contributions as a tax deduction on their income tax and benefit return.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA TAX TIP – Make the most of your FHSA",
+      "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2025/make-most-your-first-home-savings-account.html",
+      "what": "The total room across all your FHSAs will still be $8,000 in the first year, followed by an additional $8,000 each following year, as long as you stay within your limit, up to a lifetime maximum of $40,000.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "Your FHSA room is missing $",
+        "num": "8,000",
+        "post": ". Want it back?"
+      },
+      "promise": "Give me 30 seconds. Keep all of it."
+    },
+    {
+      "type": "two",
+      "kicker": "OPENED LAST YEAR · PUT IN $0",
+      "title": "You put in $0. Your room *doubled.*",
+      "boxes": [
+        {
+          "h": "WHAT YOU THINK",
+          "v": "$8k",
+          "tone": "flat",
+          "d": "$8,000 this year. Last year's is gone.",
+          "d2": "Skip a year, lose a year. That's the usual guess.",
+          "d3": "The guess"
+        },
+        {
+          "h": "WHAT CRA SAYS",
+          "v": "$16k",
+          "tone": "win",
+          "d": "$8,000 new plus $8,000 carried over.",
+          "d2": "Up to $8,000 of unused room moves to next year once the FHSA is open. What you put in can lower your tax as a deduction.",
+          "d3": "CRA example: $0 in 2026, $16,000 of room in 2027",
+          "lead": true
+        }
+      ],
+      "source_label": "CRA · PARTICIPATING IN YOUR FHSAS",
+      "say": "Hama skipped a year.|The room waited."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE FHSA CATCH-UP CALCULATOR",
+      "title": "Last year's deposit sets this year's *room.*",
+      "rowlabel": "YOU PUT IN",
+      "cols": [
+        "NEW ROOM",
+        "CARRIED OVER",
+        "ROOM THIS YEAR"
+      ],
+      "labw": 24,
+      "rows": [
+        {
+          "a": "$0",
+          "asub": "last year",
+          "cells": [
+            "$8,000",
+            "$8,000",
+            "$16,000"
+          ]
+        },
+        {
+          "a": "$2,000",
+          "asub": "last year",
+          "cells": [
+            "$8,000",
+            "$6,000",
+            "$14,000"
+          ]
+        },
+        {
+          "a": "$5,000",
+          "asub": "last year",
+          "cells": [
+            "$8,000",
+            "$3,000",
+            "$11,000"
+          ]
+        },
+        {
+          "a": "$8,000",
+          "asub": "last year",
+          "cells": [
+            "$8,000",
+            "$0",
+            "$8,000"
+          ]
+        },
+        {
+          "a": "$0",
+          "asub": "two years in a row",
+          "cells": [
+            "$8,000",
+            "$8,000",
+            "$16,000"
+          ]
+        }
+      ],
+      "hi": [
+        0,
+        2
+      ],
+      "note": "Simple math on CRA rules for an FHSA open since last year or earlier. <b>Carry-over stops at $8,000. Lifetime limit $40,000.</b>",
+      "source_label": "CRA · FHSA RULES"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "FHSA room: $8,000 of yours is sitting unused. Want it back?",
+      "Your FHSA room left $8,000 on the table. Want it this year?",
+      "FHSA room mistake: you gave up $8,000 too soon. Want it back?",
+      "FHSA room you wrote off is still $8,000. Want it?",
+      "Hama's FHSA room: $0 in, $8,000 still waiting. Want yours?",
+      "FHSA room skippers leave $8,000 on the table. Want yours back?",
+      "Your FHSA room is missing $8,000. Want it back?",
+      "FHSA room: guessing vs checking is an $8,000 gap. Want it?",
+      "FHSA room: one skipped year left $8,000 waiting. Still waiting?",
+      "FHSA room: never give up $8,000 that is still yours. Want it?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your FHSA room is missing $8,000. Want it back?",
+    "spoken": "Your FHSA room is missing $8,000. Want it back?",
+    "promise": "Give me 30 seconds. Keep all of it.",
+    "pick_why": "It matches the playbook shape exactly, reads in one second on a phone, and tells you money is missing from your own account without hinting at the carry-forward answer.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "CLAIM YOURS"
+  },
+  "lede": "Unused FHSA room carries into the next year, up to $8,000. One empty year after you open the box can double your room.",
+  "series": "FHSA ROOM RULES",
+  "source_note": "CRA · FHSA PARTICIPATION ROOM RULES",
+  "caption": "🐶⛏️ If you left your FHSA empty, $8,000 of room could still be yours.\n\nEvery year your FHSA box is open adds $8,000 of room, and the room you didn't use waits for you. So an empty box from last year can mean $16,000 of room now.\n\nComment ROOM and I'll send you my FHSA catch-up calculator 🪙\nIs yours still sitting empty?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#fhsacanada #firsthomecanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 이름.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your FHSA room is missing $8,000. Want it back?",
+        "part": "slam",
+        "data": {
+          "pill": "THE FHSA CATCH-UP CALCULATOR",
+          "num": "$8,000",
+          "line": "Your FHSA room is missing $8,000. Want it back?",
+          "promise": "Give me 30 seconds. Keep all of it.",
+          "subj": "FHSA ROOM",
+          "stamp": "CLAIM YOURS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep all of it.",
+        "nocap": true
+      },
+      {
+        "say": "You leave with your real FHSA room.",
+        "cap": "low"
+      },
+      {
+        "say": "An FHSA is a *savings* box for your first home.",
+        "part": "table",
+        "data": {
+          "k": "THE GAP",
+          "cols": [
+            "NEW ROOM",
+            "CARRIED OVER",
+            "ROOM THIS YEAR"
+          ],
+          "rows": [
+            {
+              "lab": "$0",
+              "cells": [
+                "$8,000",
+                "$8,000",
+                "$16,000"
+              ]
+            },
+            {
+              "lab": "$2,000",
+              "cells": [
+                "$8,000",
+                "$6,000",
+                "$14,000"
+              ]
+            },
+            {
+              "lab": "$5,000",
+              "cells": [
+                "$8,000",
+                "$3,000",
+                "$11,000"
+              ]
+            },
+            {
+              "lab": "$8,000",
+              "cells": [
+                "$8,000",
+                "$0",
+                "$8,000"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 1
+        },
+        "badge": "THE GAP",
+        "in": "wipe"
+      },
+      {
+        "say": "Two people opened one last year and put in $0."
+      },
+      {
+        "say": "One counts $8,000 of room, the other $16,000.",
+        "part": "donut",
+        "data": {
+          "k": "",
+          "segs": [
+            {
+              "l": "NEW ROOM ONLY",
+              "v": "$8,000",
+              "w": 0.3333333333333333
+            },
+            {
+              "l": "WITH CARRY-OVER",
+              "v": "$16,000",
+              "w": 0.6666666666666666
+            }
+          ],
+          "hi": 1,
+          "at": "$16,000"
+        }
+      },
+      {
+        "say": "Where did that *extra* $8,000 come from?",
+        "part": "callout",
+        "data": {
+          "word": "extra",
+          "line": "Where did that *extra* $8,000 come from?",
+          "at": "extra"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Room means how much you can put in.",
+        "part": "stamp",
+        "data": {
+          "old": "GONE",
+          "new": "WAITS",
+          "at": 1,
+          "k": "CARRY-OVER",
+          "sub": "up to $8,000, once it is open.",
+          "sub_at": 1
+        },
+        "badge": "CARRY-OVER",
+        "in": "iris"
+      },
+      {
+        "say": "Each open year gives you $8,000 of room."
+      },
+      {
+        "say": "Unused room, up to $8,000, *waits* for next year.",
+        "part": "strike",
+        "data": {
+          "old": "GONE",
+          "new": "WAITS",
+          "at": "waits",
+          "k": "",
+          "sub": "up to $8,000, once it is open.",
+          "sub_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Two empty years *still* stop at $16,000 of room.",
+        "part": "tabs",
+        "data": {
+          "old": "STACKS",
+          "new": "CAPPED",
+          "at": 0,
+          "k": ""
+        }
+      },
+      {
+        "say": "That $8,000 is still *yours*.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "8,000",
+          "pre": "$",
+          "suf": "",
+          "label": "still yours",
+          "at": "$8,000"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Put in $2,000 last year, and this year's room is $14,000.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "YOU PUT IN $2,000",
+            "big": "$14,000",
+            "ft": "$6,000 carried over"
+          },
+          "b": {
+            "k": "PUT IN $0",
+            "big": "$16,000",
+            "ft": "$8,000 carried over",
+            "at": 0
+          }
+        },
+        "badge": "YOUR ROW",
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *ROOM,* and I will send you the catch-up calculator.",
+        "part": "tiles",
+        "data": {
+          "word": "ROOM",
+          "at": "ROOM",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the FHSA catch-up calculator ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your FHSA room is missing $8,000. Want it back?",
+          "Give me 30 seconds. Keep all of it."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "You leave with your real FHSA room."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "NEW ROOM ONLY",
+            "v": "$8,000",
+            "sub": "last year's is gone",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "WITH CARRY-OVER",
+            "v": "$16,000",
+            "sub": "CRA's own example",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "An FHSA is a *savings* box for your first home.",
+          "Two people opened one last year and put in $0."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "NEW ROOM ONLY",
+            "v": "$8,000",
+            "sub": "last year's is gone",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "WITH CARRY-OVER",
+            "v": "$16,000",
+            "sub": "CRA's own example",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "One counts $8,000 of room, the other $16,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Where did that *extra* $8,000 come from?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "CARRY-OVER",
+        "data": {
+          "old": "GONE",
+          "new": "WAITS",
+          "sub": "up to $8,000, once it is open."
+        },
+        "lines": [
+          "Room means how much you can put in.",
+          "Each open year gives you $8,000 of room."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "GONE",
+          "new": "WAITS",
+          "sub": "up to $8,000, once it is open."
+        },
+        "lines": [
+          "Unused room, up to $8,000, *waits* for next year."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "STACKS",
+          "new": "CAPPED"
+        },
+        "lines": [
+          "Two empty years *still* stop at $16,000 of room."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$8,000",
+          "new": "still yours"
+        },
+        "lines": [
+          "That $8,000 is still *yours*."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "YOU PUT IN $2,000",
+            "v": "$14,000",
+            "sub": "$6,000 carried over",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "PUT IN $0",
+            "v": "$16,000",
+            "sub": "$8,000 carried over",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Put in $2,000 last year, and this year's room is $14,000."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "ROOM",
+          "gift": "the FHSA catch-up calculator"
+        },
+        "lines": [
+          "Comment *ROOM,* and I will send you the catch-up calculator."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook and promise, a lock-in about what the viewer gets, the $8,000 vs $16,000 compare that opens by saying what an FHSA is, a question rehook, the carry-over rule in plain words, the two-empty-years cap as the trap rehook, the $8,000 closing, then the given myrow and cta.",
+      "shape": "zoom",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "table",
+        "donut",
+        "callout",
+        "stamp",
+        "strike",
+        "tabs",
+        "odometer",
+        "compare",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "fade",
+        "wipe",
+        "iris",
+        "wipe",
+        "fade",
+        "wipe",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "ROOM"
+    }
+  },
+  "plain": {
+    "what": "An FHSA is a First Home Savings Account. It is a savings box for your first home, and money you put in can lower your tax. Each year the box is open gives you $8,000 of room, and up to $8,000 of room you didn't use waits for you in the next year.",
+    "so_what": "If you opened one last year and put in $0, your room this year can be $16,000 instead of $8,000.",
+    "do": "Look up your FHSA room on your CRA notice of assessment and write the number down.",
+    "words": [
+      {
+        "term": "FHSA",
+        "means": "First Home Savings Account, a savings box for your first home"
+      },
+      {
+        "term": "participation room",
+        "means": "how much you are allowed to put in"
+      },
+      {
+        "term": "carry-forward",
+        "means": "unused room that waits for you next year"
+      },
+      {
+        "term": "tax deduction",
+        "means": "something that lowers the tax you owe"
+      },
+      {
+        "term": "lifetime limit",
+        "means": "the most you can ever put in, total"
+      },
+      {
+        "term": "notice of assessment",
+        "means": "the letter CRA sends after your taxes"
+      },
+      {
+        "term": "CRA",
+        "means": "Canada Revenue Agency, the tax office"
+      }
+    ]
+  },
+  "subject": "FHSA room",
+  "deliver": {
+    "word": "ROOM",
+    "gift": "the FHSA catch-up calculator"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 이름.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your FHSA room is missing $8,000. Want it back?",
+        "part": "boil",
+        "data": {
+          "pill": "THE FHSA CATCH-UP CALCULATOR",
+          "num": "$8,000",
+          "line": "Your FHSA room is missing $8,000. Want it back?",
+          "promise": "Give me 30 seconds. Keep all of it.",
+          "subj": "FHSA ROOM",
+          "stamp": "CLAIM YOURS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep all of it.",
+        "nocap": true
+      },
+      {
+        "say": "That $8,000 is still waiting for you.",
+        "cap": "low"
+      },
+      {
+        "say": "Hama opened an FHSA last year, put in $0.",
+        "part": "table",
+        "data": {
+          "k": "THE GAP",
+          "cols": [
+            "NEW ROOM",
+            "CARRIED OVER",
+            "ROOM THIS YEAR"
+          ],
+          "rows": [
+            {
+              "lab": "$0",
+              "cells": [
+                "$8,000",
+                "$8,000",
+                "$16,000"
+              ]
+            },
+            {
+              "lab": "$2,000",
+              "cells": [
+                "$8,000",
+                "$6,000",
+                "$14,000"
+              ]
+            },
+            {
+              "lab": "$5,000",
+              "cells": [
+                "$8,000",
+                "$3,000",
+                "$11,000"
+              ]
+            },
+            {
+              "lab": "$8,000",
+              "cells": [
+                "$8,000",
+                "$0",
+                "$8,000"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": "$16,000"
+        },
+        "badge": "THE GAP",
+        "in": "zoom"
+      },
+      {
+        "say": "The guess is $8,000, but CRA says $16,000."
+      },
+      {
+        "say": "Last year's $8,000 just *waited.*",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "last year's is gone",
+              "tone": "loss",
+              "h": "THE GUESS",
+              "v": "$8,000",
+              "at": 0
+            },
+            {
+              "sub": "$8,000 carried over",
+              "tone": "win",
+              "h": "CRA SAYS",
+              "v": "$16,000",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "So why did it wait?",
+        "part": "callout",
+        "data": {
+          "word": "wait",
+          "line": "So why did it wait?",
+          "at": "wait"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "An FHSA is a savings *box* for your first home.",
+        "part": "strike",
+        "data": {
+          "old": "LOSE IT",
+          "new": "IT WAITS",
+          "at": "Each",
+          "k": "THE RULE",
+          "sub": "once the box is open.",
+          "sub_at": 1
+        },
+        "badge": "THE RULE"
+      },
+      {
+        "say": "Each open year adds $8,000, and unused room rolls forward."
+      },
+      {
+        "say": "That roll only starts once the box is *open.*",
+        "part": "stamp",
+        "data": {
+          "old": "LOSE IT",
+          "new": "IT WAITS",
+          "at": 0,
+          "k": "",
+          "sub": "once the box is open.",
+          "sub_at": 0
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Roll-over stops at $8,000, so two empty years still means $16,000.",
+        "part": "tag",
+        "data": {
+          "old": "PILES UP",
+          "new": "CAPPED",
+          "at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "That missing $8,000 is still *yours* this year.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$8,000",
+          "tail": "still yours this year",
+          "at": "$8,000"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Your exact room is on your CRA notice.",
+        "part": "tiles",
+        "data": {
+          "word": "ROOM",
+          "at": "ROOM",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the FHSA catch-up calculator ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *ROOM,* and I will send you the FHSA catch-up calculator."
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your FHSA room is missing $8,000. Want it back?",
+          "Give me 30 seconds. Keep all of it."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "That $8,000 is still waiting for you."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "THE GUESS",
+            "v": "$8,000",
+            "sub": "last year's is gone",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "CRA SAYS",
+            "v": "$16,000",
+            "sub": "$8,000 carried over",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Hama opened an FHSA last year, put in $0.",
+          "The guess is $8,000, but CRA says $16,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "THE GUESS",
+            "v": "$8,000",
+            "sub": "last year's is gone",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "CRA SAYS",
+            "v": "$16,000",
+            "sub": "$8,000 carried over",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Last year's $8,000 just *waited.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So why did it wait?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE RULE",
+        "data": {
+          "old": "LOSE IT",
+          "new": "IT WAITS",
+          "sub": "once the box is open."
+        },
+        "lines": [
+          "An FHSA is a savings *box* for your first home.",
+          "Each open year adds $8,000, and unused room rolls forward."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "LOSE IT",
+          "new": "IT WAITS",
+          "sub": "once the box is open."
+        },
+        "lines": [
+          "That roll only starts once the box is *open.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "PILES UP",
+          "new": "CAPPED"
+        },
+        "lines": [
+          "Roll-over stops at $8,000, so two empty years still means $16,000."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$8,000",
+          "new": "still yours this year"
+        },
+        "lines": [
+          "That missing $8,000 is still *yours* this year."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "ROOM",
+          "gift": "the FHSA catch-up calculator"
+        },
+        "lines": [
+          "Your exact room is on your CRA notice.",
+          "Comment *ROOM,* and I will send you the FHSA catch-up calculator."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, one lock-in line flips the loss into what they keep, the compare shows the $8,000 guess against CRA's $16,000 with Hama's $0 deposit, a question rehook leads into the catch scene that explains the box and the open-first rule, the second rehook announces the $8,000 cap and the two-empty-years $16,000, the closing repeats the felt $8,000, and the cta ends it.",
+      "shape": "zoom",
+      "ending": "cta",
+      "caption": "blur",
+      "opener": "boil",
+      "parts": [
+        "boil",
+        "table",
+        "stack",
+        "callout",
+        "strike",
+        "stamp",
+        "tag",
+        "tail",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "wipe",
+        "pan",
+        "fade",
+        "dissolve",
+        "iris",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "cta"
+      ],
+      "keyword": "ROOM"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 이름.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your FHSA room is missing $8,000. Want it back?",
+        "part": "boil",
+        "data": {
+          "pill": "THE FHSA CATCH-UP CALCULATOR",
+          "num": "$8,000",
+          "line": "Your FHSA room is missing $8,000. Want it back?",
+          "promise": "Give me 30 seconds. Keep all of it.",
+          "subj": "FHSA ROOM",
+          "stamp": "CLAIM YOURS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep all of it.",
+        "nocap": true
+      },
+      {
+        "say": "That $8,000 is still waiting for you.",
+        "cap": "low"
+      },
+      {
+        "say": "Hama opened an FHSA last year, put in $0.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "last year's is gone",
+              "tone": "loss",
+              "h": "THE GUESS",
+              "v": "$8,000",
+              "at": 0
+            },
+            {
+              "sub": "$8,000 carried over",
+              "tone": "win",
+              "h": "CRA SAYS",
+              "v": "$16,000",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "THE GAP"
+      },
+      {
+        "say": "The guess is $8,000, but CRA says $16,000."
+      },
+      {
+        "say": "Last year's $8,000 just *waited.*",
+        "part": "donut",
+        "data": {
+          "k": "",
+          "segs": [
+            {
+              "l": "THE GUESS",
+              "v": "$8,000",
+              "w": 0.3333333333333333
+            },
+            {
+              "l": "CRA SAYS",
+              "v": "$16,000",
+              "w": 0.6666666666666666
+            }
+          ],
+          "hi": 1,
+          "at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "So why did it wait?",
+        "part": "callout",
+        "data": {
+          "word": "wait",
+          "line": "So why did it wait?",
+          "at": "wait"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "An FHSA is a savings *box* for your first home.",
+        "part": "strike",
+        "data": {
+          "old": "LOSE IT",
+          "new": "IT WAITS",
+          "at": "Each",
+          "k": "THE RULE",
+          "sub": "once the box is open.",
+          "sub_at": 1
+        },
+        "badge": "THE RULE"
+      },
+      {
+        "say": "Each open year adds $8,000, and unused room rolls forward."
+      },
+      {
+        "say": "That roll only starts once the box is *open.*",
+        "part": "stamp",
+        "data": {
+          "old": "LOSE IT",
+          "new": "IT WAITS",
+          "at": 0,
+          "k": "",
+          "sub": "once the box is open.",
+          "sub_at": 0
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Roll-over stops at $8,000, so two empty years still means $16,000.",
+        "part": "tabs",
+        "data": {
+          "old": "PILES UP",
+          "new": "CAPPED",
+          "at": 0,
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "That missing $8,000 is still *yours* this year.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "8,000",
+          "pre": "$",
+          "suf": "",
+          "label": "still yours this year",
+          "at": "$8,000"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Your exact room is on your CRA notice.",
+        "part": "tiles",
+        "data": {
+          "word": "ROOM",
+          "at": "ROOM",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the FHSA catch-up calculator ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *ROOM,* and I will send you the FHSA catch-up calculator."
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your FHSA room is missing $8,000. Want it back?",
+          "Give me 30 seconds. Keep all of it."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "That $8,000 is still waiting for you."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "THE GUESS",
+            "v": "$8,000",
+            "sub": "last year's is gone",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "CRA SAYS",
+            "v": "$16,000",
+            "sub": "$8,000 carried over",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Hama opened an FHSA last year, put in $0.",
+          "The guess is $8,000, but CRA says $16,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "THE GUESS",
+            "v": "$8,000",
+            "sub": "last year's is gone",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "CRA SAYS",
+            "v": "$16,000",
+            "sub": "$8,000 carried over",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Last year's $8,000 just *waited.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So why did it wait?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE RULE",
+        "data": {
+          "old": "LOSE IT",
+          "new": "IT WAITS",
+          "sub": "once the box is open."
+        },
+        "lines": [
+          "An FHSA is a savings *box* for your first home.",
+          "Each open year adds $8,000, and unused room rolls forward."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "LOSE IT",
+          "new": "IT WAITS",
+          "sub": "once the box is open."
+        },
+        "lines": [
+          "That roll only starts once the box is *open.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "PILES UP",
+          "new": "CAPPED"
+        },
+        "lines": [
+          "Roll-over stops at $8,000, so two empty years still means $16,000."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$8,000",
+          "new": "still yours this year"
+        },
+        "lines": [
+          "That missing $8,000 is still *yours* this year."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "ROOM",
+          "gift": "the FHSA catch-up calculator"
+        },
+        "lines": [
+          "Your exact room is on your CRA notice.",
+          "Comment *ROOM,* and I will send you the FHSA catch-up calculator."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, one lock-in line flips the loss into what they keep, the compare shows the $8,000 guess against CRA's $16,000 with Hama's $0 deposit, a question rehook leads into the catch scene that explains the box and the open-first rule, the second rehook announces the $8,000 cap and the two-empty-years $16,000, the closing repeats the felt $8,000, and the cta ends it.",
+      "shape": "zoom",
+      "ending": "cta",
+      "caption": "karaoke",
+      "opener": "boil",
+      "parts": [
+        "boil",
+        "stack",
+        "donut",
+        "callout",
+        "strike",
+        "stamp",
+        "tabs",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "zoom",
+        "wipe",
+        "fade",
+        "dissolve",
+        "iris",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "cta"
+      ],
+      "keyword": "ROOM"
+    }
+  }
+}

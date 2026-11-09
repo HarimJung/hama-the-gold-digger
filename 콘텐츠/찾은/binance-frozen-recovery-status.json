@@ -1,0 +1,1209 @@
+{
+  "key": "binance-frozen-recovery-status",
+  "category": "crypto",
+  "status": "draft",
+  "title": "Binance hack: what's back and when your coin unlocks",
+  "object": "THE FROZEN COINS STATUS TRACKER",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s6c72ab73', 'sf87b673f'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "98",
+    "unit": "%",
+    "thing": "share of stolen user assets Binance has replenished from its own funds",
+    "box": "Binance exchange accounts",
+    "claim": "Binance says it has put back about 98% of the roughly $6.3 billion in user assets affected by the October 2026 hack, using its own money (its SAFU fund, part of its futures insurance fund, and its corporate treasury). That is not money taken back from the hackers. Binance is still buying the last 2%, which is less liquid tokens outside its top ten, and says users will not bear the loss. Withdrawals have been reopening in phases since November 1, one network and asset pair at a time, so check the withdrawal page or network status page for your coin.",
+    "sources": [
+      "Binance Recovery Update #7 (2026-11-04)",
+      "Binance Recovery Update #7 (2026-11-04)",
+      "Binance Recovery Update #6 (2026-11-03)",
+      "CNBC (secondary)"
+    ],
+    "verified": "find.py · 대조 1/4",
+    "felt": {
+      "num": "9,800",
+      "unit": "$",
+      "pct": "98",
+      "base": 10000,
+      "how": "98% of a $10,000 example",
+      "from": "calc_pct"
+    }
+  },
+  "sources": [
+    {
+      "label": "Binance Recovery Update #7 (2026-11-04)",
+      "url": "https://www.binance.com/en/support/announcement/detail/c6ba9aa726974fc6b9332a2c8f63b405",
+      "what": "We have now replenished approximately 98% of the impacted amount, and we continue to buy the remaining token assets through market and OTC channels.",
+      "confidence": "1차"
+    },
+    {
+      "label": "Binance Recovery Update #7 (2026-11-04)",
+      "url": "https://www.binance.com/en/support/announcement/detail/c6ba9aa726974fc6b9332a2c8f63b405",
+      "what": "Purchases for the remaining 2% are expected to be slower because these tokens are less liquid.",
+      "confidence": "1차"
+    },
+    {
+      "label": "Binance Recovery Update #6 (2026-11-03)",
+      "url": "https://www.binance.com/en/support/announcement/detail/2d83c325ab6e49c6bd6c5de8803b11a6",
+      "what": "Not all listed assets will become available at once. Like phase one, reopening will roll out progressively across the assets as security and readiness checks are completed. Deposit services remain open and are not affected.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CNBC (secondary)",
+      "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
+      "what": "Binance says it has restored backing for about 90% of the assets; that doesn't mean it has recovered 90% of the funds from the attacker.",
+      "confidence": "2차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "CRYPTO · CANADA",
+      "topic": "THE BITCOIN CLOCK",
+      "hook": {
+        "pre": "Binance put back $",
+        "num": "9,800",
+        "post": " of your $10,000. Where's the rest?"
+      },
+      "promise": "Give me 30 seconds. See which coins unlock first."
+    },
+    {
+      "type": "two",
+      "kicker": "$6.3 BILLION HIT · WHO PAID IT BACK",
+      "title": "98% came back. None from the *hackers.*",
+      "boxes": [
+        {
+          "h": "PUT BACK",
+          "v": "98%",
+          "tone": "win",
+          "d": "About $6.17B of $6.3B.",
+          "d2": "98% × $6.3B. Paid from Binance's own money: SAFU fund, insurance fund, treasury.",
+          "d3": "Not taken back from the hackers"
+        },
+        {
+          "h": "STILL BUYING",
+          "v": "2%",
+          "tone": "flat",
+          "d": "About $126M left.",
+          "d2": "2% × $6.3B. Less liquid tokens outside the top ten, so buying is slower.",
+          "d3": "Binance says users won't bear the loss",
+          "lead": true
+        }
+      ],
+      "source_label": "BINANCE UPDATE #7 · CNBC",
+      "say": "Back on paper isn't|back in your wallet."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE FROZEN COINS STATUS TRACKER",
+      "title": "Find your coin's row. Then check one page.",
+      "rowlabel": "YOUR COIN IS",
+      "cols": [
+        "BACKING",
+        "MOVING IT OUT",
+        "WHERE TO CHECK"
+      ],
+      "labw": 24,
+      "rows": [
+        {
+          "a": "Top ten coin",
+          "asub": "by size",
+          "cells": [
+            "Put back",
+            "Phased since Nov 1",
+            "Withdrawal page"
+          ]
+        },
+        {
+          "a": "Outside top ten",
+          "asub": "less liquid",
+          "cells": [
+            "Still being bought",
+            "Phased, pair by pair",
+            "Network status page"
+          ]
+        },
+        {
+          "a": "Sending in",
+          "asub": "deposits",
+          "cells": [
+            "Not affected",
+            "Open",
+            "Deposit page"
+          ]
+        }
+      ],
+      "hi": [
+        1,
+        0
+      ],
+      "note": "From Binance updates, Nov 3 and Nov 4. Reopening goes one network and asset pair at a time. <b>Save this. Check your coin before you move it.</b>",
+      "source_label": "BINANCE UPDATES #6 · #7"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Binance put back $9,800 of your $10,000. Where's the rest?",
+      "Binance paid back $9,800. Did yours come back?",
+      "Binance returned $9,800. Did you check your coin?",
+      "Binance hacked, but $9,800 is back. Can you move yours?",
+      "Hama watched Binance return $9,800 of $10,000. Want the rest?",
+      "Binance hack victims got $9,800 back. Still frozen?",
+      "Binance frozen coins: $9,800 of $10,000 came back. Is yours?",
+      "Binance put back $9,800 on paper. In your hands?",
+      "Binance returned $9,800 since the hack. Is yours unlocked today?",
+      "Binance returned $9,800, never assume yours moved. Did it?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Binance put back $9,800 of your $10,000. Where's the rest?",
+    "spoken": "Binance put back $9,800 of your $10,000. Where's the rest?",
+    "promise": "Give me 30 seconds. See which coins unlock first.",
+    "stamp": "CHECK YOUR COIN",
+    "pick_why": "The $10,000 to $9,800 gap is the fastest felt number, and 'Where's the rest?' makes every holder check their own coin and save the tracker.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06"
+  },
+  "lede": "Binance says about 98% of the roughly $6.3 billion hit is put back, paid from its own money. Withdrawals reopen one network at a time.",
+  "series": "CRYPTO HACK WATCH",
+  "source_note": "BINANCE RECOVERY UPDATES · COMPANY STATEMENTS",
+  "caption": "🐶⛏️ If you had $10,000 on Binance, $9,800 is back but maybe not in your hands.\n\nBinance paid it back with its own money, but the last 2% is smaller coins it's still buying. So if yours isn't top ten, it waits.\n\nComment FROZEN and I'll send you my frozen coins status tracker 🪙\nIs your coin moving yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#binance #cryptocanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Binance put back $9,800 of your $10,000. Where's the rest?",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE FROZEN COINS STATUS TRACKER",
+          "num": "$9,800",
+          "line": "Binance put back $9,800 of your $10,000. Where's the rest?",
+          "promise": "Give me 30 seconds. See which coins unlock first.",
+          "subj": "BINANCE",
+          "stamp": "CHECK YOUR COIN"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See which coins unlock first.",
+        "nocap": true
+      },
+      {
+        "say": "The frozen coins tracker is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Binance is a big website where people buy and keep crypto coins.",
+        "part": "shrink",
+        "data": {
+          "k": "THE HIT",
+          "bars": [
+            {
+              "l": "2%",
+              "v": "2%",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "still stuck",
+              "v": "still stuck",
+              "w": 0.2,
+              "at": 1
+            }
+          ]
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "In October 2026, hackers took about $6.3 billion."
+      },
+      {
+        "say": "Binance put back 98%, but the last 2% is still *stuck*.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "2%",
+          "tail": "still stuck",
+          "at": "2%"
+        },
+        "dark": true,
+        "in": "pan"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Binance paid that 98% itself, not the *hackers*.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "STILL BUYING",
+            "v": "2%",
+            "sub": "about $126 million"
+          },
+          "b": {
+            "h": "PUT BACK",
+            "v": "98%",
+            "sub": "Binance's own money"
+          },
+          "at": "98%"
+        },
+        "badge": "WHO PAID",
+        "in": "pan"
+      },
+      {
+        "say": "The last 2% is smaller coins, slow to sell."
+      },
+      {
+        "say": "Back on paper is not back in your *hands*.",
+        "part": "swap",
+        "data": {
+          "old": "PUT BACK",
+          "new": "STILL LOCKED",
+          "at": "hands"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Your $9,800 of $10,000 is back on paper.",
+        "part": "strike",
+        "data": {
+          "old": "$9,800",
+          "new": "back on paper",
+          "at": "Your",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Ten biggest coins: moving out since November 1.",
+        "part": "table",
+        "data": {
+          "k": "YOUR ROW",
+          "cols": [
+            "BACKING",
+            "MOVING IT OUT",
+            "WHERE TO CHECK"
+          ],
+          "rows": [
+            {
+              "lab": "Top ten coin",
+              "cells": [
+                "Put back",
+                "Phased since Nov 1",
+                "Withdrawal page"
+              ]
+            },
+            {
+              "lab": "Outside top ten",
+              "cells": [
+                "Still being bought",
+                "Phased, pair by pair",
+                "Network status page"
+              ]
+            },
+            {
+              "lab": "Sending in",
+              "cells": [
+                "Not affected",
+                "Open",
+                "Deposit page"
+              ]
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "YOUR ROW",
+        "in": "zoom"
+      },
+      {
+        "say": "Smaller coins: still being bought, so yours *waits*."
+      },
+      {
+        "say": "Comment *FROZEN,*, and I will send you the frozen coins status tracker.",
+        "part": "tiles",
+        "data": {
+          "word": "FROZEN",
+          "at": "FROZEN",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the frozen coins status tracker ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Binance put back $9,800 of your $10,000. Where's the rest?",
+          "Give me 30 seconds. See which coins unlock first."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The frozen coins tracker is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "THE HIT",
+        "data": {
+          "old": "2%",
+          "new": "still stuck"
+        },
+        "lines": [
+          "Binance is a big website where people buy and keep crypto coins.",
+          "In October 2026, hackers took about $6.3 billion."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "2%",
+          "new": "still stuck"
+        },
+        "lines": [
+          "Binance put back 98%, but the last 2% is still *stuck*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "WHO PAID",
+        "data": {
+          "a": {
+            "h": "STILL BUYING",
+            "v": "2%",
+            "sub": "about $126 million",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "PUT BACK",
+            "v": "98%",
+            "sub": "Binance's own money",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Binance paid that 98% itself, not the *hackers*.",
+          "The last 2% is smaller coins, slow to sell."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "PUT BACK",
+          "new": "STILL LOCKED"
+        },
+        "lines": [
+          "Back on paper is not back in your *hands*."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$9,800",
+          "new": "back on paper"
+        },
+        "lines": [
+          "Your $9,800 of $10,000 is back on paper."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "SMALLER COIN",
+            "v": "still buying",
+            "sub": "pair by pair",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "TEN BIGGEST",
+            "v": "put back",
+            "sub": "since Nov 1",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Ten biggest coins: moving out since November 1.",
+          "Smaller coins: still being bought, so yours *waits*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FROZEN",
+          "gift": "the frozen coins status tracker"
+        },
+        "lines": [
+          "Comment *FROZEN,*, and I will send you the frozen coins status tracker."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, the lock-in names the tracker, the loss scene shows the stuck 2%, a rehook leads into the 98% versus 2% compare explained in plain words, the trap rehook flips put back to still locked, the closing repeats $9,800, then the given myrow and cta end it.",
+      "shape": "dark",
+      "ending": "myrow_cta",
+      "caption": "karaoke",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "shrink",
+        "tail",
+        "callout",
+        "wipe",
+        "swap",
+        "strike",
+        "table",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "FROZEN"
+    }
+  },
+  "plain": {
+    "what": "Binance is a big website where people buy and keep crypto coins. In October 2026 hackers took about $6.3 billion of users' coins from it. Binance says it has put back about 98% of that with its own money, not money taken back from the hackers.",
+    "so_what": "That last 2% is about $126 million worth of smaller coins Binance is still buying back, so if your coin is one of those, your money may take longer to move.",
+    "do": "Open the Binance withdrawal page today, find your coin, and write down whether it says withdrawals are open or still closed.",
+    "words": [
+      {
+        "term": "Binance",
+        "means": "a big website where people buy and keep crypto coins"
+      },
+      {
+        "term": "withdrawal",
+        "means": "moving your money or coins out of the website"
+      },
+      {
+        "term": "deposit",
+        "means": "putting money or coins into the website"
+      },
+      {
+        "term": "less liquid",
+        "means": "harder to buy or sell quickly"
+      },
+      {
+        "term": "network",
+        "means": "the road a coin travels on when it moves"
+      },
+      {
+        "term": "wallet",
+        "means": "where your coins sit when you hold them yourself"
+      },
+      {
+        "term": "top ten",
+        "means": "the ten biggest, most traded coins"
+      }
+    ]
+  },
+  "subject": "Binance",
+  "deliver": {
+    "word": "FROZEN",
+    "gift": "the frozen coins status tracker"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Binance put back $9,800 of your $10,000. Where's the rest?",
+        "part": "tease",
+        "data": {
+          "pill": "THE FROZEN COINS STATUS TRACKER",
+          "num": "$9,800",
+          "line": "Binance put back $9,800 of your $10,000. Where's the rest?",
+          "promise": "Give me 30 seconds. See which coins unlock first.",
+          "subj": "BINANCE",
+          "stamp": "CHECK YOUR COIN"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See which coins unlock first.",
+        "nocap": true
+      },
+      {
+        "say": "The frozen coins tracker is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Binance is a big website where people buy and keep crypto coins.",
+        "part": "shrink",
+        "data": {
+          "k": "THE HIT",
+          "bars": [
+            {
+              "l": "2%",
+              "v": "2%",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "still stuck",
+              "v": "still stuck",
+              "w": 0.2,
+              "at": 1
+            }
+          ]
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "In October 2026, hackers took about $6.3 billion."
+      },
+      {
+        "say": "Binance put back 98%, but the last 2% is still *stuck*.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "2%",
+          "tail": "still stuck",
+          "at": "2%"
+        },
+        "dark": true,
+        "in": "pan"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Binance paid that 98% itself, not the *hackers*.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "STILL BUYING",
+            "v": "2%",
+            "sub": "about $126 million"
+          },
+          "b": {
+            "h": "PUT BACK",
+            "v": "98%",
+            "sub": "Binance's own money"
+          },
+          "at": "98%"
+        },
+        "badge": "WHO PAID",
+        "in": "pan"
+      },
+      {
+        "say": "The last 2% is smaller coins, slow to sell."
+      },
+      {
+        "say": "Back on paper is not back in your *hands*.",
+        "part": "swap",
+        "data": {
+          "old": "PUT BACK",
+          "new": "STILL LOCKED",
+          "at": "hands"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Your $9,800 of $10,000 is back on paper.",
+        "part": "strike",
+        "data": {
+          "old": "$9,800",
+          "new": "back on paper",
+          "at": "Your",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Ten biggest coins: moving out since November 1.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "SMALLER COIN",
+            "big": "still buying",
+            "ft": "pair by pair"
+          },
+          "b": {
+            "k": "TEN BIGGEST",
+            "big": "put back",
+            "ft": "since Nov 1",
+            "at": 1
+          }
+        },
+        "badge": "YOUR ROW",
+        "in": "zoom"
+      },
+      {
+        "say": "Smaller coins: still being bought, so yours *waits*."
+      },
+      {
+        "say": "Comment *FROZEN,*, and I will send you the frozen coins status tracker.",
+        "part": "tiles",
+        "data": {
+          "word": "FROZEN",
+          "at": "FROZEN",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the frozen coins status tracker ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Binance put back $9,800 of your $10,000. Where's the rest?",
+          "Give me 30 seconds. See which coins unlock first."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The frozen coins tracker is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "THE HIT",
+        "data": {
+          "old": "2%",
+          "new": "still stuck"
+        },
+        "lines": [
+          "Binance is a big website where people buy and keep crypto coins.",
+          "In October 2026, hackers took about $6.3 billion."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "2%",
+          "new": "still stuck"
+        },
+        "lines": [
+          "Binance put back 98%, but the last 2% is still *stuck*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "WHO PAID",
+        "data": {
+          "a": {
+            "h": "STILL BUYING",
+            "v": "2%",
+            "sub": "about $126 million",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "PUT BACK",
+            "v": "98%",
+            "sub": "Binance's own money",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Binance paid that 98% itself, not the *hackers*.",
+          "The last 2% is smaller coins, slow to sell."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "PUT BACK",
+          "new": "STILL LOCKED"
+        },
+        "lines": [
+          "Back on paper is not back in your *hands*."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$9,800",
+          "new": "back on paper"
+        },
+        "lines": [
+          "Your $9,800 of $10,000 is back on paper."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "SMALLER COIN",
+            "v": "still buying",
+            "sub": "pair by pair",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "TEN BIGGEST",
+            "v": "put back",
+            "sub": "since Nov 1",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Ten biggest coins: moving out since November 1.",
+          "Smaller coins: still being bought, so yours *waits*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FROZEN",
+          "gift": "the frozen coins status tracker"
+        },
+        "lines": [
+          "Comment *FROZEN,*, and I will send you the frozen coins status tracker."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, the lock-in names the tracker, the loss scene shows the stuck 2%, a rehook leads into the 98% versus 2% compare explained in plain words, the trap rehook flips put back to still locked, the closing repeats $9,800, then the given myrow and cta end it.",
+      "shape": "dark",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "shrink",
+        "tail",
+        "callout",
+        "wipe",
+        "swap",
+        "strike",
+        "compare",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "FROZEN"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Binance put back $9,800 of your $10,000. Where's the rest?",
+        "part": "glass",
+        "data": {
+          "pill": "THE FROZEN COINS STATUS TRACKER",
+          "num": "$9,800",
+          "line": "Binance put back $9,800 of your $10,000. Where's the rest?",
+          "promise": "Give me 30 seconds. See which coins unlock first.",
+          "subj": "BINANCE",
+          "stamp": "CHECK YOUR COIN"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See which coins unlock first.",
+        "nocap": true
+      },
+      {
+        "say": "The frozen coins tracker is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Binance is a big website where people buy and keep crypto coins.",
+        "part": "stamp",
+        "data": {
+          "old": "2%",
+          "new": "still stuck",
+          "at": 1,
+          "k": "THE HIT"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "In October 2026, hackers took about $6.3 billion."
+      },
+      {
+        "say": "Binance put back 98%, but the last 2% is still *stuck*.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "2%",
+              "v": "2%",
+              "w": 1.0,
+              "at": "2%"
+            },
+            {
+              "l": "still stuck",
+              "v": "still stuck",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Binance paid that 98% itself, not the *hackers*.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "STILL BUYING",
+            "big": "2%",
+            "ft": "about $126 million"
+          },
+          "b": {
+            "k": "PUT BACK",
+            "big": "98%",
+            "ft": "Binance's own money",
+            "at": "98%"
+          }
+        },
+        "badge": "WHO PAID",
+        "in": "wipe"
+      },
+      {
+        "say": "The last 2% is smaller coins, slow to sell."
+      },
+      {
+        "say": "Back on paper is not back in your *hands*.",
+        "part": "swap",
+        "data": {
+          "old": "PUT BACK",
+          "new": "STILL LOCKED",
+          "at": "hands"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Your $9,800 of $10,000 is back on paper.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "9,800",
+          "pre": "$",
+          "suf": "",
+          "label": "back on paper",
+          "at": "$9,800"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Ten biggest coins: moving out since November 1.",
+        "part": "donut",
+        "data": {
+          "k": "YOUR ROW",
+          "segs": [
+            {
+              "l": "SMALLER COIN",
+              "v": "still buying",
+              "w": 0.0
+            },
+            {
+              "l": "TEN BIGGEST",
+              "v": "put back",
+              "w": 0.0
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "YOUR ROW",
+        "in": "iris"
+      },
+      {
+        "say": "Smaller coins: still being bought, so yours *waits*."
+      },
+      {
+        "say": "Comment *FROZEN,*, and I will send you the frozen coins status tracker.",
+        "part": "tiles",
+        "data": {
+          "word": "FROZEN",
+          "at": "FROZEN",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the frozen coins status tracker ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Binance put back $9,800 of your $10,000. Where's the rest?",
+          "Give me 30 seconds. See which coins unlock first."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The frozen coins tracker is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "THE HIT",
+        "data": {
+          "old": "2%",
+          "new": "still stuck"
+        },
+        "lines": [
+          "Binance is a big website where people buy and keep crypto coins.",
+          "In October 2026, hackers took about $6.3 billion."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "2%",
+          "new": "still stuck"
+        },
+        "lines": [
+          "Binance put back 98%, but the last 2% is still *stuck*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "WHO PAID",
+        "data": {
+          "a": {
+            "h": "STILL BUYING",
+            "v": "2%",
+            "sub": "about $126 million",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "PUT BACK",
+            "v": "98%",
+            "sub": "Binance's own money",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Binance paid that 98% itself, not the *hackers*.",
+          "The last 2% is smaller coins, slow to sell."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "PUT BACK",
+          "new": "STILL LOCKED"
+        },
+        "lines": [
+          "Back on paper is not back in your *hands*."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$9,800",
+          "new": "back on paper"
+        },
+        "lines": [
+          "Your $9,800 of $10,000 is back on paper."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "SMALLER COIN",
+            "v": "still buying",
+            "sub": "pair by pair",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "TEN BIGGEST",
+            "v": "put back",
+            "sub": "since Nov 1",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Ten biggest coins: moving out since November 1.",
+          "Smaller coins: still being bought, so yours *waits*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FROZEN",
+          "gift": "the frozen coins status tracker"
+        },
+        "lines": [
+          "Comment *FROZEN,*, and I will send you the frozen coins status tracker."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, the lock-in names the tracker, the loss scene shows the stuck 2%, a rehook leads into the 98% versus 2% compare explained in plain words, the trap rehook flips put back to still locked, the closing repeats $9,800, then the given myrow and cta end it.",
+      "shape": "dark",
+      "ending": "myrow_cta",
+      "caption": "karaoke",
+      "opener": "glass",
+      "parts": [
+        "glass",
+        "stamp",
+        "shrink",
+        "callout",
+        "compare",
+        "swap",
+        "odometer",
+        "donut",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "wipe",
+        "iris",
+        "wipe",
+        "iris",
+        "wipe",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "FROZEN"
+    }
+  },
+  "caption_b": "🐶⛏️ Before you relax about Binance, check if your coin is in the last 2%.\n\nBinance paid that 98% back with its own money, not the hackers'. The last 2% is smaller coins that are slow to buy, so yours might sit and wait.\n\nComment FROZEN and I'll send you my frozen coins status tracker 🪙\nIs your coin open yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#binance #cryptocanada #torontofinance",
+  "caption_family": "warning"
+}

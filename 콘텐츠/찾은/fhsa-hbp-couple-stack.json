@@ -1,0 +1,1417 @@
+{
+  "key": "fhsa-hbp-couple-stack",
+  "category": "tax",
+  "status": "draft",
+  "title": "One home. Up to $200,000 from two boxes.",
+  "object": "THE FIRST HOME TAX-FREE STACK",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s53720468'] · 퍼스나 The late starter with unused room",
+  "fact": {
+    "num": "200,000",
+    "unit": "$",
+    "thing": "combined FHSA contributions plus HBP withdrawals for a couple",
+    "box": "FHSA + RRSP Home Buyers' Plan",
+    "claim": "Each person can put up to $40,000 in lifetime contributions into their own FHSA and can withdraw up to $60,000 from their own RRSPs under the Home Buyers' Plan, and the CRA allows both for the same qualifying home. That comes to $100,000 per person and $200,000 for a couple where both partners qualify and each has their own FHSA room and RRSP savings. The HBP money has to be paid back into the RRSP over time, and any amount not repaid is added to your income, so only the FHSA withdrawal is permanently tax-free. Each partner must meet the qualifying conditions at the time of each withdrawal, including the first-time home buyer rules.",
+    "sources": [
+      "CRA – FHSA withdrawals",
+      "CRA – FHSA withdrawals",
+      "CRA – FHSA withdrawals",
+      "CRA – Participate in the HBP",
+      "CRA – Participate in the HBP"
+    ],
+    "verified": "find.py · 대조 5/5",
+    "felt": {
+      "num": "200,000",
+      "unit": "$",
+      "how": "what a couple can miss: $40,000 FHSA + $60,000 HBP = $100,000 each, doubled for two partners",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA – FHSA withdrawals",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/withdrawals-transfers-out-your-fhsas.html",
+      "what": "Over the years, he contributed the maximum amount to his FHSA, reaching his lifetime FHSA limit of $40,000 in 2029.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – FHSA withdrawals",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/withdrawals-transfers-out-your-fhsas.html",
+      "what": "You can withdraw amounts from your RRSPs under the Home Buyers’ Plan (HBP) and make a qualifying withdrawal from your FHSAs for the same qualifying home, as long as you meet all of the conditions at the time of each withdrawal.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – FHSA withdrawals",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/withdrawals-transfers-out-your-fhsas.html",
+      "what": "If you are buying or building a qualifying home together with another individual (including your spouse or common-law partner), both of you can make a qualifying withdrawal from your own FHSAs as long as you both meet all of the conditions to make a qualifying withdrawal.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Participate in the HBP",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/what-home-buyers-plan/participate-home-buyers-plan.html",
+      "what": "Currently, the maximum you can withdraw is $60,000.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Participate in the HBP",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/what-home-buyers-plan/participate-home-buyers-plan.html",
+      "what": "You are only permitted to make withdrawals under the HBP from your RRSPs.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "FHSA plus RRSP hold $",
+        "num": "200,000",
+        "post": ". Don't miss yours."
+      },
+      "promise": "Give me 30 seconds. Keep all of it."
+    },
+    {
+      "type": "two",
+      "kicker": "ONE PERSON · ONE HOME",
+      "title": "Two boxes. *$100,000* each.",
+      "boxes": [
+        {
+          "h": "FHSA",
+          "v": "$40k",
+          "win": true,
+          "d": "$40,000 lifetime, in your own FHSA.",
+          "d2": "Take it out for a qualifying home and you never pay a cut on it.",
+          "d3": "Yours for good",
+          "lead": true
+        },
+        {
+          "h": "RRSP · HBP",
+          "v": "$60k",
+          "tone": "flat",
+          "d": "$60,000 out of your own RRSPs.",
+          "d2": "Allowed for the same home as your FHSA. You pay it back over time.",
+          "d3": "A loan from yourself"
+        }
+      ],
+      "source_label": "CRA",
+      "say": "$40,000 plus $60,000.|Then double it for two."
+    },
+    {
+      "type": "mini",
+      "kicker": "THE CATCH",
+      "title": "Only one box stays *yours* for good.",
+      "lead": "The HBP is money you borrow from your own RRSP. <em>You pay it back.</em>",
+      "rows": [
+        {
+          "t": "FHSA withdrawal for a qualifying home",
+          "v": "NO CUT",
+          "ok": true
+        },
+        {
+          "t": "HBP money you pay back on time",
+          "v": "BACK IN RRSP"
+        },
+        {
+          "t": "HBP money you don't pay back",
+          "v": "ADDED TO INCOME"
+        }
+      ],
+      "tail": "Each of you has to meet the conditions at the time of each withdrawal, first-time buyer rules included.",
+      "source_label": "CRA · FHSA · HBP",
+      "say": "Borrowed is not free.|Hama checked."
+    },
+    {
+      "type": "do",
+      "kicker": "THE FIRST HOME TAX-FREE STACK",
+      "title": "Four checks before you buy.",
+      "lead": "$40,000 + $60,000 = $100,000 each. <em>Two of you, up to $200,000.</em>",
+      "checks": [
+        {
+          "h": "1 · YOUR FHSA",
+          "d": "Up to $40,000 lifetime, in an FHSA in your own name."
+        },
+        {
+          "h": "2 · YOUR RRSP",
+          "d": "Up to $60,000 out under the HBP, from your own RRSPs."
+        },
+        {
+          "h": "3 · YOUR PARTNER",
+          "d": "Their own FHSA and RRSP. Another $100,000 if they qualify."
+        },
+        {
+          "h": "4 · THE RULES",
+          "d": "Both of you meet the conditions at each withdrawal."
+        }
+      ],
+      "button": "Save this · check both of you before you buy",
+      "fine": "General education, not investment or tax advice. Confirm your own case with the CRA or a tax professional.",
+      "say": "Four checks.|One home."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "FHSA plus RRSP hold $200,000. Don't miss yours.",
+      "Your FHSA caps at $40,000. Where's the other $60,000?",
+      "FHSA savers stop at $40,000. $60,000 sits unused.",
+      "FHSA tops out at $40,000. Your RRSP beats it with $60,000.",
+      "FHSA plus RRSP: Hama found $100,000 you aren't using.",
+      "Skip the RRSP plan and you lose $60,000 for your home.",
+      "FHSA and Home Buyers' Plan hold $200,000 you never used.",
+      "FHSA couples keep $200,000. Alone you keep $100,000.",
+      "FHSA room is $40,000 for life. Miss it, gone forever.",
+      "FHSA alone is never enough. $40,000 of $100,000."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "FHSA plus RRSP hold $200,000. Don't miss yours.",
+    "spoken": "FHSA plus RRSP hold $200,000. Don't miss yours.",
+    "promise": "Give me 30 seconds. Keep all of it.",
+    "pick_why": "$200,000 is the biggest provable number in the fact block, and \"Don't miss yours\" turns it from news into something they are personally losing, so they save it to come back.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "CLAIM YOURS"
+  },
+  "lede": "Each of you gets $40,000 of FHSA room plus up to $60,000 from your RRSP. The CRA lets you use both for the same home.",
+  "series": "FIRST HOME BOXES",
+  "source_note": "CRA · FHSA AND HBP RULES",
+  "caption": "🐶⛏️ If you're buying with a partner, $200,000 for a first home could slip by.\n\nYou can each stack your own FHSA and RRSP on the same home, but most couples open one. The RRSP part is borrowed, so anything unpaid gets added to your income.\n\nComment STACK and I'll send you my first home checklist 🪙\nBuying solo or together?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#fhsacanada #firsthomecanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "FHSA plus RRSP hold $200,000. Don't miss yours.",
+        "part": "slam",
+        "data": {
+          "pill": "THE FIRST HOME TAX-FREE STACK",
+          "num": "$200,000",
+          "line": "FHSA plus RRSP hold $200,000. Don't miss yours.",
+          "promise": "Give me 30 seconds. Keep all of it.",
+          "subj": "FHSA PLUS RRSP",
+          "stamp": "CLAIM YOURS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep all of it.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and that $200,000 sits *untouched*.",
+        "cap": "low"
+      },
+      {
+        "say": "Your FHSA, the box for your first *home*, holds $40,000.",
+        "part": "receipt",
+        "data": {
+          "title": "ONE PERSON, ONE HOME",
+          "sub": "the first home tax-free stack",
+          "rows": [
+            [
+              "Your FHSA, the first home box",
+              "$40,000",
+              "$40,000"
+            ],
+            [
+              "Your RRSP, the retirement box",
+              "$60,000",
+              "$60,000"
+            ]
+          ],
+          "total": [
+            "Each of you",
+            "$100,000",
+            1
+          ],
+          "foot": "Cra – Fhsa Withdrawals · Cra – Fhsa Withdrawals"
+        },
+        "badge": "ONE PERSON"
+      },
+      {
+        "say": "Your RRSP, your retirement box, *lends* you $60,000."
+      },
+      {
+        "say": "That is $100,000 each.",
+        "part": "waterfall",
+        "data": {
+          "title": "ONE PERSON, ONE HOME",
+          "rows": [
+            [
+              "Your FHSA, the first home box",
+              "$40,000",
+              0
+            ],
+            [
+              "Your RRSP, the retirement box",
+              "$60,000",
+              0
+            ]
+          ],
+          "total": [
+            "Each of you",
+            "$100,000",
+            "$100,000"
+          ]
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "So who is buying *with* you?",
+        "part": "callout",
+        "data": {
+          "word": "with",
+          "line": "So who is buying *with* you?",
+          "at": "with"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "For one of you, that is $100,000.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "ONE OF YOU",
+            "big": "$100,000",
+            "ft": "one FHSA, one RRSP"
+          },
+          "b": {
+            "k": "BOTH OF YOU",
+            "big": "$200,000",
+            "ft": "two of each",
+            "at": "$200,000"
+          }
+        },
+        "badge": "TWO OF YOU"
+      },
+      {
+        "say": "For both of you, $200,000."
+      },
+      {
+        "say": "Most couples open only *one*.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "one FHSA, one RRSP",
+              "tone": "loss",
+              "h": "ONE OF YOU",
+              "v": "$100,000",
+              "at": 0
+            },
+            {
+              "sub": "two of each",
+              "tone": "win",
+              "h": "BOTH OF YOU",
+              "v": "$200,000",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "But the $60,000 is *borrowed*, and unpaid gets added to income.",
+        "part": "swap",
+        "data": {
+          "old": "FREE",
+          "new": "BORROWED",
+          "at": "borrowed"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Write down both FHSA rooms and both RRSPs.",
+        "part": "paid",
+        "data": {
+          "k": "BEFORE BUYING",
+          "label": "Write both numbers down",
+          "sub": "FHSA room and RRSP, for both of you",
+          "at": "both"
+        },
+        "badge": "BEFORE BUYING"
+      },
+      {
+        "say": "Then check you *both* pass the first home rules."
+      },
+      {
+        "say": "Up to $200,000 for one home, when both qualify.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "200,000",
+          "pre": "$",
+          "suf": "",
+          "label": "when both qualify",
+          "at": "$200,000"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *STACK,* and I will send you the first home checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "STACK",
+          "at": "STACK",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the first home checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "FHSA plus RRSP hold $200,000. Don't miss yours.",
+          "Give me 30 seconds. Keep all of it."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and that $200,000 sits *untouched*."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "ONE PERSON",
+        "data": {
+          "title": "ONE PERSON, ONE HOME",
+          "rows": [
+            [
+              "Your FHSA, the first home box",
+              "$40,000"
+            ],
+            [
+              "Your RRSP, the retirement box",
+              "$60,000"
+            ]
+          ],
+          "total": [
+            "Each of you",
+            "$100,000"
+          ]
+        },
+        "lines": [
+          "Your FHSA, the box for your first *home*, holds $40,000.",
+          "Your RRSP, your retirement box, *lends* you $60,000."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "ONE PERSON, ONE HOME",
+          "rows": [
+            [
+              "Your FHSA, the first home box",
+              "$40,000"
+            ],
+            [
+              "Your RRSP, the retirement box",
+              "$60,000"
+            ]
+          ],
+          "total": [
+            "Each of you",
+            "$100,000"
+          ]
+        },
+        "lines": [
+          "That is $100,000 each."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So who is buying *with* you?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO OF YOU",
+        "data": {
+          "a": {
+            "h": "ONE OF YOU",
+            "v": "$100,000",
+            "sub": "one FHSA, one RRSP",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BOTH OF YOU",
+            "v": "$200,000",
+            "sub": "two of each",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "For one of you, that is $100,000.",
+          "For both of you, $200,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "ONE OF YOU",
+            "v": "$100,000",
+            "sub": "one FHSA, one RRSP",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BOTH OF YOU",
+            "v": "$200,000",
+            "sub": "two of each",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Most couples open only *one*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FREE",
+          "new": "BORROWED"
+        },
+        "lines": [
+          "But the $60,000 is *borrowed*, and unpaid gets added to income."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "BEFORE BUYING",
+        "data": {
+          "label": "Write both numbers down",
+          "sub": "FHSA room and RRSP, for both of you"
+        },
+        "lines": [
+          "Write down both FHSA rooms and both RRSPs.",
+          "Then check you *both* pass the first home rules."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$200,000",
+          "new": "when both qualify"
+        },
+        "lines": [
+          "Up to $200,000 for one home, when both qualify."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "STACK",
+          "gift": "the first home checklist"
+        },
+        "lines": [
+          "Comment *STACK,* and I will send you the first home checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, the lock-in names the $200,000 that sits idle if they scroll, the flow receipt adds $40,000 and $60,000 to $100,000, a question rehooks into the couple compare that doubles it to $200,000, the trap rehook says the $60,000 is borrowed, a step tells them what to write down and check, the closing repeats $200,000, and the given cta ends it.",
+      "shape": "receipt",
+      "ending": "cta",
+      "caption": "karaoke",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "receipt",
+        "waterfall",
+        "callout",
+        "dumbbell",
+        "stack",
+        "swap",
+        "paid",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "wipe",
+        "iris",
+        "fade",
+        "wipe",
+        "iris",
+        "fade",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "STACK"
+    }
+  },
+  "plain": {
+    "what": "An FHSA is a savings account for your first home, and an RRSP is a retirement savings account. Each person can put up to $40,000 into their own FHSA over their lifetime. Each person can also take up to $60,000 out of their own RRSP under the Home Buyers' Plan, and the CRA lets you use both for the same home.",
+    "so_what": "For a couple where both people qualify, that is up to $200,000 toward one first home, and many buyers only ever open one of the two accounts.",
+    "do": "Write down how much FHSA room you have and how much is in your RRSP, for you and your partner.",
+    "words": [
+      {
+        "term": "FHSA",
+        "means": "A savings account just for buying your first home."
+      },
+      {
+        "term": "RRSP",
+        "means": "A savings account for retirement."
+      },
+      {
+        "term": "CRA",
+        "means": "Canada's tax office."
+      },
+      {
+        "term": "Home Buyers' Plan (HBP)",
+        "means": "Taking RRSP money for a home, then paying it back."
+      },
+      {
+        "term": "contribution room",
+        "means": "How much you are still allowed to put in."
+      },
+      {
+        "term": "withdrawal",
+        "means": "Money you take out of an account."
+      },
+      {
+        "term": "tax-free",
+        "means": "You owe no tax on it."
+      },
+      {
+        "term": "first-time home buyer",
+        "means": "Someone who meets the CRA's rules for a first home."
+      }
+    ]
+  },
+  "subject": "FHSA plus RRSP",
+  "deliver": {
+    "word": "STACK",
+    "gift": "the first home checklist"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "FHSA plus RRSP hold $200,000. Don't miss yours.",
+        "part": "slam",
+        "data": {
+          "pill": "THE FIRST HOME TAX-FREE STACK",
+          "num": "$200,000",
+          "line": "FHSA plus RRSP hold $200,000. Don't miss yours.",
+          "promise": "Give me 30 seconds. Keep all of it.",
+          "subj": "FHSA PLUS RRSP",
+          "stamp": "CLAIM YOURS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep all of it.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and that $200,000 sits *untouched*.",
+        "cap": "low"
+      },
+      {
+        "say": "Your FHSA, the box for your first *home*, holds $40,000.",
+        "part": "receipt",
+        "data": {
+          "title": "ONE PERSON, ONE HOME",
+          "sub": "the first home tax-free stack",
+          "rows": [
+            [
+              "Your FHSA, the first home box",
+              "$40,000",
+              "$40,000"
+            ],
+            [
+              "Your RRSP, the retirement box",
+              "$60,000",
+              "$60,000"
+            ]
+          ],
+          "total": [
+            "Each of you",
+            "$100,000",
+            1
+          ],
+          "foot": "Cra – Fhsa Withdrawals · Cra – Fhsa Withdrawals"
+        },
+        "badge": "ONE PERSON",
+        "in": "wipe"
+      },
+      {
+        "say": "Your RRSP, your retirement box, *lends* you $60,000."
+      },
+      {
+        "say": "That is $100,000 each.",
+        "part": "waterfall",
+        "data": {
+          "title": "ONE PERSON, ONE HOME",
+          "rows": [
+            [
+              "Your FHSA, the first home box",
+              "$40,000",
+              0
+            ],
+            [
+              "Your RRSP, the retirement box",
+              "$60,000",
+              0
+            ]
+          ],
+          "total": [
+            "Each of you",
+            "$100,000",
+            "$100,000"
+          ]
+        },
+        "in": "iris"
+      },
+      {
+        "say": "So who is buying *with* you?",
+        "part": "callout",
+        "data": {
+          "word": "with",
+          "line": "So who is buying *with* you?",
+          "at": "with"
+        }
+      },
+      {
+        "say": "For one of you, that is $100,000.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "ONE OF YOU",
+            "big": "$100,000",
+            "ft": "one FHSA, one RRSP"
+          },
+          "b": {
+            "k": "BOTH OF YOU",
+            "big": "$200,000",
+            "ft": "two of each",
+            "at": "$200,000"
+          }
+        },
+        "badge": "TWO OF YOU",
+        "in": "wipe"
+      },
+      {
+        "say": "For both of you, $200,000."
+      },
+      {
+        "say": "Most couples open only *one*.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "ONE OF YOU",
+            "big": "$100,000",
+            "ft": "one FHSA, one RRSP"
+          },
+          "b": {
+            "k": "BOTH OF YOU",
+            "big": "$200,000",
+            "ft": "two of each",
+            "at": 0
+          }
+        },
+        "in": "iris"
+      },
+      {
+        "say": "But the $60,000 is *borrowed*, and unpaid gets added to income.",
+        "part": "swap",
+        "data": {
+          "old": "FREE",
+          "new": "BORROWED",
+          "at": "borrowed"
+        }
+      },
+      {
+        "say": "Write down both FHSA rooms and both RRSPs.",
+        "part": "toggle",
+        "data": {
+          "k": "BEFORE BUYING",
+          "label": "Write both numbers down",
+          "sub": "FHSA room and RRSP, for both of you",
+          "on_at": "Write",
+          "app": "Hama Savings"
+        },
+        "badge": "BEFORE BUYING",
+        "in": "zoom"
+      },
+      {
+        "say": "Then check you *both* pass the first home rules."
+      },
+      {
+        "say": "Up to $200,000 for one home, when both qualify.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "200,000",
+          "pre": "$",
+          "suf": "",
+          "label": "when both qualify",
+          "at": "$200,000"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Comment *STACK,* and I will send you the first home checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "STACK",
+          "at": "STACK",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the first home checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "FHSA plus RRSP hold $200,000. Don't miss yours.",
+          "Give me 30 seconds. Keep all of it."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and that $200,000 sits *untouched*."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "ONE PERSON",
+        "data": {
+          "title": "ONE PERSON, ONE HOME",
+          "rows": [
+            [
+              "Your FHSA, the first home box",
+              "$40,000"
+            ],
+            [
+              "Your RRSP, the retirement box",
+              "$60,000"
+            ]
+          ],
+          "total": [
+            "Each of you",
+            "$100,000"
+          ]
+        },
+        "lines": [
+          "Your FHSA, the box for your first *home*, holds $40,000.",
+          "Your RRSP, your retirement box, *lends* you $60,000."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "ONE PERSON, ONE HOME",
+          "rows": [
+            [
+              "Your FHSA, the first home box",
+              "$40,000"
+            ],
+            [
+              "Your RRSP, the retirement box",
+              "$60,000"
+            ]
+          ],
+          "total": [
+            "Each of you",
+            "$100,000"
+          ]
+        },
+        "lines": [
+          "That is $100,000 each."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So who is buying *with* you?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO OF YOU",
+        "data": {
+          "a": {
+            "h": "ONE OF YOU",
+            "v": "$100,000",
+            "sub": "one FHSA, one RRSP",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BOTH OF YOU",
+            "v": "$200,000",
+            "sub": "two of each",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "For one of you, that is $100,000.",
+          "For both of you, $200,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "ONE OF YOU",
+            "v": "$100,000",
+            "sub": "one FHSA, one RRSP",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BOTH OF YOU",
+            "v": "$200,000",
+            "sub": "two of each",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Most couples open only *one*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FREE",
+          "new": "BORROWED"
+        },
+        "lines": [
+          "But the $60,000 is *borrowed*, and unpaid gets added to income."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "BEFORE BUYING",
+        "data": {
+          "label": "Write both numbers down",
+          "sub": "FHSA room and RRSP, for both of you"
+        },
+        "lines": [
+          "Write down both FHSA rooms and both RRSPs.",
+          "Then check you *both* pass the first home rules."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$200,000",
+          "new": "when both qualify"
+        },
+        "lines": [
+          "Up to $200,000 for one home, when both qualify."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "STACK",
+          "gift": "the first home checklist"
+        },
+        "lines": [
+          "Comment *STACK,* and I will send you the first home checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, the lock-in names the $200,000 that sits idle if they scroll, the flow receipt adds $40,000 and $60,000 to $100,000, a question rehooks into the couple compare that doubles it to $200,000, the trap rehook says the $60,000 is borrowed, a step tells them what to write down and check, the closing repeats $200,000, and the given cta ends it.",
+      "shape": "receipt",
+      "ending": "cta",
+      "caption": "blur",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "receipt",
+        "waterfall",
+        "callout",
+        "dumbbell",
+        "compare",
+        "swap",
+        "toggle",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "iris",
+        "fade",
+        "wipe",
+        "iris",
+        "fade",
+        "zoom",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "STACK"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "FHSA plus RRSP hold $200,000. Don't miss yours.",
+        "part": "slam",
+        "data": {
+          "pill": "THE FIRST HOME TAX-FREE STACK",
+          "num": "$200,000",
+          "line": "FHSA plus RRSP hold $200,000. Don't miss yours.",
+          "promise": "Give me 30 seconds. Keep all of it.",
+          "subj": "FHSA PLUS RRSP",
+          "stamp": "CLAIM YOURS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep all of it.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and that $200,000 sits *untouched*.",
+        "cap": "low"
+      },
+      {
+        "say": "Your FHSA, the box for your first *home*, holds $40,000.",
+        "part": "receipt",
+        "data": {
+          "title": "ONE PERSON, ONE HOME",
+          "sub": "the first home tax-free stack",
+          "rows": [
+            [
+              "Your FHSA, the first home box",
+              "$40,000",
+              "$40,000"
+            ],
+            [
+              "Your RRSP, the retirement box",
+              "$60,000",
+              "$60,000"
+            ]
+          ],
+          "total": [
+            "Each of you",
+            "$100,000",
+            1
+          ],
+          "foot": "Cra – Fhsa Withdrawals · Cra – Fhsa Withdrawals"
+        },
+        "badge": "ONE PERSON",
+        "in": "pan"
+      },
+      {
+        "say": "Your RRSP, your retirement box, *lends* you $60,000."
+      },
+      {
+        "say": "That is $100,000 each.",
+        "part": "waterfall",
+        "data": {
+          "title": "ONE PERSON, ONE HOME",
+          "rows": [
+            [
+              "Your FHSA, the first home box",
+              "$40,000",
+              0
+            ],
+            [
+              "Your RRSP, the retirement box",
+              "$60,000",
+              0
+            ]
+          ],
+          "total": [
+            "Each of you",
+            "$100,000",
+            "$100,000"
+          ]
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "So who is buying *with* you?",
+        "part": "callout",
+        "data": {
+          "word": "with",
+          "line": "So who is buying *with* you?",
+          "at": "with"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "For one of you, that is $100,000.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "one FHSA, one RRSP",
+              "tone": "loss",
+              "h": "ONE OF YOU",
+              "v": "$100,000",
+              "at": 0
+            },
+            {
+              "sub": "two of each",
+              "tone": "win",
+              "h": "BOTH OF YOU",
+              "v": "$200,000",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "TWO OF YOU"
+      },
+      {
+        "say": "For both of you, $200,000."
+      },
+      {
+        "say": "Most couples open only *one*.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "ONE OF YOU",
+            "big": "$100,000",
+            "ft": "one FHSA, one RRSP"
+          },
+          "b": {
+            "k": "BOTH OF YOU",
+            "big": "$200,000",
+            "ft": "two of each",
+            "at": 0
+          }
+        },
+        "in": "pan"
+      },
+      {
+        "say": "But the $60,000 is *borrowed*, and unpaid gets added to income.",
+        "part": "swap",
+        "data": {
+          "old": "FREE",
+          "new": "BORROWED",
+          "at": "borrowed"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Write down both FHSA rooms and both RRSPs.",
+        "part": "paid",
+        "data": {
+          "k": "BEFORE BUYING",
+          "label": "Write both numbers down",
+          "sub": "FHSA room and RRSP, for both of you",
+          "at": "both"
+        },
+        "badge": "BEFORE BUYING",
+        "in": "wipe"
+      },
+      {
+        "say": "Then check you *both* pass the first home rules."
+      },
+      {
+        "say": "Up to $200,000 for one home, when both qualify.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "200,000",
+          "pre": "$",
+          "suf": "",
+          "label": "when both qualify",
+          "at": "$200,000"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *STACK,* and I will send you the first home checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "STACK",
+          "at": "STACK",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the first home checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "FHSA plus RRSP hold $200,000. Don't miss yours.",
+          "Give me 30 seconds. Keep all of it."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and that $200,000 sits *untouched*."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "ONE PERSON",
+        "data": {
+          "title": "ONE PERSON, ONE HOME",
+          "rows": [
+            [
+              "Your FHSA, the first home box",
+              "$40,000"
+            ],
+            [
+              "Your RRSP, the retirement box",
+              "$60,000"
+            ]
+          ],
+          "total": [
+            "Each of you",
+            "$100,000"
+          ]
+        },
+        "lines": [
+          "Your FHSA, the box for your first *home*, holds $40,000.",
+          "Your RRSP, your retirement box, *lends* you $60,000."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "ONE PERSON, ONE HOME",
+          "rows": [
+            [
+              "Your FHSA, the first home box",
+              "$40,000"
+            ],
+            [
+              "Your RRSP, the retirement box",
+              "$60,000"
+            ]
+          ],
+          "total": [
+            "Each of you",
+            "$100,000"
+          ]
+        },
+        "lines": [
+          "That is $100,000 each."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So who is buying *with* you?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO OF YOU",
+        "data": {
+          "a": {
+            "h": "ONE OF YOU",
+            "v": "$100,000",
+            "sub": "one FHSA, one RRSP",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BOTH OF YOU",
+            "v": "$200,000",
+            "sub": "two of each",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "For one of you, that is $100,000.",
+          "For both of you, $200,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "ONE OF YOU",
+            "v": "$100,000",
+            "sub": "one FHSA, one RRSP",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BOTH OF YOU",
+            "v": "$200,000",
+            "sub": "two of each",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Most couples open only *one*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FREE",
+          "new": "BORROWED"
+        },
+        "lines": [
+          "But the $60,000 is *borrowed*, and unpaid gets added to income."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "BEFORE BUYING",
+        "data": {
+          "label": "Write both numbers down",
+          "sub": "FHSA room and RRSP, for both of you"
+        },
+        "lines": [
+          "Write down both FHSA rooms and both RRSPs.",
+          "Then check you *both* pass the first home rules."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$200,000",
+          "new": "when both qualify"
+        },
+        "lines": [
+          "Up to $200,000 for one home, when both qualify."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "STACK",
+          "gift": "the first home checklist"
+        },
+        "lines": [
+          "Comment *STACK,* and I will send you the first home checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, the lock-in names the $200,000 that sits idle if they scroll, the flow receipt adds $40,000 and $60,000 to $100,000, a question rehooks into the couple compare that doubles it to $200,000, the trap rehook says the $60,000 is borrowed, a step tells them what to write down and check, the closing repeats $200,000, and the given cta ends it.",
+      "shape": "receipt",
+      "ending": "cta",
+      "caption": "karaoke",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "receipt",
+        "waterfall",
+        "callout",
+        "stack",
+        "dumbbell",
+        "swap",
+        "paid",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "iris",
+        "fade",
+        "pan",
+        "zoom",
+        "wipe",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "STACK"
+    }
+  },
+  "caption_b": "🐶⛏️ Don't open just one FHSA if two of you are buying the place.\n\nEach of you can put $40,000 into your own FHSA. Your RRSP can lend you $60,000 for the same home too, but it's borrowed, so what you don't pay back gets added to your income.\n\nComment STACK and I'll send you my first home checklist 🪙\nBuying solo or with someone?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#fhsacanada #firsthomecanada #torontorealestate",
+  "caption_family": "warning"
+}

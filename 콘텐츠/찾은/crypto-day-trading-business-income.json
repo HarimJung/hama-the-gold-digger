@@ -1,0 +1,1316 @@
+{
+  "key": "crypto-day-trading-business-income",
+  "category": "crypto",
+  "status": "draft",
+  "title": "Same crypto gain. Your cut can be 2x.",
+  "object": "THE TRADER OR INVESTOR CHECKLIST",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s1ea3491b', 's54817a27'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "50",
+    "unit": "%",
+    "thing": "share of a crypto capital gain that is taxable",
+    "box": "Personal tax return (CRA), non-registered account",
+    "claim": "If the CRA treats your crypto sales as capital, you add half of the gain to your income. If it treats your trading as a business, you report the full profit, so twice as much of it gets taxed. The CRA looks at things like how often you buy and sell, how long you hold, what you know about crypto markets, how much time you spend on it, and whether you trade with borrowed money. No single factor settles it, and these factors only suggest a business. The CRA decides each case on its facts.",
+    "sources": [
+      "CRA Guide for cryptocurrency users: Reporting income",
+      "CRA Guide for cryptocurrency users: Reporting income",
+      "CRA Guide for cryptocurrency users: Reporting income"
+    ],
+    "verified": "find.py · 대조 3/3",
+    "felt": {
+      "num": "5,000",
+      "unit": "$",
+      "a": "10,000",
+      "b": "5,000",
+      "how": "added to income, business label vs capital label, on a $10,000 gain",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA Guide for cryptocurrency users: Reporting income",
+      "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/cryptocurrency-guide/income-crypto-transactions.html",
+      "what": "If you have disposed of a crypto-asset on account of capital, you must include half of your capital gains (known as taxable capital gains) in your income for the year.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA Guide for cryptocurrency users: Reporting income",
+      "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/cryptocurrency-guide/income-crypto-transactions.html",
+      "what": "If you have disposed of a crypto-asset on account of business income, you must report the full amount of your profits (or loss) from the disposition in your tax return.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA Guide for cryptocurrency users: Reporting income",
+      "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/cryptocurrency-guide/income-crypto-transactions.html",
+      "what": "The following factors may indicate that you are carrying on a business:",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "CRYPTO · CANADA",
+      "topic": "THE BITCOIN CLOCK",
+      "hook": {
+        "pre": "Bitcoin sellers get $",
+        "num": "5,000",
+        "post": " more taxed. Want it back?"
+      },
+      "promise": "Give me 30 seconds. Keep more of your gain."
+    },
+    {
+      "type": "mini",
+      "kicker": "SAME GAIN · TWO LABELS",
+      "title": "Same $10,000 gain. The *label* sets the cut.",
+      "lead": "On a $10,000 gain, the CRA label decides <em>how much you add to your income.</em>",
+      "rows": [
+        {
+          "t": "Capital: half of $10,000",
+          "v": "+$5,000",
+          "ok": true
+        },
+        {
+          "t": "Business: all of $10,000",
+          "v": "+$10,000"
+        },
+        {
+          "t": "Added to income, business vs capital",
+          "v": "2x"
+        }
+      ],
+      "tail": "Your cut is your tax rate on that number. At the same rate, a number twice as big means a cut twice as big.",
+      "source_label": "CRA CRYPTO GUIDE",
+      "say": "Hama checked the label.|Before filing."
+    },
+    {
+      "type": "table",
+      "kicker": "THE TRADER OR INVESTOR CHECKLIST",
+      "title": "Which side are you on? Check each row.",
+      "h1": "THE CRA LOOKS AT",
+      "h2": "LEANS INVESTING",
+      "h3": "LEANS BUSINESS",
+      "rows": [
+        {
+          "a": "How often",
+          "asub": "you buy and sell",
+          "bar": 50,
+          "b": "Now and then",
+          "gone": "50% counted",
+          "c": "Often",
+          "csub": "100% counted"
+        },
+        {
+          "a": "How long",
+          "asub": "you hold",
+          "bar": 50,
+          "b": "Longer",
+          "gone": "50% counted",
+          "c": "Short flips",
+          "csub": "100% counted"
+        },
+        {
+          "a": "What you know",
+          "asub": "about crypto markets",
+          "bar": 50,
+          "b": "The basics",
+          "gone": "50% counted",
+          "c": "Deep know-how",
+          "csub": "100% counted"
+        },
+        {
+          "a": "Time spent",
+          "asub": "on it",
+          "bar": 50,
+          "b": "A little",
+          "gone": "50% counted",
+          "c": "A lot",
+          "csub": "100% counted"
+        },
+        {
+          "a": "Whose money",
+          "asub": "you trade with",
+          "bar": 50,
+          "b": "Your own",
+          "gone": "50% counted",
+          "c": "Borrowed",
+          "csub": "100% counted"
+        }
+      ],
+      "note": "No single row settles it. These only suggest a business, and the CRA decides each case on its facts. <b>Save this. Check your rows before you file.</b> General education, not tax advice."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Bitcoin sellers get $5,000 more taxed. Want it back?",
+      "Bitcoin gain: $5,000 extra on your tax. Want to keep it?",
+      "Bitcoin sold too often: $5,000 more gets taxed. Still flipping?",
+      "Same Bitcoin gain, $5,000 more gets taxed. Which one are you?",
+      "Hama's Bitcoin gain: $5,000 extra got taxed. Want to keep yours?",
+      "Bitcoin traders hand the CRA $5,000 more to tax. Want it back?",
+      "Bitcoin's tax label: $5,000 extra gets taxed. Which one's yours?",
+      "Bitcoin investor vs trader: $5,000 more taxed. Which are you?",
+      "Bitcoin sold fast: $5,000 more of it gets taxed. Still rushing?",
+      "Don't guess Bitcoin's tax label: $5,000 more gets taxed. Still guessing?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Bitcoin sellers get $5,000 more taxed. Want it back?",
+    "spoken": "Bitcoin sellers get $5,000 more taxed. Want it back?",
+    "promise": "Give me 30 seconds. Keep more of your gain.",
+    "pick_why": "Bitcoin, sellers, $5,000 and want it back land in one second with nothing explained, so the most people stop and save to find out why.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "KEEP IT"
+  },
+  "lede": "Capital or business. The CRA's label decides whether half or all of your gain counts as income.",
+  "series": "CRYPTO TAX BASICS",
+  "source_note": "CRA · GUIDE FOR CRYPTOCURRENCY USERS",
+  "caption": "🐶⛏️ If you trade bitcoin a lot, $5,000 more of your gain could get taxed.\n\nThe CRA checks how often you trade and how long you hold, then picks your label. On a $10,000 gain, the capital label adds half to your income, but business adds all of it.\n\nComment TRADER and I'll send you my trader or investor checklist 🪙\nWhich one sounds like you?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #cryptotaxcanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Bitcoin sellers get $5,000 more taxed. Want it back?",
+        "part": "rollnum",
+        "data": {
+          "pill": "THE TRADER OR INVESTOR CHECKLIST",
+          "num": "$5,000",
+          "line": "Bitcoin sellers get $5,000 more taxed. Want it back?",
+          "promise": "Give me 30 seconds. Keep more of your gain.",
+          "subj": "BITCOIN",
+          "stamp": "KEEP IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep more of your gain.",
+        "nocap": true
+      },
+      {
+        "say": "One *checklist* shows your tax label.",
+        "cap": "low"
+      },
+      {
+        "say": "The CRA, Canada's tax office, watches how you handle bitcoin.",
+        "part": "table",
+        "data": {
+          "k": "SAME GAIN",
+          "cols": [
+            "LEANS INVESTING",
+            "LEANS BUSINESS"
+          ],
+          "rows": [
+            {
+              "lab": "How often",
+              "cells": [
+                "Now and then",
+                "Often"
+              ]
+            },
+            {
+              "lab": "How long",
+              "cells": [
+                "Longer",
+                "Short flips"
+              ]
+            },
+            {
+              "lab": "What you know",
+              "cells": [
+                "The basics",
+                "Deep know-how"
+              ]
+            },
+            {
+              "lab": "Time spent",
+              "cells": [
+                "A little",
+                "A lot"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 1
+        },
+        "badge": "SAME GAIN",
+        "in": "zoom"
+      },
+      {
+        "say": "Two people each gain $10,000 on bitcoin, digital money held online."
+      },
+      {
+        "say": "Capital label adds $5,000, business label adds *all* $10,000.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "half of $10,000",
+              "tone": "win",
+              "h": "CAPITAL LABEL",
+              "v": "$5,000",
+              "at": 0
+            },
+            {
+              "sub": "all of $10,000",
+              "tone": "loss",
+              "h": "BUSINESS LABEL",
+              "v": "$10,000",
+              "at": 0
+            }
+          ],
+          "hi": 0,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "What picks your label?",
+        "part": "callout",
+        "data": {
+          "word": "label",
+          "line": "What picks your label?",
+          "at": "label"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Most people think they *choose* their label.",
+        "part": "tag",
+        "data": {
+          "old": "YOU PICK",
+          "new": "HABITS PICK",
+          "at": 1,
+          "sub": "how often, how long, whose money.",
+          "sub_at": 1
+        },
+        "in": "pan"
+      },
+      {
+        "say": "The CRA checks how often you trade and how long you hold."
+      },
+      {
+        "say": "Borrowed money tips you toward *business*.",
+        "part": "swap",
+        "data": {
+          "old": "YOU PICK",
+          "new": "HABITS PICK",
+          "at": "business",
+          "sub": "how often, how long, whose money.",
+          "sub_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "No *single* habit settles it.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "ONE HABIT",
+            "v": "ONE HABIT",
+            "sub": ""
+          },
+          "b": {
+            "h": "EACH CASE",
+            "v": "EACH CASE",
+            "sub": ""
+          },
+          "at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "The capital label keeps $5,000 off your income.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$5,000",
+          "tail": "off your income",
+          "at": "$5,000"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "The business label taxes an *extra* $5,000.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "+$5,000",
+              "v": "+$5,000",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "more taxed",
+              "v": "more taxed",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "pan"
+      },
+      {
+        "say": "Comment *TRADER,* and I will send you the trader or investor checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "TRADER",
+          "at": "TRADER",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the trader or investor checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bitcoin sellers get $5,000 more taxed. Want it back?",
+          "Give me 30 seconds. Keep more of your gain."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "One *checklist* shows your tax label."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME GAIN",
+        "data": {
+          "a": {
+            "h": "CAPITAL LABEL",
+            "v": "$5,000",
+            "sub": "half of $10,000",
+            "tone": "win"
+          },
+          "b": {
+            "h": "BUSINESS LABEL",
+            "v": "$10,000",
+            "sub": "all of $10,000",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "The CRA, Canada's tax office, watches how you handle bitcoin.",
+          "Two people each gain $10,000 on bitcoin, digital money held online."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "CAPITAL LABEL",
+            "v": "$5,000",
+            "sub": "half of $10,000",
+            "tone": "win"
+          },
+          "b": {
+            "h": "BUSINESS LABEL",
+            "v": "$10,000",
+            "sub": "all of $10,000",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "Capital label adds $5,000, business label adds *all* $10,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "What picks your label?"
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THE LABEL",
+        "data": {
+          "old": "YOU PICK",
+          "new": "HABITS PICK",
+          "sub": "how often, how long, whose money."
+        },
+        "lines": [
+          "Most people think they *choose* their label.",
+          "The CRA checks how often you trade and how long you hold."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "YOU PICK",
+          "new": "HABITS PICK",
+          "sub": "how often, how long, whose money."
+        },
+        "lines": [
+          "Borrowed money tips you toward *business*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ONE HABIT",
+          "new": "EACH CASE"
+        },
+        "lines": [
+          "No *single* habit settles it."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$5,000",
+          "new": "off your income"
+        },
+        "lines": [
+          "The capital label keeps $5,000 off your income."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "+$5,000",
+          "new": "more taxed"
+        },
+        "lines": [
+          "The business label taxes an *extra* $5,000."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "TRADER",
+          "gift": "the trader or investor checklist"
+        },
+        "lines": [
+          "Comment *TRADER,* and I will send you the trader or investor checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook and promise, a one-line lock-in naming the checklist, a compare of the same $10,000 gain under the two labels, a question rehook, a myth that habits and not you pick the label, the no-single-factor trap, the $5,000 closing, then the given loss and cta ending.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "rollnum",
+      "parts": [
+        "rollnum",
+        "table",
+        "stack",
+        "callout",
+        "tag",
+        "swap",
+        "wipe",
+        "tail",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "wipe",
+        "zoom",
+        "pan",
+        "zoom",
+        "wipe",
+        "zoom",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 2,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "TRADER"
+    }
+  },
+  "plain": {
+    "what": "Canada's tax office, the CRA, looks at how you handle bitcoin — digital money you hold online, not through a bank. If it calls your sales capital, you add only half of your profit to your income. If it calls your trading a business, you add the whole profit, so twice as much gets taxed.",
+    "so_what": "On a $10,000 profit, one label adds $5,000 to your income and the other adds all $10,000 — same profit, your share of tax can be twice as big.",
+    "do": "Write down how often you trade, how long you hold, and whether you use borrowed money.",
+    "words": [
+      {
+        "term": "CRA",
+        "means": "Canada's tax office, which collects taxes and checks your return."
+      },
+      {
+        "term": "bitcoin",
+        "means": "Digital money you hold online, not through a bank."
+      },
+      {
+        "term": "capital gain",
+        "means": "The profit you make on something worth more than you paid."
+      },
+      {
+        "term": "taxable",
+        "means": "The part of money the government counts as your income."
+      },
+      {
+        "term": "business income",
+        "means": "Profit from activity the tax office treats as a business."
+      },
+      {
+        "term": "non-registered account",
+        "means": "A plain investing account with no special tax break."
+      }
+    ]
+  },
+  "subject": "Bitcoin",
+  "deliver": {
+    "word": "TRADER",
+    "gift": "the trader or investor checklist"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Bitcoin sellers get $5,000 more taxed. Want it back?",
+        "part": "cover",
+        "data": {
+          "pill": "THE TRADER OR INVESTOR CHECKLIST",
+          "num": "$5,000",
+          "line": "Bitcoin sellers get $5,000 more taxed. Want it back?",
+          "promise": "Give me 30 seconds. Keep more of your gain.",
+          "subj": "BITCOIN",
+          "stamp": "KEEP IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep more of your gain.",
+        "nocap": true
+      },
+      {
+        "say": "Five rows show your *cut*.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people each made $10,000 on Bitcoin.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "CAPITAL LABEL",
+            "big": "$5,000",
+            "ft": "half of $10,000 counted"
+          },
+          "b": {
+            "k": "BUSINESS LABEL",
+            "big": "$10,000",
+            "ft": "all of $10,000 counted",
+            "at": "$10,000"
+          },
+          "gap": "$5,000",
+          "gap_at": "$5,000"
+        },
+        "badge": "TWO LABELS",
+        "in": "dissolve"
+      },
+      {
+        "say": "Of $10,000, capital adds $5,000, business adds all $10,000."
+      },
+      {
+        "say": "Half counted or all counted, a $5,000 *gap*.",
+        "part": "split",
+        "data": {
+          "k": "CAPITAL LABEL vs BUSINESS LABEL",
+          "total": "$10,000",
+          "a": {
+            "v": "$5,000",
+            "l": "CAPITAL LABEL",
+            "w": 0.3333333333333333,
+            "at": "$5,000"
+          },
+          "b": {
+            "v": "$10,000",
+            "l": "BUSINESS LABEL",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Most think they *choose* the label.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "YOU PICK",
+            "v": "YOU PICK",
+            "sub": ""
+          },
+          "b": {
+            "h": "HABITS PICK",
+            "v": "HABITS PICK",
+            "sub": ""
+          },
+          "at": 1
+        },
+        "in": "pan"
+      },
+      {
+        "say": "The CRA, Canada's tax office, reads your habits instead."
+      },
+      {
+        "say": "How often you trade, how long, whose money.",
+        "part": "tag",
+        "data": {
+          "old": "YOU PICK",
+          "new": "HABITS PICK",
+          "at": 0,
+          "sub": "the CRA reads five rows.",
+          "sub_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "No *single* row settles it, each case stands on its facts.",
+        "part": "tabs",
+        "data": {
+          "old": "ONE ROW",
+          "new": "ALL FIVE",
+          "at": 0,
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Same $10,000 gain, the label moves $5,000.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "5,000",
+          "pre": "$",
+          "suf": "",
+          "label": "the label decides",
+          "at": "$5,000"
+        }
+      },
+      {
+        "say": "Business label, *all* $10,000 counts.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "+$10,000",
+              "v": "+$10,000",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "all counted",
+              "v": "all counted",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *LABEL,* and I will send you the trader or investor checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "LABEL",
+          "at": "LABEL",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the trader or investor checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bitcoin sellers get $5,000 more taxed. Want it back?",
+          "Give me 30 seconds. Keep more of your gain."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Five rows show your *cut*."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO LABELS",
+        "data": {
+          "a": {
+            "h": "CAPITAL LABEL",
+            "v": "$5,000",
+            "sub": "half of $10,000 counted",
+            "tone": "win"
+          },
+          "b": {
+            "h": "BUSINESS LABEL",
+            "v": "$10,000",
+            "sub": "all of $10,000 counted",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "Two people each made $10,000 on Bitcoin.",
+          "Of $10,000, capital adds $5,000, business adds all $10,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "CAPITAL LABEL",
+            "v": "$5,000",
+            "sub": "half of $10,000 counted",
+            "tone": "win"
+          },
+          "b": {
+            "h": "BUSINESS LABEL",
+            "v": "$10,000",
+            "sub": "all of $10,000 counted",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "Half counted or all counted, a $5,000 *gap*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "WHO PICKS",
+        "data": {
+          "old": "YOU PICK",
+          "new": "HABITS PICK",
+          "sub": "the CRA reads five rows."
+        },
+        "lines": [
+          "Most think they *choose* the label.",
+          "The CRA, Canada's tax office, reads your habits instead."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "YOU PICK",
+          "new": "HABITS PICK",
+          "sub": "the CRA reads five rows."
+        },
+        "lines": [
+          "How often you trade, how long, whose money."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ONE ROW",
+          "new": "ALL FIVE"
+        },
+        "lines": [
+          "No *single* row settles it, each case stands on its facts."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$5,000",
+          "new": "the label decides"
+        },
+        "lines": [
+          "Same $10,000 gain, the label moves $5,000."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "+$10,000",
+          "new": "all counted"
+        },
+        "lines": [
+          "Business label, *all* $10,000 counts."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "LABEL",
+          "gift": "the trader or investor checklist"
+        },
+        "lines": [
+          "Comment *LABEL,* and I will send you the trader or investor checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc scene by scene: given hook and promise, a one-line lock-in naming the checklist, a compare that shows the $5,000 gap from the two CRA labels on one $10,000 gain, a first rehook, a myth that explains in plain words that habits pick the label, a second rehook carrying the no-single-row rule, the $5,000 closing, then the given ending of a dark loss cut and the LABEL cta.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "compare",
+        "split",
+        "callout",
+        "wipe",
+        "tag",
+        "tabs",
+        "odometer",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "pan",
+        "iris",
+        "wipe",
+        "fade",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "LABEL"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Bitcoin sellers get $5,000 more taxed. Want it back?",
+        "part": "rise",
+        "data": {
+          "pill": "THE TRADER OR INVESTOR CHECKLIST",
+          "num": "$5,000",
+          "line": "Bitcoin sellers get $5,000 more taxed. Want it back?",
+          "promise": "Give me 30 seconds. Keep more of your gain.",
+          "subj": "BITCOIN",
+          "stamp": "KEEP IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep more of your gain.",
+        "nocap": true
+      },
+      {
+        "say": "Five rows show your *cut*.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people each made $10,000 on Bitcoin.",
+        "part": "table",
+        "data": {
+          "k": "TWO LABELS",
+          "cols": [
+            "LEANS INVESTING",
+            "LEANS BUSINESS"
+          ],
+          "rows": [
+            {
+              "lab": "How often",
+              "cells": [
+                "Now and then",
+                "Often"
+              ]
+            },
+            {
+              "lab": "How long",
+              "cells": [
+                "Longer",
+                "Short flips"
+              ]
+            },
+            {
+              "lab": "What you know",
+              "cells": [
+                "The basics",
+                "Deep know-how"
+              ]
+            },
+            {
+              "lab": "Time spent",
+              "cells": [
+                "A little",
+                "A lot"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 1
+        },
+        "badge": "TWO LABELS",
+        "in": "dissolve"
+      },
+      {
+        "say": "Of $10,000, capital adds $5,000, business adds all $10,000."
+      },
+      {
+        "say": "Half counted or all counted, a $5,000 *gap*.",
+        "part": "donut",
+        "data": {
+          "k": "",
+          "segs": [
+            {
+              "l": "CAPITAL LABEL",
+              "v": "$5,000",
+              "w": 0.3333333333333333
+            },
+            {
+              "l": "BUSINESS LABEL",
+              "v": "$10,000",
+              "w": 0.6666666666666666
+            }
+          ],
+          "hi": 0,
+          "at": "$5,000"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Most think they *choose* the label.",
+        "part": "tag",
+        "data": {
+          "old": "YOU PICK",
+          "new": "HABITS PICK",
+          "at": "HABITS",
+          "sub": "the CRA reads five rows.",
+          "sub_at": 1
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "The CRA, Canada's tax office, reads your habits instead."
+      },
+      {
+        "say": "How often you trade, how long, whose money.",
+        "part": "swap",
+        "data": {
+          "old": "YOU PICK",
+          "new": "HABITS PICK",
+          "at": "How",
+          "sub": "the CRA reads five rows.",
+          "sub_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "No *single* row settles it, each case stands on its facts.",
+        "part": "tabs",
+        "data": {
+          "old": "ONE ROW",
+          "new": "ALL FIVE",
+          "at": 0,
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Same $10,000 gain, the label moves $5,000.",
+        "part": "stamp",
+        "data": {
+          "old": "$5,000",
+          "new": "the label decides",
+          "at": "the",
+          "k": ""
+        }
+      },
+      {
+        "say": "Business label, *all* $10,000 counts.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "+$10,000",
+          "tail": "all counted",
+          "at": 0
+        },
+        "dark": true,
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *LABEL,* and I will send you the trader or investor checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "LABEL",
+          "at": "LABEL",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the trader or investor checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bitcoin sellers get $5,000 more taxed. Want it back?",
+          "Give me 30 seconds. Keep more of your gain."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Five rows show your *cut*."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO LABELS",
+        "data": {
+          "a": {
+            "h": "CAPITAL LABEL",
+            "v": "$5,000",
+            "sub": "half of $10,000 counted",
+            "tone": "win"
+          },
+          "b": {
+            "h": "BUSINESS LABEL",
+            "v": "$10,000",
+            "sub": "all of $10,000 counted",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "Two people each made $10,000 on Bitcoin.",
+          "Of $10,000, capital adds $5,000, business adds all $10,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "CAPITAL LABEL",
+            "v": "$5,000",
+            "sub": "half of $10,000 counted",
+            "tone": "win"
+          },
+          "b": {
+            "h": "BUSINESS LABEL",
+            "v": "$10,000",
+            "sub": "all of $10,000 counted",
+            "tone": "loss"
+          },
+          "win": "a"
+        },
+        "lines": [
+          "Half counted or all counted, a $5,000 *gap*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "WHO PICKS",
+        "data": {
+          "old": "YOU PICK",
+          "new": "HABITS PICK",
+          "sub": "the CRA reads five rows."
+        },
+        "lines": [
+          "Most think they *choose* the label.",
+          "The CRA, Canada's tax office, reads your habits instead."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "YOU PICK",
+          "new": "HABITS PICK",
+          "sub": "the CRA reads five rows."
+        },
+        "lines": [
+          "How often you trade, how long, whose money."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ONE ROW",
+          "new": "ALL FIVE"
+        },
+        "lines": [
+          "No *single* row settles it, each case stands on its facts."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$5,000",
+          "new": "the label decides"
+        },
+        "lines": [
+          "Same $10,000 gain, the label moves $5,000."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "+$10,000",
+          "new": "all counted"
+        },
+        "lines": [
+          "Business label, *all* $10,000 counts."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "LABEL",
+          "gift": "the trader or investor checklist"
+        },
+        "lines": [
+          "Comment *LABEL,* and I will send you the trader or investor checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc scene by scene: given hook and promise, a one-line lock-in naming the checklist, a compare that shows the $5,000 gap from the two CRA labels on one $10,000 gain, a first rehook, a myth that explains in plain words that habits pick the label, a second rehook carrying the no-single-row rule, the $5,000 closing, then the given ending of a dark loss cut and the LABEL cta.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "rise",
+      "parts": [
+        "rise",
+        "table",
+        "donut",
+        "callout",
+        "tag",
+        "swap",
+        "tabs",
+        "stamp",
+        "tail",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "iris",
+        "wipe",
+        "dissolve",
+        "iris",
+        "wipe",
+        "fade",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "LABEL"
+    }
+  },
+  "caption_b": "🐶⛏️ Ever sold bitcoin and wondered why the CRA cares how often you trade?\n\nThe CRA also checks how long you hold and whether you borrowed to trade. A capital label adds half your gain to income, but a business label adds all of it.\n\nComment TRADER and I'll send you my trader or investor checklist 🪙\nWhich one sounds like you?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #cryptotaxcanada #torontofinance",
+  "caption_family": "feel"
+}

@@ -1,0 +1,1213 @@
+{
+  "key": "resp-canada-learning-bond",
+  "category": "tax",
+  "status": "draft",
+  "title": "Your kid's free $2,000 in an RESP",
+  "object": "THE FREE RESP MONEY CHECKLIST",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['sa2adc239'] · 퍼스나 The late starter with unused room",
+  "fact": {
+    "num": "2,000",
+    "unit": "$",
+    "thing": "Canada Learning Bond lifetime maximum per child",
+    "box": "RESP (Canada Learning Bond)",
+    "claim": "The Canada Learning Bond puts up to $2,000 per eligible child into an RESP, and you don't have to contribute anything. It pays $500 in the first year the child is eligible, then $100 for each later eligible year up to and including age 15. From July 1, 2026 to June 30, 2027, a family with 1 to 3 children qualifies if its adjusted family income is $58,523 or less. The cutoff is higher for bigger families ($66,036 for 4 children, $73,577 for 5), and the child has to be named as the beneficiary of an RESP before any money arrives.",
+    "sources": [
+      "Canada.ca: How much money can be added to RESPs",
+      "Canada.ca: CLB income table 2026-27"
+    ],
+    "verified": "find.py · 대조 2/2",
+    "felt": {
+      "num": "2,000",
+      "unit": "$",
+      "a": "2,000",
+      "b": "0",
+      "how": "child named on an RESP vs no RESP, no name, by age 15",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "Canada.ca: How much money can be added to RESPs",
+      "url": "https://www.canada.ca/en/services/benefits/education/education-savings/estimating-amounts.html",
+      "what": "Since the Canada Learning Bond is an income-based benefit, if the beneficiary is eligible to receive it, they could receive $500 the first year in an RESP, and then another $100 each eligible year after that up to and including age 15, up to a lifetime maximum of $2,000.",
+      "confidence": "1차"
+    },
+    {
+      "label": "Canada.ca: CLB income table 2026-27",
+      "url": "https://www.canada.ca/en/services/benefits/education/education-savings/estimating-amounts.html",
+      "what": "For July 1, 2026, to June 30, 2027, the income eligibility amount for the CLB is based on the following:",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "RESP can give $",
+        "num": "2,000",
+        "post": " free. Want yours?"
+      },
+      "promise": "Give me 30 seconds. Take the free money."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE FREE RESP MONEY CHECKLIST",
+      "title": "Under this income? Your kid's *$2,000* is waiting.",
+      "rowlabel": "CHILDREN",
+      "cols": [
+        "INCOME AT OR UNDER",
+        "MOST PER CHILD",
+        "YOU PUT IN"
+      ],
+      "labw": 22,
+      "rows": [
+        {
+          "a": "1 to 3",
+          "asub": "children",
+          "cells": [
+            "$58,523",
+            "$2,000",
+            "$0"
+          ]
+        },
+        {
+          "a": "4",
+          "asub": "children",
+          "cells": [
+            "$66,036",
+            "$2,000",
+            "$0"
+          ]
+        },
+        {
+          "a": "5",
+          "asub": "children",
+          "cells": [
+            "$73,577",
+            "$2,000",
+            "$0"
+          ]
+        }
+      ],
+      "hi": [
+        0,
+        0
+      ],
+      "note": "Adjusted family income, July 1, 2026 to June 30, 2027. <b>Save this. Find your row.</b>",
+      "source_label": "CANADA.CA · CLB INCOME TABLE"
+    },
+    {
+      "type": "flow",
+      "kicker": "HOW THE $2,000 ADDS UP",
+      "title": "No deposit needed. Just one *name.*",
+      "lead": "The bond goes into an RESP. <em>Your child has to be named on one first.</em>",
+      "steps": [
+        {
+          "n": "$500",
+          "t": "first eligible year",
+          "s": "lands in the RESP"
+        },
+        {
+          "n": "+$1,500",
+          "t": "$100 a year",
+          "s": "15 more eligible years"
+        },
+        {
+          "n": "$2,000",
+          "t": "lifetime most",
+          "s": "per child, up to age 15"
+        },
+        {
+          "n": "$0",
+          "t": "no RESP, no name",
+          "s": "nothing arrives",
+          "cut": true
+        }
+      ],
+      "tail": "$500 + 15 × $100 = $2,000. You don't put in a dollar. It only needs the RESP and the name.",
+      "source_label": "CANADA.CA",
+      "say": "Hama checked twice.|Free means free."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "RESP can give $2,000 free. Want yours?",
+      "Is your RESP missing $2,000 of free money?",
+      "No RESP open? You lose $500 year one.",
+      "RESP pays $2,000 before you put in anything.",
+      "RESP: Hama found $2,000 free. Want yours too?",
+      "Your RESP loses $100 every year you wait.",
+      "Canada Learning Bond: $2,000 free per child.",
+      "RESP open: $2,000. RESP not open: nothing.",
+      "RESP stops paying at 15. $2,000 walks away.",
+      "Never skip the RESP. That's $2,000 free."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "RESP can give $2,000 free. Want yours?",
+    "spoken": "RESP can give $2,000 free. Want yours?",
+    "promise": "Give me 30 seconds. Take the free money.",
+    "pick_why": "Free money with no money in is the rarest thing in this category, and \"Want yours?\" makes a parent save it in one second.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "CLAIM YOURS"
+  },
+  "lede": "The Canada Learning Bond pays up to $2,000 per eligible child into an RESP. You don't have to put in anything, but your child has to be named on an RESP first.",
+  "series": "FREE GOVERNMENT MONEY",
+  "source_note": "CANADA.CA · CLB RULES AND INCOME TABLE",
+  "caption": "🐶⛏️ If your kid has no RESP, $2,000 of free money could slip by.\n\nIt's the Canada Learning Bond, and the government adds it to your kid's school savings box for free. But nothing lands until your child is named on one.\n\nComment BOND and I'll send you my free RESP money checklist 🪙\nIs your kid named yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#respcanada #canadalearningbond #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "RESP can give $2,000 free. Want yours?",
+        "part": "tease",
+        "data": {
+          "pill": "THE FREE RESP MONEY CHECKLIST",
+          "num": "$2,000",
+          "line": "RESP can give $2,000 free. Want yours?",
+          "promise": "Give me 30 seconds. Take the free money.",
+          "subj": "RESP",
+          "stamp": "CLAIM YOURS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Take the free money.",
+        "nocap": true
+      },
+      {
+        "say": "Every year with no RESP, *nothing* lands.",
+        "cap": "low"
+      },
+      {
+        "say": "An RESP is a *savings* account for your child's school.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "NO RESP",
+            "v": "$0",
+            "sub": "no name, nothing arrives"
+          },
+          "b": {
+            "h": "NAMED ON AN RESP",
+            "v": "$2,000",
+            "sub": "same $0 put in"
+          },
+          "at": 1
+        },
+        "badge": "THE GAP",
+        "in": "zoom"
+      },
+      {
+        "say": "Two families put in $0, only *one* opens an RESP."
+      },
+      {
+        "say": "By age 15, one kid has $2,000, the other $0.",
+        "part": "table",
+        "data": {
+          "k": "THE FREE RESP MONEY CHECKLIST",
+          "cols": [
+            "INCOME AT OR UNDER",
+            "MOST PER CHILD",
+            "YOU PUT IN"
+          ],
+          "rows": [
+            {
+              "lab": "1 to 3",
+              "cells": [
+                "$58,523",
+                "$2,000",
+                "$0"
+              ]
+            },
+            {
+              "lab": "4",
+              "cells": [
+                "$66,036",
+                "$2,000",
+                "$0"
+              ]
+            },
+            {
+              "lab": "5",
+              "cells": [
+                "$73,577",
+                "$2,000",
+                "$0"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": "$0"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Who pays that $2,000?",
+        "part": "callout",
+        "data": {
+          "word": "$2,000",
+          "line": "Who pays that $2,000?",
+          "at": "$2,000"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "It is the Canada Learning Bond, *free* government money.",
+        "part": "strike",
+        "data": {
+          "old": "AUTOMATIC",
+          "new": "NAME FIRST",
+          "at": "name",
+          "k": "THE CATCH",
+          "sub": "no RESP, no name, nothing arrives.",
+          "sub_at": 1
+        },
+        "badge": "THE CATCH",
+        "in": "wipe"
+      },
+      {
+        "say": "No *name* on an RESP means nothing arrives."
+      },
+      {
+        "say": "For 1 to 3 kids, income must be $58,523 or less.",
+        "part": "callout",
+        "data": {
+          "word": "less",
+          "line": "For 1 to 3 kids, income must be $58,523 or less.",
+          "at": "less"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "That $2,000 is free, waiting on one *name*.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "2,000",
+          "pre": "$",
+          "suf": "",
+          "label": "waiting on one name",
+          "at": "$2,000"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Check your family *income*.",
+        "part": "checklist",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Family income",
+            "Named on an RESP",
+            "Save this post"
+          ],
+          "from": 0,
+          "to": 1,
+          "top": 420
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Check your kid is *named* on an RESP."
+      },
+      {
+        "say": "Comment *BOND,* and I will send you the free RESP money checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "BOND",
+          "at": "BOND",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the free RESP money checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "RESP can give $2,000 free. Want yours?",
+          "Give me 30 seconds. Take the free money."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Every year with no RESP, *nothing* lands."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "NO RESP",
+            "v": "$0",
+            "sub": "no name, nothing arrives",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "NAMED ON AN RESP",
+            "v": "$2,000",
+            "sub": "same $0 put in",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "An RESP is a *savings* account for your child's school.",
+          "Two families put in $0, only *one* opens an RESP."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "NO RESP",
+            "v": "$0",
+            "sub": "no name, nothing arrives",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "NAMED ON AN RESP",
+            "v": "$2,000",
+            "sub": "same $0 put in",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "By age 15, one kid has $2,000, the other $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Who pays that $2,000?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE CATCH",
+        "data": {
+          "old": "AUTOMATIC",
+          "new": "NAME FIRST",
+          "sub": "no RESP, no name, nothing arrives."
+        },
+        "lines": [
+          "It is the Canada Learning Bond, *free* government money.",
+          "No *name* on an RESP means nothing arrives."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "For 1 to 3 kids, income must be $58,523 or less."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$2,000",
+          "new": "waiting on one name"
+        },
+        "lines": [
+          "That $2,000 is free, waiting on one *name*."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Family income",
+            "Named on an RESP"
+          ]
+        },
+        "lines": [
+          "Check your family *income*.",
+          "Check your kid is *named* on an RESP."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "BOND",
+          "gift": "the free RESP money checklist"
+        },
+        "lines": [
+          "Comment *BOND,* and I will send you the free RESP money checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc exactly: the given hook and promise, a lock-in about what stays missing, a compare that says what an RESP is and then sets $0 against $2,000, a question rehook into the bond and its name-first catch, the $58,523 income rule as the next-number trap, the $2,000 again, and the given check and cta ending, in 14 lines and about 115 words.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "wipe",
+        "table",
+        "callout",
+        "strike",
+        "callout",
+        "odometer",
+        "checklist",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "wipe",
+        "zoom",
+        "pan",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "BOND"
+    }
+  },
+  "plain": {
+    "what": "An RESP is a savings account for your child's school later on. The Canada Learning Bond is free government money the government puts into that account, and you don't have to add any of your own. It starts with $500 the first year your child qualifies, then $100 for each later year that your child qualifies, up to age 15.",
+    "so_what": "That is up to $2,000 per child of free money, but none of it shows up until your child is named on an RESP.",
+    "do": "Write down your family's income, and check whether your child is actually named on an RESP.",
+    "words": [
+      {
+        "term": "RESP",
+        "means": "a savings account for your child's school"
+      },
+      {
+        "term": "Canada Learning Bond",
+        "means": "free government money added to a child's RESP"
+      },
+      {
+        "term": "beneficiary",
+        "means": "the person the money is for"
+      },
+      {
+        "term": "eligible",
+        "means": "you fit the rules, so you can get it"
+      },
+      {
+        "term": "adjusted family income",
+        "means": "your family income after certain amounts are taken off"
+      }
+    ]
+  },
+  "subject": "RESP",
+  "deliver": {
+    "word": "BOND",
+    "gift": "the free RESP money checklist"
+  },
+  "check": [
+    "Family income",
+    "Named on an RESP"
+  ],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "RESP can give $2,000 free. Want yours?",
+        "part": "rollnum",
+        "data": {
+          "pill": "THE FREE RESP MONEY CHECKLIST",
+          "num": "$2,000",
+          "line": "RESP can give $2,000 free. Want yours?",
+          "promise": "Give me 30 seconds. Take the free money.",
+          "subj": "RESP",
+          "stamp": "CLAIM YOURS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Take the free money.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and that $2,000 never shows up.",
+        "cap": "low"
+      },
+      {
+        "say": "Two kids, same family, $0 put in.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "NO RESP, NO NAME",
+            "big": "$0",
+            "ft": "nothing arrives"
+          },
+          "b": {
+            "k": "NAMED ON AN RESP",
+            "big": "$2,000",
+            "ft": "same $0 put in",
+            "at": "$2,000"
+          },
+          "gap": "$2,000",
+          "gap_at": "$2,000"
+        },
+        "badge": "THE GAP"
+      },
+      {
+        "say": "The one named on an RESP, a school savings box, gets $2,000."
+      },
+      {
+        "say": "No RESP, no name, $0.",
+        "part": "table",
+        "data": {
+          "k": "THE FREE RESP MONEY CHECKLIST",
+          "cols": [
+            "INCOME AT OR UNDER",
+            "MOST PER CHILD",
+            "YOU PUT IN"
+          ],
+          "rows": [
+            {
+              "lab": "1 to 3",
+              "cells": [
+                "$58,523",
+                "$2,000",
+                "$0"
+              ]
+            },
+            {
+              "lab": "4",
+              "cells": [
+                "$66,036",
+                "$2,000",
+                "$0"
+              ]
+            },
+            {
+              "lab": "5",
+              "cells": [
+                "$73,577",
+                "$2,000",
+                "$0"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": "$0"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "So who sends the $2,000?",
+        "part": "callout",
+        "data": {
+          "word": "$2,000",
+          "line": "So who sends the $2,000?",
+          "at": "$2,000"
+        }
+      },
+      {
+        "say": "The Canada Learning Bond is free government money for that box.",
+        "part": "badge",
+        "data": {
+          "old": "FREE MONEY",
+          "new": "NEEDS A NAME",
+          "at": 1,
+          "sub": "on an RESP first.",
+          "sub_at": 1,
+          "k": "THE BOND"
+        },
+        "badge": "THE BOND",
+        "in": "iris"
+      },
+      {
+        "say": "Nothing arrives until your kid is *named* on an RESP."
+      },
+      {
+        "say": "With 1 to 3 kids, family income must be $58,523 or under.",
+        "part": "callout",
+        "data": {
+          "word": "under",
+          "line": "With 1 to 3 kids, family income must be $58,523 or under.",
+          "at": "under"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Your kid's $2,000, and you put in $0.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$2,000",
+          "tail": "per kid, $0 in",
+          "at": "$2,000"
+        }
+      },
+      {
+        "say": "Check your family income.",
+        "part": "checklist",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Family income",
+            "Kid named on RESP",
+            "Save this post"
+          ],
+          "from": 0,
+          "to": 1,
+          "top": 420
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Then your kid's name on an RESP."
+      },
+      {
+        "say": "Comment *BOND,* and I will send you the free RESP money checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "BOND",
+          "at": "BOND",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the free RESP money checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "RESP can give $2,000 free. Want yours?",
+          "Give me 30 seconds. Take the free money."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and that $2,000 never shows up."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "NO RESP, NO NAME",
+            "v": "$0",
+            "sub": "nothing arrives",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "NAMED ON AN RESP",
+            "v": "$2,000",
+            "sub": "same $0 put in",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two kids, same family, $0 put in.",
+          "The one named on an RESP, a school savings box, gets $2,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "NO RESP, NO NAME",
+            "v": "$0",
+            "sub": "nothing arrives",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "NAMED ON AN RESP",
+            "v": "$2,000",
+            "sub": "same $0 put in",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "No RESP, no name, $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So who sends the $2,000?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE BOND",
+        "data": {
+          "old": "FREE MONEY",
+          "new": "NEEDS A NAME",
+          "sub": "on an RESP first."
+        },
+        "lines": [
+          "The Canada Learning Bond is free government money for that box.",
+          "Nothing arrives until your kid is *named* on an RESP."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "With 1 to 3 kids, family income must be $58,523 or under."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$2,000",
+          "new": "per kid, $0 in"
+        },
+        "lines": [
+          "Your kid's $2,000, and you put in $0."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Family income",
+            "Kid named on RESP"
+          ]
+        },
+        "lines": [
+          "Check your family income.",
+          "Then your kid's name on an RESP."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "BOND",
+          "gift": "the free RESP money checklist"
+        },
+        "lines": [
+          "Comment *BOND,* and I will send you the free RESP money checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc scene by scene: hook and promise, a lock-in on what leaks if they scroll, a compare that shows $0 against $2,000 and why the name makes the gap, a question rehook, a catch that names the bond and its one trap, the income number as the second rehook, the $2,000 again as the closing, then the given check and cta ending.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "rollnum",
+      "parts": [
+        "rollnum",
+        "compare",
+        "table",
+        "callout",
+        "badge",
+        "callout",
+        "tail",
+        "checklist",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "iris",
+        "fade",
+        "iris",
+        "wipe",
+        "fade",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "BOND"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "RESP can give $2,000 free. Want yours?",
+        "part": "rollnum",
+        "data": {
+          "pill": "THE FREE RESP MONEY CHECKLIST",
+          "num": "$2,000",
+          "line": "RESP can give $2,000 free. Want yours?",
+          "promise": "Give me 30 seconds. Take the free money.",
+          "subj": "RESP",
+          "stamp": "CLAIM YOURS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Take the free money.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and that $2,000 never shows up.",
+        "cap": "low"
+      },
+      {
+        "say": "Two kids, same family, $0 put in.",
+        "part": "table",
+        "data": {
+          "k": "THE GAP",
+          "cols": [
+            "INCOME AT OR UNDER",
+            "MOST PER CHILD",
+            "YOU PUT IN"
+          ],
+          "rows": [
+            {
+              "lab": "1 to 3",
+              "cells": [
+                "$58,523",
+                "$2,000",
+                "$0"
+              ]
+            },
+            {
+              "lab": "4",
+              "cells": [
+                "$66,036",
+                "$2,000",
+                "$0"
+              ]
+            },
+            {
+              "lab": "5",
+              "cells": [
+                "$73,577",
+                "$2,000",
+                "$0"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": "$0"
+        },
+        "badge": "THE GAP"
+      },
+      {
+        "say": "The one named on an RESP, a school savings box, gets $2,000."
+      },
+      {
+        "say": "No RESP, no name, $0.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "NO RESP, NO NAME",
+            "big": "$0",
+            "ft": "nothing arrives"
+          },
+          "b": {
+            "k": "NAMED ON AN RESP",
+            "big": "$2,000",
+            "ft": "same $0 put in",
+            "at": 0
+          },
+          "gap": "$2,000",
+          "gap_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "So who sends the $2,000?",
+        "part": "callout",
+        "data": {
+          "word": "$2,000",
+          "line": "So who sends the $2,000?",
+          "at": "$2,000"
+        }
+      },
+      {
+        "say": "The Canada Learning Bond is free government money for that box.",
+        "part": "badge",
+        "data": {
+          "old": "FREE MONEY",
+          "new": "NEEDS A NAME",
+          "at": 1,
+          "sub": "on an RESP first.",
+          "sub_at": 1,
+          "k": "THE BOND"
+        },
+        "badge": "THE BOND",
+        "in": "zoom"
+      },
+      {
+        "say": "Nothing arrives until your kid is *named* on an RESP."
+      },
+      {
+        "say": "With 1 to 3 kids, family income must be $58,523 or under.",
+        "part": "callout",
+        "data": {
+          "word": "under",
+          "line": "With 1 to 3 kids, family income must be $58,523 or under.",
+          "at": "under"
+        }
+      },
+      {
+        "say": "Your kid's $2,000, and you put in $0.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$2,000",
+          "tail": "per kid, $0 in",
+          "at": "$2,000"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Check your family income.",
+        "part": "checklist",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Family income",
+            "Kid named on RESP",
+            "Save this post"
+          ],
+          "from": 0,
+          "to": 1,
+          "top": 420
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Then your kid's name on an RESP."
+      },
+      {
+        "say": "Comment *BOND,* and I will send you the free RESP money checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "BOND",
+          "at": "BOND",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the free RESP money checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "RESP can give $2,000 free. Want yours?",
+          "Give me 30 seconds. Take the free money."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and that $2,000 never shows up."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "NO RESP, NO NAME",
+            "v": "$0",
+            "sub": "nothing arrives",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "NAMED ON AN RESP",
+            "v": "$2,000",
+            "sub": "same $0 put in",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two kids, same family, $0 put in.",
+          "The one named on an RESP, a school savings box, gets $2,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "NO RESP, NO NAME",
+            "v": "$0",
+            "sub": "nothing arrives",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "NAMED ON AN RESP",
+            "v": "$2,000",
+            "sub": "same $0 put in",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "No RESP, no name, $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So who sends the $2,000?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE BOND",
+        "data": {
+          "old": "FREE MONEY",
+          "new": "NEEDS A NAME",
+          "sub": "on an RESP first."
+        },
+        "lines": [
+          "The Canada Learning Bond is free government money for that box.",
+          "Nothing arrives until your kid is *named* on an RESP."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "With 1 to 3 kids, family income must be $58,523 or under."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$2,000",
+          "new": "per kid, $0 in"
+        },
+        "lines": [
+          "Your kid's $2,000, and you put in $0."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Family income",
+            "Kid named on RESP"
+          ]
+        },
+        "lines": [
+          "Check your family income.",
+          "Then your kid's name on an RESP."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "BOND",
+          "gift": "the free RESP money checklist"
+        },
+        "lines": [
+          "Comment *BOND,* and I will send you the free RESP money checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc scene by scene: hook and promise, a lock-in on what leaks if they scroll, a compare that shows $0 against $2,000 and why the name makes the gap, a question rehook, a catch that names the bond and its one trap, the income number as the second rehook, the $2,000 again as the closing, then the given check and cta ending.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "rollnum",
+      "parts": [
+        "rollnum",
+        "table",
+        "dumbbell",
+        "callout",
+        "badge",
+        "callout",
+        "tail",
+        "checklist",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "iris",
+        "fade",
+        "zoom",
+        "fade",
+        "pan",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "BOND"
+    }
+  }
+}

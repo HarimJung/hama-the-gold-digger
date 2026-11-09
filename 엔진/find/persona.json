@@ -1,0 +1,113 @@
+{
+ "made_on": "2026-11-04",
+ "from_signals": 34,
+ "personas": [
+  {
+   "name": "The bank-branch fund holder",
+   "who": "A beginner whose money sits in mutual funds bought through a bank advisor, who has just noticed the yearly fee.",
+   "fears": [
+    "being overcharged without knowing it",
+    "paying for advice that doesn't hold up",
+    "an advisor who gets a commission on the fund he sells"
+   ],
+   "wants": [
+    "to know what MER is acceptable",
+    "a straight answer on whether to trust the bank advisor",
+    "one simple low cost fund instead of a confusing mix"
+   ],
+   "words": [
+    "2.66% MER high?",
+    "unlikely to be worth the 1% premium",
+    "He gets a commission on the 1.73% MER",
+    "low cost globally diversified index fund",
+    "I would just pick one."
+   ],
+   "stops_for": "A real fee number like 2.66% next to what that fee costs in dollars over the years.",
+   "saves": "A side-by-side of a bank fund's MER and a one-fund ETF's MER, plus the questions to ask the advisor.",
+   "signal_ids": [
+    "s5957f8a9",
+    "s03d5eecd",
+    "s9810618f",
+    "s44cd2ff6",
+    "s1e8fd79e",
+    "s34791603"
+   ]
+  },
+  {
+   "name": "The late starter with unused room",
+   "who": "Someone just getting started, with cash sitting in chequing and TFSA, RRSP or FHSA room they haven't used or can't work out.",
+   "fears": [
+    "being too late to start",
+    "cash that's losing a good amount to inflation",
+    "a CRA penalty for putting in too much",
+    "missing the RRSP deadline"
+   ],
+   "wants": [
+    "to know how much TFSA room they actually have",
+    "to know whether a big goal like $3.7M is normal",
+    "a better place for the emergency fund than chequing",
+    "the exact dates for new room and deadlines"
+   ],
+   "words": [
+    "Just getting started at 35. Am I too late?",
+    "I need 3.7 million to live comfortably?",
+    "Is this way correct for calculating TFSA contribution room",
+    "no interest whatsoever",
+    "lost a good amount due to inflation"
+   ],
+   "stops_for": "A dollar figure showing what waiting one more year costs, or how much room has piled up since 2009.",
+   "saves": "A dated checklist with the TFSA limit announcement, the March 1 RRSP deadline and how to check their room.",
+   "signal_ids": [
+    "s292146ef",
+    "s0f1b792b",
+    "s0c817519",
+    "s1ec088d1",
+    "saf25f6ec",
+    "s869c550b",
+    "s0d27c638",
+    "s318c26e1",
+    "sc3e815bf",
+    "s53720468"
+   ]
+  },
+  {
+   "name": "The headline-chasing new holder",
+   "who": "A new holder of bitcoin, a bitcoin ETF or hot AI and single-stock products who is now down after this fall's drops.",
+   "fears": [
+    "coins stuck on an exchange that got hacked",
+    "the CRA seeing every trade",
+    "a 20% drop from one earnings report",
+    "not knowing whether to sell, hold or keep buying"
+   ],
+   "wants": [
+    "to know if money frozen on a platform comes back",
+    "to know what self-custody means",
+    "to know the year-end tax-loss cutoff",
+    "to know what they're actually buying behind a famous ticker"
+   ],
+   "words": [
+    "Hackers stole $6 billion in digital coins from Binance",
+    "Crypto slides after record Binance hack",
+    "Binance starts recovering frozen assets",
+    "its biggest daily percentage drop",
+    "that defeats the purpose of having a set allocation"
+   ],
+   "stops_for": "A big fresh loss number from the news, like the $6.3B hack or a 34.86% loss on a high-yield ETF, with a plain answer to whether their own money is safe.",
+   "saves": "A year-end crypto checklist covering the tax-loss cutoff, the 30-day superficial loss rule and the records to keep before CARF reporting.",
+   "signal_ids": [
+    "sf87b673f",
+    "s54817a27",
+    "s6c72ab73",
+    "sb7e63a60",
+    "s1ea3491b",
+    "s1cd6decc",
+    "sf1a90d28",
+    "se93fc621",
+    "s5ec2da7b",
+    "s9610c9a2",
+    "s3b87552b",
+    "s810a6981"
+   ]
+  }
+ ]
+}

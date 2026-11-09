@@ -1,0 +1,1245 @@
+{
+  "key": "spot-btc-etf-tfsa-vs-exchange",
+  "category": "stocks",
+  "status": "draft",
+  "title": "Bitcoin ETF in a TFSA vs an exchange",
+  "object": "THE BITCOIN ETF VS EXCHANGE TABLE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['sf87b673f', 's1ea3491b', 's6c72ab73'] · 퍼스나 The shaken coin holder",
+  "fact": {
+    "num": "35",
+    "unit": "$",
+    "thing": "yearly fund cost on $10,000 in Fidelity Advantage Bitcoin ETF (FBTC)",
+    "box": "TFSA",
+    "claim": "Fidelity Advantage Bitcoin ETF (FBTC), a Canadian spot bitcoin ETF, had an MER of 0.35% as at March 31, 2026. On $10,000 that comes to about $35 a year, taken out of the fund's value rather than billed to you, and it moves up or down with the balance. The CRA says income and capital gains earned in a TFSA are generally tax-free, even when you withdraw, as long as you stay within your contribution room. Bitcoin you sell or trade on an exchange outside a registered account may give you a capital gain (the CRA's example taxes 50% of it) or business income, and you must report it.",
+    "sources": [
+      "FIDELITY FBTC FACT SHEET",
+      "CRA – WHAT IS A TFSA",
+      "CRA – CRYPTO-ASSET TAX OBLIGATIONS",
+      "CRA – CALCULATING CAPITAL GAINS"
+    ],
+    "verified": "find.py · 대조 3/4",
+    "felt": {
+      "num": "35",
+      "unit": "$",
+      "a": null,
+      "b": null,
+      "how": "0.35% MER taken from the fund every year on a $10,000 FBTC balance",
+      "from": "fact, slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "FIDELITY FBTC FACT SHEET",
+      "url": "https://www.fidelity.ca/content/dam/fidelity/en/documents/etf/fact-sheet-fbtc-en.pdf",
+      "what": "0.35% MER as at March 31, 2026",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – WHAT IS A TFSA",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/what.html",
+      "what": "Any contribution you make to your TFSA and any income you earn through interest, dividends or capital gains are generally tax-free, even when you make a withdrawal.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – CRYPTO-ASSET TAX OBLIGATIONS",
+      "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/cryptocurrency-guide/crypto-assets-tax-obligations.html",
+      "what": "Based on your crypto-asset activities, you may realize business income (or loss) or capital gain (or loss).",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – CALCULATING CAPITAL GAINS",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/calculating-reporting-your-capital-gains-losses.html",
+      "what": "Fifty percent of the capital gain would be taxable and you would report $1,220 as your taxable capital gain on line 12700 of your 2025 Income Tax and Benefit Return.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "STOCKS · CANADA",
+      "topic": "WHY STOCKS",
+      "hook": {
+        "pre": "FBTC's $",
+        "num": "35",
+        "post": " leaves every year you hold. Want it back?"
+      },
+      "promise": "Give me 30 seconds. See it on one table."
+    },
+    {
+      "type": "flow",
+      "kicker": "WHERE THE $35 GOES",
+      "title": "The *$35* never shows up as a bill.",
+      "lead": "Inside the ETF, the yearly cost <em>comes out of the fund.</em>",
+      "steps": [
+        {
+          "n": "$10,000",
+          "t": "FBTC in your TFSA",
+          "s": "the example balance"
+        },
+        {
+          "n": "−$35",
+          "t": "0.35% MER a year",
+          "s": "taken from the fund value",
+          "cut": true
+        },
+        {
+          "n": "$0",
+          "t": "tax on the gain",
+          "s": "inside your TFSA room"
+        }
+      ],
+      "tail": "It's $35 at $10,000 and it moves with your balance. Sell bitcoin on an exchange outside a box and the gain goes on your return.",
+      "source_label": "FIDELITY FBTC · CRA",
+      "say": "Hama checks the fund cost.|Then the box."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE BITCOIN ETF VS EXCHANGE TABLE",
+      "title": "Same gain. Two places. One gets *taxed.*",
+      "rowlabel": "YOUR GAIN WHEN YOU SELL",
+      "cols": [
+        "TFSA ETF · TAXABLE",
+        "EXCHANGE · TAXABLE"
+      ],
+      "labw": 30,
+      "rows": [
+        {
+          "a": "$1,000",
+          "asub": "gain",
+          "cells": [
+            "$0",
+            "$500"
+          ]
+        },
+        {
+          "a": "$2,440",
+          "asub": "CRA example",
+          "cells": [
+            "$0",
+            "$1,220"
+          ]
+        },
+        {
+          "a": "$5,000",
+          "asub": "gain",
+          "cells": [
+            "$0",
+            "$2,500"
+          ]
+        },
+        {
+          "a": "$10,000",
+          "asub": "gain",
+          "cells": [
+            "$0",
+            "$5,000"
+          ]
+        }
+      ],
+      "hi": [
+        1,
+        1
+      ],
+      "note": "This is the taxable part, not your tax bill. It uses the 50% from the CRA example. Trading can count as business income instead. TFSA only within your room. Example math, not a promise. <b>Save this. Find your row.</b>",
+      "source_label": "CRA · CAPITAL GAINS EXAMPLE"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "FBTC takes $35 a year. Want it back?",
+      "FBTC or an exchange, which keeps more of your $10,000?",
+      "FBTC's $35 is nothing next to half your gain. Scared?",
+      "FBTC charges $35. Your own coins can cost more. Scared?",
+      "Hama found FBTC's $35 a year. Want it back?",
+      "FBTC quietly removes $35 from your $10,000. Scared?",
+      "FBTC and your exchange. One takes $35. Want to keep more?",
+      "Same bitcoin, FBTC tax-free, exchange taxes half your gain.",
+      "FBTC's $35 leaves every year you hold. Want it back?",
+      "Never hold FBTC outside the TFSA. Half your gain goes."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "FBTC's $35 leaves every year you hold. Want it back?",
+    "spoken": "FBTC's $35 leaves every year you hold. Want it back?",
+    "promise": "Give me 30 seconds. See it on one table.",
+    "pick_why": "Same bitcoin with two different endings is the biggest loss on the cover and it is exactly what the table answers, so they save it to check their own box.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "STOP THE LEAK"
+  },
+  "lede": "A spot bitcoin ETF in a TFSA costs about $35 a year on $10,000 but takes no tax on the gain. Bitcoin held on an exchange outside a box has no fund cost, but the gain gets reported.",
+  "series": "BITCOIN IN A BOX",
+  "source_note": "FIDELITY · CRA · FUND COST AND TAX RULES",
+  "caption": "🐶⛏️ If you hold FBTC, about $35 a year leaves and you never see a bill.\n\nThat's the yearly fee on $10,000, taken from the fund itself, so it's easy to miss. But your box decides your tax, because TFSA gains aren't taxed while you stay under your limit.\n\nComment COIN and I'll send you my two-box bitcoin table 🪙\nWhich box is yours sitting in?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #tfsacanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 시간.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "FBTC's $35 leaves every year you hold. Want it back?",
+        "part": "rollnum",
+        "data": {
+          "pill": "THE BITCOIN ETF VS EXCHANGE TABLE",
+          "num": "$35",
+          "line": "FBTC's $35 leaves every year you hold. Want it back?",
+          "promise": "Give me 30 seconds. See it on one table.",
+          "subj": "FBTC",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See it on one table.",
+        "nocap": true
+      },
+      {
+        "say": "That *table* is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Picture $10,000 in FBTC, Fidelity's fund that holds bitcoin.",
+        "part": "amount",
+        "data": {
+          "app": "Fbtc In A Tfsa",
+          "sub": "",
+          "options": [
+            "$10,000",
+            "−$35"
+          ],
+          "pick": 1,
+          "pick_at": 1,
+          "big": "$0",
+          "big_sub": "Tax on your gain"
+        },
+        "badge": "RECEIPT"
+      },
+      {
+        "say": "Every year, 0.35% *leaves*, about $35."
+      },
+      {
+        "say": "Inside a TFSA, the box where gains aren't *taxed*, you owe $0.",
+        "part": "notify",
+        "data": {
+          "items": [
+            {
+              "app": "FBTC balance",
+              "v": "$10,000",
+              "at": 0
+            },
+            {
+              "app": "0.35% a year leaves",
+              "v": "−$35",
+              "at": 0
+            }
+          ],
+          "total": "$0",
+          "total_at": "$0"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "And bitcoin on an exchange?",
+        "part": "callout",
+        "data": {
+          "word": "exchange",
+          "line": "And bitcoin on an exchange?",
+          "at": "exchange"
+        }
+      },
+      {
+        "say": "On an *exchange*, $1,220 of a $2,440 gain gets taxed.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "EXCHANGE",
+            "big": "$1,220",
+            "ft": "of a $2,440 gain taxed"
+          },
+          "b": {
+            "k": "FBTC IN TFSA",
+            "big": "$0",
+            "ft": "same $2,440 gain",
+            "at": "$0"
+          }
+        },
+        "badge": "TWO PLACES",
+        "in": "wipe"
+      },
+      {
+        "say": "Same $2,440 gain in a TFSA, $0 taxed."
+      },
+      {
+        "say": "That $0 holds only inside your TFSA *limit*.",
+        "part": "split",
+        "data": {
+          "k": "ALWAYS $0 vs INSIDE LIMIT",
+          "total": "INSIDE LIMIT",
+          "a": {
+            "v": "ALWAYS $0",
+            "l": "ALWAYS $0",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "INSIDE LIMIT",
+            "l": "INSIDE LIMIT",
+            "at": 0,
+            "label_at": 0
+          }
+        }
+      },
+      {
+        "say": "Write down which *box* holds your bitcoin.",
+        "part": "toggle",
+        "data": {
+          "k": "YOUR TURN",
+          "label": "Which box",
+          "sub": "and its yearly cost",
+          "on_at": "box",
+          "app": "Hama Savings"
+        },
+        "badge": "YOUR TURN",
+        "in": "wipe"
+      },
+      {
+        "say": "Then its yearly cost."
+      },
+      {
+        "say": "The $35 is gone, but the TFSA *keeps* your gain.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$35",
+          "tail": "TFSA keeps the gain",
+          "at": "$35"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *COIN,* and I will send you the two-box bitcoin table.",
+        "part": "tiles",
+        "data": {
+          "word": "COIN",
+          "at": "COIN",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the two-box bitcoin table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "FBTC's $35 leaves every year you hold. Want it back?",
+          "Give me 30 seconds. See it on one table."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "That *table* is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "RECEIPT",
+        "data": {
+          "title": "FBTC IN A TFSA",
+          "rows": [
+            [
+              "FBTC balance",
+              "$10,000"
+            ],
+            [
+              "0.35% a year leaves",
+              "−$35"
+            ]
+          ],
+          "total": [
+            "Tax on your gain",
+            "$0"
+          ]
+        },
+        "lines": [
+          "Picture $10,000 in FBTC, Fidelity's fund that holds bitcoin.",
+          "Every year, 0.35% *leaves*, about $35."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "FBTC IN A TFSA",
+          "rows": [
+            [
+              "FBTC balance",
+              "$10,000"
+            ],
+            [
+              "0.35% a year leaves",
+              "−$35"
+            ]
+          ],
+          "total": [
+            "Tax on your gain",
+            "$0"
+          ]
+        },
+        "lines": [
+          "Inside a TFSA, the box where gains aren't *taxed*, you owe $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "And bitcoin on an exchange?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO PLACES",
+        "data": {
+          "a": {
+            "h": "EXCHANGE",
+            "v": "$1,220",
+            "sub": "of a $2,440 gain taxed",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FBTC IN TFSA",
+            "v": "$0",
+            "sub": "same $2,440 gain",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "On an *exchange*, $1,220 of a $2,440 gain gets taxed.",
+          "Same $2,440 gain in a TFSA, $0 taxed."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ALWAYS $0",
+          "new": "INSIDE LIMIT"
+        },
+        "lines": [
+          "That $0 holds only inside your TFSA *limit*."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR TURN",
+        "data": {
+          "label": "Which box",
+          "sub": "and its yearly cost"
+        },
+        "lines": [
+          "Write down which *box* holds your bitcoin.",
+          "Then its yearly cost."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$35",
+          "new": "TFSA keeps the gain"
+        },
+        "lines": [
+          "The $35 is gone, but the TFSA *keeps* your gain."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "COIN",
+          "gift": "the two-box bitcoin table"
+        },
+        "lines": [
+          "Comment *COIN,* and I will send you the two-box bitcoin table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the receipt arc: given hook and promise, a one-line lock-in on the table they get, a flow receipt of the $35 and $0 tax, a question rehook, a side-by-side compare of the CRA $2,440 example in both places, the TFSA limit trap as the second rehook, one step to set up, the $35 closing, then the given cta.",
+      "shape": "receipt",
+      "ending": "cta",
+      "caption": "blur",
+      "opener": "rollnum",
+      "parts": [
+        "rollnum",
+        "amount",
+        "notify",
+        "callout",
+        "dumbbell",
+        "split",
+        "toggle",
+        "tail",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "wipe",
+        "fade",
+        "wipe",
+        "fade",
+        "wipe",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "COIN"
+    }
+  },
+  "plain": {
+    "what": "FBTC is a Canadian fund that holds bitcoin for you, run by Fidelity. Its yearly cost was 0.35% as at March 31, 2026, which is about $35 on $10,000, and that money comes out of the fund itself instead of arriving as a bill. The CRA says money you make inside a TFSA, a box where gains are not taxed, is generally tax free, while bitcoin you sell on an exchange outside a registered box has to be reported and can be taxed as a capital gain.",
+    "so_what": "On $10,000 in that fund, about $35 walks out the door every year and you never see a bill for it, so the cost is easy to miss.",
+    "do": "Write down which box your bitcoin sits in and what it costs you each year.",
+    "words": [
+      {
+        "term": "FBTC",
+        "means": "Fidelity's Canadian fund that holds bitcoin for you"
+      },
+      {
+        "term": "ETF",
+        "means": "one fund that holds many companies at once"
+      },
+      {
+        "term": "MER",
+        "means": "the yearly fee a fund quietly takes out of your money"
+      },
+      {
+        "term": "TFSA",
+        "means": "a savings box where your gains are not taxed"
+      },
+      {
+        "term": "registered account",
+        "means": "an account with special tax rules, like a TFSA"
+      },
+      {
+        "term": "contribution room",
+        "means": "how much money you are allowed to put in"
+      },
+      {
+        "term": "capital gain",
+        "means": "your profit when you sell for more than you paid"
+      }
+    ]
+  },
+  "subject": "FBTC",
+  "deliver": {
+    "word": "COIN",
+    "gift": "the two-box bitcoin table"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 시간.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "FBTC's $35 leaves every year you hold. Want it back?",
+        "part": "rollnum",
+        "data": {
+          "pill": "THE BITCOIN ETF VS EXCHANGE TABLE",
+          "num": "$35",
+          "line": "FBTC's $35 leaves every year you hold. Want it back?",
+          "promise": "Give me 30 seconds. See it on one table.",
+          "subj": "FBTC",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See it on one table.",
+        "nocap": true
+      },
+      {
+        "say": "That *table* is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Picture $10,000 in FBTC, Fidelity's fund that holds bitcoin.",
+        "part": "amount",
+        "data": {
+          "app": "Fbtc In A Tfsa",
+          "sub": "",
+          "options": [
+            "$10,000",
+            "−$35"
+          ],
+          "pick": 1,
+          "pick_at": 1,
+          "big": "$0",
+          "big_sub": "Tax on your gain"
+        },
+        "badge": "RECEIPT"
+      },
+      {
+        "say": "Every year, 0.35% *leaves*, about $35."
+      },
+      {
+        "say": "Inside a TFSA, the box where gains aren't *taxed*, you owe $0.",
+        "part": "notify",
+        "data": {
+          "items": [
+            {
+              "app": "FBTC balance",
+              "v": "$10,000",
+              "at": 0
+            },
+            {
+              "app": "0.35% a year leaves",
+              "v": "−$35",
+              "at": 0
+            }
+          ],
+          "total": "$0",
+          "total_at": "$0"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "And bitcoin on an exchange?",
+        "part": "callout",
+        "data": {
+          "word": "exchange",
+          "line": "And bitcoin on an exchange?",
+          "at": "exchange"
+        }
+      },
+      {
+        "say": "On an *exchange*, $1,220 of a $2,440 gain gets taxed.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "EXCHANGE",
+            "big": "$1,220",
+            "ft": "of a $2,440 gain taxed"
+          },
+          "b": {
+            "k": "FBTC IN TFSA",
+            "big": "$0",
+            "ft": "same $2,440 gain",
+            "at": "$0"
+          }
+        },
+        "badge": "TWO PLACES",
+        "in": "iris"
+      },
+      {
+        "say": "Same $2,440 gain in a TFSA, $0 taxed."
+      },
+      {
+        "say": "That $0 holds only inside your TFSA *limit*.",
+        "part": "split",
+        "data": {
+          "k": "ALWAYS $0 vs INSIDE LIMIT",
+          "total": "INSIDE LIMIT",
+          "a": {
+            "v": "ALWAYS $0",
+            "l": "ALWAYS $0",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "INSIDE LIMIT",
+            "l": "INSIDE LIMIT",
+            "at": 0,
+            "label_at": 0
+          }
+        }
+      },
+      {
+        "say": "Write down which *box* holds your bitcoin.",
+        "part": "toggle",
+        "data": {
+          "k": "YOUR TURN",
+          "label": "Which box",
+          "sub": "and its yearly cost",
+          "on_at": "box",
+          "app": "Hama Savings"
+        },
+        "badge": "YOUR TURN",
+        "in": "wipe"
+      },
+      {
+        "say": "Then its yearly cost."
+      },
+      {
+        "say": "The $35 is gone, but the TFSA *keeps* your gain.",
+        "part": "stamp",
+        "data": {
+          "old": "$35",
+          "new": "TFSA keeps the gain",
+          "at": "TFSA",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Comment *COIN,* and I will send you the two-box bitcoin table.",
+        "part": "tiles",
+        "data": {
+          "word": "COIN",
+          "at": "COIN",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the two-box bitcoin table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "FBTC's $35 leaves every year you hold. Want it back?",
+          "Give me 30 seconds. See it on one table."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "That *table* is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "RECEIPT",
+        "data": {
+          "title": "FBTC IN A TFSA",
+          "rows": [
+            [
+              "FBTC balance",
+              "$10,000"
+            ],
+            [
+              "0.35% a year leaves",
+              "−$35"
+            ]
+          ],
+          "total": [
+            "Tax on your gain",
+            "$0"
+          ]
+        },
+        "lines": [
+          "Picture $10,000 in FBTC, Fidelity's fund that holds bitcoin.",
+          "Every year, 0.35% *leaves*, about $35."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "FBTC IN A TFSA",
+          "rows": [
+            [
+              "FBTC balance",
+              "$10,000"
+            ],
+            [
+              "0.35% a year leaves",
+              "−$35"
+            ]
+          ],
+          "total": [
+            "Tax on your gain",
+            "$0"
+          ]
+        },
+        "lines": [
+          "Inside a TFSA, the box where gains aren't *taxed*, you owe $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "And bitcoin on an exchange?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO PLACES",
+        "data": {
+          "a": {
+            "h": "EXCHANGE",
+            "v": "$1,220",
+            "sub": "of a $2,440 gain taxed",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FBTC IN TFSA",
+            "v": "$0",
+            "sub": "same $2,440 gain",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "On an *exchange*, $1,220 of a $2,440 gain gets taxed.",
+          "Same $2,440 gain in a TFSA, $0 taxed."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ALWAYS $0",
+          "new": "INSIDE LIMIT"
+        },
+        "lines": [
+          "That $0 holds only inside your TFSA *limit*."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR TURN",
+        "data": {
+          "label": "Which box",
+          "sub": "and its yearly cost"
+        },
+        "lines": [
+          "Write down which *box* holds your bitcoin.",
+          "Then its yearly cost."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$35",
+          "new": "TFSA keeps the gain"
+        },
+        "lines": [
+          "The $35 is gone, but the TFSA *keeps* your gain."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "COIN",
+          "gift": "the two-box bitcoin table"
+        },
+        "lines": [
+          "Comment *COIN,* and I will send you the two-box bitcoin table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the receipt arc: given hook and promise, a one-line lock-in on the table they get, a flow receipt of the $35 and $0 tax, a question rehook, a side-by-side compare of the CRA $2,440 example in both places, the TFSA limit trap as the second rehook, one step to set up, the $35 closing, then the given cta.",
+      "shape": "receipt",
+      "ending": "cta",
+      "caption": "karaoke",
+      "opener": "rollnum",
+      "parts": [
+        "rollnum",
+        "amount",
+        "notify",
+        "callout",
+        "compare",
+        "split",
+        "toggle",
+        "stamp",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "wipe",
+        "fade",
+        "iris",
+        "fade",
+        "wipe",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "COIN"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 시간.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "FBTC's $35 leaves every year you hold. Want it back?",
+        "part": "window",
+        "data": {
+          "pill": "THE BITCOIN ETF VS EXCHANGE TABLE",
+          "num": "$35",
+          "line": "FBTC's $35 leaves every year you hold. Want it back?",
+          "promise": "Give me 30 seconds. See it on one table.",
+          "subj": "FBTC",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See it on one table.",
+        "nocap": true
+      },
+      {
+        "say": "That *table* is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Picture $10,000 in FBTC, Fidelity's fund that holds bitcoin.",
+        "part": "amount",
+        "data": {
+          "app": "Fbtc In A Tfsa",
+          "sub": "",
+          "options": [
+            "$10,000",
+            "−$35"
+          ],
+          "pick": 1,
+          "pick_at": 1,
+          "big": "$0",
+          "big_sub": "Tax on your gain"
+        },
+        "badge": "RECEIPT",
+        "in": "wipe"
+      },
+      {
+        "say": "Every year, 0.35% *leaves*, about $35."
+      },
+      {
+        "say": "Inside a TFSA, the box where gains aren't *taxed*, you owe $0.",
+        "part": "notify",
+        "data": {
+          "items": [
+            {
+              "app": "FBTC balance",
+              "v": "$10,000",
+              "at": 0
+            },
+            {
+              "app": "0.35% a year leaves",
+              "v": "−$35",
+              "at": 0
+            }
+          ],
+          "total": "$0",
+          "total_at": "$0"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "And bitcoin on an exchange?",
+        "part": "callout",
+        "data": {
+          "word": "exchange",
+          "line": "And bitcoin on an exchange?",
+          "at": "exchange"
+        }
+      },
+      {
+        "say": "On an *exchange*, $1,220 of a $2,440 gain gets taxed.",
+        "part": "split",
+        "data": {
+          "k": "EXCHANGE vs FBTC IN TFSA",
+          "total": "$1,220",
+          "a": {
+            "v": "$1,220",
+            "l": "EXCHANGE",
+            "w": 0.88,
+            "at": "$1,220"
+          },
+          "b": {
+            "v": "$0",
+            "l": "FBTC IN TFSA",
+            "at": "$0",
+            "label_at": "$0"
+          }
+        },
+        "badge": "TWO PLACES",
+        "in": "wipe"
+      },
+      {
+        "say": "Same $2,440 gain in a TFSA, $0 taxed."
+      },
+      {
+        "say": "That $0 holds only inside your TFSA *limit*.",
+        "part": "tag",
+        "data": {
+          "old": "ALWAYS $0",
+          "new": "INSIDE LIMIT",
+          "at": "INSIDE"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Write down which *box* holds your bitcoin.",
+        "part": "toggle",
+        "data": {
+          "k": "YOUR TURN",
+          "label": "Which box",
+          "sub": "and its yearly cost",
+          "on_at": "box",
+          "app": "Hama Savings"
+        },
+        "badge": "YOUR TURN",
+        "in": "zoom"
+      },
+      {
+        "say": "Then its yearly cost."
+      },
+      {
+        "say": "The $35 is gone, but the TFSA *keeps* your gain.",
+        "part": "stamp",
+        "data": {
+          "old": "$35",
+          "new": "TFSA keeps the gain",
+          "at": "TFSA",
+          "k": ""
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *COIN,* and I will send you the two-box bitcoin table.",
+        "part": "tiles",
+        "data": {
+          "word": "COIN",
+          "at": "COIN",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the two-box bitcoin table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "FBTC's $35 leaves every year you hold. Want it back?",
+          "Give me 30 seconds. See it on one table."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "That *table* is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "RECEIPT",
+        "data": {
+          "title": "FBTC IN A TFSA",
+          "rows": [
+            [
+              "FBTC balance",
+              "$10,000"
+            ],
+            [
+              "0.35% a year leaves",
+              "−$35"
+            ]
+          ],
+          "total": [
+            "Tax on your gain",
+            "$0"
+          ]
+        },
+        "lines": [
+          "Picture $10,000 in FBTC, Fidelity's fund that holds bitcoin.",
+          "Every year, 0.35% *leaves*, about $35."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "FBTC IN A TFSA",
+          "rows": [
+            [
+              "FBTC balance",
+              "$10,000"
+            ],
+            [
+              "0.35% a year leaves",
+              "−$35"
+            ]
+          ],
+          "total": [
+            "Tax on your gain",
+            "$0"
+          ]
+        },
+        "lines": [
+          "Inside a TFSA, the box where gains aren't *taxed*, you owe $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "And bitcoin on an exchange?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO PLACES",
+        "data": {
+          "a": {
+            "h": "EXCHANGE",
+            "v": "$1,220",
+            "sub": "of a $2,440 gain taxed",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FBTC IN TFSA",
+            "v": "$0",
+            "sub": "same $2,440 gain",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "On an *exchange*, $1,220 of a $2,440 gain gets taxed.",
+          "Same $2,440 gain in a TFSA, $0 taxed."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ALWAYS $0",
+          "new": "INSIDE LIMIT"
+        },
+        "lines": [
+          "That $0 holds only inside your TFSA *limit*."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR TURN",
+        "data": {
+          "label": "Which box",
+          "sub": "and its yearly cost"
+        },
+        "lines": [
+          "Write down which *box* holds your bitcoin.",
+          "Then its yearly cost."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$35",
+          "new": "TFSA keeps the gain"
+        },
+        "lines": [
+          "The $35 is gone, but the TFSA *keeps* your gain."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "COIN",
+          "gift": "the two-box bitcoin table"
+        },
+        "lines": [
+          "Comment *COIN,* and I will send you the two-box bitcoin table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the receipt arc: given hook and promise, a one-line lock-in on the table they get, a flow receipt of the $35 and $0 tax, a question rehook, a side-by-side compare of the CRA $2,440 example in both places, the TFSA limit trap as the second rehook, one step to set up, the $35 closing, then the given cta.",
+      "shape": "receipt",
+      "ending": "cta",
+      "caption": "blur",
+      "opener": "window",
+      "parts": [
+        "window",
+        "amount",
+        "notify",
+        "callout",
+        "split",
+        "tag",
+        "toggle",
+        "stamp",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "dissolve",
+        "fade",
+        "wipe",
+        "iris",
+        "zoom",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "COIN"
+    }
+  },
+  "caption_b": "🐶⛏️ Check which box your FBTC sits in before you add another dollar.\n\nThe 0.35% fee comes out of the fund itself, so you never get a bill for it. But inside a TFSA your gain isn't taxed, as long as you stay under your limit.\n\nComment COIN and I'll send you my two-box bitcoin table 🪙\nWhich box is yours in?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #tfsacanada #torontofinance",
+  "caption_family": "warning"
+}

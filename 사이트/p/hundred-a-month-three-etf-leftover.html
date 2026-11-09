@@ -1,0 +1,133 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>The $100 monthly split sheet · Hama the Gold Digger</title>
+<meta name="description" content="XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?">
+<meta property="og:title" content="The $100 monthly split sheet · Hama the Gold Digger"><meta property="og:description" content="XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#FFFBEF;--band:#F6EED2;--card:#fff;--ink:#16140F;--sub:rgba(22,20,15,.72);--gold:#E3BE5A;--goldink:#9A7414;--golddeep:#7A5A0E;--rose:#D8415C;--footer:#1C1710;--line:rgba(22,20,15,.16);
+--disp:"Inter",-apple-system,"Apple SD Gothic Neo",sans-serif;--pen:"Playfair Display",serif;--wrap:1080px;--nav-h:64px;--sb-h:58px}
+*{box-sizing:border-box;margin:0}
+html{scroll-padding-top:calc(var(--nav-h) + 16px)}
+body{background:var(--cream);color:var(--ink);font-family:var(--disp);font-size:16.5px;line-height:1.7;-webkit-font-smoothing:antialiased;min-height:100dvh;display:flex;flex-direction:column;padding-top:var(--nav-h);overflow-x:clip}
+a{color:inherit}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 20px}
+em{font-style:normal;color:var(--goldink);font-weight:800}
+.neg{color:var(--rose)}
+/* nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,251,239,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:26px;height:var(--nav-h)}
+.nav .logo{font-weight:900;font-size:17px;letter-spacing:-.02em;text-decoration:none;white-space:nowrap}.nav .logo i{color:var(--goldink);font-style:normal}
+.navlinks{margin-left:auto;display:none;gap:22px;font-size:14.5px;color:var(--sub)}.navlinks a{text-decoration:none}.navlinks a.on{color:var(--ink);font-weight:800;border-bottom:2px solid var(--goldink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:13px 24px;border:0;border-radius:4px;font:900 15px var(--disp);letter-spacing:.02em;text-decoration:none;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(154,116,20,.3)}
+.btn-gold{background:var(--ink);color:var(--gold)}.btn-line{background:none;color:var(--ink);box-shadow:inset 0 0 0 2px var(--ink)}
+.btn-sm{min-height:40px;padding:8px 16px;font-size:13.5px;margin-left:auto;white-space:nowrap}
+@media(min-width:640px){.navlinks{display:flex}.btn-sm{margin-left:0}}
+/* flood hero */
+.flood{background:var(--gold);color:var(--ink);text-align:center;padding:64px 0 54px;border-bottom:1px solid var(--golddeep)}
+.kicker{display:inline-block;background:var(--cream);color:var(--golddeep);font:900 12px var(--disp);letter-spacing:.16em;text-transform:uppercase;padding:8px 14px;border-radius:3px;box-shadow:4px 4px 0 var(--ink);margin-bottom:20px}
+.h1{font-size:clamp(34px,6.4vw,60px);font-weight:900;letter-spacing:-.025em;line-height:1.14;text-wrap:balance}
+.u{position:relative;white-space:nowrap;z-index:0}.u:after{content:"";position:absolute;left:-.08em;right:-.08em;top:.12em;bottom:.08em;background:var(--cream);z-index:-1;border-radius:.05em;transform:rotate(-1deg)}
+.flood-body{max-width:34em;margin:16px auto 0;font-size:17px}
+.pen{display:inline-block;font:italic 500 20px var(--pen);transform:rotate(-1deg);margin-top:16px}
+/* library bar */
+.lib-bar{position:sticky;top:var(--nav-h);z-index:30;background:rgba(255,251,239,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.lib-row{display:flex;gap:8px;align-items:center;padding:10px 0}
+.lib-search{flex:auto;display:flex;align-items:center;height:44px;border:1.5px solid var(--line);border-radius:999px;background:var(--card);padding:0 6px 0 16px}
+.lib-search input{flex:auto;min-width:0;height:100%;border:0;background:none;font:500 16px var(--disp);color:var(--ink);outline:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;padding:0 0 12px}
+.chip{border:1.5px solid var(--ink);border-radius:999px;padding:6px 12px;font:800 13px var(--disp);background:var(--card);cursor:pointer}
+.chip.on{background:var(--ink);color:var(--gold)}.chip small{color:var(--sub);font-weight:600;margin-left:4px}.chip.on small{color:var(--gold)}
+.lib-count{color:var(--sub);font-size:13px;padding:14px 0 6px}
+/* rows */
+.g-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:14px;padding:6px 0 40px}
+@media(min-width:720px){.g-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}}
+.row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;min-height:170px;padding:22px 22px;background:var(--card);border:1px solid rgba(154,116,20,.22);border-radius:20px;text-decoration:none;transition:transform .16s,box-shadow .16s,border-color .16s}
+.row:nth-child(2n){background:var(--band)}
+.row:hover{transform:translateY(-3px);border-color:var(--goldink);box-shadow:0 16px 44px rgba(22,20,15,.12)}
+.row:hover .arrow{transform:translateX(4px)}
+.row.hide{display:none}
+.rb{display:flex;flex-direction:column;gap:7px;min-width:0}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font:900 11.5px/1.5 var(--disp);padding:2px 9px;border-radius:999px;color:var(--golddeep);background:rgba(227,190,90,.28)}
+.tag.tool{color:var(--ink);background:none;box-shadow:inset 0 0 0 1px rgba(22,20,15,.3)}
+.rt{font-size:clamp(17px,2vw,21px);font-weight:900;line-height:1.3;letter-spacing:-.015em}
+.rd{color:var(--sub);font-size:14.5px;line-height:1.55;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.rm{color:var(--sub);font-size:12.5px}
+.arrow{width:44px;height:44px;border-radius:50%;background:var(--ink);color:var(--gold);display:grid;place-items:center;font-weight:900;transition:transform .16s}
+/* stats band */
+.stats{background:var(--band);border-block:1px solid var(--line)}
+.stats .wrap{display:grid;grid-template-columns:1fr 1fr;padding:18px 20px}
+@media(min-width:840px){.stats .wrap{grid-template-columns:repeat(4,minmax(0,1fr));padding:0 20px}}
+.stat{padding:16px 0;text-align:center}.stat b{display:block;font-size:clamp(30px,4.6vw,46px);font-weight:900;letter-spacing:-.02em;font-variant-numeric:tabular-nums}.stat b i{font-style:normal;color:var(--goldink)}.stat span{color:var(--sub);font-size:14px}
+/* letter */
+.letter{padding:48px 0}
+.letter .box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px;box-shadow:0 16px 50px rgba(22,20,15,.08);max-width:640px;margin:0 auto}
+.letter h2{font-size:26px;font-weight:900;letter-spacing:-.02em}.letter p{color:var(--sub);margin:8px 0 16px;font-size:15px}
+.letter form{display:flex;gap:8px}.letter input{flex:1;min-width:0;height:48px;border:1.5px solid var(--ink);border-radius:4px;padding:0 14px;font:500 15px var(--disp);background:#fff}
+/* footer */
+footer{background:var(--footer);color:var(--cream);margin-top:auto;padding:44px 0 56px;font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center}footer a{color:var(--cream);text-decoration:none;opacity:.85}footer .fine{width:100%;opacity:.5;font-size:12.5px;margin-top:14px}
+/* guide page */
+.layout{width:100%;max-width:84rem;margin:0 auto;padding:36px 20px 80px}
+@media(min-width:1024px){.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,44rem) minmax(0,1fr);column-gap:32px}.toc{display:block!important}}
+.reader{min-width:0;max-width:44rem;margin:0 auto;grid-column:2;width:100%}
+.toc{display:none;grid-column:1;position:sticky;top:calc(var(--nav-h) + 24px);align-self:start;max-width:15rem;font-size:14px}
+.toc h4{font-size:14px;font-weight:900;margin-bottom:10px}
+.toc ol{list-style:none;padding:0}.toc li{display:flex;gap:10px;padding:8px 6px;border-radius:8px}.toc li b{color:var(--goldink);min-width:14px}.toc a{text-decoration:none;color:var(--sub)}.toc li:hover{background:var(--band)}
+.toc .extra{border-top:1px solid var(--line);margin-top:10px;padding-top:10px}
+.head{margin-bottom:28px}
+.head h1{font-size:clamp(30px,4.6vw,44px);font-weight:900;letter-spacing:-.025em;line-height:1.18}
+.meta{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin-top:14px;color:var(--sub);font-size:13.5px}
+.meta .tag{font-size:12.5px;padding:4px 12px}.meta .tag.tool{background:var(--card)}
+.callout{position:relative;background:var(--card);border-radius:4px;padding:26px 20px 20px;margin:18px -8px 0;box-shadow:0 1px rgba(22,20,15,.05),0 12px 26px -16px rgba(22,20,15,.35);font-size:17px;line-height:1.75}
+.callout:before{content:"";position:absolute;top:-12px;left:50%;transform:translate(-50%) rotate(-4deg);width:96px;height:26px;border-radius:2px;background:repeating-linear-gradient(45deg,rgba(227,190,90,.75) 0 8px,rgba(227,190,90,.45) 8px 16px)}
+.callout b{font-weight:800}.callout .hl{background:linear-gradient(transparent 55%,rgba(227,190,90,.55) 55%)}
+.inside{margin:34px 0 10px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.inside .ih{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:4px 12px}.inside h2{font-size:21px;font-weight:900}.inside .ih span{color:var(--sub);font-size:13px;font-weight:800;letter-spacing:.08em}
+.inside ol{list-style:none;padding:0;margin-top:10px}.inside li a{display:flex;gap:12px;align-items:baseline;padding:10px 4px;border-top:1px solid var(--line);text-decoration:none;font-size:15.5px}.inside li:first-child a{border-top:0}.inside li b{color:var(--goldink);min-width:18px}.inside li span{margin-left:auto;color:var(--sub);font-size:13px;white-space:nowrap}
+.prose h2{font-size:clamp(23px,3.4vw,30px);font-weight:900;letter-spacing:-.02em;line-height:1.32;border-top:1px solid var(--line);margin-top:2.2em;padding-top:1.1em}
+.prose h2 small{display:block;font:900 12px var(--disp);letter-spacing:.14em;color:var(--goldink);margin-bottom:6px}
+.prose p{margin:14px 0}.prose .lead{font-size:17px}
+.prose blockquote{border-left:4px solid var(--gold);background:var(--band);border-radius:0 8px 8px 0;padding:12px 18px;margin:16px 0;font-size:15.5px}.prose blockquote b{font-weight:900}
+.box2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}
+.bx{border:1.5px solid var(--line);border-radius:14px;padding:14px;background:var(--card)}.bx.win{border-color:var(--goldink);background:rgba(227,190,90,.22)}
+.bx .h{font:800 11px var(--disp);letter-spacing:.1em;color:var(--sub)}.bx.win .h{color:var(--goldink)}.bx .v{font-size:26px;font-weight:900;line-height:1.1;margin:8px 0}.bx p{font-size:13.5px;color:var(--sub);margin:4px 0 0;line-height:1.45}
+.tablewrap{overflow-x:auto;margin:14px 0}.prose table{border-collapse:collapse;width:100%;font-size:15px;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.prose th{background:var(--band);font-weight:900;text-align:left;padding:10px 12px}.prose td{padding:10px 12px;border-top:1px solid var(--line);vertical-align:top}.prose tr.hi td{background:rgba(227,190,90,.22);font-weight:800}
+.flow{display:grid;gap:12px;margin:14px 0}.flow .st{display:flex;gap:14px;align-items:baseline;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}.flow .st b{color:var(--goldink);font-size:20px;min-width:70px}.flow .st small{display:block;color:var(--sub)}
+.check{display:flex;gap:10px;padding:9px 0;border-bottom:1px solid var(--line);font-weight:600}.check:before{content:"✓";color:var(--goldink);font-weight:900}
+.src{color:var(--sub);font-size:13px;margin-top:8px}
+.chwrap{font-size:8px;margin:14px 0}@media(min-width:560px){.chwrap{font-size:10px}}.chwrap .lab{font:800 11px var(--disp);letter-spacing:.14em;color:var(--sub);margin:14px 0 6px}
+.links{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:14px 0}.links a{display:flex;justify-content:space-between;gap:12px;padding:14px 16px;border-top:1px solid var(--line);text-decoration:none;font-size:15px;font-weight:700}.links a:first-child{border-top:0}.links a span{color:var(--sub);font-weight:500;white-space:nowrap;font-size:13px}
+.thanks{background:var(--band);border:1px solid var(--line);border-radius:16px;padding:24px;margin-top:40px}.thanks h3{font-size:20px;font-weight:900;margin-bottom:6px}.thanks p{color:var(--sub);font-size:15px;margin-bottom:14px}.thanks .btns{display:flex;flex-wrap:wrap;gap:10px}
+.stickybar{position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--footer);color:var(--cream);padding:7px 0;border-top:1px solid rgba(255,251,239,.14)}
+.stickybar .wrap{display:flex;align-items:center;gap:12px}.stickybar .word{font:900 13px var(--disp);letter-spacing:.1em}.stickybar .word i{font-style:normal;color:var(--gold)}.stickybar .btn{margin-left:auto;min-height:42px;padding:8px 14px;font-size:13px;background:var(--gold);color:var(--ink)}
+body.guide{padding-bottom:var(--sb-h)}
+
+.chw{background:#fff;color:#16140F;border:2px solid #ECE9E1;border-radius:1.2em;padding:1.3em 1.4em 1em;font-family:"Inter",-apple-system,sans-serif;box-shadow:0 1em 3em rgba(22,20,15,.08)}
+.chw .chtop{display:flex;justify-content:space-between;align-items:flex-start;gap:1em}
+.chw .chtop>div:first-child{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chw .tk{font-size:2.9em;font-weight:800;letter-spacing:-.03em;line-height:1;margin-right:.35em}
+.chw .nm{font-size:1.2em;color:#8C877C;font-weight:500;vertical-align:.4em;text-overflow:ellipsis}
+.chw .ex{color:#8C877C;font-size:1em;margin-top:.45em;font-weight:500}
+.chw .px{text-align:right;white-space:nowrap}.chw .px b{font-size:1.35em;font-weight:700;margin-right:.6em}
+.chw .px em{font-style:normal;font-size:1.35em;font-weight:800;display:inline-block}.chw .px span{display:block;color:#8C877C;font-size:1em;margin-top:.1em;font-weight:500}
+.chw .up{color:#9A7414}.chw .dn{color:#D8415C}
+.chw .tabs{display:flex;justify-content:space-between;border-top:1.5px solid #ECE9E1;margin-top:1em;padding:.75em 0 .6em;font-size:1.05em;font-weight:700;color:#8C877C}
+.chw .tabs span{padding:.35em .6em;border-radius:2em}.chw .tabs .on{background:#16140F;color:#fff}
+.chw .plot{display:flex;border-top:1.5px solid #ECE9E1}
+.chw .area{flex:1;height:16em;border-left:1.5px solid #ECE9E1}.chw .chsvg{width:100%;height:100%;display:block}
+.chw .yax{width:3.4em;display:flex;flex-direction:column;justify-content:space-around;text-align:right;font-weight:700;font-size:1.05em;color:#16140F}
+.chw .xax{position:relative;height:1.7em;margin-right:3.4em;font-weight:700;font-size:1.05em;color:#16140F}
+.chw .xax span{position:absolute;top:.3em;padding-left:.35em;border-left:1.5px solid #ECE9E1}
+.chw .vol{display:flex;align-items:flex-end;gap:2px;height:1.2em;margin:.5em 3.4em .6em 0}.chw .vol i{flex:1;background:#D9D4C7;border-radius:1px}
+.chw .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:.4em 1em;border-top:1.5px solid #ECE9E1;padding-top:.7em;font-size:1em}
+.chw .stats div{display:flex;flex-direction:column}.chw .stats span{color:#8C877C;font-weight:500}.chw .stats b{font-weight:700;margin-top:.15em}
+.chw .src{color:#8C877C;font-size:.8em;margin-top:.7em}
+</style></head><body class="guide">
+<nav class="nav"><div class="wrap"><a class="logo" href="../index.html">HAMA <i>THE GOLD DIGGER</i></a>
+<div class="navlinks"><a href="../index.html" class="">Tables</a><a href="https://www.instagram.com/hamathegolddigger/" rel="noopener">Instagram</a></div>
+<a class="btn btn-gold btn-sm" href="https://www.instagram.com/hamathegolddigger/" rel="noopener">Follow Hama</a></div></nav><div class="layout"><aside class="toc"><h4>In this guide</h4><ol><li><b>1</b><a href="#s1">Three slices. Not one share.</a></li><li><b>2</b><a href="#s2">Same money. The split buys less.</a></li></ol><div class="extra"><ol><li><a href="#src">Official sources</a></li></ol></div></aside><article class="reader"><header class="head"><h1>The $100 monthly split sheet</h1><div class="meta"><span class="tag tool">ETF combos</span><span class="tag">ETF BUYING BASICS</span><span>2 min read</span><span>STEP 2</span><span>2026-11-06</span></div><p class="pen" style="margin-top:10px;font-size:18px">XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?</p><div class="callout"><b>Hama put $100 into three funds at once — XEQT, VEQT and VFV, each one fund that holds many companies at once — so each slice was $33.33.</b> <span class="hl">On Nov 4, 2026 one share cost $45.40 for XEQT, $61.76 for VEQT and $190.40 for VFV. Every slice was smaller than one share, so at a broker that only deals in whole shares the full $100 just sat there as cash.</span></div></header><section class="inside"><div class="ih"><h2>What is inside</h2><span>STEP 2 · 2 MIN</span></div><ol><li><a href="#s1"><b>1</b>Three slices. Not one share.<span>1 min</span></a></li><li><a href="#s2"><b>2</b>Same money. The split buys less.<span>1 min</span></a></li></ol></section><div class="prose"><h2 id="s1"><small>STEP 1</small>Three slices. Not one share.</h2><p class="lead">Split $100 across three funds and each slice is <em>$33.33.</em></p><div class="tablewrap"><table><tr class=""><td>XEQT, one share $45.40</td><td>BUYS 0</td></tr><tr class=""><td>VEQT, one share $61.76</td><td>BUYS 0</td></tr><tr class=""><td>VFV, one share $190.40</td><td>BUYS 0</td></tr><tr class="hi"><td>Same $100, one fund, XEQT</td><td>BUYS 2</td></tr></table></div><p>At a broker that sells whole shares only, the entire $100 sits as cash. A broker with fractional shares, like Wealthsimple, invests all of it.</p><p class="src">ISHARES · VANGUARD CANADA · WEALTHSIMPLE</p><blockquote><b>share</b> — one small piece of a fund you own</blockquote><h2 id="s2"><small>STEP 2</small>Same money. The split buys less.</h2><div class="tablewrap"><table><tr><th>YOU PUT IN</th><th>THREE-WAY SPLIT BUYS</th><th>ONE FUND (XEQT) BUYS</th></tr><tr class=""><td>$100<br><small style="color:var(--sub)">a month</small></td><td>$0</td><td>$90.80</td></tr><tr class=""><td>$200<br><small style="color:var(--sub)">a month</small></td><td>$107.16</td><td>$181.60</td></tr><tr class=""><td>$300<br><small style="color:var(--sub)">a month</small></td><td>$152.56</td><td>$272.40</td></tr><tr class=""><td>$500<br><small style="color:var(--sub)">a month</small></td><td>$259.72</td><td>$499.40</td></tr></table></div><p class="src">Whole shares only, at XEQT $45.40, VEQT $61.76, VFV $190.40 on Nov 4, 2026. Example math, not a promise. Prices move daily, so the leftover moves too. <b>Save this. Find your row.</b></p><p class="src">ISHARES XEQT · VANGUARD VEQT · VANGUARD VFV</p><blockquote><b>Today</b> — Today, write down two things: whether your broker handles fractional shares, and how much cash is sitting idle in your account right now.</blockquote><h2 id="src"><small>OFFICIAL SOURCES</small>Where every number came from</h2><div class="links"><a href="https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio-fund" rel="noopener" target="_blank">iShares XEQT fund page<span>opens in new tab ↗</span></a><a href="https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio" rel="noopener" target="_blank">Vanguard Canada VEQT<span>opens in new tab ↗</span></a><a href="https://www.vanguard.ca/en/product/etf/equity/9563/vanguard-sp-500-index-etf" rel="noopener" target="_blank">Vanguard Canada VFV<span>opens in new tab ↗</span></a><a href="https://www.wealthsimple.com/en-ca/fractional-shares" rel="noopener" target="_blank">Wealthsimple fractional shares<span>opens in new tab ↗</span></a></div></div><div class="thanks"><h3>If this helped</h3><p>Follow Hama for one table a day. Saw this on a reel? Comment <b>SPLIT</b> there and Hama sends the link.</p><div class="btns"><a class="btn btn-gold" href="https://www.instagram.com/hamathegolddigger/" rel="noopener">Follow on Instagram</a><a class="btn btn-line" href="../index.html">All tables</a></div></div></article></div><div class="stickybar"><div class="wrap"><span class="word">YOU COMMENTED <i>SPLIT</i></span><a class="btn" href="https://www.instagram.com/hamathegolddigger/" rel="noopener">Follow Hama</a></div></div><footer><div class="wrap"><a href="https://www.instagram.com/hamathegolddigger/">Instagram @hamathegolddigger</a><a href="../index.html">All tables</a>
+<div class="fine">© 2026 Hama the Gold Digger · A Toronto chihuahua saving to $1M. Every number checked against the source. General education, not financial advice.</div></div></footer></body></html>

@@ -1,0 +1,188 @@
+{
+  "date": "2026-11-11",
+  "day": 10,
+  "slot": "main",
+  "category": "basics",
+  "status": "draft",
+  "object": "ETF NAME DECODER KEY",
+  "title": "Day 10 · ETF names",
+  "lede": "물건 먼저. 칸 5개, 칸마다 출처 1개. 1장 = 1규칙.",
+  "series": "BASICS · READ THE TICKER",
+  "source_note": "CHECK THE ISSUER PAGE",
+  "hooks": {
+    "candidates": [
+      "4 letters. Know them and you stop buying the wrong ETF.",
+      "Know these 4 letters and you stop wasting money on ETFs.",
+      "4 letters stand between you and the wrong ETF.",
+      "Learn 4 letters today and never buy the wrong ETF again."
+    ],
+    "spoken": "Miss the last 2 letters and you pay in the wrong currency.",
+    "on_screen": "LAST 2 LETTERS",
+    "score": 81.4,
+    "formula": "H1-only-this"
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "variant": "ticket",
+      "kicker": "BEFORE YOU HIT BUY",
+      "promise": "Miss the last 2 letters and you<br><em class=\"x\">pay in the wrong currency.</em>",
+      "bar": "ORDER TICKET",
+      "bar2": "PREVIEW",
+      "rows": [
+        {
+          "k": "SYMBOL",
+          "blk": 20,
+          "gold": ".U",
+          "st": "LOCKED"
+        },
+        {
+          "k": "ORDER TYPE",
+          "v": "MARKET",
+          "st": "OK"
+        },
+        {
+          "k": "CURRENCY",
+          "gold": "?",
+          "st": "CHECK",
+          "hit": true,
+          "warn": true
+        }
+      ],
+      "photo": "hama-stand.jpg",
+      "say": "Hama reads the end of the name first.",
+      "kicker2": "DAY 10 · ETF NAMES"
+    },
+    {
+      "type": "stake",
+      "text": "Two funds can track the <em>same index</em> and still hand you a different return. The difference is hiding in the last two characters.",
+      "under": "Nobody puts it in the headline. It sits at the end of the ticker.",
+      "photo": "hama-straw.jpg",
+      "say": "Same index. Not the same fund."
+    },
+    {
+      "type": "decoder",
+      "title": "Dot U",
+      "chip": "ON THE TICKER",
+      "base": "TICKER",
+      "suffix": ".U",
+      "meaning": "The same fund, priced and traded in <b>US dollars</b>.",
+      "example": "Your CAD never converts. You bring USD in yourself.",
+      "source_label": "CBOE CANADA",
+      "photo": "hama-trench.jpg",
+      "say": "Not a different fund. A different currency."
+    },
+    {
+      "type": "decoder",
+      "title": "Dot F",
+      "chip": "ON THE TICKER",
+      "base": "TICKER",
+      "suffix": ".F",
+      "meaning": "<b>Currency hedged.</b> The CAD–USD swing is stripped out.",
+      "example": "Invesco Canada moved its hedged funds onto this one.",
+      "source_label": "INVESTMENT EXECUTIVE",
+      "photo": "hama-stand.jpg",
+      "say": "Hedged means the exchange rate is handled for you."
+    },
+    {
+      "type": "decoder",
+      "title": "Just H",
+      "chip": "NO DOT",
+      "base": "TICKER",
+      "suffix": "H",
+      "meaning": "Also hedged. <b>RBC puts it at the end</b>, with no dot.",
+      "example": "Same job as .F. Different letter, different issuer.",
+      "source_label": "ADVISOR.CA",
+      "photo": "hama-straw.jpg",
+      "say": "Two letters, one job. Nobody agreed on which."
+    },
+    {
+      "type": "decoder",
+      "title": "No suffix",
+      "chip": "IN THE NAME",
+      "base": "TICKER",
+      "suffix": "—",
+      "meaning": "Nothing on the ticker. The hedge is written in the <b>fund's full name</b>.",
+      "example": "TD writes CAD Hedged into the name instead.",
+      "source_label": "TD ASSET MANAGEMENT",
+      "photo": "hama-trench.jpg",
+      "say": "So the ticker alone is not enough."
+    },
+    {
+      "type": "decoder",
+      "title": "The catch",
+      "chip": "WHY THIS IS HARD",
+      "base": "TICKER",
+      "suffix": "??",
+      "meaning": "There is <b>no single rule.</b> Conventions differ from issuer to issuer.",
+      "example": "So the key below gets you close. The issuer page confirms it.",
+      "source_label": "QUESTRADE",
+      "photo": "hama-stand.jpg",
+      "say": "Hama checks the issuer page every time."
+    },
+    {
+      "type": "key",
+      "title": "The key",
+      "rows": [
+        {
+          "c": ".U",
+          "m": "Priced in <b>US dollars</b>"
+        },
+        {
+          "c": ".F",
+          "m": "Currency <b>hedged</b>"
+        },
+        {
+          "c": "H",
+          "m": "Hedged too — RBC's way"
+        },
+        {
+          "c": "—",
+          "m": "Check the <b>full fund name</b>"
+        },
+        {
+          "c": "??",
+          "m": "No standard. Confirm with the issuer"
+        }
+      ],
+      "photo": "hama-straw.jpg",
+      "say": "Screenshot this one."
+    },
+    {
+      "type": "cta",
+      "text": "Open your ETF. Read the last two characters before anything else.",
+      "button": "Save the key · check before your next buy",
+      "fine": "General education, not investment advice. Confirm on the issuer's own fund page.",
+      "photo": "hama-trench.jpg",
+      "say": "That's the whole trick."
+    }
+  ],
+  "sources": [
+    {
+      "label": "CBOE CANADA",
+      "what": ".U means a US-dollar listing; hedged/unhedged suffix conventions differ by issuer",
+      "url": "https://etfmarket.cboe.com/canada/en/education/what-do-extensions-of-etf-mean"
+    },
+    {
+      "label": "INVESTMENT EXECUTIVE",
+      "what": "Invesco Canada moved its C$-hedged ETFs to the .F ticker extension",
+      "url": "https://www.investmentexecutive.com/news/product/invesco-canada-changes-names-ticker-symbols-of-c-hedged-powershares-etfs/"
+    },
+    {
+      "label": "ADVISOR.CA",
+      "what": "RBC appended H to tickers to mark currency-hedged funds",
+      "url": "https://advisor.ca/industry-news/industry/rbc-renames-4-etf-tickers/"
+    },
+    {
+      "label": "TD ASSET MANAGEMENT",
+      "what": "TD writes CAD Hedged into the fund name; hedged, unhedged and USD versions listed separately",
+      "url": "https://www.td.com/ca/en/asset-management/insights/summary/tdam-launches-new-etfs"
+    },
+    {
+      "label": "QUESTRADE",
+      "what": "캐나다 헤지·비헤지 ETF 차이와 발행사별 표기 차이",
+      "url": "https://www.questrade.com/learning/stocks-etfs/hedged-vs-unhedged-etfs-in-canada-key-differences"
+    }
+  ],
+  "caption": "Skip the last 2 letters and you buy the wrong ETF.\n\nTwo funds. Same index. Different money in your pocket.\n\nHere's the key. A .U means the fund is priced in US dollars, so your CAD never converts. A .F means currency hedged, and Invesco Canada moved every hedged fund onto it. RBC uses a plain H, no dot. TD doesn't touch the ticker at all and writes CAD Hedged into the name instead.\n\n4 issuers. 4 habits. No standard.\n\nThe key below gets you close. The issuer's own fund page settles it.\n\nRead the last 2 characters before your next buy.\n\n#etf #canadianinvesting #personalfinancecanada #investingforbeginners"
+}

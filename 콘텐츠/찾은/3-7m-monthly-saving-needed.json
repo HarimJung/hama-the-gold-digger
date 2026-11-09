@@ -1,0 +1,37 @@
+{
+  "key": "3-7m-monthly-saving-needed",
+  "category": "compound",
+  "status": "draft",
+  "title": "30년 뒤 370만 달러를 만들려면 매달 얼마를 넣어야 하나",
+  "object": "THE BIG GOAL MONTHLY TABLE",
+  "subject": "World stocks",
+  "made_by": "엔진/find.py 2026-11-07 · 신호 ['s0f1b792b', 's292146ef'] · 퍼스나 The late starter with unused room",
+  "fact": {
+    "num": "3,697,000",
+    "unit": "$",
+    "thing": "value after 30 years of $2,850 a month at the MSCI ACWI long-run return",
+    "box": "a TFSA or RRSP holding a global stock index fund",
+    "claim": "The MSCI ACWI index of world stocks returned 7.31% a year on average, net returns in US dollars, from Dec 29, 2000 to Oct 30, 2026. If $2,850 a month grew at that rate for 30 years, it would come to about $3.7 million, and only about $1.03 million of that would be money you put in. This is an example, not a promise: returns change from year to year, the index fell 58% from 2007 to 2009, and fund fees, taxes and the CAD/USD exchange rate would change the result.",
+    "felt": null,
+    "sources": [
+      "MSCI ACWI INDEX (USD) FACTSHEET, OCT 30 2026",
+      "MSCI ACWI INDEX (USD) FACTSHEET, OCT 30 2026"
+    ],
+    "verified": "find.py · 대조 1/2"
+  },
+  "sources": [
+    {
+      "label": "MSCI ACWI INDEX (USD) FACTSHEET, OCT 30 2026",
+      "url": "https://www.msci.com/documents/10199/a71b65b5-d0ea-4b5c-a709-24b1213bc3c5",
+      "what": "MSCI ACWI -1.64 -0.14 12.33 11.18 22.30 10.10 12.39 7.31",
+      "confidence": "1차"
+    },
+    {
+      "label": "MSCI ACWI INDEX (USD) FACTSHEET, OCT 30 2026",
+      "url": "https://www.msci.com/documents/10199/a71b65b5-d0ea-4b5c-a709-24b1213bc3c5",
+      "what": "Past performance -- whether actual or back-tested -- is no indication or guarantee of future performance.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": []
+}

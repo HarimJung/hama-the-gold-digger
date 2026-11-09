@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.iso.hama-machine {
+  --anatomy-top: #373024;
+  --anatomy-paper: #211e17;
+  --anatomy-shade-0: #17150f;
+  --anatomy-shade-1: #211e17;
+  --anatomy-shade-2: #2b261b;
+  --anatomy-shade-3: #332d20;
+  --anatomy-hi: #d4af37;
+  --anatomy-mid: #9d874e;
+  --anatomy-lo: #685936;
+  --anatomy-lit: #fff8e7;
+  --anatomy-lit-top: #d4af37;
+  --anatomy-lit-shade: #a1852f;
+  --anatomy-face: #d4af37;
+  --anatomy-weight: 1.1px;
+}

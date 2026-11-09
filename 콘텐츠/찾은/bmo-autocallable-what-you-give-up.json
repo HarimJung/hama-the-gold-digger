@@ -1,0 +1,1248 @@
+{
+  "key": "bmo-autocallable-what-you-give-up",
+  "category": "stocks",
+  "status": "draft",
+  "title": "NVIDIA soars. You never top 17.75% a year.",
+  "object": "THE AUTOCALLABLE ETF DECODER",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s9610c9a2'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "17.75",
+    "unit": "%",
+    "thing": "yearly coupon cap on a BMO NVIDIA-linked autocallable note",
+    "box": "BMO NVIDIA-linked autocallable note (US 424B2, January 2026), not the NVIA ETF",
+    "claim": "In a January 2026 BMO note linked to NVIDIA, the most you could earn was a coupon of about 17.75% a year, no matter how much NVIDIA rose. The coupon was paid only in quarters when NVIDIA closed at or above 70% of its starting price, and the note was redeemed early if NVIDIA closed above 100% of that price. If NVIDIA was below the 70% trigger at maturity, the holder could lose some or all of their principal. These are the terms of a single BMO note, not of the new NVIA ETF, which has not published its own figures on any page we could open.",
+    "sources": [
+      "BMO 424B2 PRICING SUPPLEMENT (SEC)",
+      "BMO 424B2 PRICING SUPPLEMENT (SEC)",
+      "BMO NEWSROOM"
+    ],
+    "verified": "find.py · 대조 3/3",
+    "felt": {
+      "num": "1,775",
+      "unit": "$",
+      "a": null,
+      "b": null,
+      "how": "the most $10,000 in the note pays in a full year (4 × $443.75), even if NVIDIA doubles",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "BMO 424B2 PRICING SUPPLEMENT (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000927971/000121465926000646/w119261424b2.htm",
+      "what": "The notes will pay a Contingent Coupon on each Contingent Coupon Payment Date at the Contingent Interest Rate of 4.4375% per quarter (approximately 17.75% per annum) if the closing level of the Reference Asset on the applicable quarterly Observation Date is greater than or equal to its Coupon Barrier Level.",
+      "confidence": "1차"
+    },
+    {
+      "label": "BMO 424B2 PRICING SUPPLEMENT (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000927971/000121465926000646/w119261424b2.htm",
+      "what": "Your return on the notes is limited to the Contingent Coupons, if any, regardless of any appreciation in the value of the Reference Asset.",
+      "confidence": "1차"
+    },
+    {
+      "label": "BMO NEWSROOM",
+      "url": "https://newsroom.bmo.com/2026-10-28-BMO-Launches-Canadas-First-Single-Stock-Autocallable-Income-ETFs",
+      "what": "The BMO ETFs invest in Autocallable Transactions which are derivatives that expose investors to downside risk.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "STOCKS · CANADA",
+      "topic": "WHY STOCKS",
+      "hook": {
+        "pre": "Your BMO note pays $",
+        "num": "1,775",
+        "post": " even if NVIDIA doubles. Want the gains?"
+      },
+      "promise": "Give me 30 seconds. Keep the gains they cap."
+    },
+    {
+      "type": "two",
+      "kicker": "ONE BMO NOTE · JANUARY 2026",
+      "title": "Same NVIDIA. One way has a *ceiling.*",
+      "boxes": [
+        {
+          "h": "OWN THE STOCK",
+          "v": "No cap",
+          "tone": "flat",
+          "d": "Every rise is yours.",
+          "d2": "Every fall is yours too. Nobody pays you a set coupon.",
+          "d3": "NVIDIA shares held directly"
+        },
+        {
+          "h": "THE NOTE",
+          "v": "17.75%",
+          "d": "The most it pays you a year.",
+          "d2": "4.4375% a quarter, and only if NVIDIA closes at or above 70% of its start.",
+          "d3": "Return limited to the coupons, per the filing",
+          "lead": true
+        }
+      ],
+      "source_label": "BMO 424B2 · SEC",
+      "say": "NVIDIA can keep climbing.|The note can't."
+    },
+    {
+      "type": "mini",
+      "kicker": "THE QUARTERLY CHECK",
+      "lead": "Each quarter, the note looks at <em>one NVIDIA closing price.</em>",
+      "rows": [
+        {
+          "t": "Above 100% of the start",
+          "v": "ENDS EARLY"
+        },
+        {
+          "t": "At or above 70% of the start",
+          "v": "4.4375% PAID",
+          "ok": true
+        },
+        {
+          "t": "Below 70% on a check date",
+          "v": "NO COUPON"
+        },
+        {
+          "t": "Below 70% at maturity",
+          "v": "PRINCIPAL AT RISK"
+        }
+      ],
+      "tail": "Example math: $10,000 × 4.4375% is $443.75 a quarter. Four paid quarters is $1,775. That's the top.",
+      "source_label": "BMO 424B2 · SEC",
+      "say": "Hama reads the 70% line first.",
+      "title": "The note checks NVIDIA every *quarter.*"
+    },
+    {
+      "type": "do",
+      "kicker": "THE AUTOCALLABLE ETF DECODER",
+      "checks": [
+        {
+          "h": "1 · THE CAP",
+          "d": "Find the coupon rate. That's the most it can pay you."
+        },
+        {
+          "h": "2 · THE 70% LINE",
+          "d": "Find the trigger. Below it, no coupon. Below it at the end, you can lose principal."
+        }
+      ],
+      "lead": "These are one BMO note's terms, not the NVIA ETF's. <em>Its own figures weren't on any page we could open.</em>",
+      "button": "Save the decoder · check before your next buy",
+      "fine": "General education, not investment advice. Terms of one BMO note, not the NVIA ETF. Read the fund's own documents.",
+      "say": "Find the cap. Find the line.|That's the decoder.",
+      "title": "Two lines to find in any *autocallable.*"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your BMO note caps you at $1,775 a year. Want the rest?",
+      "Your BMO note tops out at $1,775. Want the rest of NVIDIA?",
+      "Your BMO note traded NVIDIA's whole run for $1,775. Want it back?",
+      "Your BMO note pays $1,775 even if NVIDIA doubles. Want the gains?",
+      "Your BMO note made Hama count: $1,775 a year, max. Want more?",
+      "Your BMO note holders get $1,775 at best. Want the rest?",
+      "Your BMO note: $1,775 a year is the ceiling. Want higher?",
+      "Your BMO note vs plain NVIDIA: you stop at $1,775. Want more?",
+      "Your BMO note pays $1,775 a full year, no more. Still holding?",
+      "Your BMO note: never count on more than $1,775. Want more?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your BMO note pays $1,775 even if NVIDIA doubles. Want the gains?",
+    "spoken": "Your BMO note pays $1,775 even if NVIDIA doubles. Want the gains?",
+    "promise": "Give me 30 seconds. Keep the gains they cap.",
+    "pick_why": "Even if NVIDIA doubles is the one phrase a beginner cannot believe and cannot scroll past, and it is exactly what the fact says.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "KEEP THE GAINS"
+  },
+  "lede": "One BMO note linked to NVIDIA pays a coupon of 17.75% a year at most, and only while NVIDIA stays above a trigger.",
+  "series": "AUTOCALLABLE INCOME DECODED",
+  "source_note": "BMO 424B2 · SEC PRICING SUPPLEMENT",
+  "caption": "🐶⛏️ If you hold this BMO note, $1,775 a year is tops, even if NVIDIA doubles.\n\nThe note pays 17.75% a year at most, however high NVIDIA goes. But if NVIDIA ends under 70% of its start, you can lose some or all of what you put in.\n\nComment DECODE and I'll send you my note decoder 🪙\nHolding one of these?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#stockscanada #nvidia #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your BMO note pays $1,775 even if NVIDIA doubles. Want the gains?",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE AUTOCALLABLE ETF DECODER",
+          "num": "$1,775",
+          "line": "Your BMO note pays $1,775 even if NVIDIA doubles. Want the gains?",
+          "promise": "Give me 30 seconds. Keep the gains they cap.",
+          "subj": "YOUR BMO NOTE",
+          "stamp": "KEEP THE GAINS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep the gains they cap.",
+        "nocap": true
+      },
+      {
+        "say": "The two-number decoder is yours in seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "BMO is a bank whose note pays set amounts tied to NVIDIA.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "NVIDIA DOUBLES",
+              "v": "NVIDIA DOUBLES",
+              "w": 0.2,
+              "at": 0
+            },
+            {
+              "l": "$1,775 MAX",
+              "v": "$1,775 MAX",
+              "w": 1.0,
+              "at": 1
+            }
+          ]
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "$10,000 gets you $1,775 a year, *tops*."
+      },
+      {
+        "say": "Here is what nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is what nobody says.",
+          "at": "says"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Own the stock, every rise is yours.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "the most a year",
+              "tone": "loss",
+              "h": "THE NOTE",
+              "v": "17.75%",
+              "at": 0
+            },
+            {
+              "sub": "every rise and fall",
+              "tone": "win",
+              "h": "OWN THE STOCK",
+              "v": "No cap",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "THE CAP",
+        "in": "zoom"
+      },
+      {
+        "say": "The note pays 17.75% a year, max."
+      },
+      {
+        "say": "If NVIDIA beats its start, the note ends early.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "THE NOTE",
+            "big": "17.75%",
+            "ft": "the most a year"
+          },
+          "b": {
+            "k": "OWN THE STOCK",
+            "big": "No cap",
+            "ft": "every rise and fall",
+            "at": 0
+          }
+        },
+        "in": "pan"
+      },
+      {
+        "say": "NVIDIA below 70% of its start means no pay that quarter.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "ALWAYS PAID",
+            "v": "ALWAYS PAID",
+            "sub": ""
+          },
+          "b": {
+            "h": "SKIPPED",
+            "v": "SKIPPED",
+            "sub": ""
+          },
+          "at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "$1,775 on $10,000, however high NVIDIA goes.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$1,775",
+          "tail": "your yearly ceiling",
+          "at": "$1,775"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "What if NVIDIA ends below 70%?",
+        "part": "stamp",
+        "data": {
+          "old": "$10,000",
+          "new": "AT RISK",
+          "at": 1,
+          "k": ""
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "Some or all of $10,000, *gone*."
+      },
+      {
+        "say": "Comment *DECODE,* and I will send you the note decoder.",
+        "part": "tiles",
+        "data": {
+          "word": "DECODE",
+          "at": "DECODE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the note decoder ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your BMO note pays $1,775 even if NVIDIA doubles. Want the gains?",
+          "Give me 30 seconds. Keep the gains they cap."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The two-number decoder is yours in seconds."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "NVIDIA DOUBLES",
+          "new": "$1,775 MAX"
+        },
+        "lines": [
+          "BMO is a bank whose note pays set amounts tied to NVIDIA.",
+          "$10,000 gets you $1,775 a year, *tops*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is what nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE CAP",
+        "data": {
+          "a": {
+            "h": "THE NOTE",
+            "v": "17.75%",
+            "sub": "the most a year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OWN THE STOCK",
+            "v": "No cap",
+            "sub": "every rise and fall",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Own the stock, every rise is yours.",
+          "The note pays 17.75% a year, max."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "THE NOTE",
+            "v": "17.75%",
+            "sub": "the most a year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OWN THE STOCK",
+            "v": "No cap",
+            "sub": "every rise and fall",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "If NVIDIA beats its start, the note ends early."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ALWAYS PAID",
+          "new": "SKIPPED"
+        },
+        "lines": [
+          "NVIDIA below 70% of its start means no pay that quarter."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,775",
+          "new": "your yearly ceiling"
+        },
+        "lines": [
+          "$1,775 on $10,000, however high NVIDIA goes."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$10,000",
+          "new": "AT RISK"
+        },
+        "lines": [
+          "What if NVIDIA ends below 70%?",
+          "Some or all of $10,000, *gone*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DECODE",
+          "gift": "the note decoder"
+        },
+        "lines": [
+          "Comment *DECODE,* and I will send you the note decoder."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "The reel follows the arc in order: body 1 opens with \"BMO is a bank\" and shows the $1,775 ceiling, body 2 puts the capped note next to owning the stock, the second rehook is the 70% trap, and it ends on the dark $10,000 cut and the DECODE cta.",
+      "shape": "dark",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "shrink",
+        "callout",
+        "stack",
+        "dumbbell",
+        "wipe",
+        "tail",
+        "stamp",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 2,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "DECODE"
+    }
+  },
+  "plain": {
+    "what": "BMO is a bank. In January 2026 it sold a note — a deal where the bank pays you set amounts based on how NVIDIA stock does. NVIDIA makes AI chips, the tiny brains AI runs on. This note pays you at most about 17.75% a year, no matter how high NVIDIA climbs, and it only pays in a quarter when NVIDIA closes at or above 70% of where it started.",
+    "so_what": "If you put in $10,000, the most you get in a full year is $1,775 — even if NVIDIA doubles — and if NVIDIA ends below that 70% line, you can lose some or all of what you put in.",
+    "do": "Write down two numbers from any note like this: the yearly cap and the price line where the payments stop.",
+    "words": [
+      {
+        "term": "chip",
+        "means": "the tiny brains inside every phone and AI computer"
+      },
+      {
+        "term": "note",
+        "means": "a bank deal that pays set amounts on set terms"
+      },
+      {
+        "term": "coupon",
+        "means": "the payment the note gives you"
+      },
+      {
+        "term": "cap",
+        "means": "the most you can earn, no matter what"
+      },
+      {
+        "term": "autocallable",
+        "means": "the deal can end early on its own"
+      },
+      {
+        "term": "principal",
+        "means": "the money you put in"
+      },
+      {
+        "term": "ETF",
+        "means": "one fund that holds many companies at once"
+      },
+      {
+        "term": "maturity",
+        "means": "the day the deal ends"
+      }
+    ]
+  },
+  "subject": "Your BMO note",
+  "deliver": {
+    "word": "DECODE",
+    "gift": "the note decoder"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your BMO note pays $1,775 even if NVIDIA doubles. Want the gains?",
+        "part": "tease",
+        "data": {
+          "pill": "THE AUTOCALLABLE ETF DECODER",
+          "num": "$1,775",
+          "line": "Your BMO note pays $1,775 even if NVIDIA doubles. Want the gains?",
+          "promise": "Give me 30 seconds. Keep the gains they cap.",
+          "subj": "YOUR BMO NOTE",
+          "stamp": "KEEP THE GAINS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep the gains they cap.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and every rise past the *limit* stays theirs.",
+        "cap": "low"
+      },
+      {
+        "say": "A note is a bank deal with *set* payouts.",
+        "part": "receipt",
+        "data": {
+          "title": "THE NOTE ON $10,000",
+          "sub": "the autocallable etf decoder",
+          "rows": [
+            [
+              "You put in",
+              "$10,000",
+              "$10,000"
+            ],
+            [
+              "One quarter, at most",
+              "4.4375%",
+              1
+            ],
+            [
+              "That is",
+              "$443.75",
+              "$443.75"
+            ]
+          ],
+          "total": [
+            "Four quarters, the top",
+            "$1,775",
+            "$1,775"
+          ],
+          "foot": "Bmo 424B2 Pricing Supplement (Sec) · Bmo 424B2 Pricing Supplement (Sec)"
+        },
+        "badge": "THE NOTE",
+        "in": "pan"
+      },
+      {
+        "say": "On $10,000, four quarters of $443.75 is $1,775, the top."
+      },
+      {
+        "say": "And owning the shares themselves?",
+        "part": "callout",
+        "data": {
+          "word": "themselves",
+          "line": "And owning the shares themselves?",
+          "at": "themselves"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Own the shares, and every rise and fall is yours.",
+        "part": "donut",
+        "data": {
+          "k": "SIDE BY SIDE",
+          "segs": [
+            {
+              "l": "THE NOTE",
+              "v": "17.75%",
+              "w": 1.0
+            },
+            {
+              "l": "OWN THE SHARES",
+              "v": "No cap",
+              "w": 0.0
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "SIDE BY SIDE",
+        "in": "pan"
+      },
+      {
+        "say": "The note *stops* at 17.75% a year, however high NVIDIA climbs."
+      },
+      {
+        "say": "But it pays only while NVIDIA holds 70% of its start.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "SET PAY",
+            "v": "SET PAY",
+            "sub": ""
+          },
+          "b": {
+            "h": "70% LINE",
+            "v": "70% LINE",
+            "sub": ""
+          },
+          "at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "So write down *two* numbers first.",
+        "part": "toggle",
+        "data": {
+          "k": "THE DECODER",
+          "label": "Write two numbers",
+          "sub": "the top and the 70% line",
+          "on_at": "two",
+          "app": "Hama Savings"
+        },
+        "badge": "THE DECODER",
+        "in": "pan"
+      },
+      {
+        "say": "The yearly top, and the line where you can lose."
+      },
+      {
+        "say": "$1,775 on $10,000 is the *most*, even if NVIDIA doubles.",
+        "part": "strike",
+        "data": {
+          "old": "$1,775",
+          "new": "the most it pays",
+          "at": "most",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "*Capped.*",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "Above $1,775",
+              "v": "Above $1,775",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "not yours",
+              "v": "not yours",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "pan"
+      },
+      {
+        "say": "Comment *DECODE,* and I will send you the note decoder.",
+        "part": "tiles",
+        "data": {
+          "word": "DECODE",
+          "at": "DECODE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the note decoder ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your BMO note pays $1,775 even if NVIDIA doubles. Want the gains?",
+          "Give me 30 seconds. Keep the gains they cap."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and every rise past the *limit* stays theirs."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE NOTE",
+        "data": {
+          "title": "THE NOTE ON $10,000",
+          "rows": [
+            [
+              "You put in",
+              "$10,000"
+            ],
+            [
+              "One quarter, at most",
+              "4.4375%"
+            ],
+            [
+              "That is",
+              "$443.75"
+            ]
+          ],
+          "total": [
+            "Four quarters, the top",
+            "$1,775"
+          ]
+        },
+        "lines": [
+          "A note is a bank deal with *set* payouts.",
+          "On $10,000, four quarters of $443.75 is $1,775, the top."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "And owning the shares themselves?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SIDE BY SIDE",
+        "data": {
+          "a": {
+            "h": "THE NOTE",
+            "v": "17.75%",
+            "sub": "the most, a year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OWN THE SHARES",
+            "v": "No cap",
+            "sub": "every rise, every fall",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Own the shares, and every rise and fall is yours.",
+          "The note *stops* at 17.75% a year, however high NVIDIA climbs."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SET PAY",
+          "new": "70% LINE"
+        },
+        "lines": [
+          "But it pays only while NVIDIA holds 70% of its start."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "THE DECODER",
+        "data": {
+          "label": "Write two numbers",
+          "sub": "the top and the 70% line"
+        },
+        "lines": [
+          "So write down *two* numbers first.",
+          "The yearly top, and the line where you can lose."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,775",
+          "new": "the most it pays"
+        },
+        "lines": [
+          "$1,775 on $10,000 is the *most*, even if NVIDIA doubles."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "Above $1,775",
+          "new": "not yours"
+        },
+        "lines": [
+          "*Capped.*"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DECODE",
+          "gift": "the note decoder"
+        },
+        "lines": [
+          "Comment *DECODE,* and I will send you the note decoder."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given receipt arc scene by scene: hook and promise, a one-line lock-in on the gains that stay theirs, a flow receipt from $10,000 to the $1,775 top, a question rehook, a side-by-side compare that explains the cap, the 70% trap as the second rehook, one step to write two numbers, the $1,775 closing, then the given loss cut and DECODE cta.",
+      "shape": "receipt",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "receipt",
+        "callout",
+        "donut",
+        "wipe",
+        "toggle",
+        "strike",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "wipe",
+        "pan",
+        "wipe",
+        "pan",
+        "iris",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "DECODE"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your BMO note pays $1,775 even if NVIDIA doubles. Want the gains?",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE AUTOCALLABLE ETF DECODER",
+          "num": "$1,775",
+          "line": "Your BMO note pays $1,775 even if NVIDIA doubles. Want the gains?",
+          "promise": "Give me 30 seconds. Keep the gains they cap.",
+          "subj": "YOUR BMO NOTE",
+          "stamp": "KEEP THE GAINS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep the gains they cap.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and every rise past the *limit* stays theirs.",
+        "cap": "low"
+      },
+      {
+        "say": "A note is a bank deal with *set* payouts.",
+        "part": "notify",
+        "data": {
+          "items": [
+            {
+              "app": "You put in",
+              "v": "$10,000",
+              "at": "$10,000"
+            },
+            {
+              "app": "One quarter, at most",
+              "v": "4.4375%",
+              "at": 1
+            },
+            {
+              "app": "That is",
+              "v": "$443.75",
+              "at": "$443.75"
+            }
+          ],
+          "total": "$1,775",
+          "total_at": "$1,775"
+        },
+        "badge": "THE NOTE",
+        "in": "pan"
+      },
+      {
+        "say": "On $10,000, four quarters of $443.75 is $1,775, the top."
+      },
+      {
+        "say": "And owning the shares themselves?",
+        "part": "callout",
+        "data": {
+          "word": "themselves",
+          "line": "And owning the shares themselves?",
+          "at": "themselves"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Own the shares, and every rise and fall is yours.",
+        "part": "donut",
+        "data": {
+          "k": "SIDE BY SIDE",
+          "segs": [
+            {
+              "l": "THE NOTE",
+              "v": "17.75%",
+              "w": 1.0
+            },
+            {
+              "l": "OWN THE SHARES",
+              "v": "No cap",
+              "w": 0.0
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "SIDE BY SIDE",
+        "in": "pan"
+      },
+      {
+        "say": "The note *stops* at 17.75% a year, however high NVIDIA climbs."
+      },
+      {
+        "say": "But it pays only while NVIDIA holds 70% of its start.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "SET PAY",
+            "v": "SET PAY",
+            "sub": ""
+          },
+          "b": {
+            "h": "70% LINE",
+            "v": "70% LINE",
+            "sub": ""
+          },
+          "at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "So write down *two* numbers first.",
+        "part": "toggle",
+        "data": {
+          "k": "THE DECODER",
+          "label": "Write two numbers",
+          "sub": "the top and the 70% line",
+          "on_at": "two",
+          "app": "Hama Savings"
+        },
+        "badge": "THE DECODER"
+      },
+      {
+        "say": "The yearly top, and the line where you can lose."
+      },
+      {
+        "say": "$1,775 on $10,000 is the *most*, even if NVIDIA doubles.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$1,775",
+          "tail": "the most it pays",
+          "at": "$1,775"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "*Capped.*",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "Above $1,775",
+              "v": "Above $1,775",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "not yours",
+              "v": "not yours",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "pan"
+      },
+      {
+        "say": "Comment *DECODE,* and I will send you the note decoder.",
+        "part": "tiles",
+        "data": {
+          "word": "DECODE",
+          "at": "DECODE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the note decoder ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your BMO note pays $1,775 even if NVIDIA doubles. Want the gains?",
+          "Give me 30 seconds. Keep the gains they cap."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and every rise past the *limit* stays theirs."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE NOTE",
+        "data": {
+          "title": "THE NOTE ON $10,000",
+          "rows": [
+            [
+              "You put in",
+              "$10,000"
+            ],
+            [
+              "One quarter, at most",
+              "4.4375%"
+            ],
+            [
+              "That is",
+              "$443.75"
+            ]
+          ],
+          "total": [
+            "Four quarters, the top",
+            "$1,775"
+          ]
+        },
+        "lines": [
+          "A note is a bank deal with *set* payouts.",
+          "On $10,000, four quarters of $443.75 is $1,775, the top."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "And owning the shares themselves?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SIDE BY SIDE",
+        "data": {
+          "a": {
+            "h": "THE NOTE",
+            "v": "17.75%",
+            "sub": "the most, a year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OWN THE SHARES",
+            "v": "No cap",
+            "sub": "every rise, every fall",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Own the shares, and every rise and fall is yours.",
+          "The note *stops* at 17.75% a year, however high NVIDIA climbs."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SET PAY",
+          "new": "70% LINE"
+        },
+        "lines": [
+          "But it pays only while NVIDIA holds 70% of its start."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "THE DECODER",
+        "data": {
+          "label": "Write two numbers",
+          "sub": "the top and the 70% line"
+        },
+        "lines": [
+          "So write down *two* numbers first.",
+          "The yearly top, and the line where you can lose."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,775",
+          "new": "the most it pays"
+        },
+        "lines": [
+          "$1,775 on $10,000 is the *most*, even if NVIDIA doubles."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "Above $1,775",
+          "new": "not yours"
+        },
+        "lines": [
+          "*Capped.*"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DECODE",
+          "gift": "the note decoder"
+        },
+        "lines": [
+          "Comment *DECODE,* and I will send you the note decoder."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given receipt arc scene by scene: hook and promise, a one-line lock-in on the gains that stay theirs, a flow receipt from $10,000 to the $1,775 top, a question rehook, a side-by-side compare that explains the cap, the 70% trap as the second rehook, one step to write two numbers, the $1,775 closing, then the given loss cut and DECODE cta.",
+      "shape": "receipt",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "notify",
+        "callout",
+        "donut",
+        "wipe",
+        "toggle",
+        "tail",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "wipe",
+        "pan",
+        "wipe",
+        "fade",
+        "iris",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "DECODE"
+    }
+  }
+}

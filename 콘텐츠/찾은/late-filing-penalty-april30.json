@@ -1,0 +1,1303 @@
+{
+  "key": "late-filing-penalty-april30",
+  "category": "tax",
+  "status": "draft",
+  "title": "File late, lose 5%: the CRA penalty table",
+  "object": "THE TAX DEADLINE PENALTY TABLE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s4e3ee777'] · 퍼스나 The late starter with unused room",
+  "fact": {
+    "num": "5",
+    "unit": "%",
+    "thing": "CRA late-filing penalty",
+    "box": "Personal income tax return (T1)",
+    "claim": "If you owe tax and the CRA gets your return after the due date, it charges 5% of the balance owing. It then adds 1% of the balance owing for each full month the return is late, for up to 12 months. If you were already penalized in one of the 3 years before and got a demand to file, the penalty goes up to 10% plus 2% a month for up to 20 months. The deadline is April 30, or the next business day if April 30 falls on a weekend or holiday. Filing on time avoids this penalty even if you can't pay yet. The page shows April 30, 2026 for 2025 taxes, and no CRA page I opened lists the 2027 date yet.",
+    "sources": [
+      "CRA LATE-FILING PENALTY",
+      "CRA LATE-FILING PENALTY",
+      "CRA LATE-FILING PENALTY",
+      "CRA LATE-FILING PENALTY",
+      "CRA LATE-FILING PENALTY",
+      "CRA LATE-FILING PENALTY",
+      "CRA DUE DATES",
+      "CRA DUE DATES"
+    ],
+    "verified": "find.py · 대조 8/8",
+    "felt": {
+      "num": "80",
+      "unit": "$",
+      "how": "$1,000 owing filed 3 full months late: 5% + 3% penalty added on top",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA LATE-FILING PENALTY",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/interest-penalties/late-filing-penalty.html",
+      "what": "5% of your 2025 balance owing, plus",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA LATE-FILING PENALTY",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/interest-penalties/late-filing-penalty.html",
+      "what": "1% of your 2025 balance owing for each full month late (up to 12 months)",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA LATE-FILING PENALTY",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/interest-penalties/late-filing-penalty.html",
+      "what": "10% of your 2025 balance owing, plus",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA LATE-FILING PENALTY",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/interest-penalties/late-filing-penalty.html",
+      "what": "2% of your 2025 balance owing for each full month late (up to 20 months) if you were penalized in 2022, 2023, or 2024 and received a demand to file",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA LATE-FILING PENALTY",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/interest-penalties/late-filing-penalty.html",
+      "what": "Your return is considered on time if the CRA receives it, or it is postmarked, by the next business day",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA LATE-FILING PENALTY",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/interest-penalties/late-filing-penalty.html",
+      "what": "If you cannot pay your balance owing by the return due date, file on time to avoid being charged a late-filing penalty.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA DUE DATES",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/important-dates-individuals.html",
+      "what": "April 30, 2026: Deadline to file your taxes",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA DUE DATES",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/important-dates-individuals.html",
+      "what": "Pay your balance owing on or before April 30 to avoid interest and penalties, find payment options to pay your taxes",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "Your tax return, filed late, cost $",
+        "num": "80",
+        "post": ". Want it back?"
+      },
+      "promise": "Give me 30 seconds. Keep all of it."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME BILL · TWO CHOICES",
+      "title": "Same bill. One return is just *late.*",
+      "boxes": [
+        {
+          "h": "WAIT, FILE LATE",
+          "v": "−5%",
+          "d": "$1,000 owing costs $50 more.",
+          "d2": "Then 1% for each full month late, up to 12 months. 5% + 12% is up to 17%.",
+          "d3": "Example math on a $1,000 balance owing",
+          "lead": true
+        },
+        {
+          "h": "FILE ON TIME",
+          "v": "0%",
+          "win": true,
+          "d": "No late-filing penalty.",
+          "d2": "The CRA says to file on time even if you can't pay yet. Paying by April 30 is what avoids interest.",
+          "d3": "Late-filing penalty only"
+        }
+      ],
+      "source_label": "CRA LATE-FILING PENALTY · CRA DUE DATES",
+      "say": "Can't pay yet?|File anyway."
+    },
+    {
+      "type": "mini",
+      "kicker": "THE REPEAT RULE",
+      "lead": "Penalized in one of the last 3 years and got a <em>demand to file</em>? The rate doubles.",
+      "rows": [
+        {
+          "t": "First time late, per full month",
+          "v": "5% + 1%"
+        },
+        {
+          "t": "First time late, 12 months max",
+          "v": "17%"
+        },
+        {
+          "t": "Repeat after a demand, per full month",
+          "v": "10% + 2%"
+        },
+        {
+          "t": "Repeat after a demand, 20 months max",
+          "v": "50%"
+        },
+        {
+          "t": "Filed on time, even unpaid",
+          "v": "0%",
+          "ok": true
+        }
+      ],
+      "tail": "10% plus 2% a month for 20 months adds up to 50% of what you owe.",
+      "source_label": "CRA LATE-FILING PENALTY",
+      "say": "Hama does not get a second strike.",
+      "title": "Late twice, and the cut *doubles.*"
+    },
+    {
+      "type": "do",
+      "kicker": "THE TAX DEADLINE PENALTY TABLE",
+      "checks": [
+        {
+          "h": "1 · DO YOU OWE",
+          "d": "The penalty is a percent of your balance owing. Owe $0 and 5% of it is $0."
+        },
+        {
+          "h": "2 · YOUR DATE",
+          "d": "April 30, or the next business day if it falls on a weekend or holiday."
+        },
+        {
+          "h": "3 · FILE FIRST",
+          "d": "Can't pay yet? File by the date anyway. Pay as soon as you can."
+        }
+      ],
+      "lead": "$1,000 owing, filed 3 full months late: <em>5% + 3% = $80 gone.</em> Example math, not your bill.",
+      "button": "Save this · check before April 30",
+      "fine": "General education, not tax advice. Confirm your own case with the CRA or a tax professional.",
+      "say": "Hama files first.|Hama pays second.",
+      "title": "Three checks before April 30."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your tax return, filed late, cost $80. Want it back?",
+      "Your tax return: $80 gone for nothing. Want it back?",
+      "Your tax return waited 3 months. That cost $80. Still waiting?",
+      "Your tax return owed $1,000. The CRA added $80. Want it back?",
+      "Hama's tax return was late. $80 gone. Want it back?",
+      "Your tax return late? You paid the CRA $80 extra. Want it back?",
+      "Your tax return has a late fee: $80. Want to skip it?",
+      "Your tax return on time: $0. Three months late: $80. Still waiting?",
+      "Your tax return is due April 30. Miss it, lose $80. Still waiting?",
+      "Your tax return: never file late. $80 gone. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your tax return, filed late, cost $80. Want it back?",
+    "spoken": "Your tax return, filed late, cost $80. Want it back?",
+    "promise": "Give me 30 seconds. Keep all of it.",
+    "pick_why": "Nine plain words, the name, the $80 and the ask, with nothing to decode before they stop and save.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "FILE IT"
+  },
+  "lede": "If you owe tax and your return reaches the CRA after the deadline, 5% of what you owe is added, then 1% for each full month late.",
+  "series": "TAX DEADLINE BASICS",
+  "source_note": "CRA · LATE-FILING PENALTY AND DUE DATES",
+  "caption": "🐶⛏️ If you file late, an $80 penalty can land on top of the tax you owe.\n\nThe CRA adds 5% of what you owe, and the clock keeps adding more each full month you're late. Even if you can't pay yet, filing on time keeps it off your bill.\n\nComment LATE and I'll send you the tax deadline penalty table 🪙\nFiled yours yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#cratax #taxescanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your tax return, filed late, cost $80. Want it back?",
+        "part": "slam",
+        "data": {
+          "pill": "THE TAX DEADLINE PENALTY TABLE",
+          "num": "$80",
+          "line": "Your tax return, filed late, cost $80. Want it back?",
+          "promise": "Give me 30 seconds. Keep all of it.",
+          "subj": "YOUR TAX RETURN",
+          "stamp": "FILE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep all of it.",
+        "nocap": true
+      },
+      {
+        "say": "You get the whole penalty table.",
+        "cap": "low"
+      },
+      {
+        "say": "Your yearly tax return is *due* April 30.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−5%",
+              "v": "−5%",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "GONE",
+              "v": "GONE",
+              "w": 0.2,
+              "at": 1
+            }
+          ]
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Owe tax and file *late*?"
+      },
+      {
+        "say": "The CRA, Canada's tax office, adds 5% of what you owe.",
+        "part": "stamp",
+        "data": {
+          "old": "−5%",
+          "new": "GONE",
+          "at": 0,
+          "k": ""
+        },
+        "dark": true
+      },
+      {
+        "say": "The *clock* keeps running.",
+        "part": "callout",
+        "data": {
+          "word": "clock",
+          "line": "The *clock* keeps running.",
+          "at": "clock"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Two people owe $1,000 each.",
+        "part": "split",
+        "data": {
+          "k": "FILE LATE vs FILE ON TIME",
+          "total": "−$80",
+          "a": {
+            "v": "−$80",
+            "l": "FILE LATE",
+            "w": 0.88,
+            "at": 0
+          },
+          "b": {
+            "v": "$0",
+            "l": "FILE ON TIME",
+            "at": 1,
+            "label_at": 1
+          }
+        },
+        "badge": "SAME BILL"
+      },
+      {
+        "say": "One files on time, one 3 full months *late*."
+      },
+      {
+        "say": "Late adds 5% plus 1% a month, so $80 more.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "FILE LATE",
+            "big": "−$80",
+            "ft": "3 full months late"
+          },
+          "b": {
+            "k": "FILE ON TIME",
+            "big": "$0",
+            "ft": "same $1,000 owing",
+            "at": 0
+          }
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Late *twice* in 3 years, after an order to file, means 10%.",
+        "part": "tabs",
+        "data": {
+          "old": "5%",
+          "new": "10%",
+          "at": "10%",
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "File on time, money or not, and *keep* that $80.",
+        "part": "strike",
+        "data": {
+          "old": "$80",
+          "new": "stays with you",
+          "at": "keep",
+          "k": ""
+        }
+      },
+      {
+        "say": "File late, and that $80 *never* comes back.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "−$80",
+          "tail": "$0 back",
+          "at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Comment *LATE,* and I will send you the penalty table.",
+        "part": "tiles",
+        "data": {
+          "word": "LATE",
+          "at": "LATE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the tax deadline penalty table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your tax return, filed late, cost $80. Want it back?",
+          "Give me 30 seconds. Keep all of it."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "You get the whole penalty table."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−5%",
+          "new": "GONE"
+        },
+        "lines": [
+          "Your yearly tax return is *due* April 30.",
+          "Owe tax and file *late*?"
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−5%",
+          "new": "GONE"
+        },
+        "lines": [
+          "The CRA, Canada's tax office, adds 5% of what you owe."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "The *clock* keeps running."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME BILL",
+        "data": {
+          "a": {
+            "h": "FILE LATE",
+            "v": "−$80",
+            "sub": "3 full months late",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FILE ON TIME",
+            "v": "$0",
+            "sub": "same $1,000 owing",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people owe $1,000 each.",
+          "One files on time, one 3 full months *late*."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "FILE LATE",
+            "v": "−$80",
+            "sub": "3 full months late",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FILE ON TIME",
+            "v": "$0",
+            "sub": "same $1,000 owing",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Late adds 5% plus 1% a month, so $80 more."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "5%",
+          "new": "10%"
+        },
+        "lines": [
+          "Late *twice* in 3 years, after an order to file, means 10%."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$80",
+          "new": "stays with you"
+        },
+        "lines": [
+          "File on time, money or not, and *keep* that $80."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$80",
+          "new": "$0 back"
+        },
+        "lines": [
+          "File late, and that $80 *never* comes back."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "LATE",
+          "gift": "the tax deadline penalty table"
+        },
+        "lines": [
+          "Comment *LATE,* and I will send you the penalty table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: hook and promise, a lock-in on what they get, a loss scene that says what the tax return is and names the 5% cut, a rehook, then the same $1,000 bill side by side showing the $80 gap. The repeat rule is the trap rehook, the closing brings back the $80, and the given ending runs a dark loss cut into the LATE call to action, in 14 lines and about 115 words.",
+      "shape": "dark",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "shrink",
+        "stamp",
+        "callout",
+        "split",
+        "compare",
+        "tabs",
+        "strike",
+        "tail",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "fade",
+        "iris",
+        "fade",
+        "iris",
+        "wipe",
+        "fade",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "LATE"
+    }
+  },
+  "plain": {
+    "what": "In Canada, your personal tax return for the year is due April 30. The CRA is the tax office. If you owe money and your return shows up late, the CRA adds 5% of what you owe, then another 1% for every full month you're late, up to 12 months.",
+    "so_what": "Owe $1,000 and file 3 full months late, and $80 is added on top — you still owe the original $1,000.",
+    "do": "Write down two things today: whether you owe tax at all, and your filing date (April 30, or the next business day).",
+    "words": [
+      {
+        "term": "CRA",
+        "means": "Canada's tax office"
+      },
+      {
+        "term": "tax return",
+        "means": "the yearly form that tells the tax office what you earned"
+      },
+      {
+        "term": "T1",
+        "means": "the form name for a personal tax return"
+      },
+      {
+        "term": "balance owing",
+        "means": "the tax money you still have to pay"
+      },
+      {
+        "term": "late-filing penalty",
+        "means": "extra money charged for sending your return late"
+      },
+      {
+        "term": "demand to file",
+        "means": "an official letter ordering you to send your return"
+      },
+      {
+        "term": "business day",
+        "means": "a weekday that is not a holiday"
+      }
+    ]
+  },
+  "subject": "Your tax return",
+  "deliver": {
+    "word": "LATE",
+    "gift": "the tax deadline penalty table"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your tax return, filed late, cost $80. Want it back?",
+        "part": "window",
+        "data": {
+          "pill": "THE TAX DEADLINE PENALTY TABLE",
+          "num": "$80",
+          "line": "Your tax return, filed late, cost $80. Want it back?",
+          "promise": "Give me 30 seconds. Keep all of it.",
+          "subj": "YOUR TAX RETURN",
+          "stamp": "FILE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep all of it.",
+        "nocap": true
+      },
+      {
+        "say": "The penalty table is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Owe $1,000, file 3 full months late.",
+        "part": "funnel",
+        "data": {
+          "in": "$1,000",
+          "leak": "$30",
+          "out": "$80",
+          "label": "added on top",
+          "in_at": "$1,000",
+          "leak_at": 1,
+          "out_at": 1
+        },
+        "badge": "THE BILL",
+        "in": "zoom"
+      },
+      {
+        "say": "The CRA, Canada's tax office, adds 5% at once."
+      },
+      {
+        "say": "Then 1% a month, $80 *gone* on top.",
+        "part": "notify",
+        "data": {
+          "items": [
+            {
+              "app": "You owe",
+              "v": "$1,000",
+              "at": 0
+            },
+            {
+              "app": "5% late cut",
+              "v": "$50",
+              "at": 0
+            },
+            {
+              "app": "1% a month, 3 months",
+              "v": "$30",
+              "at": 0
+            }
+          ],
+          "total": "$80",
+          "total_at": "$80"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "And if you cannot pay yet?",
+        "part": "callout",
+        "data": {
+          "word": "yet",
+          "line": "And if you cannot pay yet?",
+          "at": "yet"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "File on time, even unpaid, and the cut is 0%.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "added on $1,000",
+              "tone": "loss",
+              "h": "FILED LATE",
+              "v": "$80",
+              "at": 0
+            },
+            {
+              "sub": "same $1,000, unpaid",
+              "tone": "win",
+              "h": "FILED ON TIME",
+              "v": "$0",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "THE OTHER WAY",
+        "in": "iris"
+      },
+      {
+        "say": "Same $1,000 owed, nothing added."
+      },
+      {
+        "say": "Late again after a CRA letter? The cut *doubles.*",
+        "part": "swap",
+        "data": {
+          "old": "5%",
+          "new": "10%",
+          "at": "doubles"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Check two things: do you owe, and April 30.",
+        "part": "countdown",
+        "data": {
+          "label": "FILE BY APRIL 30",
+          "date": "April 30",
+          "at": "30"
+        },
+        "badge": "DO THIS"
+      },
+      {
+        "say": "File by then, pay later."
+      },
+      {
+        "say": "Same $1,000, filed on time, $80 stays *yours.*",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "80",
+          "pre": "$",
+          "suf": "",
+          "label": "stays in your pocket",
+          "at": "$80"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *LATE,* and I will send you the tax deadline penalty table.",
+        "part": "tiles",
+        "data": {
+          "word": "LATE",
+          "at": "LATE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the tax deadline penalty table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your tax return, filed late, cost $80. Want it back?",
+          "Give me 30 seconds. Keep all of it."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The penalty table is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE BILL",
+        "data": {
+          "title": "FILED 3 MONTHS LATE",
+          "rows": [
+            [
+              "You owe",
+              "$1,000"
+            ],
+            [
+              "5% late cut",
+              "$50"
+            ],
+            [
+              "1% a month, 3 months",
+              "$30"
+            ]
+          ],
+          "total": [
+            "Added on top",
+            "$80"
+          ]
+        },
+        "lines": [
+          "Owe $1,000, file 3 full months late.",
+          "The CRA, Canada's tax office, adds 5% at once."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "FILED 3 MONTHS LATE",
+          "rows": [
+            [
+              "You owe",
+              "$1,000"
+            ],
+            [
+              "5% late cut",
+              "$50"
+            ],
+            [
+              "1% a month, 3 months",
+              "$30"
+            ]
+          ],
+          "total": [
+            "Added on top",
+            "$80"
+          ]
+        },
+        "lines": [
+          "Then 1% a month, $80 *gone* on top."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "And if you cannot pay yet?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE OTHER WAY",
+        "data": {
+          "a": {
+            "h": "FILED LATE",
+            "v": "$80",
+            "sub": "added on $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FILED ON TIME",
+            "v": "$0",
+            "sub": "same $1,000, unpaid",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "File on time, even unpaid, and the cut is 0%.",
+          "Same $1,000 owed, nothing added."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "5%",
+          "new": "10%"
+        },
+        "lines": [
+          "Late again after a CRA letter? The cut *doubles.*"
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "DO THIS",
+        "data": {
+          "label": "File by April 30",
+          "sub": "or the next working day"
+        },
+        "lines": [
+          "Check two things: do you owe, and April 30.",
+          "File by then, pay later."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$80",
+          "new": "stays in your pocket"
+        },
+        "lines": [
+          "Same $1,000, filed on time, $80 stays *yours.*"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "LATE",
+          "gift": "the tax deadline penalty table"
+        },
+        "lines": [
+          "Comment *LATE,* and I will send you the tax deadline penalty table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the receipt arc exactly: given hook and promise, a one-breath lock-in naming the table, a flow receipt that adds 5% and 1% a month on $1,000 to reach $80, a question rehook, a compare showing the same $1,000 filed on time with nothing added, the repeat-rule trap as the second rehook, one step to set up, the $80 closing, and the given cta ending.",
+      "shape": "receipt",
+      "ending": "cta",
+      "caption": "karaoke",
+      "opener": "window",
+      "parts": [
+        "window",
+        "funnel",
+        "notify",
+        "callout",
+        "stack",
+        "swap",
+        "countdown",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "iris",
+        "zoom",
+        "iris",
+        "wipe",
+        "fade",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "LATE"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your tax return, filed late, cost $80. Want it back?",
+        "part": "window",
+        "data": {
+          "pill": "THE TAX DEADLINE PENALTY TABLE",
+          "num": "$80",
+          "line": "Your tax return, filed late, cost $80. Want it back?",
+          "promise": "Give me 30 seconds. Keep all of it.",
+          "subj": "YOUR TAX RETURN",
+          "stamp": "FILE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep all of it.",
+        "nocap": true
+      },
+      {
+        "say": "The penalty table is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Owe $1,000, file 3 full months late.",
+        "part": "funnel",
+        "data": {
+          "in": "$1,000",
+          "leak": "$30",
+          "out": "$80",
+          "label": "added on top",
+          "in_at": "$1,000",
+          "leak_at": 1,
+          "out_at": 1
+        },
+        "badge": "THE BILL",
+        "in": "zoom"
+      },
+      {
+        "say": "The CRA, Canada's tax office, adds 5% at once."
+      },
+      {
+        "say": "Then 1% a month, $80 *gone* on top.",
+        "part": "notify",
+        "data": {
+          "items": [
+            {
+              "app": "You owe",
+              "v": "$1,000",
+              "at": 0
+            },
+            {
+              "app": "5% late cut",
+              "v": "$50",
+              "at": 0
+            },
+            {
+              "app": "1% a month, 3 months",
+              "v": "$30",
+              "at": 0
+            }
+          ],
+          "total": "$80",
+          "total_at": "$80"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "And if you cannot pay yet?",
+        "part": "callout",
+        "data": {
+          "word": "yet",
+          "line": "And if you cannot pay yet?",
+          "at": "yet"
+        }
+      },
+      {
+        "say": "File on time, even unpaid, and the cut is 0%.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "added on $1,000",
+              "tone": "loss",
+              "h": "FILED LATE",
+              "v": "$80",
+              "at": 0
+            },
+            {
+              "sub": "same $1,000, unpaid",
+              "tone": "win",
+              "h": "FILED ON TIME",
+              "v": "$0",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "THE OTHER WAY",
+        "in": "zoom"
+      },
+      {
+        "say": "Same $1,000 owed, nothing added."
+      },
+      {
+        "say": "Late again after a CRA letter? The cut *doubles.*",
+        "part": "split",
+        "data": {
+          "k": "5% vs 10%",
+          "total": "10%",
+          "a": {
+            "v": "5%",
+            "l": "5%",
+            "w": 0.3333333333333333,
+            "at": 0
+          },
+          "b": {
+            "v": "10%",
+            "l": "10%",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Check two things: do you owe, and April 30.",
+        "part": "countdown",
+        "data": {
+          "label": "FILE BY APRIL 30",
+          "date": "April 30",
+          "at": "30"
+        },
+        "badge": "DO THIS",
+        "in": "wipe"
+      },
+      {
+        "say": "File by then, pay later."
+      },
+      {
+        "say": "Same $1,000, filed on time, $80 stays *yours.*",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "80",
+          "pre": "$",
+          "suf": "",
+          "label": "stays in your pocket",
+          "at": "$80"
+        }
+      },
+      {
+        "say": "Comment *LATE,* and I will send you the tax deadline penalty table.",
+        "part": "tiles",
+        "data": {
+          "word": "LATE",
+          "at": "LATE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the tax deadline penalty table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your tax return, filed late, cost $80. Want it back?",
+          "Give me 30 seconds. Keep all of it."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The penalty table is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE BILL",
+        "data": {
+          "title": "FILED 3 MONTHS LATE",
+          "rows": [
+            [
+              "You owe",
+              "$1,000"
+            ],
+            [
+              "5% late cut",
+              "$50"
+            ],
+            [
+              "1% a month, 3 months",
+              "$30"
+            ]
+          ],
+          "total": [
+            "Added on top",
+            "$80"
+          ]
+        },
+        "lines": [
+          "Owe $1,000, file 3 full months late.",
+          "The CRA, Canada's tax office, adds 5% at once."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "FILED 3 MONTHS LATE",
+          "rows": [
+            [
+              "You owe",
+              "$1,000"
+            ],
+            [
+              "5% late cut",
+              "$50"
+            ],
+            [
+              "1% a month, 3 months",
+              "$30"
+            ]
+          ],
+          "total": [
+            "Added on top",
+            "$80"
+          ]
+        },
+        "lines": [
+          "Then 1% a month, $80 *gone* on top."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "And if you cannot pay yet?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE OTHER WAY",
+        "data": {
+          "a": {
+            "h": "FILED LATE",
+            "v": "$80",
+            "sub": "added on $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FILED ON TIME",
+            "v": "$0",
+            "sub": "same $1,000, unpaid",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "File on time, even unpaid, and the cut is 0%.",
+          "Same $1,000 owed, nothing added."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "5%",
+          "new": "10%"
+        },
+        "lines": [
+          "Late again after a CRA letter? The cut *doubles.*"
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "DO THIS",
+        "data": {
+          "label": "File by April 30",
+          "sub": "or the next working day"
+        },
+        "lines": [
+          "Check two things: do you owe, and April 30.",
+          "File by then, pay later."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$80",
+          "new": "stays in your pocket"
+        },
+        "lines": [
+          "Same $1,000, filed on time, $80 stays *yours.*"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "LATE",
+          "gift": "the tax deadline penalty table"
+        },
+        "lines": [
+          "Comment *LATE,* and I will send you the tax deadline penalty table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the receipt arc exactly: given hook and promise, a one-breath lock-in naming the table, a flow receipt that adds 5% and 1% a month on $1,000 to reach $80, a question rehook, a compare showing the same $1,000 filed on time with nothing added, the repeat-rule trap as the second rehook, one step to set up, the $80 closing, and the given cta ending.",
+      "shape": "receipt",
+      "ending": "cta",
+      "caption": "blur",
+      "opener": "window",
+      "parts": [
+        "window",
+        "funnel",
+        "notify",
+        "callout",
+        "stack",
+        "split",
+        "countdown",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "iris",
+        "fade",
+        "zoom",
+        "iris",
+        "wipe",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "LATE"
+    }
+  },
+  "caption_b": "🐶⛏️ Give me 30 seconds and the CRA's April 30 rule will finally make sense.\n\nIf you owe tax and your return lands late, the CRA adds 5% on top, and the clock adds more every full month. But filing on time skips the penalty, even if you can't pay yet.\n\nComment LATE and I'll send you my tax deadline penalty table 🪙\nFiled yours yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#cratax #taxseasoncanada #torontofinance",
+  "caption_family": "quick"
+}

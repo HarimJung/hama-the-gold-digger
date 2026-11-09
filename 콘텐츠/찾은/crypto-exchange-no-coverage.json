@@ -1,0 +1,1288 @@
+{
+  "key": "crypto-exchange-no-coverage",
+  "category": "crypto",
+  "status": "draft",
+  "title": "Your coins on an app have no safety net.",
+  "object": "THE EXCHANGE VS SELF-CUSTODY CHECKLIST",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['sf87b673f', 's6c72ab73'] · 퍼스나 The shaken coin holder",
+  "fact": {
+    "num": "0",
+    "unit": "$",
+    "thing": "CDIC and CIPF protection for crypto held on a trading platform",
+    "box": "Crypto held at a Canadian crypto trading platform or investment dealer",
+    "claim": "CDIC deposit insurance does not cover cryptocurrencies, and that includes stablecoins. CIPF does not cover crypto assets that a member firm holds for you either, so if a platform is hacked or fails, neither fund pays you back for your coins. The exception is that CIPF can cover cash sitting in a crypto trading account at a CIPF member, plus ETFs or mutual funds that invest in crypto and are held with a CIPF member. CIPF coverage only protects against a member firm failing, not against losses of other kinds.",
+    "sources": [
+      "CDIC – What's covered",
+      "CIPF – FAQs",
+      "CIPF – FAQs"
+    ],
+    "verified": "find.py · 대조 3/3",
+    "felt": {
+      "num": "1,000",
+      "unit": "$",
+      "a": null,
+      "b": null,
+      "how": "$1,000 of coins bought on a crypto app, firm fails, CDIC and CIPF pay $0 for the coins",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CDIC – What's covered",
+      "url": "https://www.cdic.ca/depositors/whats-covered/",
+      "what": "Cryptocurrencies, including stablecoins",
+      "confidence": "1차"
+    },
+    {
+      "label": "CIPF – FAQs",
+      "url": "https://www.cipf.ca/faq",
+      "what": "No, crypto assets held by a CIPF member firm on your behalf are not covered by CIPF. CIPF coverage is available for the following:",
+      "confidence": "1차"
+    },
+    {
+      "label": "CIPF – FAQs",
+      "url": "https://www.cipf.ca/faq",
+      "what": "ETFs, mutual funds and other investment fund units that invest in crypto assets and that are held with a CIPF member.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "CRYPTO · CANADA",
+      "topic": "THE BITCOIN CLOCK",
+      "hook": {
+        "pre": "Bitcoin app dies, you lose $",
+        "num": "1,000,",
+        "post": " insurance pays $0. Want it back?"
+      },
+      "promise": "Give me 30 seconds. See which money is covered."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE EXCHANGE VS SELF-CUSTODY CHECKLIST",
+      "title": "Same app. Only some of it has a *net.*",
+      "rowlabel": "WHAT YOU HOLD",
+      "cols": [
+        "CDIC",
+        "CIPF",
+        "IF IT'S GONE"
+      ],
+      "labw": 30,
+      "rows": [
+        {
+          "a": "Coins",
+          "asub": "on a crypto app",
+          "cells": [
+            "NO",
+            "NO",
+            "$0 back"
+          ]
+        },
+        {
+          "a": "Stablecoins",
+          "asub": "on a crypto app",
+          "cells": [
+            "NO",
+            "NO",
+            "$0 back"
+          ]
+        },
+        {
+          "a": "Cash",
+          "asub": "in a crypto account at a CIPF member",
+          "cells": [
+            "NOT STATED",
+            "YES",
+            "CIPF can pay"
+          ]
+        },
+        {
+          "a": "Crypto ETF or fund",
+          "asub": "held with a CIPF member",
+          "cells": [
+            "NOT STATED",
+            "YES",
+            "CIPF can pay"
+          ]
+        },
+        {
+          "a": "Coins",
+          "asub": "in your own wallet",
+          "cells": [
+            "NO",
+            "NO",
+            "no firm, no fund"
+          ]
+        }
+      ],
+      "hi": [
+        0,
+        2
+      ],
+      "note": "CIPF only steps in when a member firm fails. Not for other kinds of loss. <b>Save this. Find your row.</b>",
+      "source_label": "CDIC · CIPF FAQ"
+    },
+    {
+      "type": "flow",
+      "kicker": "IF THE APP GOES UNDER",
+      "title": "Where your *coins* fall through.",
+      "lead": "Your cash and your coins sit on the same app. They <em>don't sit under the same net.</em>",
+      "steps": [
+        {
+          "n": "$1,000",
+          "t": "you buy coins",
+          "s": "on a crypto app"
+        },
+        {
+          "n": "Gone",
+          "t": "the firm fails",
+          "s": "coins held for you",
+          "cut": true
+        },
+        {
+          "n": "$0",
+          "t": "from CDIC or CIPF",
+          "s": "for the coins"
+        }
+      ],
+      "tail": "CIPF can cover the cash at a member firm. The coins get nothing from either fund.",
+      "source_label": "CDIC · CIPF FAQ",
+      "say": "Hama read the FAQ twice.|Still $0."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Bitcoin on an app: $1,000 lost, $0 paid back. Want it covered?",
+      "Your Bitcoin app dies with $1,000 inside. Who pays you back?",
+      "Bitcoin left on an app cost $1,000, no safety net. Want it back?",
+      "Bitcoin on an app is not a bank, $1,000 gone. Want it covered?",
+      "Bitcoin apps go under, Hama has seen $1,000 vanish. Want yours covered?",
+      "Bitcoin app dies, you lose $1,000, insurance pays $0. Want it back?",
+      "Bitcoin on an app: $1,000 with no safety net. Want it covered?",
+      "Bitcoin vs cash on an app: coins lose $1,000. Want the safe one?",
+      "Bitcoin app fails tonight, your $1,000 is $0 tomorrow. Want it back?",
+      "Bitcoin on apps is never insured, $1,000 pays $0. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Bitcoin app dies, you lose $1,000, insurance pays $0. Want it back?",
+    "spoken": "Bitcoin app dies, you lose $1,000, insurance pays $0. Want it back?",
+    "promise": "Give me 30 seconds. See which money is covered.",
+    "pick_why": "The app dying, you losing $1,000 and insurance paying $0 is the whole fear in one breath, and the question asks for exactly that money back.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "DON'T LOSE IT"
+  },
+  "lede": "CDIC and CIPF don't cover crypto a platform holds for you. Cash and crypto funds held with a CIPF member are different.",
+  "series": "CRYPTO SAFETY NET",
+  "source_note": "CDIC · CIPF FAQ · WHAT THE FUNDS COVER",
+  "caption": "🐶⛏️ If you leave $1,000 of coins on an app that fails, the safety nets pay $0.\n\nNeither CDIC nor CIPF covers coins an app holds for you, but cash in that same app can be covered if the firm is a CIPF member.\n\nComment WALLET and I'll send you my wallet checklist 🪙\nCoins or cash on yours?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #cryptocanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Bitcoin app dies, you lose $1,000, insurance pays $0. Want it back?",
+        "part": "tease",
+        "data": {
+          "pill": "THE EXCHANGE VS SELF-CUSTODY CHECKLIST",
+          "num": "$1,000",
+          "line": "Bitcoin app dies, you lose $1,000, insurance pays $0. Want it back?",
+          "promise": "Give me 30 seconds. See which money is covered.",
+          "subj": "BITCOIN",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See which money is covered.",
+        "nocap": true
+      },
+      {
+        "say": "Your *checklist* is at the end.",
+        "cap": "low"
+      },
+      {
+        "say": "Bitcoin is *digital* money held through an app or wallet.",
+        "part": "funnel",
+        "data": {
+          "in": "$1,000",
+          "leak": "$0 back",
+          "out": "$0",
+          "label": "from cdic or cipf",
+          "in_at": "$1,000",
+          "leak_at": 1,
+          "out_at": "$0"
+        },
+        "badge": "IF IT DIES",
+        "in": "pan"
+      },
+      {
+        "say": "The app fails, and $1,000 of coins gets $0 back."
+      },
+      {
+        "say": "So what does have a *net*?",
+        "part": "callout",
+        "data": {
+          "word": "net",
+          "line": "So what does have a *net*?",
+          "at": "net"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "CIPF, the safety net if your firm fails, can repay your *cash*.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "COINS",
+            "big": "$0 back",
+            "ft": "$1,000 on the app"
+          },
+          "b": {
+            "k": "CASH",
+            "big": "CIPF can pay",
+            "ft": "at a CIPF member",
+            "at": 1
+          }
+        },
+        "badge": "SAME APP",
+        "in": "pan"
+      },
+      {
+        "say": "Coins on that same app get $0."
+      },
+      {
+        "say": "CIPF only helps if the firm *fails*.",
+        "part": "swap",
+        "data": {
+          "old": "ANY LOSS",
+          "new": "FAILS ONLY",
+          "at": "fails"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Write two things down *today*.",
+        "part": "paid",
+        "data": {
+          "k": "TODAY",
+          "label": "Write it down",
+          "sub": "two things, today",
+          "at": "today"
+        },
+        "badge": "TODAY",
+        "in": "pan"
+      },
+      {
+        "say": "$1,000 of coins on an app has no *net*.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$1,000",
+          "tail": "no net on coins",
+          "at": "$1,000"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Is your app signed up to *CIPF*?",
+        "part": "hub",
+        "data": {
+          "items": [
+            "CIPF member?",
+            "Coins or cash?"
+          ],
+          "k": "THE EXCHANGE VS SELF-CUSTODY CHECKLIST",
+          "from": 0,
+          "to": 1
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Do you hold coins or cash?"
+      },
+      {
+        "say": "Comment *WALLET,* and I will send you the wallet checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "WALLET",
+          "at": "WALLET",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the wallet checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bitcoin app dies, you lose $1,000, insurance pays $0. Want it back?",
+          "Give me 30 seconds. See which money is covered."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Your *checklist* is at the end."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "IF IT DIES",
+        "data": {
+          "title": "IF THE APP GOES UNDER",
+          "rows": [
+            [
+              "You buy coins on an app",
+              "$1,000"
+            ],
+            [
+              "The firm fails",
+              "$0 back"
+            ]
+          ],
+          "total": [
+            "From CDIC or CIPF",
+            "$0"
+          ]
+        },
+        "lines": [
+          "Bitcoin is *digital* money held through an app or wallet.",
+          "The app fails, and $1,000 of coins gets $0 back."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So what does have a *net*?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME APP",
+        "data": {
+          "a": {
+            "h": "COINS",
+            "v": "$0 back",
+            "sub": "$1,000 on the app",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "CASH",
+            "v": "CIPF can pay",
+            "sub": "at a CIPF member",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "CIPF, the safety net if your firm fails, can repay your *cash*.",
+          "Coins on that same app get $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ANY LOSS",
+          "new": "FAILS ONLY"
+        },
+        "lines": [
+          "CIPF only helps if the firm *fails*."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "TODAY",
+        "data": {
+          "label": "Write it down",
+          "sub": "two things, today"
+        },
+        "lines": [
+          "Write two things down *today*."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,000",
+          "new": "no net on coins"
+        },
+        "lines": [
+          "$1,000 of coins on an app has no *net*."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "CIPF member?",
+            "Coins or cash?"
+          ]
+        },
+        "lines": [
+          "Is your app signed up to *CIPF*?",
+          "Do you hold coins or cash?"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "WALLET",
+          "gift": "the wallet checklist"
+        },
+        "lines": [
+          "Comment *WALLET,* and I will send you the wallet checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the receipt arc in order: hook and promise, lock-in, a flow receipt of $1,000 going to $0, a question rehook, coins and cash side by side on the same app, the CIPF fails-only trap, one step, the $1,000 again, then the given check and cta, in 14 lines and about 115 words.",
+      "shape": "receipt",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "funnel",
+        "callout",
+        "dumbbell",
+        "swap",
+        "paid",
+        "tail",
+        "hub",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "WALLET"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Bitcoin app dies, you lose $1,000, insurance pays $0. Want it back?",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE EXCHANGE VS SELF-CUSTODY CHECKLIST",
+          "num": "$1,000",
+          "line": "Bitcoin app dies, you lose $1,000, insurance pays $0. Want it back?",
+          "promise": "Give me 30 seconds. See which money is covered.",
+          "subj": "BITCOIN",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See which money is covered.",
+        "nocap": true
+      },
+      {
+        "say": "The covered-or-not checklist, in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Your $1,000 of Bitcoin, on an app that fails.",
+        "part": "stamp",
+        "data": {
+          "old": "$1,000",
+          "new": "$0 back",
+          "at": "$0",
+          "k": "APP FAILS"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Canada's two safety *nets,* CDIC and CIPF, pay $0."
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Cash and coins share one app and two different nets.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "COINS",
+            "big": "$0 back",
+            "ft": "on the app"
+          },
+          "b": {
+            "k": "CASH",
+            "big": "CIPF can pay",
+            "ft": "at a CIPF member",
+            "at": 1
+          }
+        },
+        "badge": "TWO NETS",
+        "in": "zoom"
+      },
+      {
+        "say": "Cash at a firm signed up to CIPF can be paid."
+      },
+      {
+        "say": "Coins get $0, even *stablecoins,* coins meant to stay near a dollar.",
+        "part": "table",
+        "data": {
+          "k": "THE EXCHANGE VS SELF-CUSTODY CHECKLIST",
+          "cols": [
+            "CDIC",
+            "CIPF",
+            "IF IT'S GONE"
+          ],
+          "rows": [
+            {
+              "lab": "Coins",
+              "cells": [
+                "NO",
+                "NO",
+                "$0 back"
+              ]
+            },
+            {
+              "lab": "Stablecoins",
+              "cells": [
+                "NO",
+                "NO",
+                "$0 back"
+              ]
+            },
+            {
+              "lab": "Cash",
+              "cells": [
+                "NOT STATED",
+                "YES",
+                "CIPF can pay"
+              ]
+            },
+            {
+              "lab": "Crypto ETF or fund",
+              "cells": [
+                "NOT STATED",
+                "YES",
+                "CIPF can pay"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "The trap: CIPF only pays when the firm itself *fails.*",
+        "part": "swap",
+        "data": {
+          "old": "ANY LOSS",
+          "new": "FIRM FAILS",
+          "at": "fails"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "That $1,000 of coins came back as $0.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "1,000",
+          "pre": "$",
+          "suf": "",
+          "label": "came back as $0",
+          "at": "$1,000"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Now find your *own* row.",
+        "part": "split",
+        "data": {
+          "k": "YOUR COINS vs YOUR CASH",
+          "total": "CIPF can pay",
+          "a": {
+            "v": "$0 back",
+            "l": "YOUR COINS",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "CIPF can pay",
+            "l": "YOUR CASH",
+            "at": 1,
+            "label_at": 1
+          }
+        },
+        "badge": "YOUR ROW",
+        "in": "zoom"
+      },
+      {
+        "say": "Is your app signed up to CIPF, coins or cash?"
+      },
+      {
+        "say": "Comment *COVER,* and I will send you the covered-or-not checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "COVER",
+          "at": "COVER",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the covered-or-not checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bitcoin app dies, you lose $1,000, insurance pays $0. Want it back?",
+          "Give me 30 seconds. See which money is covered."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The covered-or-not checklist, in 30 seconds."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "APP FAILS",
+        "data": {
+          "old": "$1,000",
+          "new": "$0 back"
+        },
+        "lines": [
+          "Your $1,000 of Bitcoin, on an app that fails.",
+          "Canada's two safety *nets,* CDIC and CIPF, pay $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO NETS",
+        "data": {
+          "a": {
+            "h": "COINS",
+            "v": "$0 back",
+            "sub": "on the app",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "CASH",
+            "v": "CIPF can pay",
+            "sub": "at a CIPF member",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Cash and coins share one app and two different nets.",
+          "Cash at a firm signed up to CIPF can be paid."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "COINS",
+            "v": "$0 back",
+            "sub": "on the app",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "CASH",
+            "v": "CIPF can pay",
+            "sub": "at a CIPF member",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Coins get $0, even *stablecoins,* coins meant to stay near a dollar."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ANY LOSS",
+          "new": "FIRM FAILS"
+        },
+        "lines": [
+          "The trap: CIPF only pays when the firm itself *fails.*"
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,000",
+          "new": "came back as $0"
+        },
+        "lines": [
+          "That $1,000 of coins came back as $0."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "YOUR COINS",
+            "v": "$0 back",
+            "sub": "on the app",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "YOUR CASH",
+            "v": "CIPF can pay",
+            "sub": "at a CIPF member",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Now find your *own* row.",
+          "Is your app signed up to CIPF, coins or cash?"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "COVER",
+          "gift": "the covered-or-not checklist"
+        },
+        "lines": [
+          "Comment *COVER,* and I will send you the covered-or-not checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: hook and promise, a one-breath lock-in naming the checklist, a loss scene showing $1,000 become $0, a rehook, a compare scene explaining why cash and coins sit under different nets with stablecoins explained in the same breath, the firm-fails trap as the second rehook, the $1,000 closing, then the given myrow and cta ending.",
+      "shape": "dark",
+      "ending": "myrow_cta",
+      "caption": "karaoke",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "stamp",
+        "callout",
+        "compare",
+        "table",
+        "swap",
+        "odometer",
+        "split",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "COVER"
+    }
+  },
+  "plain": {
+    "what": "Bitcoin is digital money you can only hold through an app or a wallet. Canada has two safety nets for money at a bank or a brokerage, called CDIC and CIPF. Neither one covers the coins an app holds for you, and that includes stablecoins, which are coins meant to stay worth about a dollar.",
+    "so_what": "If you leave $1,000 of coins on an app and the app goes under, both safety nets pay you $0.",
+    "do": "Write down two things today: whether your app is a CIPF member, and whether what you hold is coins, cash or a fund.",
+    "words": [
+      {
+        "term": "bitcoin",
+        "means": "digital money held through an app or wallet"
+      },
+      {
+        "term": "stablecoin",
+        "means": "a coin meant to stay worth about a dollar"
+      },
+      {
+        "term": "CDIC",
+        "means": "the safety net for money you deposit at a bank"
+      },
+      {
+        "term": "CIPF",
+        "means": "the safety net if your investment firm fails"
+      },
+      {
+        "term": "CIPF member",
+        "means": "a firm signed up to that safety net"
+      },
+      {
+        "term": "fund",
+        "means": "holds many companies at once"
+      },
+      {
+        "term": "platform",
+        "means": "the app or company that holds your money"
+      }
+    ]
+  },
+  "subject": "Bitcoin",
+  "deliver": {
+    "word": "WALLET",
+    "gift": "the wallet checklist"
+  },
+  "check": [
+    "CIPF member?",
+    "Coins or cash?"
+  ],
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Bitcoin app dies, you lose $1,000, insurance pays $0. Want it back?",
+        "part": "tease",
+        "data": {
+          "pill": "THE EXCHANGE VS SELF-CUSTODY CHECKLIST",
+          "num": "$1,000",
+          "line": "Bitcoin app dies, you lose $1,000, insurance pays $0. Want it back?",
+          "promise": "Give me 30 seconds. See which money is covered.",
+          "subj": "BITCOIN",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See which money is covered.",
+        "nocap": true
+      },
+      {
+        "say": "The covered-or-not checklist, in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Your $1,000 of Bitcoin, on an app that fails.",
+        "part": "shrink",
+        "data": {
+          "k": "APP FAILS",
+          "bars": [
+            {
+              "l": "$1,000",
+              "v": "$1,000",
+              "w": 1.0,
+              "at": "$1,000"
+            },
+            {
+              "l": "$0 back",
+              "v": "$0 back",
+              "w": 0.2,
+              "at": 1
+            }
+          ]
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Canada's two safety *nets,* CDIC and CIPF, pay $0."
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Cash and coins share one app and two different nets.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "COINS",
+            "big": "$0 back",
+            "ft": "on the app"
+          },
+          "b": {
+            "k": "CASH",
+            "big": "CIPF can pay",
+            "ft": "at a CIPF member",
+            "at": 1
+          }
+        },
+        "badge": "TWO NETS",
+        "in": "zoom"
+      },
+      {
+        "say": "Cash at a firm signed up to CIPF can be paid."
+      },
+      {
+        "say": "Coins get $0, even *stablecoins,* coins meant to stay near a dollar.",
+        "part": "table",
+        "data": {
+          "k": "THE EXCHANGE VS SELF-CUSTODY CHECKLIST",
+          "cols": [
+            "CDIC",
+            "CIPF",
+            "IF IT'S GONE"
+          ],
+          "rows": [
+            {
+              "lab": "Coins",
+              "cells": [
+                "NO",
+                "NO",
+                "$0 back"
+              ]
+            },
+            {
+              "lab": "Stablecoins",
+              "cells": [
+                "NO",
+                "NO",
+                "$0 back"
+              ]
+            },
+            {
+              "lab": "Cash",
+              "cells": [
+                "NOT STATED",
+                "YES",
+                "CIPF can pay"
+              ]
+            },
+            {
+              "lab": "Crypto ETF or fund",
+              "cells": [
+                "NOT STATED",
+                "YES",
+                "CIPF can pay"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "The trap: CIPF only pays when the firm itself *fails.*",
+        "part": "split",
+        "data": {
+          "k": "ANY LOSS vs FIRM FAILS",
+          "total": "FIRM FAILS",
+          "a": {
+            "v": "ANY LOSS",
+            "l": "ANY LOSS",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "FIRM FAILS",
+            "l": "FIRM FAILS",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "That $1,000 of coins came back as $0.",
+        "part": "strike",
+        "data": {
+          "old": "$1,000",
+          "new": "came back as $0",
+          "at": "That",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Now find your *own* row.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "YOUR COINS",
+            "big": "$0 back",
+            "ft": "on the app"
+          },
+          "b": {
+            "k": "YOUR CASH",
+            "big": "CIPF can pay",
+            "ft": "at a CIPF member",
+            "at": 1
+          }
+        },
+        "badge": "YOUR ROW",
+        "in": "zoom"
+      },
+      {
+        "say": "Is your app signed up to CIPF, coins or cash?"
+      },
+      {
+        "say": "Comment *COVER,* and I will send you the covered-or-not checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "COVER",
+          "at": "COVER",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the covered-or-not checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bitcoin app dies, you lose $1,000, insurance pays $0. Want it back?",
+          "Give me 30 seconds. See which money is covered."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The covered-or-not checklist, in 30 seconds."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "APP FAILS",
+        "data": {
+          "old": "$1,000",
+          "new": "$0 back"
+        },
+        "lines": [
+          "Your $1,000 of Bitcoin, on an app that fails.",
+          "Canada's two safety *nets,* CDIC and CIPF, pay $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO NETS",
+        "data": {
+          "a": {
+            "h": "COINS",
+            "v": "$0 back",
+            "sub": "on the app",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "CASH",
+            "v": "CIPF can pay",
+            "sub": "at a CIPF member",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Cash and coins share one app and two different nets.",
+          "Cash at a firm signed up to CIPF can be paid."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "COINS",
+            "v": "$0 back",
+            "sub": "on the app",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "CASH",
+            "v": "CIPF can pay",
+            "sub": "at a CIPF member",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Coins get $0, even *stablecoins,* coins meant to stay near a dollar."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ANY LOSS",
+          "new": "FIRM FAILS"
+        },
+        "lines": [
+          "The trap: CIPF only pays when the firm itself *fails.*"
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,000",
+          "new": "came back as $0"
+        },
+        "lines": [
+          "That $1,000 of coins came back as $0."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "YOUR COINS",
+            "v": "$0 back",
+            "sub": "on the app",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "YOUR CASH",
+            "v": "CIPF can pay",
+            "sub": "at a CIPF member",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Now find your *own* row.",
+          "Is your app signed up to CIPF, coins or cash?"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "COVER",
+          "gift": "the covered-or-not checklist"
+        },
+        "lines": [
+          "Comment *COVER,* and I will send you the covered-or-not checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: hook and promise, a one-breath lock-in naming the checklist, a loss scene showing $1,000 become $0, a rehook, a compare scene explaining why cash and coins sit under different nets with stablecoins explained in the same breath, the firm-fails trap as the second rehook, the $1,000 closing, then the given myrow and cta ending.",
+      "shape": "dark",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "shrink",
+        "callout",
+        "compare",
+        "table",
+        "split",
+        "strike",
+        "dumbbell",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "COVER"
+    }
+  },
+  "caption_b": "🐶⛏️ Give me 30 seconds and you'll know what CIPF really covers.\n\nCIPF is the safety net if your firm fails, and it can pay back the cash in your app. But the coins on that same app get nothing back, and CDIC won't cover them either, stablecoins included.\n\nComment WALLET and I'll send you my wallet checklist 🪙\nCoins or cash on yours?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #cryptocanada #torontofinance",
+  "caption_family": "quick"
+}

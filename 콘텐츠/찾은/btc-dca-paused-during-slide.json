@@ -1,0 +1,1333 @@
+{
+  "key": "btc-dca-paused-during-slide",
+  "category": "crypto",
+  "status": "draft",
+  "title": "비트코인 7주 최저: 하락 중에 정기 매수를 멈추면 같은 돈으로 덜 사게 된 코인",
+  "object": "THE DCA PAUSE COST TABLE",
+  "subject": "Bitcoin",
+  "made_by": "엔진/find.py 2026-11-07 · 신호 ['s54817a27', 'sf87b673f'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "15",
+    "unit": "%",
+    "thing": "more bitcoin per dollar at the early-November 7-week low (about US$75,600) than at the October 2 high (US$87,249.05)",
+    "box": "Bitcoin spot price in US dollars (CAD price not confirmed)",
+    "claim": "Bitcoin's October 2026 high was US$87,249.05 on October 2. In the first week of November it fell to around US$75,600, its lowest level in seven weeks. That means one dollar bought about 15% more bitcoin at the low than at the high, so a weekly buy that kept running during the slide picked up more coin per dollar than the buys made near the peak. These prices are in US dollars, and the move in Canadian dollars will be a little different because of the exchange rate. Buying more coin per dollar only pays off if the price later recovers, and nobody knows whether it will.",
+    "felt": {
+      "num": "1,500",
+      "unit": "$",
+      "pct": "15",
+      "base": 10000,
+      "how": "15% of a $10,000 example",
+      "from": "calc_pct"
+    },
+    "sources": [
+      "SIMPLE MINING OCT 2026 REPORT",
+      "CRYPTO BRIEFING NOV 6 2026"
+    ],
+    "verified": "find.py · 대조 2/2"
+  },
+  "sources": [
+    {
+      "label": "SIMPLE MINING OCT 2026 REPORT",
+      "url": "https://www.simplemining.io/insights/post/bitcoin-market-report-october-2026",
+      "what": "Bitcoin's highest price in October 2026 was $87,249.05 on October 2.",
+      "confidence": "2차"
+    },
+    {
+      "label": "CRYPTO BRIEFING NOV 6 2026",
+      "url": "https://cryptobriefing.com/bitcoin-falls-to-seven-week-low-amid-1b-in-crypto-liquidations/",
+      "what": "This sharp decline saw Bitcoin falling to around $75,600, its lowest in seven weeks.",
+      "confidence": "2차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "CRYPTO · CANADA",
+      "topic": "THE BITCOIN CLOCK",
+      "hook": {
+        "pre": "Bitcoin buyers who paused missed $",
+        "num": "1,500",
+        "post": " of coin. Want it back?"
+      },
+      "promise": "Give me 30 seconds. See the buyer who kept going."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Bitcoin buyers who paused missed $1,500 of coin. Want it back?",
+      "Bitcoin's dip handed out $1,500 of extra coin. Want your share?",
+      "Stopping Bitcoin buys in the dip cost $1,500 of coin. Still stopped?",
+      "Bitcoin's \"safe\" pause cost you $1,500 of coin. Still pausing?",
+      "Hama watched Bitcoin quitters miss $1,500 of coin. Want it back?",
+      "Bitcoin quitters this fall missed $1,500 of coin. Want it back?",
+      "Bitcoin at a 7-week low: pausing costs $1,500 of coin. Still waiting?",
+      "Bitcoin keepers got $1,500 more coin than pausers. Want the keeper's side?",
+      "Bitcoin's October to November drop: pausers missed $1,500 of coin. Still waiting?",
+      "Bitcoin's pause button cost $1,500 of coin. Still pressing it?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Bitcoin buyers who paused missed $1,500 of coin. Want it back?",
+    "spoken": "Bitcoin buyers who paused missed $1,500 of coin. Want it back?",
+    "promise": "Give me 30 seconds. See the buyer who kept going.",
+    "stamp": "GET IT BACK",
+    "pick_why": "It is the most direct line: the name, who paused, $1,500 of coin and \"Want it back?\", so anyone who stopped their weekly buy recognizes themselves in one second and saves the table.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-07"
+  },
+  "deliver": {
+    "word": "PAUSE",
+    "gift": "the pause cost table"
+  },
+  "check": [],
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Bitcoin buyers who paused missed $1,500 of coin. Want it back?",
+        "part": "slam",
+        "data": {
+          "pill": "THE DCA PAUSE COST TABLE",
+          "num": "$1,500",
+          "line": "Bitcoin buyers who paused missed $1,500 of coin. Want it back?",
+          "promise": "Give me 30 seconds. See the buyer who kept going.",
+          "subj": "BITCOIN",
+          "stamp": "GET IT BACK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the buyer who kept going.",
+        "nocap": true
+      },
+      {
+        "say": "The steady buyer's *receipt* is next.",
+        "cap": "low"
+      },
+      {
+        "say": "Bitcoin is digital money that lives online.",
+        "part": "funnel",
+        "data": {
+          "in": "US$87,249.05",
+          "leak": "US$75,600",
+          "out": "15%",
+          "label": "more coin per dollar",
+          "in_at": "US$87,249.05",
+          "leak_at": "US$75,600",
+          "out_at": 1
+        },
+        "badge": "THE SLIDE",
+        "in": "wipe"
+      },
+      {
+        "say": "Bitcoin fell from US$87,249.05 to about US$75,600."
+      },
+      {
+        "say": "At the low, each dollar bought about 15% more *bitcoin*.",
+        "part": "checkout",
+        "data": {
+          "title": "SAME DOLLAR",
+          "tag": "Secure",
+          "icon": "🧾",
+          "h": "October 2 high",
+          "p": "the dca pause cost table",
+          "price": "US$87,249.05",
+          "fields": [
+            "7-week low   US$75,600"
+          ],
+          "btn": "More coin per dollar  15%",
+          "seal": [
+            "15%",
+            "More coin per dollar",
+            "15%"
+          ]
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Who came out *ahead*?",
+        "part": "callout",
+        "data": {
+          "word": "ahead",
+          "line": "Who came out *ahead*?",
+          "at": "ahead"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Two buyers, $10,000 each.",
+        "part": "split",
+        "data": {
+          "k": "STOPPED vs KEPT BUYING",
+          "total": "$10,000",
+          "a": {
+            "v": "$10,000",
+            "l": "STOPPED",
+            "w": 0.8695652173913043,
+            "at": "$10,000"
+          },
+          "b": {
+            "v": "+$1,500",
+            "l": "KEPT BUYING",
+            "at": 1,
+            "label_at": 1
+          }
+        },
+        "badge": "TWO BUYERS"
+      },
+      {
+        "say": "One *stopped* at the high."
+      },
+      {
+        "say": "One kept buying and got about $1,500 more coin per $10,000.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "STOPPED",
+            "big": "$10,000",
+            "ft": "bought at the high"
+          },
+          "b": {
+            "k": "KEPT BUYING",
+            "big": "+$1,500",
+            "ft": "more coin per $10,000",
+            "at": 0
+          }
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Extra coin only helps if bitcoin climbs back, and *nobody* knows.",
+        "part": "tag",
+        "data": {
+          "old": "SURE THING",
+          "new": "NO PROMISE",
+          "at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Check your app for *weekly* money in early November.",
+        "part": "toggle",
+        "data": {
+          "k": "YOUR APP",
+          "label": "Open your app",
+          "sub": "early November buys",
+          "on_at": "weekly",
+          "app": "Hama Savings"
+        },
+        "badge": "YOUR APP",
+        "in": "zoom"
+      },
+      {
+        "say": "About $1,500 more coin from the same $10,000.",
+        "part": "stamp",
+        "data": {
+          "old": "$1,500",
+          "new": "more coin, same money",
+          "at": "more",
+          "k": ""
+        }
+      },
+      {
+        "say": "Paused weeks *never* come back.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "−$1,500",
+          "tail": "paused weeks",
+          "at": 0
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "Comment *PAUSE,* and I will send you the pause cost table.",
+        "part": "tiles",
+        "data": {
+          "word": "PAUSE",
+          "at": "PAUSE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the pause cost table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bitcoin buyers who paused missed $1,500 of coin. Want it back?",
+          "Give me 30 seconds. See the buyer who kept going."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The steady buyer's *receipt* is next."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE SLIDE",
+        "data": {
+          "title": "SAME DOLLAR",
+          "rows": [
+            [
+              "October 2 high",
+              "US$87,249.05"
+            ],
+            [
+              "7-week low",
+              "US$75,600"
+            ]
+          ],
+          "total": [
+            "More coin per dollar",
+            "15%"
+          ]
+        },
+        "lines": [
+          "Bitcoin is digital money that lives online.",
+          "Bitcoin fell from US$87,249.05 to about US$75,600."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "SAME DOLLAR",
+          "rows": [
+            [
+              "October 2 high",
+              "US$87,249.05"
+            ],
+            [
+              "7-week low",
+              "US$75,600"
+            ]
+          ],
+          "total": [
+            "More coin per dollar",
+            "15%"
+          ]
+        },
+        "lines": [
+          "At the low, each dollar bought about 15% more *bitcoin*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Who came out *ahead*?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO BUYERS",
+        "data": {
+          "a": {
+            "h": "STOPPED",
+            "v": "$10,000",
+            "sub": "bought at the high",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "KEPT BUYING",
+            "v": "+$1,500",
+            "sub": "more coin per $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two buyers, $10,000 each.",
+          "One *stopped* at the high."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "STOPPED",
+            "v": "$10,000",
+            "sub": "bought at the high",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "KEPT BUYING",
+            "v": "+$1,500",
+            "sub": "more coin per $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "One kept buying and got about $1,500 more coin per $10,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SURE THING",
+          "new": "NO PROMISE"
+        },
+        "lines": [
+          "Extra coin only helps if bitcoin climbs back, and *nobody* knows."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR APP",
+        "data": {
+          "label": "Open your app",
+          "sub": "early November buys"
+        },
+        "lines": [
+          "Check your app for *weekly* money in early November."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,500",
+          "new": "more coin, same money"
+        },
+        "lines": [
+          "About $1,500 more coin from the same $10,000."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$1,500",
+          "new": "paused weeks"
+        },
+        "lines": [
+          "Paused weeks *never* come back."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "PAUSE",
+          "gift": "the pause cost table"
+        },
+        "lines": [
+          "Comment *PAUSE,* and I will send you the pause cost table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the receipt arc in order: the given hook and promise, then a lock-in, the price slide shown as a receipt, a question rehook, a side by side of the buyer who stopped and the buyer who kept going, a rehook saying nobody knows if it recovers, one thing to check in your app, the $1,500 again, a dark cut and the STEADY call to action.",
+      "shape": "receipt",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "funnel",
+        "checkout",
+        "callout",
+        "split",
+        "compare",
+        "tag",
+        "toggle",
+        "stamp",
+        "tail",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "iris",
+        "zoom",
+        "fade",
+        "wipe",
+        "iris",
+        "zoom",
+        "fade",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "PAUSE"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Bitcoin buyers who paused missed $1,500 of coin. Want it back?",
+        "part": "cover",
+        "data": {
+          "pill": "THE DCA PAUSE COST TABLE",
+          "num": "$1,500",
+          "line": "Bitcoin buyers who paused missed $1,500 of coin. Want it back?",
+          "promise": "Give me 30 seconds. See the buyer who kept going.",
+          "subj": "BITCOIN",
+          "stamp": "GET IT BACK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the buyer who kept going.",
+        "nocap": true
+      },
+      {
+        "say": "The steady buyer's *receipt* is next.",
+        "cap": "low"
+      },
+      {
+        "say": "Bitcoin is digital money that lives online.",
+        "part": "funnel",
+        "data": {
+          "in": "US$87,249.05",
+          "leak": "US$75,600",
+          "out": "15%",
+          "label": "more coin per dollar",
+          "in_at": "US$87,249.05",
+          "leak_at": "US$75,600",
+          "out_at": 1
+        },
+        "badge": "THE SLIDE",
+        "in": "wipe"
+      },
+      {
+        "say": "Bitcoin fell from US$87,249.05 to about US$75,600."
+      },
+      {
+        "say": "At the low, each dollar bought about 15% more *bitcoin*.",
+        "part": "checkout",
+        "data": {
+          "title": "SAME DOLLAR",
+          "tag": "Secure",
+          "icon": "🧾",
+          "h": "October 2 high",
+          "p": "the dca pause cost table",
+          "price": "US$87,249.05",
+          "fields": [
+            "7-week low   US$75,600"
+          ],
+          "btn": "More coin per dollar  15%",
+          "seal": [
+            "15%",
+            "More coin per dollar",
+            "15%"
+          ]
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Who came out *ahead*?",
+        "part": "callout",
+        "data": {
+          "word": "ahead",
+          "line": "Who came out *ahead*?",
+          "at": "ahead"
+        }
+      },
+      {
+        "say": "Two buyers, $10,000 each.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "STOPPED",
+            "big": "$10,000",
+            "ft": "bought at the high"
+          },
+          "b": {
+            "k": "KEPT BUYING",
+            "big": "+$1,500",
+            "ft": "more coin per $10,000",
+            "at": 1
+          }
+        },
+        "badge": "TWO BUYERS",
+        "in": "wipe"
+      },
+      {
+        "say": "One *stopped* at the high."
+      },
+      {
+        "say": "One kept buying and got about $1,500 more coin per $10,000.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "STOPPED",
+            "big": "$10,000",
+            "ft": "bought at the high"
+          },
+          "b": {
+            "k": "KEPT BUYING",
+            "big": "+$1,500",
+            "ft": "more coin per $10,000",
+            "at": 0
+          }
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Extra coin only helps if bitcoin climbs back, and *nobody* knows.",
+        "part": "split",
+        "data": {
+          "k": "SURE THING vs NO PROMISE",
+          "total": "NO PROMISE",
+          "a": {
+            "v": "SURE THING",
+            "l": "SURE THING",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "NO PROMISE",
+            "l": "NO PROMISE",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Check your app for *weekly* money in early November.",
+        "part": "toggle",
+        "data": {
+          "k": "YOUR APP",
+          "label": "Open your app",
+          "sub": "early November buys",
+          "on_at": "weekly",
+          "app": "Hama Savings"
+        },
+        "badge": "YOUR APP"
+      },
+      {
+        "say": "About $1,500 more coin from the same $10,000.",
+        "part": "stamp",
+        "data": {
+          "old": "$1,500",
+          "new": "more coin, same money",
+          "at": "more",
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Paused weeks *never* come back.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "−$1,500",
+          "tail": "paused weeks",
+          "at": 0
+        },
+        "dark": true,
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *PAUSE,* and I will send you the pause cost table.",
+        "part": "tiles",
+        "data": {
+          "word": "PAUSE",
+          "at": "PAUSE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the pause cost table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bitcoin buyers who paused missed $1,500 of coin. Want it back?",
+          "Give me 30 seconds. See the buyer who kept going."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The steady buyer's *receipt* is next."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE SLIDE",
+        "data": {
+          "title": "SAME DOLLAR",
+          "rows": [
+            [
+              "October 2 high",
+              "US$87,249.05"
+            ],
+            [
+              "7-week low",
+              "US$75,600"
+            ]
+          ],
+          "total": [
+            "More coin per dollar",
+            "15%"
+          ]
+        },
+        "lines": [
+          "Bitcoin is digital money that lives online.",
+          "Bitcoin fell from US$87,249.05 to about US$75,600."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "SAME DOLLAR",
+          "rows": [
+            [
+              "October 2 high",
+              "US$87,249.05"
+            ],
+            [
+              "7-week low",
+              "US$75,600"
+            ]
+          ],
+          "total": [
+            "More coin per dollar",
+            "15%"
+          ]
+        },
+        "lines": [
+          "At the low, each dollar bought about 15% more *bitcoin*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Who came out *ahead*?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO BUYERS",
+        "data": {
+          "a": {
+            "h": "STOPPED",
+            "v": "$10,000",
+            "sub": "bought at the high",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "KEPT BUYING",
+            "v": "+$1,500",
+            "sub": "more coin per $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two buyers, $10,000 each.",
+          "One *stopped* at the high."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "STOPPED",
+            "v": "$10,000",
+            "sub": "bought at the high",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "KEPT BUYING",
+            "v": "+$1,500",
+            "sub": "more coin per $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "One kept buying and got about $1,500 more coin per $10,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SURE THING",
+          "new": "NO PROMISE"
+        },
+        "lines": [
+          "Extra coin only helps if bitcoin climbs back, and *nobody* knows."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR APP",
+        "data": {
+          "label": "Open your app",
+          "sub": "early November buys"
+        },
+        "lines": [
+          "Check your app for *weekly* money in early November."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,500",
+          "new": "more coin, same money"
+        },
+        "lines": [
+          "About $1,500 more coin from the same $10,000."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$1,500",
+          "new": "paused weeks"
+        },
+        "lines": [
+          "Paused weeks *never* come back."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "PAUSE",
+          "gift": "the pause cost table"
+        },
+        "lines": [
+          "Comment *PAUSE,* and I will send you the pause cost table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the receipt arc in order: the given hook and promise, then a lock-in, the price slide shown as a receipt, a question rehook, a side by side of the buyer who stopped and the buyer who kept going, a rehook saying nobody knows if it recovers, one thing to check in your app, the $1,500 again, a dark cut and the STEADY call to action.",
+      "shape": "receipt",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "funnel",
+        "checkout",
+        "callout",
+        "dumbbell",
+        "compare",
+        "split",
+        "toggle",
+        "stamp",
+        "tail",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "zoom",
+        "fade",
+        "wipe",
+        "iris",
+        "zoom",
+        "fade",
+        "wipe",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "PAUSE"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 숫자.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Bitcoin buyers who paused missed $1,500 of coin. Want it back?",
+        "part": "window",
+        "data": {
+          "pill": "THE DCA PAUSE COST TABLE",
+          "num": "$1,500",
+          "line": "Bitcoin buyers who paused missed $1,500 of coin. Want it back?",
+          "promise": "Give me 30 seconds. See the buyer who kept going.",
+          "subj": "BITCOIN",
+          "stamp": "GET IT BACK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the buyer who kept going.",
+        "nocap": true
+      },
+      {
+        "say": "The steady buyer's *receipt* is next.",
+        "cap": "low"
+      },
+      {
+        "say": "Bitcoin is digital money that lives online.",
+        "part": "funnel",
+        "data": {
+          "in": "US$87,249.05",
+          "leak": "US$75,600",
+          "out": "15%",
+          "label": "more coin per dollar",
+          "in_at": "US$87,249.05",
+          "leak_at": "US$75,600",
+          "out_at": 1
+        },
+        "badge": "THE SLIDE",
+        "in": "zoom"
+      },
+      {
+        "say": "Bitcoin fell from US$87,249.05 to about US$75,600."
+      },
+      {
+        "say": "At the low, each dollar bought about 15% more *bitcoin*.",
+        "part": "checkout",
+        "data": {
+          "title": "SAME DOLLAR",
+          "tag": "Secure",
+          "icon": "🧾",
+          "h": "October 2 high",
+          "p": "the dca pause cost table",
+          "price": "US$87,249.05",
+          "fields": [
+            "7-week low   US$75,600"
+          ],
+          "btn": "More coin per dollar  15%",
+          "seal": [
+            "15%",
+            "More coin per dollar",
+            "15%"
+          ]
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Who came out *ahead*?",
+        "part": "callout",
+        "data": {
+          "word": "ahead",
+          "line": "Who came out *ahead*?",
+          "at": "ahead"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Two buyers, $10,000 each.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "STOPPED",
+            "big": "$10,000",
+            "ft": "bought at the high"
+          },
+          "b": {
+            "k": "KEPT BUYING",
+            "big": "+$1,500",
+            "ft": "more coin per $10,000",
+            "at": 1
+          }
+        },
+        "badge": "TWO BUYERS",
+        "in": "pan"
+      },
+      {
+        "say": "One *stopped* at the high."
+      },
+      {
+        "say": "One kept buying and got about $1,500 more coin per $10,000.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "STOPPED",
+            "big": "$10,000",
+            "ft": "bought at the high"
+          },
+          "b": {
+            "k": "KEPT BUYING",
+            "big": "+$1,500",
+            "ft": "more coin per $10,000",
+            "at": 0
+          }
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Extra coin only helps if bitcoin climbs back, and *nobody* knows.",
+        "part": "split",
+        "data": {
+          "k": "SURE THING vs NO PROMISE",
+          "total": "NO PROMISE",
+          "a": {
+            "v": "SURE THING",
+            "l": "SURE THING",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "NO PROMISE",
+            "l": "NO PROMISE",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Check your app for *weekly* money in early November.",
+        "part": "toggle",
+        "data": {
+          "k": "YOUR APP",
+          "label": "Open your app",
+          "sub": "early November buys",
+          "on_at": "weekly",
+          "app": "Hama Savings"
+        },
+        "badge": "YOUR APP"
+      },
+      {
+        "say": "About $1,500 more coin from the same $10,000.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$1,500",
+          "tail": "more coin, same money",
+          "at": "$1,500"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Paused weeks *never* come back.",
+        "part": "stamp",
+        "data": {
+          "old": "−$1,500",
+          "new": "paused weeks",
+          "at": "paused",
+          "k": ""
+        },
+        "dark": true,
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *PAUSE,* and I will send you the pause cost table.",
+        "part": "tiles",
+        "data": {
+          "word": "PAUSE",
+          "at": "PAUSE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the pause cost table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bitcoin buyers who paused missed $1,500 of coin. Want it back?",
+          "Give me 30 seconds. See the buyer who kept going."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The steady buyer's *receipt* is next."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE SLIDE",
+        "data": {
+          "title": "SAME DOLLAR",
+          "rows": [
+            [
+              "October 2 high",
+              "US$87,249.05"
+            ],
+            [
+              "7-week low",
+              "US$75,600"
+            ]
+          ],
+          "total": [
+            "More coin per dollar",
+            "15%"
+          ]
+        },
+        "lines": [
+          "Bitcoin is digital money that lives online.",
+          "Bitcoin fell from US$87,249.05 to about US$75,600."
+        ]
+      },
+      {
+        "role": "flow",
+        "data": {
+          "title": "SAME DOLLAR",
+          "rows": [
+            [
+              "October 2 high",
+              "US$87,249.05"
+            ],
+            [
+              "7-week low",
+              "US$75,600"
+            ]
+          ],
+          "total": [
+            "More coin per dollar",
+            "15%"
+          ]
+        },
+        "lines": [
+          "At the low, each dollar bought about 15% more *bitcoin*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Who came out *ahead*?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO BUYERS",
+        "data": {
+          "a": {
+            "h": "STOPPED",
+            "v": "$10,000",
+            "sub": "bought at the high",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "KEPT BUYING",
+            "v": "+$1,500",
+            "sub": "more coin per $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two buyers, $10,000 each.",
+          "One *stopped* at the high."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "STOPPED",
+            "v": "$10,000",
+            "sub": "bought at the high",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "KEPT BUYING",
+            "v": "+$1,500",
+            "sub": "more coin per $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "One kept buying and got about $1,500 more coin per $10,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SURE THING",
+          "new": "NO PROMISE"
+        },
+        "lines": [
+          "Extra coin only helps if bitcoin climbs back, and *nobody* knows."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR APP",
+        "data": {
+          "label": "Open your app",
+          "sub": "early November buys"
+        },
+        "lines": [
+          "Check your app for *weekly* money in early November."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,500",
+          "new": "more coin, same money"
+        },
+        "lines": [
+          "About $1,500 more coin from the same $10,000."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$1,500",
+          "new": "paused weeks"
+        },
+        "lines": [
+          "Paused weeks *never* come back."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "PAUSE",
+          "gift": "the pause cost table"
+        },
+        "lines": [
+          "Comment *PAUSE,* and I will send you the pause cost table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the receipt arc in order: the given hook and promise, then a lock-in, the price slide shown as a receipt, a question rehook, a side by side of the buyer who stopped and the buyer who kept going, a rehook saying nobody knows if it recovers, one thing to check in your app, the $1,500 again, a dark cut and the STEADY call to action.",
+      "shape": "receipt",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "window",
+      "parts": [
+        "window",
+        "funnel",
+        "checkout",
+        "callout",
+        "dumbbell",
+        "compare",
+        "split",
+        "toggle",
+        "tail",
+        "stamp",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "iris",
+        "zoom",
+        "fade",
+        "wipe",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "flow",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "PAUSE"
+    }
+  },
+  "plain": {
+    "what": "Bitcoin is digital money that lives online, and its price jumps up and down a lot. On October 2 it hit US$87,249.05, and by the first week of November it had dropped to about US$75,600, its lowest price in seven weeks. At that low, each dollar got you about 15% more bitcoin than at the high.",
+    "so_what": "Say you put in $10,000 at the low instead of the high. That 15% works out to about $1,500 more coin, but the extra coin only helps if the price climbs back, and nobody knows if it will.",
+    "do": "Open your app and write down whether your weekly money went in during the first week of November.",
+    "words": [
+      {
+        "term": "bitcoin",
+        "means": "digital money that lives online, with a price that swings a lot"
+      },
+      {
+        "term": "spot price",
+        "means": "the price right now, if you paid today"
+      },
+      {
+        "term": "7-week low",
+        "means": "the lowest price in the last seven weeks"
+      },
+      {
+        "term": "weekly buy",
+        "means": "money your app puts in for you every week, on its own"
+      },
+      {
+        "term": "US$ and CAD",
+        "means": "US dollars and Canadian dollars, which are worth different amounts"
+      },
+      {
+        "term": "exchange rate",
+        "means": "how many Canadian dollars it takes to get one US dollar"
+      },
+      {
+        "term": "recover",
+        "means": "the price climbs back up to where it was"
+      }
+    ]
+  },
+  "caption": "🐶⛏️ If you hit pause on bitcoin, $1,500 of coin might've slipped by.\n\nBitcoin slid in early November, so weekly buys that kept going got about 15% more coin per dollar than at the high. That only helps if the price climbs back, and nobody knows if it will.\n\nComment PAUSE and I'll send you the pause cost table 🪙\nDid yours keep going?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #cryptocanada #torontofinance"
+}

@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-02",
+  "day": 1,
+  "series": "복리 · 시간",
+  "status": "아이디어",
+  "production": "제작 초안",
+  "approved": false,
+  "source": "사용자가 채팅에 붙인 31일 원본",
+  "scenes": [
+    {
+      "id": "hook",
+      "from": 0,
+      "to": 3,
+      "heading": "복리,\n그림으로 보면 이렇게.",
+      "spoken": "하마예요. 복리, 그림으로 볼게요.",
+      "role": "후킹",
+      "raw_audio_seconds": 2.489524,
+      "audio": "day1-v2/voice-0.wav"
+    },
+    {
+      "id": "problem",
+      "from": 3,
+      "to": 7,
+      "heading": "시간만 지나면\n돈이 늘어날까요?",
+      "spoken": "시간만 지나면 돈이 늘어날까요? 안쪽 구조를 볼게요.",
+      "role": "문제",
+      "raw_audio_seconds": 3.492336,
+      "audio": "day1-v2/voice-1.wav"
+    },
+    {
+      "id": "anatomy",
+      "from": 7,
+      "to": 14,
+      "heading": "쌓인 이자를\n다시 더하면.",
+      "spoken": "처음 넣은 돈에 이자가 붙고, 그 이자를 다시 더하는 경우예요.",
+      "role": "구조 설명",
+      "raw_audio_seconds": 3.824263,
+      "audio": "day1-v2/voice-2.wav"
+    },
+    {
+      "id": "example",
+      "from": 14,
+      "to": 22,
+      "heading": "다음 계산의\n바탕이 달라져요.",
+      "spoken": "다음에는 처음 돈과 쌓인 이자를 함께 계산해요. 이자가 다시 계산에 들어가는 구조가 복리예요.",
+      "role": "예시",
+      "raw_audio_seconds": 5.781633,
+      "audio": "day1-v2/voice-3.wav"
+    },
+    {
+      "id": "save",
+      "from": 22,
+      "to": 27,
+      "heading": "이자가 다시\n이자의 바탕으로.",
+      "spoken": "시간만으로 수익이 보장되진 않아요. 이 구조를 저장해둬요.",
+      "role": "저장",
+      "raw_audio_seconds": 3.701315,
+      "audio": "day1-v2/voice-4.wav"
+    },
+    {
+      "id": "next",
+      "from": 27,
+      "to": 30,
+      "heading": "내일은\nETF 바구니를 열어요.",
+      "spoken": "내일도 하마가 풀어줄게요.",
+      "role": "팔로우·다음 편",
+      "raw_audio_seconds": 1.728934,
+      "audio": "day1-v2/voice-5.wav"
+    }
+  ],
+  "mini_title": "하마의 ETF\n역할 세 칸.",
+  "night_title": "내일은 ETF.\n오늘은 여기까지.",
+  "numbers": {
+    "BTC": null,
+    "ETH": null,
+    "currency": null,
+    "time": null,
+    "etfs": [
+      null,
+      null,
+      null
+    ],
+    "weights": [
+      null,
+      null,
+      null
+    ]
+  },
+  "palette": {
+    "gold": "#D4AF37",
+    "black": "#111111",
+    "cream": "#FFF8E7",
+    "status": "미승인 시안"
+  },
+  "voice": "macOS Yuna 한국어 가이드 음성, 사용자 목소리 아님",
+  "claims": [
+    {
+      "claim": "복리는 원금과 누적 이자를 함께 기준으로 계산한다.",
+      "source": "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest",
+      "checked": "2026-11-02"
+    }
+  ]
+}

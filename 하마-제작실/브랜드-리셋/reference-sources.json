@@ -1,0 +1,100 @@
+[
+  {
+    "id": "01",
+    "name": "Duolingo",
+    "url": "https://blog.duolingo.com/shape-language-duolingos-art-style/",
+    "image": "https://storage.ghost.io/c/7a/33/7a33d0f4-927d-4fe8-a6bf-96131b5e76d4/content/images/2020/06/09-dogs.png",
+    "file": "01-duolingo.png",
+    "downloaded": true,
+    "take": "기본 도형과 읽히는 실루엣",
+    "assessment": "두 강아지의 귀·주둥이·크기 차이를 간단한 도형으로 구별한다. 하마의 큰 귀와 작은 몸도 이런 식으로 정리할 수 있다.",
+    "avoid": "듀오나 샘플 강아지의 외형·배색을 복제하지 않는다.",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "02",
+    "name": "Bluey",
+    "url": "https://www.bluey.tv/characters/bluey/",
+    "image": "https://www.bluey.tv/wp-content/uploads/2023/07/Bluey.png",
+    "file": "02-bluey.png",
+    "downloaded": true,
+    "take": "강아지의 몸 구조와 귀 위치",
+    "assessment": "몸통·팔다리의 연결이 명확하다. 의인화하더라도 동물의 무늬와 실루엣이 유지되는지 비교한다.",
+    "avoid": "블루이의 네모난 몸통·얼굴무늬·파란 배색은 가져오지 않는다.",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "03",
+    "name": "Snoopy",
+    "url": "https://www.peanuts.com/about/snoopy",
+    "image": "https://static.wixstatic.com/media/449abe_7b15686b2118476da4a733a7861dd772~mv2.jpg/v1/fill/w_1080,h_1080,al_c,q_85/sn-color.jpg",
+    "file": "03-snoopy.jpg",
+    "downloaded": true,
+    "take": "적은 선으로 표정·태도 전달",
+    "assessment": "털 표현과 재질을 줄여도 귀·코·자세로 캐릭터가 읽힌다. 상반신·옆모습·표정이 먼저다.",
+    "avoid": "스누피의 얼굴형·처진 귀·포즈를 복제하지 않는다.",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "04",
+    "name": "Headspace",
+    "url": "https://organizations.headspace.com/employers",
+    "image": "https://assets-global.website-files.com/6489751d2099bd329cd95c46/65158b443dd659d3e33a7738_Layer%202%20%281%29.webp",
+    "file": "04-headspace.webp",
+    "downloaded": true,
+    "take": "친근한 설명용 형태",
+    "assessment": "표정과 둥근 도형으로 장면의 감정을 전달한다. 돈 설명에서도 복잡한 기계 대신 익숙한 사물을 활용하는 방향.",
+    "avoid": "Headspace의 얼굴·색상·모양을 그대로 하마 자산으로 쓰지 않는다.",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "05",
+    "name": "Cash App / BUCK",
+    "url": "https://buck.co/work/cash-app-illustration-system",
+    "image": "https://cdn.sanity.io/images/uk7b627p/production/d22d10356e537c423721b0b63f5c561a42cf302a-4320x4182.png?w=1200&q=85&auto=format",
+    "file": "05-cashapp.png",
+    "downloaded": true,
+    "take": "금융 소재를 위한 그림 체계",
+    "assessment": "동전·기기·문서 같은 물체를 일관된 선과 투시로 묶은 라이브러리를 볼 수 있다. 하마에도 돈 공부 소품 체계가 필요하다.",
+    "avoid": "초록색과 손·캐릭터를 복제하지 않는다. 하마 색으로 번역한다.",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "06",
+    "name": "Wealthsimple / Palesa",
+    "url": "https://www.palesamonareng.com/wealthsimple-moneydiaries",
+    "image": "https://images.squarespace-cdn.com/content/v1/5e60f2bdb366407c88948a72/1702408294658-JEBPRJN0XH6G8UWQSMRU/jefftweedy_wealthsimple%2Bcopy.jpg",
+    "file": "06-wealthsimple.jpg",
+    "downloaded": true,
+    "take": "돈 이야기의 에디토리얼 화면",
+    "assessment": "일러스트와 제목이 각자 자리를 가진다. 하마 여정·실수·결산도 캐릭터를 과하게 크게 쓰지 않고 이야기 중심으로 구성할 수 있다.",
+    "avoid": "인물이나 기사 문장을 하마의 경험으로 바꾸지 않는다.",
+    "checked": "2026-11-02"
+  },
+  {
+    "id": "07",
+    "name": "organized.finance",
+    "url": "https://www.instagram.com/organized.finance/",
+    "local": "59d80c6e.jpg",
+    "file": "07-organized.jpg",
+    "status": "기존 10/27 캡처. 현재 피드·지표 미확인",
+    "downloaded": true,
+    "take": "여정과 반복 카드",
+    "assessment": "기존 캡처에서 생활 사진·숫자 카드·반복되는 정보 화면의 조합을 비교했다. 주간 결산과 실제 기록의 정보 구조 참고.",
+    "avoid": "현재 팔로워·조회수·저장수·성과를 검증한 것이 아니다.",
+    "checked": "기존 2026-10-27 캡처 시각 검토"
+  },
+  {
+    "id": "08",
+    "name": "aiscene.kr",
+    "url": "https://www.instagram.com/aiscene.kr/",
+    "local": "c759e2c2.jpg",
+    "file": "08-aiscene.jpg",
+    "status": "기존 10/27 캡처. 현재 피드·지표 미확인",
+    "downloaded": true,
+    "take": "캐릭터를 반복하는 피드",
+    "assessment": "기존 캡처의 주황 마스코트와 큰 제목의 반복을 확인했다. 작은 크기에서도 브랜드가 식별되는지 참고.",
+    "avoid": "마스코트·주황 배색·자극적 수치를 가져오지 않는다.",
+    "checked": "기존 2026-10-27 캡처 시각 검토"
+  }
+]

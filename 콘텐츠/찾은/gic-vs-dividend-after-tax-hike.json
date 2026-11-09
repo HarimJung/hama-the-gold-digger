@@ -1,0 +1,1181 @@
+{
+  "key": "gic-vs-dividend-after-tax-hike",
+  "category": "stocks",
+  "status": "draft",
+  "title": "GIC interest vs Canadian dividends, after the cut",
+  "object": "THE GIC VS DIVIDEND AFTER-TAX TABLE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s6560574b', 's128ef434'] · 퍼스나 The bank-branch fund holder",
+  "fact": {
+    "num": "138",
+    "unit": "%",
+    "thing": "gross-up on eligible Canadian dividends",
+    "box": "non-registered (taxable) account",
+    "claim": "If you get eligible dividends from a Canadian company in a regular taxable account, you report 138% of what you were actually paid as income. You then get a dividend tax credit that lowers your tax, so at the same pre-tax amount you usually keep more from dividends than from GIC interest, which is taxed in full as ordinary income. None of this applies inside a TFSA or RRSP, where neither is taxed this way. The bigger grossed-up income can also reduce income-tested benefits, and a dividend is not guaranteed the way a GIC rate is.",
+    "sources": [
+      "CRA – Lines 12000 and 12010"
+    ],
+    "verified": "find.py · 대조 1/1",
+    "felt": {
+      "num": "380",
+      "unit": "$",
+      "a": "1,380",
+      "b": "1,000",
+      "how": "same $1,000 in a taxable box: GIC interest reported as $1,000 vs Canadian dividend reported as $1,380 on the slip",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA – Lines 12000 and 12010",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12000-taxable-amount-dividends-eligible-other-than-eligible-taxable-canadian-corporations.html",
+      "what": "Multiply the actual amount received by 138% and include the result on line 12000",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "STOCKS · CANADA",
+      "topic": "WHY STOCKS",
+      "hook": {
+        "pre": "Bank interest $",
+        "num": "1,000,",
+        "post": " company money $1,380. Want the $380?"
+      },
+      "promise": "Give me 30 seconds. Or keep the smaller slip."
+    },
+    {
+      "type": "flow",
+      "kicker": "THE PART ON YOUR SLIP",
+      "title": "Why your slip says *$1,380.*",
+      "lead": "A Canadian company pays you $1,000 in eligible dividends. The CRA has you report <em>138% of it.</em>",
+      "steps": [
+        {
+          "n": "$1,000",
+          "t": "Canadian company pays you",
+          "s": "in a regular taxable box"
+        },
+        {
+          "n": "+$380",
+          "t": "added on paper",
+          "s": "$1,000 × 138% = $1,380",
+          "cut": true
+        },
+        {
+          "n": "CREDIT",
+          "t": "dividend tax credit",
+          "s": "brings your cut back down"
+        }
+      ],
+      "tail": "You report money you never got. Then a credit lowers the tax on it. That's how the rule works.",
+      "source_label": "CRA · LINES 12000 AND 12010",
+      "say": "Hama panicked at $1,380.|Then found the credit."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME $1,000 · TWO KINDS OF INCOME",
+      "title": "GIC interest gets no *credit.*",
+      "boxes": [
+        {
+          "h": "GIC INTEREST",
+          "v": "100%",
+          "tone": "flat",
+          "d": "$1,000 earned, $1,000 reported.",
+          "d2": "Taxed in full as ordinary income. No credit brings the cut down.",
+          "d3": "In a regular taxable box"
+        },
+        {
+          "h": "CANADIAN DIVIDEND",
+          "v": "138%",
+          "tone": "win",
+          "d": "$1,000 paid, $1,380 reported.",
+          "d2": "The dividend tax credit lowers the cut. At the same pre-tax amount you usually keep more.",
+          "d3": "Eligible dividends, taxable box",
+          "lead": true
+        }
+      ],
+      "source_label": "CRA · LINES 12000 AND 12010",
+      "say": "Bigger number on paper.|Usually a smaller cut."
+    },
+    {
+      "type": "do",
+      "kicker": "THE GIC VS DIVIDEND AFTER-TAX TABLE",
+      "title": "Three checks before you compare the two.",
+      "lead": "In a TFSA or RRSP, <em>none of this applies.</em>",
+      "checks": [
+        {
+          "h": "1 · WHICH BOX",
+          "d": "Regular taxable box only. The TFSA and RRSP don't use the 138% rule."
+        },
+        {
+          "h": "2 · YOUR BENEFITS",
+          "d": "$1,000 shows up as $1,380. Income-tested benefits see the bigger number."
+        },
+        {
+          "h": "3 · THE PROMISE",
+          "d": "A GIC rate is locked in. A dividend can shrink or stop."
+        }
+      ],
+      "button": "Save this · check your box before tax season",
+      "fine": "General education, not investment or tax advice. Confirm your own case with the CRA or a tax professional.",
+      "say": "Check the box first.|Then compare."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Bank interest: $380 behind company money on the slip. Want it back?",
+      "Bank interest or company money: who keeps $380 more? Want it?",
+      "Bank interest savers skip $380 on the same $1,000. Want it back?",
+      "Bank interest looks safe. It shows $380 less. Want more?",
+      "Bank interest: Hama's slip showed $380 less than company money. Want it?",
+      "Bank interest savers got $380 less than company money savers. Want it?",
+      "Bank interest vs company money: $380 apart on paper. Want it back?",
+      "Bank interest $1,000, company money $1,380. Want the $380?",
+      "Bank interest: same $1,000, same slip, $380 less. Want it back?",
+      "Bank interest in the wrong box shows $380 less. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Bank interest $1,000, company money $1,380. Want the $380?",
+    "spoken": "Bank interest $1,000, company money $1,380. Want the $380?",
+    "promise": "Give me 30 seconds. Or keep the smaller slip.",
+    "pick_why": "Two slip numbers next to each other and the $380 gap as the question make a beginner stop and save.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "KEEP IT"
+  },
+  "lede": "A $1,000 Canadian dividend goes on your return as $1,380. A credit then lowers the tax, so you usually keep more than you would from the same GIC interest.",
+  "series": "DIVIDEND TAX BASICS",
+  "source_note": "CRA LINES 12000 AND 12010 · HOW DIVIDENDS ARE REPORTED",
+  "caption": "🐶⛏️ If you see $380 extra on your dividend slip, your tax may still shrink.\n\nThat's the 138% gross-up, and then a credit cuts the tax, so you usually keep more than with GIC interest. It only works in a regular box, since a TFSA or RRSP skips it.\n\nComment SLIP and I'll send you my GIC vs dividend after-tax table 🪙\nWhich box holds yours?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#dividendscanada #canadiantax #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 비교.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Bank interest $1,000, company money $1,380. Want the $380?",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE GIC VS DIVIDEND AFTER-TAX TABLE",
+          "num": "$380",
+          "line": "Bank interest $1,000, company money $1,380. Want the $380?",
+          "promise": "Give me 30 seconds. Or keep the smaller slip.",
+          "subj": "BANK INTEREST",
+          "stamp": "KEEP IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Or keep the smaller slip.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and bank interest keeps taking the *full* cut.",
+        "cap": "low"
+      },
+      {
+        "say": "A Canadian company pays you a $1,000 *dividend.*",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "GIC INTEREST",
+            "big": "$1,000",
+            "ft": "$1,000 earned"
+          },
+          "b": {
+            "k": "CANADIAN DIVIDEND",
+            "big": "$1,380",
+            "ft": "$1,000 paid",
+            "at": 1
+          },
+          "gap": "$380",
+          "gap_at": 1
+        },
+        "badge": "THE SLIP",
+        "in": "pan"
+      },
+      {
+        "say": "A GIC, a fixed-rate bank deposit, pays $1,000."
+      },
+      {
+        "say": "The tax slips say $1,380 and $1,000.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "$1,000 earned",
+              "tone": "loss",
+              "h": "GIC INTEREST",
+              "v": "$1,000",
+              "at": 0
+            },
+            {
+              "sub": "$1,000 paid",
+              "tone": "win",
+              "h": "CANADIAN DIVIDEND",
+              "v": "$1,380",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Why would a bigger slip mean a *smaller* cut?",
+        "part": "callout",
+        "data": {
+          "word": "smaller",
+          "line": "Why would a bigger slip mean a *smaller* cut?",
+          "at": "smaller"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "The 138% gross-up adds $380 on paper you never got.",
+        "part": "tag",
+        "data": {
+          "old": "MORE TAX",
+          "new": "USUALLY LESS",
+          "at": 1,
+          "sub": "a credit lowers the tax on it.",
+          "sub_at": 1
+        },
+        "badge": "THE CREDIT",
+        "in": "zoom"
+      },
+      {
+        "say": "Then a *credit* lowers the tax, and bank interest gets none."
+      },
+      {
+        "say": "But government money tied to *income* sees $1,380.",
+        "part": "callout",
+        "data": {
+          "word": "income",
+          "line": "But government money tied to *income* sees $1,380.",
+          "at": "income"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "That $380 usually means a *smaller* cut.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$380",
+          "tail": "usually a smaller cut",
+          "at": "$380"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Check which *box* holds your dividends.",
+        "part": "fan",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Which box",
+            "TFSA or RRSP",
+            "Save this post"
+          ],
+          "k": "THE GIC VS DIVIDEND AFTER-TAX TABLE",
+          "from": 0,
+          "to": 1
+        },
+        "in": "pan"
+      },
+      {
+        "say": "A TFSA or RRSP skips all of this."
+      },
+      {
+        "say": "Comment *SLIP,* and I will send you the GIC vs dividend table.",
+        "part": "tiles",
+        "data": {
+          "word": "SLIP",
+          "at": "SLIP",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the GIC vs dividend after-tax table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bank interest $1,000, company money $1,380. Want the $380?",
+          "Give me 30 seconds. Or keep the smaller slip."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and bank interest keeps taking the *full* cut."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE SLIP",
+        "data": {
+          "a": {
+            "h": "GIC INTEREST",
+            "v": "$1,000",
+            "sub": "$1,000 earned",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "CANADIAN DIVIDEND",
+            "v": "$1,380",
+            "sub": "$1,000 paid",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "A Canadian company pays you a $1,000 *dividend.*",
+          "A GIC, a fixed-rate bank deposit, pays $1,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "GIC INTEREST",
+            "v": "$1,000",
+            "sub": "$1,000 earned",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "CANADIAN DIVIDEND",
+            "v": "$1,380",
+            "sub": "$1,000 paid",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The tax slips say $1,380 and $1,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Why would a bigger slip mean a *smaller* cut?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE CREDIT",
+        "data": {
+          "old": "MORE TAX",
+          "new": "USUALLY LESS",
+          "sub": "a credit lowers the tax on it."
+        },
+        "lines": [
+          "The 138% gross-up adds $380 on paper you never got.",
+          "Then a *credit* lowers the tax, and bank interest gets none."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But government money tied to *income* sees $1,380."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$380",
+          "new": "usually a smaller cut"
+        },
+        "lines": [
+          "That $380 usually means a *smaller* cut."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Which box",
+            "TFSA or RRSP"
+          ]
+        },
+        "lines": [
+          "Check which *box* holds your dividends.",
+          "A TFSA or RRSP skips all of this."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "SLIP",
+          "gift": "the GIC vs dividend after-tax table"
+        },
+        "lines": [
+          "Comment *SLIP,* and I will send you the GIC vs dividend table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook, a lock-in about the full cut that keeps running, a side-by-side of the $1,000 and $1,380 slips, a question rehook, the gross-up and credit in plain words, a rehook on what benefits see, the $380 closing, then the given check and cta endings.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "dumbbell",
+        "stack",
+        "callout",
+        "tag",
+        "callout",
+        "tail",
+        "fan",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "SLIP"
+    }
+  },
+  "plain": {
+    "what": "A Canadian company paid you a $1,000 dividend. A dividend is money a company pays you. But your tax slip says $1,380, not $1,000, and that bigger number is what goes on your tax return.",
+    "so_what": "That's the 138% gross-up, and then a credit lowers the tax on it, so from the same amount before tax you usually keep more than you would from GIC interest, which is a bank deposit with a fixed rate and gets no credit.",
+    "do": "Before tax season, check which account your GIC and your dividends sit in, and write it down.",
+    "words": [
+      {
+        "term": "dividend",
+        "means": "money a company pays you"
+      },
+      {
+        "term": "GIC",
+        "means": "a bank deposit with a fixed rate"
+      },
+      {
+        "term": "gross-up",
+        "means": "your slip shows a bigger number than you got"
+      },
+      {
+        "term": "dividend tax credit",
+        "means": "a cut that lowers the tax on that money"
+      },
+      {
+        "term": "TFSA",
+        "means": "an account where your money grows tax-free"
+      },
+      {
+        "term": "RRSP",
+        "means": "a retirement account you pay tax on later"
+      },
+      {
+        "term": "non-registered account",
+        "means": "a regular account with no tax shelter"
+      },
+      {
+        "term": "income-tested benefits",
+        "means": "government money that shrinks as income rises"
+      }
+    ]
+  },
+  "subject": "Bank interest",
+  "deliver": {
+    "word": "SLIP",
+    "gift": "the GIC vs dividend after-tax table"
+  },
+  "check": [
+    "Which box",
+    "TFSA or RRSP"
+  ],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 비교.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Bank interest $1,000, company money $1,380. Want the $380?",
+        "part": "tease",
+        "data": {
+          "pill": "THE GIC VS DIVIDEND AFTER-TAX TABLE",
+          "num": "$380",
+          "line": "Bank interest $1,000, company money $1,380. Want the $380?",
+          "promise": "Give me 30 seconds. Or keep the smaller slip.",
+          "subj": "BANK INTEREST",
+          "stamp": "KEEP IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Or keep the smaller slip.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and bank interest keeps taking more.",
+        "cap": "low"
+      },
+      {
+        "say": "Same $1,000, two ways, one regular taxable box.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "BANK INTEREST",
+            "big": "$1,000",
+            "ft": "reported in full"
+          },
+          "b": {
+            "k": "COMPANY MONEY",
+            "big": "$1,380",
+            "ft": "same $1,000, 138%",
+            "at": "$1,380"
+          },
+          "gap": "$380",
+          "gap_at": 1
+        },
+        "badge": "ON YOUR SLIP",
+        "in": "pan"
+      },
+      {
+        "say": "Bank interest shows $1,000, company money $1,380."
+      },
+      {
+        "say": "The CRA has you report *138%*, and that's the $380.",
+        "part": "split",
+        "data": {
+          "k": "BANK INTEREST vs COMPANY MONEY",
+          "total": "$1,380",
+          "a": {
+            "v": "$1,000",
+            "l": "BANK INTEREST",
+            "w": 0.42016806722689076,
+            "at": 0
+          },
+          "b": {
+            "v": "$1,380",
+            "l": "COMPANY MONEY",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Why is the bigger slip *better*?",
+        "part": "callout",
+        "data": {
+          "word": "better",
+          "line": "Why is the bigger slip *better*?",
+          "at": "better"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "That company money is a *dividend*, money a company pays you.",
+        "part": "strike",
+        "data": {
+          "old": "BIGGER CUT",
+          "new": "SMALLER CUT",
+          "at": "keep",
+          "k": "",
+          "sub": "a credit brings it down.",
+          "sub_at": 1
+        },
+        "in": "iris"
+      },
+      {
+        "say": "A credit lowers that cut, so you usually *keep* more."
+      },
+      {
+        "say": "Bank interest is locked in, but a dividend can shrink or *stop*.",
+        "part": "tabs",
+        "data": {
+          "old": "LOCKED",
+          "new": "CAN STOP",
+          "at": "CAN",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "The $380 on paper usually means you *keep* more.",
+        "part": "stamp",
+        "data": {
+          "old": "$380",
+          "new": "on paper only",
+          "at": "on",
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Bank interest gets no credit.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "BANK INTEREST",
+              "v": "BANK INTEREST",
+              "w": 0.2,
+              "at": 0
+            },
+            {
+              "l": "no credit back",
+              "v": "no credit back",
+              "w": 0.2,
+              "at": 1
+            }
+          ]
+        },
+        "dark": true,
+        "in": "pan"
+      },
+      {
+        "say": "*Gone.*"
+      },
+      {
+        "say": "Comment *DIVIDE,* and I will send you the after-tax table.",
+        "part": "tiles",
+        "data": {
+          "word": "DIVIDE",
+          "at": "DIVIDE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the interest vs dividend after-tax table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bank interest $1,000, company money $1,380. Want the $380?",
+          "Give me 30 seconds. Or keep the smaller slip."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and bank interest keeps taking more."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "ON YOUR SLIP",
+        "data": {
+          "a": {
+            "h": "BANK INTEREST",
+            "v": "$1,000",
+            "sub": "reported in full",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "COMPANY MONEY",
+            "v": "$1,380",
+            "sub": "same $1,000, 138%",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Same $1,000, two ways, one regular taxable box.",
+          "Bank interest shows $1,000, company money $1,380."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BANK INTEREST",
+            "v": "$1,000",
+            "sub": "reported in full",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "COMPANY MONEY",
+            "v": "$1,380",
+            "sub": "same $1,000, 138%",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The CRA has you report *138%*, and that's the $380."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Why is the bigger slip *better*?"
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "BIGGER CUT",
+          "new": "SMALLER CUT",
+          "sub": "a credit brings it down."
+        },
+        "lines": [
+          "That company money is a *dividend*, money a company pays you.",
+          "A credit lowers that cut, so you usually *keep* more."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "LOCKED",
+          "new": "CAN STOP"
+        },
+        "lines": [
+          "Bank interest is locked in, but a dividend can shrink or *stop*."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$380",
+          "new": "on paper only"
+        },
+        "lines": [
+          "The $380 on paper usually means you *keep* more."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "BANK INTEREST",
+          "new": "no credit back"
+        },
+        "lines": [
+          "Bank interest gets no credit.",
+          "*Gone.*"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DIVIDE",
+          "gift": "the interest vs dividend after-tax table"
+        },
+        "lines": [
+          "Comment *DIVIDE,* and I will send you the after-tax table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Opener and lock-in, then the compare shows the same $1,000 landing as $1,000 against $1,380, a question rehook leads into the myth that a bigger slip means a bigger cut, the trap rehook flips locked to can stop, the closing repeats the $380, and the given loss plus cta ending closes it.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "compare",
+        "split",
+        "callout",
+        "strike",
+        "tabs",
+        "stamp",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "iris",
+        "pan",
+        "wipe",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "DIVIDE"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 비교.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Bank interest $1,000, company money $1,380. Want the $380?",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE GIC VS DIVIDEND AFTER-TAX TABLE",
+          "num": "$380",
+          "line": "Bank interest $1,000, company money $1,380. Want the $380?",
+          "promise": "Give me 30 seconds. Or keep the smaller slip.",
+          "subj": "BANK INTEREST",
+          "stamp": "KEEP IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Or keep the smaller slip.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and bank interest keeps taking more.",
+        "cap": "low"
+      },
+      {
+        "say": "Same $1,000, two ways, one regular taxable box.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "BANK INTEREST",
+            "big": "$1,000",
+            "ft": "reported in full"
+          },
+          "b": {
+            "k": "COMPANY MONEY",
+            "big": "$1,380",
+            "ft": "same $1,000, 138%",
+            "at": "$1,380"
+          },
+          "gap": "$380",
+          "gap_at": 1
+        },
+        "badge": "ON YOUR SLIP",
+        "in": "pan"
+      },
+      {
+        "say": "Bank interest shows $1,000, company money $1,380."
+      },
+      {
+        "say": "The CRA has you report *138%*, and that's the $380.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "BANK INTEREST",
+            "big": "$1,000",
+            "ft": "reported in full"
+          },
+          "b": {
+            "k": "COMPANY MONEY",
+            "big": "$1,380",
+            "ft": "same $1,000, 138%",
+            "at": 0
+          },
+          "gap": "$380",
+          "gap_at": "$380"
+        }
+      },
+      {
+        "say": "Why is the bigger slip *better*?",
+        "part": "callout",
+        "data": {
+          "word": "better",
+          "line": "Why is the bigger slip *better*?",
+          "at": "better"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "That company money is a *dividend*, money a company pays you.",
+        "part": "strike",
+        "data": {
+          "old": "BIGGER CUT",
+          "new": "SMALLER CUT",
+          "at": "keep",
+          "k": "",
+          "sub": "a credit brings it down.",
+          "sub_at": 1
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "A credit lowers that cut, so you usually *keep* more."
+      },
+      {
+        "say": "Bank interest is locked in, but a dividend can shrink or *stop*.",
+        "part": "tabs",
+        "data": {
+          "old": "LOCKED",
+          "new": "CAN STOP",
+          "at": "CAN",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "The $380 on paper usually means you *keep* more.",
+        "part": "stamp",
+        "data": {
+          "old": "$380",
+          "new": "on paper only",
+          "at": "on",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Bank interest gets no credit.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "BANK INTEREST",
+              "v": "BANK INTEREST",
+              "w": 0.2,
+              "at": 0
+            },
+            {
+              "l": "no credit back",
+              "v": "no credit back",
+              "w": 0.2,
+              "at": 1
+            }
+          ]
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "*Gone.*"
+      },
+      {
+        "say": "Comment *DIVIDE,* and I will send you the after-tax table.",
+        "part": "tiles",
+        "data": {
+          "word": "DIVIDE",
+          "at": "DIVIDE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the interest vs dividend after-tax table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Bank interest $1,000, company money $1,380. Want the $380?",
+          "Give me 30 seconds. Or keep the smaller slip."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and bank interest keeps taking more."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "ON YOUR SLIP",
+        "data": {
+          "a": {
+            "h": "BANK INTEREST",
+            "v": "$1,000",
+            "sub": "reported in full",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "COMPANY MONEY",
+            "v": "$1,380",
+            "sub": "same $1,000, 138%",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Same $1,000, two ways, one regular taxable box.",
+          "Bank interest shows $1,000, company money $1,380."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BANK INTEREST",
+            "v": "$1,000",
+            "sub": "reported in full",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "COMPANY MONEY",
+            "v": "$1,380",
+            "sub": "same $1,000, 138%",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The CRA has you report *138%*, and that's the $380."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Why is the bigger slip *better*?"
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "BIGGER CUT",
+          "new": "SMALLER CUT",
+          "sub": "a credit brings it down."
+        },
+        "lines": [
+          "That company money is a *dividend*, money a company pays you.",
+          "A credit lowers that cut, so you usually *keep* more."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "LOCKED",
+          "new": "CAN STOP"
+        },
+        "lines": [
+          "Bank interest is locked in, but a dividend can shrink or *stop*."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$380",
+          "new": "on paper only"
+        },
+        "lines": [
+          "The $380 on paper usually means you *keep* more."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "BANK INTEREST",
+          "new": "no credit back"
+        },
+        "lines": [
+          "Bank interest gets no credit.",
+          "*Gone.*"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DIVIDE",
+          "gift": "the interest vs dividend after-tax table"
+        },
+        "lines": [
+          "Comment *DIVIDE,* and I will send you the after-tax table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Opener and lock-in, then the compare shows the same $1,000 landing as $1,000 against $1,380, a question rehook leads into the myth that a bigger slip means a bigger cut, the trap rehook flips locked to can stop, the closing repeats the $380, and the given loss plus cta ending closes it.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "compare",
+        "dumbbell",
+        "callout",
+        "strike",
+        "tabs",
+        "stamp",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "fade",
+        "pan",
+        "zoom",
+        "pan",
+        "iris",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "DIVIDE"
+    }
+  },
+  "caption_b": "🐶⛏️ Why does your slip say 138% of what a Canadian company paid you?\n\nThat's the gross-up, but a credit then cuts your tax, so you usually keep more than you would from GIC interest. Inside a TFSA or RRSP, none of this happens.\n\nComment SLIP and I'll send you my GIC vs dividend after-tax table 🪙\nWhich box holds yours?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#dividendscanada #tfsacanada #torontofinance",
+  "caption_family": "curious"
+}

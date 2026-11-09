@@ -1,0 +1,442 @@
+{
+  "date": "2026-11-03",
+  "day": 2,
+  "slot": "main",
+  "category": "tax",
+  "status": "draft",
+  "supersedes": null,
+  "note_": "2026-11-03 밤 늦게: v2(레퍼 재현 6장)의 구조를 새 피부로 되살린 판. v3(3장)와 나란히 두고 하림님이 고른다. «v2 에서 한 것들이 어디 갔냐».",
+  "title": "Day 2 · US dividends in the wrong box",
+  "lede": "6장. v2 구조 그대로(표지 · 흐름 · 반전 · 단서 · 6행 밀도표 · 할 일), 피부만 새것.",
+  "series": "TFSA · WHERE THE CUT GOES",
+  "source_note": "CONFIRM WITH CRA",
+  "place": "TORONTO",
+  "object": "US DIVIDEND LEAK TABLE",
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "15% of your payout leaks. Even in a tax-free box.",
+      "Is your tax-free box quietly cutting 15% from you?",
+      "Wrong box. You lose 15% every time stocks pay you.",
+      "Tax-free box. Your US stocks pay you, minus 15%.",
+      "Hama's payout was 15% short. Yours is too.",
+      "US stocks pay you. 15% leaves and never comes back.",
+      "The 15% leak table. Every box you own, checked.",
+      "Same US stocks, different box. Your 15% cut vanishes.",
+      "Every payout so far, 15% has already left you.",
+      "Never put US stocks in this box. You lose 15%."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "15% of your payout leaks. Even in a tax-free box.",
+    "spoken": "15% of your payout leaks, even in a tax-free box.",
+    "pick_why": "The number hits first and the tax-free contradiction lands in one second, so beginners who thought their box was safe stop, and a fixed leak percent is the kind of fact people save to check later.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-03"
+  },
+  "sources": [
+    {
+      "label": "WEALTHNORTH",
+      "what": "TFSA 안의 미국 배당에는 15% 가 붙고 되돌려받을 수 없다",
+      "url": "https://wealthnorth.ca/investing/etfs/foreign-dividend-withholding-tax-canada/",
+      "confidence": "교육 페이지 — 1차 자료 아님. CONFIRM WITH CRA"
+    },
+    {
+      "label": "QUESTRADE · RRSP",
+      "what": "조약이 RRSP·RRIF 를 미국 배당 15% 에서 면제한다 (W-8BEN 필요)",
+      "url": "https://www.questrade.com/learning/accounts-taxes/rrsp-foreign-withholding-tax",
+      "confidence": "증권사 교육 페이지 — 1차 자료 아님"
+    },
+    {
+      "label": "QUESTRADE · TFSA",
+      "what": "TFSA 는 조약이 인정하는 은퇴계좌 목록에 없다",
+      "url": "https://www.questrade.com/learning/accounts-taxes/us-stocks-in-tfsa",
+      "confidence": "증권사 교육 페이지 — 1차 자료 아님"
+    },
+    {
+      "label": "FINIKI",
+      "what": "캐나다 상장 펀드가 미국 자산을 담으면 RRSP 안에서도 펀드 단에서 떼인다",
+      "url": "https://finiki.org/wiki/Foreign_withholding_taxes",
+      "confidence": "위키 — 1차 자료 아님"
+    },
+    {
+      "label": "GLOBE ADVISOR",
+      "what": "RRSP 안의 외국 원천징수를 줄이는 쪽은 직접 보유 쪽이다",
+      "url": "https://theglobeandmail.com/investing/globe-advisor/advisor-funds/article-avoiding-the-silent-enemy-of-foreign-withholding-tax-in-rrsps",
+      "confidence": "기사 — 1차 자료 아님"
+    }
+  ],
+  "unverified": [
+    "조약 조문 번호(Article XXI)와 IRS·CRA 원문은 아직 안 봤다. 5개 모두 2차 자료다.",
+    "표의 금액은 확인된 15% 에 산수만 한 것이다. 지어낸 수익률이 아니다."
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "US DIVIDENDS · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "",
+        "num": "15",
+        "post": "% of your payout leaks. Even in a tax-free box."
+      }
+    },
+    {
+      "type": "flow",
+      "kicker": "THE PART NOBODY MENTIONS",
+      "lead": "A US company pays you a dividend. Before it leaves the United States, <em>a cut is taken.</em>",
+      "steps": [
+        {
+          "n": "$1,000",
+          "t": "US company pays",
+          "s": "a year in dividends"
+        },
+        {
+          "n": "−$150",
+          "t": "15% at the border",
+          "s": "before it leaves",
+          "cut": true
+        },
+        {
+          "n": "$850",
+          "t": "lands in your TFSA",
+          "s": "what's left"
+        }
+      ],
+      "tail": "Canada doesn't tax it. The other side already did. And neither government hands it back.",
+      "source_label": "WEALTHNORTH · QUESTRADE",
+      "say": "Hama learned this the slow way.",
+      "title": "Where the cut actually happens."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME STOCKS · TWO BOXES",
+      "title": "One box keeps it all. One box *leaks.*",
+      "boxes": [
+        {
+          "h": "TFSA",
+          "v": "−15%",
+          "d": "$1,000 pays you $850.",
+          "d2": "$10,000 pays you $8,500. The cut happens before it lands. Nobody refunds it.",
+          "d3": "US stocks held inside a TFSA",
+          "lead": true
+        },
+        {
+          "h": "RRSP",
+          "v": "0%",
+          "win": true,
+          "d": "$1,000 pays you $1,000.",
+          "d2": "$10,000 pays you $10,000. The Canada‑US tax deal covers this box, not the TFSA.",
+          "d3": "US stocks held directly in an RRSP"
+        }
+      ],
+      "source_label": "QUESTRADE · WEALTHNORTH",
+      "say": "Same stocks. Different box.|Different money."
+    },
+    {
+      "type": "mini",
+      "kicker": "THE CATCH",
+      "lead": "The exemption is for <em>US-listed holdings held directly</em> in the RRSP.",
+      "rows": [
+        {
+          "t": "US-listed, held directly in the RRSP",
+          "v": "EXEMPT",
+          "ok": true
+        },
+        {
+          "t": "Canadian-listed fund that owns US assets",
+          "v": "STILL HIT"
+        },
+        {
+          "t": "Anything US-paying inside the TFSA",
+          "v": "−15%"
+        }
+      ],
+      "tail": "The treaty does not reach inside a fund. It only covers what the account holds directly.",
+      "source_label": "FINIKI · GLOBE ADVISOR",
+      "say": "So the wrapper matters too.",
+      "title": "The treaty stops at the wrapper."
+    },
+    {
+      "type": "table",
+      "kicker": "US DIVIDEND LEAK TABLE",
+      "title": "Same payout. Two boxes.",
+      "h1": "US STOCKS PAY YOU",
+      "h2": "LANDS IN YOUR TFSA",
+      "h3": "LANDS IN YOUR RRSP",
+      "rows": [
+        {
+          "a": "$100",
+          "asub": "a year",
+          "bar": 85,
+          "b": "$85",
+          "gone": "−$15 gone",
+          "c": "$100",
+          "csub": "nothing taken"
+        },
+        {
+          "a": "$500",
+          "asub": "a year",
+          "bar": 85,
+          "b": "$425",
+          "gone": "−$75 gone",
+          "c": "$500",
+          "csub": "nothing taken"
+        },
+        {
+          "a": "$1,000",
+          "asub": "a year",
+          "bar": 85,
+          "b": "$850",
+          "gone": "−$150 gone",
+          "c": "$1,000",
+          "csub": "nothing taken"
+        },
+        {
+          "a": "$3,000",
+          "asub": "a year",
+          "bar": 85,
+          "b": "$2,550",
+          "gone": "−$450 gone",
+          "c": "$3,000",
+          "csub": "nothing taken"
+        },
+        {
+          "a": "$5,000",
+          "asub": "a year",
+          "bar": 85,
+          "b": "$4,250",
+          "gone": "−$750 gone",
+          "c": "$5,000",
+          "csub": "nothing taken"
+        },
+        {
+          "a": "$10,000",
+          "asub": "a year",
+          "bar": 85,
+          "b": "$8,500",
+          "gone": "−$1,500 gone",
+          "c": "$10,000",
+          "csub": "nothing taken"
+        }
+      ],
+      "note": "US-listed stocks held directly. <b>The tax deal covers the RRSP, not the TFSA.</b>"
+    },
+    {
+      "type": "do",
+      "kicker": "ONE THING TO DO",
+      "checks": [
+        {
+          "h": "1 · WHICH BOX",
+          "d": "TFSA or RRSP. It's on the account page, not the fund page."
+        },
+        {
+          "h": "2 · WHAT IT HOLDS",
+          "d": "US-listed and held directly, or a Canadian fund that owns US assets."
+        }
+      ],
+      "lead": "If it's US dividends sitting in the TFSA, <em>that's the 15%.</em>",
+      "button": "Save the table · check before your next buy",
+      "fine": "General education, not investment or tax advice. Confirm your own case with the CRA or a tax professional.",
+      "say": "That's the whole trick.",
+      "title": "Three seconds, on your own account."
+    }
+  ],
+  "caption": "15% of your US dividends never make it into your TFSA, and you can't claim it back.\n\nThe Canada-US treaty keeps a list of retirement accounts. The RRSP is on it. The TFSA isn't.\n\nSo a US company pays $1,000. The border takes $150 on the way out. $850 lands in your tax-free box, and Canada can't refund the rest, because you owe nothing here to claim it against.\n\nSame fund, same dividend. In an RRSP it arrives whole.\n\nThere's a catch, and it's the part that trips people up. The exemption covers US-listed holdings you hold directly. A Canadian-listed fund that owns US assets can still leak at the fund level, in either account.\n\nSo before your next buy, two things. What box it sits in, and what it actually holds.\n\nGeneral education, not tax advice. Confirm your own case with the CRA or a tax professional.\n\nSave this one and check before your next buy.\n\n#tfsa #rrsp #canadianinvesting #withholdingtax #dividendinvesting",
+  "fact": {
+    "num": "15",
+    "unit": "%",
+    "thing": "US dividends",
+    "box": "tax-free box (TFSA)",
+    "claim": "US dividends held in a TFSA lose 15% at the border and it cannot be claimed back. The RRSP is exempt. Canadian-listed funds that hold US assets can still leak inside either.",
+    "sources": [
+      "WEALTHNORTH",
+      "QUESTRADE · RRSP",
+      "QUESTRADE · TFSA",
+      "FINIKI",
+      "GLOBE ADVISOR"
+    ],
+    "verified": "2차 자료 5개. 1차(조약·CRA) 미확인"
+  },
+  "reel": {
+    "format": "1080x1920 · 3장 × 6초 = 18초 · 무음(음악은 앱에서)",
+    "spoken": [
+      "15% of your payout leaks, even in a tax-free box.",
+      "Same stocks. Different box. Different money.",
+      "Save this one. Check your box before your next buy."
+    ],
+    "made_by": "엔진/build.py --reel → HyperFrames (npx hyperframes render)"
+  },
+  "story": {
+    "frames": [
+      {
+        "n": 1,
+        "image": "01-hero (9x16)",
+        "sticker": "Poll · «Did you know this?» · Knew it / No way",
+        "where": "그림 아래, 저장 띠 위 (y≈1300~1400)"
+      },
+      {
+        "n": 2,
+        "image": "02-two (9x16)",
+        "sticker": "없음",
+        "note": "답을 보여주는 장. 글만"
+      },
+      {
+        "n": 3,
+        "image": "03-table (9x16)",
+        "sticker": "Link · 게시물 링크 «Save the table»",
+        "where": "표 아래 노트 위"
+      }
+    ],
+    "after": "No way 에 투표한 사람에게만 답장. 표 링크 한 줄. (ig-story: they act first, then you reply)",
+    "daily_story_note": "plan.json 의 «아침 가격 + 밤 딸기 넥카라» 는 하림님 실제 사진이 있어야 한다. 지어내지 않는다."
+  },
+  "rail": {
+    "note_": "2026-11-04 레일 릴스 1라운드 시험(찢김·다크·세로 팬·아이소 판·단어 교체·블러 자막). 첫 마디는 hooks.spoken. 숫자는 이 파일 slides·fact 값만.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "*15%* of your payout leaks, even in a *tax-free* box.",
+        "part": "hook",
+        "data": {
+          "chip": "US dividends · TFSA",
+          "chip_note": "· tax-free?"
+        }
+      },
+      {
+        "say": "You think tax-free means you keep *all* of it.",
+        "part": "swap",
+        "data": {
+          "old": "TAX-FREE",
+          "new": "15% GONE",
+          "at": "all",
+          "sub": "before it even lands.",
+          "sub_at": "it"
+        }
+      },
+      {
+        "say": "A US company pays you $1,000.",
+        "part": "receipt",
+        "badge": "The cut",
+        "out": "tear",
+        "data": {
+          "title": "US DIVIDEND",
+          "sub": "one year · inside a TFSA",
+          "rows": [
+            [
+              "US company pays",
+              "$1,000",
+              "$1,000"
+            ],
+            [
+              "15% at the border",
+              "−$150",
+              "border,"
+            ]
+          ],
+          "total": [
+            "Lands in your TFSA",
+            "$850",
+            "$850"
+          ],
+          "foot": "WealthNorth · Questrade"
+        }
+      },
+      {
+        "say": "*15%* is taken at the border,"
+      },
+      {
+        "say": "and only $850 lands in your box."
+      },
+      {
+        "say": "And nobody hands it *back.*",
+        "part": "swap",
+        "dark": true,
+        "data": {
+          "old": "−$150",
+          "new": "$0 back",
+          "at": "back"
+        }
+      },
+      {
+        "say": "Same stocks, *two* boxes.",
+        "part": "stack",
+        "in": "pan",
+        "badge": "Two boxes",
+        "data": {
+          "layers": [
+            {
+              "h": "TFSA",
+              "v": "−15%",
+              "sub": "$1,000 pays you $850",
+              "tone": "loss",
+              "at": "Same"
+            },
+            {
+              "h": "RRSP",
+              "v": "0%",
+              "sub": "$1,000 pays you $1,000",
+              "tone": "win",
+              "at": "two"
+            }
+          ],
+          "hi": 1,
+          "hi_at": "RRSP",
+          "stand_at": "whole"
+        }
+      },
+      {
+        "say": "In the *RRSP,* US-listed stocks arrive whole."
+      },
+      {
+        "say": "Held directly, not through a Canadian fund."
+      },
+      {
+        "say": "So check two things on your own *account.*",
+        "part": "checklist",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Which box",
+            "What it holds",
+            "No 15% leak"
+          ],
+          "from": "check",
+          "to": "holds"
+        }
+      },
+      {
+        "say": "Which box, and what it *holds.*"
+      },
+      {
+        "say": "Comment *LEAK,* and I will send you the full table.",
+        "part": "tiles",
+        "in": "dissolve",
+        "data": {
+          "word": "LEAK",
+          "at": "LEAK",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the US dividend leak table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not tax advice."
+        }
+      }
+    ]
+  }
+}

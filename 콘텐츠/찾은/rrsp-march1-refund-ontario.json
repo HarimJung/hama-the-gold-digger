@@ -1,0 +1,1298 @@
+{
+  "key": "rrsp-march1-refund-ontario",
+  "category": "tax",
+  "status": "draft",
+  "title": "The RRSP refund by bracket, Ontario 2026",
+  "object": "THE RRSP REFUND BY BRACKET TABLE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s4e3ee777', 's0d27c638'] · 퍼스나 The late starter",
+  "fact": {
+    "num": "1,483",
+    "unit": "$",
+    "thing": "tax refund on a $5,000 RRSP contribution at the 29.65% combined federal + Ontario rate",
+    "box": "RRSP (2026 tax year, Ontario resident on Dec 31, 2026)",
+    "claim": "In 2026, taxable income from $58,523.01 to $107,785 is taxed at 20.5% federal plus 9.15% Ontario, for a combined marginal rate of 29.65%. If your taxable income is in that range both before and after the deduction, a $5,000 RRSP deduction lowers your tax by about $1,483. Other brackets get different amounts: about $1,158 at 23.15% (from $53,891.01 to $58,523), and Ontario's surtax and health premium can change the result for some incomes. The CRA's rule says the 2026 contribution year ends on the 60th day of 2027, which is Monday, March 1, 2027. The CRA has not posted that date on its own pages yet, and money contributed after that date can't be deducted on your 2026 return.",
+    "sources": [
+      "CRA – Current year tax rates and income brackets (2026), federal",
+      "CRA – Current year tax rates and income brackets (2026), Ontario",
+      "CRA – Current year tax rates (2026), how brackets work",
+      "CRA – RRSP contribution year rule",
+      "CRA – Contribution year weekend rule",
+      "CRA – Important dates for RRSPs (2025 precedent)"
+    ],
+    "verified": "find.py · 대조 6/6",
+    "felt": {
+      "num": "1,483",
+      "unit": "$",
+      "a": "1,483",
+      "b": "0",
+      "how": "$5,000 in RRSP vs $5,000 in savings only, refund at 29.65% bracket",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA – Current year tax rates and income brackets (2026), federal",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "what": "$58,523.01 | $117,045 | 20.5%",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Current year tax rates and income brackets (2026), Ontario",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "what": "$53,891.01 | $107,785 | 9.15%",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Current year tax rates (2026), how brackets work",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "what": "Each rate applies only to the corresponding income bracket, not to all income.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – RRSP contribution year rule",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/financial-slips-summaries/rrsp-contribution-receipt-return/contribution-year.html",
+      "what": "ends on the 60th day of the following year",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Contribution year weekend rule",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/completing-slips-summaries/financial-slips-summaries/rrsp-contribution-receipt-return/contribution-year.html",
+      "what": "In such cases, the preceding contribution year ends on the first business day that follows that Saturday or Sunday, and the start of the current contribution year begins on the day after that first business day.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Important dates for RRSPs (2025 precedent)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/important-dates-rrsp-rrif-rdsp.html",
+      "what": "March 2, 2026 is the deadline for contributing to an RRSP for the 2025 tax year.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "Is your RRSP refund $",
+        "num": "1,483",
+        "post": " or $1,158?"
+      },
+      "promise": "Give me 30 seconds. See your own number."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME PAY · TWO CHOICES",
+      "title": "Same $5,000 saved. One gets *$1,483* back.",
+      "boxes": [
+        {
+          "h": "SAVINGS ONLY",
+          "v": "$0",
+          "tone": "flat",
+          "d": "$5,000 sits in savings.",
+          "d2": "Same money saved. No deduction, so your tax stays the same.",
+          "d3": "Taxable income $58,523 to $107,785",
+          "lead": true
+        },
+        {
+          "h": "RRSP",
+          "v": "$1,483",
+          "win": true,
+          "d": "$5,000 × 29.65% = $1,483.",
+          "d2": "20.5% federal plus 9.15% Ontario. The cut skips the money you put in the box.",
+          "d3": "Example math, not a promise."
+        }
+      ],
+      "source_label": "CRA 2026 RATES",
+      "say": "Same pay. Same $5,000.|Different box."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE RRSP REFUND BY BRACKET TABLE",
+      "title": "Your bracket decides your *refund.*",
+      "rowlabel": "YOUR RATE",
+      "cols": [
+        "$1,000 IN",
+        "$2,500 IN",
+        "$5,000 IN"
+      ],
+      "labw": 22,
+      "rows": [
+        {
+          "a": "23.15%",
+          "asub": "$53,891 to $58,523",
+          "cells": [
+            "$232",
+            "$579",
+            "up to $1,158"
+          ]
+        },
+        {
+          "a": "29.65%",
+          "asub": "$58,523 to $107,785",
+          "cells": [
+            "$297",
+            "$741",
+            "$1,483"
+          ]
+        }
+      ],
+      "hi": [
+        1,
+        2
+      ],
+      "note": "Deposit × your combined rate, rounded. Assumes your income stays in the same row before and after the deduction. The 23.15% row is only $4,632 wide, so $5,000 can spill below it. Surtax and health premium can change some results. Example math, not a promise. <b>Save this. Find your row before you deposit.</b>",
+      "source_label": "CRA 2026 BRACKETS"
+    },
+    {
+      "type": "two",
+      "kicker": "2026 RRSP · DEADLINE",
+      "title": "Miss *March 1* and it isn't 2026 money.",
+      "boxes": [
+        {
+          "h": "BY MAR 1, 2027",
+          "v": "2026",
+          "win": true,
+          "d": "Counts on your 2026 return.",
+          "d2": "CRA rule: the year ends on day 60 of the next year. In 2027 that's Monday, March 1.",
+          "d3": "Last year it was March 2, 2026",
+          "lead": true
+        },
+        {
+          "h": "AFTER MAR 1",
+          "v": "2027",
+          "tone": "flat",
+          "d": "Can't go on your 2026 return.",
+          "d2": "Same deposit, wrong year. The 2026 cut stays where it is.",
+          "d3": "CRA hasn't posted the 2027 date yet"
+        }
+      ],
+      "source_label": "CRA CONTRIBUTION YEAR RULE",
+      "say": "Hama sets a reminder.|March 1, not March 2."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "RRSP hands back $1,483 on $5,000. Don't leave yours.",
+      "Is your RRSP refund $1,483 or $1,158?",
+      "RRSP holders put in $5,000 and forget the $1,483.",
+      "RRSP pays back $1,483 or $1,158. Your pay decides.",
+      "Hama's RRSP sent back $1,483 on her $5,000.",
+      "RRSP money one day late loses the whole $1,483.",
+      "RRSP refunds run $1,158 to $1,483. One line is yours.",
+      "Same $5,000 RRSP, two refunds: $1,483 and $1,158.",
+      "RRSP for 2026 shuts March 1, 2027. $1,483 walks.",
+      "RRSP: never miss March 1, 2027. That's $1,483 gone.",
+      "RRSP: $5,000 in, $1,483 back. Yours may be less."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지",
+      "손해"
+    ],
+    "on_screen": "Is your RRSP refund $1,483 or $1,158?",
+    "spoken": "Is your RRSP refund $1,483 or $1,158?",
+    "promise": "Give me 30 seconds. See your own number.",
+    "pick_why": "Two real refund amounts and one word, yours, make the viewer need the table to know which number is theirs, so they save it instead of scrolling.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "GET IT BACK"
+  },
+  "lede": "A $5,000 RRSP deduction lowers your tax by an amount that depends on your bracket. At 29.65% it's about $1,483, and it only counts for 2026 if the money goes in by March 1, 2027.",
+  "series": "RRSP TAX BOX",
+  "source_note": "CRA · 2026 TAX BRACKETS AND RRSP RULES",
+  "caption": "🐶⛏️ If you skip the RRSP, a $1,483 refund could slip right past you.\n\nMoney in an RRSP box comes off your taxable income, so your tax drops. How much depends on your bracket, and money in after March 1, 2027 misses this year's cut.\n\nComment REFUND and I'll send you the RRSP refund table 🪙\nWhich row are you in?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#rrspcanada #ontariotax #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 질문.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Is your RRSP refund $1,483 or $1,158?",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE RRSP REFUND BY BRACKET TABLE",
+          "num": "$1,483",
+          "line": "Is your RRSP refund $1,483 or $1,158?",
+          "promise": "Give me 30 seconds. See your own number.",
+          "subj": "YOUR RRSP REFUND",
+          "stamp": "GET IT BACK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See your own number.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and that $1,483 stays taxed.",
+        "cap": "low"
+      },
+      {
+        "say": "An RRSP is a special *box* for retirement savings.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "SAVINGS ONLY",
+            "big": "$0",
+            "ft": "same $5,000"
+          },
+          "b": {
+            "k": "RRSP",
+            "big": "$1,483",
+            "ft": "same $5,000",
+            "at": 1
+          },
+          "gap": "$1,483",
+          "gap_at": 1
+        },
+        "badge": "THE GAP",
+        "in": "pan"
+      },
+      {
+        "say": "Two coworkers each save $5,000, one in an RRSP."
+      },
+      {
+        "say": "The RRSP one gets $1,483 back, the other $0.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "SAVINGS ONLY",
+            "big": "$0",
+            "ft": "same $5,000"
+          },
+          "b": {
+            "k": "RRSP",
+            "big": "$1,483",
+            "ft": "same $5,000",
+            "at": "$1,483"
+          },
+          "gap": "$1,483",
+          "gap_at": "$1,483"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "So why the $1,483 gap?",
+        "part": "callout",
+        "data": {
+          "word": "gap",
+          "line": "So why the $1,483 gap?",
+          "at": "gap"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "People think every RRSP refund is the *same*.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "SAME FOR ALL",
+            "v": "SAME FOR ALL",
+            "sub": ""
+          },
+          "b": {
+            "h": "YOUR RATE",
+            "v": "YOUR RATE",
+            "sub": ""
+          },
+          "at": 1
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "RRSP money comes off taxable income, the part that gets *taxed*."
+      },
+      {
+        "say": "At 29.65%, $5,000 gets $1,483 back, at 23.15% up to $1,158.",
+        "part": "tag",
+        "data": {
+          "old": "SAME FOR ALL",
+          "new": "YOUR RATE",
+          "at": 0,
+          "sub": "decides what comes back.",
+          "sub_at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Miss March 1, 2027, and your deposit won't *count* for 2026.",
+        "part": "tabs",
+        "data": {
+          "old": "MARCH 2",
+          "new": "MARCH 1",
+          "at": "MARCH",
+          "k": ""
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "$1,483 back, from the same $5,000.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "back from $5,000",
+          "tail": "$1,483",
+          "at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Plain savings, same $5,000, $0 back.",
+        "part": "stamp",
+        "data": {
+          "old": "$1,483",
+          "new": "$0 back",
+          "at": "$0",
+          "k": ""
+        },
+        "dark": true,
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *REFUND,* and I will send you the refund table.",
+        "part": "tiles",
+        "data": {
+          "word": "REFUND",
+          "at": "REFUND",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the RRSP refund table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Is your RRSP refund $1,483 or $1,158?",
+          "Give me 30 seconds. See your own number."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and that $1,483 stays taxed."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "SAVINGS ONLY",
+            "v": "$0",
+            "sub": "same $5,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "RRSP",
+            "v": "$1,483",
+            "sub": "same $5,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "An RRSP is a special *box* for retirement savings.",
+          "Two coworkers each save $5,000, one in an RRSP."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "SAVINGS ONLY",
+            "v": "$0",
+            "sub": "same $5,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "RRSP",
+            "v": "$1,483",
+            "sub": "same $5,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The RRSP one gets $1,483 back, the other $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So why the $1,483 gap?"
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "SAME FOR ALL",
+          "new": "YOUR RATE",
+          "sub": "decides what comes back."
+        },
+        "lines": [
+          "People think every RRSP refund is the *same*.",
+          "RRSP money comes off taxable income, the part that gets *taxed*."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "SAME FOR ALL",
+          "new": "YOUR RATE",
+          "sub": "decides what comes back."
+        },
+        "lines": [
+          "At 29.65%, $5,000 gets $1,483 back, at 23.15% up to $1,158."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "MARCH 2",
+          "new": "MARCH 1"
+        },
+        "lines": [
+          "Miss March 1, 2027, and your deposit won't *count* for 2026."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,483",
+          "new": "back from $5,000"
+        },
+        "lines": [
+          "$1,483 back, from the same $5,000."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$1,483",
+          "new": "$0 back"
+        },
+        "lines": [
+          "Plain savings, same $5,000, $0 back."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "REFUND",
+          "gift": "the RRSP refund table"
+        },
+        "lines": [
+          "Comment *REFUND,* and I will send you the refund table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook and promise, a lock-in about the $1,483 that keeps getting taxed, the two coworkers side by side, a question rehook, the myth that every refund is the same with taxable income explained, the March 1, 2027 cutoff as the trap, then closing, the dark loss cut and the REFUND cta, all in 9 scenes, 14 lines and about 115 words.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "dumbbell",
+        "compare",
+        "callout",
+        "wipe",
+        "tag",
+        "tabs",
+        "tail",
+        "stamp",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "REFUND"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 질문.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Is your RRSP refund $1,483 or $1,158?",
+        "part": "rise",
+        "data": {
+          "pill": "THE RRSP REFUND BY BRACKET TABLE",
+          "num": "$1,483",
+          "line": "Is your RRSP refund $1,483 or $1,158?",
+          "promise": "Give me 30 seconds. See your own number.",
+          "subj": "YOUR RRSP REFUND",
+          "stamp": "GET IT BACK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See your own number.",
+        "nocap": true
+      },
+      {
+        "say": "Wrong box, and you get $0 back.",
+        "cap": "low"
+      },
+      {
+        "say": "Two coworkers, same pay, both save $5,000.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "same $5,000",
+              "tone": "loss",
+              "h": "SAVINGS ONLY",
+              "v": "$0",
+              "at": 0
+            },
+            {
+              "sub": "same $5,000",
+              "tone": "win",
+              "h": "RRSP",
+              "v": "$1,483",
+              "at": "RRSP"
+            }
+          ],
+          "hi": 1,
+          "hi_at": "RRSP",
+          "stand_at": 1
+        },
+        "badge": "THE BOX",
+        "in": "zoom"
+      },
+      {
+        "say": "Savings gets $0 back, the RRSP gets *$1,483.*"
+      },
+      {
+        "say": "The RRSP, a retirement box, takes $5,000 off the income tax sees.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "SAVINGS ONLY",
+            "v": "$0",
+            "sub": "same $5,000"
+          },
+          "b": {
+            "h": "RRSP",
+            "v": "$1,483",
+            "sub": "same $5,000"
+          },
+          "at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "So who gets only $1,158?",
+        "part": "callout",
+        "data": {
+          "word": "$1,158",
+          "line": "So who gets only $1,158?",
+          "at": "$1,158"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Your income range sets your *rate.*",
+        "part": "badge",
+        "data": {
+          "old": "ONE RATE",
+          "new": "YOUR RATE",
+          "at": "YOUR",
+          "sub": "set by your income range.",
+          "sub_at": 1,
+          "k": "YOUR RATE"
+        },
+        "badge": "YOUR RATE",
+        "in": "iris"
+      },
+      {
+        "say": "From $58,523 to $107,785, it is 29.65%."
+      },
+      {
+        "say": "Below that, at 23.15%, $5,000 gives up to $1,158.",
+        "part": "tag",
+        "data": {
+          "old": "ONE RATE",
+          "new": "YOUR RATE",
+          "at": 0,
+          "sub": "set by your income range.",
+          "sub_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "After *March 1,* 2027, a deposit misses your 2026 return.",
+        "part": "swap",
+        "data": {
+          "old": "ANY DAY",
+          "new": "MARCH 1",
+          "at": "March"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Right *box,* and $5,000 gives $1,483 back.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "1,483",
+          "pre": "$",
+          "suf": "",
+          "label": "the right box",
+          "at": "$1,483"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Check your taxable income, the income tax sees.",
+        "part": "fan",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Your taxable income",
+            "Your rate row",
+            "Before March 1",
+            "Save this post"
+          ],
+          "k": "THE RRSP REFUND BY BRACKET TABLE",
+          "from": 0,
+          "to": 1
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Find its row before March 1."
+      },
+      {
+        "say": "Comment *RATE,* and I will send you the RRSP refund table by rate.",
+        "part": "tiles",
+        "data": {
+          "word": "RATE",
+          "at": "RATE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the RRSP refund table by rate ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Is your RRSP refund $1,483 or $1,158?",
+          "Give me 30 seconds. See your own number."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Wrong box, and you get $0 back."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE BOX",
+        "data": {
+          "a": {
+            "h": "SAVINGS ONLY",
+            "v": "$0",
+            "sub": "same $5,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "RRSP",
+            "v": "$1,483",
+            "sub": "same $5,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two coworkers, same pay, both save $5,000.",
+          "Savings gets $0 back, the RRSP gets *$1,483.*"
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "SAVINGS ONLY",
+            "v": "$0",
+            "sub": "same $5,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "RRSP",
+            "v": "$1,483",
+            "sub": "same $5,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The RRSP, a retirement box, takes $5,000 off the income tax sees."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So who gets only $1,158?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "YOUR RATE",
+        "data": {
+          "old": "ONE RATE",
+          "new": "YOUR RATE",
+          "sub": "set by your income range."
+        },
+        "lines": [
+          "Your income range sets your *rate.*",
+          "From $58,523 to $107,785, it is 29.65%."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "ONE RATE",
+          "new": "YOUR RATE",
+          "sub": "set by your income range."
+        },
+        "lines": [
+          "Below that, at 23.15%, $5,000 gives up to $1,158."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ANY DAY",
+          "new": "MARCH 1"
+        },
+        "lines": [
+          "After *March 1,* 2027, a deposit misses your 2026 return."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,483",
+          "new": "the right box"
+        },
+        "lines": [
+          "Right *box,* and $5,000 gives $1,483 back."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Your taxable income",
+            "Your rate row",
+            "Before March 1"
+          ]
+        },
+        "lines": [
+          "Check your taxable income, the income tax sees.",
+          "Find its row before March 1."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "RATE",
+          "gift": "the RRSP refund table by rate"
+        },
+        "lines": [
+          "Comment *RATE,* and I will send you the RRSP refund table by rate."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook question, lock-in on the $0 pole, compare shows the two boxes and why the gap exists, a question rehook, a catch on the rate by income range, the March 1 trap as the second rehook, the $1,483 closing, then the given check and cta ending.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "rise",
+      "parts": [
+        "rise",
+        "stack",
+        "wipe",
+        "callout",
+        "badge",
+        "tag",
+        "swap",
+        "odometer",
+        "fan",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "iris",
+        "zoom",
+        "iris",
+        "wipe",
+        "zoom",
+        "iris",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "RATE"
+    }
+  },
+  "plain": {
+    "what": "An RRSP is a special account for retirement savings. Money you put in gets taken off your income at tax time, so you pay less tax. Put $5,000 in an RRSP, and if your taxable income sits between $58,523.01 and $107,785 in Ontario, your tax drops by about $1,483.",
+    "so_what": "That $1,483 is the gap between two coworkers who earn the same and both saved $5,000, and the only difference is which account the money sat in.",
+    "do": "Write down your taxable income and find which row it lands in before March 1, 2027.",
+    "words": [
+      {
+        "term": "RRSP",
+        "means": "retirement account; money in it comes off your income"
+      },
+      {
+        "term": "taxable income",
+        "means": "the income left that tax gets charged on"
+      },
+      {
+        "term": "deduction",
+        "means": "an amount taken off your income before tax"
+      },
+      {
+        "term": "marginal rate",
+        "means": "the tax rate on your next dollar earned"
+      },
+      {
+        "term": "bracket",
+        "means": "an income range with its own tax rate"
+      },
+      {
+        "term": "surtax",
+        "means": "extra Ontario tax on top of your tax"
+      },
+      {
+        "term": "CRA",
+        "means": "Canada's tax office"
+      }
+    ]
+  },
+  "subject": "Your RRSP refund",
+  "deliver": {
+    "word": "REFUND",
+    "gift": "the RRSP refund table"
+  },
+  "check": [],
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 질문.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Is your RRSP refund $1,483 or $1,158?",
+        "part": "rise",
+        "data": {
+          "pill": "THE RRSP REFUND BY BRACKET TABLE",
+          "num": "$1,483",
+          "line": "Is your RRSP refund $1,483 or $1,158?",
+          "promise": "Give me 30 seconds. See your own number.",
+          "subj": "YOUR RRSP REFUND",
+          "stamp": "GET IT BACK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See your own number.",
+        "nocap": true
+      },
+      {
+        "say": "Wrong box, and you get $0 back.",
+        "cap": "low"
+      },
+      {
+        "say": "Two coworkers, same pay, both save $5,000.",
+        "part": "split",
+        "data": {
+          "k": "SAVINGS ONLY vs RRSP",
+          "total": "$1,483",
+          "a": {
+            "v": "$0",
+            "l": "SAVINGS ONLY",
+            "w": 0.12,
+            "at": "$0"
+          },
+          "b": {
+            "v": "$1,483",
+            "l": "RRSP",
+            "at": "$1,483",
+            "label_at": "$1,483"
+          }
+        },
+        "badge": "THE BOX",
+        "in": "zoom"
+      },
+      {
+        "say": "Savings gets $0 back, the RRSP gets *$1,483.*"
+      },
+      {
+        "say": "The RRSP, a retirement box, takes $5,000 off the income tax sees.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "SAVINGS ONLY",
+            "v": "$0",
+            "sub": "same $5,000"
+          },
+          "b": {
+            "h": "RRSP",
+            "v": "$1,483",
+            "sub": "same $5,000"
+          },
+          "at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "So who gets only $1,158?",
+        "part": "callout",
+        "data": {
+          "word": "$1,158",
+          "line": "So who gets only $1,158?",
+          "at": "$1,158"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Your income range sets your *rate.*",
+        "part": "badge",
+        "data": {
+          "old": "ONE RATE",
+          "new": "YOUR RATE",
+          "at": "YOUR",
+          "sub": "set by your income range.",
+          "sub_at": 1,
+          "k": "YOUR RATE"
+        },
+        "badge": "YOUR RATE"
+      },
+      {
+        "say": "From $58,523 to $107,785, it is 29.65%."
+      },
+      {
+        "say": "Below that, at 23.15%, $5,000 gives up to $1,158.",
+        "part": "tag",
+        "data": {
+          "old": "ONE RATE",
+          "new": "YOUR RATE",
+          "at": 0,
+          "sub": "set by your income range.",
+          "sub_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "After *March 1,* 2027, a deposit misses your 2026 return.",
+        "part": "swap",
+        "data": {
+          "old": "ANY DAY",
+          "new": "MARCH 1",
+          "at": "March"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Right *box,* and $5,000 gives $1,483 back.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "1,483",
+          "pre": "$",
+          "suf": "",
+          "label": "the right box",
+          "at": "$1,483"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Check your taxable income, the income tax sees.",
+        "part": "fan",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Your taxable income",
+            "Your rate row",
+            "Before March 1",
+            "Save this post"
+          ],
+          "k": "THE RRSP REFUND BY BRACKET TABLE",
+          "from": 0,
+          "to": 1
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Find its row before March 1."
+      },
+      {
+        "say": "Comment *RATE,* and I will send you the RRSP refund table by rate.",
+        "part": "tiles",
+        "data": {
+          "word": "RATE",
+          "at": "RATE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the RRSP refund table by rate ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Is your RRSP refund $1,483 or $1,158?",
+          "Give me 30 seconds. See your own number."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Wrong box, and you get $0 back."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE BOX",
+        "data": {
+          "a": {
+            "h": "SAVINGS ONLY",
+            "v": "$0",
+            "sub": "same $5,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "RRSP",
+            "v": "$1,483",
+            "sub": "same $5,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two coworkers, same pay, both save $5,000.",
+          "Savings gets $0 back, the RRSP gets *$1,483.*"
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "SAVINGS ONLY",
+            "v": "$0",
+            "sub": "same $5,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "RRSP",
+            "v": "$1,483",
+            "sub": "same $5,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The RRSP, a retirement box, takes $5,000 off the income tax sees."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So who gets only $1,158?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "YOUR RATE",
+        "data": {
+          "old": "ONE RATE",
+          "new": "YOUR RATE",
+          "sub": "set by your income range."
+        },
+        "lines": [
+          "Your income range sets your *rate.*",
+          "From $58,523 to $107,785, it is 29.65%."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "ONE RATE",
+          "new": "YOUR RATE",
+          "sub": "set by your income range."
+        },
+        "lines": [
+          "Below that, at 23.15%, $5,000 gives up to $1,158."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ANY DAY",
+          "new": "MARCH 1"
+        },
+        "lines": [
+          "After *March 1,* 2027, a deposit misses your 2026 return."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,483",
+          "new": "the right box"
+        },
+        "lines": [
+          "Right *box,* and $5,000 gives $1,483 back."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Your taxable income",
+            "Your rate row",
+            "Before March 1"
+          ]
+        },
+        "lines": [
+          "Check your taxable income, the income tax sees.",
+          "Find its row before March 1."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "RATE",
+          "gift": "the RRSP refund table by rate"
+        },
+        "lines": [
+          "Comment *RATE,* and I will send you the RRSP refund table by rate."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook question, lock-in on the $0 pole, compare shows the two boxes and why the gap exists, a question rehook, a catch on the rate by income range, the March 1 trap as the second rehook, the $1,483 closing, then the given check and cta ending.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "rise",
+      "parts": [
+        "rise",
+        "split",
+        "wipe",
+        "callout",
+        "badge",
+        "tag",
+        "swap",
+        "odometer",
+        "fan",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "iris",
+        "wipe",
+        "fade",
+        "zoom",
+        "iris",
+        "wipe",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "RATE"
+    }
+  },
+  "caption_b": "🐶⛏️ Only managed to save $5,000 this year? That can still cut your tax.\n\nPut it in the RRSP box and it comes off your taxable income, so your bracket decides how much comes back. Leave it in plain savings and you get $0 back.\n\nComment REFUND and I'll send you my RRSP refund table 🪙\nKnow your bracket yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#rrspcanada #ontariotax #torontofinance",
+  "caption_family": "possible"
+}

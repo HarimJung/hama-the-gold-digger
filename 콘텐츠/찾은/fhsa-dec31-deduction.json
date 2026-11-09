@@ -1,0 +1,1315 @@
+{
+  "key": "fhsa-dec31-deduction",
+  "category": "tax",
+  "status": "draft",
+  "title": "You lose a $2,372 refund this year",
+  "object": "THE FHSA DEC 31 REFUND TABLE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s53720468', 's4e3ee777'] · 퍼스나 The late starter",
+  "fact": {
+    "num": "2372",
+    "unit": "$",
+    "thing": "2026 tax refund on an $8,000 FHSA deposit for an Ontario resident earning about $60,000 to $80,000",
+    "box": "FHSA (first home savings account)",
+    "claim": "FHSA contributions count for the calendar year from January 1 to December 31. Unlike RRSP contributions, money you put in during the first 60 days of 2027 can't be deducted on your 2026 return. In Ontario, taxable income between $58,523 and $107,785 is taxed at a combined federal and provincial rate of 29.65% in 2026 (20.5% + 9.15%), so deducting $8,000 cuts 2026 tax by about $2,372, before the Ontario surtax and credits, which can change the result at higher incomes. If you miss the deadline you don't lose the money: unused room and undeducted contributions carry forward, so the refund comes a year later. Participation room only starts in the year you open your first FHSA.",
+    "sources": [
+      "CRA – Tax deductions for FHSA contributions",
+      "CRA – Tax deductions for FHSA contributions",
+      "CRA – Tax deductions for FHSA contributions",
+      "CRA – Participating in your FHSAs",
+      "CRA – 2026 tax rates (federal table row)",
+      "CRA – 2026 tax rates (Ontario table row)"
+    ],
+    "verified": "find.py · 대조 6/6",
+    "felt": {
+      "num": "2,372",
+      "unit": "$",
+      "a": "2,372",
+      "b": "0",
+      "how": "$8,000 deposited by Dec 31 vs in Jan 2027, on the 2026 return",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA – Tax deductions for FHSA contributions",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/tax-deductions-fhsa-contributions.html",
+      "what": "Contributions you make to your FHSAs during the first 60 days of the year cannot be deducted on your income tax and benefit return for the previous year, unlike contributions to an RRSP.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Tax deductions for FHSA contributions",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/tax-deductions-fhsa-contributions.html",
+      "what": "The contribution period for FHSAs is from January 1 to December 31 of the same year.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Tax deductions for FHSA contributions",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/tax-deductions-fhsa-contributions.html",
+      "what": "Generally, the amounts that you contributed to your FHSAs but could not or decided not to claim as an FHSA deduction on your income tax and benefit return can be carried forward, even beyond the closure of your FHSAs.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Participating in your FHSAs",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/contributing-your-fhsa.html",
+      "what": "In the first year that you open your FHSA, your FHSA participation room is $8,000.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – 2026 tax rates (federal table row)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "what": "$58,523.01 | $117,045 | 20.5%",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – 2026 tax rates (Ontario table row)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets/current-year.html",
+      "what": "$53,891.01 | $107,785 | 9.15%",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "Your FHSA $",
+        "num": "2,372",
+        "post": " waits a year if Dec 31 passes."
+      },
+      "promise": "Give me 30 seconds. Don't wait a year for it."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME $8,000 · TWO DATES",
+      "title": "Same $8,000. One day *later.*",
+      "boxes": [
+        {
+          "h": "BY DEC 31",
+          "v": "$2,372",
+          "win": true,
+          "d": "$8,000 cuts your 2026 tax by $2,372.",
+          "d2": "The FHSA counts January 1 to December 31. Money in by Dec 31 counts on this year's return.",
+          "d3": "Deposit made in 2026"
+        },
+        {
+          "h": "IN JAN 2027",
+          "v": "$0",
+          "d": "$0 back on your 2026 return.",
+          "d2": "The RRSP gets 60 extra days. The FHSA doesn't. The refund waits a year.",
+          "d3": "Deposit made in the first 60 days of 2027",
+          "lead": true
+        }
+      ],
+      "source_label": "CRA · FHSA DEDUCTIONS",
+      "say": "Same money. Wrong day.|Refund waits a year."
+    },
+    {
+      "type": "two",
+      "kicker": "WHERE $2,372 COMES FROM",
+      "title": "$8,000 × 29.65% = *$2,372.*",
+      "boxes": [
+        {
+          "h": "FEDERAL",
+          "v": "20.5%",
+          "tone": "flat",
+          "d": "$8,000 × 20.5% = $1,640.",
+          "d2": "The 2026 federal rate on taxable income from $58,523 to $117,045.",
+          "d3": "CRA 2026 federal table"
+        },
+        {
+          "h": "ONTARIO",
+          "v": "9.15%",
+          "tone": "flat",
+          "d": "$8,000 × 9.15% = $732.",
+          "d2": "The 2026 Ontario rate on taxable income from $53,891 to $107,785.",
+          "d3": "CRA 2026 Ontario table"
+        }
+      ],
+      "source_label": "CRA 2026 TAX RATES",
+      "say": "Hama did the math.|$1,640 plus $732."
+    },
+    {
+      "type": "table",
+      "kicker": "THE FHSA DEC 31 REFUND TABLE",
+      "title": "What your deposit gives *back* in 2026.",
+      "h1": "YOU PUT IN BY DEC 31",
+      "h2": "2026 TAX CUT",
+      "rows": [
+        {
+          "a": "$2,000",
+          "asub": "into your FHSA",
+          "b": "$593",
+          "gone": "−$593 if late"
+        },
+        {
+          "a": "$4,000",
+          "asub": "into your FHSA",
+          "b": "$1,186",
+          "gone": "−$1,186 if late"
+        },
+        {
+          "a": "$8,000",
+          "asub": "into your FHSA",
+          "b": "$2,372",
+          "gone": "−$2,372 if late"
+        }
+      ],
+      "note": "At 29.65%, Ontario taxable income $58,523 to $107,785, before surtax and credits. Late money isn't lost, the cut moves to next year. Room starts the year you open your first FHSA. <b>Save this. Deposit before December 31.</b>",
+      "say": "Save this one. Check your date before Dec 31."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "FHSA: $2,372 back if $8,000 lands by Dec 31.",
+      "Your FHSA holds $2,372. Will you miss Dec 31?",
+      "FHSA has no 60 day window. Your RRSP does.",
+      "FHSA money you add in January 2027 does nothing for 2026.",
+      "Hama's FHSA: $8,000 in by Dec 31, $2,372 back.",
+      "Your FHSA $2,372 waits a year if Dec 31 passes.",
+      "FHSA, the first home savings box: $2,372 by Dec 31.",
+      "Same $8,000: FHSA by Dec 31 pays $2,372, January nothing.",
+      "Your FHSA clock stops Dec 31, not 60 days later.",
+      "FHSA rule: never deposit after Dec 31 for $2,372."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your FHSA $2,372 waits a year if Dec 31 passes.",
+    "spoken": "Your FHSA $2,372 waits a year if Dec 31 passes.",
+    "promise": "Give me 30 seconds. Don't wait a year for it.",
+    "pick_why": "It names the box, one real number and the year you lose waiting, so a reader who sees nothing else knows exactly what Dec 31 costs them and saves it to check their own box.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "DON'T WAIT"
+  },
+  "lede": "Give me 30 seconds. Keep all of it.",
+  "series": "FIRST HOME BOX",
+  "source_note": "CRA · FHSA RULES AND 2026 TAX RATES",
+  "caption": "🐶⛏️ If you want that $2,372 FHSA tax cut this year, Dec 31 is your day.\n\nYour FHSA only cuts this year's tax with money that lands by Dec 31. An RRSP gets 60 extra days, but the FHSA gets none, so a January deposit waits a year.\n\nComment FHSA and I'll send you my FHSA Dec 31 refund table 🪙\nWhen does yours land?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#fhsacanada #firsthomecanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your FHSA $2,372 waits a year if Dec 31 passes.",
+        "part": "rollnum",
+        "data": {
+          "pill": "THE FHSA DEC 31 REFUND TABLE",
+          "num": "$2,372",
+          "line": "Your FHSA $2,372 waits a year if Dec 31 passes.",
+          "promise": "Give me 30 seconds. Don't wait a year for it.",
+          "subj": "YOUR FHSA",
+          "stamp": "DON'T WAIT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Don't wait a year for it.",
+        "nocap": true
+      },
+      {
+        "say": "Stay, the *refund* table is yours.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people put $8,000 in an FHSA, a first home box.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "same $8,000",
+              "tone": "loss",
+              "h": "IN JAN 2027",
+              "v": "$0",
+              "at": 0
+            },
+            {
+              "sub": "back on 2026 tax",
+              "tone": "win",
+              "h": "BY DEC 31",
+              "v": "$2,372",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "TWO DATES"
+      },
+      {
+        "say": "By Dec 31, $2,372 back. January, $0."
+      },
+      {
+        "say": "It only counts money *landing* by Dec 31.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "IN JAN 2027",
+            "big": "$0",
+            "ft": "same $8,000"
+          },
+          "b": {
+            "k": "BY DEC 31",
+            "big": "$2,372",
+            "ft": "back on 2026 tax",
+            "at": 0
+          },
+          "gap": "$2,372",
+          "gap_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Why does one day cost a *year?*",
+        "part": "callout",
+        "data": {
+          "word": "year",
+          "line": "Why does one day cost a *year?*",
+          "at": "year"
+        }
+      },
+      {
+        "say": "Each deposit cuts your tax bill.",
+        "part": "tag",
+        "data": {
+          "old": "60 DAYS",
+          "new": "NONE",
+          "at": 1,
+          "sub": "the FHSA stops at Dec 31.",
+          "sub_at": 1
+        },
+        "badge": "THE RULE",
+        "in": "iris"
+      },
+      {
+        "say": "An RRSP, a retirement box, gets 60 extra days."
+      },
+      {
+        "say": "The FHSA gets *none.*",
+        "part": "badge",
+        "data": {
+          "old": "60 DAYS",
+          "new": "NONE",
+          "at": "NONE",
+          "sub": "the FHSA stops at Dec 31.",
+          "sub_at": 0,
+          "k": "THE FHSA DEC 31 REFUND TABLE"
+        }
+      },
+      {
+        "say": "Miss it and the $2,372 still comes, a year *late.*",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "LOST",
+            "v": "LOST",
+            "sub": ""
+          },
+          "b": {
+            "h": "LATE",
+            "v": "LATE",
+            "sub": ""
+          },
+          "at": "LATE"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "$8,000 in by Dec 31, $2,372 back *this* year.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$2,372",
+          "tail": "yours this year",
+          "at": "$2,372"
+        }
+      },
+      {
+        "say": "Find the day your deposit *lands.*",
+        "part": "hub",
+        "data": {
+          "items": [
+            "Deposit landing date",
+            "Room left"
+          ],
+          "k": "THE FHSA DEC 31 REFUND TABLE",
+          "from": 0,
+          "to": 1
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Then your room, what you can still add."
+      },
+      {
+        "say": "Comment *FHSA,* and I will send you the refund table.",
+        "part": "tiles",
+        "data": {
+          "word": "FHSA",
+          "at": "FHSA",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the FHSA Dec 31 refund table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your FHSA $2,372 waits a year if Dec 31 passes.",
+          "Give me 30 seconds. Don't wait a year for it."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Stay, the *refund* table is yours."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO DATES",
+        "data": {
+          "a": {
+            "h": "IN JAN 2027",
+            "v": "$0",
+            "sub": "same $8,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BY DEC 31",
+            "v": "$2,372",
+            "sub": "back on 2026 tax",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people put $8,000 in an FHSA, a first home box.",
+          "By Dec 31, $2,372 back. January, $0."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "IN JAN 2027",
+            "v": "$0",
+            "sub": "same $8,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BY DEC 31",
+            "v": "$2,372",
+            "sub": "back on 2026 tax",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "It only counts money *landing* by Dec 31."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Why does one day cost a *year?*"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE RULE",
+        "data": {
+          "old": "60 DAYS",
+          "new": "NONE",
+          "sub": "the FHSA stops at Dec 31."
+        },
+        "lines": [
+          "Each deposit cuts your tax bill.",
+          "An RRSP, a retirement box, gets 60 extra days."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "60 DAYS",
+          "new": "NONE",
+          "sub": "the FHSA stops at Dec 31."
+        },
+        "lines": [
+          "The FHSA gets *none.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "LOST",
+          "new": "LATE"
+        },
+        "lines": [
+          "Miss it and the $2,372 still comes, a year *late.*"
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$2,372",
+          "new": "yours this year"
+        },
+        "lines": [
+          "$8,000 in by Dec 31, $2,372 back *this* year."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Deposit landing date",
+            "Room left"
+          ]
+        },
+        "lines": [
+          "Find the day your deposit *lands.*",
+          "Then your room, what you can still add."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FHSA",
+          "gift": "the FHSA Dec 31 refund table"
+        },
+        "lines": [
+          "Comment *FHSA,* and I will send you the refund table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: the given hook and promise, a one-line lock-in naming the table, a two-date compare showing $0 against $2,372 on the same $8,000, a question rehook, a catch scene with the RRSP 60-day rule explained in plain words, a trap rehook that the refund is late rather than lost, the $2,372 closing, then the given check and cta ending.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "rollnum",
+      "parts": [
+        "rollnum",
+        "stack",
+        "dumbbell",
+        "callout",
+        "tag",
+        "badge",
+        "wipe",
+        "tail",
+        "hub",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "wipe",
+        "fade",
+        "iris",
+        "fade",
+        "wipe",
+        "fade",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "FHSA"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your FHSA $2,372 waits a year if Dec 31 passes.",
+        "part": "rollnum",
+        "data": {
+          "pill": "THE FHSA DEC 31 REFUND TABLE",
+          "num": "$2,372",
+          "line": "Your FHSA $2,372 waits a year if Dec 31 passes.",
+          "promise": "Give me 30 seconds. Don't wait a year for it.",
+          "subj": "YOUR FHSA",
+          "stamp": "DON'T WAIT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Don't wait a year for it.",
+        "nocap": true
+      },
+      {
+        "say": "Stay, the *refund* table is yours.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people put $8,000 in an FHSA, a first home box.",
+        "part": "donut",
+        "data": {
+          "k": "TWO DATES",
+          "segs": [
+            {
+              "l": "IN JAN 2027",
+              "v": "$0",
+              "w": 0.0
+            },
+            {
+              "l": "BY DEC 31",
+              "v": "$2,372",
+              "w": 1.0
+            }
+          ],
+          "hi": 1,
+          "at": "$2,372"
+        },
+        "badge": "TWO DATES"
+      },
+      {
+        "say": "By Dec 31, $2,372 back. January, $0."
+      },
+      {
+        "say": "It only counts money *landing* by Dec 31.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "same $8,000",
+              "tone": "loss",
+              "h": "IN JAN 2027",
+              "v": "$0",
+              "at": 0
+            },
+            {
+              "sub": "back on 2026 tax",
+              "tone": "win",
+              "h": "BY DEC 31",
+              "v": "$2,372",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Why does one day cost a *year?*",
+        "part": "callout",
+        "data": {
+          "word": "year",
+          "line": "Why does one day cost a *year?*",
+          "at": "year"
+        }
+      },
+      {
+        "say": "Each deposit cuts your tax bill.",
+        "part": "tag",
+        "data": {
+          "old": "60 DAYS",
+          "new": "NONE",
+          "at": 1,
+          "sub": "the FHSA stops at Dec 31.",
+          "sub_at": 1
+        },
+        "badge": "THE RULE",
+        "in": "iris"
+      },
+      {
+        "say": "An RRSP, a retirement box, gets 60 extra days."
+      },
+      {
+        "say": "The FHSA gets *none.*",
+        "part": "badge",
+        "data": {
+          "old": "60 DAYS",
+          "new": "NONE",
+          "at": "NONE",
+          "sub": "the FHSA stops at Dec 31.",
+          "sub_at": 0,
+          "k": "THE FHSA DEC 31 REFUND TABLE"
+        }
+      },
+      {
+        "say": "Miss it and the $2,372 still comes, a year *late.*",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "LOST",
+            "v": "LOST",
+            "sub": ""
+          },
+          "b": {
+            "h": "LATE",
+            "v": "LATE",
+            "sub": ""
+          },
+          "at": "LATE"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "$8,000 in by Dec 31, $2,372 back *this* year.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$2,372",
+          "tail": "yours this year",
+          "at": "$2,372"
+        }
+      },
+      {
+        "say": "Find the day your deposit *lands.*",
+        "part": "hub",
+        "data": {
+          "items": [
+            "Deposit landing date",
+            "Room left"
+          ],
+          "k": "THE FHSA DEC 31 REFUND TABLE",
+          "from": 0,
+          "to": 1
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Then your room, what you can still add."
+      },
+      {
+        "say": "Comment *FHSA,* and I will send you the refund table.",
+        "part": "tiles",
+        "data": {
+          "word": "FHSA",
+          "at": "FHSA",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the FHSA Dec 31 refund table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your FHSA $2,372 waits a year if Dec 31 passes.",
+          "Give me 30 seconds. Don't wait a year for it."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Stay, the *refund* table is yours."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO DATES",
+        "data": {
+          "a": {
+            "h": "IN JAN 2027",
+            "v": "$0",
+            "sub": "same $8,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BY DEC 31",
+            "v": "$2,372",
+            "sub": "back on 2026 tax",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people put $8,000 in an FHSA, a first home box.",
+          "By Dec 31, $2,372 back. January, $0."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "IN JAN 2027",
+            "v": "$0",
+            "sub": "same $8,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BY DEC 31",
+            "v": "$2,372",
+            "sub": "back on 2026 tax",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "It only counts money *landing* by Dec 31."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Why does one day cost a *year?*"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE RULE",
+        "data": {
+          "old": "60 DAYS",
+          "new": "NONE",
+          "sub": "the FHSA stops at Dec 31."
+        },
+        "lines": [
+          "Each deposit cuts your tax bill.",
+          "An RRSP, a retirement box, gets 60 extra days."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "60 DAYS",
+          "new": "NONE",
+          "sub": "the FHSA stops at Dec 31."
+        },
+        "lines": [
+          "The FHSA gets *none.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "LOST",
+          "new": "LATE"
+        },
+        "lines": [
+          "Miss it and the $2,372 still comes, a year *late.*"
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$2,372",
+          "new": "yours this year"
+        },
+        "lines": [
+          "$8,000 in by Dec 31, $2,372 back *this* year."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Deposit landing date",
+            "Room left"
+          ]
+        },
+        "lines": [
+          "Find the day your deposit *lands.*",
+          "Then your room, what you can still add."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FHSA",
+          "gift": "the FHSA Dec 31 refund table"
+        },
+        "lines": [
+          "Comment *FHSA,* and I will send you the refund table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: the given hook and promise, a one-line lock-in naming the table, a two-date compare showing $0 against $2,372 on the same $8,000, a question rehook, a catch scene with the RRSP 60-day rule explained in plain words, a trap rehook that the refund is late rather than lost, the $2,372 closing, then the given check and cta ending.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "rollnum",
+      "parts": [
+        "rollnum",
+        "donut",
+        "stack",
+        "callout",
+        "tag",
+        "badge",
+        "wipe",
+        "tail",
+        "hub",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "zoom",
+        "fade",
+        "iris",
+        "fade",
+        "zoom",
+        "fade",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "FHSA"
+    }
+  },
+  "plain": {
+    "what": "An FHSA is a savings account for your first home, and money you put in lowers your tax bill. The FHSA only counts money that lands between January 1 and December 31. An RRSP, which is a retirement savings account, gives you 60 extra days into the new year. The FHSA does not.",
+    "so_what": "If you put $8,000 in and your Ontario income is between $58,523 and $107,785, that deposit cuts your 2026 tax by about $2,372, and a deposit that lands in January waits a whole year for it.",
+    "do": "Check the date your FHSA deposit actually lands and write it down.",
+    "words": [
+      {
+        "term": "FHSA",
+        "means": "first home savings account; saving for a first home"
+      },
+      {
+        "term": "RRSP",
+        "means": "an account for saving toward retirement"
+      },
+      {
+        "term": "contribution",
+        "means": "money you put into the account"
+      },
+      {
+        "term": "deduction",
+        "means": "an amount that lowers the income you get taxed on"
+      },
+      {
+        "term": "tax refund",
+        "means": "money the government pays back to you"
+      },
+      {
+        "term": "room",
+        "means": "how much you are still allowed to put in"
+      },
+      {
+        "term": "carry forward",
+        "means": "unused room moves to next year instead of vanishing"
+      },
+      {
+        "term": "surtax",
+        "means": "an extra Ontario tax on top of the main one"
+      }
+    ]
+  },
+  "subject": "Your FHSA",
+  "deliver": {
+    "word": "FHSA",
+    "gift": "the FHSA Dec 31 refund table"
+  },
+  "check": [
+    "Deposit landing date",
+    "Room left"
+  ],
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your FHSA $2,372 waits a year if Dec 31 passes.",
+        "part": "rollnum",
+        "data": {
+          "pill": "THE FHSA DEC 31 REFUND TABLE",
+          "num": "$2,372",
+          "line": "Your FHSA $2,372 waits a year if Dec 31 passes.",
+          "promise": "Give me 30 seconds. Don't wait a year for it.",
+          "subj": "YOUR FHSA",
+          "stamp": "DON'T WAIT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Don't wait a year for it.",
+        "nocap": true
+      },
+      {
+        "say": "Stay, the *refund* table is yours.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people put $8,000 in an FHSA, a first home box.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "same $8,000",
+              "tone": "loss",
+              "h": "IN JAN 2027",
+              "v": "$0",
+              "at": 0
+            },
+            {
+              "sub": "back on 2026 tax",
+              "tone": "win",
+              "h": "BY DEC 31",
+              "v": "$2,372",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "TWO DATES"
+      },
+      {
+        "say": "By Dec 31, $2,372 back. January, $0."
+      },
+      {
+        "say": "It only counts money *landing* by Dec 31.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "IN JAN 2027",
+            "v": "$0",
+            "sub": "same $8,000"
+          },
+          "b": {
+            "h": "BY DEC 31",
+            "v": "$2,372",
+            "sub": "back on 2026 tax"
+          },
+          "at": 0
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Why does one day cost a *year?*",
+        "part": "callout",
+        "data": {
+          "word": "year",
+          "line": "Why does one day cost a *year?*",
+          "at": "year"
+        }
+      },
+      {
+        "say": "Each deposit cuts your tax bill.",
+        "part": "badge",
+        "data": {
+          "old": "60 DAYS",
+          "new": "NONE",
+          "at": 1,
+          "sub": "the FHSA stops at Dec 31.",
+          "sub_at": 1,
+          "k": "THE RULE"
+        },
+        "badge": "THE RULE",
+        "in": "wipe"
+      },
+      {
+        "say": "An RRSP, a retirement box, gets 60 extra days."
+      },
+      {
+        "say": "The FHSA gets *none.*",
+        "part": "tag",
+        "data": {
+          "old": "60 DAYS",
+          "new": "NONE",
+          "at": "NONE",
+          "sub": "the FHSA stops at Dec 31.",
+          "sub_at": 0
+        }
+      },
+      {
+        "say": "Miss it and the $2,372 still comes, a year *late.*",
+        "part": "split",
+        "data": {
+          "k": "LOST vs LATE",
+          "total": "LATE",
+          "a": {
+            "v": "LOST",
+            "l": "LOST",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "LATE",
+            "l": "LATE",
+            "at": "LATE",
+            "label_at": "LATE"
+          }
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "$8,000 in by Dec 31, $2,372 back *this* year.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$2,372",
+          "tail": "yours this year",
+          "at": "$2,372"
+        }
+      },
+      {
+        "say": "Find the day your deposit *lands.*",
+        "part": "hub",
+        "data": {
+          "items": [
+            "Deposit landing date",
+            "Room left"
+          ],
+          "k": "THE FHSA DEC 31 REFUND TABLE",
+          "from": 0,
+          "to": 1
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Then your room, what you can still add."
+      },
+      {
+        "say": "Comment *FHSA,* and I will send you the refund table.",
+        "part": "tiles",
+        "data": {
+          "word": "FHSA",
+          "at": "FHSA",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the FHSA Dec 31 refund table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your FHSA $2,372 waits a year if Dec 31 passes.",
+          "Give me 30 seconds. Don't wait a year for it."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Stay, the *refund* table is yours."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO DATES",
+        "data": {
+          "a": {
+            "h": "IN JAN 2027",
+            "v": "$0",
+            "sub": "same $8,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BY DEC 31",
+            "v": "$2,372",
+            "sub": "back on 2026 tax",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people put $8,000 in an FHSA, a first home box.",
+          "By Dec 31, $2,372 back. January, $0."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "IN JAN 2027",
+            "v": "$0",
+            "sub": "same $8,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BY DEC 31",
+            "v": "$2,372",
+            "sub": "back on 2026 tax",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "It only counts money *landing* by Dec 31."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Why does one day cost a *year?*"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE RULE",
+        "data": {
+          "old": "60 DAYS",
+          "new": "NONE",
+          "sub": "the FHSA stops at Dec 31."
+        },
+        "lines": [
+          "Each deposit cuts your tax bill.",
+          "An RRSP, a retirement box, gets 60 extra days."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "60 DAYS",
+          "new": "NONE",
+          "sub": "the FHSA stops at Dec 31."
+        },
+        "lines": [
+          "The FHSA gets *none.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "LOST",
+          "new": "LATE"
+        },
+        "lines": [
+          "Miss it and the $2,372 still comes, a year *late.*"
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$2,372",
+          "new": "yours this year"
+        },
+        "lines": [
+          "$8,000 in by Dec 31, $2,372 back *this* year."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Deposit landing date",
+            "Room left"
+          ]
+        },
+        "lines": [
+          "Find the day your deposit *lands.*",
+          "Then your room, what you can still add."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FHSA",
+          "gift": "the FHSA Dec 31 refund table"
+        },
+        "lines": [
+          "Comment *FHSA,* and I will send you the refund table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: the given hook and promise, a one-line lock-in naming the table, a two-date compare showing $0 against $2,372 on the same $8,000, a question rehook, a catch scene with the RRSP 60-day rule explained in plain words, a trap rehook that the refund is late rather than lost, the $2,372 closing, then the given check and cta ending.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "rollnum",
+      "parts": [
+        "rollnum",
+        "stack",
+        "wipe",
+        "callout",
+        "badge",
+        "tag",
+        "split",
+        "tail",
+        "hub",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "dissolve",
+        "fade",
+        "wipe",
+        "fade",
+        "zoom",
+        "fade",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "FHSA"
+    }
+  },
+  "caption_b": "🐶⛏️ Everyone says you get 60 extra days. That's the RRSP, not your FHSA.\n\nThe FHSA only cuts your tax for money that lands by Dec 31, so a deposit in January waits a whole year. You don't lose it, but the refund shows up a tax season late.\n\nComment FHSA and I'll send you my FHSA Dec 31 refund table 🪙\nWhen does yours land?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#fhsacanada #ontariotax #torontofinance",
+  "caption_family": "myth"
+}

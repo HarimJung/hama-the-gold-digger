@@ -1,0 +1,1240 @@
+{
+  "key": "3-7m-in-todays-dollars",
+  "category": "compound",
+  "status": "draft",
+  "title": "What $3.7 million in 30 years buys today",
+  "object": "THE FUTURE DOLLARS CONVERTER",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s0f1b792b', 's1e97ccb1'] · 퍼스나 The late starter",
+  "fact": {
+    "num": "2,040,000",
+    "unit": "$",
+    "thing": "today's value of $3.7 million 30 years from now, assuming 2% yearly inflation",
+    "box": "Retirement goal (any account)",
+    "claim": "If prices rise 2% a year, which is the Bank of Canada's inflation target, $3.7 million 30 years from now buys about what $2.04 million buys today ($3,700,000 ÷ 1.02^30 ≈ $2,042,660). The 2% figure is the Bank's target. It is not a forecast or a promise, and actual inflation can run higher or lower. The Bank's October 2026 report projects inflation around 3% through much of 2027, and at 3% the same goal is worth less than this in today's dollars.",
+    "sources": [
+      "BANK OF CANADA, INFLATION",
+      "BANK OF CANADA, MPR OCT 2026"
+    ],
+    "verified": "find.py · 대조 2/2",
+    "felt": {
+      "num": "1,660,000",
+      "unit": "$",
+      "a": "3,700,000",
+      "b": "2,040,000",
+      "how": "$3.7M goal in 30 years vs what it buys in today's money at 2% inflation",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "BANK OF CANADA, INFLATION",
+      "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/inflation/",
+      "what": "The Bank of Canada aims to keep inflation at the 2 per cent midpoint of an inflation-control target range of 1 to 3 per cent.",
+      "confidence": "1차"
+    },
+    {
+      "label": "BANK OF CANADA, MPR OCT 2026",
+      "url": "https://www.bankofcanada.ca/rates/price-indexes/cpi/",
+      "what": "Inflation in Canada has been higher than anticipated and is projected to remain around 3% through much of 2027.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "COMPOUND · CANADA",
+      "topic": "GROW YOUR MONEY",
+      "hook": {
+        "pre": "Your $",
+        "num": "3.7",
+        "post": " million goal hides a $1,660,000 hole. Want it back?"
+      },
+      "promise": "Give me 30 seconds. See your real number."
+    },
+    {
+      "type": "flow",
+      "kicker": "THE PART NOBODY MENTIONS",
+      "title": "Where your $3.7 million *shrinks.*",
+      "lead": "Prices rise a little every year. <em>Your goal doesn't.</em>",
+      "steps": [
+        {
+          "n": "$3.7M",
+          "t": "your goal",
+          "s": "30 years from now"
+        },
+        {
+          "n": "÷1.81",
+          "t": "2% a year, 30 years",
+          "s": "1.02 times itself 30 times",
+          "cut": true
+        },
+        {
+          "n": "$2.04M",
+          "t": "in today's money",
+          "s": "what it really buys"
+        }
+      ],
+      "tail": "2% is the Bank of Canada's target, not a forecast. Real inflation can run higher or lower.",
+      "source_label": "BANK OF CANADA",
+      "say": "Hama did the math twice.|Same answer."
+    },
+    {
+      "type": "two",
+      "kicker": "$3.7M · 30 YEARS · TWO RATES",
+      "title": "Same goal. One extra point of *inflation.*",
+      "boxes": [
+        {
+          "h": "AT 2% A YEAR",
+          "v": "$2.04M",
+          "tone": "flat",
+          "d": "$3.7M buys about $2.04M today.",
+          "d2": "$3,700,000 ÷ 1.81. 2% is the Bank of Canada's target.",
+          "d3": "The Bank's 2% target"
+        },
+        {
+          "h": "AT 3% A YEAR",
+          "v": "$1.52M",
+          "d": "$3.7M buys about $1.52M today.",
+          "d2": "$3,700,000 ÷ 2.43. The Bank projects about 3% through much of 2027, not for 30 years.",
+          "d3": "Example math. Not a promise.",
+          "lead": true
+        }
+      ],
+      "source_label": "BANK OF CANADA · MPR OCT 2026",
+      "say": "One point looks tiny.|It's about $518,000."
+    },
+    {
+      "type": "do",
+      "kicker": "THE FUTURE DOLLARS CONVERTER",
+      "title": "Turn any future goal into today's money.",
+      "lead": "Find how far away your goal is. Divide by its number. <em>That's what it really buys.</em>",
+      "checks": [
+        {
+          "h": "1 · 10 YEARS AWAY",
+          "d": "Divide by 1.22. $500,000 then is about $410,000 now."
+        },
+        {
+          "h": "2 · 20 YEARS AWAY",
+          "d": "Divide by 1.49. $1,000,000 then is about $673,000 now."
+        },
+        {
+          "h": "3 · 30 YEARS AWAY",
+          "d": "Divide by 1.81. $3,700,000 then is about $2,040,000 now."
+        }
+      ],
+      "button": "Save the converter · check your goal tonight",
+      "fine": "Example math at the Bank of Canada's 2% target. Example math, not a promise. General education, not financial advice.",
+      "say": "Divide once.|Plan with the real number."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your $3.7 million goal is $1,660,000 short. Still counting on it?",
+      "Your $3.7 million goal hides a $1,660,000 hole. Want it back?",
+      "Your $3.7 million goal has a $1,660,000 mistake. Still planning around it?",
+      "Your $3.7 million goal already lost $1,660,000. Believe it?",
+      "Your $3.7 million goal: Hama found $1,660,000 missing. Want the math?",
+      "Your $3.7 million goal costs you $1,660,000 you never see. Want it?",
+      "Your $3.7 million goal: $1,660,000 is just air. Want the real one?",
+      "Your $3.7 million goal vs what it buys: $1,660,000 gap. Want it?",
+      "Your $3.7 million goal, 30 years out, loses $1,660,000. Still waiting?",
+      "Your $3.7 million goal: never trust it, $1,660,000 is missing. Want it?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your $3.7 million goal hides a $1,660,000 hole. Want it back?",
+    "spoken": "Your $3.7 million goal hides a $1,660,000 hole. Want it back?",
+    "promise": "Give me 30 seconds. See your real number.",
+    "pick_why": "A hidden hole plus Want it back is the shortest line that names the goal, the exact loss and the thing they want, so it stops the most beginners and gives them a reason to save.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "DON'T MISS THIS"
+  },
+  "lede": "At the Bank of Canada's 2% target, a $3.7 million goal 30 years out buys about what $2.04 million buys now.",
+  "series": "FUTURE MONEY MATH",
+  "source_note": "BANK OF CANADA · INFLATION TARGET AND OUTLOOK",
+  "caption": "🐶⛏️ If you plan for $3.7 million, a $1,660,000 hole could be hiding in it.\n\nPrices creep up every year, so your goal buys less by the time you get there. In today's money it's about $2.04 million, and that's if inflation stays on the Bank of Canada's target.\n\nComment FUTURE and I'll send you my future dollars converter 🪙\nWhat's the number on yours?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#retirementcanada #inflationcanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 질문.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your $3.7 million goal hides a $1,660,000 hole. Want it back?",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE FUTURE DOLLARS CONVERTER",
+          "num": "$1,660,000",
+          "line": "Your $3.7 million goal hides a $1,660,000 hole. Want it back?",
+          "promise": "Give me 30 seconds. See your real number.",
+          "subj": "YOUR $3.7 MILLION GOAL",
+          "stamp": "DON'T MISS THIS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See your real number.",
+        "nocap": true
+      },
+      {
+        "say": "The converter shows what your goal really buys.",
+        "cap": "low"
+      },
+      {
+        "say": "Prices rising every year is called *inflation*.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "TODAY'S MONEY",
+            "big": "$2,040,000",
+            "ft": "what it really buys"
+          },
+          "b": {
+            "k": "YOUR GOAL",
+            "big": "$3,700,000",
+            "ft": "30 years from now",
+            "at": 1
+          },
+          "gap": "$1,660,000",
+          "gap_at": 1
+        },
+        "badge": "THE GAP",
+        "in": "zoom"
+      },
+      {
+        "say": "Your plan says $3.7 million in 30 years."
+      },
+      {
+        "say": "At 2% inflation, $3.7 million is worth $2.04 million today.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "what it really buys",
+              "tone": "loss",
+              "h": "TODAY'S MONEY",
+              "v": "$2,040,000",
+              "at": 0
+            },
+            {
+              "sub": "30 years from now",
+              "tone": "win",
+              "h": "YOUR GOAL",
+              "v": "$3,700,000",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "So where did $1,660,000 go?",
+        "part": "callout",
+        "data": {
+          "word": "go",
+          "line": "So where did $1,660,000 go?",
+          "at": "go"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Prices climb, your goal stays $3.7 million.",
+        "part": "tag",
+        "data": {
+          "old": "SAME GOAL",
+          "new": "BUYS LESS",
+          "at": 1,
+          "sub": "prices rise every year.",
+          "sub_at": 1
+        },
+        "badge": "WHY",
+        "in": "pan"
+      },
+      {
+        "say": "The Bank of Canada, which keeps prices steady, aims for 2%."
+      },
+      {
+        "say": "That 2% is only a *target*.",
+        "part": "strike",
+        "data": {
+          "old": "SAME GOAL",
+          "new": "BUYS LESS",
+          "at": "target",
+          "k": "",
+          "sub": "prices rise every year.",
+          "sub_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "At 3% for 30 years, $3.7 million is worth $1.52 million.",
+        "part": "swap",
+        "data": {
+          "old": "2%",
+          "new": "3%",
+          "at": "At"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Now you see your $1,660,000 hole.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$1,660,000",
+          "tail": "your hidden hole",
+          "at": "$1,660,000"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Ignore it, and that buying power is *gone*.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "$1,660,000",
+              "v": "$1,660,000",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "GONE",
+              "v": "GONE",
+              "w": 0.2,
+              "at": "GONE"
+            }
+          ]
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "Comment *FUTURE,* and I will send you the future dollars converter.",
+        "part": "tiles",
+        "data": {
+          "word": "FUTURE",
+          "at": "FUTURE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the future dollars converter ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your $3.7 million goal hides a $1,660,000 hole. Want it back?",
+          "Give me 30 seconds. See your real number."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The converter shows what your goal really buys."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "TODAY'S MONEY",
+            "v": "$2,040,000",
+            "sub": "what it really buys",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "YOUR GOAL",
+            "v": "$3,700,000",
+            "sub": "30 years from now",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Prices rising every year is called *inflation*.",
+          "Your plan says $3.7 million in 30 years."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "TODAY'S MONEY",
+            "v": "$2,040,000",
+            "sub": "what it really buys",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "YOUR GOAL",
+            "v": "$3,700,000",
+            "sub": "30 years from now",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "At 2% inflation, $3.7 million is worth $2.04 million today."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So where did $1,660,000 go?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "WHY",
+        "data": {
+          "old": "SAME GOAL",
+          "new": "BUYS LESS",
+          "sub": "prices rise every year."
+        },
+        "lines": [
+          "Prices climb, your goal stays $3.7 million.",
+          "The Bank of Canada, which keeps prices steady, aims for 2%."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "SAME GOAL",
+          "new": "BUYS LESS",
+          "sub": "prices rise every year."
+        },
+        "lines": [
+          "That 2% is only a *target*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "2%",
+          "new": "3%"
+        },
+        "lines": [
+          "At 3% for 30 years, $3.7 million is worth $1.52 million."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,660,000",
+          "new": "your hidden hole"
+        },
+        "lines": [
+          "Now you see your $1,660,000 hole."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$1,660,000",
+          "new": "GONE"
+        },
+        "lines": [
+          "Ignore it, and that buying power is *gone*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FUTURE",
+          "gift": "the future dollars converter"
+        },
+        "lines": [
+          "Comment *FUTURE,* and I will send you the future dollars converter."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook, a lock-in that names the converter, a compare of the $3.7 million goal against its $2.04 million value today, a question rehook, a catch on the 2% target, a 3% next-number rehook as the trap, then the closing, the dark loss cut and the cta.",
+      "shape": "zoom",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "dumbbell",
+        "stack",
+        "callout",
+        "tag",
+        "strike",
+        "swap",
+        "tail",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 2,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "FUTURE"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 질문.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your $3.7 million goal hides a $1,660,000 hole. Want it back?",
+        "part": "cover",
+        "data": {
+          "pill": "THE FUTURE DOLLARS CONVERTER",
+          "num": "$1,660,000",
+          "line": "Your $3.7 million goal hides a $1,660,000 hole. Want it back?",
+          "promise": "Give me 30 seconds. See your real number.",
+          "subj": "YOUR $3.7 MILLION GOAL",
+          "stamp": "DON'T MISS THIS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See your real number.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and the hole stays.",
+        "cap": "low"
+      },
+      {
+        "say": "Your plan says $3,700,000, 30 years out.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "WHAT IT BUYS",
+            "big": "$2,040,000",
+            "ft": "in today's money"
+          },
+          "b": {
+            "k": "ON YOUR PLAN",
+            "big": "$3,700,000",
+            "ft": "30 years from now",
+            "at": "$3,700,000"
+          },
+          "gap": "$1,660,000",
+          "gap_at": 1
+        },
+        "badge": "THE GAP",
+        "in": "dissolve"
+      },
+      {
+        "say": "In today's money, $3,700,000 buys about $2,040,000."
+      },
+      {
+        "say": "Rising prices ate the other $1,660,000.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "in today's money",
+              "tone": "loss",
+              "h": "WHAT IT BUYS",
+              "v": "$2,040,000",
+              "at": 0
+            },
+            {
+              "sub": "30 years from now",
+              "tone": "win",
+              "h": "ON YOUR PLAN",
+              "v": "$3,700,000",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        }
+      },
+      {
+        "say": "People think a dollar stays a dollar.",
+        "part": "badge",
+        "data": {
+          "old": "A DOLLAR STAYS",
+          "new": "DIVIDE BY 1.81",
+          "at": 1,
+          "sub": "2% a year, for 30 years.",
+          "sub_at": 1,
+          "k": "WHY"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Inflation, prices going up a little every year, shrinks it."
+      },
+      {
+        "say": "At 2% a year, 30 years, divide by 1.81.",
+        "part": "tag",
+        "data": {
+          "old": "A DOLLAR STAYS",
+          "new": "DIVIDE BY 1.81",
+          "at": "DIVIDE",
+          "sub": "2% a year, for 30 years.",
+          "sub_at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "And 2% is only a *target*, so it can run higher.",
+        "part": "tabs",
+        "data": {
+          "old": "2% FIXED",
+          "new": "ONLY A TARGET",
+          "at": "ONLY",
+          "k": ""
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "For a goal 30 years away, divide by 1.81.",
+        "part": "paid",
+        "data": {
+          "k": "YOUR NUMBER",
+          "label": "Divide by 1.81",
+          "sub": "goal 30 years away, at 2%",
+          "at": "For"
+        },
+        "badge": "YOUR NUMBER",
+        "in": "iris"
+      },
+      {
+        "say": "Now you can see the $1,660,000.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "1,660,000",
+          "pre": "$",
+          "suf": "",
+          "label": "now you see it",
+          "at": "$1,660,000"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Comment *TODAY,* and I will send you the future dollars converter.",
+        "part": "tiles",
+        "data": {
+          "word": "TODAY",
+          "at": "TODAY",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the future dollars converter ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your $3.7 million goal hides a $1,660,000 hole. Want it back?",
+          "Give me 30 seconds. See your real number."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and the hole stays."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "WHAT IT BUYS",
+            "v": "$2,040,000",
+            "sub": "in today's money",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "ON YOUR PLAN",
+            "v": "$3,700,000",
+            "sub": "30 years from now",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Your plan says $3,700,000, 30 years out.",
+          "In today's money, $3,700,000 buys about $2,040,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "WHAT IT BUYS",
+            "v": "$2,040,000",
+            "sub": "in today's money",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "ON YOUR PLAN",
+            "v": "$3,700,000",
+            "sub": "30 years from now",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Rising prices ate the other $1,660,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "WHY",
+        "data": {
+          "old": "A DOLLAR STAYS",
+          "new": "DIVIDE BY 1.81",
+          "sub": "2% a year, for 30 years."
+        },
+        "lines": [
+          "People think a dollar stays a dollar.",
+          "Inflation, prices going up a little every year, shrinks it."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "A DOLLAR STAYS",
+          "new": "DIVIDE BY 1.81",
+          "sub": "2% a year, for 30 years."
+        },
+        "lines": [
+          "At 2% a year, 30 years, divide by 1.81."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "2% FIXED",
+          "new": "ONLY A TARGET"
+        },
+        "lines": [
+          "And 2% is only a *target*, so it can run higher."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR NUMBER",
+        "data": {
+          "label": "Divide by 1.81",
+          "sub": "goal 30 years away, at 2%"
+        },
+        "lines": [
+          "For a goal 30 years away, divide by 1.81."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,660,000",
+          "new": "now you see it"
+        },
+        "lines": [
+          "Now you can see the $1,660,000."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "TODAY",
+          "gift": "the future dollars converter"
+        },
+        "lines": [
+          "Comment *TODAY,* and I will send you the future dollars converter."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Opener and lock-in, then a compare that shows the $3,700,000 goal against the $2,040,000 it buys today, a rehook, a myth scene that explains inflation in plain words, a second rehook flagging that 2% is only a target, a one-line step for finding your own number, the $1,660,000 closing, and the given cta ending.",
+      "shape": "ledger",
+      "ending": "cta",
+      "caption": "blur",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "compare",
+        "stack",
+        "callout",
+        "badge",
+        "tag",
+        "tabs",
+        "paid",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "wipe",
+        "fade",
+        "dissolve",
+        "pan",
+        "zoom",
+        "iris",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "TODAY"
+    }
+  },
+  "plain": {
+    "what": "Prices go up a little every year. That is called inflation. So the $3.7 million goal on a retirement plan, 30 years from now, would only buy about what $2.04 million buys today — if prices rise 2% a year, which is the target the Bank of Canada aims for.",
+    "so_what": "The $3.7 million on your plan is money in future dollars, and in today's money it is worth about $1.66 million less than it sounds.",
+    "do": "Write down the goal number on your plan and how many years until you need it.",
+    "words": [
+      {
+        "term": "inflation",
+        "means": "prices going up a little every year"
+      },
+      {
+        "term": "inflation target",
+        "means": "the price rise the Bank of Canada aims for"
+      },
+      {
+        "term": "Bank of Canada",
+        "means": "Canada's central bank, which tries to keep prices steady"
+      },
+      {
+        "term": "today's dollars",
+        "means": "what money would buy if you spent it now"
+      },
+      {
+        "term": "future dollars",
+        "means": "money years from now, when it buys less"
+      },
+      {
+        "term": "retirement goal",
+        "means": "the total you plan to have when you stop working"
+      }
+    ]
+  },
+  "subject": "Your $3.7 million goal",
+  "deliver": {
+    "word": "FUTURE",
+    "gift": "the future dollars converter"
+  },
+  "check": [],
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 질문.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your $3.7 million goal hides a $1,660,000 hole. Want it back?",
+        "part": "window",
+        "data": {
+          "pill": "THE FUTURE DOLLARS CONVERTER",
+          "num": "$1,660,000",
+          "line": "Your $3.7 million goal hides a $1,660,000 hole. Want it back?",
+          "promise": "Give me 30 seconds. See your real number.",
+          "subj": "YOUR $3.7 MILLION GOAL",
+          "stamp": "DON'T MISS THIS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See your real number.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll, and the hole stays.",
+        "cap": "low"
+      },
+      {
+        "say": "Your plan says $3,700,000, 30 years out.",
+        "part": "split",
+        "data": {
+          "k": "WHAT IT BUYS vs ON YOUR PLAN",
+          "total": "$3,700,000",
+          "a": {
+            "v": "$2,040,000",
+            "l": "WHAT IT BUYS",
+            "w": 0.3554006968641115,
+            "at": "$2,040,000"
+          },
+          "b": {
+            "v": "$3,700,000",
+            "l": "ON YOUR PLAN",
+            "at": "$3,700,000",
+            "label_at": "$3,700,000"
+          }
+        },
+        "badge": "THE GAP",
+        "in": "dissolve"
+      },
+      {
+        "say": "In today's money, $3,700,000 buys about $2,040,000."
+      },
+      {
+        "say": "Rising prices ate the other $1,660,000.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "WHAT IT BUYS",
+            "big": "$2,040,000",
+            "ft": "in today's money"
+          },
+          "b": {
+            "k": "ON YOUR PLAN",
+            "big": "$3,700,000",
+            "ft": "30 years from now",
+            "at": 0
+          },
+          "gap": "$1,660,000",
+          "gap_at": "$1,660,000"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        }
+      },
+      {
+        "say": "People think a dollar stays a dollar.",
+        "part": "tag",
+        "data": {
+          "old": "A DOLLAR STAYS",
+          "new": "DIVIDE BY 1.81",
+          "at": 1,
+          "sub": "2% a year, for 30 years.",
+          "sub_at": 1
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Inflation, prices going up a little every year, shrinks it."
+      },
+      {
+        "say": "At 2% a year, 30 years, divide by 1.81.",
+        "part": "badge",
+        "data": {
+          "old": "A DOLLAR STAYS",
+          "new": "DIVIDE BY 1.81",
+          "at": "DIVIDE",
+          "sub": "2% a year, for 30 years.",
+          "sub_at": 0,
+          "k": "THE FUTURE DOLLARS CONVERTER"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "And 2% is only a *target*, so it can run higher.",
+        "part": "tabs",
+        "data": {
+          "old": "2% FIXED",
+          "new": "ONLY A TARGET",
+          "at": "ONLY",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "For a goal 30 years away, divide by 1.81.",
+        "part": "paid",
+        "data": {
+          "k": "YOUR NUMBER",
+          "label": "Divide by 1.81",
+          "sub": "goal 30 years away, at 2%",
+          "at": "For"
+        },
+        "badge": "YOUR NUMBER",
+        "in": "wipe"
+      },
+      {
+        "say": "Now you can see the $1,660,000.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "1,660,000",
+          "pre": "$",
+          "suf": "",
+          "label": "now you see it",
+          "at": "$1,660,000"
+        }
+      },
+      {
+        "say": "Comment *TODAY,* and I will send you the future dollars converter.",
+        "part": "tiles",
+        "data": {
+          "word": "TODAY",
+          "at": "TODAY",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the future dollars converter ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your $3.7 million goal hides a $1,660,000 hole. Want it back?",
+          "Give me 30 seconds. See your real number."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll, and the hole stays."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "WHAT IT BUYS",
+            "v": "$2,040,000",
+            "sub": "in today's money",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "ON YOUR PLAN",
+            "v": "$3,700,000",
+            "sub": "30 years from now",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Your plan says $3,700,000, 30 years out.",
+          "In today's money, $3,700,000 buys about $2,040,000."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "WHAT IT BUYS",
+            "v": "$2,040,000",
+            "sub": "in today's money",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "ON YOUR PLAN",
+            "v": "$3,700,000",
+            "sub": "30 years from now",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Rising prices ate the other $1,660,000."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "WHY",
+        "data": {
+          "old": "A DOLLAR STAYS",
+          "new": "DIVIDE BY 1.81",
+          "sub": "2% a year, for 30 years."
+        },
+        "lines": [
+          "People think a dollar stays a dollar.",
+          "Inflation, prices going up a little every year, shrinks it."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "A DOLLAR STAYS",
+          "new": "DIVIDE BY 1.81",
+          "sub": "2% a year, for 30 years."
+        },
+        "lines": [
+          "At 2% a year, 30 years, divide by 1.81."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "2% FIXED",
+          "new": "ONLY A TARGET"
+        },
+        "lines": [
+          "And 2% is only a *target*, so it can run higher."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "YOUR NUMBER",
+        "data": {
+          "label": "Divide by 1.81",
+          "sub": "goal 30 years away, at 2%"
+        },
+        "lines": [
+          "For a goal 30 years away, divide by 1.81."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,660,000",
+          "new": "now you see it"
+        },
+        "lines": [
+          "Now you can see the $1,660,000."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "TODAY",
+          "gift": "the future dollars converter"
+        },
+        "lines": [
+          "Comment *TODAY,* and I will send you the future dollars converter."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Opener and lock-in, then a compare that shows the $3,700,000 goal against the $2,040,000 it buys today, a rehook, a myth scene that explains inflation in plain words, a second rehook flagging that 2% is only a target, a one-line step for finding your own number, the $1,660,000 closing, and the given cta ending.",
+      "shape": "ledger",
+      "ending": "cta",
+      "caption": "karaoke",
+      "opener": "window",
+      "parts": [
+        "window",
+        "split",
+        "dumbbell",
+        "callout",
+        "tag",
+        "badge",
+        "tabs",
+        "paid",
+        "odometer",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "wipe",
+        "fade",
+        "dissolve",
+        "zoom",
+        "iris",
+        "wipe",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "step",
+        "closing",
+        "cta"
+      ],
+      "keyword": "TODAY"
+    }
+  }
+}

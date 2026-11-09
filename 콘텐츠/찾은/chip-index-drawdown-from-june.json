@@ -1,0 +1,1234 @@
+{
+  "key": "chip-index-drawdown-from-june",
+  "category": "stocks",
+  "status": "draft",
+  "title": "Up 64% this year, and still 25% down from June",
+  "object": "THE AI CHIP DRAWDOWN MAP",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['sf1a90d28', 's54817a27'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "25",
+    "unit": "%",
+    "thing": "drop in the iShares Semiconductor ETF (SOXX) from its 52-week high",
+    "box": "US-listed chip index ETF (SOXX, tracks a semiconductor index)",
+    "claim": "On October 17, 2026, the iShares Semiconductor ETF (SOXX) closed at $493.39. That was about 25% below its 52-week high of $655.95, which was set in mid-June. The ETF was still up 64.12% for 2026, so someone who bought at the top was down while someone who bought in January was well ahead. These figures are from mid-October, and the price has moved since then.",
+    "sources": [
+      "24/7 WALL ST (OCT 17, 2026)",
+      "24/7 WALL ST (OCT 17, 2026)",
+      "GATE NEWS (OCT 19, 2026)"
+    ],
+    "verified": "find.py · 대조 3/3",
+    "felt": {
+      "num": "889",
+      "unit": "$",
+      "a": "1,641",
+      "b": "752",
+      "how": "$1,000 put in Jan 1 vs at the June top, valued at the Oct 17 close",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "24/7 WALL ST (OCT 17, 2026)",
+      "url": "https://247wallst.com/investing/2026/10/17/chip-stocks-just-fell-8-days-in-a-row-their-longest-losing-streak-since-2008/",
+      "what": "It fell 4.14% to $493.39. It closed at $589.45 on October 6, so it is now down about 16% since then and sits about 25% below its 52-week high of $655.95.",
+      "confidence": "2차"
+    },
+    {
+      "label": "24/7 WALL ST (OCT 17, 2026)",
+      "url": "https://247wallst.com/investing/2026/10/17/chip-stocks-just-fell-8-days-in-a-row-their-longest-losing-streak-since-2008/",
+      "what": "The fund is still up 64.12% for 2026, so the selloff likely reflects investors repricing the AI spending cycle and unwinding popular positions.",
+      "confidence": "2차"
+    },
+    {
+      "label": "GATE NEWS (OCT 19, 2026)",
+      "url": "https://www.gate.com/news/detail/CRWV/semiconductor-stocks-hit-lowest-level-since-april-2026-on-eight-day-losing-25064993",
+      "what": "Since mid-June 2026, the SOX dropped approximately 24%, while the S&P 500 added about 2% over the same stretch.",
+      "confidence": "2차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "STOCKS · CANADA",
+      "topic": "WHY STOCKS",
+      "hook": {
+        "pre": "SOXX is up ",
+        "num": "64",
+        "post": "% and still cost buyers $889. Want it back?"
+      },
+      "promise": "Give me 30 seconds. See who kept the gain."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE AI CHIP DRAWDOWN MAP",
+      "title": "Same fund. Where you *started* decides it.",
+      "rowlabel": "YOU BOUGHT AT",
+      "cols": [
+        "PUT IN $1,000",
+        "PUT IN $5,000",
+        "PUT IN $10,000"
+      ],
+      "labw": 24,
+      "rows": [
+        {
+          "a": "$655.95",
+          "asub": "June high",
+          "cells": [
+            "$752",
+            "$3,761",
+            "$7,522"
+          ]
+        },
+        {
+          "a": "$589.45",
+          "asub": "Oct 6 close",
+          "cells": [
+            "$837",
+            "$4,185",
+            "$8,370"
+          ]
+        },
+        {
+          "a": "Jan 1",
+          "asub": "start of 2026",
+          "cells": [
+            "$1,641",
+            "$8,206",
+            "$16,412"
+          ]
+        }
+      ],
+      "hi": [
+        0,
+        2
+      ],
+      "note": "Value at the $493.39 close on Oct 17. Jan 1 row uses the 64.12% gain for 2026. Example math, not a promise. The price has moved since. <b>Save this. Find your row.</b>",
+      "source_label": "24/7 WALL ST"
+    },
+    {
+      "type": "flow",
+      "kicker": "HOW THE 25% HAPPENED",
+      "title": "Four months, one *slide.*",
+      "lead": "From mid-June to Oct 17 the chip index fell about 24%. <em>The S&P 500 added about 2%.</em>",
+      "steps": [
+        {
+          "n": "$655.95",
+          "t": "52-week high",
+          "s": "set in mid-June"
+        },
+        {
+          "n": "$589.45",
+          "t": "Oct 6 close",
+          "s": "about 10% under the high"
+        },
+        {
+          "n": "$493.39",
+          "t": "Oct 17 close",
+          "s": "about 25% under the high",
+          "cut": true
+        }
+      ],
+      "tail": "The fund was still up 64.12% for 2026. That only helped people who got in early. The top buyer was still down.",
+      "source_label": "24/7 WALL ST · GATE NEWS",
+      "say": "Same fund all year.|Two very different stories."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "SOXX: a $889 gap on $1,000, same year. Want the right side?",
+      "SOXX June buyers are $889 behind January buyers. Want to catch up?",
+      "SOXX buyers lost $889 to one mistake. Want it back?",
+      "SOXX is up 64% and still cost buyers $889. Want it back?",
+      "Hama watched SOXX buyers split by $889. Want the winning side?",
+      "SOXX took $889 from late buyers this year. Want it back?",
+      "SOXX, same name, $889 apart on $1,000. Want the bigger pile?",
+      "SOXX January vs June: $889 gap on $1,000. Want January's side?",
+      "SOXX: waiting till June cost $889. Still waiting?",
+      "SOXX: never skip one check, it cost $889. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "SOXX is up 64% and still cost buyers $889. Want it back?",
+    "spoken": "SOXX is up 64% and still cost buyers $889. Want it back?",
+    "promise": "Give me 30 seconds. See who kept the gain.",
+    "pick_why": "Up 64% and still down $889 is the one line a beginner cannot square on their own, so they stop, and the real number gives them a reason to save.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "DON'T MISS THIS"
+  },
+  "lede": "Same chip ETF, same day. If you bought at the June high you were down about 25%. If you bought in January you were up 64%.",
+  "series": "AI CHIP STOCKS",
+  "source_note": "24/7 WALL ST · GATE NEWS · MARKET NEWS, OCT 2026",
+  "caption": "🐶⛏️ So if you missed $889 on SOXX, the day you bought in could be why.\n\nThe fund's up 64.12% for 2026, so it sounds like everyone won. But it closed about 25% below its June high, so the price you paid decides whether you're ahead.\n\nComment CHIPS and I'll send you my SOXX start-date map 🪙\nWhen did you get in?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#soxx #etfcanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "SOXX is up 64% and still cost buyers $889. Want it back?",
+        "part": "tease",
+        "data": {
+          "pill": "THE AI CHIP DRAWDOWN MAP",
+          "num": "$889",
+          "line": "SOXX is up 64% and still cost buyers $889. Want it back?",
+          "promise": "Give me 30 seconds. See who kept the gain.",
+          "subj": "SOXX",
+          "stamp": "DON'T MISS THIS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See who kept the gain.",
+        "nocap": true
+      },
+      {
+        "say": "The start-date map is yours.",
+        "cap": "low"
+      },
+      {
+        "say": "SOXX holds makers of chips, the tiny brains inside every phone.",
+        "part": "donut",
+        "data": {
+          "k": "Same fund",
+          "segs": [
+            {
+              "l": "BOUGHT JUNE TOP",
+              "v": "$752",
+              "w": 0.31424989552862514
+            },
+            {
+              "l": "BOUGHT JAN 1",
+              "v": "$1,641",
+              "w": 0.6857501044713749
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "Same fund",
+        "in": "pan"
+      },
+      {
+        "say": "One put $1,000 in January, one at June's top."
+      },
+      {
+        "say": "January's $1,000 became $1,641, and June's became $752.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "BOUGHT JUNE TOP",
+            "big": "$752",
+            "ft": "same $1,000"
+          },
+          "b": {
+            "k": "BOUGHT JAN 1",
+            "big": "$1,641",
+            "ft": "same $1,000",
+            "at": "$1,641"
+          },
+          "gap": "$889",
+          "gap_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "So why the gap?",
+        "part": "callout",
+        "data": {
+          "word": "gap",
+          "line": "So why the gap?",
+          "at": "gap"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "SOXX up 64.12% sounds like *everyone* won.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "EVERYONE WON",
+            "v": "EVERYONE WON",
+            "sub": ""
+          },
+          "b": {
+            "h": "25% DOWN",
+            "v": "25% DOWN",
+            "sub": ""
+          },
+          "at": 1
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "SOXX peaked at $655.95 in June, then fell about 25%."
+      },
+      {
+        "say": "The price has moved since these October numbers.",
+        "part": "callout",
+        "data": {
+          "word": "numbers",
+          "line": "The price has moved since these October numbers.",
+          "at": "numbers"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Same $1,000, and the January buyer kept $889 more.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "889",
+          "pre": "$",
+          "suf": "",
+          "label": "the January buyer kept",
+          "at": "$889"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Open your box, find the price you *paid*.",
+        "part": "fan",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Price you paid",
+            "Today's price",
+            "Save this post"
+          ],
+          "k": "THE AI CHIP DRAWDOWN MAP",
+          "from": 0,
+          "to": 1
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Then compare it to today's price."
+      },
+      {
+        "say": "Comment *CHIPS,* and I will send you the start-date map.",
+        "part": "tiles",
+        "data": {
+          "word": "CHIPS",
+          "at": "CHIPS",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the SOXX start-date map ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "SOXX is up 64% and still cost buyers $889. Want it back?",
+          "Give me 30 seconds. See who kept the gain."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The start-date map is yours."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "Same fund",
+        "data": {
+          "a": {
+            "h": "BOUGHT JUNE TOP",
+            "v": "$752",
+            "sub": "same $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BOUGHT JAN 1",
+            "v": "$1,641",
+            "sub": "same $1,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "SOXX holds makers of chips, the tiny brains inside every phone.",
+          "One put $1,000 in January, one at June's top."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BOUGHT JUNE TOP",
+            "v": "$752",
+            "sub": "same $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BOUGHT JAN 1",
+            "v": "$1,641",
+            "sub": "same $1,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "January's $1,000 became $1,641, and June's became $752."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So why the gap?"
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "EVERYONE WON",
+          "new": "25% DOWN",
+          "sub": "if you bought at the June top."
+        },
+        "lines": [
+          "SOXX up 64.12% sounds like *everyone* won.",
+          "SOXX peaked at $655.95 in June, then fell about 25%."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "The price has moved since these October numbers."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$889",
+          "new": "the January buyer kept"
+        },
+        "lines": [
+          "Same $1,000, and the January buyer kept $889 more."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Price you paid",
+            "Today's price"
+          ]
+        },
+        "lines": [
+          "Open your box, find the price you *paid*.",
+          "Then compare it to today's price."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "CHIPS",
+          "gift": "the SOXX start-date map"
+        },
+        "lines": [
+          "Comment *CHIPS,* and I will send you the start-date map."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook and promise, a one-line lock-in naming the map, a compare that says what SOXX holds before showing $1,000 becoming $752 or $1,641, a question rehook, a myth that explains the June peak and the 25% fall, a moved-price trap, the $889 again as the closing, then the given check and cta.",
+      "shape": "ledger",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "donut",
+        "dumbbell",
+        "callout",
+        "wipe",
+        "callout",
+        "odometer",
+        "fan",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "wipe",
+        "pan",
+        "iris",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "CHIPS"
+    }
+  },
+  "plain": {
+    "what": "SOXX is a fund that holds many chip companies at once. Chips are the tiny brains inside every phone and AI computer. In mid-June the fund hit $655.95, and on October 17, 2026 it closed at $493.39, which is about 25% below that high, even though it was still up 64.12% for the year.",
+    "so_what": "$1,000 put in at the June top was worth about $752, while the same $1,000 put in at the start of 2026 was worth about $1,641, so your start date, not the yearly number, decided your story.",
+    "do": "Open your account and write down the price you paid, then compare it to today's price before you look at the yearly return.",
+    "words": [
+      {
+        "term": "SOXX",
+        "means": "A fund holding many chip companies at once"
+      },
+      {
+        "term": "chips",
+        "means": "The tiny brains inside every phone and AI computer"
+      },
+      {
+        "term": "ETF",
+        "means": "One fund that holds many companies at once"
+      },
+      {
+        "term": "index",
+        "means": "A list of the biggest companies, bought all at once"
+      },
+      {
+        "term": "52-week high",
+        "means": "The highest price it reached in the past year"
+      },
+      {
+        "term": "buy price",
+        "means": "The price you actually paid when you got in"
+      }
+    ]
+  },
+  "subject": "SOXX",
+  "deliver": {
+    "word": "CHIPS",
+    "gift": "the SOXX start-date map"
+  },
+  "check": [
+    "Price you paid",
+    "Today's price"
+  ],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "SOXX is up 64% and still cost buyers $889. Want it back?",
+        "part": "cover",
+        "data": {
+          "pill": "THE AI CHIP DRAWDOWN MAP",
+          "num": "$889",
+          "line": "SOXX is up 64% and still cost buyers $889. Want it back?",
+          "promise": "Give me 30 seconds. See who kept the gain.",
+          "subj": "SOXX",
+          "stamp": "DON'T MISS THIS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See who kept the gain.",
+        "nocap": true
+      },
+      {
+        "say": "The *map* shows who kept it.",
+        "cap": "low"
+      },
+      {
+        "say": "One put $1,000 into SOXX in January, one at the June top.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "BOUGHT AT JUNE TOP",
+            "big": "$752",
+            "ft": "same $1,000"
+          },
+          "b": {
+            "k": "BOUGHT JAN 1",
+            "big": "$1,641",
+            "ft": "same $1,000",
+            "at": "$1,641"
+          },
+          "gap": "$889",
+          "gap_at": 1
+        },
+        "badge": "SAME $1,000",
+        "in": "wipe"
+      },
+      {
+        "say": "The January buyer had $1,641, the June buyer $752."
+      },
+      {
+        "say": "$889 apart, just a different *start*.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "same $1,000",
+              "tone": "loss",
+              "h": "BOUGHT AT JUNE TOP",
+              "v": "$752",
+              "at": 0
+            },
+            {
+              "sub": "same $1,000",
+              "tone": "win",
+              "h": "BOUGHT JAN 1",
+              "v": "$1,641",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Now the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Now the part nobody says.",
+          "at": "says"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "SOXX holds chip makers, tiny brains inside every phone and AI computer.",
+        "part": "tag",
+        "data": {
+          "old": "UP 64%",
+          "new": "DOWN 25%",
+          "at": "DOWN",
+          "sub": "if you bought at the June top.",
+          "sub_at": 1
+        }
+      },
+      {
+        "say": "Up 64% says everyone won, but June buyers are down 25%."
+      },
+      {
+        "say": "That 64% is no promise, prices moved since.",
+        "part": "tabs",
+        "data": {
+          "old": "A PROMISE",
+          "new": "MOVED SINCE",
+          "at": "MOVED",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Same $1,000, the June buyer ended $889 behind.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "889",
+          "pre": "$",
+          "suf": "",
+          "label": "the start date decided",
+          "at": "$889"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Find your own *row*.",
+        "part": "split",
+        "data": {
+          "k": "YOUR $5,000 vs SAME $5,000",
+          "total": "$8,206",
+          "a": {
+            "v": "$3,761",
+            "l": "YOUR $5,000",
+            "w": 0.3142809392496031,
+            "at": "$3,761"
+          },
+          "b": {
+            "v": "$8,206",
+            "l": "SAME $5,000",
+            "at": "$8,206",
+            "label_at": "$8,206"
+          }
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "$5,000 in June became $3,761, in January $8,206."
+      },
+      {
+        "say": "Comment *CHIP,* and I will send you the buy price map.",
+        "part": "tiles",
+        "data": {
+          "word": "CHIP",
+          "at": "CHIP",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the buy price map ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "SOXX is up 64% and still cost buyers $889. Want it back?",
+          "Give me 30 seconds. See who kept the gain."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The *map* shows who kept it."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME $1,000",
+        "data": {
+          "a": {
+            "h": "BOUGHT AT JUNE TOP",
+            "v": "$752",
+            "sub": "same $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BOUGHT JAN 1",
+            "v": "$1,641",
+            "sub": "same $1,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "One put $1,000 into SOXX in January, one at the June top.",
+          "The January buyer had $1,641, the June buyer $752."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BOUGHT AT JUNE TOP",
+            "v": "$752",
+            "sub": "same $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BOUGHT JAN 1",
+            "v": "$1,641",
+            "sub": "same $1,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "$889 apart, just a different *start*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Now the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "UP 64%",
+          "new": "DOWN 25%",
+          "sub": "if you bought at the June top."
+        },
+        "lines": [
+          "SOXX holds chip makers, tiny brains inside every phone and AI computer.",
+          "Up 64% says everyone won, but June buyers are down 25%."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "A PROMISE",
+          "new": "MOVED SINCE"
+        },
+        "lines": [
+          "That 64% is no promise, prices moved since."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$889",
+          "new": "the start date decided"
+        },
+        "lines": [
+          "Same $1,000, the June buyer ended $889 behind."
+        ]
+      },
+      {
+        "role": "myrow",
+        "data": {
+          "a": {
+            "h": "YOUR $5,000",
+            "v": "$3,761",
+            "sub": "bought at the June top",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $5,000",
+            "v": "$8,206",
+            "sub": "bought Jan 1",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find your own *row*.",
+          "$5,000 in June became $3,761, in January $8,206."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "CHIP",
+          "gift": "the buy price map"
+        },
+        "lines": [
+          "Comment *CHIP,* and I will send you the buy price map."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, a one-line lock-in flips the loss into the map they get, the compare shows the $1,000 January buyer against the June-top buyer and the $889 gap, a rehook leads into the myth that up 64% means everyone won against the 25% drop with chips explained in the same breath, the second rehook says the past is not a promise, the closing repeats $889, then the given myrow and CHIPS cta end it.",
+      "shape": "ledger",
+      "ending": "myrow_cta",
+      "caption": "karaoke",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "compare",
+        "stack",
+        "callout",
+        "tag",
+        "tabs",
+        "odometer",
+        "split",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "dissolve",
+        "wipe",
+        "fade",
+        "pan",
+        "iris",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "CHIP"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "SOXX is up 64% and still cost buyers $889. Want it back?",
+        "part": "rise",
+        "data": {
+          "pill": "THE AI CHIP DRAWDOWN MAP",
+          "num": "$889",
+          "line": "SOXX is up 64% and still cost buyers $889. Want it back?",
+          "promise": "Give me 30 seconds. See who kept the gain.",
+          "subj": "SOXX",
+          "stamp": "DON'T MISS THIS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See who kept the gain.",
+        "nocap": true
+      },
+      {
+        "say": "The *map* shows who kept it.",
+        "cap": "low"
+      },
+      {
+        "say": "One put $1,000 into SOXX in January, one at the June top.",
+        "part": "split",
+        "data": {
+          "k": "BOUGHT AT JUNE TOP vs BOUGHT JAN 1",
+          "total": "$1,641",
+          "a": {
+            "v": "$752",
+            "l": "BOUGHT AT JUNE TOP",
+            "w": 0.31424989552862514,
+            "at": "$752"
+          },
+          "b": {
+            "v": "$1,641",
+            "l": "BOUGHT JAN 1",
+            "at": "$1,641",
+            "label_at": "$1,641"
+          }
+        },
+        "badge": "SAME $1,000",
+        "in": "wipe"
+      },
+      {
+        "say": "The January buyer had $1,641, the June buyer $752."
+      },
+      {
+        "say": "$889 apart, just a different *start*.",
+        "part": "table",
+        "data": {
+          "k": "THE AI CHIP DRAWDOWN MAP",
+          "cols": [
+            "PUT IN $1,000",
+            "PUT IN $5,000",
+            "PUT IN $10,000"
+          ],
+          "rows": [
+            {
+              "lab": "$655.95",
+              "cells": [
+                "$752",
+                "$3,761",
+                "$7,522"
+              ]
+            },
+            {
+              "lab": "$589.45",
+              "cells": [
+                "$837",
+                "$4,185",
+                "$8,370"
+              ]
+            },
+            {
+              "lab": "Jan 1",
+              "cells": [
+                "$1,641",
+                "$8,206",
+                "$16,412"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Now the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Now the part nobody says.",
+          "at": "says"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "SOXX holds chip makers, tiny brains inside every phone and AI computer.",
+        "part": "tag",
+        "data": {
+          "old": "UP 64%",
+          "new": "DOWN 25%",
+          "at": "DOWN",
+          "sub": "if you bought at the June top.",
+          "sub_at": 1
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Up 64% says everyone won, but June buyers are down 25%."
+      },
+      {
+        "say": "That 64% is no promise, prices moved since.",
+        "part": "tabs",
+        "data": {
+          "old": "A PROMISE",
+          "new": "MOVED SINCE",
+          "at": "MOVED",
+          "k": ""
+        }
+      },
+      {
+        "say": "Same $1,000, the June buyer ended $889 behind.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "889",
+          "pre": "$",
+          "suf": "",
+          "label": "the start date decided",
+          "at": "$889"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Find your own *row*.",
+        "part": "donut",
+        "data": {
+          "k": "",
+          "segs": [
+            {
+              "l": "YOUR $5,000",
+              "v": "$3,761",
+              "w": 0.3142809392496031
+            },
+            {
+              "l": "SAME $5,000",
+              "v": "$8,206",
+              "w": 0.6857190607503969
+            }
+          ],
+          "hi": 1,
+          "at": "$8,206"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "$5,000 in June became $3,761, in January $8,206."
+      },
+      {
+        "say": "Comment *CHIP,* and I will send you the buy price map.",
+        "part": "tiles",
+        "data": {
+          "word": "CHIP",
+          "at": "CHIP",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the buy price map ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "SOXX is up 64% and still cost buyers $889. Want it back?",
+          "Give me 30 seconds. See who kept the gain."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The *map* shows who kept it."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME $1,000",
+        "data": {
+          "a": {
+            "h": "BOUGHT AT JUNE TOP",
+            "v": "$752",
+            "sub": "same $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BOUGHT JAN 1",
+            "v": "$1,641",
+            "sub": "same $1,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "One put $1,000 into SOXX in January, one at the June top.",
+          "The January buyer had $1,641, the June buyer $752."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BOUGHT AT JUNE TOP",
+            "v": "$752",
+            "sub": "same $1,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "BOUGHT JAN 1",
+            "v": "$1,641",
+            "sub": "same $1,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "$889 apart, just a different *start*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Now the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "UP 64%",
+          "new": "DOWN 25%",
+          "sub": "if you bought at the June top."
+        },
+        "lines": [
+          "SOXX holds chip makers, tiny brains inside every phone and AI computer.",
+          "Up 64% says everyone won, but June buyers are down 25%."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "A PROMISE",
+          "new": "MOVED SINCE"
+        },
+        "lines": [
+          "That 64% is no promise, prices moved since."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$889",
+          "new": "the start date decided"
+        },
+        "lines": [
+          "Same $1,000, the June buyer ended $889 behind."
+        ]
+      },
+      {
+        "role": "myrow",
+        "data": {
+          "a": {
+            "h": "YOUR $5,000",
+            "v": "$3,761",
+            "sub": "bought at the June top",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $5,000",
+            "v": "$8,206",
+            "sub": "bought Jan 1",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find your own *row*.",
+          "$5,000 in June became $3,761, in January $8,206."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "CHIP",
+          "gift": "the buy price map"
+        },
+        "lines": [
+          "Comment *CHIP,* and I will send you the buy price map."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, a one-line lock-in flips the loss into the map they get, the compare shows the $1,000 January buyer against the June-top buyer and the $889 gap, a rehook leads into the myth that up 64% means everyone won against the 25% drop with chips explained in the same breath, the second rehook says the past is not a promise, the closing repeats $889, then the given myrow and CHIPS cta end it.",
+      "shape": "ledger",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "rise",
+      "parts": [
+        "rise",
+        "split",
+        "table",
+        "callout",
+        "tag",
+        "tabs",
+        "odometer",
+        "donut",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "iris",
+        "dissolve",
+        "wipe",
+        "fade",
+        "iris",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "CHIP"
+    }
+  },
+  "caption_b": "🐶⛏️ A good year for SOXX doesn't mean a good year for you.\n\nSOXX topped out at $655.95 in mid-June and then slid, so a June buyer is down while a January buyer is way ahead. The yearly number can't see your start date, but your box can.\n\nComment CHIPS and I'll send you my SOXX start-date map 🪙\nWhen did you get in?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#soxx #etfcanada #torontofinance",
+  "caption_family": "myth"
+}

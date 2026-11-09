@@ -1,0 +1,1282 @@
+{
+  "key": "rrsp-overcontribution-buffer",
+  "category": "tax",
+  "status": "draft",
+  "title": "The $2,000 RRSP cushion and the 1% monthly cut",
+  "object": "THE RRSP SAFE-LIMIT CHECK",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s0d27c638', 's4e3ee777', 'sc3e815bf'] · 퍼스나 The late starter with unused room",
+  "fact": {
+    "num": "2,000",
+    "unit": "$",
+    "thing": "RRSP over-contribution cushion before the 1% monthly tax",
+    "box": "RRSP",
+    "claim": "The CRA lets your unused RRSP contributions go up to $2,000 over your RRSP deduction limit with no penalty. Any amount above that $2,000 is taxed at 1% for each month it stays in the plan. The $2,000 is one cushion that carries across all years, not a new allowance each year and not tied to the March deadline, and you only get it if you were 18 or older at some point in the previous year. The deadline on the CRA page right now is March 2, 2026, for the 2025 tax year; the CRA has not yet posted the deadline for the 2026 tax year (not confirmed).",
+    "sources": [
+      "CRA – Excess Contributions",
+      "CRA – Excess Contributions (age condition)",
+      "CRA – Important dates for RRSPs"
+    ],
+    "verified": "find.py · 대조 3/3",
+    "felt": {
+      "num": "360",
+      "unit": "$",
+      "how": "1% a month on the $3,000 past the $2,000 cushion, 12 months, on the post's $5,000-over example",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA – Excess Contributions",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "what": "Generally, you have to pay a tax of 1% per month on your unused contributions that exceed your RRSP deduction limit by more than $2,000.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Excess Contributions (age condition)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/contributing-a-rrsp-prpp/what-happens-you-over-your-rrsp-prpp-deduction-limit.html",
+      "what": "Also, you can only qualify for the additional $2,000 amount if you were 18 or older at any time in 2024.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Important dates for RRSPs",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/important-dates-rrsp-rrif-rdsp.html",
+      "what": "March 2, 2026 is the deadline for contributing to an RRSP for the 2025 tax year.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "Your RRSP charged you $",
+        "num": "360",
+        "post": " for saving too hard. Want it back?"
+      },
+      "promise": "Give me 30 seconds. Keep what you put in."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE RRSP SAFE-LIMIT CHECK",
+      "title": "Over your limit? What the 1% *cut* costs.",
+      "rowlabel": "YOU'RE OVER BY",
+      "cols": [
+        "1 MONTH",
+        "6 MONTHS",
+        "12 MONTHS"
+      ],
+      "labw": 22,
+      "rows": [
+        {
+          "a": "$2,000",
+          "asub": "the cushion",
+          "cells": [
+            "$0",
+            "$0",
+            "$0"
+          ]
+        },
+        {
+          "a": "$3,000",
+          "asub": "$1,000 past it",
+          "cells": [
+            "$10",
+            "$60",
+            "$120"
+          ]
+        },
+        {
+          "a": "$5,000",
+          "asub": "$3,000 past it",
+          "cells": [
+            "$30",
+            "$180",
+            "$360"
+          ]
+        },
+        {
+          "a": "$10,000",
+          "asub": "$8,000 past it",
+          "cells": [
+            "$80",
+            "$480",
+            "$960"
+          ]
+        }
+      ],
+      "hi": [
+        3,
+        2
+      ],
+      "note": "1% a month on the part over $2,000. Calculator math. <b>Save this. Find your row.</b>",
+      "source_label": "CRA · EXCESS CONTRIBUTIONS"
+    },
+    {
+      "type": "flow",
+      "kicker": "WHERE THE CUT STARTS",
+      "title": "One cushion. It never *resets.*",
+      "lead": "The first $2,000 over your limit is free. <em>Everything past it is cut monthly.</em>",
+      "steps": [
+        {
+          "n": "$5,000",
+          "t": "over your limit",
+          "s": "unused, still in the box"
+        },
+        {
+          "n": "−$2,000",
+          "t": "the cushion",
+          "s": "no cut on this part"
+        },
+        {
+          "n": "−$30",
+          "t": "cut every month",
+          "s": "1% of the $3,000 left",
+          "cut": true
+        }
+      ],
+      "tail": "The $2,000 is one cushion across all years, not a new one each year or each March. You only get it if you were 18 or older at some point last year.",
+      "source_label": "CRA · EXCESS CONTRIBUTIONS",
+      "say": "Hama thought it reset.|It doesn't."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your RRSP lost $360 to one extra deposit. Want it back?",
+      "Your RRSP quietly ate $360 in a year. Want it back?",
+      "Your RRSP, filled too full, lost $360. Want it back?",
+      "Your RRSP charged you $360 for saving too hard. Want it back?",
+      "Hama's RRSP lost $360 waiting for March. Want it back?",
+      "RRSP overfillers paid $360 to the CRA. Want it back?",
+      "Your RRSP has a hidden $360 bill. Want to dodge it?",
+      "Your RRSP $5,000 over loses $360, safe loses nothing. Still over?",
+      "Your RRSP bled $360 in one year. Still waiting?",
+      "Your RRSP lost $360 to one forbidden move. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your RRSP charged you $360 for saving too hard. Want it back?",
+    "spoken": "Your RRSP charged you $360 for saving too hard. Want it back?",
+    "promise": "Give me 30 seconds. Keep what you put in.",
+    "pick_why": "Beginners believe saving harder can only help, so an RRSP that charges $360 for saving too hard stops the scroll and makes them check their own notice.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "DON'T LOSE IT"
+  },
+  "lede": "You can go $2,000 over your RRSP limit for free. Past that, the CRA cuts 1% every month.",
+  "series": "RRSP TAX TRAPS",
+  "source_note": "CRA · EXCESS RRSP CONTRIBUTIONS",
+  "caption": "🐶⛏️ If you overfill your RRSP, $360 could be gone in a year.\n\nThe CRA gives you a free $2,000 cushion over your limit, and it doesn't reset every year. Past that, the extra gets cut 1% for every month it sits there.\n\nComment LIMIT and I'll send you my RRSP safe-limit check 🪙\nKnow your limit yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#rrspcanada #canadatax #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your RRSP charged you $360 for saving too hard. Want it back?",
+        "part": "rollnum",
+        "data": {
+          "pill": "THE RRSP SAFE-LIMIT CHECK",
+          "num": "$360",
+          "line": "Your RRSP charged you $360 for saving too hard. Want it back?",
+          "promise": "Give me 30 seconds. Keep what you put in.",
+          "subj": "RRSP",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep what you put in.",
+        "nocap": true
+      },
+      {
+        "say": "You get the RRSP safe-limit check.",
+        "cap": "low"
+      },
+      {
+        "say": "An RRSP is a retirement account where you pay less tax now.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$360",
+              "v": "−$360",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "gone in 12 months",
+              "v": "gone in 12 months",
+              "w": 0.03333333333333333,
+              "at": 1
+            }
+          ]
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Your limit is the most you can put in."
+      },
+      {
+        "say": "Go $5,000 over for 12 months, and $360 is *gone*.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "360",
+          "pre": "$",
+          "suf": "",
+          "label": "gone in 12 months",
+          "at": "$360"
+        },
+        "dark": true,
+        "in": "dissolve"
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "The first $2,000 over is *free*.",
+        "part": "donut",
+        "data": {
+          "k": "THE CUSHION",
+          "segs": [
+            {
+              "l": "$5,000 OVER",
+              "v": "$360",
+              "w": 1.0
+            },
+            {
+              "l": "$2,000 OVER",
+              "v": "$0",
+              "w": 0.0
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "THE CUSHION",
+        "in": "dissolve"
+      },
+      {
+        "say": "Past that, the extra is cut 1% a month."
+      },
+      {
+        "say": "You do not get a *new* $2,000 each year.",
+        "part": "swap",
+        "data": {
+          "old": "YEARLY",
+          "new": "ONCE",
+          "at": "new"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Stay inside the free $2,000, and keep the $360.",
+        "part": "strike",
+        "data": {
+          "old": "$360",
+          "new": "stays yours",
+          "at": "Stay",
+          "k": ""
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Find your row.",
+        "part": "table",
+        "data": {
+          "k": "THE RRSP SAFE-LIMIT CHECK",
+          "cols": [
+            "1 MONTH",
+            "6 MONTHS",
+            "12 MONTHS"
+          ],
+          "rows": [
+            {
+              "lab": "$2,000",
+              "cells": [
+                "$0",
+                "$0",
+                "$0"
+              ]
+            },
+            {
+              "lab": "$3,000",
+              "cells": [
+                "$10",
+                "$60",
+                "$120"
+              ]
+            },
+            {
+              "lab": "$5,000",
+              "cells": [
+                "$30",
+                "$180",
+                "$360"
+              ]
+            },
+            {
+              "lab": "$10,000",
+              "cells": [
+                "$80",
+                "$480",
+                "$960"
+              ]
+            }
+          ],
+          "hi": 3,
+          "at": "$960"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "$10,000 over for 12 months costs $960."
+      },
+      {
+        "say": "Comment *LIMIT,* and I will send you the RRSP safe-limit check.",
+        "part": "tiles",
+        "data": {
+          "word": "LIMIT",
+          "at": "LIMIT",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the RRSP safe-limit check ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your RRSP charged you $360 for saving too hard. Want it back?",
+          "Give me 30 seconds. Keep what you put in."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "You get the RRSP safe-limit check."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$360",
+          "new": "gone in 12 months"
+        },
+        "lines": [
+          "An RRSP is a retirement account where you pay less tax now.",
+          "Your limit is the most you can put in."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$360",
+          "new": "gone in 12 months"
+        },
+        "lines": [
+          "Go $5,000 over for 12 months, and $360 is *gone*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE CUSHION",
+        "data": {
+          "a": {
+            "h": "$5,000 OVER",
+            "v": "$360",
+            "sub": "$3,000 past it",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "$2,000 OVER",
+            "v": "$0",
+            "sub": "the cushion",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The first $2,000 over is *free*.",
+          "Past that, the extra is cut 1% a month."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "YEARLY",
+          "new": "ONCE"
+        },
+        "lines": [
+          "You do not get a *new* $2,000 each year."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$360",
+          "new": "stays yours"
+        },
+        "lines": [
+          "Stay inside the free $2,000, and keep the $360."
+        ]
+      },
+      {
+        "role": "myrow",
+        "data": {
+          "a": {
+            "h": "$10,000 OVER",
+            "v": "$960",
+            "sub": "12 months",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "$2,000 OVER",
+            "v": "$0",
+            "sub": "12 months",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find your row.",
+          "$10,000 over for 12 months costs $960."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "LIMIT",
+          "gift": "the RRSP safe-limit check"
+        },
+        "lines": [
+          "Comment *LIMIT,* and I will send you the RRSP safe-limit check."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "The reel follows the given arc in order. It opens with the hook, locks in what the viewer gets, shows the $360 lost, then reveals the free $2,000 against what you pay past it. Next comes the trap that the $2,000 does not come back each year, then the $360 again as the takeaway, and it ends on the viewer's own row and the LIMIT call to comment.",
+      "shape": "dark",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "rollnum",
+      "parts": [
+        "rollnum",
+        "shrink",
+        "odometer",
+        "callout",
+        "donut",
+        "swap",
+        "strike",
+        "table",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "LIMIT"
+    }
+  },
+  "plain": {
+    "what": "An RRSP is a retirement account where you park money and pay less tax now. The CRA lets you go up to $2,000 over your RRSP deduction limit — the most you're allowed to put in — with no penalty. Anything over that $2,000 gets taxed 1% for every month it sits there.",
+    "so_what": "If you're $5,000 over, the extra $3,000 past the cushion costs you $30 a month, so $360 is gone after a year.",
+    "do": "Open your latest notice of assessment and write down your RRSP deduction limit and what you've put in so far.",
+    "words": [
+      {
+        "term": "RRSP",
+        "means": "a retirement account where you pay less tax now"
+      },
+      {
+        "term": "deduction limit",
+        "means": "the most you're allowed to put in"
+      },
+      {
+        "term": "over-contribution",
+        "means": "money you put in past your limit"
+      },
+      {
+        "term": "CRA",
+        "means": "the tax office of Canada"
+      },
+      {
+        "term": "notice of assessment",
+        "means": "the letter the tax office sends after your taxes"
+      },
+      {
+        "term": "cushion",
+        "means": "extra room with no penalty"
+      },
+      {
+        "term": "penalty",
+        "means": "money taken from you for breaking a rule"
+      }
+    ]
+  },
+  "subject": "RRSP",
+  "deliver": {
+    "word": "LIMIT",
+    "gift": "the RRSP safe-limit check"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your RRSP charged you $360 for saving too hard. Want it back?",
+        "part": "window",
+        "data": {
+          "pill": "THE RRSP SAFE-LIMIT CHECK",
+          "num": "$360",
+          "line": "Your RRSP charged you $360 for saving too hard. Want it back?",
+          "promise": "Give me 30 seconds. Keep what you put in.",
+          "subj": "RRSP",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep what you put in.",
+        "nocap": true
+      },
+      {
+        "say": "The *safe-limit* check, yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Say your RRSP, the box that cuts your tax, is $5,000 over.",
+        "part": "receipt",
+        "data": {
+          "title": "$5,000 OVER",
+          "sub": "the rrsp safe-limit check",
+          "rows": [
+            [
+              "Over your limit",
+              "$5,000",
+              "$5,000"
+            ],
+            [
+              "The cushion, no cut",
+              "−$2,000",
+              1
+            ],
+            [
+              "Cut every month",
+              "−$30",
+              1
+            ]
+          ],
+          "total": [
+            "Gone in 12 months",
+            "$360",
+            "$360"
+          ],
+          "foot": "Cra – Excess Contributions · Cra – Excess Contributions (Age Condition)"
+        },
+        "badge": "The receipt",
+        "in": "dissolve"
+      },
+      {
+        "say": "The first $2,000 is *free*, the $3,000 left costs $360 a year."
+      },
+      {
+        "say": "What if you stopped at $2,000?",
+        "part": "callout",
+        "data": {
+          "word": "$2,000",
+          "line": "What if you stopped at $2,000?",
+          "at": "$2,000"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "The CRA, Canada's tax office, allows $2,000 over with no cut.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "$5,000 OVER",
+            "big": "$360",
+            "ft": "gone in 12 months"
+          },
+          "b": {
+            "k": "$2,000 OVER",
+            "big": "$0",
+            "ft": "same 12 months",
+            "at": 1
+          }
+        },
+        "badge": "The rule",
+        "in": "dissolve"
+      },
+      {
+        "say": "Past it, every *month* takes 1% of the extra."
+      },
+      {
+        "say": "Hama thought that cushion came back *every* year.",
+        "part": "tabs",
+        "data": {
+          "old": "EVERY YEAR",
+          "new": "ONE CUSHION",
+          "at": 0,
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "*One* cushion for all years, not one each March.",
+        "part": "paid",
+        "data": {
+          "k": "Your limit",
+          "label": "Notice of assessment",
+          "sub": "find your RRSP limit",
+          "at": "Your"
+        },
+        "badge": "Your limit",
+        "in": "dissolve"
+      },
+      {
+        "say": "Your limit is on your notice of assessment, the tax office's letter."
+      },
+      {
+        "say": "Know your limit and *keep* that $360.",
+        "part": "strike",
+        "data": {
+          "old": "$360",
+          "new": "stays in your box",
+          "at": "keep",
+          "k": ""
+        }
+      },
+      {
+        "say": "Find your row, $10,000 over is $960 gone, $2,000 over is $0.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "$10,000 OVER",
+            "big": "$960",
+            "ft": "12 months"
+          },
+          "b": {
+            "k": "$2,000 OVER",
+            "big": "$0",
+            "ft": "same 12 months",
+            "at": "$0"
+          }
+        },
+        "badge": "Your row",
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *LIMIT,* and I will send you the RRSP safe-limit check.",
+        "part": "tiles",
+        "data": {
+          "word": "LIMIT",
+          "at": "LIMIT",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the RRSP safe-limit check ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your RRSP charged you $360 for saving too hard. Want it back?",
+          "Give me 30 seconds. Keep what you put in."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The *safe-limit* check, yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "The receipt",
+        "data": {
+          "title": "$5,000 OVER",
+          "rows": [
+            [
+              "Over your limit",
+              "$5,000"
+            ],
+            [
+              "The cushion, no cut",
+              "−$2,000"
+            ],
+            [
+              "Cut every month",
+              "−$30"
+            ]
+          ],
+          "total": [
+            "Gone in 12 months",
+            "$360"
+          ]
+        },
+        "lines": [
+          "Say your RRSP, the box that cuts your tax, is $5,000 over.",
+          "The first $2,000 is *free*, the $3,000 left costs $360 a year."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "What if you stopped at $2,000?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "The rule",
+        "data": {
+          "a": {
+            "h": "$5,000 OVER",
+            "v": "$360",
+            "sub": "gone in 12 months",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "$2,000 OVER",
+            "v": "$0",
+            "sub": "same 12 months",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The CRA, Canada's tax office, allows $2,000 over with no cut.",
+          "Past it, every *month* takes 1% of the extra."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "EVERY YEAR",
+          "new": "ONE CUSHION"
+        },
+        "lines": [
+          "Hama thought that cushion came back *every* year."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "Your limit",
+        "data": {
+          "label": "Notice of assessment",
+          "sub": "find your RRSP limit"
+        },
+        "lines": [
+          "*One* cushion for all years, not one each March.",
+          "Your limit is on your notice of assessment, the tax office's letter."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$360",
+          "new": "stays in your box"
+        },
+        "lines": [
+          "Know your limit and *keep* that $360."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "Your row",
+        "data": {
+          "a": {
+            "h": "$10,000 OVER",
+            "v": "$960",
+            "sub": "12 months",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "$2,000 OVER",
+            "v": "$0",
+            "sub": "same 12 months",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find your row, $10,000 over is $960 gone, $2,000 over is $0."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "LIMIT",
+          "gift": "the RRSP safe-limit check"
+        },
+        "lines": [
+          "Comment *LIMIT,* and I will send you the RRSP safe-limit check."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Receipt shape: the given hook and promise, a one-breath lock-in on what they get, a flow receipt that lands the $360, a question rehook, a side-by-side on the CRA cushion rule, the reset trap as the second rehook, one step to find your limit, the $360 again, then the given myrow and cta ending.",
+      "shape": "receipt",
+      "ending": "myrow_cta",
+      "caption": "karaoke",
+      "opener": "window",
+      "parts": [
+        "window",
+        "receipt",
+        "callout",
+        "dumbbell",
+        "tabs",
+        "paid",
+        "strike",
+        "compare",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "fade",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "LIMIT"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your RRSP charged you $360 for saving too hard. Want it back?",
+        "part": "window",
+        "data": {
+          "pill": "THE RRSP SAFE-LIMIT CHECK",
+          "num": "$360",
+          "line": "Your RRSP charged you $360 for saving too hard. Want it back?",
+          "promise": "Give me 30 seconds. Keep what you put in.",
+          "subj": "RRSP",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep what you put in.",
+        "nocap": true
+      },
+      {
+        "say": "The *safe-limit* check, yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Say your RRSP, the box that cuts your tax, is $5,000 over.",
+        "part": "receipt",
+        "data": {
+          "title": "$5,000 OVER",
+          "sub": "the rrsp safe-limit check",
+          "rows": [
+            [
+              "Over your limit",
+              "$5,000",
+              "$5,000"
+            ],
+            [
+              "The cushion, no cut",
+              "−$2,000",
+              1
+            ],
+            [
+              "Cut every month",
+              "−$30",
+              1
+            ]
+          ],
+          "total": [
+            "Gone in 12 months",
+            "$360",
+            "$360"
+          ],
+          "foot": "Cra – Excess Contributions · Cra – Excess Contributions (Age Condition)"
+        },
+        "badge": "The receipt",
+        "in": "dissolve"
+      },
+      {
+        "say": "The first $2,000 is *free*, the $3,000 left costs $360 a year."
+      },
+      {
+        "say": "What if you stopped at $2,000?",
+        "part": "callout",
+        "data": {
+          "word": "$2,000",
+          "line": "What if you stopped at $2,000?",
+          "at": "$2,000"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "The CRA, Canada's tax office, allows $2,000 over with no cut.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "gone in 12 months",
+              "tone": "loss",
+              "h": "$5,000 OVER",
+              "v": "$360",
+              "at": 0
+            },
+            {
+              "sub": "same 12 months",
+              "tone": "win",
+              "h": "$2,000 OVER",
+              "v": "$0",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "The rule",
+        "in": "dissolve"
+      },
+      {
+        "say": "Past it, every *month* takes 1% of the extra."
+      },
+      {
+        "say": "Hama thought that cushion came back *every* year.",
+        "part": "swap",
+        "data": {
+          "old": "EVERY YEAR",
+          "new": "ONE CUSHION",
+          "at": "every"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "*One* cushion for all years, not one each March.",
+        "part": "paid",
+        "data": {
+          "k": "Your limit",
+          "label": "Notice of assessment",
+          "sub": "find your RRSP limit",
+          "at": "Your"
+        },
+        "badge": "Your limit"
+      },
+      {
+        "say": "Your limit is on your notice of assessment, the tax office's letter."
+      },
+      {
+        "say": "Know your limit and *keep* that $360.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "360",
+          "pre": "$",
+          "suf": "",
+          "label": "stays in your box",
+          "at": "$360"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Find your row, $10,000 over is $960 gone, $2,000 over is $0.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "$10,000 OVER",
+            "big": "$960",
+            "ft": "12 months"
+          },
+          "b": {
+            "k": "$2,000 OVER",
+            "big": "$0",
+            "ft": "same 12 months",
+            "at": "$0"
+          }
+        },
+        "badge": "Your row",
+        "in": "iris"
+      },
+      {
+        "say": "Comment *LIMIT,* and I will send you the RRSP safe-limit check.",
+        "part": "tiles",
+        "data": {
+          "word": "LIMIT",
+          "at": "LIMIT",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the RRSP safe-limit check ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your RRSP charged you $360 for saving too hard. Want it back?",
+          "Give me 30 seconds. Keep what you put in."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The *safe-limit* check, yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "The receipt",
+        "data": {
+          "title": "$5,000 OVER",
+          "rows": [
+            [
+              "Over your limit",
+              "$5,000"
+            ],
+            [
+              "The cushion, no cut",
+              "−$2,000"
+            ],
+            [
+              "Cut every month",
+              "−$30"
+            ]
+          ],
+          "total": [
+            "Gone in 12 months",
+            "$360"
+          ]
+        },
+        "lines": [
+          "Say your RRSP, the box that cuts your tax, is $5,000 over.",
+          "The first $2,000 is *free*, the $3,000 left costs $360 a year."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "What if you stopped at $2,000?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "The rule",
+        "data": {
+          "a": {
+            "h": "$5,000 OVER",
+            "v": "$360",
+            "sub": "gone in 12 months",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "$2,000 OVER",
+            "v": "$0",
+            "sub": "same 12 months",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The CRA, Canada's tax office, allows $2,000 over with no cut.",
+          "Past it, every *month* takes 1% of the extra."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "EVERY YEAR",
+          "new": "ONE CUSHION"
+        },
+        "lines": [
+          "Hama thought that cushion came back *every* year."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "Your limit",
+        "data": {
+          "label": "Notice of assessment",
+          "sub": "find your RRSP limit"
+        },
+        "lines": [
+          "*One* cushion for all years, not one each March.",
+          "Your limit is on your notice of assessment, the tax office's letter."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$360",
+          "new": "stays in your box"
+        },
+        "lines": [
+          "Know your limit and *keep* that $360."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "Your row",
+        "data": {
+          "a": {
+            "h": "$10,000 OVER",
+            "v": "$960",
+            "sub": "12 months",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "$2,000 OVER",
+            "v": "$0",
+            "sub": "same 12 months",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find your row, $10,000 over is $960 gone, $2,000 over is $0."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "LIMIT",
+          "gift": "the RRSP safe-limit check"
+        },
+        "lines": [
+          "Comment *LIMIT,* and I will send you the RRSP safe-limit check."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Receipt shape: the given hook and promise, a one-breath lock-in on what they get, a flow receipt that lands the $360, a question rehook, a side-by-side on the CRA cushion rule, the reset trap as the second rehook, one step to find your limit, the $360 again, then the given myrow and cta ending.",
+      "shape": "receipt",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "window",
+      "parts": [
+        "window",
+        "receipt",
+        "callout",
+        "stack",
+        "swap",
+        "paid",
+        "odometer",
+        "compare",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "wipe",
+        "fade",
+        "zoom",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "rehook",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "LIMIT"
+    }
+  },
+  "caption_b": "🐶⛏️ Can you go $2,000 over your RRSP limit and still owe nothing?\n\nThat's one cushion the CRA lets you carry across every year, and it never refills. Anything past it gets cut 1% for every month it sits there, so a last-minute February top-up is where it bites.\n\nComment LIMIT and I'll send you my RRSP safe-limit check 🪙\nChecked your limit lately?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#rrspcanada #cratax #torontofinance",
+  "caption_family": "possible"
+}

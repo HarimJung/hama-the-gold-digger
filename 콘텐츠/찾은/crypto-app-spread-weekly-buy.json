@@ -1,0 +1,1288 @@
+{
+  "key": "crypto-app-spread-weekly-buy",
+  "category": "crypto",
+  "status": "draft",
+  "title": "The weekly crypto buy that leaks",
+  "object": "THE CRYPTO APP REAL FEE TABLE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s54817a27'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "0.5",
+    "unit": "%",
+    "thing": "flat trading fee on every crypto order",
+    "box": "Wealthsimple crypto (Canada)",
+    "claim": "Wealthsimple charges a flat 0.5% trading fee on every crypto order, and recurring buys count as orders. Market orders also carry a price spread that changes with market conditions, and Wealthsimple does not publish a fixed number for it. You only see the actual spread in the order screen before you confirm. Orders under $100 add a $1 surcharge, so a weekly buy of exactly $100 pays 0.5% (about $26 a year on $5,200) plus whatever the spread is. Active Trader accounts and limit orders pay no spread.",
+    "sources": [
+      "WEALTHSIMPLE CRYPTO FEES (updated Sep 24, 2026)",
+      "WEALTHSIMPLE CRYPTO FEES (updated Sep 24, 2026)",
+      "WEALTHSIMPLE CRYPTO FEES (updated Sep 24, 2026)"
+    ],
+    "verified": "find.py · 대조 2/3",
+    "felt": {
+      "num": "52",
+      "unit": "$",
+      "a": "78",
+      "b": "26",
+      "how": "$99 a week vs $100 a week, fees over one year of 52 buys",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "WEALTHSIMPLE CRYPTO FEES (updated Sep 24, 2026)",
+      "url": "https://wealthsimple.com/en-ca/legal/fees/crypto",
+      "what": "You pay a flat 0.5% Baseline Trading Fee on every order.",
+      "confidence": "1차"
+    },
+    {
+      "label": "WEALTHSIMPLE CRYPTO FEES (updated Sep 24, 2026)",
+      "url": "https://wealthsimple.com/en-ca/legal/fees/crypto",
+      "what": "The price spread may vary based on market conditions and other factors.",
+      "confidence": "1차"
+    },
+    {
+      "label": "WEALTHSIMPLE CRYPTO FEES (updated Sep 24, 2026)",
+      "url": "https://wealthsimple.com/en-ca/legal/fees/crypto",
+      "what": "In addition to the Baseline Trading Fee, a $1 surcharge applies to any individual crypto order under $100 (a “Small Order Surcharge”).",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "CRYPTO · CANADA",
+      "topic": "THE BITCOIN CLOCK",
+      "hook": {
+        "pre": "Wealthsimple weekly crypto buyers paid $",
+        "num": "52",
+        "post": " for nothing. Want it back?"
+      },
+      "promise": "Give me 30 seconds. Keep that money yourself."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME COIN · TWO BUY SIZES",
+      "title": "One dollar less. Almost triple the *fee.*",
+      "boxes": [
+        {
+          "h": "$99 A WEEK",
+          "v": "$78",
+          "d": "About $1.50 gone each buy.",
+          "d2": "0.5% of $99 is about $0.50. The $1 small order surcharge adds the rest. 52 buys a year.",
+          "d3": "Example math. Spread not included.",
+          "lead": true
+        },
+        {
+          "h": "$100 A WEEK",
+          "v": "$26",
+          "win": true,
+          "d": "$0.50 gone each buy.",
+          "d2": "0.5% of $5,200 a year. At $100 and up, there's no surcharge.",
+          "d3": "Example math. Spread not included."
+        }
+      ],
+      "source_label": "WEALTHSIMPLE CRYPTO FEES",
+      "say": "Hama rounds up now.|Never down."
+    },
+    {
+      "type": "mini",
+      "kicker": "THE PART WITH NO NUMBER",
+      "lead": "On top of the 0.5%, market orders carry <em>a price spread</em> with no fixed published number.",
+      "rows": [
+        {
+          "t": "Flat trading fee, every order",
+          "v": "0.5%"
+        },
+        {
+          "t": "Any order under $100",
+          "v": "+$1"
+        },
+        {
+          "t": "Spread on market orders",
+          "v": "NOT PUBLISHED"
+        },
+        {
+          "t": "Limit orders or Active Trader",
+          "v": "NO SPREAD",
+          "ok": true
+        }
+      ],
+      "tail": "It changes with the market. You only see the real spread in the order screen before you confirm.",
+      "source_label": "WEALTHSIMPLE CRYPTO FEES",
+      "say": "Read the screen|before the tap.",
+      "title": "The fee you can't see *yet.*"
+    },
+    {
+      "type": "do",
+      "kicker": "THE CRYPTO APP REAL FEE TABLE",
+      "checks": [
+        {
+          "h": "1 · BUY SIZE",
+          "d": "$100 or more skips the $1 surcharge. $99 doesn't."
+        },
+        {
+          "h": "2 · ORDER TYPE",
+          "d": "Market orders carry a spread. Limit orders don't."
+        },
+        {
+          "h": "3 · THE SCREEN",
+          "d": "Read the spread shown before you tap confirm."
+        }
+      ],
+      "lead": "Recurring buys count as orders. <em>Every one pays 0.5%.</em>",
+      "button": "Save this · check before your next auto buy",
+      "fine": "General education, not investment or tax advice. Fees can change, so confirm on Wealthsimple's current fee page.",
+      "say": "Same coin.|Smaller leak.",
+      "title": "Check three things before your next buy."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Wealthsimple took $52 extra from weekly crypto buyers. Want it back?",
+      "Wealthsimple weekly buyers lose $52 a year. Want to keep it?",
+      "Wealthsimple: one tiny weekly mistake cost $52. Want it back?",
+      "Wealthsimple: the smaller crypto buy paid $52 more. Want it back?",
+      "Wealthsimple showed Hama $52 gone in a year. Want it back?",
+      "Wealthsimple weekly crypto buyers paid $52 for nothing. Want it back?",
+      "Wealthsimple has a $52 leak in your weekly buy. Want it back?",
+      "Wealthsimple: same crypto, same year, $52 more in fees. Want it back?",
+      "Wealthsimple leaks $52 every year you buy weekly. Want it back?",
+      "Wealthsimple: never buy crypto this way, $52 gone. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Wealthsimple weekly crypto buyers paid $52 for nothing. Want it back?",
+    "spoken": "Wealthsimple weekly crypto buyers paid $52 for nothing. Want it back?",
+    "promise": "Give me 30 seconds. Keep that money yourself.",
+    "pick_why": "Paid $52 for nothing is the plainest loss, names the app first, and a beginner saving weekly will stop to see if it is them.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "STOP THE LEAK"
+  },
+  "lede": "Wealthsimple takes 0.5% on every crypto order. Orders under $100 pay $1 more. Market orders also carry a spread, and Wealthsimple doesn't publish a fixed number for it.",
+  "series": "CRYPTO FEE LEAKS",
+  "source_note": "WEALTHSIMPLE · CRYPTO FEE PAGE",
+  "caption": "🐶⛏️ If you buy $99 of crypto a week, $52 could be going to fees for nothing.\n\nWealthsimple tacks $1 onto every small crypto order, and your weekly auto buy is a new order each time. Normal buys also hide a price gap you only see before you confirm.\n\nComment FEES and I'll send you the crypto app real fee table 🪙\nWhat's your weekly amount?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#wealthsimple #cryptocanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Wealthsimple weekly crypto buyers paid $52 for nothing. Want it back?",
+        "part": "slam",
+        "data": {
+          "pill": "THE CRYPTO APP REAL FEE TABLE",
+          "num": "$52",
+          "line": "Wealthsimple weekly crypto buyers paid $52 for nothing. Want it back?",
+          "promise": "Give me 30 seconds. Keep that money yourself.",
+          "subj": "WEALTHSIMPLE",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep that money yourself.",
+        "nocap": true
+      },
+      {
+        "say": "The real fee table, yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people buy crypto weekly on Wealthsimple, $99 and $100.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "$99 A WEEK",
+            "big": "$78",
+            "ft": "$1.50 gone each buy"
+          },
+          "b": {
+            "k": "$100 A WEEK",
+            "big": "$26",
+            "ft": "$0.50 gone each buy",
+            "at": "$26"
+          },
+          "gap": "$52",
+          "gap_at": "$52"
+        },
+        "badge": "BUY SIZE",
+        "in": "wipe"
+      },
+      {
+        "say": "After 52 buys, $99 a week paid $78, $100 paid $26."
+      },
+      {
+        "say": "Under $100, each buy adds $1, so the gap hits $52.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "$1.50 gone each buy",
+              "tone": "loss",
+              "h": "$99 A WEEK",
+              "v": "$78",
+              "at": 0
+            },
+            {
+              "sub": "$0.50 gone each buy",
+              "tone": "win",
+              "h": "$100 A WEEK",
+              "v": "$26",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "But one fee has no number at all.",
+        "part": "callout",
+        "data": {
+          "word": "all",
+          "line": "But one fee has no number at all.",
+          "at": "all"
+        }
+      },
+      {
+        "say": "The app says a flat 0.5%, 50 cents per $100.",
+        "part": "badge",
+        "data": {
+          "old": "FLAT 0.5%",
+          "new": "PLUS A SPREAD",
+          "at": 1,
+          "sub": "no published number.",
+          "sub_at": 1,
+          "k": "THE CRYPTO APP REAL FEE TABLE"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Normal buys also hide a *spread,* a price gap you pay."
+      },
+      {
+        "say": "No published number, it shows only before you confirm.",
+        "part": "swap",
+        "data": {
+          "old": "FLAT 0.5%",
+          "new": "PLUS A SPREAD",
+          "at": "No",
+          "sub": "no published number.",
+          "sub_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Set once, your auto buy still pays every week.",
+        "part": "tag",
+        "data": {
+          "old": "SET ONCE",
+          "new": "PAID WEEKLY",
+          "at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Round up to $100, and $52 stays yours.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$52",
+          "tail": "stays in your pocket",
+          "at": "$52"
+        }
+      },
+      {
+        "say": "*Gone.*",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "$52",
+              "v": "$52",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "$0 back",
+              "v": "$0 back",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "Comment *FEES,* and I will send you the crypto app real fee table.",
+        "part": "tiles",
+        "data": {
+          "word": "FEES",
+          "at": "FEES",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the crypto app real fee table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Wealthsimple weekly crypto buyers paid $52 for nothing. Want it back?",
+          "Give me 30 seconds. Keep that money yourself."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The real fee table, yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "BUY SIZE",
+        "data": {
+          "a": {
+            "h": "$99 A WEEK",
+            "v": "$78",
+            "sub": "$1.50 gone each buy",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "$100 A WEEK",
+            "v": "$26",
+            "sub": "$0.50 gone each buy",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people buy crypto weekly on Wealthsimple, $99 and $100.",
+          "After 52 buys, $99 a week paid $78, $100 paid $26."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "$99 A WEEK",
+            "v": "$78",
+            "sub": "$1.50 gone each buy",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "$100 A WEEK",
+            "v": "$26",
+            "sub": "$0.50 gone each buy",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Under $100, each buy adds $1, so the gap hits $52."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But one fee has no number at all."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "FLAT 0.5%",
+          "new": "PLUS A SPREAD",
+          "sub": "no published number."
+        },
+        "lines": [
+          "The app says a flat 0.5%, 50 cents per $100.",
+          "Normal buys also hide a *spread,* a price gap you pay."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "FLAT 0.5%",
+          "new": "PLUS A SPREAD",
+          "sub": "no published number."
+        },
+        "lines": [
+          "No published number, it shows only before you confirm."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SET ONCE",
+          "new": "PAID WEEKLY"
+        },
+        "lines": [
+          "Set once, your auto buy still pays every week."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$52",
+          "new": "stays in your pocket"
+        },
+        "lines": [
+          "Round up to $100, and $52 stays yours."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$52",
+          "new": "$0 back"
+        },
+        "lines": [
+          "*Gone.*"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FEES",
+          "gift": "the crypto app real fee table"
+        },
+        "lines": [
+          "Comment *FEES,* and I will send you the crypto app real fee table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open on the $52 loss, the lock-in names the fee table they get, body 1 shows $99 against $100 with the $1 extra explaining the $52 gap, a rehook announces the unpublished spread, body 2 flips the flat-0.5% belief in plain words, the second rehook traps the set-once auto buy, the closing hands back the $52, then the given loss cut and FEES cta end it.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "dumbbell",
+        "stack",
+        "callout",
+        "badge",
+        "swap",
+        "tag",
+        "tail",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "iris",
+        "fade",
+        "wipe",
+        "zoom",
+        "iris",
+        "fade",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 2,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "FEES"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Wealthsimple weekly crypto buyers paid $52 for nothing. Want it back?",
+        "part": "cover",
+        "data": {
+          "pill": "THE CRYPTO APP REAL FEE TABLE",
+          "num": "$52",
+          "line": "Wealthsimple weekly crypto buyers paid $52 for nothing. Want it back?",
+          "promise": "Give me 30 seconds. Keep that money yourself.",
+          "subj": "WEALTHSIMPLE",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep that money yourself.",
+        "nocap": true
+      },
+      {
+        "say": "The real fee table, yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people buy crypto weekly on Wealthsimple, $99 and $100.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "$99 A WEEK",
+            "big": "$78",
+            "ft": "$1.50 gone each buy"
+          },
+          "b": {
+            "k": "$100 A WEEK",
+            "big": "$26",
+            "ft": "$0.50 gone each buy",
+            "at": "$26"
+          },
+          "gap": "$52",
+          "gap_at": "$52"
+        },
+        "badge": "BUY SIZE",
+        "in": "wipe"
+      },
+      {
+        "say": "After 52 buys, $99 a week paid $78, $100 paid $26."
+      },
+      {
+        "say": "Under $100, each buy adds $1, so the gap hits $52.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "$99 A WEEK",
+            "big": "$78",
+            "ft": "$1.50 gone each buy"
+          },
+          "b": {
+            "k": "$100 A WEEK",
+            "big": "$26",
+            "ft": "$0.50 gone each buy",
+            "at": 0
+          },
+          "gap": "$52",
+          "gap_at": "$52"
+        }
+      },
+      {
+        "say": "But one fee has no number at all.",
+        "part": "callout",
+        "data": {
+          "word": "all",
+          "line": "But one fee has no number at all.",
+          "at": "all"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "The app says a flat 0.5%, 50 cents per $100.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "FLAT 0.5%",
+            "v": "FLAT 0.5%",
+            "sub": ""
+          },
+          "b": {
+            "h": "PLUS A SPREAD",
+            "v": "PLUS A SPREAD",
+            "sub": ""
+          },
+          "at": 1
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Normal buys also hide a *spread,* a price gap you pay."
+      },
+      {
+        "say": "No published number, it shows only before you confirm.",
+        "part": "badge",
+        "data": {
+          "old": "FLAT 0.5%",
+          "new": "PLUS A SPREAD",
+          "at": 0,
+          "sub": "no published number.",
+          "sub_at": 0,
+          "k": "THE CRYPTO APP REAL FEE TABLE"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Set once, your auto buy still pays every week.",
+        "part": "split",
+        "data": {
+          "k": "SET ONCE vs PAID WEEKLY",
+          "total": "PAID WEEKLY",
+          "a": {
+            "v": "SET ONCE",
+            "l": "SET ONCE",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "PAID WEEKLY",
+            "l": "PAID WEEKLY",
+            "at": 0,
+            "label_at": 0
+          }
+        }
+      },
+      {
+        "say": "Round up to $100, and $52 stays yours.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$52",
+          "tail": "stays in your pocket",
+          "at": "$52"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "*Gone.*",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "$52",
+              "v": "$52",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "$0 back",
+              "v": "$0 back",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "Comment *FEES,* and I will send you the crypto app real fee table.",
+        "part": "tiles",
+        "data": {
+          "word": "FEES",
+          "at": "FEES",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the crypto app real fee table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Wealthsimple weekly crypto buyers paid $52 for nothing. Want it back?",
+          "Give me 30 seconds. Keep that money yourself."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The real fee table, yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "BUY SIZE",
+        "data": {
+          "a": {
+            "h": "$99 A WEEK",
+            "v": "$78",
+            "sub": "$1.50 gone each buy",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "$100 A WEEK",
+            "v": "$26",
+            "sub": "$0.50 gone each buy",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people buy crypto weekly on Wealthsimple, $99 and $100.",
+          "After 52 buys, $99 a week paid $78, $100 paid $26."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "$99 A WEEK",
+            "v": "$78",
+            "sub": "$1.50 gone each buy",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "$100 A WEEK",
+            "v": "$26",
+            "sub": "$0.50 gone each buy",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Under $100, each buy adds $1, so the gap hits $52."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But one fee has no number at all."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "FLAT 0.5%",
+          "new": "PLUS A SPREAD",
+          "sub": "no published number."
+        },
+        "lines": [
+          "The app says a flat 0.5%, 50 cents per $100.",
+          "Normal buys also hide a *spread,* a price gap you pay."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "FLAT 0.5%",
+          "new": "PLUS A SPREAD",
+          "sub": "no published number."
+        },
+        "lines": [
+          "No published number, it shows only before you confirm."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SET ONCE",
+          "new": "PAID WEEKLY"
+        },
+        "lines": [
+          "Set once, your auto buy still pays every week."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$52",
+          "new": "stays in your pocket"
+        },
+        "lines": [
+          "Round up to $100, and $52 stays yours."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$52",
+          "new": "$0 back"
+        },
+        "lines": [
+          "*Gone.*"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FEES",
+          "gift": "the crypto app real fee table"
+        },
+        "lines": [
+          "Comment *FEES,* and I will send you the crypto app real fee table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open on the $52 loss, the lock-in names the fee table they get, body 1 shows $99 against $100 with the $1 extra explaining the $52 gap, a rehook announces the unpublished spread, body 2 flips the flat-0.5% belief in plain words, the second rehook traps the set-once auto buy, the closing hands back the $52, then the given loss cut and FEES cta end it.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "dumbbell",
+        "compare",
+        "callout",
+        "wipe",
+        "badge",
+        "split",
+        "tail",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "fade",
+        "wipe",
+        "zoom",
+        "iris",
+        "fade",
+        "dissolve",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "FEES"
+    }
+  },
+  "plain": {
+    "what": "Wealthsimple is a Canadian app where people buy crypto. It takes a flat 0.5% fee on every crypto order, which is 50 cents on every $100, and a repeating weekly order counts as an order each time. If an order is under $100, it adds $1 on top, so a $99 order pays about $1.50 instead of $0.50.",
+    "so_what": "Put in $100 a week and you've moved $5,200 in a year and paid about $26 in fees, but at $99 a week the same year costs about $78.",
+    "do": "Open your app today and write down two things: your weekly buy amount and your order type.",
+    "words": [
+      {
+        "term": "crypto order",
+        "means": "one purchase of crypto you place in the app"
+      },
+      {
+        "term": "flat 0.5% fee",
+        "means": "50 cents taken out of every $100 you spend"
+      },
+      {
+        "term": "recurring buy",
+        "means": "an order the app repeats for you every week"
+      },
+      {
+        "term": "surcharge",
+        "means": "an extra flat dollar added to small orders"
+      },
+      {
+        "term": "spread",
+        "means": "a small price gap that quietly costs you extra"
+      },
+      {
+        "term": "market order",
+        "means": "you take whatever price the market gives right now"
+      },
+      {
+        "term": "limit order",
+        "means": "you name your price and wait for it"
+      }
+    ]
+  },
+  "subject": "Wealthsimple",
+  "deliver": {
+    "word": "FEES",
+    "gift": "the crypto app real fee table"
+  },
+  "check": [],
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Wealthsimple weekly crypto buyers paid $52 for nothing. Want it back?",
+        "part": "rise",
+        "data": {
+          "pill": "THE CRYPTO APP REAL FEE TABLE",
+          "num": "$52",
+          "line": "Wealthsimple weekly crypto buyers paid $52 for nothing. Want it back?",
+          "promise": "Give me 30 seconds. Keep that money yourself.",
+          "subj": "WEALTHSIMPLE",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep that money yourself.",
+        "nocap": true
+      },
+      {
+        "say": "The real fee table, yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people buy crypto weekly on Wealthsimple, $99 and $100.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "$99 A WEEK",
+            "big": "$78",
+            "ft": "$1.50 gone each buy"
+          },
+          "b": {
+            "k": "$100 A WEEK",
+            "big": "$26",
+            "ft": "$0.50 gone each buy",
+            "at": "$26"
+          },
+          "gap": "$52",
+          "gap_at": "$52"
+        },
+        "badge": "BUY SIZE",
+        "in": "zoom"
+      },
+      {
+        "say": "After 52 buys, $99 a week paid $78, $100 paid $26."
+      },
+      {
+        "say": "Under $100, each buy adds $1, so the gap hits $52.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "$1.50 gone each buy",
+              "tone": "loss",
+              "h": "$99 A WEEK",
+              "v": "$78",
+              "at": 0
+            },
+            {
+              "sub": "$0.50 gone each buy",
+              "tone": "win",
+              "h": "$100 A WEEK",
+              "v": "$26",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "But one fee has no number at all.",
+        "part": "callout",
+        "data": {
+          "word": "all",
+          "line": "But one fee has no number at all.",
+          "at": "all"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "The app says a flat 0.5%, 50 cents per $100.",
+        "part": "swap",
+        "data": {
+          "old": "FLAT 0.5%",
+          "new": "PLUS A SPREAD",
+          "at": "spread",
+          "sub": "no published number.",
+          "sub_at": 1
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Normal buys also hide a *spread,* a price gap you pay."
+      },
+      {
+        "say": "No published number, it shows only before you confirm.",
+        "part": "tag",
+        "data": {
+          "old": "FLAT 0.5%",
+          "new": "PLUS A SPREAD",
+          "at": 0,
+          "sub": "no published number.",
+          "sub_at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Set once, your auto buy still pays every week.",
+        "part": "split",
+        "data": {
+          "k": "SET ONCE vs PAID WEEKLY",
+          "total": "PAID WEEKLY",
+          "a": {
+            "v": "SET ONCE",
+            "l": "SET ONCE",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "PAID WEEKLY",
+            "l": "PAID WEEKLY",
+            "at": 0,
+            "label_at": 0
+          }
+        }
+      },
+      {
+        "say": "Round up to $100, and $52 stays yours.",
+        "part": "stamp",
+        "data": {
+          "old": "$52",
+          "new": "stays in your pocket",
+          "at": "stays",
+          "k": ""
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "*Gone.*",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "$52",
+              "v": "$52",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "$0 back",
+              "v": "$0 back",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "Comment *FEES,* and I will send you the crypto app real fee table.",
+        "part": "tiles",
+        "data": {
+          "word": "FEES",
+          "at": "FEES",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the crypto app real fee table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Wealthsimple weekly crypto buyers paid $52 for nothing. Want it back?",
+          "Give me 30 seconds. Keep that money yourself."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The real fee table, yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "BUY SIZE",
+        "data": {
+          "a": {
+            "h": "$99 A WEEK",
+            "v": "$78",
+            "sub": "$1.50 gone each buy",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "$100 A WEEK",
+            "v": "$26",
+            "sub": "$0.50 gone each buy",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people buy crypto weekly on Wealthsimple, $99 and $100.",
+          "After 52 buys, $99 a week paid $78, $100 paid $26."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "$99 A WEEK",
+            "v": "$78",
+            "sub": "$1.50 gone each buy",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "$100 A WEEK",
+            "v": "$26",
+            "sub": "$0.50 gone each buy",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Under $100, each buy adds $1, so the gap hits $52."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But one fee has no number at all."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "FLAT 0.5%",
+          "new": "PLUS A SPREAD",
+          "sub": "no published number."
+        },
+        "lines": [
+          "The app says a flat 0.5%, 50 cents per $100.",
+          "Normal buys also hide a *spread,* a price gap you pay."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "FLAT 0.5%",
+          "new": "PLUS A SPREAD",
+          "sub": "no published number."
+        },
+        "lines": [
+          "No published number, it shows only before you confirm."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SET ONCE",
+          "new": "PAID WEEKLY"
+        },
+        "lines": [
+          "Set once, your auto buy still pays every week."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$52",
+          "new": "stays in your pocket"
+        },
+        "lines": [
+          "Round up to $100, and $52 stays yours."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$52",
+          "new": "$0 back"
+        },
+        "lines": [
+          "*Gone.*"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FEES",
+          "gift": "the crypto app real fee table"
+        },
+        "lines": [
+          "Comment *FEES,* and I will send you the crypto app real fee table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open on the $52 loss, the lock-in names the fee table they get, body 1 shows $99 against $100 with the $1 extra explaining the $52 gap, a rehook announces the unpublished spread, body 2 flips the flat-0.5% belief in plain words, the second rehook traps the set-once auto buy, the closing hands back the $52, then the given loss cut and FEES cta end it.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "rise",
+      "parts": [
+        "rise",
+        "dumbbell",
+        "stack",
+        "callout",
+        "swap",
+        "tag",
+        "split",
+        "stamp",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "iris",
+        "pan",
+        "fade",
+        "dissolve",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 2,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "FEES"
+    }
+  },
+  "caption_b": "🐶⛏️ Give me 30 seconds and Wealthsimple's hidden crypto fee will make sense.\n\nYour auto buy pays a small order surcharge every week if it sits under $100. There's also a spread with no published number, so you only see it right before you confirm.\n\nComment FEES and I'll send you the crypto app real fee table 🪙\nWhat's your weekly amount?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#wealthsimple #cryptocanada #torontofinance",
+  "caption_family": "quick"
+}

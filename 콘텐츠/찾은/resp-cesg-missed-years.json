@@ -1,0 +1,1146 @@
+{
+  "key": "resp-cesg-missed-years",
+  "category": "tax",
+  "status": "draft",
+  "title": "RESP grant catch-up: what you can get back after a skipped year, and when it's gone",
+  "object": "THE RESP GRANT CATCH-UP TABLE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['sa2adc239'] · 퍼스나 The late starter",
+  "fact": {
+    "num": "500",
+    "unit": "$",
+    "thing": "basic CESG grant room per year",
+    "box": "RESP (Canada Education Savings Grant)",
+    "claim": "The basic CESG pays 20% of what you put into an RESP, up to $500 a year on the first $2,500. If you skip a year, that $500 of grant room is not lost right away. It carries forward, but you can claim at most $1,000 of CESG in one year, on a $5,000 contribution, so you catch up one missed year at a time. The lifetime maximum is $7,200 per child, and grant room only lasts until the end of the year the child turns 17, which means unused room you haven't caught up by then is gone, and a child aged 16 or 17 only qualifies if certain contributions were made by the end of the year they turned 15.",
+    "sources": [
+      "CANADA.CA ESDC: RESP AMOUNTS",
+      "CANADA.CA ESDC: RESP AMOUNTS",
+      "CANADA.CA ESDC: RESP AMOUNTS",
+      "CANADA.CA ESDC: RESP AMOUNTS",
+      "CRA: CESG"
+    ],
+    "verified": "find.py · 대조 5/5",
+    "felt": {
+      "num": "500",
+      "unit": "$",
+      "how": "basic CESG grant left unclaimed for one skipped RESP year",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CANADA.CA ESDC: RESP AMOUNTS",
+      "url": "https://www.canada.ca/en/services/benefits/education/education-savings/estimating-amounts.html",
+      "what": "If eligible, beneficiaries can receive up to 20% of the first $2,500 contributed to the RESP.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CANADA.CA ESDC: RESP AMOUNTS",
+      "url": "https://www.canada.ca/en/services/benefits/education/education-savings/estimating-amounts.html",
+      "what": "This way, a child could get up to $1,000 of the CESG in their RESP per calendar year if there are unused amounts from previous years.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CANADA.CA ESDC: RESP AMOUNTS",
+      "url": "https://www.canada.ca/en/services/benefits/education/education-savings/estimating-amounts.html",
+      "what": "The maximum that can be received from the CESG is $7,200 until the age of 17 per eligible beneficiary.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CANADA.CA ESDC: RESP AMOUNTS",
+      "url": "https://www.canada.ca/en/services/benefits/education/education-savings/estimating-amounts.html",
+      "what": "Unused CESG amounts from previous years accumulate until the end of the year in which the child turns 17, even if they are not a beneficiary of an RESP.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA: CESG",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-education-savings-plans-resps/canada-education-savings-programs-cesp/canada-education-savings-grant-cesg.html",
+      "what": "No matter what your family income is, ESDC pays an amount of Canada Education Savings Grant (basic CESG) of 20% of annual personal contributions you make to all eligible RESPs for a qualifying beneficiary to a maximum CESG of $500 in respect of each beneficiary ($1,000 in CESG if there is unused grant room from a previous year), and a lifetime limit of $7,200.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "Skip one RESP year and $",
+        "num": "500",
+        "post": " sits unclaimed."
+      },
+      "promise": "Give me 30 seconds. Catch up the free money."
+    },
+    {
+      "type": "two",
+      "kicker": "THE BASIC RESP GRANT",
+      "title": "You put in $2,500. The government adds *$500.*",
+      "boxes": [
+        {
+          "h": "A NORMAL YEAR",
+          "v": "$500",
+          "tone": "flat",
+          "d": "$2,500 in. $500 added.",
+          "d2": "20% of the first $2,500 you put in the RESP box. Any family income.",
+          "d3": "Basic grant, every year"
+        },
+        {
+          "h": "A CATCH-UP YEAR",
+          "v": "$1,000",
+          "win": true,
+          "lead": true,
+          "d": "$5,000 in. $1,000 added.",
+          "d2": "Only if you skipped a year before. You get one missed year back per year, never more.",
+          "d3": "The yearly ceiling"
+        }
+      ],
+      "source_label": "CANADA.CA · CRA",
+      "say": "Skipped a year? Not gone yet.|One year back at a time."
+    },
+    {
+      "type": "table",
+      "kicker": "THE RESP GRANT CATCH-UP TABLE",
+      "title": "How long your missed grant takes to catch up.",
+      "h1": "YOU SKIPPED",
+      "h2": "GRANT ROOM WAITING",
+      "rows": [
+        {
+          "a": "1 year",
+          "asub": "of putting in $2,500",
+          "b": "$500",
+          "gone": "1 catch-up year at $5,000"
+        },
+        {
+          "a": "3 years",
+          "asub": "of putting in $2,500",
+          "b": "$1,500",
+          "gone": "3 catch-up years at $5,000"
+        },
+        {
+          "a": "5 years",
+          "asub": "of putting in $2,500",
+          "b": "$2,500",
+          "gone": "5 catch-up years at $5,000"
+        }
+      ],
+      "note": "Room you haven't caught up by the end of the year your kid turns 17 is gone. Lifetime cap is $7,200 per kid. Ages 16 and 17 have extra rules. <b>Save this. Count the years your kid has left.</b>",
+      "say": "Save this one.|Count the years before 17."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your RESP hands you $500 free every year.",
+      "Skipped an RESP year? That $500 still waits.",
+      "Skip one RESP year and $500 sits unclaimed.",
+      "RESP grant you skipped isn't gone. $500 waits.",
+      "Hama's RESP had $500 waiting from last year.",
+      "RESP grant room dies the year they turn 17.",
+      "RESP grant tops out at $7,200 per child.",
+      "Same RESP. $2,500 in pays $500, $5,000 pays $1,000.",
+      "RESP grant room has an end date, age 17.",
+      "RESP, never wait past the year they turn 15."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Skip one RESP year and $500 sits unclaimed.",
+    "spoken": "Skip one RESP year and $500 sits unclaimed.",
+    "promise": "Give me 30 seconds. Catch up the free money.",
+    "pick_why": "It names the mistake, the exact $500 lost per skipped year, and hints it can still be caught up, so parents save it to fix it later.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "CLAIM YOURS"
+  },
+  "lede": "Skipped RESP grant years can be caught up one at a time, but whatever room is left after the year your kid turns 17 is gone.",
+  "series": "RESP GRANT RULES",
+  "source_note": "CANADA.CA ESDC · RESP GRANT AMOUNTS",
+  "caption": "🐶⛏️ If you skipped an RESP year, $500 of free money could still be waiting.\n\nA skipped year's grant waits for you, but you only catch up one year at a time. And it's gone after the year your kid turns 17.\n\nComment GRANT and I'll send you my RESP catch-up table 🪙\nHow old's your kid?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#respcanada #cesg #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 흔한 실수.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Skip one RESP year and $500 sits unclaimed.",
+        "part": "boil",
+        "data": {
+          "pill": "THE RESP GRANT CATCH-UP TABLE",
+          "num": "$500",
+          "line": "Skip one RESP year and $500 sits unclaimed.",
+          "promise": "Give me 30 seconds. Catch up the free money.",
+          "subj": "RESP",
+          "stamp": "CLAIM YOURS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Catch up the free money.",
+        "nocap": true
+      },
+      {
+        "say": "That $500 comes back, one year at a time.",
+        "cap": "low"
+      },
+      {
+        "say": "An RESP is a savings box for your kid's school.",
+        "part": "stamp",
+        "data": {
+          "old": "$500",
+          "new": "unclaimed",
+          "at": 1,
+          "k": "THE GRANT"
+        }
+      },
+      {
+        "say": "Put in $2,500, the government *adds* $500."
+      },
+      {
+        "say": "Skip a year, that $500 sits *unclaimed*.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$500",
+          "tail": "unclaimed",
+          "at": "$500"
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        }
+      },
+      {
+        "say": "A normal year, $2,500 in, $500 added.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "A NORMAL YEAR",
+            "big": "$500",
+            "ft": "$2,500 in"
+          },
+          "b": {
+            "k": "A CATCH-UP YEAR",
+            "big": "$1,000",
+            "ft": "$5,000 in",
+            "at": "$1,000"
+          }
+        },
+        "badge": "CATCH-UP",
+        "in": "wipe"
+      },
+      {
+        "say": "A catch-up year, $5,000 in, $1,000 added, never more."
+      },
+      {
+        "say": "And the clock *stops* the year your kid turns 17.",
+        "part": "tag",
+        "data": {
+          "old": "WAITS",
+          "new": "GONE AT 17",
+          "at": 0
+        }
+      },
+      {
+        "say": "One catch-up year, and that $500 is *yours*.",
+        "part": "strike",
+        "data": {
+          "old": "$500",
+          "new": "back in the box",
+          "at": "yours",
+          "k": ""
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Skipped 3 years, $1,500 waits, 3 catch-up years.",
+        "part": "donut",
+        "data": {
+          "k": "YOUR ROW",
+          "segs": [
+            {
+              "l": "SKIPPED 3 YEARS",
+              "v": "$1,500",
+              "w": 0.75
+            },
+            {
+              "l": "SKIPPED 1 YEAR",
+              "v": "$500",
+              "w": 0.25
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "YOUR ROW"
+      },
+      {
+        "say": "Find your row, then count the years before 17."
+      },
+      {
+        "say": "Comment *GRANT,* and I will send you the RESP catch-up table.",
+        "part": "tiles",
+        "data": {
+          "word": "GRANT",
+          "at": "GRANT",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the RESP catch-up table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Skip one RESP year and $500 sits unclaimed.",
+          "Give me 30 seconds. Catch up the free money."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "That $500 comes back, one year at a time."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "THE GRANT",
+        "data": {
+          "old": "$500",
+          "new": "unclaimed"
+        },
+        "lines": [
+          "An RESP is a savings box for your kid's school.",
+          "Put in $2,500, the government *adds* $500."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$500",
+          "new": "unclaimed"
+        },
+        "lines": [
+          "Skip a year, that $500 sits *unclaimed*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "CATCH-UP",
+        "data": {
+          "a": {
+            "h": "A NORMAL YEAR",
+            "v": "$500",
+            "sub": "$2,500 in",
+            "tone": "flat"
+          },
+          "b": {
+            "h": "A CATCH-UP YEAR",
+            "v": "$1,000",
+            "sub": "$5,000 in",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "A normal year, $2,500 in, $500 added.",
+          "A catch-up year, $5,000 in, $1,000 added, never more."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "WAITS",
+          "new": "GONE AT 17"
+        },
+        "lines": [
+          "And the clock *stops* the year your kid turns 17."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$500",
+          "new": "back in the box"
+        },
+        "lines": [
+          "One catch-up year, and that $500 is *yours*."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "SKIPPED 3 YEARS",
+            "v": "$1,500",
+            "sub": "3 catch-up years",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SKIPPED 1 YEAR",
+            "v": "$500",
+            "sub": "1 catch-up year",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Skipped 3 years, $1,500 waits, 3 catch-up years.",
+          "Find your row, then count the years before 17."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "GRANT",
+          "gift": "the RESP catch-up table"
+        },
+        "lines": [
+          "Comment *GRANT,* and I will send you the RESP catch-up table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open on the $500 left unclaimed, the lock-in flips to what comes back, body 1 shows the unclaimed $500 as a loss, a rehook leads into the normal-year versus catch-up-year compare with the $1,000 ceiling, the trap rehook adds the age 17 cutoff, the closing hands back the $500, then the given myrow and cta ending close it.",
+      "shape": "dark",
+      "ending": "myrow_cta",
+      "caption": "karaoke",
+      "opener": "boil",
+      "parts": [
+        "boil",
+        "stamp",
+        "tail",
+        "callout",
+        "dumbbell",
+        "tag",
+        "strike",
+        "donut",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "wipe",
+        "fade",
+        "wipe",
+        "fade",
+        "zoom",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "GRANT"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 흔한 실수.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Skip one RESP year and $500 sits unclaimed.",
+        "part": "boil",
+        "data": {
+          "pill": "THE RESP GRANT CATCH-UP TABLE",
+          "num": "$500",
+          "line": "Skip one RESP year and $500 sits unclaimed.",
+          "promise": "Give me 30 seconds. Catch up the free money.",
+          "subj": "RESP",
+          "stamp": "CLAIM YOURS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Catch up the free money.",
+        "nocap": true
+      },
+      {
+        "say": "That $500 comes back, one year at a time.",
+        "cap": "low"
+      },
+      {
+        "say": "An RESP is a savings box for your kid's school.",
+        "part": "stamp",
+        "data": {
+          "old": "$500",
+          "new": "unclaimed",
+          "at": 1,
+          "k": "THE GRANT"
+        }
+      },
+      {
+        "say": "Put in $2,500, the government *adds* $500."
+      },
+      {
+        "say": "Skip a year, that $500 sits *unclaimed*.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$500",
+          "tail": "unclaimed",
+          "at": "$500"
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        }
+      },
+      {
+        "say": "A normal year, $2,500 in, $500 added.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "$2,500 in",
+              "tone": "flat",
+              "h": "A NORMAL YEAR",
+              "v": "$500",
+              "at": 0
+            },
+            {
+              "sub": "$5,000 in",
+              "tone": "win",
+              "h": "A CATCH-UP YEAR",
+              "v": "$1,000",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "CATCH-UP",
+        "in": "wipe"
+      },
+      {
+        "say": "A catch-up year, $5,000 in, $1,000 added, never more."
+      },
+      {
+        "say": "And the clock *stops* the year your kid turns 17.",
+        "part": "tag",
+        "data": {
+          "old": "WAITS",
+          "new": "GONE AT 17",
+          "at": 0
+        }
+      },
+      {
+        "say": "One catch-up year, and that $500 is *yours*.",
+        "part": "strike",
+        "data": {
+          "old": "$500",
+          "new": "back in the box",
+          "at": "yours",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Skipped 3 years, $1,500 waits, 3 catch-up years.",
+        "part": "donut",
+        "data": {
+          "k": "YOUR ROW",
+          "segs": [
+            {
+              "l": "SKIPPED 3 YEARS",
+              "v": "$1,500",
+              "w": 0.75
+            },
+            {
+              "l": "SKIPPED 1 YEAR",
+              "v": "$500",
+              "w": 0.25
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "YOUR ROW"
+      },
+      {
+        "say": "Find your row, then count the years before 17."
+      },
+      {
+        "say": "Comment *GRANT,* and I will send you the RESP catch-up table.",
+        "part": "tiles",
+        "data": {
+          "word": "GRANT",
+          "at": "GRANT",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the RESP catch-up table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Skip one RESP year and $500 sits unclaimed.",
+          "Give me 30 seconds. Catch up the free money."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "That $500 comes back, one year at a time."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "THE GRANT",
+        "data": {
+          "old": "$500",
+          "new": "unclaimed"
+        },
+        "lines": [
+          "An RESP is a savings box for your kid's school.",
+          "Put in $2,500, the government *adds* $500."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$500",
+          "new": "unclaimed"
+        },
+        "lines": [
+          "Skip a year, that $500 sits *unclaimed*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "CATCH-UP",
+        "data": {
+          "a": {
+            "h": "A NORMAL YEAR",
+            "v": "$500",
+            "sub": "$2,500 in",
+            "tone": "flat"
+          },
+          "b": {
+            "h": "A CATCH-UP YEAR",
+            "v": "$1,000",
+            "sub": "$5,000 in",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "A normal year, $2,500 in, $500 added.",
+          "A catch-up year, $5,000 in, $1,000 added, never more."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "WAITS",
+          "new": "GONE AT 17"
+        },
+        "lines": [
+          "And the clock *stops* the year your kid turns 17."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$500",
+          "new": "back in the box"
+        },
+        "lines": [
+          "One catch-up year, and that $500 is *yours*."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "SKIPPED 3 YEARS",
+            "v": "$1,500",
+            "sub": "3 catch-up years",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SKIPPED 1 YEAR",
+            "v": "$500",
+            "sub": "1 catch-up year",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Skipped 3 years, $1,500 waits, 3 catch-up years.",
+          "Find your row, then count the years before 17."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "GRANT",
+          "gift": "the RESP catch-up table"
+        },
+        "lines": [
+          "Comment *GRANT,* and I will send you the RESP catch-up table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open on the $500 left unclaimed, the lock-in flips to what comes back, body 1 shows the unclaimed $500 as a loss, a rehook leads into the normal-year versus catch-up-year compare with the $1,000 ceiling, the trap rehook adds the age 17 cutoff, the closing hands back the $500, then the given myrow and cta ending close it.",
+      "shape": "dark",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "boil",
+      "parts": [
+        "boil",
+        "stamp",
+        "tail",
+        "callout",
+        "stack",
+        "tag",
+        "strike",
+        "donut",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "wipe",
+        "fade",
+        "wipe",
+        "fade",
+        "iris",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 2,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "GRANT"
+    }
+  },
+  "plain": {
+    "what": "An RESP is a savings account for a kid's school. When you put money in, the government adds 20% on top, up to $500 a year on the first $2,500. If you skip a year, that $500 is not lost right away, but you can only make up one missed year at a time, and that takes $5,000 in to get $1,000 added.",
+    "so_what": "The government can add up to $7,200 per kid over the years, and whatever you have not caught up by the end of the year your kid turns 17 is gone for good.",
+    "do": "Write down your kid's age today and count how many years are left before the end of the year they turn 17.",
+    "words": [
+      {
+        "term": "RESP",
+        "means": "a savings account for a kid's school"
+      },
+      {
+        "term": "CESG (basic grant)",
+        "means": "money the government adds to an RESP"
+      },
+      {
+        "term": "grant room",
+        "means": "grant money you have not claimed yet"
+      },
+      {
+        "term": "contribution",
+        "means": "the money you put in yourself"
+      },
+      {
+        "term": "carries forward",
+        "means": "unused room waits for you in later years"
+      },
+      {
+        "term": "lifetime maximum",
+        "means": "the most one kid can ever get"
+      }
+    ]
+  },
+  "subject": "RESP",
+  "deliver": {
+    "word": "GRANT",
+    "gift": "the RESP catch-up table"
+  },
+  "check": [],
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 흔한 실수.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Skip one RESP year and $500 sits unclaimed.",
+        "part": "boil",
+        "data": {
+          "pill": "THE RESP GRANT CATCH-UP TABLE",
+          "num": "$500",
+          "line": "Skip one RESP year and $500 sits unclaimed.",
+          "promise": "Give me 30 seconds. Catch up the free money.",
+          "subj": "RESP",
+          "stamp": "CLAIM YOURS"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Catch up the free money.",
+        "nocap": true
+      },
+      {
+        "say": "That $500 comes back, one year at a time.",
+        "cap": "low"
+      },
+      {
+        "say": "An RESP is a savings box for your kid's school.",
+        "part": "stamp",
+        "data": {
+          "old": "$500",
+          "new": "unclaimed",
+          "at": 1,
+          "k": "THE GRANT"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Put in $2,500, the government *adds* $500."
+      },
+      {
+        "say": "Skip a year, that $500 sits *unclaimed*.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$500",
+          "tail": "unclaimed",
+          "at": "$500"
+        },
+        "dark": true
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "A normal year, $2,500 in, $500 added.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "$2,500 in",
+              "tone": "flat",
+              "h": "A NORMAL YEAR",
+              "v": "$500",
+              "at": 0
+            },
+            {
+              "sub": "$5,000 in",
+              "tone": "win",
+              "h": "A CATCH-UP YEAR",
+              "v": "$1,000",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "CATCH-UP",
+        "in": "dissolve"
+      },
+      {
+        "say": "A catch-up year, $5,000 in, $1,000 added, never more."
+      },
+      {
+        "say": "And the clock *stops* the year your kid turns 17.",
+        "part": "tag",
+        "data": {
+          "old": "WAITS",
+          "new": "GONE AT 17",
+          "at": 0
+        }
+      },
+      {
+        "say": "One catch-up year, and that $500 is *yours*.",
+        "part": "strike",
+        "data": {
+          "old": "$500",
+          "new": "back in the box",
+          "at": "yours",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Skipped 3 years, $1,500 waits, 3 catch-up years.",
+        "part": "donut",
+        "data": {
+          "k": "YOUR ROW",
+          "segs": [
+            {
+              "l": "SKIPPED 3 YEARS",
+              "v": "$1,500",
+              "w": 0.75
+            },
+            {
+              "l": "SKIPPED 1 YEAR",
+              "v": "$500",
+              "w": 0.25
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "YOUR ROW",
+        "in": "wipe"
+      },
+      {
+        "say": "Find your row, then count the years before 17."
+      },
+      {
+        "say": "Comment *GRANT,* and I will send you the RESP catch-up table.",
+        "part": "tiles",
+        "data": {
+          "word": "GRANT",
+          "at": "GRANT",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the RESP catch-up table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Skip one RESP year and $500 sits unclaimed.",
+          "Give me 30 seconds. Catch up the free money."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "That $500 comes back, one year at a time."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "THE GRANT",
+        "data": {
+          "old": "$500",
+          "new": "unclaimed"
+        },
+        "lines": [
+          "An RESP is a savings box for your kid's school.",
+          "Put in $2,500, the government *adds* $500."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$500",
+          "new": "unclaimed"
+        },
+        "lines": [
+          "Skip a year, that $500 sits *unclaimed*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "CATCH-UP",
+        "data": {
+          "a": {
+            "h": "A NORMAL YEAR",
+            "v": "$500",
+            "sub": "$2,500 in",
+            "tone": "flat"
+          },
+          "b": {
+            "h": "A CATCH-UP YEAR",
+            "v": "$1,000",
+            "sub": "$5,000 in",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "A normal year, $2,500 in, $500 added.",
+          "A catch-up year, $5,000 in, $1,000 added, never more."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "WAITS",
+          "new": "GONE AT 17"
+        },
+        "lines": [
+          "And the clock *stops* the year your kid turns 17."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$500",
+          "new": "back in the box"
+        },
+        "lines": [
+          "One catch-up year, and that $500 is *yours*."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "SKIPPED 3 YEARS",
+            "v": "$1,500",
+            "sub": "3 catch-up years",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SKIPPED 1 YEAR",
+            "v": "$500",
+            "sub": "1 catch-up year",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Skipped 3 years, $1,500 waits, 3 catch-up years.",
+          "Find your row, then count the years before 17."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "GRANT",
+          "gift": "the RESP catch-up table"
+        },
+        "lines": [
+          "Comment *GRANT,* and I will send you the RESP catch-up table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open on the $500 left unclaimed, the lock-in flips to what comes back, body 1 shows the unclaimed $500 as a loss, a rehook leads into the normal-year versus catch-up-year compare with the $1,000 ceiling, the trap rehook adds the age 17 cutoff, the closing hands back the $500, then the given myrow and cta ending close it.",
+      "shape": "dark",
+      "ending": "myrow_cta",
+      "caption": "karaoke",
+      "opener": "boil",
+      "parts": [
+        "boil",
+        "stamp",
+        "tail",
+        "callout",
+        "stack",
+        "tag",
+        "strike",
+        "donut",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "fade",
+        "zoom",
+        "dissolve",
+        "fade",
+        "iris",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 2,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "GRANT"
+    }
+  }
+}

@@ -1,0 +1,1271 @@
+{
+  "key": "fhsa-to-rrsp-no-room-used",
+  "category": "tax",
+  "status": "draft",
+  "title": "Never buy a home? Your FHSA still isn't a loss.",
+  "object": "THE FHSA NO-LOSE EXIT",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s53720468'] · 퍼스나 The late starter with unused room",
+  "fact": {
+    "num": "40,000",
+    "unit": "$",
+    "thing": "FHSA lifetime contribution limit",
+    "box": "FHSA to RRSP or RRIF (direct transfer)",
+    "claim": "You can put at most $40,000 into an FHSA over your lifetime, and no more than $8,000 in the year you open your first one. If you never buy a home, you can move the money directly into your RRSP or RRIF by the end of your maximum participation period, which is the earliest of 15 years after you open the account, the year you turn 71, or the year after your first qualifying withdrawal. Generally, a direct transfer does not use up your unused RRSP deduction room and has no immediate tax. This only works as a direct transfer with no excess FHSA amount: if you withdraw the cash and then put it into your RRSP, the withdrawal is taxed and counts as a new RRSP contribution.",
+    "sources": [
+      "CRA – Withdrawals and transfers out of your FHSAs",
+      "CRA – Withdrawals and transfers out of your FHSAs",
+      "CRA – Withdrawals and transfers out of your FHSAs (example)",
+      "CRA – Contributing to your FHSA",
+      "CRA – Closing your FHSA"
+    ],
+    "verified": "find.py · 대조 5/5",
+    "felt": {
+      "num": "40,000",
+      "unit": "$",
+      "a": "40,000",
+      "b": "0",
+      "how": "RRSP room used up: cash out then re-contribute vs direct transfer, on the $40,000 lifetime max",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA – Withdrawals and transfers out of your FHSAs",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/withdrawals-transfers-out-your-fhsas.html",
+      "what": "Generally, an amount that is transferred directly from your FHSAs to your RRSPs or RRIFs will not impact your unused RRSP deduction room or your unused FHSA participation room.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Withdrawals and transfers out of your FHSAs",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/withdrawals-transfers-out-your-fhsas.html",
+      "what": "You will be allowed to transfer property from your FHSAs to your RRSPs or RRIFs without any immediate tax consequences, as long as it is a direct transfer and you do not have an excess FHSA amount.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Withdrawals and transfers out of your FHSAs (example)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/withdrawals-transfers-out-your-fhsas.html",
+      "what": "Anthony opened his FHSA in 2025. Over the years, he contributed the maximum amount to his FHSA, reaching his lifetime FHSA limit of $40,000 in 2029.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Contributing to your FHSA",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/contributing-your-fhsa.html",
+      "what": "Your FHSA participation room in the year you open your first FHSA is $8,000.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Closing your FHSA",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/closing-your-fhsa.html",
+      "what": "If you have any property in your FHSA on or before the end of your maximum participation period, generally you can directly transfer the property on a tax-deferred basis into your registered retirement savings plans (RRSP) or registered retirement income funds (RRIF).",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "Take your FHSA cash out and tax hits $",
+        "num": "40,000",
+        "post": "."
+      },
+      "promise": "Give me 30 seconds. Lose nothing to tax."
+    },
+    {
+      "type": "flow",
+      "kicker": "THE EXIT THAT LEAKS",
+      "title": "The *wrong* exit costs you twice.",
+      "lead": "You never buy a home. You pull the $40,000 out as cash. <em>That's where it goes wrong.</em>",
+      "steps": [
+        {
+          "n": "$40,000",
+          "t": "sits in your FHSA",
+          "s": "the lifetime max, no home bought"
+        },
+        {
+          "n": "TAXED",
+          "t": "you take it out as cash",
+          "s": "the withdrawal is taxed",
+          "cut": true
+        },
+        {
+          "n": "−$40,000",
+          "t": "of RRSP room used up",
+          "s": "if you put it all back in"
+        }
+      ],
+      "tail": "A direct transfer skips both. There's no immediate tax, and your unused RRSP room generally stays where it was.",
+      "source_label": "CRA · FHSA WITHDRAWALS",
+      "say": "Same $40,000.|Different door."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE FHSA NO-LOSE EXIT",
+      "title": "No home? Pick the exit that keeps it.",
+      "rowlabel": "HOW IT LEAVES",
+      "cols": [
+        "TAX NOW",
+        "RRSP ROOM USED",
+        "THE CONDITION"
+      ],
+      "labw": 22,
+      "rows": [
+        {
+          "a": "Direct",
+          "asub": "FHSA to RRSP",
+          "cells": [
+            "None",
+            "$0",
+            "No excess FHSA amount"
+          ]
+        },
+        {
+          "a": "Direct",
+          "asub": "FHSA to RRIF",
+          "cells": [
+            "None",
+            "$0",
+            "No excess FHSA amount"
+          ]
+        },
+        {
+          "a": "Cash out",
+          "asub": "then into RRSP",
+          "cells": [
+            "Taxed",
+            "Up to $40,000",
+            "Counts as a new contribution"
+          ]
+        }
+      ],
+      "hi": [
+        0,
+        1
+      ],
+      "note": "Move it before the earliest of these: 15 years after you open the box, the year you turn 71, or the year after your first qualifying withdrawal. <b>Save this. Check your deadline.</b>",
+      "source_label": "CRA · CLOSING YOUR FHSA"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your FHSA holds $40,000. Don't lose it.",
+      "Your FHSA has $40,000 and no house. Want it back?",
+      "FHSA money moved the wrong way loses part of $40,000.",
+      "FHSA buys no home, and you keep $40,000 anyway.",
+      "Hama's FHSA kept $40,000 with no house bought.",
+      "Take your FHSA cash out and tax hits $40,000.",
+      "FHSA, $40,000, one deadline. Miss it and you lose.",
+      "Same FHSA, $40,000, one way out gets taxed.",
+      "FHSA closes 15 years after you open it. Then tax.",
+      "Never pull FHSA cash out. The $40,000 gets taxed."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Take your FHSA cash out and tax hits $40,000.",
+    "spoken": "Take your FHSA cash out and tax hits $40,000.",
+    "promise": "Give me 30 seconds. Lose nothing to tax.",
+    "pick_why": "It hits the one move a beginner is most likely to make, puts a tax cut on the full $40,000, and gives no clue how to avoid it, so they save the post.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "DON'T LOSE IT"
+  },
+  "lede": "If the home never happens, the $40,000 can move into your RRSP box with no immediate tax. You just have to pick the right exit.",
+  "series": "FIRST HOME BOX",
+  "source_note": "CRA · FHSA WITHDRAWALS AND TRANSFERS",
+  "caption": "🐶⛏️ If you cash out your $40,000 FHSA, you could pay tax you never had to.\n\nIf the home never happens, move it straight to your RRSP, the retirement box, and tax usually waits. Cash it out first and you pay tax, then it eats your RRSP room.\n\nComment DOOR and I'll send you my FHSA no-lose exit checklist 🪙\nStill saving for that home?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#fhsacanada #rrspcanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Take your FHSA cash out and tax hits $40,000.",
+        "part": "glass",
+        "data": {
+          "pill": "THE FHSA NO-LOSE EXIT",
+          "num": "$40,000",
+          "line": "Take your FHSA cash out and tax hits $40,000.",
+          "promise": "Give me 30 seconds. Lose nothing to tax.",
+          "subj": "YOUR FHSA",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Lose nothing to tax.",
+        "nocap": true
+      },
+      {
+        "say": "The *no-lose* exit, in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people put $40,000 in an FHSA, the first-home box.",
+        "part": "split",
+        "data": {
+          "k": "CASHED OUT vs MOVED DIRECT",
+          "total": "$40,000",
+          "a": {
+            "v": "$40,000",
+            "l": "CASHED OUT",
+            "w": 0.88,
+            "at": "$40,000"
+          },
+          "b": {
+            "v": "$0",
+            "l": "MOVED DIRECT",
+            "at": 1,
+            "label_at": 1
+          }
+        },
+        "badge": "TWO DOORS",
+        "in": "wipe"
+      },
+      {
+        "say": "No home. One cashes out, one moves it across."
+      },
+      {
+        "say": "Cash-out: taxed, and $40,000 of room burned. Direct: $0 burned.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "CASHED OUT",
+            "v": "$40,000",
+            "sub": "of RRSP room burned, plus tax"
+          },
+          "b": {
+            "h": "MOVED DIRECT",
+            "v": "$0",
+            "sub": "room burned, no tax now"
+          },
+          "at": "$0"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "So why does one door cost twice?",
+        "part": "callout",
+        "data": {
+          "word": "twice",
+          "line": "So why does one door cost twice?",
+          "at": "twice"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "That cash, into your RRSP, the retirement box, counts as *new* money.",
+        "part": "tag",
+        "data": {
+          "old": "CASHED OUT",
+          "new": "NEW MONEY",
+          "at": "NEW",
+          "sub": "taxed, then it eats RRSP room.",
+          "sub_at": 1
+        },
+        "badge": "THE TRAP",
+        "in": "dissolve"
+      },
+      {
+        "say": "New money eats room, your space left to fill."
+      },
+      {
+        "say": "Direct skips tax now, but the clock is 15 years.",
+        "part": "callout",
+        "data": {
+          "word": "years",
+          "line": "Direct skips tax now, but the clock is 15 years.",
+          "at": "years"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Same $40,000. The *direct* door keeps it.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "40,000",
+          "pre": "$",
+          "suf": "",
+          "label": "direct door keeps it",
+          "at": "$40,000"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Find the year you opened your FHSA.",
+        "part": "donut",
+        "data": {
+          "k": "YOUR ROW",
+          "segs": [
+            {
+              "l": "YOUR $40,000",
+              "v": "$40,000",
+              "w": 1.0
+            },
+            {
+              "l": "SAME $40,000",
+              "v": "$0",
+              "w": 0.0
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "YOUR ROW",
+        "in": "dissolve"
+      },
+      {
+        "say": "Add 15 years, or the year you turn 71, whichever first."
+      },
+      {
+        "say": "Comment *DOOR,* and I will send you the no-lose exit checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "DOOR",
+          "at": "DOOR",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the FHSA no-lose exit checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Take your FHSA cash out and tax hits $40,000.",
+          "Give me 30 seconds. Lose nothing to tax."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The *no-lose* exit, in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO DOORS",
+        "data": {
+          "a": {
+            "h": "CASHED OUT",
+            "v": "$40,000",
+            "sub": "of RRSP room burned, plus tax",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "MOVED DIRECT",
+            "v": "$0",
+            "sub": "room burned, no tax now",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people put $40,000 in an FHSA, the first-home box.",
+          "No home. One cashes out, one moves it across."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "CASHED OUT",
+            "v": "$40,000",
+            "sub": "of RRSP room burned, plus tax",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "MOVED DIRECT",
+            "v": "$0",
+            "sub": "room burned, no tax now",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Cash-out: taxed, and $40,000 of room burned. Direct: $0 burned."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So why does one door cost twice?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE TRAP",
+        "data": {
+          "old": "CASHED OUT",
+          "new": "NEW MONEY",
+          "sub": "taxed, then it eats RRSP room."
+        },
+        "lines": [
+          "That cash, into your RRSP, the retirement box, counts as *new* money.",
+          "New money eats room, your space left to fill."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Direct skips tax now, but the clock is 15 years."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$40,000",
+          "new": "direct door keeps it"
+        },
+        "lines": [
+          "Same $40,000. The *direct* door keeps it."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "YOUR $40,000",
+            "v": "$40,000",
+            "sub": "cashed out, room gone",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $40,000",
+            "v": "$0",
+            "sub": "moved direct, room kept",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find the year you opened your FHSA.",
+          "Add 15 years, or the year you turn 71, whichever first."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DOOR",
+          "gift": "the FHSA no-lose exit checklist"
+        },
+        "lines": [
+          "Comment *DOOR,* and I will send you the no-lose exit checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Loss hook and promise, a one-breath lock-in on what they keep, a two-door compare on the same $40,000 ($40,000 of room burned vs $0), a question rehook, the new-money trap as the catch, the 15-year clock as the number rehook, the $40,000 closing, then the given myrow and cta ending.",
+      "shape": "zoom",
+      "ending": "myrow_cta",
+      "caption": "karaoke",
+      "opener": "glass",
+      "parts": [
+        "glass",
+        "split",
+        "wipe",
+        "callout",
+        "tag",
+        "callout",
+        "odometer",
+        "donut",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "wipe",
+        "iris",
+        "dissolve",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "DOOR"
+    }
+  },
+  "plain": {
+    "what": "An FHSA is a savings account for a first home, and you can put in at most $40,000 over your whole life. If the home never happens, you can move that money straight into your RRSP or RRIF, which are retirement savings accounts. Done as a direct transfer, there is usually no tax right away, and it generally does not use up your unused RRSP room.",
+    "so_what": "If you take the cash out instead, the money gets taxed and then counts as a fresh RRSP contribution that can eat up to $40,000 of your RRSP room.",
+    "do": "Find the year you opened your FHSA and write down your deadline: whichever comes first, 15 years after opening, the year you turn 71, or the year after your first qualifying withdrawal.",
+    "words": [
+      {
+        "term": "FHSA",
+        "means": "A savings account for your first home, $40,000 lifetime limit."
+      },
+      {
+        "term": "RRSP",
+        "means": "A savings account for retirement that lowers your tax now."
+      },
+      {
+        "term": "RRIF",
+        "means": "The account your RRSP turns into when you retire."
+      },
+      {
+        "term": "direct transfer",
+        "means": "Money moves account to account without passing through your hands."
+      },
+      {
+        "term": "withdrawal",
+        "means": "Taking money out of an account."
+      },
+      {
+        "term": "RRSP room",
+        "means": "How much you are still allowed to put in."
+      },
+      {
+        "term": "contribution",
+        "means": "Money you put into an account."
+      },
+      {
+        "term": "qualifying withdrawal",
+        "means": "Taking money out to use for your first home."
+      }
+    ]
+  },
+  "subject": "Your FHSA",
+  "deliver": {
+    "word": "DOOR",
+    "gift": "the FHSA no-lose exit checklist"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Take your FHSA cash out and tax hits $40,000.",
+        "part": "rise",
+        "data": {
+          "pill": "THE FHSA NO-LOSE EXIT",
+          "num": "$40,000",
+          "line": "Take your FHSA cash out and tax hits $40,000.",
+          "promise": "Give me 30 seconds. Lose nothing to tax.",
+          "subj": "YOUR FHSA",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Lose nothing to tax.",
+        "nocap": true
+      },
+      {
+        "say": "The *no-lose* exit, in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people put $40,000 in an FHSA, the first-home box.",
+        "part": "table",
+        "data": {
+          "k": "TWO DOORS",
+          "cols": [
+            "TAX NOW",
+            "RRSP ROOM USED",
+            "THE CONDITION"
+          ],
+          "rows": [
+            {
+              "lab": "Direct",
+              "cells": [
+                "None",
+                "$0",
+                "No excess FHSA amount"
+              ]
+            },
+            {
+              "lab": "Direct",
+              "cells": [
+                "None",
+                "$0",
+                "No excess FHSA amount"
+              ]
+            },
+            {
+              "lab": "Cash out",
+              "cells": [
+                "Taxed",
+                "Up to $40,000",
+                "Counts as a new contribution"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 1
+        },
+        "badge": "TWO DOORS",
+        "in": "wipe"
+      },
+      {
+        "say": "No home. One cashes out, one moves it across."
+      },
+      {
+        "say": "Cash-out: taxed, and $40,000 of room burned. Direct: $0 burned.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "CASHED OUT",
+            "v": "$40,000",
+            "sub": "of RRSP room burned, plus tax"
+          },
+          "b": {
+            "h": "MOVED DIRECT",
+            "v": "$0",
+            "sub": "room burned, no tax now"
+          },
+          "at": "$0"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "So why does one door cost twice?",
+        "part": "callout",
+        "data": {
+          "word": "twice",
+          "line": "So why does one door cost twice?",
+          "at": "twice"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "That cash, into your RRSP, the retirement box, counts as *new* money.",
+        "part": "tag",
+        "data": {
+          "old": "CASHED OUT",
+          "new": "NEW MONEY",
+          "at": "NEW",
+          "sub": "taxed, then it eats RRSP room.",
+          "sub_at": 1
+        },
+        "badge": "THE TRAP",
+        "in": "iris"
+      },
+      {
+        "say": "New money eats room, your space left to fill."
+      },
+      {
+        "say": "Direct skips tax now, but the clock is 15 years.",
+        "part": "callout",
+        "data": {
+          "word": "years",
+          "line": "Direct skips tax now, but the clock is 15 years.",
+          "at": "years"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Same $40,000. The *direct* door keeps it.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$40,000",
+          "tail": "direct door keeps it",
+          "at": "$40,000"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Find the year you opened your FHSA.",
+        "part": "donut",
+        "data": {
+          "k": "YOUR ROW",
+          "segs": [
+            {
+              "l": "YOUR $40,000",
+              "v": "$40,000",
+              "w": 1.0
+            },
+            {
+              "l": "SAME $40,000",
+              "v": "$0",
+              "w": 0.0
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "YOUR ROW",
+        "in": "iris"
+      },
+      {
+        "say": "Add 15 years, or the year you turn 71, whichever first."
+      },
+      {
+        "say": "Comment *DOOR,* and I will send you the no-lose exit checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "DOOR",
+          "at": "DOOR",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the FHSA no-lose exit checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Take your FHSA cash out and tax hits $40,000.",
+          "Give me 30 seconds. Lose nothing to tax."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The *no-lose* exit, in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO DOORS",
+        "data": {
+          "a": {
+            "h": "CASHED OUT",
+            "v": "$40,000",
+            "sub": "of RRSP room burned, plus tax",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "MOVED DIRECT",
+            "v": "$0",
+            "sub": "room burned, no tax now",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people put $40,000 in an FHSA, the first-home box.",
+          "No home. One cashes out, one moves it across."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "CASHED OUT",
+            "v": "$40,000",
+            "sub": "of RRSP room burned, plus tax",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "MOVED DIRECT",
+            "v": "$0",
+            "sub": "room burned, no tax now",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Cash-out: taxed, and $40,000 of room burned. Direct: $0 burned."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So why does one door cost twice?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE TRAP",
+        "data": {
+          "old": "CASHED OUT",
+          "new": "NEW MONEY",
+          "sub": "taxed, then it eats RRSP room."
+        },
+        "lines": [
+          "That cash, into your RRSP, the retirement box, counts as *new* money.",
+          "New money eats room, your space left to fill."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Direct skips tax now, but the clock is 15 years."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$40,000",
+          "new": "direct door keeps it"
+        },
+        "lines": [
+          "Same $40,000. The *direct* door keeps it."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "YOUR $40,000",
+            "v": "$40,000",
+            "sub": "cashed out, room gone",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $40,000",
+            "v": "$0",
+            "sub": "moved direct, room kept",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find the year you opened your FHSA.",
+          "Add 15 years, or the year you turn 71, whichever first."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DOOR",
+          "gift": "the FHSA no-lose exit checklist"
+        },
+        "lines": [
+          "Comment *DOOR,* and I will send you the no-lose exit checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Loss hook and promise, a one-breath lock-in on what they keep, a two-door compare on the same $40,000 ($40,000 of room burned vs $0), a question rehook, the new-money trap as the catch, the 15-year clock as the number rehook, the $40,000 closing, then the given myrow and cta ending.",
+      "shape": "zoom",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "rise",
+      "parts": [
+        "rise",
+        "table",
+        "wipe",
+        "callout",
+        "tag",
+        "callout",
+        "tail",
+        "donut",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "dissolve",
+        "wipe",
+        "iris",
+        "dissolve",
+        "wipe",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "DOOR"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Take your FHSA cash out and tax hits $40,000.",
+        "part": "tease",
+        "data": {
+          "pill": "THE FHSA NO-LOSE EXIT",
+          "num": "$40,000",
+          "line": "Take your FHSA cash out and tax hits $40,000.",
+          "promise": "Give me 30 seconds. Lose nothing to tax.",
+          "subj": "YOUR FHSA",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Lose nothing to tax.",
+        "nocap": true
+      },
+      {
+        "say": "The *no-lose* exit, in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two people put $40,000 in an FHSA, the first-home box.",
+        "part": "donut",
+        "data": {
+          "k": "TWO DOORS",
+          "segs": [
+            {
+              "l": "CASHED OUT",
+              "v": "$40,000",
+              "w": 1.0
+            },
+            {
+              "l": "MOVED DIRECT",
+              "v": "$0",
+              "w": 0.0
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "TWO DOORS",
+        "in": "wipe"
+      },
+      {
+        "say": "No home. One cashes out, one moves it across."
+      },
+      {
+        "say": "Cash-out: taxed, and $40,000 of room burned. Direct: $0 burned.",
+        "part": "table",
+        "data": {
+          "k": "THE FHSA NO-LOSE EXIT",
+          "cols": [
+            "TAX NOW",
+            "RRSP ROOM USED",
+            "THE CONDITION"
+          ],
+          "rows": [
+            {
+              "lab": "Direct",
+              "cells": [
+                "None",
+                "$0",
+                "No excess FHSA amount"
+              ]
+            },
+            {
+              "lab": "Direct",
+              "cells": [
+                "None",
+                "$0",
+                "No excess FHSA amount"
+              ]
+            },
+            {
+              "lab": "Cash out",
+              "cells": [
+                "Taxed",
+                "Up to $40,000",
+                "Counts as a new contribution"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "So why does one door cost twice?",
+        "part": "callout",
+        "data": {
+          "word": "twice",
+          "line": "So why does one door cost twice?",
+          "at": "twice"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "That cash, into your RRSP, the retirement box, counts as *new* money.",
+        "part": "tag",
+        "data": {
+          "old": "CASHED OUT",
+          "new": "NEW MONEY",
+          "at": "NEW",
+          "sub": "taxed, then it eats RRSP room.",
+          "sub_at": 1
+        },
+        "badge": "THE TRAP",
+        "in": "iris"
+      },
+      {
+        "say": "New money eats room, your space left to fill."
+      },
+      {
+        "say": "Direct skips tax now, but the clock is 15 years.",
+        "part": "callout",
+        "data": {
+          "word": "years",
+          "line": "Direct skips tax now, but the clock is 15 years.",
+          "at": "years"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Same $40,000. The *direct* door keeps it.",
+        "part": "strike",
+        "data": {
+          "old": "$40,000",
+          "new": "direct door keeps it",
+          "at": "direct",
+          "k": ""
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Find the year you opened your FHSA.",
+        "part": "split",
+        "data": {
+          "k": "YOUR $40,000 vs SAME $40,000",
+          "total": "$40,000",
+          "a": {
+            "v": "$40,000",
+            "l": "YOUR $40,000",
+            "w": 0.88,
+            "at": 0
+          },
+          "b": {
+            "v": "$0",
+            "l": "SAME $40,000",
+            "at": 1,
+            "label_at": 1
+          }
+        },
+        "badge": "YOUR ROW",
+        "in": "zoom"
+      },
+      {
+        "say": "Add 15 years, or the year you turn 71, whichever first."
+      },
+      {
+        "say": "Comment *DOOR,* and I will send you the no-lose exit checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "DOOR",
+          "at": "DOOR",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the FHSA no-lose exit checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Take your FHSA cash out and tax hits $40,000.",
+          "Give me 30 seconds. Lose nothing to tax."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The *no-lose* exit, in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO DOORS",
+        "data": {
+          "a": {
+            "h": "CASHED OUT",
+            "v": "$40,000",
+            "sub": "of RRSP room burned, plus tax",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "MOVED DIRECT",
+            "v": "$0",
+            "sub": "room burned, no tax now",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two people put $40,000 in an FHSA, the first-home box.",
+          "No home. One cashes out, one moves it across."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "CASHED OUT",
+            "v": "$40,000",
+            "sub": "of RRSP room burned, plus tax",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "MOVED DIRECT",
+            "v": "$0",
+            "sub": "room burned, no tax now",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Cash-out: taxed, and $40,000 of room burned. Direct: $0 burned."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So why does one door cost twice?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE TRAP",
+        "data": {
+          "old": "CASHED OUT",
+          "new": "NEW MONEY",
+          "sub": "taxed, then it eats RRSP room."
+        },
+        "lines": [
+          "That cash, into your RRSP, the retirement box, counts as *new* money.",
+          "New money eats room, your space left to fill."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Direct skips tax now, but the clock is 15 years."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$40,000",
+          "new": "direct door keeps it"
+        },
+        "lines": [
+          "Same $40,000. The *direct* door keeps it."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "YOUR $40,000",
+            "v": "$40,000",
+            "sub": "cashed out, room gone",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $40,000",
+            "v": "$0",
+            "sub": "moved direct, room kept",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find the year you opened your FHSA.",
+          "Add 15 years, or the year you turn 71, whichever first."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DOOR",
+          "gift": "the FHSA no-lose exit checklist"
+        },
+        "lines": [
+          "Comment *DOOR,* and I will send you the no-lose exit checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Loss hook and promise, a one-breath lock-in on what they keep, a two-door compare on the same $40,000 ($40,000 of room burned vs $0), a question rehook, the new-money trap as the catch, the 15-year clock as the number rehook, the $40,000 closing, then the given myrow and cta ending.",
+      "shape": "zoom",
+      "ending": "myrow_cta",
+      "caption": "karaoke",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "donut",
+        "table",
+        "callout",
+        "tag",
+        "callout",
+        "strike",
+        "split",
+        "tiles"
+      ],
+      "transitions": [
+        "wipe",
+        "pan",
+        "wipe",
+        "iris",
+        "wipe",
+        "dissolve",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "DOOR"
+    }
+  }
+}

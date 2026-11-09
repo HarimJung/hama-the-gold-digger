@@ -1,0 +1,1224 @@
+{
+  "key": "no-filing-no-gst-credit",
+  "category": "tax",
+  "status": "draft",
+  "title": "File your return. Get up to $679.",
+  "object": "THE FILE-TO-GET-PAID CHECKLIST",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s4e3ee777'] · 퍼스나 The late starter with unused room",
+  "fact": {
+    "num": "679",
+    "unit": "$",
+    "thing": "maximum yearly GST/HST credit for a single adult",
+    "box": "Canada Groceries and Essentials Benefit (formerly the GST/HST credit), paid by the CRA",
+    "claim": "For July 2026 to June 2027, a single person with no children can get up to $679 from the CRA. The amount is based on the 2025 tax return. The GST/HST credit was renamed the Canada Groceries and Essentials Benefit in July 2026. The $679 is a $445 base amount plus a $234 single supplement, and the supplement only phases in once income is above $11,564, so a single person with very low income gets less than the full $679. The benefit shrinks once family net income passes $46,432.",
+    "sources": [
+      "CRA – CGEB how much you can get",
+      "CRA – CGEB how much you can get",
+      "CRA – CGEB payment amounts table",
+      "CRA – CGEB overview"
+    ],
+    "verified": "find.py · 대조 4/4",
+    "felt": {
+      "num": "679",
+      "unit": "$",
+      "a": "0",
+      "b": "679",
+      "how": "skip filing vs file for 2025, single adult with income $11,564 to $46,432",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA – CGEB how much you can get",
+      "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much.html",
+      "what": "$679 if you are a single individual",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – CGEB how much you can get",
+      "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much.html",
+      "what": "For example, the information from your 2025 tax return determines the CGEB amount you get for the payment period from July 2026 to June 2027. You could get up to:",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – CGEB payment amounts table",
+      "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/how-much/payment-amounts.html",
+      "what": "2025 (July 2026 - June 2027)",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – CGEB overview",
+      "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit.html",
+      "what": "In July 2026, there was a 25% increase to the benefit amount which will remain for 5 years from 2026 to 2031.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "Canada Groceries Benefit: miss the filing, lose $",
+        "num": "679",
+        "post": "."
+      },
+      "promise": "Give me 30 seconds. Stop losing free money."
+    },
+    {
+      "type": "mini",
+      "kicker": "WHERE THE $679 COMES FROM",
+      "title": "$445 plus $234. *Both* need a return.",
+      "lead": "The GST/HST credit got a new name in July 2026. The money is <em>two pieces added up.</em>",
+      "rows": [
+        {
+          "t": "Base amount for a single adult",
+          "v": "$445",
+          "ok": true
+        },
+        {
+          "t": "Single supplement, starts once income passes $11,564",
+          "v": "+$234"
+        },
+        {
+          "t": "Most you can get, July 2026 to June 2027",
+          "v": "$679",
+          "ok": true
+        }
+      ],
+      "tail": "The CRA works it out from your 2025 tax return. Owe no tax? File anyway. That's the only way the CRA sees you.",
+      "source_label": "CRA · CGEB HOW MUCH",
+      "say": "Hama files every year.|Even on a dog's income."
+    },
+    {
+      "type": "table",
+      "kicker": "THE FILE-TO-GET-PAID CHECKLIST",
+      "title": "Find your income. See what filing gets you.",
+      "h1": "YOUR NET INCOME",
+      "h2": "IF YOU SKIP FILING",
+      "h3": "IF YOU FILE FOR 2025",
+      "rows": [
+        {
+          "a": "$11,564",
+          "asub": "or less",
+          "bar": 0,
+          "b": "$0",
+          "gone": "−$445 gone",
+          "c": "$445",
+          "csub": "base only"
+        },
+        {
+          "a": "$11,564",
+          "asub": "to $46,432",
+          "bar": 0,
+          "b": "$0",
+          "gone": "up to −$679 gone",
+          "c": "up to $679",
+          "csub": "$445 + up to $234"
+        },
+        {
+          "a": "$46,432",
+          "asub": "and up",
+          "bar": 0,
+          "b": "$0",
+          "gone": "all of it gone",
+          "c": "under $679",
+          "csub": "shrinks as income grows"
+        }
+      ],
+      "note": "Single adult, no children. Paid July 2026 to June 2027, based on your 2025 return. <b>No return, no payment. Save this. Find your row.</b>"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Canada Groceries Benefit: $679 a year, gone if you skip filing.",
+      "Canada Groceries Benefit paid you $679 this year?",
+      "Canada Groceries Benefit pays $679 only if you filed 2025.",
+      "Canada Groceries Benefit pays less under $11,564 income.",
+      "Canada Groceries Benefit hid $679 from Hama until she filed.",
+      "Canada Groceries Benefit: miss the filing, lose $679.",
+      "Canada Groceries Benefit, the old GST credit, pays $679.",
+      "Canada Groceries Benefit: your neighbour got $679, you got nothing.",
+      "Canada Groceries Benefit: the $679 clock started July 2026.",
+      "Canada Groceries Benefit: never skip filing, never see $679."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Canada Groceries Benefit: miss the filing, lose $679.",
+    "spoken": "Canada Groceries Benefit: miss the filing, lose $679.",
+    "promise": "Give me 30 seconds. Stop losing free money.",
+    "pick_why": "Eight words, one real number, and a plain loss they can picture, so the thumb stops and the checklist is worth saving.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "FILE IT"
+  },
+  "lede": "The CRA can only pay you the grocery benefit if it has your 2025 tax return, even when you owe nothing.",
+  "series": "CRA FREE MONEY",
+  "source_note": "CRA · CGEB PAYMENT AMOUNTS",
+  "caption": "🐶⛏️ If you skip filing, up to $679 in grocery money never reaches you.\n\nThe CRA works out this grocery money from your 2025 tax return, so no return means nothing to pay you from. Plenty skip it because they owe no tax, and that's how the money slips away.\n\nComment FILE and I'll send you my file-to-get-paid checklist 🪙\nDid yours go in?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#cracanada #taxescanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Canada Groceries Benefit: miss the filing, lose $679.",
+        "part": "cover",
+        "data": {
+          "pill": "THE FILE-TO-GET-PAID CHECKLIST",
+          "num": "$679",
+          "line": "Canada Groceries Benefit: miss the filing, lose $679.",
+          "promise": "Give me 30 seconds. Stop losing free money.",
+          "subj": "CANADA GROCERIES BENEFIT",
+          "stamp": "FILE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Stop losing free money.",
+        "nocap": true
+      },
+      {
+        "say": "Your file-to-get-paid checklist comes at the end.",
+        "cap": "low"
+      },
+      {
+        "say": "The Canada Groceries Benefit is government money for groceries.",
+        "part": "split",
+        "data": {
+          "k": "SKIPPED FILING vs FILED FOR 2025",
+          "total": "$679",
+          "a": {
+            "v": "$0",
+            "l": "SKIPPED FILING",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "$679",
+            "l": "FILED FOR 2025",
+            "at": 1,
+            "label_at": 1
+          }
+        },
+        "badge": "THE GAP"
+      },
+      {
+        "say": "Two single adults qualify, and only one *files* for 2025."
+      },
+      {
+        "say": "The skipper gets $0, the filer up to $679.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "SKIPPED FILING",
+            "big": "$0",
+            "ft": "no 2025 return"
+          },
+          "b": {
+            "k": "FILED FOR 2025",
+            "big": "$679",
+            "ft": "up to, single adult",
+            "at": "$679"
+          },
+          "gap": "$679",
+          "gap_at": "$679"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        }
+      },
+      {
+        "say": "Many think owing no tax means skipping the form.",
+        "part": "badge",
+        "data": {
+          "old": "NO TAX OWED",
+          "new": "FILE ANYWAY",
+          "at": 1,
+          "sub": "or the CRA never sees you.",
+          "sub_at": 1,
+          "k": "THE FILE-TO-GET-PAID CHECKLIST"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "The CRA, the tax office, uses your 2025 *return*."
+      },
+      {
+        "say": "No return means nothing to pay you from.",
+        "part": "tag",
+        "data": {
+          "old": "NO TAX OWED",
+          "new": "FILE ANYWAY",
+          "at": 0,
+          "sub": "or the CRA never sees you.",
+          "sub_at": 0
+        }
+      },
+      {
+        "say": "Earn $11,564 or less, and you get only $445.",
+        "part": "tabs",
+        "data": {
+          "old": "FULL $679",
+          "new": "$445 ONLY",
+          "at": "$445",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "File, and up to $679 is *yours*.",
+        "part": "stamp",
+        "data": {
+          "old": "$679",
+          "new": "yours if you file",
+          "at": "yours",
+          "k": ""
+        }
+      },
+      {
+        "say": "Check if your 2025 return went in.",
+        "part": "tiles",
+        "data": {
+          "word": "FILE",
+          "at": "FILE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the file-to-get-paid checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *FILE,* and I will send you the file-to-get-paid checklist."
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Canada Groceries Benefit: miss the filing, lose $679.",
+          "Give me 30 seconds. Stop losing free money."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Your file-to-get-paid checklist comes at the end."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "SKIPPED FILING",
+            "v": "$0",
+            "sub": "no 2025 return",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FILED FOR 2025",
+            "v": "$679",
+            "sub": "up to, single adult",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The Canada Groceries Benefit is government money for groceries.",
+          "Two single adults qualify, and only one *files* for 2025."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "SKIPPED FILING",
+            "v": "$0",
+            "sub": "no 2025 return",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FILED FOR 2025",
+            "v": "$679",
+            "sub": "up to, single adult",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The skipper gets $0, the filer up to $679."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "NO TAX OWED",
+          "new": "FILE ANYWAY",
+          "sub": "or the CRA never sees you."
+        },
+        "lines": [
+          "Many think owing no tax means skipping the form.",
+          "The CRA, the tax office, uses your 2025 *return*."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "NO TAX OWED",
+          "new": "FILE ANYWAY",
+          "sub": "or the CRA never sees you."
+        },
+        "lines": [
+          "No return means nothing to pay you from."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FULL $679",
+          "new": "$445 ONLY"
+        },
+        "lines": [
+          "Earn $11,564 or less, and you get only $445."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$679",
+          "new": "yours if you file"
+        },
+        "lines": [
+          "File, and up to $679 is *yours*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FILE",
+          "gift": "the file-to-get-paid checklist"
+        },
+        "lines": [
+          "Check if your 2025 return went in.",
+          "Comment *FILE,* and I will send you the file-to-get-paid checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Follows the arc exactly: given hook and promise, a one-line lock-in naming the checklist, a compare of skip ($0) versus file ($679), a rehook, a myth that busts 'no tax owed means no form' and explains the CRA and the return, a trap rehook on the $11,564 cutoff, the $679 closing, then the cta.",
+      "shape": "ledger",
+      "ending": "cta",
+      "caption": "blur",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "split",
+        "compare",
+        "callout",
+        "badge",
+        "tag",
+        "tabs",
+        "stamp",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "iris",
+        "fade",
+        "iris",
+        "fade",
+        "iris",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "cta"
+      ],
+      "keyword": "FILE"
+    }
+  },
+  "plain": {
+    "what": "The GST/HST credit is money the CRA sends people to help with groceries. The CRA is the government office that handles taxes. In July 2026 this money got a new name, the Canada Groceries and Essentials Benefit, and for July 2026 to June 2027 a single person with no kids can get up to $679.",
+    "so_what": "The CRA works out that $679 from your 2025 tax return, so if you never file, there is nothing for them to pay you from, even when you owe no tax.",
+    "do": "Check today whether your 2025 tax return was filed, and write the answer down.",
+    "words": [
+      {
+        "term": "CRA",
+        "means": "the government office that handles taxes in Canada"
+      },
+      {
+        "term": "tax return",
+        "means": "the yearly form telling the CRA what you earned"
+      },
+      {
+        "term": "filing",
+        "means": "sending your tax form in to the CRA"
+      },
+      {
+        "term": "GST/HST credit",
+        "means": "the old name for this grocery money"
+      },
+      {
+        "term": "Canada Groceries and Essentials Benefit",
+        "means": "money the CRA sends to help with grocery costs"
+      },
+      {
+        "term": "base amount",
+        "means": "the first piece everyone who qualifies gets"
+      },
+      {
+        "term": "supplement",
+        "means": "extra money added on top of the base amount"
+      },
+      {
+        "term": "family net income",
+        "means": "your household's income after certain amounts are taken off"
+      }
+    ]
+  },
+  "subject": "Canada Groceries Benefit",
+  "deliver": {
+    "word": "FILE",
+    "gift": "the file-to-get-paid checklist"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Canada Groceries Benefit: miss the filing, lose $679.",
+        "part": "tease",
+        "data": {
+          "pill": "THE FILE-TO-GET-PAID CHECKLIST",
+          "num": "$679",
+          "line": "Canada Groceries Benefit: miss the filing, lose $679.",
+          "promise": "Give me 30 seconds. Stop losing free money.",
+          "subj": "CANADA GROCERIES BENEFIT",
+          "stamp": "FILE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Stop losing free money.",
+        "nocap": true
+      },
+      {
+        "say": "The file-to-get-paid checklist is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two single adults, same income, one filed, one skipped.",
+        "part": "split",
+        "data": {
+          "k": "SKIPPED FILING vs FILED FOR 2025",
+          "total": "$679",
+          "a": {
+            "v": "$0",
+            "l": "SKIPPED FILING",
+            "w": 0.12,
+            "at": "$0"
+          },
+          "b": {
+            "v": "$679",
+            "l": "FILED FOR 2025",
+            "at": "$679",
+            "label_at": "$679"
+          }
+        },
+        "badge": "TWO ADULTS",
+        "in": "pan"
+      },
+      {
+        "say": "Skipper got $0, filer got up to $679."
+      },
+      {
+        "say": "The *CRA*, the tax office, only pays people who filed.",
+        "part": "donut",
+        "data": {
+          "k": "",
+          "segs": [
+            {
+              "l": "SKIPPED FILING",
+              "v": "$0",
+              "w": 0.0
+            },
+            {
+              "l": "FILED FOR 2025",
+              "v": "$679",
+              "w": 1.0
+            }
+          ],
+          "hi": 1,
+          "at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Most think owing *no* tax means no return.",
+        "part": "tag",
+        "data": {
+          "old": "OWE NOTHING",
+          "new": "FILE ANYWAY",
+          "at": 1,
+          "sub": "the $679 lives on your return.",
+          "sub_at": 1
+        },
+        "in": "iris"
+      },
+      {
+        "say": "But the $679 comes only from a tax return."
+      },
+      {
+        "say": "The yearly form telling them what you earned.",
+        "part": "swap",
+        "data": {
+          "old": "OWE NOTHING",
+          "new": "FILE ANYWAY",
+          "at": "The",
+          "sub": "the $679 lives on your return.",
+          "sub_at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Past $46,432 of income, the $679 shrinks.",
+        "part": "tabs",
+        "data": {
+          "old": "FLAT",
+          "new": "SHRINKS",
+          "at": "SHRINKS",
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "File for 2025 and up to $679 is yours.",
+        "part": "stamp",
+        "data": {
+          "old": "$679",
+          "new": "yours after filing",
+          "at": "yours",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Skip it, and $679 is *gone*.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$679",
+              "v": "−$679",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "nothing paid",
+              "v": "nothing paid",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *FILE,* and I will send you the file-to-get-paid checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "FILE",
+          "at": "FILE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the file-to-get-paid checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Canada Groceries Benefit: miss the filing, lose $679.",
+          "Give me 30 seconds. Stop losing free money."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The file-to-get-paid checklist is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO ADULTS",
+        "data": {
+          "a": {
+            "h": "SKIPPED FILING",
+            "v": "$0",
+            "sub": "nothing to pay from",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FILED FOR 2025",
+            "v": "$679",
+            "sub": "up to, same income",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two single adults, same income, one filed, one skipped.",
+          "Skipper got $0, filer got up to $679."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "SKIPPED FILING",
+            "v": "$0",
+            "sub": "nothing to pay from",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FILED FOR 2025",
+            "v": "$679",
+            "sub": "up to, same income",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The *CRA*, the tax office, only pays people who filed."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "OWE NOTHING",
+          "new": "FILE ANYWAY",
+          "sub": "the $679 lives on your return."
+        },
+        "lines": [
+          "Most think owing *no* tax means no return.",
+          "But the $679 comes only from a tax return."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "OWE NOTHING",
+          "new": "FILE ANYWAY",
+          "sub": "the $679 lives on your return."
+        },
+        "lines": [
+          "The yearly form telling them what you earned."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FLAT",
+          "new": "SHRINKS"
+        },
+        "lines": [
+          "Past $46,432 of income, the $679 shrinks."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$679",
+          "new": "yours after filing"
+        },
+        "lines": [
+          "File for 2025 and up to $679 is yours."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$679",
+          "new": "nothing paid"
+        },
+        "lines": [
+          "Skip it, and $679 is *gone*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FILE",
+          "gift": "the file-to-get-paid checklist"
+        },
+        "lines": [
+          "Comment *FILE,* and I will send you the file-to-get-paid checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: loss hook and promise, a one-breath lock-in naming the checklist, a compare showing $0 against $679 for the same income, the nobody-says rehook, a myth scene turning owe-nothing into file-anyway with the tax return explained, a rule rehook on the $46,432 shrink, the $679 closing, then the given loss cut and FILE cta.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "split",
+        "donut",
+        "callout",
+        "tag",
+        "swap",
+        "tabs",
+        "stamp",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "iris",
+        "pan",
+        "wipe",
+        "pan",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "FILE"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Canada Groceries Benefit: miss the filing, lose $679.",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE FILE-TO-GET-PAID CHECKLIST",
+          "num": "$679",
+          "line": "Canada Groceries Benefit: miss the filing, lose $679.",
+          "promise": "Give me 30 seconds. Stop losing free money.",
+          "subj": "CANADA GROCERIES BENEFIT",
+          "stamp": "FILE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Stop losing free money.",
+        "nocap": true
+      },
+      {
+        "say": "The file-to-get-paid checklist is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two single adults, same income, one filed, one skipped.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "SKIPPED FILING",
+            "big": "$0",
+            "ft": "nothing to pay from"
+          },
+          "b": {
+            "k": "FILED FOR 2025",
+            "big": "$679",
+            "ft": "up to, same income",
+            "at": "$679"
+          },
+          "gap": "$679",
+          "gap_at": "$679"
+        },
+        "badge": "TWO ADULTS",
+        "in": "pan"
+      },
+      {
+        "say": "Skipper got $0, filer got up to $679."
+      },
+      {
+        "say": "The *CRA*, the tax office, only pays people who filed.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "SKIPPED FILING",
+            "big": "$0",
+            "ft": "nothing to pay from"
+          },
+          "b": {
+            "k": "FILED FOR 2025",
+            "big": "$679",
+            "ft": "up to, same income",
+            "at": 0
+          },
+          "gap": "$679",
+          "gap_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Most think owing *no* tax means no return.",
+        "part": "tag",
+        "data": {
+          "old": "OWE NOTHING",
+          "new": "FILE ANYWAY",
+          "at": 1,
+          "sub": "the $679 lives on your return.",
+          "sub_at": 1
+        },
+        "in": "iris"
+      },
+      {
+        "say": "But the $679 comes only from a tax return."
+      },
+      {
+        "say": "The yearly form telling them what you earned.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "OWE NOTHING",
+            "v": "OWE NOTHING",
+            "sub": ""
+          },
+          "b": {
+            "h": "FILE ANYWAY",
+            "v": "FILE ANYWAY",
+            "sub": ""
+          },
+          "at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Past $46,432 of income, the $679 shrinks.",
+        "part": "tabs",
+        "data": {
+          "old": "FLAT",
+          "new": "SHRINKS",
+          "at": "SHRINKS",
+          "k": ""
+        }
+      },
+      {
+        "say": "File for 2025 and up to $679 is yours.",
+        "part": "stamp",
+        "data": {
+          "old": "$679",
+          "new": "yours after filing",
+          "at": "yours",
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Skip it, and $679 is *gone*.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$679",
+              "v": "−$679",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "nothing paid",
+              "v": "nothing paid",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *FILE,* and I will send you the file-to-get-paid checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "FILE",
+          "at": "FILE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the file-to-get-paid checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Canada Groceries Benefit: miss the filing, lose $679.",
+          "Give me 30 seconds. Stop losing free money."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The file-to-get-paid checklist is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO ADULTS",
+        "data": {
+          "a": {
+            "h": "SKIPPED FILING",
+            "v": "$0",
+            "sub": "nothing to pay from",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FILED FOR 2025",
+            "v": "$679",
+            "sub": "up to, same income",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two single adults, same income, one filed, one skipped.",
+          "Skipper got $0, filer got up to $679."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "SKIPPED FILING",
+            "v": "$0",
+            "sub": "nothing to pay from",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FILED FOR 2025",
+            "v": "$679",
+            "sub": "up to, same income",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The *CRA*, the tax office, only pays people who filed."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "OWE NOTHING",
+          "new": "FILE ANYWAY",
+          "sub": "the $679 lives on your return."
+        },
+        "lines": [
+          "Most think owing *no* tax means no return.",
+          "But the $679 comes only from a tax return."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "OWE NOTHING",
+          "new": "FILE ANYWAY",
+          "sub": "the $679 lives on your return."
+        },
+        "lines": [
+          "The yearly form telling them what you earned."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FLAT",
+          "new": "SHRINKS"
+        },
+        "lines": [
+          "Past $46,432 of income, the $679 shrinks."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$679",
+          "new": "yours after filing"
+        },
+        "lines": [
+          "File for 2025 and up to $679 is yours."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$679",
+          "new": "nothing paid"
+        },
+        "lines": [
+          "Skip it, and $679 is *gone*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FILE",
+          "gift": "the file-to-get-paid checklist"
+        },
+        "lines": [
+          "Comment *FILE,* and I will send you the file-to-get-paid checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: loss hook and promise, a one-breath lock-in naming the checklist, a compare showing $0 against $679 for the same income, the nobody-says rehook, a myth scene turning owe-nothing into file-anyway with the tax return explained, a rule rehook on the $46,432 shrink, the $679 closing, then the given loss cut and FILE cta.",
+      "shape": "ledger",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "compare",
+        "dumbbell",
+        "callout",
+        "tag",
+        "wipe",
+        "tabs",
+        "stamp",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "iris",
+        "pan",
+        "fade",
+        "wipe",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "FILE"
+    }
+  }
+}

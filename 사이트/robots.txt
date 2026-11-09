@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hama-money.vercel.app/sitemap.xml

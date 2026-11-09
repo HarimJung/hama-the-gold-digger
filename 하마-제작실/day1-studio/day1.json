@@ -1,0 +1,81 @@
+{
+  "id": "hama-2026-11-02",
+  "day": 1,
+  "date": "2026-11-02",
+  "timezone": "America/Toronto",
+  "source_authority": "사용자가 이 채팅에 직접 붙인 31일 원본. 기존 파일은 보조 참조.",
+  "editorial_status": "아이디어",
+  "approved": false,
+  "published": false,
+  "production_status": "Day1 PNG 6장·30초 MP4 렌더 완료. 미승인 시안.",
+  "proposed_palette": {
+    "gold": "#D4AF37",
+    "black": "#111111",
+    "cream": "#FFF8E7",
+    "approved": false
+  },
+  "blocks": [
+    {
+      "id": "morning",
+      "format": "스토리",
+      "source": "아침 BTC·ETH 가격",
+      "files": [
+        "day1-morning-1.png",
+        "day1-morning-2.png"
+      ],
+      "placeholders": [
+        "BTC 가격",
+        "ETH 가격",
+        "통화",
+        "확인 시각 ET",
+        "출처"
+      ],
+      "native_sticker": "투표: 그림으로 볼래요 / 이미 알아요"
+    },
+    {
+      "id": "mini",
+      "format": "미니 피드",
+      "source": "3-ETF 역할 3칸 빈칸",
+      "files": [
+        "day1-mini.png"
+      ],
+      "placeholders": [
+        "역할 3개",
+        "ETF 종목 3개",
+        "비중 3개"
+      ]
+    },
+    {
+      "id": "reel",
+      "format": "메인 릴스",
+      "source": "하마예요, 시간이 왜 제일 센지 그림으로 보여줄게요",
+      "files": [
+        "day1-reel.mp4"
+      ],
+      "duration_seconds": 30,
+      "audio": "없음. 무음 자막 모션 시안.",
+      "changes": "훅을 질문형 시안으로 바꾸고 수익·비용·손실 조건을 본문에 보충. 기존 주제는 유지.",
+      "placeholders": []
+    },
+    {
+      "id": "night",
+      "format": "스토리",
+      "source": "트렌치 하마, 내일 ETF 예고",
+      "files": [
+        "day1-night-1.png",
+        "day1-night-2.png"
+      ],
+      "native_sticker": "질문 스티커는 인스타 앱에서 추가"
+    }
+  ],
+  "save_card": "day1-save.png",
+  "sources": [
+    {
+      "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest",
+      "checked": "2026-11-02",
+      "supports": "원금과 누적 이자를 함께 기준으로 계산하는 복리 정의. 투자 수익 재투자는 이를 설명하는 일반적 비유이며 특정 성과 예측이 아니다."
+    }
+  ],
+  "visual_metaphor": "46부품 트레이 구조도. 블록의 개수·크기는 금액이나 수익률 데이터가 아니다.",
+  "publish_gate": "가격 빈칸 입력·브랜드 시안 확인·전체 영상 검수·Taylor 발행 승인 필요"
+}

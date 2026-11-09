@@ -1,0 +1,1360 @@
+{
+  "key": "hundred-a-month-three-etf-leftover",
+  "category": "etf",
+  "status": "draft",
+  "title": "Split $100 three ways and it buys nothing.",
+  "object": "THE $100 MONTHLY SPLIT SHEET",
+  "made_by": "엔진/find.py 2026-11-05 · 신호 ['scd1213cd', 's1e8fd79e', 's8f85e8a6', 's34791603'] · 퍼스나 The late starter with unused room",
+  "fact": {
+    "num": "100",
+    "unit": "$",
+    "thing": "uninvested cash from a $100 three-way ETF split",
+    "box": "a TFSA or RRSP at a broker that only sells whole shares",
+    "claim": "On Nov 4, 2026 one share cost CAD 45.40 for XEQT, $61.76 for VEQT and $190.40 for VFV on the funds' own pages. Split $100 three ways and each slice is $33.33, which is less than one share of any of them, so at a broker that only sells whole shares the entire $100 sits in cash and buys nothing. Put the same $100 into XEQT alone and it buys 2 shares for $90.80, leaving $9.20 uninvested. The exception is brokers that sell fractional shares, such as Wealthsimple, where the three-way split invests the full amount; share prices also change daily, so the leftover changes with them.",
+    "sources": [
+      "iShares XEQT fund page",
+      "Vanguard Canada VEQT",
+      "Vanguard Canada VFV",
+      "Wealthsimple fractional shares"
+    ],
+    "verified": "find.py · 대조 3/4",
+    "felt": {
+      "num": "90.80",
+      "unit": "$",
+      "a": "90.80",
+      "b": "0",
+      "how": "$100 a month: three-way split buys $0 of shares, XEQT alone buys $90.80",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "iShares XEQT fund page",
+      "url": "https://www.blackrock.com/ca/investors/en/products/309480/ishares-core-equity-etf-portfolio-fund",
+      "what": "NAV as of Nov 4, 2026 CAD 45.40",
+      "confidence": "1차"
+    },
+    {
+      "label": "Vanguard Canada VEQT",
+      "url": "https://www.vanguard.ca/en/product/etf/asset-allocation/9692/vanguard-all-equity-etf-portfolio",
+      "what": "Nav Price (CAD) $61.76 As at Nov 04 2026",
+      "confidence": "1차"
+    },
+    {
+      "label": "Vanguard Canada VFV",
+      "url": "https://www.vanguard.ca/en/product/etf/equity/9563/vanguard-sp-500-index-etf",
+      "what": "Market price (CAD) $190.40",
+      "confidence": "1차"
+    },
+    {
+      "label": "Wealthsimple fractional shares",
+      "url": "https://www.wealthsimple.com/en-ca/fractional-shares",
+      "what": "Thousands of Canadian and U.S. stocks and ETFs are eligible for fractional trading.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "ETF · CANADA",
+      "topic": "THE ETF COMBO",
+      "hook": {
+        "pre": "XEQT, VEQT, VFV: $",
+        "num": "100",
+        "post": " in, $90.80 of shares missing. Want the mix?"
+      },
+      "promise": "Give me 30 seconds. See the exact mix."
+    },
+    {
+      "type": "mini",
+      "kicker": "THE PART NOBODY MENTIONS",
+      "title": "Three slices. Not one share.",
+      "lead": "Split $100 across three funds and each slice is <em>$33.33.</em>",
+      "rows": [
+        {
+          "t": "XEQT, one share $45.40",
+          "v": "BUYS 0"
+        },
+        {
+          "t": "VEQT, one share $61.76",
+          "v": "BUYS 0"
+        },
+        {
+          "t": "VFV, one share $190.40",
+          "v": "BUYS 0"
+        },
+        {
+          "t": "Same $100, one fund, XEQT",
+          "v": "BUYS 2",
+          "ok": true
+        }
+      ],
+      "tail": "At a broker that sells whole shares only, the entire $100 sits as cash. A broker with fractional shares, like Wealthsimple, invests all of it.",
+      "source_label": "ISHARES · VANGUARD CANADA · WEALTHSIMPLE",
+      "say": "Hama waited a month.|Nothing got bought."
+    },
+    {
+      "type": "table",
+      "kicker": "THE $100 MONTHLY SPLIT SHEET",
+      "title": "Same money. The *split* buys less.",
+      "h1": "YOU PUT IN",
+      "h2": "THREE-WAY SPLIT BUYS",
+      "h3": "ONE FUND (XEQT) BUYS",
+      "rows": [
+        {
+          "a": "$100",
+          "asub": "a month",
+          "bar": 0,
+          "b": "$0",
+          "gone": "$100 sits in cash",
+          "c": "$90.80",
+          "csub": "$9.20 in cash"
+        },
+        {
+          "a": "$200",
+          "asub": "a month",
+          "bar": 54,
+          "b": "$107.16",
+          "gone": "$92.84 sits in cash",
+          "c": "$181.60",
+          "csub": "$18.40 in cash"
+        },
+        {
+          "a": "$300",
+          "asub": "a month",
+          "bar": 51,
+          "b": "$152.56",
+          "gone": "$147.44 sits in cash",
+          "c": "$272.40",
+          "csub": "$27.60 in cash"
+        },
+        {
+          "a": "$500",
+          "asub": "a month",
+          "bar": 52,
+          "b": "$259.72",
+          "gone": "$240.28 sits in cash",
+          "c": "$499.40",
+          "csub": "$0.60 in cash"
+        }
+      ],
+      "note": "Whole shares only, at XEQT $45.40, VEQT $61.76, VFV $190.40 on Nov 4, 2026. Example math, not a promise. Prices move daily, so the leftover moves too. <b>Save this. Find your row.</b>",
+      "source_label": "ISHARES XEQT · VANGUARD VEQT · VANGUARD VFV"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "XEQT, VEQT, VFV: your $100 split missed $90.80 of shares. Want them?",
+      "XEQT, VEQT, VFV splitters left $90.80 sitting. Want it invested?",
+      "XEQT, VEQT, VFV three ways: the split cost $90.80 of shares. Still splitting?",
+      "XEQT, VEQT, VFV together bought $90.80 less than one alone. Want shares?",
+      "Hama's XEQT, VEQT, VFV split: $90.80 of shares never showed up. Want them?",
+      "XEQT, VEQT, VFV splitters missed $90.80 of shares every month. Want them back?",
+      "XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?",
+      "XEQT, VEQT, VFV split vs one pick: $90.80 apart. Want Hama's pick?",
+      "XEQT, VEQT, VFV split: month one, $90.80 of shares missed already. Still waiting?",
+      "Never split XEQT, VEQT, VFV: it skips $90.80 of shares. Want them?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?",
+    "spoken": "XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?",
+    "promise": "Give me 30 seconds. See the exact mix.",
+    "pick_why": "Three names a reader knows, $100 in and $90.80 of shares missing in one glance, and the mix question hands them the exact thing they came for.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "FIX THE MIX"
+  },
+  "lede": "One share of each fund costs more than one slice of $100, so at a whole-share broker the money just sits as cash.",
+  "series": "ETF BUYING BASICS",
+  "source_note": "FUND PAGES · NAV AND PRICE ON NOV 4, 2026",
+  "caption": "🐶⛏️ If you split $100 three ways, $90.80 of shares might never get bought.\n\nEach slice is $33.33, less than one share of each fund, so an app that only sells whole shares leaves it all as cash. Apps that sell pieces, like Wealthsimple, invest every dollar.\n\nComment SPLIT and I'll send you my $100 monthly split sheet 🪙\nDoes your app sell pieces?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#xeqt #etfcanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 이름.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?",
+        "part": "rise",
+        "data": {
+          "pill": "THE $100 MONTHLY SPLIT SHEET",
+          "num": "$90.80",
+          "line": "XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?",
+          "promise": "Give me 30 seconds. See the exact mix.",
+          "subj": "XEQT, VEQT, VFV",
+          "stamp": "FIX THE MIX"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the exact mix.",
+        "nocap": true
+      },
+      {
+        "say": "Stay, the split sheet is yours.",
+        "cap": "low"
+      },
+      {
+        "say": "Hama split $100 across XEQT, VEQT, VFV, funds holding many companies.",
+        "part": "donut",
+        "data": {
+          "k": "THE GAP",
+          "segs": [
+            {
+              "l": "SPLIT 3 WAYS",
+              "v": "$0",
+              "w": 0.0
+            },
+            {
+              "l": "XEQT ALONE",
+              "v": "$90.80",
+              "w": 1.0
+            }
+          ],
+          "hi": 1,
+          "at": "$90.80"
+        },
+        "badge": "THE GAP",
+        "in": "iris"
+      },
+      {
+        "say": "Split three ways, $100 bought *nothing*, XEQT alone bought $90.80."
+      },
+      {
+        "say": "Each slice was $33.33, under one share.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "SPLIT 3 WAYS",
+            "big": "$0",
+            "ft": "$100 sits in cash"
+          },
+          "b": {
+            "k": "XEQT ALONE",
+            "big": "$90.80",
+            "ft": "same $100, 2 shares",
+            "at": 0
+          },
+          "gap": "$90.80",
+          "gap_at": 0
+        }
+      },
+      {
+        "say": "What does one share cost?",
+        "part": "callout",
+        "data": {
+          "word": "cost",
+          "line": "What does one share cost?",
+          "at": "cost"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "One share: XEQT $45.40, VEQT $61.76, VFV $190.40.",
+        "part": "strike",
+        "data": {
+          "old": "WHOLE SHARES",
+          "new": "ALL CASH",
+          "at": "Whole-share",
+          "k": "THE RULE",
+          "sub": "every slice under one share.",
+          "sub_at": 1
+        },
+        "badge": "THE RULE",
+        "in": "zoom"
+      },
+      {
+        "say": "Whole-share apps leave every slice as cash."
+      },
+      {
+        "say": "Wealthsimple sells pieces of shares and invests all $100.",
+        "part": "badge",
+        "data": {
+          "old": "WHOLE SHARES",
+          "new": "ALL CASH",
+          "at": "ALL",
+          "sub": "every slice under one share.",
+          "sub_at": 0,
+          "k": "THE $100 MONTHLY SPLIT SHEET"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Even $200 a month leaves $92.84 in cash.",
+        "part": "callout",
+        "data": {
+          "word": "cash",
+          "line": "Even $200 a month leaves $92.84 in cash.",
+          "at": "cash"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Same $100, one fund bought $90.80, the split *none*.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$90.80",
+          "tail": "one fund bought it",
+          "at": "$90.80"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Find your *row*, prices move daily.",
+        "part": "table",
+        "data": {
+          "k": "YOUR ROW",
+          "cols": [
+            "THREE-WAY SPLIT BUYS",
+            "ONE FUND (XEQT) BUYS"
+          ],
+          "rows": [
+            {
+              "lab": "$100",
+              "cells": [
+                "$0",
+                "$90.80"
+              ]
+            },
+            {
+              "lab": "$200",
+              "cells": [
+                "$107.16",
+                "$181.60"
+              ]
+            },
+            {
+              "lab": "$300",
+              "cells": [
+                "$152.56",
+                "$272.40"
+              ]
+            },
+            {
+              "lab": "$500",
+              "cells": [
+                "$259.72",
+                "$499.40"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 0
+        },
+        "badge": "YOUR ROW"
+      },
+      {
+        "say": "Comment *SPLIT,* and I will send you the split sheet.",
+        "part": "tiles",
+        "data": {
+          "word": "SPLIT",
+          "at": "SPLIT",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the $100 monthly split sheet ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?",
+          "Give me 30 seconds. See the exact mix."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Stay, the split sheet is yours."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "SPLIT 3 WAYS",
+            "v": "$0",
+            "sub": "$100 sits in cash",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "XEQT ALONE",
+            "v": "$90.80",
+            "sub": "same $100, 2 shares",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Hama split $100 across XEQT, VEQT, VFV, funds holding many companies.",
+          "Split three ways, $100 bought *nothing*, XEQT alone bought $90.80."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "SPLIT 3 WAYS",
+            "v": "$0",
+            "sub": "$100 sits in cash",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "XEQT ALONE",
+            "v": "$90.80",
+            "sub": "same $100, 2 shares",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Each slice was $33.33, under one share."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "What does one share cost?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE RULE",
+        "data": {
+          "old": "WHOLE SHARES",
+          "new": "ALL CASH",
+          "sub": "every slice under one share."
+        },
+        "lines": [
+          "One share: XEQT $45.40, VEQT $61.76, VFV $190.40.",
+          "Whole-share apps leave every slice as cash."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "WHOLE SHARES",
+          "new": "ALL CASH",
+          "sub": "every slice under one share."
+        },
+        "lines": [
+          "Wealthsimple sells pieces of shares and invests all $100."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Even $200 a month leaves $92.84 in cash."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$90.80",
+          "new": "one fund bought it"
+        },
+        "lines": [
+          "Same $100, one fund bought $90.80, the split *none*."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "$500 SPLIT 3 WAYS",
+            "v": "$259.72",
+            "sub": "$240.28 sits in cash",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $500 IN XEQT",
+            "v": "$499.40",
+            "sub": "$0.60 in cash",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find your *row*, prices move daily."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "SPLIT",
+          "gift": "the $100 monthly split sheet"
+        },
+        "lines": [
+          "Comment *SPLIT,* and I will send you the split sheet."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, the lock-in names the sheet they get, the compare shows $0 against $90.80 from the same $100 and why, a question rehooks into the share prices and the whole-share rule with the fractional exception, the $200 row rehooks, the closing repeats $90.80, and the given myrow plus cta ending closes.",
+      "shape": "zoom",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "rise",
+      "parts": [
+        "rise",
+        "donut",
+        "compare",
+        "callout",
+        "strike",
+        "badge",
+        "callout",
+        "tail",
+        "table",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "fade",
+        "iris",
+        "zoom",
+        "iris",
+        "pan",
+        "wipe",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "SPLIT"
+    }
+  },
+  "plain": {
+    "what": "Hama put $100 into three funds at once — XEQT, VEQT and VFV, each one fund that holds many companies at once — so each slice was $33.33. On Nov 4, 2026 one share cost $45.40 for XEQT, $61.76 for VEQT and $190.40 for VFV. Every slice was smaller than one share, so at a broker that only deals in whole shares the full $100 just sat there as cash.",
+    "so_what": "One VFV share alone cost $190.40, so a $33.33 slice could not reach even one share, and the money sat as cash instead of being invested.",
+    "do": "Today, write down two things: whether your broker handles fractional shares, and how much cash is sitting idle in your account right now.",
+    "words": [
+      {
+        "term": "XEQT, VEQT, VFV",
+        "means": "short code names for three funds"
+      },
+      {
+        "term": "ETF",
+        "means": "one fund that holds many companies at once"
+      },
+      {
+        "term": "share",
+        "means": "one small piece of a fund you own"
+      },
+      {
+        "term": "fractional share",
+        "means": "a piece of a share, smaller than one whole one"
+      },
+      {
+        "term": "broker",
+        "means": "the app or bank that holds your investments"
+      },
+      {
+        "term": "cash",
+        "means": "money sitting in the account, not invested"
+      },
+      {
+        "term": "TFSA or RRSP",
+        "means": "accounts that hold investments with a tax break"
+      }
+    ]
+  },
+  "subject": "XEQT, VEQT, VFV",
+  "deliver": {
+    "word": "SPLIT",
+    "gift": "the $100 monthly split sheet"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 이름.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?",
+        "part": "glass",
+        "data": {
+          "pill": "THE $100 MONTHLY SPLIT SHEET",
+          "num": "$90.80",
+          "line": "XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?",
+          "promise": "Give me 30 seconds. See the exact mix.",
+          "subj": "XEQT, VEQT, VFV",
+          "stamp": "FIX THE MIX"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the exact mix.",
+        "nocap": true
+      },
+      {
+        "say": "Stay, the split sheet is yours.",
+        "cap": "low"
+      },
+      {
+        "say": "Hama split $100 across XEQT, VEQT, VFV, funds holding many companies.",
+        "part": "split",
+        "data": {
+          "k": "SPLIT 3 WAYS vs XEQT ALONE",
+          "total": "$90.80",
+          "a": {
+            "v": "$0",
+            "l": "SPLIT 3 WAYS",
+            "w": 0.12,
+            "at": 0
+          },
+          "b": {
+            "v": "$90.80",
+            "l": "XEQT ALONE",
+            "at": "$90.80",
+            "label_at": "$90.80"
+          }
+        },
+        "badge": "THE GAP",
+        "in": "iris"
+      },
+      {
+        "say": "Split three ways, $100 bought *nothing*, XEQT alone bought $90.80."
+      },
+      {
+        "say": "Each slice was $33.33, under one share.",
+        "part": "table",
+        "data": {
+          "k": "THE $100 MONTHLY SPLIT SHEET",
+          "cols": [
+            "THREE-WAY SPLIT BUYS",
+            "ONE FUND (XEQT) BUYS"
+          ],
+          "rows": [
+            {
+              "lab": "$100",
+              "cells": [
+                "$0",
+                "$90.80"
+              ]
+            },
+            {
+              "lab": "$200",
+              "cells": [
+                "$107.16",
+                "$181.60"
+              ]
+            },
+            {
+              "lab": "$300",
+              "cells": [
+                "$152.56",
+                "$272.40"
+              ]
+            },
+            {
+              "lab": "$500",
+              "cells": [
+                "$259.72",
+                "$499.40"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "What does one share cost?",
+        "part": "callout",
+        "data": {
+          "word": "cost",
+          "line": "What does one share cost?",
+          "at": "cost"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "One share: XEQT $45.40, VEQT $61.76, VFV $190.40.",
+        "part": "badge",
+        "data": {
+          "old": "WHOLE SHARES",
+          "new": "ALL CASH",
+          "at": 1,
+          "sub": "every slice under one share.",
+          "sub_at": 1,
+          "k": "THE RULE"
+        },
+        "badge": "THE RULE",
+        "in": "pan"
+      },
+      {
+        "say": "Whole-share apps leave every slice as cash."
+      },
+      {
+        "say": "Wealthsimple sells pieces of shares and invests all $100.",
+        "part": "stamp",
+        "data": {
+          "old": "WHOLE SHARES",
+          "new": "ALL CASH",
+          "at": "ALL",
+          "k": "",
+          "sub": "every slice under one share.",
+          "sub_at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Even $200 a month leaves $92.84 in cash.",
+        "part": "callout",
+        "data": {
+          "word": "cash",
+          "line": "Even $200 a month leaves $92.84 in cash.",
+          "at": "cash"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Same $100, one fund bought $90.80, the split *none*.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "90.80",
+          "pre": "$",
+          "suf": "",
+          "label": "one fund bought it",
+          "at": "$90.80"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Find your *row*, prices move daily.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "$500 SPLIT 3 WAYS",
+            "big": "$259.72",
+            "ft": "$240.28 sits in cash"
+          },
+          "b": {
+            "k": "SAME $500 IN XEQT",
+            "big": "$499.40",
+            "ft": "$0.60 in cash",
+            "at": 0
+          }
+        },
+        "badge": "YOUR ROW",
+        "in": "wipe"
+      },
+      {
+        "say": "Comment *SPLIT,* and I will send you the split sheet.",
+        "part": "tiles",
+        "data": {
+          "word": "SPLIT",
+          "at": "SPLIT",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the $100 monthly split sheet ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?",
+          "Give me 30 seconds. See the exact mix."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Stay, the split sheet is yours."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "SPLIT 3 WAYS",
+            "v": "$0",
+            "sub": "$100 sits in cash",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "XEQT ALONE",
+            "v": "$90.80",
+            "sub": "same $100, 2 shares",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Hama split $100 across XEQT, VEQT, VFV, funds holding many companies.",
+          "Split three ways, $100 bought *nothing*, XEQT alone bought $90.80."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "SPLIT 3 WAYS",
+            "v": "$0",
+            "sub": "$100 sits in cash",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "XEQT ALONE",
+            "v": "$90.80",
+            "sub": "same $100, 2 shares",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Each slice was $33.33, under one share."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "What does one share cost?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE RULE",
+        "data": {
+          "old": "WHOLE SHARES",
+          "new": "ALL CASH",
+          "sub": "every slice under one share."
+        },
+        "lines": [
+          "One share: XEQT $45.40, VEQT $61.76, VFV $190.40.",
+          "Whole-share apps leave every slice as cash."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "WHOLE SHARES",
+          "new": "ALL CASH",
+          "sub": "every slice under one share."
+        },
+        "lines": [
+          "Wealthsimple sells pieces of shares and invests all $100."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Even $200 a month leaves $92.84 in cash."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$90.80",
+          "new": "one fund bought it"
+        },
+        "lines": [
+          "Same $100, one fund bought $90.80, the split *none*."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "$500 SPLIT 3 WAYS",
+            "v": "$259.72",
+            "sub": "$240.28 sits in cash",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $500 IN XEQT",
+            "v": "$499.40",
+            "sub": "$0.60 in cash",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find your *row*, prices move daily."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "SPLIT",
+          "gift": "the $100 monthly split sheet"
+        },
+        "lines": [
+          "Comment *SPLIT,* and I will send you the split sheet."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, the lock-in names the sheet they get, the compare shows $0 against $90.80 from the same $100 and why, a question rehooks into the share prices and the whole-share rule with the fractional exception, the $200 row rehooks, the closing repeats $90.80, and the given myrow plus cta ending closes.",
+      "shape": "zoom",
+      "ending": "myrow_cta",
+      "caption": "karaoke",
+      "opener": "glass",
+      "parts": [
+        "glass",
+        "split",
+        "table",
+        "callout",
+        "badge",
+        "stamp",
+        "callout",
+        "odometer",
+        "compare",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "pan",
+        "iris",
+        "pan",
+        "wipe",
+        "iris",
+        "pan",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "SPLIT"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 이름.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?",
+        "part": "glass",
+        "data": {
+          "pill": "THE $100 MONTHLY SPLIT SHEET",
+          "num": "$90.80",
+          "line": "XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?",
+          "promise": "Give me 30 seconds. See the exact mix.",
+          "subj": "XEQT, VEQT, VFV",
+          "stamp": "FIX THE MIX"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the exact mix.",
+        "nocap": true
+      },
+      {
+        "say": "Stay, the split sheet is yours.",
+        "cap": "low"
+      },
+      {
+        "say": "Hama split $100 across XEQT, VEQT, VFV, funds holding many companies.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "SPLIT 3 WAYS",
+            "v": "$0",
+            "sub": "$100 sits in cash"
+          },
+          "b": {
+            "h": "XEQT ALONE",
+            "v": "$90.80",
+            "sub": "same $100, 2 shares"
+          },
+          "at": "$90.80"
+        },
+        "badge": "THE GAP",
+        "in": "iris"
+      },
+      {
+        "say": "Split three ways, $100 bought *nothing*, XEQT alone bought $90.80."
+      },
+      {
+        "say": "Each slice was $33.33, under one share.",
+        "part": "donut",
+        "data": {
+          "k": "",
+          "segs": [
+            {
+              "l": "SPLIT 3 WAYS",
+              "v": "$0",
+              "w": 0.0
+            },
+            {
+              "l": "XEQT ALONE",
+              "v": "$90.80",
+              "w": 1.0
+            }
+          ],
+          "hi": 1,
+          "at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "What does one share cost?",
+        "part": "callout",
+        "data": {
+          "word": "cost",
+          "line": "What does one share cost?",
+          "at": "cost"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "One share: XEQT $45.40, VEQT $61.76, VFV $190.40.",
+        "part": "badge",
+        "data": {
+          "old": "WHOLE SHARES",
+          "new": "ALL CASH",
+          "at": 1,
+          "sub": "every slice under one share.",
+          "sub_at": 1,
+          "k": "THE RULE"
+        },
+        "badge": "THE RULE",
+        "in": "zoom"
+      },
+      {
+        "say": "Whole-share apps leave every slice as cash."
+      },
+      {
+        "say": "Wealthsimple sells pieces of shares and invests all $100.",
+        "part": "stamp",
+        "data": {
+          "old": "WHOLE SHARES",
+          "new": "ALL CASH",
+          "at": "ALL",
+          "k": "",
+          "sub": "every slice under one share.",
+          "sub_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Even $200 a month leaves $92.84 in cash.",
+        "part": "callout",
+        "data": {
+          "word": "cash",
+          "line": "Even $200 a month leaves $92.84 in cash.",
+          "at": "cash"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Same $100, one fund bought $90.80, the split *none*.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "90.80",
+          "pre": "$",
+          "suf": "",
+          "label": "one fund bought it",
+          "at": "$90.80"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Find your *row*, prices move daily.",
+        "part": "table",
+        "data": {
+          "k": "YOUR ROW",
+          "cols": [
+            "THREE-WAY SPLIT BUYS",
+            "ONE FUND (XEQT) BUYS"
+          ],
+          "rows": [
+            {
+              "lab": "$100",
+              "cells": [
+                "$0",
+                "$90.80"
+              ]
+            },
+            {
+              "lab": "$200",
+              "cells": [
+                "$107.16",
+                "$181.60"
+              ]
+            },
+            {
+              "lab": "$300",
+              "cells": [
+                "$152.56",
+                "$272.40"
+              ]
+            },
+            {
+              "lab": "$500",
+              "cells": [
+                "$259.72",
+                "$499.40"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 0
+        },
+        "badge": "YOUR ROW"
+      },
+      {
+        "say": "Comment *SPLIT,* and I will send you the split sheet.",
+        "part": "tiles",
+        "data": {
+          "word": "SPLIT",
+          "at": "SPLIT",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the $100 monthly split sheet ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "XEQT, VEQT, VFV: $100 in, $90.80 of shares missing. Want the mix?",
+          "Give me 30 seconds. See the exact mix."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Stay, the split sheet is yours."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "SPLIT 3 WAYS",
+            "v": "$0",
+            "sub": "$100 sits in cash",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "XEQT ALONE",
+            "v": "$90.80",
+            "sub": "same $100, 2 shares",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Hama split $100 across XEQT, VEQT, VFV, funds holding many companies.",
+          "Split three ways, $100 bought *nothing*, XEQT alone bought $90.80."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "SPLIT 3 WAYS",
+            "v": "$0",
+            "sub": "$100 sits in cash",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "XEQT ALONE",
+            "v": "$90.80",
+            "sub": "same $100, 2 shares",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Each slice was $33.33, under one share."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "What does one share cost?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE RULE",
+        "data": {
+          "old": "WHOLE SHARES",
+          "new": "ALL CASH",
+          "sub": "every slice under one share."
+        },
+        "lines": [
+          "One share: XEQT $45.40, VEQT $61.76, VFV $190.40.",
+          "Whole-share apps leave every slice as cash."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "WHOLE SHARES",
+          "new": "ALL CASH",
+          "sub": "every slice under one share."
+        },
+        "lines": [
+          "Wealthsimple sells pieces of shares and invests all $100."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Even $200 a month leaves $92.84 in cash."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$90.80",
+          "new": "one fund bought it"
+        },
+        "lines": [
+          "Same $100, one fund bought $90.80, the split *none*."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "$500 SPLIT 3 WAYS",
+            "v": "$259.72",
+            "sub": "$240.28 sits in cash",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $500 IN XEQT",
+            "v": "$499.40",
+            "sub": "$0.60 in cash",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find your *row*, prices move daily."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "SPLIT",
+          "gift": "the $100 monthly split sheet"
+        },
+        "lines": [
+          "Comment *SPLIT,* and I will send you the split sheet."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, the lock-in names the sheet they get, the compare shows $0 against $90.80 from the same $100 and why, a question rehooks into the share prices and the whole-share rule with the fractional exception, the $200 row rehooks, the closing repeats $90.80, and the given myrow plus cta ending closes.",
+      "shape": "zoom",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "glass",
+      "parts": [
+        "glass",
+        "wipe",
+        "donut",
+        "callout",
+        "badge",
+        "stamp",
+        "callout",
+        "odometer",
+        "table",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "pan",
+        "iris",
+        "zoom",
+        "iris",
+        "pan",
+        "wipe",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "SPLIT"
+    }
+  }
+}

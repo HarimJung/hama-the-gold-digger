@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-03",
+  "day": 2,
+  "slot": "main",
+  "category": "tax",
+  "status": "draft",
+  "title": "Day 1 · TFSA",
+  "lede": "훅 100점. 어려운 말 없음, 한 장에 한 가지.",
+  "series": "TFSA · THE GOOD BOX",
+  "source_note": "CONFIRM WITH CRA",
+  "hooks": {
+    "candidates": [
+      "Nobody tells you a TFSA can still lose you 15 percent.",
+      "15 percent of your US dividends vanish inside a TFSA and you never get it back.",
+      "A crash makes your TFSA room bigger. Your limit is dollars, not shares.",
+      "7000 dollars buys more shares when the market is down. Same room, more stuff."
+    ],
+    "spoken": "Nobody tells you a TFSA can still lose you 15 percent.",
+    "on_screen": "A TFSA CAN STILL LOSE 15%"
+  },
+  "sources": [
+    {
+      "claim": "US withholding on US dividends inside a TFSA is 15% and not recoverable",
+      "where": "broker education pages",
+      "confidence": "blog-only, marked CONFIRM WITH CRA"
+    },
+    {
+      "claim": "2026 TFSA annual room is $7,000",
+      "where": "CRA",
+      "confidence": "official"
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "figure": "15%",
+      "promise": "of your US dividends disappear<br>inside a TFSA.",
+      "sub": "Tax-free in Canada. Not tax-free at the border."
+    },
+    {
+      "type": "stake",
+      "text": "A TFSA is the best box Canada gives you. Put the <em>wrong thing in it</em> and you hand money away without ever seeing a bill.",
+      "under": "What it wins. What it loses. And why a bad market helps you here."
+    },
+    {
+      "type": "idea",
+      "title": "What it wins",
+      "figure": "$0",
+      "figure_label": "TAX ON THE GROWTH",
+      "body": "It grows, you pay nothing. You take it out, you pay nothing. No tax form, no year-end surprise. The whole point of the box.",
+      "eg_label": "SO",
+      "eg": "The thing that grows the most is the thing that belongs in here."
+    },
+    {
+      "type": "idea",
+      "title": "Where it leaks",
+      "figure": "15%",
+      "figure_label": "TAKEN BEFORE IT ARRIVES",
+      "body": "The US takes a cut of US dividends on the way out. Canada can't give it back, because you owe nothing to claim it against.",
+      "eg_label": "MEANS",
+      "eg": "A $100 US dividend shows up as $85. Every time."
+    },
+    {
+      "type": "idea",
+      "title": "So what goes in it",
+      "figure": "Growth",
+      "figure_label": "NOT DIVIDEND CHEQUES",
+      "body": "Things that go up are perfect here, because the gain is never taxed. Things that pay US dividends leak 15% no matter what.",
+      "eg_label": "NOTE",
+      "eg": "An RRSP is treated differently under the treaty. Look up your own case first."
+    },
+    {
+      "type": "idea",
+      "title": "Why a drop helps",
+      "figure": "$7,000",
+      "figure_label": "DOLLARS, NOT SHARES",
+      "body": "Your room is counted in dollars. Prices fall, the room stays the same, so the same $7,000 buys more shares than last year.",
+      "eg_label": "CATCH",
+      "eg": "A loss in here is just a loss. You can't claim it on your taxes."
+    },
+    {
+      "type": "recap",
+      "title": "The whole thing",
+      "rows": [
+        {
+          "v": "$0",
+          "t": "Tax on growth",
+          "s": "Goes up tax-free, comes out tax-free."
+        },
+        {
+          "v": "15%",
+          "t": "Gone on US dividends",
+          "s": "Taken at the border. Not refundable here."
+        },
+        {
+          "v": "Growth",
+          "t": "What belongs in it",
+          "s": "The thing you expect to grow the most."
+        },
+        {
+          "v": "$7,000",
+          "t": "Room is in dollars",
+          "s": "So low prices buy more. Losses don't count."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "text": "Open your TFSA.<br>Look for US dividends.",
+      "button": "Save this · check before your next buy",
+      "fine": "General education, not tax advice. Confirm your own case with CRA."
+    }
+  ],
+  "caption": "15% of your US dividends never make it into your TFSA. Here's what that box is actually good at, and what it quietly leaks.\n\nA TFSA isn't an investment. It's a box you put investments inside. What grows in there is never taxed, and you don't pay a cent when you take it out. That's the win, and it's a big one.\n\nThe leak is US dividends. The US takes 15% on the way out, and Canada can't refund it because you don't owe tax here to claim it against. A $100 US dividend shows up as $85, every single time.\n\nSo the thing you expect to grow the most is what belongs in there. An RRSP is treated differently under the treaty, so look up your own case before you move anything.\n\nOne more that nobody says out loud: your room is counted in dollars, not shares. When prices drop, that same $7,000 buys more than it did last year. The catch is that a loss in a TFSA is just a loss, and you can't claim it on your taxes.\n\nGeneral education, not tax advice. Confirm your own numbers with CRA.\n\nSave this and check your TFSA before your next buy.\n\n#tfsa #canadianinvesting #personalfinancecanada #investingforbeginners"
+}

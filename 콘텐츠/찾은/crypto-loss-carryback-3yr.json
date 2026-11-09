@@ -1,0 +1,1200 @@
+{
+  "key": "crypto-loss-carryback-3yr",
+  "category": "crypto",
+  "status": "draft",
+  "title": "The 3-year rule your crypto loss is missing.",
+  "object": "THE LOSS CARRY-BACK CHECKLIST",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['sb7e63a60', 's54817a27'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "1,483",
+    "unit": "$",
+    "thing": "tax refunded on a $10,000 capital loss carried back",
+    "box": "Taxable (non-registered) account, past 3 years' returns via Form T1A",
+    "claim": "You can use a net capital loss to cut your taxable capital gains in any of the three previous years, or carry it forward with no time limit. To carry it back you file Form T1A, and you don't amend the old return. Half of the loss counts (the 50% inclusion rate), and it can only offset capital gains, not wages or other income. For an Ontario resident earning just over $58,523, that half is taxed at a combined 29.65%, so a $10,000 loss gets back about $1,483 of tax paid on earlier gains. This is an example: the real refund depends on your tax rate in the year the gain was taxed.",
+    "felt": {
+      "num": "1,483",
+      "unit": "$",
+      "a": "1,483",
+      "b": "0",
+      "how": "$10,000 crypto loss carried back on Form T1A against $10,000 of earlier gains vs. not filing T1A, Ontario income just over $58,523 (14.83% capital gains rate)"
+    },
+    "sources": [
+      "CRA – Capital losses and deductions",
+      "CRA – Capital losses and deductions",
+      "CRA – Capital losses and deductions",
+      "CRA – Form T1A",
+      "RICHTER – 2026 ONTARIO TAX TABLES"
+    ],
+    "verified": "find.py · 대조 4/5"
+  },
+  "sources": [
+    {
+      "label": "CRA – Capital losses and deductions",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html",
+      "what": "You can use a net capital loss to reduce your taxable capital gain in any of the three previous years or in any future year.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Capital losses and deductions",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html",
+      "what": "Usually, you can apply net capital losses of other years only against taxable capital gains.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Capital losses and deductions",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html",
+      "what": "The inclusion rate for 2025 is 50%.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – Form T1A",
+      "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/t1a.html",
+      "what": "Form to ask for the application of a loss from the current year, to any of the three previous years.",
+      "confidence": "1차"
+    },
+    {
+      "label": "RICHTER – 2026 ONTARIO TAX TABLES",
+      "url": "https://www.richter.ca/2026-ontario-income-tax-tables/",
+      "what": "$58,523 | $2,498 | 9.15% | $5,890 | 20.50% | $8,379 | 29.65% | 6.39% | 20.28% | 14.83%",
+      "confidence": "2차"
+    },
+    {
+      "label": "CRA – Capital losses (T1A Part 5)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/line-12700-capital-gains/capital-losses-deductions.html",
+      "what": "To apply a 2025 net capital loss to 2022, 2023, or 2024, complete \"Part 5 – Net capital loss for carryback\" on Form T1A, Request for Loss Carryback. This form will also help you determine the amount you have left to carry forward to future years. Do not file an amended Income Tax and Benefit Return for the year you want to apply the loss.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "CRYPTO · CANADA",
+      "topic": "THE BITCOIN CLOCK",
+      "hook": {
+        "pre": "Your bitcoin loss leaves $",
+        "num": "1,483",
+        "post": " with the tax office. Want it back?"
+      },
+      "promise": "Give me 30 seconds. Take back what you paid."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME LOSS · TWO PATHS",
+      "title": "Same loss. One waits, one *reaches back.*",
+      "boxes": [
+        {
+          "h": "LEFT TO WAIT",
+          "v": "LATER",
+          "tone": "flat",
+          "d": "Your 2025 loss sits and waits.",
+          "d2": "It only helps once you have a future capital gain. No time limit, but no help today.",
+          "d3": "Carry forward only",
+          "lead": true
+        },
+        {
+          "h": "SENT BACK",
+          "v": "3 YRS",
+          "win": true,
+          "d": "It reaches 2022, 2023 or 2024.",
+          "d2": "It cuts taxable capital gains you already reported in those years. No amended return.",
+          "d3": "Form T1A, Part 5"
+        }
+      ],
+      "source_label": "CRA · CAPITAL LOSSES",
+      "say": "Same loss.|Hama sends it back first."
+    },
+    {
+      "type": "mini",
+      "kicker": "THE CATCH",
+      "title": "It cuts *gains*, not your paycheque.",
+      "lead": "A net capital loss can only reduce <em>taxable capital gains</em> in those years.",
+      "rows": [
+        {
+          "t": "Taxable capital gains in the 3 years before",
+          "v": "CUTS",
+          "ok": true
+        },
+        {
+          "t": "Your job income or other income",
+          "v": "NO"
+        },
+        {
+          "t": "Crypto the CRA treats as business income",
+          "v": "NOT THESE RULES"
+        }
+      ],
+      "tail": "No gains in those three years? What's left carries forward, with no time limit.",
+      "source_label": "CRA · CAPITAL LOSSES",
+      "say": "So check what kind of loss it is."
+    },
+    {
+      "type": "do",
+      "kicker": "THE LOSS CARRY-BACK CHECKLIST",
+      "title": "Three checks before you file.",
+      "checks": [
+        {
+          "h": "1 · IS IT A CAPITAL LOSS",
+          "d": "If the CRA treats your crypto as business income, these rules don't apply."
+        },
+        {
+          "h": "2 · GAINS IN THE LAST 3 YEARS",
+          "d": "For a 2025 loss, look for capital gains on your 2022, 2023 and 2024 returns."
+        },
+        {
+          "h": "3 · FORM T1A, PART 5",
+          "d": "Pick the year or years. File it with this year's return. Don't amend the old ones."
+        }
+      ],
+      "lead": "Whatever's left <em>carries forward</em>, with no time limit.",
+      "button": "Save the checklist · check before you file",
+      "fine": "General education, not investment or tax advice. Confirm your own case with the CRA or a tax professional.",
+      "say": "Hama reads old returns first."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your bitcoin loss is sitting on $1,483. Want it back?",
+      "Your bitcoin loss hides $1,483. Want your tax back?",
+      "Your bitcoin loss just sits there, leaving $1,483 behind. Want it back?",
+      "Your bitcoin loss can pay you $1,483. Still think it's gone?",
+      "Your bitcoin loss? Hama found $1,483 in it. Want yours?",
+      "Your bitcoin loss leaves $1,483 with the tax office. Want it back?",
+      "Your bitcoin loss is worth $1,483. Want to cash it?",
+      "Your bitcoin loss: $1,483 back, or $0. Which one's yours?",
+      "Your bitcoin loss has a 3-year clock on $1,483. Still waiting?",
+      "Your bitcoin loss should never leave $1,483 behind. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your bitcoin loss leaves $1,483 with the tax office. Want it back?",
+    "spoken": "Your bitcoin loss leaves $1,483 with the tax office. Want it back?",
+    "promise": "Give me 30 seconds. Take back what you paid.",
+    "stamp": "GET IT BACK",
+    "pick_why": "It says $1,483 of their own money is sitting with the tax office, a loss a beginner can picture in one second and wants back right away.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-07"
+  },
+  "lede": "Give me 30 seconds. Use your loss.",
+  "series": "CRYPTO TAX BASICS",
+  "source_note": "CRA · CAPITAL LOSSES AND FORM T1A",
+  "caption": "🐶⛏️ If you lost money on bitcoin, $1,483 of old tax could come back to you.\n\nThe CRA lets your loss reach back 3 years with Form T1A, so you can get back tax you paid on old gains. But it never cuts the tax on your paycheque.\n\nComment CARRY and I'll send you my loss carry-back checklist 🪙\nAny gains on your old returns?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #taxtipscanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your bitcoin loss leaves $1,483 with the tax office. Want it back?",
+        "part": "cover",
+        "data": {
+          "pill": "THE LOSS CARRY-BACK CHECKLIST",
+          "num": "$1,483",
+          "line": "Your bitcoin loss leaves $1,483 with the tax office. Want it back?",
+          "promise": "Give me 30 seconds. Take back what you paid.",
+          "subj": "YOUR BITCOIN LOSS",
+          "stamp": "GET IT BACK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Take back what you paid.",
+        "nocap": true
+      },
+      {
+        "say": "Hama's carry-back *checklist* is yours by the end.",
+        "cap": "low"
+      },
+      {
+        "say": "Your bitcoin loss doesn't have to *stay* in its year.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "carry forward only",
+              "tone": "loss",
+              "h": "LEFT TO WAIT",
+              "v": "$0",
+              "at": 0
+            },
+            {
+              "sub": "same $10,000 loss",
+              "tone": "win",
+              "h": "SENT BACK",
+              "v": "$1,483",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "SAME LOSS",
+        "in": "iris"
+      },
+      {
+        "say": "Two people lost $10,000 after paying tax on old profits."
+      },
+      {
+        "say": "Same $10,000 loss: $0 waiting, $1,483 sent *back*.",
+        "part": "split",
+        "data": {
+          "k": "LEFT TO WAIT vs SENT BACK",
+          "total": "$1,483",
+          "a": {
+            "v": "$0",
+            "l": "LEFT TO WAIT",
+            "w": 0.12,
+            "at": "$0"
+          },
+          "b": {
+            "v": "$1,483",
+            "l": "SENT BACK",
+            "at": "$1,483",
+            "label_at": "$1,483"
+          }
+        }
+      },
+      {
+        "say": "Nobody tells you this *part*.",
+        "part": "callout",
+        "data": {
+          "word": "part",
+          "line": "Nobody tells you this *part*.",
+          "at": "part"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "People think a loss only helps *later*.",
+        "part": "badge",
+        "data": {
+          "old": "ONLY HELPS LATER",
+          "new": "3 YEARS BACK",
+          "at": "3",
+          "sub": "on Form T1A, Part 5.",
+          "sub_at": 1,
+          "k": "THE RULE"
+        }
+      },
+      {
+        "say": "The CRA, Canada's tax office, lets it reach 3 years *back*."
+      },
+      {
+        "say": "Form T1A sends the loss back.",
+        "part": "tag",
+        "data": {
+          "old": "ONLY HELPS LATER",
+          "new": "3 YEARS BACK",
+          "at": 0,
+          "sub": "on Form T1A, Part 5.",
+          "sub_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "The catch: it never cuts tax on your *paycheque*.",
+        "part": "tabs",
+        "data": {
+          "old": "ANY TAX",
+          "new": "GAINS ONLY",
+          "at": 0,
+          "k": ""
+        }
+      },
+      {
+        "say": "Your $10,000 loss can bring back about $1,483.",
+        "part": "stamp",
+        "data": {
+          "old": "$1,483",
+          "new": "tax you already paid",
+          "at": 0,
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Check your last 3 returns for *profits*.",
+        "part": "tiles",
+        "data": {
+          "word": "CARRY",
+          "at": "CARRY",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the loss carry-back checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *CARRY,* and I will send you the loss carry-back checklist."
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your bitcoin loss leaves $1,483 with the tax office. Want it back?",
+          "Give me 30 seconds. Take back what you paid."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Hama's carry-back *checklist* is yours by the end."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME LOSS",
+        "data": {
+          "a": {
+            "h": "LEFT TO WAIT",
+            "v": "$0",
+            "sub": "carry forward only",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SENT BACK",
+            "v": "$1,483",
+            "sub": "same $10,000 loss",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Your bitcoin loss doesn't have to *stay* in its year.",
+          "Two people lost $10,000 after paying tax on old profits."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "LEFT TO WAIT",
+            "v": "$0",
+            "sub": "carry forward only",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SENT BACK",
+            "v": "$1,483",
+            "sub": "same $10,000 loss",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Same $10,000 loss: $0 waiting, $1,483 sent *back*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Nobody tells you this *part*."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THE RULE",
+        "data": {
+          "old": "ONLY HELPS LATER",
+          "new": "3 YEARS BACK",
+          "sub": "on Form T1A, Part 5."
+        },
+        "lines": [
+          "People think a loss only helps *later*.",
+          "The CRA, Canada's tax office, lets it reach 3 years *back*."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "ONLY HELPS LATER",
+          "new": "3 YEARS BACK",
+          "sub": "on Form T1A, Part 5."
+        },
+        "lines": [
+          "Form T1A sends the loss back."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ANY TAX",
+          "new": "GAINS ONLY"
+        },
+        "lines": [
+          "The catch: it never cuts tax on your *paycheque*."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$1,483",
+          "new": "tax you already paid"
+        },
+        "lines": [
+          "Your $10,000 loss can bring back about $1,483."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "CARRY",
+          "gift": "the loss carry-back checklist"
+        },
+        "lines": [
+          "Check your last 3 returns for *profits*.",
+          "Comment *CARRY,* and I will send you the loss carry-back checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook and promise, a lock-in naming the checklist, a $0 vs $1,483 compare on the same $10,000 loss, a rehook, a myth scene on the 3-year CRA rule with Form T1A, a paycheque trap rehook, the $1,483 closing, and the CARRY cta.",
+      "shape": "ledger",
+      "ending": "cta",
+      "caption": "karaoke",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "stack",
+        "split",
+        "callout",
+        "badge",
+        "tag",
+        "tabs",
+        "stamp",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "fade",
+        "iris",
+        "fade",
+        "iris",
+        "fade",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "cta"
+      ],
+      "keyword": "CARRY"
+    }
+  },
+  "plain": {
+    "what": "If you lost money on bitcoin, that loss does not have to sit in the year it happened. Bitcoin is a digital coin people trade online. The CRA, Canada's tax office, lets you send a net capital loss backward to an earlier year, using Form T1A, Part 5, filed with this year's return.",
+    "so_what": "A 2025 loss can reach back 3 years, to 2022, 2023 or 2024, so it can cut gains you already paid tax on. But it only cuts capital gains, not your job income.",
+    "do": "Open your last 3 tax returns today and write down whether any of them show a capital gain.",
+    " words": null,
+    "words": [
+      {
+        "term": "bitcoin",
+        "means": "a digital coin people trade online"
+      },
+      {
+        "term": "CRA",
+        "means": "Canada's tax office"
+      },
+      {
+        "term": "capital gain",
+        "means": "profit when you sell something for more than you paid"
+      },
+      {
+        "term": "capital loss",
+        "means": "money lost when you sell something for less than you paid"
+      },
+      {
+        "term": "net capital loss",
+        "means": "your losses left over after your gains for the year"
+      },
+      {
+        "term": "carry back",
+        "means": "move a loss onto an earlier year's taxes"
+      },
+      {
+        "term": "Form T1A, Part 5",
+        "means": "the CRA form that sends a loss to past years"
+      },
+      {
+        "term": "business income",
+        "means": "money the tax office treats as from running a business"
+      }
+    ]
+  },
+  "subject": "Your bitcoin loss",
+  "deliver": {
+    "word": "CARRY",
+    "gift": "the loss carry-back checklist"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 질문.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your bitcoin loss has 3 years left. Want it back?",
+        "part": "tease",
+        "data": {
+          "pill": "THE LOSS CARRY-BACK CHECKLIST",
+          "num": "3",
+          "line": "Your bitcoin loss has 3 years left. Want it back?",
+          "promise": "Give me 30 seconds. Take back what you paid.",
+          "subj": "YOUR BITCOIN LOSS",
+          "stamp": "GET IT BACK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Take back what you paid.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll past, and that loss just *sits* there.",
+        "cap": "low"
+      },
+      {
+        "say": "Say you lost money on bitcoin in 2025.",
+        "part": "stamp",
+        "data": {
+          "old": "2025 LOSS",
+          "new": "sits for later",
+          "at": 1,
+          "k": "WAIT"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Most people park it and wait for a future gain."
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "The CRA, Canada's tax office, lets you send it *back*.",
+        "part": "donut",
+        "data": {
+          "k": "SEND BACK",
+          "segs": [
+            {
+              "l": "LEFT TO WAIT",
+              "v": "LATER",
+              "w": 0.0
+            },
+            {
+              "l": "SENT BACK",
+              "v": "3 YRS",
+              "w": 1.0
+            }
+          ],
+          "hi": 1,
+          "at": 1
+        },
+        "badge": "SEND BACK",
+        "in": "pan"
+      },
+      {
+        "say": "A 2025 loss can reach 2022, 2023 or 2024."
+      },
+      {
+        "say": "It cuts profit you already paid tax on.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "LEFT TO WAIT",
+            "v": "LATER",
+            "sub": "carry forward only"
+          },
+          "b": {
+            "h": "SENT BACK",
+            "v": "3 YRS",
+            "sub": "Form T1A, Part 5"
+          },
+          "at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "It only cuts old gains, never your *paycheque*.",
+        "part": "tabs",
+        "data": {
+          "old": "ANY INCOME",
+          "new": "GAINS ONLY",
+          "at": "GAINS",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Reach back 3 years and take back the tax you paid.",
+        "part": "strike",
+        "data": {
+          "old": "3 YEARS",
+          "new": "take it back",
+          "at": "Reach",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Open your last 3 returns and look for profit on a sale.",
+        "part": "checklist",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Loss, not business",
+            "Old gains, 3 years",
+            "Form T1A, Part 5",
+            "Save this post"
+          ],
+          "from": 0,
+          "to": 1,
+          "top": 420
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Does the CRA call your crypto a *business*?"
+      },
+      {
+        "say": "Comment *BACK,* and I will send you the carry-back checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "BACK",
+          "at": "BACK",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the loss carry-back checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your bitcoin loss has 3 years left. Want it back?",
+          "Give me 30 seconds. Take back what you paid."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll past, and that loss just *sits* there."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "WAIT",
+        "data": {
+          "old": "2025 LOSS",
+          "new": "sits for later"
+        },
+        "lines": [
+          "Say you lost money on bitcoin in 2025.",
+          "Most people park it and wait for a future gain."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SEND BACK",
+        "data": {
+          "a": {
+            "h": "LEFT TO WAIT",
+            "v": "LATER",
+            "sub": "carry forward only",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SENT BACK",
+            "v": "3 YRS",
+            "sub": "Form T1A, Part 5",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The CRA, Canada's tax office, lets you send it *back*.",
+          "A 2025 loss can reach 2022, 2023 or 2024."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "LEFT TO WAIT",
+            "v": "LATER",
+            "sub": "carry forward only",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SENT BACK",
+            "v": "3 YRS",
+            "sub": "Form T1A, Part 5",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "It cuts profit you already paid tax on."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ANY INCOME",
+          "new": "GAINS ONLY"
+        },
+        "lines": [
+          "It only cuts old gains, never your *paycheque*."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "3 YEARS",
+          "new": "take it back"
+        },
+        "lines": [
+          "Reach back 3 years and take back the tax you paid."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Loss, not business",
+            "Old gains, 3 years",
+            "Form T1A, Part 5"
+          ]
+        },
+        "lines": [
+          "Open your last 3 returns and look for profit on a sale.",
+          "Does the CRA call your crypto a *business*?"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "BACK",
+          "gift": "the loss carry-back checklist"
+        },
+        "lines": [
+          "Comment *BACK,* and I will send you the carry-back checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc scene by scene: hook and promise, a one-breath lock-in on what leaks if they scroll, the loss sitting idle as body 1, a rehook, the wait-versus-send-back compare as body 2 with the CRA explained in the same breath, the gains-only trap as the second rehook, a closing on the 3 years, then the given check and cta ending.",
+      "shape": "dark",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "stamp",
+        "callout",
+        "donut",
+        "wipe",
+        "tabs",
+        "strike",
+        "checklist",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "wipe",
+        "pan",
+        "zoom",
+        "pan",
+        "iris",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "BACK"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 질문.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your bitcoin loss has 3 years left. Want it back?",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE LOSS CARRY-BACK CHECKLIST",
+          "num": "3",
+          "line": "Your bitcoin loss has 3 years left. Want it back?",
+          "promise": "Give me 30 seconds. Take back what you paid.",
+          "subj": "YOUR BITCOIN LOSS",
+          "stamp": "GET IT BACK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Take back what you paid.",
+        "nocap": true
+      },
+      {
+        "say": "Scroll past, and that loss just *sits* there.",
+        "cap": "low"
+      },
+      {
+        "say": "Say you lost money on bitcoin in 2025.",
+        "part": "stamp",
+        "data": {
+          "old": "2025 LOSS",
+          "new": "sits for later",
+          "at": 1,
+          "k": "WAIT"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Most people park it and wait for a future gain."
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "The CRA, Canada's tax office, lets you send it *back*.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "carry forward only",
+              "tone": "loss",
+              "h": "LEFT TO WAIT",
+              "v": "LATER",
+              "at": 0
+            },
+            {
+              "sub": "Form T1A, Part 5",
+              "tone": "win",
+              "h": "SENT BACK",
+              "v": "3 YRS",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "SEND BACK",
+        "in": "pan"
+      },
+      {
+        "say": "A 2025 loss can reach 2022, 2023 or 2024."
+      },
+      {
+        "say": "It cuts profit you already paid tax on.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "LEFT TO WAIT",
+            "big": "LATER",
+            "ft": "carry forward only"
+          },
+          "b": {
+            "k": "SENT BACK",
+            "big": "3 YRS",
+            "ft": "Form T1A, Part 5",
+            "at": 0
+          }
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "It only cuts old gains, never your *paycheque*.",
+        "part": "tabs",
+        "data": {
+          "old": "ANY INCOME",
+          "new": "GAINS ONLY",
+          "at": "GAINS",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Reach back 3 years and take back the tax you paid.",
+        "part": "strike",
+        "data": {
+          "old": "3 YEARS",
+          "new": "take it back",
+          "at": "Reach",
+          "k": ""
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Open your last 3 returns and look for profit on a sale.",
+        "part": "checklist",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Loss, not business",
+            "Old gains, 3 years",
+            "Form T1A, Part 5",
+            "Save this post"
+          ],
+          "from": 0,
+          "to": 1,
+          "top": 420
+        }
+      },
+      {
+        "say": "Does the CRA call your crypto a *business*?"
+      },
+      {
+        "say": "Comment *BACK,* and I will send you the carry-back checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "BACK",
+          "at": "BACK",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the loss carry-back checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your bitcoin loss has 3 years left. Want it back?",
+          "Give me 30 seconds. Take back what you paid."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Scroll past, and that loss just *sits* there."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "WAIT",
+        "data": {
+          "old": "2025 LOSS",
+          "new": "sits for later"
+        },
+        "lines": [
+          "Say you lost money on bitcoin in 2025.",
+          "Most people park it and wait for a future gain."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SEND BACK",
+        "data": {
+          "a": {
+            "h": "LEFT TO WAIT",
+            "v": "LATER",
+            "sub": "carry forward only",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SENT BACK",
+            "v": "3 YRS",
+            "sub": "Form T1A, Part 5",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The CRA, Canada's tax office, lets you send it *back*.",
+          "A 2025 loss can reach 2022, 2023 or 2024."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "LEFT TO WAIT",
+            "v": "LATER",
+            "sub": "carry forward only",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SENT BACK",
+            "v": "3 YRS",
+            "sub": "Form T1A, Part 5",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "It cuts profit you already paid tax on."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ANY INCOME",
+          "new": "GAINS ONLY"
+        },
+        "lines": [
+          "It only cuts old gains, never your *paycheque*."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "3 YEARS",
+          "new": "take it back"
+        },
+        "lines": [
+          "Reach back 3 years and take back the tax you paid."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Loss, not business",
+            "Old gains, 3 years",
+            "Form T1A, Part 5"
+          ]
+        },
+        "lines": [
+          "Open your last 3 returns and look for profit on a sale.",
+          "Does the CRA call your crypto a *business*?"
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "BACK",
+          "gift": "the loss carry-back checklist"
+        },
+        "lines": [
+          "Comment *BACK,* and I will send you the carry-back checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc scene by scene: hook and promise, a one-breath lock-in on what leaks if they scroll, the loss sitting idle as body 1, a rehook, the wait-versus-send-back compare as body 2 with the CRA explained in the same breath, the gains-only trap as the second rehook, a closing on the 3 years, then the given check and cta ending.",
+      "shape": "dark",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "stamp",
+        "callout",
+        "stack",
+        "compare",
+        "tabs",
+        "strike",
+        "checklist",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "wipe",
+        "pan",
+        "zoom",
+        "iris",
+        "pan",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "BACK"
+    }
+  },
+  "caption_b": "🐶⛏️ Give me 30 seconds and Form T1A will finally make sense.\n\nA bitcoin loss can reach 3 years back, so it cuts tax you paid on old gains. But it never touches tax on your paycheque, so check your old returns for profits.\n\nComment CARRY and I'll send you my loss carry-back checklist 🪙\nAny old gains in yours?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #cratax #torontofinance",
+  "caption_family": "quick"
+}

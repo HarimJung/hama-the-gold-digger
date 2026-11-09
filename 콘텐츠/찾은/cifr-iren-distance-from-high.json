@@ -1,0 +1,87 @@
+{
+  "key": "cifr-iren-distance-from-high",
+  "category": "stocks",
+  "status": "draft",
+  "title": "오늘 채굴·AI 데이터센터주 Cipher(CIFR)와 IREN이 크게 빠졌다. 고점에서 얼마나 멀어졌는지, 왜 팔렸는지(실적 미스, 목표가 하향), 과거 이만큼 빠진 뒤 어떻게 됐는지",
+  "object": "THE MINER STOCK MARKDOWN SHEET",
+  "made_by": "엔진/find.py 2026-11-05 · 신호 ['s535d93c1', 's77ae3fd0', 'sfa35d645', 's166d3249', 's1cd6decc'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "58",
+    "unit": "%",
+    "thing": "Cipher Digital (CIFR) share price drop over the past month",
+    "box": "Nasdaq-listed stock (CIFR)",
+    "claim": "Cipher Digital (CIFR) shares fell about 58% over the month to November 4, 2026. On November 4 alone the stock was down 18% at $6.64, and in a 24-hour snapshot published on November 5 it was down 16.31%, the steepest drop among five crypto-mining stocks. The 58% is a one-month move, not a drop from the 52-week or all-time high, and these figures are intraday snapshots from news sites, not official closing prices.",
+    "sources": [
+      "24/7 WALL ST. VIA AOL (NOV 4, 2026)",
+      "24/7 WALL ST. VIA AOL (NOV 4, 2026)",
+      "TOKENPOST (NOV 5, 2026)"
+    ],
+    "verified": "find.py · 대조 2/3"
+  },
+  "sources": [
+    {
+      "label": "24/7 WALL ST. VIA AOL (NOV 4, 2026)",
+      "url": "https://www.aol.com/articles/terawulf-falls-4-despite-google-175612000.html",
+      "what": "TeraWulf stock is down 22% over the past month, while Cipher Digital stock has dropped 58% over the same stretch.",
+      "confidence": "2차"
+    },
+    {
+      "label": "24/7 WALL ST. VIA AOL (NOV 4, 2026)",
+      "url": "https://www.aol.com/articles/terawulf-falls-4-despite-google-175612000.html",
+      "what": "Cipher Digital (NASDAQ:CIFR) stock is at $6.64, down 18%.",
+      "confidence": "2차"
+    },
+    {
+      "label": "TOKENPOST (NOV 5, 2026)",
+      "url": "https://www.tokenpost.com/news/investing/49347",
+      "what": "Shares in five publicly traded crypto-mining companies fell over a 24-hour snapshot, with Cipher Digital's 16.31% decline marking the steepest move across all five stocks.",
+      "confidence": "2차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "STOCKS · CANADA",
+      "topic": "WHY STOCKS",
+      "hook": {
+        "pre": "CIFR fell ",
+        "num": "58",
+        "post": "% in a month. Over half your money gone."
+      },
+      "promise": "Give me 30 seconds. See every price on one sheet."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Cipher Digital (CIFR) fell 58% in one month. Don't lose yours.",
+      "CIFR fell 58% in a month. Want your money back?",
+      "CIFR fell 58% and people bought more. Don't lose twice.",
+      "CIFR fell 58% in a month. Cheap is not safe.",
+      "Hama checked CIFR at $6.64, down 18% that day. Scared?",
+      "CIFR fell 58% in a month. Over half your money gone.",
+      "CIFR fell 16.31%, worst of five companies making bitcoin. Scared?",
+      "CIFR fell 18% in a day, 58% in a month. Scared?",
+      "CIFR fell 58% in one month. Don't wait another one.",
+      "CIFR fell 58%. Never call that cheap. You lose more."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "CIFR fell 58% in a month. Over half your money gone.",
+    "spoken": "CIFR fell 58% in a month. Over half your money gone.",
+    "promise": "Give me 30 seconds. See every price on one sheet.",
+    "pick_why": "Over half your money gone is the only version where a beginner sees the 58% land in their own account, so they stop and save the sheet.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05"
+  }
+}

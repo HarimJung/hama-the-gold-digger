@@ -1,0 +1,1297 @@
+{
+  "key": "tfsa-withdraw-dec-vs-jan",
+  "category": "tax",
+  "status": "draft",
+  "title": "Take it out by December 31. Get your room back a year sooner.",
+  "object": "THE TFSA WITHDRAWAL DATE RULE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s0c817519', 'sc3e815bf', 's318c26e1'] · 퍼스나 The late starter with unused room",
+  "fact": {
+    "num": "4,000",
+    "unit": "$",
+    "thing": "TFSA withdrawal added back as contribution room",
+    "box": "TFSA",
+    "claim": "The CRA says money you take out of your TFSA only comes back as new contribution room in the next calendar year. So a withdrawal made in 2026 gives you that room back on January 1, 2027, and a withdrawal made in early January 2027 has to wait until 2028. In the CRA's own example, Taylor withdraws $4,000 and gets the $4,000 of room back on January 1 of the following year. The main condition: if you put the money back in the same year without enough unused room, the CRA counts it as an over-contribution.",
+    "sources": [
+      "CRA – How to contribute to a TFSA",
+      "CRA – How to contribute to a TFSA (example)",
+      "CRA – How to contribute to a TFSA (same-year rule)"
+    ],
+    "verified": "find.py · 대조 3/3",
+    "felt": {
+      "num": "4,000",
+      "unit": "$",
+      "a": null,
+      "b": null,
+      "how": "the $4,000 of room that stays gone for the rest of the year after the withdrawal; wait a few days into January and it stays gone a whole extra year",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA – How to contribute to a TFSA",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/how.html",
+      "what": "Withdrawals you make from your TFSA will only create new available contribution room in your account the next calendar year.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – How to contribute to a TFSA (example)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/how.html",
+      "what": "To replace the full amount of her withdrawal, Taylor should have waited until January 1, 2027, when she would regain the $4,000 of available room from her withdrawal, as well as the TFSA dollar limit for 2027.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA – How to contribute to a TFSA (same-year rule)",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/how.html",
+      "what": "Never re-contribute all or part of a withdrawal in the same calendar year that you made the withdrawal unless you know that you have enough unused contribution room available.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "Your TFSA drops $",
+        "num": "4,000",
+        "post": " of room the day you take it out."
+      },
+      "promise": "Give me 30 seconds. Keep every dollar of room."
+    },
+    {
+      "type": "flow",
+      "kicker": "THE PART NOBODY MENTIONS",
+      "title": "Your room comes back on *January 1.*",
+      "lead": "You take money out of your TFSA. The room doesn't come back right away. <em>It waits for the next calendar year.</em>",
+      "steps": [
+        {
+          "n": "$4,000",
+          "t": "you take out in 2026",
+          "s": "the CRA's own example"
+        },
+        {
+          "n": "$0",
+          "t": "room back in 2026",
+          "s": "put it back now and you need other room",
+          "cut": true
+        },
+        {
+          "n": "+$4,000",
+          "t": "room back Jan 1, 2027",
+          "s": "plus that year's new limit"
+        }
+      ],
+      "tail": "The amount doesn't matter. The calendar year you take it out in is what counts.",
+      "source_label": "CRA · HOW TO CONTRIBUTE",
+      "say": "Hama thought it came back|the next day. It doesn't."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME $4,000 · TWO DATES",
+      "title": "A few days apart. A *year* apart.",
+      "boxes": [
+        {
+          "h": "LATE DECEMBER 2026",
+          "v": "2027",
+          "win": true,
+          "d": "Room back January 1, 2027.",
+          "d2": "You take out $4,000 in 2026. The $4,000 of room is back when the new year starts.",
+          "d3": "Withdrawal made in 2026"
+        },
+        {
+          "h": "EARLY JANUARY 2027",
+          "v": "2028",
+          "tone": "flat",
+          "d": "Room back January 1, 2028.",
+          "d2": "You take out the same $4,000 in 2027. Now the room waits until the next January 1.",
+          "d3": "Withdrawal made in 2027",
+          "lead": true
+        }
+      ],
+      "source_label": "CRA · HOW TO CONTRIBUTE",
+      "say": "Same money. Different day.|A whole year of waiting."
+    },
+    {
+      "type": "do",
+      "kicker": "THE TFSA WITHDRAWAL DATE RULE",
+      "title": "Check two things before you take money out.",
+      "lead": "Room from a withdrawal comes back <em>January 1 of next year.</em> Not before.",
+      "checks": [
+        {
+          "h": "1 · WHICH YEAR IS IT",
+          "d": "If you can wait, take it out before December 31. The room comes back on January 1."
+        },
+        {
+          "h": "2 · PUTTING IT BACK THIS YEAR",
+          "d": "Only if you know you have enough unused room. If you don't, the CRA counts it as an over-contribution."
+        }
+      ],
+      "button": "Save this · check the date before you withdraw",
+      "fine": "General education, not investment or tax advice. Confirm your own case with the CRA or a tax professional.",
+      "say": "Date first.|Then the money."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your TFSA just froze $4,000 of room.",
+      "Your TFSA took $4,000 out. Can you put it back?",
+      "Your TFSA counts that $4,000 twice if you hurry.",
+      "Your TFSA is not a bank account. $4,000 proves it.",
+      "Hama's TFSA gave up $4,000 of room overnight.",
+      "Your TFSA drops $4,000 of room the day you take it out.",
+      "The TFSA put-it-back rule costs you $4,000.",
+      "Same TFSA, same $4,000, one date costs you a year.",
+      "Your TFSA took $4,000 in 2026. You are still waiting.",
+      "Your TFSA: never take $4,000 out in January."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your TFSA drops $4,000 of room the day you take it out.",
+    "spoken": "Your TFSA drops $4,000 of room the day you take it out.",
+    "promise": "Give me 30 seconds. Keep every dollar of room.",
+    "pick_why": "It names the box, the amount and the exact moment the loss happens, so a beginner who has ever moved money out of a TFSA feels the damage is already done and saves it to find the fix.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "DON'T LOSE IT"
+  },
+  "lede": "TFSA room from a withdrawal only comes back on January 1 of the next year. The date you pick decides how long you wait.",
+  "series": "TFSA BOX RULES",
+  "source_note": "CRA · HOW TO CONTRIBUTE TO A TFSA",
+  "caption": "🐶⛏️ If you pull $4,000 from your TFSA in January, the room waits a year longer.\n\nThe CRA only hands that room back on January 1 the next year, so a late December withdrawal gets it back in days. And putting it back the same year can push you over.\n\nComment DATE and I'll send you my TFSA date rule card 🪙\nPulling yours out soon?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#tfsacanada #canadiantaxes #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your TFSA drops $4,000 of room the day you take it out.",
+        "part": "hooknum",
+        "data": {
+          "pill": "THE TFSA WITHDRAWAL DATE RULE",
+          "num": "$4,000",
+          "line": "Your TFSA drops $4,000 of room the day you take it out.",
+          "promise": "Give me 30 seconds. Keep every dollar of room.",
+          "subj": "YOUR TFSA",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep every dollar of room.",
+        "nocap": true
+      },
+      {
+        "say": "One date brings all that room back.",
+        "cap": "low"
+      },
+      {
+        "say": "Take $4,000 out of your TFSA, the no-tax box.",
+        "part": "funnel",
+        "data": {
+          "in": "$4,000",
+          "leak": "$0",
+          "out": "+$4,000",
+          "label": "room back jan 1, 2027",
+          "in_at": "$4,000",
+          "leak_at": 1,
+          "out_at": 1
+        },
+        "badge": "THE RULE",
+        "in": "pan"
+      },
+      {
+        "say": "The CRA, Canada's tax office, returns that room January 1, 2027."
+      },
+      {
+        "say": "What if you wait until January?",
+        "part": "callout",
+        "data": {
+          "word": "January",
+          "line": "What if you wait until January?",
+          "at": "January"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Out late December 2026, room back January 1, 2027.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "EARLY JANUARY 2027",
+            "v": "2028",
+            "sub": "room back Jan 1, 2028"
+          },
+          "b": {
+            "h": "LATE DECEMBER 2026",
+            "v": "2027",
+            "sub": "room back Jan 1, 2027"
+          },
+          "at": "2027"
+        },
+        "badge": "TWO DATES",
+        "in": "pan"
+      },
+      {
+        "say": "Out early January 2027, room back in 2028."
+      },
+      {
+        "say": "Days apart, a whole *year* of waiting.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "room back Jan 1, 2028",
+              "tone": "loss",
+              "h": "EARLY JANUARY 2027",
+              "v": "2028",
+              "at": 0
+            },
+            {
+              "sub": "room back Jan 1, 2027",
+              "tone": "win",
+              "h": "LATE DECEMBER 2026",
+              "v": "2027",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Put it back the same year and you go *over*.",
+        "part": "swap",
+        "data": {
+          "old": "PUT BACK",
+          "new": "GO OVER",
+          "at": "over"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Check the year and your unused room first.",
+        "part": "paid",
+        "data": {
+          "k": "DO THIS",
+          "label": "Check the date",
+          "sub": "before you take money out",
+          "at": "Check"
+        },
+        "badge": "DO THIS",
+        "in": "wipe"
+      },
+      {
+        "say": "$4,000 of room, back a year sooner.",
+        "part": "stamp",
+        "data": {
+          "old": "$4,000",
+          "new": "back a year sooner",
+          "at": "back",
+          "k": ""
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Miss it, that room is *gone* a year.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "$4,000",
+              "v": "$4,000",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "gone a year",
+              "v": "gone a year",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "pan"
+      },
+      {
+        "say": "Comment *DATE,* and I will send you the date rule card.",
+        "part": "tiles",
+        "data": {
+          "word": "DATE",
+          "at": "DATE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the TFSA date rule card ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your TFSA drops $4,000 of room the day you take it out.",
+          "Give me 30 seconds. Keep every dollar of room."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "One date brings all that room back."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE RULE",
+        "data": {
+          "title": "TAKE $4,000 OUT",
+          "rows": [
+            [
+              "Out in 2026",
+              "$4,000"
+            ],
+            [
+              "Room back in 2026",
+              "$0"
+            ]
+          ],
+          "total": [
+            "Room back Jan 1, 2027",
+            "+$4,000"
+          ]
+        },
+        "lines": [
+          "Take $4,000 out of your TFSA, the no-tax box.",
+          "The CRA, Canada's tax office, returns that room January 1, 2027."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "What if you wait until January?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO DATES",
+        "data": {
+          "a": {
+            "h": "EARLY JANUARY 2027",
+            "v": "2028",
+            "sub": "room back Jan 1, 2028",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "LATE DECEMBER 2026",
+            "v": "2027",
+            "sub": "room back Jan 1, 2027",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Out late December 2026, room back January 1, 2027.",
+          "Out early January 2027, room back in 2028."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "EARLY JANUARY 2027",
+            "v": "2028",
+            "sub": "room back Jan 1, 2028",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "LATE DECEMBER 2026",
+            "v": "2027",
+            "sub": "room back Jan 1, 2027",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Days apart, a whole *year* of waiting."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "PUT BACK",
+          "new": "GO OVER"
+        },
+        "lines": [
+          "Put it back the same year and you go *over*."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "DO THIS",
+        "data": {
+          "label": "Check the date",
+          "sub": "before you take money out"
+        },
+        "lines": [
+          "Check the year and your unused room first."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$4,000",
+          "new": "back a year sooner"
+        },
+        "lines": [
+          "$4,000 of room, back a year sooner."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$4,000",
+          "new": "gone a year"
+        },
+        "lines": [
+          "Miss it, that room is *gone* a year."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DATE",
+          "gift": "the TFSA date rule card"
+        },
+        "lines": [
+          "Comment *DATE,* and I will send you the date rule card."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Opener and lockin flip the loss hook into the date that gets the room back, the flow receipt shows $4,000 out and $0 back until January 1, 2027, a question rehooks into the two-date compare, the same-year over-contribution trap rehooks into the one check to do, then the closing says $4,000 again before the given loss cut and DATE cta.",
+      "shape": "receipt",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "hooknum",
+      "parts": [
+        "hooknum",
+        "funnel",
+        "callout",
+        "wipe",
+        "stack",
+        "swap",
+        "paid",
+        "stamp",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "wipe",
+        "zoom",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 2,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "DATE"
+    }
+  },
+  "plain": {
+    "what": "Hama took $4,000 out of a TFSA, which is a savings account where your money grows without tax. When you take money out, the space to put money back in does not come back right away. The CRA, Canada's tax office, gives that space back on January 1 of the next year.",
+    "so_what": "If you take that $4,000 out in early January 2027, the $4,000 of space waits until 2028 — almost a full extra year of waiting.",
+    "do": "Write down two things today: what year it is, and how much unused room your TFSA has.",
+    "words": [
+      {
+        "term": "TFSA",
+        "means": "a savings account where your money grows without tax"
+      },
+      {
+        "term": "contribution room",
+        "means": "how much you are allowed to put in"
+      },
+      {
+        "term": "withdrawal",
+        "means": "money you take out of the account"
+      },
+      {
+        "term": "CRA",
+        "means": "the tax office in Canada"
+      },
+      {
+        "term": "over-contribution",
+        "means": "putting in more than you are allowed to"
+      },
+      {
+        "term": "calendar year",
+        "means": "January 1 to December 31"
+      }
+    ]
+  },
+  "subject": "Your TFSA",
+  "deliver": {
+    "word": "DATE",
+    "gift": "the TFSA date rule card"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your TFSA drops $4,000 of room the day you take it out.",
+        "part": "tease",
+        "data": {
+          "pill": "THE TFSA WITHDRAWAL DATE RULE",
+          "num": "$4,000",
+          "line": "Your TFSA drops $4,000 of room the day you take it out.",
+          "promise": "Give me 30 seconds. Keep every dollar of room.",
+          "subj": "YOUR TFSA",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep every dollar of room.",
+        "nocap": true
+      },
+      {
+        "say": "One date brings all that room back.",
+        "cap": "low"
+      },
+      {
+        "say": "Take $4,000 out of your TFSA, the no-tax box.",
+        "part": "funnel",
+        "data": {
+          "in": "$4,000",
+          "leak": "$0",
+          "out": "+$4,000",
+          "label": "room back jan 1, 2027",
+          "in_at": "$4,000",
+          "leak_at": 1,
+          "out_at": 1
+        },
+        "badge": "THE RULE",
+        "in": "zoom"
+      },
+      {
+        "say": "The CRA, Canada's tax office, returns that room January 1, 2027."
+      },
+      {
+        "say": "What if you wait until January?",
+        "part": "callout",
+        "data": {
+          "word": "January",
+          "line": "What if you wait until January?",
+          "at": "January"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Out late December 2026, room back January 1, 2027.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "EARLY JANUARY 2027",
+            "v": "2028",
+            "sub": "room back Jan 1, 2028"
+          },
+          "b": {
+            "h": "LATE DECEMBER 2026",
+            "v": "2027",
+            "sub": "room back Jan 1, 2027"
+          },
+          "at": "2027"
+        },
+        "badge": "TWO DATES",
+        "in": "zoom"
+      },
+      {
+        "say": "Out early January 2027, room back in 2028."
+      },
+      {
+        "say": "Days apart, a whole *year* of waiting.",
+        "part": "donut",
+        "data": {
+          "k": "",
+          "segs": [
+            {
+              "l": "EARLY JANUARY 2027",
+              "v": "2028",
+              "w": 0.5001233045622688
+            },
+            {
+              "l": "LATE DECEMBER 2026",
+              "v": "2027",
+              "w": 0.4998766954377312
+            }
+          ],
+          "hi": 1,
+          "at": 0
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Put it back the same year and you go *over*.",
+        "part": "swap",
+        "data": {
+          "old": "PUT BACK",
+          "new": "GO OVER",
+          "at": "over"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Check the year and your unused room first.",
+        "part": "paid",
+        "data": {
+          "k": "DO THIS",
+          "label": "Check the date",
+          "sub": "before you take money out",
+          "at": "Check"
+        },
+        "badge": "DO THIS",
+        "in": "dissolve"
+      },
+      {
+        "say": "$4,000 of room, back a year sooner.",
+        "part": "strike",
+        "data": {
+          "old": "$4,000",
+          "new": "back a year sooner",
+          "at": "$4,000",
+          "k": ""
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Miss it, that room is *gone* a year.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "$4,000",
+              "v": "$4,000",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "gone a year",
+              "v": "gone a year",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "pan"
+      },
+      {
+        "say": "Comment *DATE,* and I will send you the date rule card.",
+        "part": "tiles",
+        "data": {
+          "word": "DATE",
+          "at": "DATE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the TFSA date rule card ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your TFSA drops $4,000 of room the day you take it out.",
+          "Give me 30 seconds. Keep every dollar of room."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "One date brings all that room back."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE RULE",
+        "data": {
+          "title": "TAKE $4,000 OUT",
+          "rows": [
+            [
+              "Out in 2026",
+              "$4,000"
+            ],
+            [
+              "Room back in 2026",
+              "$0"
+            ]
+          ],
+          "total": [
+            "Room back Jan 1, 2027",
+            "+$4,000"
+          ]
+        },
+        "lines": [
+          "Take $4,000 out of your TFSA, the no-tax box.",
+          "The CRA, Canada's tax office, returns that room January 1, 2027."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "What if you wait until January?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO DATES",
+        "data": {
+          "a": {
+            "h": "EARLY JANUARY 2027",
+            "v": "2028",
+            "sub": "room back Jan 1, 2028",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "LATE DECEMBER 2026",
+            "v": "2027",
+            "sub": "room back Jan 1, 2027",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Out late December 2026, room back January 1, 2027.",
+          "Out early January 2027, room back in 2028."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "EARLY JANUARY 2027",
+            "v": "2028",
+            "sub": "room back Jan 1, 2028",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "LATE DECEMBER 2026",
+            "v": "2027",
+            "sub": "room back Jan 1, 2027",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Days apart, a whole *year* of waiting."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "PUT BACK",
+          "new": "GO OVER"
+        },
+        "lines": [
+          "Put it back the same year and you go *over*."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "DO THIS",
+        "data": {
+          "label": "Check the date",
+          "sub": "before you take money out"
+        },
+        "lines": [
+          "Check the year and your unused room first."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$4,000",
+          "new": "back a year sooner"
+        },
+        "lines": [
+          "$4,000 of room, back a year sooner."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$4,000",
+          "new": "gone a year"
+        },
+        "lines": [
+          "Miss it, that room is *gone* a year."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DATE",
+          "gift": "the TFSA date rule card"
+        },
+        "lines": [
+          "Comment *DATE,* and I will send you the date rule card."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Opener and lockin flip the loss hook into the date that gets the room back, the flow receipt shows $4,000 out and $0 back until January 1, 2027, a question rehooks into the two-date compare, the same-year over-contribution trap rehooks into the one check to do, then the closing says $4,000 again before the given loss cut and DATE cta.",
+      "shape": "receipt",
+      "ending": "dark_cta",
+      "caption": "blur",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "funnel",
+        "callout",
+        "wipe",
+        "donut",
+        "swap",
+        "paid",
+        "strike",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "pan",
+        "zoom",
+        "wipe",
+        "zoom",
+        "dissolve",
+        "zoom",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "DATE"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 receipt, 끝맺음 dark_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your TFSA drops $4,000 of room the day you take it out.",
+        "part": "rise",
+        "data": {
+          "pill": "THE TFSA WITHDRAWAL DATE RULE",
+          "num": "$4,000",
+          "line": "Your TFSA drops $4,000 of room the day you take it out.",
+          "promise": "Give me 30 seconds. Keep every dollar of room.",
+          "subj": "YOUR TFSA",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep every dollar of room.",
+        "nocap": true
+      },
+      {
+        "say": "One date brings all that room back.",
+        "cap": "low"
+      },
+      {
+        "say": "Take $4,000 out of your TFSA, the no-tax box.",
+        "part": "funnel",
+        "data": {
+          "in": "$4,000",
+          "leak": "$0",
+          "out": "+$4,000",
+          "label": "room back jan 1, 2027",
+          "in_at": "$4,000",
+          "leak_at": 1,
+          "out_at": 1
+        },
+        "badge": "THE RULE",
+        "in": "iris"
+      },
+      {
+        "say": "The CRA, Canada's tax office, returns that room January 1, 2027."
+      },
+      {
+        "say": "What if you wait until January?",
+        "part": "callout",
+        "data": {
+          "word": "January",
+          "line": "What if you wait until January?",
+          "at": "January"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Out late December 2026, room back January 1, 2027.",
+        "part": "donut",
+        "data": {
+          "k": "TWO DATES",
+          "segs": [
+            {
+              "l": "EARLY JANUARY 2027",
+              "v": "2028",
+              "w": 0.5001233045622688
+            },
+            {
+              "l": "LATE DECEMBER 2026",
+              "v": "2027",
+              "w": 0.4998766954377312
+            }
+          ],
+          "hi": 1,
+          "at": "2027"
+        },
+        "badge": "TWO DATES",
+        "in": "iris"
+      },
+      {
+        "say": "Out early January 2027, room back in 2028."
+      },
+      {
+        "say": "Days apart, a whole *year* of waiting.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "EARLY JANUARY 2027",
+            "big": "2028",
+            "ft": "room back Jan 1, 2028"
+          },
+          "b": {
+            "k": "LATE DECEMBER 2026",
+            "big": "2027",
+            "ft": "room back Jan 1, 2027",
+            "at": 0
+          }
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Put it back the same year and you go *over*.",
+        "part": "swap",
+        "data": {
+          "old": "PUT BACK",
+          "new": "GO OVER",
+          "at": "over"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Check the year and your unused room first.",
+        "part": "paid",
+        "data": {
+          "k": "DO THIS",
+          "label": "Check the date",
+          "sub": "before you take money out",
+          "at": "Check"
+        },
+        "badge": "DO THIS",
+        "in": "zoom"
+      },
+      {
+        "say": "$4,000 of room, back a year sooner.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "4,000",
+          "pre": "$",
+          "suf": "",
+          "label": "back a year sooner",
+          "at": "$4,000"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Miss it, that room is *gone* a year.",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "$4,000",
+              "v": "$4,000",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "gone a year",
+              "v": "gone a year",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "pan"
+      },
+      {
+        "say": "Comment *DATE,* and I will send you the date rule card.",
+        "part": "tiles",
+        "data": {
+          "word": "DATE",
+          "at": "DATE",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the TFSA date rule card ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your TFSA drops $4,000 of room the day you take it out.",
+          "Give me 30 seconds. Keep every dollar of room."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "One date brings all that room back."
+        ]
+      },
+      {
+        "role": "flow",
+        "badge": "THE RULE",
+        "data": {
+          "title": "TAKE $4,000 OUT",
+          "rows": [
+            [
+              "Out in 2026",
+              "$4,000"
+            ],
+            [
+              "Room back in 2026",
+              "$0"
+            ]
+          ],
+          "total": [
+            "Room back Jan 1, 2027",
+            "+$4,000"
+          ]
+        },
+        "lines": [
+          "Take $4,000 out of your TFSA, the no-tax box.",
+          "The CRA, Canada's tax office, returns that room January 1, 2027."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "What if you wait until January?"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "TWO DATES",
+        "data": {
+          "a": {
+            "h": "EARLY JANUARY 2027",
+            "v": "2028",
+            "sub": "room back Jan 1, 2028",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "LATE DECEMBER 2026",
+            "v": "2027",
+            "sub": "room back Jan 1, 2027",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Out late December 2026, room back January 1, 2027.",
+          "Out early January 2027, room back in 2028."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "EARLY JANUARY 2027",
+            "v": "2028",
+            "sub": "room back Jan 1, 2028",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "LATE DECEMBER 2026",
+            "v": "2027",
+            "sub": "room back Jan 1, 2027",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Days apart, a whole *year* of waiting."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "PUT BACK",
+          "new": "GO OVER"
+        },
+        "lines": [
+          "Put it back the same year and you go *over*."
+        ]
+      },
+      {
+        "role": "step",
+        "badge": "DO THIS",
+        "data": {
+          "label": "Check the date",
+          "sub": "before you take money out"
+        },
+        "lines": [
+          "Check the year and your unused room first."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$4,000",
+          "new": "back a year sooner"
+        },
+        "lines": [
+          "$4,000 of room, back a year sooner."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "$4,000",
+          "new": "gone a year"
+        },
+        "lines": [
+          "Miss it, that room is *gone* a year."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "DATE",
+          "gift": "the TFSA date rule card"
+        },
+        "lines": [
+          "Comment *DATE,* and I will send you the date rule card."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Opener and lockin flip the loss hook into the date that gets the room back, the flow receipt shows $4,000 out and $0 back until January 1, 2027, a question rehooks into the two-date compare, the same-year over-contribution trap rehooks into the one check to do, then the closing says $4,000 again before the given loss cut and DATE cta.",
+      "shape": "receipt",
+      "ending": "dark_cta",
+      "caption": "karaoke",
+      "opener": "rise",
+      "parts": [
+        "rise",
+        "funnel",
+        "callout",
+        "donut",
+        "compare",
+        "swap",
+        "paid",
+        "odometer",
+        "shrink",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "wipe",
+        "iris",
+        "wipe",
+        "iris",
+        "zoom",
+        "iris",
+        "pan",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "flow",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "step",
+        "closing",
+        "loss",
+        "cta"
+      ],
+      "keyword": "DATE"
+    }
+  },
+  "caption_b": "🐶⛏️ Ever tried to refill your TFSA and the room just wasn't there?\n\nThe CRA only hands that room back on January 1 of the next year. So pull it out in early January and the room waits until 2028. Put it back too soon and you go over.\n\nComment DATE and I'll send you my TFSA date rule card 🪙\nPulled any out this year?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#tfsacanada #canadiantaxes #torontofinance",
+  "caption_family": "feel"
+}

@@ -1,0 +1,1244 @@
+{
+  "key": "spot-btc-etf-mer-table",
+  "category": "stocks",
+  "status": "draft",
+  "title": "Same bitcoin. Two fees.",
+  "object": "THE SPOT BITCOIN ETF FEE TABLE",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s5ec2da7b', 'sf87b673f'] · 퍼스나 The headline-chasing new holder",
+  "fact": {
+    "num": "68",
+    "unit": "$",
+    "thing": "yearly management-fee gap on $10,000 between FBTC (0.32%) and BTCC (1.00%)",
+    "box": "TSX-listed spot bitcoin ETFs, in any account (TFSA, RRSP or non-registered)",
+    "claim": "Fidelity Advantage Bitcoin ETF (FBTC) charges a 0.32% management fee and Purpose Bitcoin ETF (BTCC) charges 1.00%, so on $10,000 the difference is about $68 a year. These are management fees only. The full MER each fund reports is higher because it adds operating costs and taxes, so the real gap can be a little different. Fees can change, so check each fund's current fund facts before buying.",
+    "sources": [
+      "FIDELITY CANADA PRESS RELEASE (VIA YCHARTS)",
+      "FUNDATA FBTC SNAPSHOT",
+      "FUNDATA BTCC SNAPSHOT"
+    ],
+    "verified": "find.py · 대조 3/3",
+    "felt": {
+      "num": "68",
+      "unit": "$",
+      "a": "100",
+      "b": "32",
+      "how": "BTCC 1.00% vs FBTC 0.32% yearly fee on $10,000",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "FIDELITY CANADA PRESS RELEASE (VIA YCHARTS)",
+      "url": "https://ycharts.com/news/story/PRN-C5249-20250113",
+      "what": "Fidelity Investments Canada ULC (Fidelity) today announced a reduction in the management fee of Fidelity Advantage Bitcoin ETF® (FBTC-T) from 0.39% to 0.32%, effective January 13, 2025, which will result in a lower management expense ratio going forward.",
+      "confidence": "2차"
+    },
+    {
+      "label": "FUNDATA FBTC SNAPSHOT",
+      "url": "https://idata.fundata.com/ETF/ETFSnapshot.aspx?IID=711840",
+      "what": "Management Fee 0.32 %",
+      "confidence": "2차"
+    },
+    {
+      "label": "FUNDATA BTCC SNAPSHOT",
+      "url": "https://idata.fundata.com/ETF/ETFSnapshot.aspx?IID=668455",
+      "what": "Management Fee 1.00 %",
+      "confidence": "2차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "STOCKS · CANADA",
+      "topic": "WHY STOCKS",
+      "hook": {
+        "pre": "BTCC quietly takes $",
+        "num": "68",
+        "post": " a year from your $10,000."
+      },
+      "promise": "Give me 30 seconds. Keep your own money."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME BITCOIN · TWO FEES",
+      "title": "Same coin underneath. A different *bill* on top.",
+      "boxes": [
+        {
+          "h": "FBTC",
+          "v": "0.32%",
+          "tone": "win",
+          "d": "$10,000 costs $32 a year.",
+          "d2": "Management fee only. Fidelity cut it from 0.39% in January 2025.",
+          "d3": "TSX-listed spot bitcoin ETF"
+        },
+        {
+          "h": "BTCC",
+          "v": "1.00%",
+          "tone": "flat",
+          "d": "$10,000 costs $100 a year.",
+          "d2": "$100 minus $32 is $68. It comes out every year, in any box you hold it.",
+          "d3": "TSX-listed spot bitcoin ETF",
+          "lead": true
+        }
+      ],
+      "source_label": "FUNDATA · FIDELITY CANADA",
+      "say": "Same bitcoin.|Different bill."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE SPOT BITCOIN ETF FEE TABLE",
+      "title": "What each fee costs you in a year.",
+      "rowlabel": "YOU HOLD",
+      "cols": [
+        "FBTC 0.32%",
+        "BTCC 1.00%",
+        "GAP A YEAR"
+      ],
+      "labw": 22,
+      "rows": [
+        {
+          "a": "$1,000",
+          "asub": "in the fund",
+          "cells": [
+            "$3.20",
+            "$10",
+            "$6.80"
+          ]
+        },
+        {
+          "a": "$5,000",
+          "asub": "in the fund",
+          "cells": [
+            "$16",
+            "$50",
+            "$34"
+          ]
+        },
+        {
+          "a": "$10,000",
+          "asub": "in the fund",
+          "cells": [
+            "$32",
+            "$100",
+            "$68"
+          ]
+        },
+        {
+          "a": "$25,000",
+          "asub": "in the fund",
+          "cells": [
+            "$80",
+            "$250",
+            "$170"
+          ]
+        },
+        {
+          "a": "$50,000",
+          "asub": "in the fund",
+          "cells": [
+            "$160",
+            "$500",
+            "$340"
+          ]
+        }
+      ],
+      "hi": [
+        2,
+        2
+      ],
+      "note": "Amount times the management fee. The full MER is a bit higher for both, and fees can change. Check each fund's current fund facts. <b>Save this. Find your row.</b>",
+      "source_label": "FUNDATA FBTC · FUNDATA BTCC"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "BTCC takes $68 more a year than FBTC.",
+      "FBTC or BTCC? One takes $68 more yearly.",
+      "FBTC and BTCC hold the same bitcoin. $68 apart.",
+      "BTCC costs 1%, FBTC 0.32%. Same bitcoin inside.",
+      "Hama compared FBTC and BTCC. $68 a year gone.",
+      "BTCC quietly takes $68 a year from your $10,000.",
+      "FBTC 0.32%, BTCC 1%. The gap is $68 yearly.",
+      "Same bitcoin, FBTC or BTCC, $68 a year apart.",
+      "BTCC holders hand over $68 every single year.",
+      "Never ignore BTCC's 1% next to FBTC's 0.32%."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "BTCC quietly takes $68 a year from your $10,000.",
+    "spoken": "BTCC quietly takes $68 a year from your $10,000.",
+    "promise": "Give me 30 seconds. Keep your own money.",
+    "pick_why": "It names the subject first, says the exact dollars walking out of your own $10,000 every year, and the word quietly makes you feel you were the one not told.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "STOP THE LEAK"
+  },
+  "lede": "Two TSX-listed spot bitcoin ETFs charge 0.32% and 1.00% in management fees. On $10,000 that's a $68 gap every year.",
+  "series": "BITCOIN ETF FEES",
+  "source_note": "FUNDATA · FUND FEE SNAPSHOTS",
+  "caption": "🐶⛏️ If you hold $10,000 in BTCC, $68 a year could be slipping out in fees.\n\nTwo Canadian funds hold the same bitcoin, but BTCC takes a bigger yearly cut than FBTC. That cut comes out in any box, so a tax-free one won't shield you.\n\nComment FEES and I'll send you my bitcoin fee table 🪙\nChecked your fee line yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #etfcanada #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "BTCC quietly takes $68 a year from your $10,000.",
+        "part": "cover",
+        "data": {
+          "pill": "THE SPOT BITCOIN ETF FEE TABLE",
+          "num": "$68",
+          "line": "BTCC quietly takes $68 a year from your $10,000.",
+          "promise": "Give me 30 seconds. Keep your own money.",
+          "subj": "BTCC",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep your own money.",
+        "nocap": true
+      },
+      {
+        "say": "The bitcoin fee table is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Two Canadian funds hold the *same* bitcoin.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "a year on $10,000",
+              "tone": "loss",
+              "h": "BTCC 1.00%",
+              "v": "$100",
+              "at": 0
+            },
+            {
+              "sub": "same $10,000",
+              "tone": "win",
+              "h": "FBTC 0.32%",
+              "v": "$32",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "SAME COIN"
+      },
+      {
+        "say": "On $10,000, BTCC keeps $100 a year, FBTC $32."
+      },
+      {
+        "say": "So the $68 gap is only the *fee*.",
+        "part": "split",
+        "data": {
+          "k": "BTCC 1.00% vs FBTC 0.32%",
+          "total": "$100",
+          "a": {
+            "v": "$100",
+            "l": "BTCC 1.00%",
+            "w": 0.7575757575757576,
+            "at": 0
+          },
+          "b": {
+            "v": "$32",
+            "l": "FBTC 0.32%",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        }
+      },
+      {
+        "say": "Many think a tax-free box shields it.",
+        "part": "badge",
+        "data": {
+          "old": "BOX SHIELDS IT",
+          "new": "FEE STILL OUT",
+          "at": "FEE",
+          "sub": "every year, in any box.",
+          "sub_at": 1,
+          "k": "THE SPOT BITCOIN ETF FEE TABLE"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "The fee is the fund's yearly cut, in *any* box."
+      },
+      {
+        "say": "It leaves every year you hold BTCC.",
+        "part": "tag",
+        "data": {
+          "old": "BOX SHIELDS IT",
+          "new": "FEE STILL OUT",
+          "at": 0,
+          "sub": "every year, in any box.",
+          "sub_at": 0
+        }
+      },
+      {
+        "say": "Full costs run a bit higher, and fees can *change*.",
+        "part": "tabs",
+        "data": {
+          "old": "FIXED",
+          "new": "CAN CHANGE",
+          "at": "CAN",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "That $68 a year on $10,000 can stay *yours*.",
+        "part": "stamp",
+        "data": {
+          "old": "$68",
+          "new": "can stay yours",
+          "at": "can",
+          "k": ""
+        }
+      },
+      {
+        "say": "Check the fee line on your fund.",
+        "part": "tiles",
+        "data": {
+          "word": "FEES",
+          "at": "FEES",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the bitcoin fee table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *FEES,* and I will send you the bitcoin fee table."
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "BTCC quietly takes $68 a year from your $10,000.",
+          "Give me 30 seconds. Keep your own money."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The bitcoin fee table is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME COIN",
+        "data": {
+          "a": {
+            "h": "BTCC 1.00%",
+            "v": "$100",
+            "sub": "a year on $10,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FBTC 0.32%",
+            "v": "$32",
+            "sub": "same $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Two Canadian funds hold the *same* bitcoin.",
+          "On $10,000, BTCC keeps $100 a year, FBTC $32."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BTCC 1.00%",
+            "v": "$100",
+            "sub": "a year on $10,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FBTC 0.32%",
+            "v": "$32",
+            "sub": "same $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "So the $68 gap is only the *fee*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "BOX SHIELDS IT",
+          "new": "FEE STILL OUT",
+          "sub": "every year, in any box."
+        },
+        "lines": [
+          "Many think a tax-free box shields it.",
+          "The fee is the fund's yearly cut, in *any* box."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "BOX SHIELDS IT",
+          "new": "FEE STILL OUT",
+          "sub": "every year, in any box."
+        },
+        "lines": [
+          "It leaves every year you hold BTCC."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "FIXED",
+          "new": "CAN CHANGE"
+        },
+        "lines": [
+          "Full costs run a bit higher, and fees can *change*."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$68",
+          "new": "can stay yours"
+        },
+        "lines": [
+          "That $68 a year on $10,000 can stay *yours*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "FEES",
+          "gift": "the bitcoin fee table"
+        },
+        "lines": [
+          "Check the fee line on your fund.",
+          "Comment *FEES,* and I will send you the bitcoin fee table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the arc in order: the given hook and promise, a lock-in that offers the table, a compare that shows BTCC's $100 against FBTC's $32 on the same $10,000, a rehook into the myth that a tax-free box shields the fee, a second rehook with the real trap (full costs run higher and fees change), a closing on the $68, and the given cta ending.",
+      "shape": "ledger",
+      "ending": "cta",
+      "caption": "blur",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "stack",
+        "split",
+        "callout",
+        "badge",
+        "tag",
+        "tabs",
+        "stamp",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "iris",
+        "fade",
+        "iris",
+        "fade",
+        "iris",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "cta"
+      ],
+      "keyword": "FEES"
+    }
+  },
+  "plain": {
+    "what": "Two Canadian funds hold the same bitcoin. One of them, FBTC, keeps 0.32% of your money each year as a management fee. The other, BTCC, keeps 1.00%.",
+    "so_what": "On $10,000 that is about a $68 difference every year, and it comes out no matter which account you hold it in.",
+    "do": "Today, look up your own fund's fund facts page and write down the fee line.",
+    "words": [
+      {
+        "term": "ETF",
+        "means": "one fund that holds many things at once"
+      },
+      {
+        "term": "management fee",
+        "means": "the yearly cut the fund keeps from your money"
+      },
+      {
+        "term": "MER",
+        "means": "the fund's full yearly cost, fees plus other costs"
+      },
+      {
+        "term": "spot bitcoin",
+        "means": "real bitcoin the fund actually holds"
+      },
+      {
+        "term": "TFSA",
+        "means": "an account where your gains are not taxed"
+      },
+      {
+        "term": "RRSP",
+        "means": "a retirement account that lowers your tax now"
+      },
+      {
+        "term": "non-registered",
+        "means": "a plain account with no tax break"
+      },
+      {
+        "term": "fund facts",
+        "means": "a short official paper showing a fund's costs"
+      }
+    ]
+  },
+  "subject": "BTCC",
+  "deliver": {
+    "word": "FEES",
+    "gift": "the bitcoin fee table"
+  },
+  "check": [],
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "BTCC quietly takes $68 a year from your $10,000.",
+        "part": "slam",
+        "data": {
+          "pill": "THE SPOT BITCOIN ETF FEE TABLE",
+          "num": "$68",
+          "line": "BTCC quietly takes $68 a year from your $10,000.",
+          "promise": "Give me 30 seconds. Keep your own money.",
+          "subj": "BTCC",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep your own money.",
+        "nocap": true
+      },
+      {
+        "say": "The fee table is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Put $10,000 into BTCC or FBTC, both holding real bitcoin.",
+        "part": "table",
+        "data": {
+          "k": "SAME COIN",
+          "cols": [
+            "FBTC 0.32%",
+            "BTCC 1.00%",
+            "GAP A YEAR"
+          ],
+          "rows": [
+            {
+              "lab": "$1,000",
+              "cells": [
+                "$3.20",
+                "$10",
+                "$6.80"
+              ]
+            },
+            {
+              "lab": "$5,000",
+              "cells": [
+                "$16",
+                "$50",
+                "$34"
+              ]
+            },
+            {
+              "lab": "$10,000",
+              "cells": [
+                "$32",
+                "$100",
+                "$68"
+              ]
+            },
+            {
+              "lab": "$25,000",
+              "cells": [
+                "$80",
+                "$250",
+                "$170"
+              ]
+            }
+          ],
+          "hi": 2,
+          "at": 1
+        },
+        "badge": "SAME COIN",
+        "in": "iris"
+      },
+      {
+        "say": "BTCC keeps $100 of it a year, FBTC keeps $32."
+      },
+      {
+        "say": "The gap is $68, every *year*.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "BTCC 1.00%",
+            "big": "$100",
+            "ft": "a year on $10,000"
+          },
+          "b": {
+            "k": "FBTC 0.32%",
+            "big": "$32",
+            "ft": "same $10,000",
+            "at": 0
+          },
+          "gap": "$68",
+          "gap_at": "$68"
+        }
+      },
+      {
+        "say": "Does a tax-free box save you?",
+        "part": "callout",
+        "data": {
+          "word": "you",
+          "line": "Does a tax-free box save you?",
+          "at": "you"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Management fee means the yearly *cut* BTCC keeps from you.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "",
+              "tone": "loss",
+              "h": "TAX-FREE",
+              "v": "TAX-FREE",
+              "at": "TAX-FREE"
+            },
+            {
+              "sub": "",
+              "tone": "win",
+              "h": "STILL CUT",
+              "v": "STILL CUT",
+              "at": 1
+            }
+          ],
+          "hi": 1,
+          "hi_at": 1,
+          "stand_at": 1
+        },
+        "badge": "THE FEE"
+      },
+      {
+        "say": "Tax-free box or not, it comes out every year."
+      },
+      {
+        "say": "Fees change, so today's fee is not a *promise*.",
+        "part": "stamp",
+        "data": {
+          "old": "TAX-FREE",
+          "new": "STILL CUT",
+          "at": 0,
+          "k": "",
+          "sub": "in any box you hold it.",
+          "sub_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "At $50,000 that gap is $340 a year.",
+        "part": "callout",
+        "data": {
+          "word": "year",
+          "line": "At $50,000 that gap is $340 a year.",
+          "at": "year"
+        }
+      },
+      {
+        "say": "Same bitcoin, $68 a year stays in your *pocket*.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$68",
+          "tail": "stays in your pocket",
+          "at": "$68"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Find your row.",
+        "part": "tiles",
+        "data": {
+          "word": "SPOT",
+          "at": "SPOT",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the bitcoin fee table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *SPOT,* and I will send you the bitcoin fee table."
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "BTCC quietly takes $68 a year from your $10,000.",
+          "Give me 30 seconds. Keep your own money."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The fee table is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME COIN",
+        "data": {
+          "a": {
+            "h": "BTCC 1.00%",
+            "v": "$100",
+            "sub": "a year on $10,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FBTC 0.32%",
+            "v": "$32",
+            "sub": "same $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Put $10,000 into BTCC or FBTC, both holding real bitcoin.",
+          "BTCC keeps $100 of it a year, FBTC keeps $32."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BTCC 1.00%",
+            "v": "$100",
+            "sub": "a year on $10,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FBTC 0.32%",
+            "v": "$32",
+            "sub": "same $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The gap is $68, every *year*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Does a tax-free box save you?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE FEE",
+        "data": {
+          "old": "TAX-FREE",
+          "new": "STILL CUT",
+          "sub": "in any box you hold it."
+        },
+        "lines": [
+          "Management fee means the yearly *cut* BTCC keeps from you.",
+          "Tax-free box or not, it comes out every year."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "TAX-FREE",
+          "new": "STILL CUT",
+          "sub": "in any box you hold it."
+        },
+        "lines": [
+          "Fees change, so today's fee is not a *promise*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "At $50,000 that gap is $340 a year."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$68",
+          "new": "stays in your pocket"
+        },
+        "lines": [
+          "Same bitcoin, $68 a year stays in your *pocket*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "SPOT",
+          "gift": "the bitcoin fee table"
+        },
+        "lines": [
+          "Find your row.",
+          "Comment *SPOT,* and I will send you the bitcoin fee table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, one lock-in line flips the loss into the table they get, the compare shows $100 versus $32 on the same $10,000 so the $68 gap is seen, a question rehooks into the catch that explains the fee and the box trap, the $340 number rehooks again, the closing hands back the $68, and the given cta ends it with FEES.",
+      "shape": "zoom",
+      "ending": "cta",
+      "caption": "karaoke",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "table",
+        "compare",
+        "callout",
+        "stack",
+        "stamp",
+        "callout",
+        "tail",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "fade",
+        "iris",
+        "fade",
+        "iris",
+        "fade",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "cta"
+      ],
+      "keyword": "SPOT"
+    }
+  },
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "BTCC quietly takes $68 a year from your $10,000.",
+        "part": "slam",
+        "data": {
+          "pill": "THE SPOT BITCOIN ETF FEE TABLE",
+          "num": "$68",
+          "line": "BTCC quietly takes $68 a year from your $10,000.",
+          "promise": "Give me 30 seconds. Keep your own money.",
+          "subj": "BTCC",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Keep your own money.",
+        "nocap": true
+      },
+      {
+        "say": "The fee table is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Put $10,000 into BTCC or FBTC, both holding real bitcoin.",
+        "part": "table",
+        "data": {
+          "k": "SAME COIN",
+          "cols": [
+            "FBTC 0.32%",
+            "BTCC 1.00%",
+            "GAP A YEAR"
+          ],
+          "rows": [
+            {
+              "lab": "$1,000",
+              "cells": [
+                "$3.20",
+                "$10",
+                "$6.80"
+              ]
+            },
+            {
+              "lab": "$5,000",
+              "cells": [
+                "$16",
+                "$50",
+                "$34"
+              ]
+            },
+            {
+              "lab": "$10,000",
+              "cells": [
+                "$32",
+                "$100",
+                "$68"
+              ]
+            },
+            {
+              "lab": "$25,000",
+              "cells": [
+                "$80",
+                "$250",
+                "$170"
+              ]
+            }
+          ],
+          "hi": 2,
+          "at": 1
+        },
+        "badge": "SAME COIN"
+      },
+      {
+        "say": "BTCC keeps $100 of it a year, FBTC keeps $32."
+      },
+      {
+        "say": "The gap is $68, every *year*.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "BTCC 1.00%",
+            "big": "$100",
+            "ft": "a year on $10,000"
+          },
+          "b": {
+            "k": "FBTC 0.32%",
+            "big": "$32",
+            "ft": "same $10,000",
+            "at": 0
+          },
+          "gap": "$68",
+          "gap_at": "$68"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Does a tax-free box save you?",
+        "part": "callout",
+        "data": {
+          "word": "you",
+          "line": "Does a tax-free box save you?",
+          "at": "you"
+        }
+      },
+      {
+        "say": "Management fee means the yearly *cut* BTCC keeps from you.",
+        "part": "stamp",
+        "data": {
+          "old": "TAX-FREE",
+          "new": "STILL CUT",
+          "at": 1,
+          "k": "THE FEE",
+          "sub": "in any box you hold it.",
+          "sub_at": 1
+        },
+        "badge": "THE FEE",
+        "in": "iris"
+      },
+      {
+        "say": "Tax-free box or not, it comes out every year."
+      },
+      {
+        "say": "Fees change, so today's fee is not a *promise*.",
+        "part": "badge",
+        "data": {
+          "old": "TAX-FREE",
+          "new": "STILL CUT",
+          "at": 0,
+          "sub": "in any box you hold it.",
+          "sub_at": 0,
+          "k": "THE SPOT BITCOIN ETF FEE TABLE"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "At $50,000 that gap is $340 a year.",
+        "part": "callout",
+        "data": {
+          "word": "year",
+          "line": "At $50,000 that gap is $340 a year.",
+          "at": "year"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Same bitcoin, $68 a year stays in your *pocket*.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$68",
+          "tail": "stays in your pocket",
+          "at": "$68"
+        }
+      },
+      {
+        "say": "Find your row.",
+        "part": "tiles",
+        "data": {
+          "word": "SPOT",
+          "at": "SPOT",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the bitcoin fee table ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Comment *SPOT,* and I will send you the bitcoin fee table."
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "BTCC quietly takes $68 a year from your $10,000.",
+          "Give me 30 seconds. Keep your own money."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The fee table is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "SAME COIN",
+        "data": {
+          "a": {
+            "h": "BTCC 1.00%",
+            "v": "$100",
+            "sub": "a year on $10,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FBTC 0.32%",
+            "v": "$32",
+            "sub": "same $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Put $10,000 into BTCC or FBTC, both holding real bitcoin.",
+          "BTCC keeps $100 of it a year, FBTC keeps $32."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "BTCC 1.00%",
+            "v": "$100",
+            "sub": "a year on $10,000",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "FBTC 0.32%",
+            "v": "$32",
+            "sub": "same $10,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "The gap is $68, every *year*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Does a tax-free box save you?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE FEE",
+        "data": {
+          "old": "TAX-FREE",
+          "new": "STILL CUT",
+          "sub": "in any box you hold it."
+        },
+        "lines": [
+          "Management fee means the yearly *cut* BTCC keeps from you.",
+          "Tax-free box or not, it comes out every year."
+        ]
+      },
+      {
+        "role": "catch",
+        "data": {
+          "old": "TAX-FREE",
+          "new": "STILL CUT",
+          "sub": "in any box you hold it."
+        },
+        "lines": [
+          "Fees change, so today's fee is not a *promise*."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "At $50,000 that gap is $340 a year."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$68",
+          "new": "stays in your pocket"
+        },
+        "lines": [
+          "Same bitcoin, $68 a year stays in your *pocket*."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "SPOT",
+          "gift": "the bitcoin fee table"
+        },
+        "lines": [
+          "Find your row.",
+          "Comment *SPOT,* and I will send you the bitcoin fee table."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, one lock-in line flips the loss into the table they get, the compare shows $100 versus $32 on the same $10,000 so the $68 gap is seen, a question rehooks into the catch that explains the fee and the box trap, the $340 number rehooks again, the closing hands back the $68, and the given cta ends it with FEES.",
+      "shape": "zoom",
+      "ending": "cta",
+      "caption": "blur",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "table",
+        "dumbbell",
+        "callout",
+        "stamp",
+        "badge",
+        "callout",
+        "tail",
+        "tiles"
+      ],
+      "transitions": [
+        "fade",
+        "iris",
+        "fade",
+        "iris",
+        "zoom",
+        "pan",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "catch",
+        "rehook",
+        "closing",
+        "cta"
+      ],
+      "keyword": "SPOT"
+    }
+  },
+  "caption_b": "🐶⛏️ What happens to a 1.00% fee when your bitcoin sits in a TFSA?\n\nMany think a tax-free box shields them, but the fee is the fund's own yearly cut. It leaves every year you hold, in any box, and FBTC takes 0.32% for the same bitcoin.\n\nComment FEES and I'll send you my bitcoin fee table 🪙\nChecked your fee line yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#bitcoincanada #tfsacanada #torontofinance",
+  "caption_family": "curious"
+}

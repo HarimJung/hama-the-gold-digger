@@ -1,0 +1,197 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>하마 표지 시안</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;800;900&family=Inter:wght@400;600;700;800&display=swap">
+<style>
+/* 토큰은 엔진/template.html 정본 그대로. 2026-11-03 승인분. */
+:root{
+  --cream:#FDF8EC;--paper:#FFF;--butter:#FBEFC4;--sand:#EADCBC;
+  --gold:#E3BE5A;--goldink:#6F560A;--ink:#2A2622;--inksoft:#6E6859;--hair:#E6DCC4;
+  --kr:'Gothic A1',system-ui,sans-serif;--num:'Inter',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#3a352c;font-family:var(--kr);display:flex;flex-wrap:wrap;gap:48px;padding:48px;justify-content:center}
+
+/* 한 장 = 인스타 1080x1350 실측. 머리/몸/발 3단 그리드라 사진이 글을 덮을 수 없다. */
+.card{width:1080px;height:1350px;background:var(--cream);position:relative;flex:none;
+      padding:76px 76px 64px;display:grid;grid-template-rows:auto 1fr auto;overflow:hidden}
+
+.rail{display:flex;align-items:center;justify-content:space-between;
+      font-size:21px;font-weight:800;letter-spacing:.13em;color:var(--inksoft);
+      padding-bottom:24px;border-bottom:2px solid var(--hair)}
+.rail .tag{display:flex;align-items:center;gap:13px}
+.rail .sq{width:19px;height:19px;background:var(--gold);border-radius:4px}
+.foot{padding-top:24px;border-top:2px solid var(--hair);
+      display:flex;align-items:center;justify-content:space-between;
+      font-size:21px;font-weight:700;letter-spacing:.07em;color:var(--inksoft)}
+.foot .cra{color:var(--goldink);letter-spacing:.11em}
+
+.body{display:flex;flex-direction:column;padding:50px 0 34px}
+.push{margin-top:auto}
+
+/* 아이브로우 — 헤드라인 위 맥락 한 줄 (aiscene 문법) */
+.eyebrow{font-size:31px;font-weight:700;color:var(--inksoft);letter-spacing:-.01em}
+
+/* 헤드라인 — 화면 1/3 이상 */
+.h{font-weight:900;line-height:1.04;letter-spacing:-.04em;color:var(--ink)}
+.h.big{font-size:106px}
+.h.mid{font-size:86px}
+.gold{color:var(--goldink)}
+
+/* 숫자 — 1단계 강조는 한 장에 하나 */
+.num{font-family:var(--num);font-weight:800;letter-spacing:-.05em;color:var(--ink);
+     line-height:.8;position:relative;display:inline-block}
+/* 골드 밑줄 = 이게 숫자다. 솔리드, 글자 폭에 맞춤 */
+.num::after{content:"";position:absolute;left:.05em;right:.07em;bottom:-.14em;
+            height:.08em;background:var(--gold);border-radius:3px}
+
+/* 칩 — 흰 바탕 + 잉크 실선. 큰 면을 검정으로 채우지 않는다 */
+.chip{display:inline-flex;align-items:center;background:var(--paper);
+      border:3px solid var(--ink);border-radius:14px;padding:12px 22px;
+      font-size:26px;font-weight:800;color:var(--ink);letter-spacing:-.01em;white-space:nowrap}
+.chip.soft{background:var(--butter);border-color:var(--gold);color:var(--goldink)}
+
+/* 사진 — 프레임 안에서 자르기만 한다. 누끼·리터칭·재색칠 없음 */
+.photo{position:relative;background:var(--paper);padding:15px 15px 50px;flex:none;align-self:flex-start;
+       box-shadow:0 18px 44px rgba(42,38,34,.16);border-radius:6px}
+.photo img{display:block;object-fit:cover;border-radius:3px}
+.photo .cap{position:absolute;left:0;right:0;bottom:15px;text-align:center;
+            font-size:18px;font-weight:800;letter-spacing:.1em;color:var(--inksoft)}
+.tape{position:absolute;width:140px;height:38px;background:var(--butter);opacity:.92;
+      border-radius:2px;box-shadow:0 2px 6px rgba(42,38,34,.09)}
+.note{font:700 30px var(--kr);line-height:1.5;color:var(--inksoft)}
+
+.label{position:absolute;top:-34px;left:0;font:800 20px var(--num);letter-spacing:.18em;color:#cdbf9d}
+</style>
+
+<!-- A · 거대 숫자 -->
+<div class="card" id="A">
+  <div class="label">A · 숫자</div>
+  <div class="rail"><span class="tag"><i class="sq"></i>TFSA · 미국 배당</span><span>2026.11.03</span></div>
+  <div class="body">
+    <div class="eyebrow">세금 0원이라는 그 통장에서</div>
+    <div class="h big" style="margin-top:26px">배당이</div>
+    <div style="display:flex;align-items:flex-start;gap:40px;margin-top:40px">
+      <span class="num" style="font-size:286px">15%</span>
+      <span class="chip" style="margin-top:46px;transform:rotate(-4deg)">진짜로?</span>
+    </div>
+    <div class="h big" style="margin-top:58px">국경에서<br>사라진다</div>
+    <div class="push" style="display:flex;align-items:flex-end;justify-content:space-between;gap:40px">
+      <div class="note">캐나다 안에선 0원 맞아요.<br>국경을 넘을 때만 떼여요.</div>
+      <div class="photo" style="transform:rotate(3deg)">
+        <div class="tape" style="left:-24px;top:-14px;transform:rotate(-14deg)"></div>
+        <img src="photos/hama-stand.jpg" style="width:228px;height:256px;object-position:center 40%">
+        <div class="cap">HAMA · TORONTO</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>@hamathegolddigger</span><span class="cra">CONFIRM WITH CRA</span></div>
+</div>
+
+<!-- B · 취소선 대체 -->
+<div class="card" id="B">
+  <div class="label">B · 취소선</div>
+  <div class="rail"><span class="tag"><i class="sq"></i>TFSA · 일반 교육</span><span>2026.11.03</span></div>
+  <div class="body">
+    <div style="display:flex;justify-content:space-between;gap:44px">
+      <div>
+        <div class="eyebrow">캐나다에선 맞는 말인데</div>
+        <div style="position:relative;display:inline-block;margin-top:24px">
+          <div class="h big" style="color:var(--inksoft)">세금 0원</div>
+          <svg width="440" height="30" style="position:absolute;left:-16px;top:46px;overflow:visible">
+            <line x1="0" y1="22" x2="430" y2="0" stroke="#E3BE5A" stroke-width="14" stroke-linecap="round"></line>
+          </svg>
+        </div>
+        <div class="h big" style="margin-top:36px">국경을 넘는<br>배당은<br>떼인다</div>
+      </div>
+      <div class="photo" style="transform:rotate(-4deg);margin-top:10px">
+        <div class="tape" style="right:-22px;top:-13px;transform:rotate(11deg)"></div>
+        <img src="photos/hama-strawberry.jpg" style="width:236px;height:272px;object-position:center 32%">
+        <div class="cap">HAMA · TORONTO</div>
+      </div>
+    </div>
+    <div style="display:flex;align-items:flex-end;gap:40px;margin-top:54px">
+      <span class="num" style="font-size:240px">15%</span>
+      <span class="chip soft" style="margin-bottom:34px">캐나다 주식은 안 떼임</span>
+    </div>
+    <div class="push note">돌려받는 칸은 없어요.<br>그래서 하마는 상자부터 골랐어요.</div>
+  </div>
+  <div class="foot"><span>@hamathegolddigger</span><span class="cra">CONFIRM WITH CRA</span></div>
+</div>
+
+<!-- C · 두 칸 비교 -->
+<div class="card" id="C">
+  <div class="label">C · 이기는 것 / 새는 것</div>
+  <div class="rail"><span class="tag"><i class="sq"></i>TFSA · 상자 고르기</span><span>2026.11.03</span></div>
+  <div class="body">
+    <div class="eyebrow">같은 돈, 다른 상자</div>
+    <div class="h mid" style="margin-top:22px">TFSA가 <span class="gold">이기는 것</span><br>그리고 새는 것</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:54px">
+      <div style="background:var(--butter);border:3px solid var(--gold);border-radius:22px;padding:34px 32px">
+        <div style="font:800 24px var(--kr);letter-spacing:.1em;color:var(--goldink)">이긴다</div>
+        <div style="margin-top:22px;font:700 34px var(--kr);line-height:1.5;color:var(--ink)">
+          캐나다 배당<br>오른 값<br>이자</div>
+      </div>
+      <div style="background:var(--paper);border:3px solid var(--hair);border-radius:22px;padding:34px 32px">
+        <div style="font:800 24px var(--kr);letter-spacing:.1em;color:var(--inksoft)">샌다</div>
+        <div style="margin-top:22px;font:700 34px var(--kr);line-height:1.5;color:var(--ink)">
+          미국 배당<br><span class="gold" style="font-weight:800">15% 원천</span><br>돌려받기 없음</div>
+      </div>
+    </div>
+    <div class="push" style="display:flex;align-items:flex-end;justify-content:space-between;gap:40px">
+      <div class="photo" style="transform:rotate(-3deg)">
+        <div class="tape" style="left:-22px;top:-13px;transform:rotate(-10deg)"></div>
+        <img src="photos/hama-strawberry.jpg" style="width:226px;height:256px;object-position:center 34%">
+        <div class="cap">HAMA · TORONTO</div>
+      </div>
+      <div class="note" style="text-align:right">하마는 상자부터 골랐어요.<br>뭘 사느냐보다 먼저.</div>
+    </div>
+  </div>
+  <div class="foot"><span>@hamathegolddigger</span><span class="cra">CONFIRM WITH CRA</span></div>
+</div>
+
+<!-- D · 영수증 -->
+<div class="card" id="D">
+  <div class="label">D · 영수증</div>
+  <div class="rail"><span class="tag"><i class="sq"></i>TFSA · 한 장 정리</span><span>2026.11.03</span></div>
+  <div class="body">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:44px">
+      <div>
+        <div class="eyebrow">하마가 적어둔 것</div>
+        <div class="h big" style="margin-top:20px">TFSA,<br>한 장으로</div>
+        <div class="note" style="margin-top:30px">세금 0원이라는 말,<br>어디까지 맞나.</div>
+      </div>
+      <div class="photo" style="transform:rotate(4deg);margin-top:14px">
+        <div class="tape" style="right:-22px;top:-13px;transform:rotate(12deg)"></div>
+        <img src="photos/hama-trench.jpg" style="width:226px;height:258px;object-position:center 36%">
+        <div class="cap">HAMA · TORONTO</div>
+      </div>
+    </div>
+    <div class="push" style="background:var(--paper);border-radius:24px;padding:46px 46px;
+                box-shadow:0 16px 40px rgba(42,38,34,.09)">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;padding:22px 0;border-bottom:2px solid var(--hair)">
+        <span style="font:700 34px var(--kr);color:var(--ink)">캐나다에 내는 세금</span>
+        <span style="font:800 44px var(--num);color:var(--ink)">0</span></div>
+      <div style="display:flex;justify-content:space-between;align-items:baseline;padding:22px 0;border-bottom:2px solid var(--hair)">
+        <span style="font:700 34px var(--kr);color:var(--ink)">미국 배당, 국경에서</span>
+        <span style="font:800 44px var(--num);color:var(--ink)">15%</span></div>
+      <div style="display:flex;justify-content:space-between;align-items:baseline;padding:22px 0;border-bottom:2px solid var(--hair)">
+        <span style="font:700 34px var(--kr);color:var(--ink)">돌려받는 방법</span>
+        <span style="font:800 34px var(--kr);color:var(--inksoft)">없음</span></div>
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;padding:30px 0 10px">
+        <span style="font:800 30px var(--kr);letter-spacing:.06em;color:var(--inksoft)">그래서 하마가 바꾼 건</span>
+        <span class="num" style="font-size:66px;font-family:var(--kr);font-weight:900">상자</span></div>
+    </div>
+  </div>
+  <div class="foot"><span>@hamathegolddigger</span><span class="cra">CONFIRM WITH CRA</span></div>
+</div>
+
+<script>
+// ?only=A → 그 장만 1080x1350 로 띄운다. 스크린샷용.
+const only = new URLSearchParams(location.search).get('only');
+if (only) {
+  document.body.style.cssText = 'margin:0;padding:0;background:#FDF8EC;display:block';
+  document.querySelectorAll('.card').forEach(c => { if (c.id !== only) c.remove(); });
+  document.querySelectorAll('.label').forEach(l => l.remove());
+}
+</script>

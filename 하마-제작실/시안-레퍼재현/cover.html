@@ -1,0 +1,157 @@
+<meta charset="utf-8">
+<title>하마 레퍼 재현</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap">
+<style>
+/* geu.meun.dong «배당으로 생활비 벌기» 행 카드(R1)를 하마 팔레트로 재현.
+   레퍼: 알약 라벨 → 2줄 제목(한 줄만 색) → 6행 × 4열 흰 카드 → 하단 참고 한 줄.
+   색만 하마 토큰으로 바꾸고 구조·비율·요소 수는 그대로 둔다. */
+:root{
+  --cream:#FDF8EC;--paper:#FFF;--butter:#FBEFC4;--sand:#EADCBC;
+  --gold:#E3BE5A;--goldink:#6F560A;--ink:#2A2622;--inksoft:#6E6859;--hair:#E6DCC4;
+  --rose:#E8637C;--blush:#FCE3E7;--roseink:#8E2238;
+  --disp:'Fredoka',system-ui,sans-serif;--body:'Inter',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#3a352c;font-family:var(--body)}
+
+.card{width:1080px;height:1350px;background:var(--cream);position:relative;overflow:hidden;
+  display:flex;flex-direction:column;padding:30px 28px 24px}
+/* 레퍼의 미세한 바탕 결 */
+.card::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(circle,rgba(111,86,10,.05) .9px,transparent .9px);background-size:26px 26px}
+.card>*{position:relative;z-index:1}
+
+/* 알약 라벨 — 레퍼는 진한 초록 + 양끝 점 */
+.pill{align-self:center;display:flex;align-items:center;gap:14px;background:var(--ink);
+  color:var(--cream);border-radius:999px;padding:13px 30px;
+  font:800 22px/1 var(--body);letter-spacing:.13em}
+.pill i{width:7px;height:7px;border-radius:50%;background:var(--gold);display:block}
+
+/* 제목 2줄, 한 줄만 색 */
+.t1{text-align:center;margin-top:18px;font:600 92px/1.0 var(--disp);letter-spacing:-.035em;color:var(--goldink)}
+.t2{text-align:center;margin-top:0;font:600 74px/1.04 var(--disp);letter-spacing:-.03em;color:var(--ink)}
+
+.rows{flex:1;display:flex;flex-direction:column;gap:10px;margin-top:20px}
+
+/* 행 카드 — 흰 바탕, 4열, 아주 연한 세로 구분선 */
+.r{flex:1;display:grid;grid-template-columns:27% 29% 22% 22%;background:var(--paper);
+  border-radius:15px;box-shadow:0 3px 12px rgba(42,38,34,.07);overflow:hidden}
+.r>div{padding:14px 18px;display:flex;flex-direction:column;justify-content:center;
+  border-left:1px solid #F0EADA}
+.r>div:first-child{border-left:0}
+
+.lb{font:800 15px/1 var(--body);letter-spacing:.07em;color:var(--inksoft);margin-bottom:7px}
+
+/* 열1 — 정체. 금액 + 막대 2개 */
+.c1 .amt{font:900 44px/1 var(--body);letter-spacing:-.03em;color:var(--ink);font-variant-numeric:tabular-nums}
+.c1 .sub{font:600 14px/1.2 var(--body);color:var(--inksoft);margin-top:5px}
+.c1 .bars{display:flex;flex-direction:column;gap:4px;margin-top:9px}
+.c1 .bar{height:7px;border-radius:4px;background:var(--hair);position:relative;overflow:hidden}
+.c1 .bar i{position:absolute;inset:0 auto 0 0;border-radius:4px;display:block}
+.c1 .bar.a i{background:var(--rose)}
+.c1 .bar.b i{background:var(--gold);width:100%}
+.c1 .tag{font:800 12px/1 var(--body);letter-spacing:.09em;color:var(--inksoft);margin-top:8px}
+
+/* 열2 — 큰 숫자 + 칩 */
+.c2 .big{font:900 50px/1 var(--body);letter-spacing:-.035em;color:var(--ink);font-variant-numeric:tabular-nums}
+.chip{align-self:flex-start;margin-top:9px;background:var(--blush);border:1.5px solid var(--rose);
+  border-radius:8px;padding:4px 10px;font:800 14px/1 var(--body);color:var(--roseink);letter-spacing:.02em}
+
+/* 열3 — 두 숫자 */
+.c3 .v{font:800 31px/1 var(--body);letter-spacing:-.025em;color:var(--goldink);font-variant-numeric:tabular-nums}
+.c3 .lb2{font:800 14px/1 var(--body);letter-spacing:.07em;color:var(--inksoft);margin:11px 0 5px}
+.c3 .g{font:800 31px/1 var(--body);letter-spacing:-.025em;color:var(--roseink);font-variant-numeric:tabular-nums}
+
+/* 열4 — 큰 % */
+.c4{align-items:flex-start}
+.c4 .pc{font:900 52px/1 var(--body);letter-spacing:-.04em;color:var(--rose);font-variant-numeric:tabular-nums}
+.c4 .fine{font:600 13px/1.25 var(--body);color:var(--inksoft);margin-top:6px}
+
+.note{text-align:center;margin-top:14px;font:800 19px/1.35 var(--body);color:var(--ink)}
+.note b{color:var(--roseink)}
+.foot{display:flex;justify-content:space-between;align-items:center;margin-top:12px;
+  font:700 15px/1 var(--body);letter-spacing:.05em;color:var(--inksoft)}
+</style>
+
+<div class="card">
+  <span class="pill"><i></i>US DIVIDENDS · WHERE THE CUT GOES<i></i></span>
+  <div class="t1">Your tax-free box</div>
+  <div class="t2">is the one losing 15%.</div>
+
+  <div class="rows">
+    <div class="r">
+      <div class="c1"><span class="amt">$100</span><span class="sub">a year in US dividends</span>
+        <span class="bars"><span class="bar a"><i style="width:85%"></i></span><span class="bar b"><i></i></span></span>
+        <span class="tag">TFSA / RRSP</span></div>
+      <div class="c2"><span class="lb">LANDS IN YOUR TFSA</span><span class="big">$85</span>
+        <span class="chip">−15% at the border</span></div>
+      <div class="c3"><span class="lb">LANDS IN RRSP</span><span class="v">$100</span>
+        <span class="lb2">GONE</span><span class="g">$15</span></div>
+      <div class="c4"><span class="lb">WITHHELD</span><span class="pc">15%</span>
+        <span class="fine">Treaty covers RRSP.<br>Not the TFSA.</span></div>
+    </div>
+
+    <div class="r">
+      <div class="c1"><span class="amt">$500</span><span class="sub">a year in US dividends</span>
+        <span class="bars"><span class="bar a"><i style="width:85%"></i></span><span class="bar b"><i></i></span></span>
+        <span class="tag">TFSA / RRSP</span></div>
+      <div class="c2"><span class="lb">LANDS IN YOUR TFSA</span><span class="big">$425</span>
+        <span class="chip">−15% at the border</span></div>
+      <div class="c3"><span class="lb">LANDS IN RRSP</span><span class="v">$500</span>
+        <span class="lb2">GONE</span><span class="g">$75</span></div>
+      <div class="c4"><span class="lb">WITHHELD</span><span class="pc">15%</span>
+        <span class="fine">Treaty covers RRSP.<br>Not the TFSA.</span></div>
+    </div>
+
+    <div class="r">
+      <div class="c1"><span class="amt">$1,000</span><span class="sub">a year in US dividends</span>
+        <span class="bars"><span class="bar a"><i style="width:85%"></i></span><span class="bar b"><i></i></span></span>
+        <span class="tag">TFSA / RRSP</span></div>
+      <div class="c2"><span class="lb">LANDS IN YOUR TFSA</span><span class="big">$850</span>
+        <span class="chip">−15% at the border</span></div>
+      <div class="c3"><span class="lb">LANDS IN RRSP</span><span class="v">$1,000</span>
+        <span class="lb2">GONE</span><span class="g">$150</span></div>
+      <div class="c4"><span class="lb">WITHHELD</span><span class="pc">15%</span>
+        <span class="fine">Treaty covers RRSP.<br>Not the TFSA.</span></div>
+    </div>
+
+    <div class="r">
+      <div class="c1"><span class="amt">$3,000</span><span class="sub">a year in US dividends</span>
+        <span class="bars"><span class="bar a"><i style="width:85%"></i></span><span class="bar b"><i></i></span></span>
+        <span class="tag">TFSA / RRSP</span></div>
+      <div class="c2"><span class="lb">LANDS IN YOUR TFSA</span><span class="big">$2,550</span>
+        <span class="chip">−15% at the border</span></div>
+      <div class="c3"><span class="lb">LANDS IN RRSP</span><span class="v">$3,000</span>
+        <span class="lb2">GONE</span><span class="g">$450</span></div>
+      <div class="c4"><span class="lb">WITHHELD</span><span class="pc">15%</span>
+        <span class="fine">Treaty covers RRSP.<br>Not the TFSA.</span></div>
+    </div>
+
+    <div class="r">
+      <div class="c1"><span class="amt">$5,000</span><span class="sub">a year in US dividends</span>
+        <span class="bars"><span class="bar a"><i style="width:85%"></i></span><span class="bar b"><i></i></span></span>
+        <span class="tag">TFSA / RRSP</span></div>
+      <div class="c2"><span class="lb">LANDS IN YOUR TFSA</span><span class="big">$4,250</span>
+        <span class="chip">−15% at the border</span></div>
+      <div class="c3"><span class="lb">LANDS IN RRSP</span><span class="v">$5,000</span>
+        <span class="lb2">GONE</span><span class="g">$750</span></div>
+      <div class="c4"><span class="lb">WITHHELD</span><span class="pc">15%</span>
+        <span class="fine">Treaty covers RRSP.<br>Not the TFSA.</span></div>
+    </div>
+
+    <div class="r">
+      <div class="c1"><span class="amt">$10,000</span><span class="sub">a year in US dividends</span>
+        <span class="bars"><span class="bar a"><i style="width:85%"></i></span><span class="bar b"><i></i></span></span>
+        <span class="tag">TFSA / RRSP</span></div>
+      <div class="c2"><span class="lb">LANDS IN YOUR TFSA</span><span class="big">$8,500</span>
+        <span class="chip">−15% at the border</span></div>
+      <div class="c3"><span class="lb">LANDS IN RRSP</span><span class="v">$10,000</span>
+        <span class="lb2">GONE</span><span class="g">$1,500</span></div>
+      <div class="c4"><span class="lb">WITHHELD</span><span class="pc">15%</span>
+        <span class="fine">Treaty covers RRSP.<br>Not the TFSA.</span></div>
+    </div>
+  </div>
+
+  <div class="note">US-listed holdings. <b>Treaty recognises the RRSP, not the TFSA.</b> Sources in the caption.</div>
+  <div class="foot"><span>HAMA THE GOLD DIGGER · TORONTO</span><span>CONFIRM WITH CRA · 1/8</span></div>
+</div>

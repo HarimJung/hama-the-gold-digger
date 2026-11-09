@@ -1,0 +1,1391 @@
+{
+  "key": "start-35-vs-25-cost",
+  "category": "compound",
+  "status": "draft",
+  "title": "Start at 25 or 35. The gap at 65.",
+  "object": "THE START-NOW VS WAIT CALCULATOR",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['s292146ef', 's0d27c638'] · 퍼스나 The late starter",
+  "fact": {
+    "num": "7.31",
+    "unit": "%",
+    "thing": "annualized net return of the MSCI ACWI Index (USD) since Dec 29, 2000",
+    "box": "global stock index (MSCI ACWI), used as the example rate in the start-now vs wait calculator",
+    "claim": "From Dec 29, 2000 to Oct 30, 2026, the MSCI ACWI Index returned 7.31% a year in US dollars, with dividends reinvested after withholding tax. That is a real past result and a fair example rate for a broad global stock fund, but it is not a promise, and you can't buy the index itself, so a real fund will earn a bit less after its fees. In some years the index fell hard: -18.36% in 2022, and it lost 58.38% from peak to bottom between 2007 and 2009. Measured in Canadian dollars the figure is different, and MSCI warns that past performance is no guarantee of future results.",
+    "sources": [
+      "MSCI ACWI INDEX (USD) FACTSHEET, OCT 30 2026",
+      "MSCI ACWI INDEX (USD) FACTSHEET, DISCLAIMER",
+      "MSCI ACWI INDEX (CAD) FACTSHEET, OCT 30 2026"
+    ],
+    "verified": "find.py · 대조 1/3",
+    "felt": {
+      "num": "156,700",
+      "unit": "$",
+      "a": "286,500",
+      "b": "129,700",
+      "how": "start at 25 vs start at 35, $100 a month, counted at 65",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "MSCI ACWI INDEX (USD) FACTSHEET, OCT 30 2026",
+      "url": "https://www.msci.com/documents/10199/255599/msci-acwi-net.pdf",
+      "what": "INDEX PERFORMANCE — NET RETURNS (%) (OCT 30, 2026) ... ANNUALIZED 3 Yr 5 Yr 10 Yr Since Dec 29, 2000 ... MSCI ACWI -1.64 -0.14 12.33 11.18 22.30 10.10 12.39 7.31",
+      "confidence": "1차"
+    },
+    {
+      "label": "MSCI ACWI INDEX (USD) FACTSHEET, DISCLAIMER",
+      "url": "https://www.msci.com/documents/10199/255599/msci-acwi-net.pdf",
+      "what": "Past performance -- whether actual or back-tested -- is no indication or guarantee of future performance.",
+      "confidence": "1차"
+    },
+    {
+      "label": "MSCI ACWI INDEX (CAD) FACTSHEET, OCT 30 2026",
+      "url": "https://www.msci.com/documents/10199/5877dcf5-b245-4f99-b491-85d50cee720f",
+      "what": "INDEX PERFORMANCE — GROSS RETURNS (%) (OCT 30, 2026) ... ANNUALIZED 3 Yr 5 Yr 10 Yr Since Dec 31, 1987 ... MSCI ACWI -3.28 -0.56 12.32 13.57 23.05 13.26 13.39 9.02",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "COMPOUND · CANADA",
+      "topic": "GROW YOUR MONEY",
+      "hook": {
+        "pre": "World stocks took $",
+        "num": "156,700",
+        "post": " from the late starter."
+      },
+      "promise": "Give me 30 seconds. See what sitting out cost."
+    },
+    {
+      "type": "mini",
+      "kicker": "WHERE 7.31% COMES FROM",
+      "title": "The *7.31%* is real. It wasn't smooth.",
+      "lead": "A global stock index, Dec 2000 to Oct 2026, <em>in US dollars, with what it pays you put back in.</em>",
+      "rows": [
+        {
+          "t": "Average a year, Dec 2000 to Oct 2026",
+          "v": "+7.31%",
+          "ok": true
+        },
+        {
+          "t": "2022 by itself",
+          "v": "−18.36%"
+        },
+        {
+          "t": "Peak to bottom, 2007 to 2009",
+          "v": "−58.38%"
+        }
+      ],
+      "tail": "You can't buy the index itself. A real fund keeps a bit less after fees. Past results aren't a promise.",
+      "source_label": "MSCI ACWI (USD) FACTSHEET",
+      "say": "Bumpy road.|Still the road."
+    },
+    {
+      "type": "table",
+      "kicker": "THE START-NOW VS WAIT CALCULATOR",
+      "title": "Start at 25 or 35. Count at *65.*",
+      "h1": "YOU PUT IN",
+      "h2": "START AT 35",
+      "h3": "START AT 25",
+      "rows": [
+        {
+          "a": "$100",
+          "asub": "a month",
+          "bar": 45,
+          "b": "$129,700",
+          "gone": "−$156,700 gone",
+          "c": "$286,500",
+          "csub": "$48,000 put in"
+        },
+        {
+          "a": "$200",
+          "asub": "a month",
+          "bar": 45,
+          "b": "$259,500",
+          "gone": "−$313,500 gone",
+          "c": "$573,000",
+          "csub": "$96,000 put in"
+        },
+        {
+          "a": "$300",
+          "asub": "a month",
+          "bar": 45,
+          "b": "$389,200",
+          "gone": "−$470,200 gone",
+          "c": "$859,400",
+          "csub": "$144,000 put in"
+        },
+        {
+          "a": "$500",
+          "asub": "a month",
+          "bar": 45,
+          "b": "$648,600",
+          "gone": "−$783,700 gone",
+          "c": "$1,432,400",
+          "csub": "$240,000 put in"
+        }
+      ],
+      "note": "Example at 7.31% a year, monthly, to age 65. Calculator math, not a promise. <b>At $100, starting at 25 means only $12,000 more put in. You end up $156,700 ahead.</b>",
+      "source_label": "MSCI ACWI · FV FORMULA"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "World stocks: start 10 years late, lose $156,700.",
+      "World stocks paid late starters $156,700 less. Want it back?",
+      "World stocks: waiting for spare money cost $156,700.",
+      "World stocks: $12,000 more in, $156,700 more out.",
+      "Hama checked world stocks: ten years cost $156,700.",
+      "World stocks took $156,700 from the late starter.",
+      "World stocks, $100 a month, $156,700 gap.",
+      "World stocks: same $100, $156,700 apart at 65.",
+      "World stocks: ten years late, $156,700 gone.",
+      "World stocks: never wait. Waiting cost $156,700."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "World stocks took $156,700 from the late starter.",
+    "spoken": "World stocks took $156,700 from the late starter.",
+    "promise": "Give me 30 seconds. See what sitting out cost.",
+    "pick_why": "It is a complete sentence a beginner reads in one second, the money is taken from them rather than merely missed, and the promise shows the cost without telling them how to fix it.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "DON'T WAIT"
+  },
+  "lede": "$100 a month at the global index's 7.31% a year. Ten years of waiting costs more than the money you'd have put in.",
+  "series": "THE COMPOUND CLOCK",
+  "source_note": "MSCI ACWI FACTSHEET · GLOBAL STOCK INDEX",
+  "caption": "🐶⛏️ If you wait 10 years to start, $156,700 could go missing by 65.\n\nThe early starter only put in $12,000 more, because that money had longer to grow. World stocks grew 7.31% a year in the past, but it was never smooth and never a promise.\n\nComment START and I'll send you my start-now vs wait calculator 🪙\nStarting now or waiting?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#investingcanada #torontofinance #compoundinterest",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "World stocks took $156,700 from the late starter.",
+        "part": "cover",
+        "data": {
+          "pill": "THE START-NOW VS WAIT CALCULATOR",
+          "num": "$156,700",
+          "line": "World stocks took $156,700 from the late starter.",
+          "promise": "Give me 30 seconds. See what sitting out cost.",
+          "subj": "WORLD STOCKS",
+          "stamp": "DON'T WAIT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See what sitting out cost.",
+        "nocap": true
+      },
+      {
+        "say": "The start-now calculator, *yours* in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Same $100 a month in world stocks, from 25 or 35.",
+        "part": "donut",
+        "data": {
+          "k": "THE GAP",
+          "segs": [
+            {
+              "l": "START AT 35",
+              "v": "$129,700",
+              "w": 0.31162902450744834
+            },
+            {
+              "l": "START AT 25",
+              "v": "$286,500",
+              "w": 0.6883709754925517
+            }
+          ],
+          "hi": 1,
+          "at": "$286,500"
+        },
+        "badge": "THE GAP",
+        "in": "iris"
+      },
+      {
+        "say": "At 65, the late starter has $129,700, the early one $286,500."
+      },
+      {
+        "say": "Just 10 extra *years* made the $156,700 gap.",
+        "part": "table",
+        "data": {
+          "k": "THE START-NOW VS WAIT CALCULATOR",
+          "cols": [
+            "START AT 35",
+            "START AT 25"
+          ],
+          "rows": [
+            {
+              "lab": "$100",
+              "cells": [
+                "$129,700",
+                "$286,500"
+              ]
+            },
+            {
+              "lab": "$200",
+              "cells": [
+                "$259,500",
+                "$573,000"
+              ]
+            },
+            {
+              "lab": "$300",
+              "cells": [
+                "$389,200",
+                "$859,400"
+              ]
+            },
+            {
+              "lab": "$500",
+              "cells": [
+                "$648,600",
+                "$1,432,400"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "People think the early starter *saved* way more.",
+        "part": "badge",
+        "data": {
+          "old": "SAVED MORE",
+          "new": "$12,000 MORE",
+          "at": "$12,000",
+          "sub": "time did the rest.",
+          "sub_at": 1,
+          "k": "THE WHY"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Just $12,000 more went in."
+      },
+      {
+        "say": "World stocks, a list of big companies, grew 7.31% a year.",
+        "part": "tag",
+        "data": {
+          "old": "SAVED MORE",
+          "new": "$12,000 MORE",
+          "at": 0,
+          "sub": "time did the rest.",
+          "sub_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "That 7.31% was never *smooth,* never a promise.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "SMOOTH",
+            "v": "SMOOTH",
+            "sub": ""
+          },
+          "b": {
+            "h": "BUMPY",
+            "v": "BUMPY",
+            "sub": ""
+          },
+          "at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "*Waiting* 10 years cost $156,700.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$156,700",
+          "tail": "the cost of waiting",
+          "at": "$156,700"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Find your own row, $100 to $500 a month.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "YOUR $100",
+            "big": "$129,700",
+            "ft": "start at 35"
+          },
+          "b": {
+            "k": "SAME $100",
+            "big": "$286,500",
+            "ft": "start at 25",
+            "at": 0
+          },
+          "gap": "$156,700",
+          "gap_at": 0
+        },
+        "badge": "YOUR ROW",
+        "in": "zoom"
+      },
+      {
+        "say": "Comment *START,* and I will send you the start-now calculator.",
+        "part": "tiles",
+        "data": {
+          "word": "START",
+          "at": "START",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the start-now vs wait calculator ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "World stocks took $156,700 from the late starter.",
+          "Give me 30 seconds. See what sitting out cost."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The start-now calculator, *yours* in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "START AT 35",
+            "v": "$129,700",
+            "sub": "$100 a month",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "START AT 25",
+            "v": "$286,500",
+            "sub": "same $100 a month",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Same $100 a month in world stocks, from 25 or 35.",
+          "At 65, the late starter has $129,700, the early one $286,500."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "START AT 35",
+            "v": "$129,700",
+            "sub": "$100 a month",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "START AT 25",
+            "v": "$286,500",
+            "sub": "same $100 a month",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Just 10 extra *years* made the $156,700 gap."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THE WHY",
+        "data": {
+          "old": "SAVED MORE",
+          "new": "$12,000 MORE",
+          "sub": "time did the rest."
+        },
+        "lines": [
+          "People think the early starter *saved* way more.",
+          "Just $12,000 more went in."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "SAVED MORE",
+          "new": "$12,000 MORE",
+          "sub": "time did the rest."
+        },
+        "lines": [
+          "World stocks, a list of big companies, grew 7.31% a year."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SMOOTH",
+          "new": "BUMPY"
+        },
+        "lines": [
+          "That 7.31% was never *smooth,* never a promise."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$156,700",
+          "new": "the cost of waiting"
+        },
+        "lines": [
+          "*Waiting* 10 years cost $156,700."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "YOUR $100",
+            "v": "$129,700",
+            "sub": "start at 35",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $100",
+            "v": "$286,500",
+            "sub": "start at 25",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find your own row, $100 to $500 a month."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "START",
+          "gift": "the start-now vs wait calculator"
+        },
+        "lines": [
+          "Comment *START,* and I will send you the start-now calculator."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: loss hook and promise, a one-breath lock-in naming the calculator, a compare that shows both starts and the $156,700 gap, a rehook, a myth that flips 'saved more' into only $12,000 more at 7.31% a year, a bumpy-road rehook, the $ closing, then the given myrow and cta ending.",
+      "shape": "ledger",
+      "ending": "myrow_cta",
+      "caption": "karaoke",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "donut",
+        "table",
+        "callout",
+        "badge",
+        "tag",
+        "wipe",
+        "tail",
+        "compare",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "zoom",
+        "iris",
+        "wipe",
+        "zoom",
+        "iris",
+        "wipe",
+        "zoom",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "START"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "World stocks took $156,700 from the late starter.",
+        "part": "cover",
+        "data": {
+          "pill": "THE START-NOW VS WAIT CALCULATOR",
+          "num": "$156,700",
+          "line": "World stocks took $156,700 from the late starter.",
+          "promise": "Give me 30 seconds. See what sitting out cost.",
+          "subj": "WORLD STOCKS",
+          "stamp": "DON'T WAIT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See what sitting out cost.",
+        "nocap": true
+      },
+      {
+        "say": "The start-now calculator, *yours* in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Same $100 a month in world stocks, from 25 or 35.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "START AT 35",
+            "v": "$129,700",
+            "sub": "$100 a month"
+          },
+          "b": {
+            "h": "START AT 25",
+            "v": "$286,500",
+            "sub": "same $100 a month"
+          },
+          "at": "$286,500"
+        },
+        "badge": "THE GAP",
+        "in": "iris"
+      },
+      {
+        "say": "At 65, the late starter has $129,700, the early one $286,500."
+      },
+      {
+        "say": "Just 10 extra *years* made the $156,700 gap.",
+        "part": "split",
+        "data": {
+          "k": "START AT 35 vs START AT 25",
+          "total": "$286,500",
+          "a": {
+            "v": "$129,700",
+            "l": "START AT 35",
+            "w": 0.31162902450744834,
+            "at": 0
+          },
+          "b": {
+            "v": "$286,500",
+            "l": "START AT 25",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "People think the early starter *saved* way more.",
+        "part": "swap",
+        "data": {
+          "old": "SAVED MORE",
+          "new": "$12,000 MORE",
+          "at": "Just",
+          "sub": "time did the rest.",
+          "sub_at": 1
+        }
+      },
+      {
+        "say": "Just $12,000 more went in."
+      },
+      {
+        "say": "World stocks, a list of big companies, grew 7.31% a year.",
+        "part": "tag",
+        "data": {
+          "old": "SAVED MORE",
+          "new": "$12,000 MORE",
+          "at": 0,
+          "sub": "time did the rest.",
+          "sub_at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "That 7.31% was never *smooth,* never a promise.",
+        "part": "tabs",
+        "data": {
+          "old": "SMOOTH",
+          "new": "BUMPY",
+          "at": 0,
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "*Waiting* 10 years cost $156,700.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$156,700",
+          "tail": "the cost of waiting",
+          "at": "$156,700"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Find your own row, $100 to $500 a month.",
+        "part": "table",
+        "data": {
+          "k": "YOUR ROW",
+          "cols": [
+            "START AT 35",
+            "START AT 25"
+          ],
+          "rows": [
+            {
+              "lab": "$100",
+              "cells": [
+                "$129,700",
+                "$286,500"
+              ]
+            },
+            {
+              "lab": "$200",
+              "cells": [
+                "$259,500",
+                "$573,000"
+              ]
+            },
+            {
+              "lab": "$300",
+              "cells": [
+                "$389,200",
+                "$859,400"
+              ]
+            },
+            {
+              "lab": "$500",
+              "cells": [
+                "$648,600",
+                "$1,432,400"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 0
+        },
+        "badge": "YOUR ROW"
+      },
+      {
+        "say": "Comment *START,* and I will send you the start-now calculator.",
+        "part": "tiles",
+        "data": {
+          "word": "START",
+          "at": "START",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the start-now vs wait calculator ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "World stocks took $156,700 from the late starter.",
+          "Give me 30 seconds. See what sitting out cost."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The start-now calculator, *yours* in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "START AT 35",
+            "v": "$129,700",
+            "sub": "$100 a month",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "START AT 25",
+            "v": "$286,500",
+            "sub": "same $100 a month",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Same $100 a month in world stocks, from 25 or 35.",
+          "At 65, the late starter has $129,700, the early one $286,500."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "START AT 35",
+            "v": "$129,700",
+            "sub": "$100 a month",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "START AT 25",
+            "v": "$286,500",
+            "sub": "same $100 a month",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Just 10 extra *years* made the $156,700 gap."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THE WHY",
+        "data": {
+          "old": "SAVED MORE",
+          "new": "$12,000 MORE",
+          "sub": "time did the rest."
+        },
+        "lines": [
+          "People think the early starter *saved* way more.",
+          "Just $12,000 more went in."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "SAVED MORE",
+          "new": "$12,000 MORE",
+          "sub": "time did the rest."
+        },
+        "lines": [
+          "World stocks, a list of big companies, grew 7.31% a year."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SMOOTH",
+          "new": "BUMPY"
+        },
+        "lines": [
+          "That 7.31% was never *smooth,* never a promise."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$156,700",
+          "new": "the cost of waiting"
+        },
+        "lines": [
+          "*Waiting* 10 years cost $156,700."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "YOUR $100",
+            "v": "$129,700",
+            "sub": "start at 35",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $100",
+            "v": "$286,500",
+            "sub": "start at 25",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find your own row, $100 to $500 a month."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "START",
+          "gift": "the start-now vs wait calculator"
+        },
+        "lines": [
+          "Comment *START,* and I will send you the start-now calculator."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: loss hook and promise, a one-breath lock-in naming the calculator, a compare that shows both starts and the $156,700 gap, a rehook, a myth that flips 'saved more' into only $12,000 more at 7.31% a year, a bumpy-road rehook, the $ closing, then the given myrow and cta ending.",
+      "shape": "ledger",
+      "ending": "myrow_cta",
+      "caption": "blur",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "wipe",
+        "split",
+        "callout",
+        "swap",
+        "tag",
+        "tabs",
+        "tail",
+        "table",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "wipe",
+        "zoom",
+        "fade",
+        "iris",
+        "wipe",
+        "zoom",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "START"
+    }
+  },
+  "plain": {
+    "what": "This post is about saving $100 a month and letting it grow. It uses the MSCI ACWI index as the example rate. An index is a list of big companies you buy all at once, and this one covers stocks around the world. From the end of 2000 to October 2026, it grew 7.31% a year in US dollars.",
+    "so_what": "At that rate, someone who starts at 25 has about $286,500 at 65, and someone who starts at 35 has about $129,700 — a gap of $156,700, even though the early starter only put in $12,000 more.",
+    "do": "Write down your age and how much you could put away each month, then find your row in the chart.",
+    "words": [
+      {
+        "term": "index",
+        "means": "a list of the biggest companies, bought all at once"
+      },
+      {
+        "term": "MSCI ACWI",
+        "means": "a worldwide list of big company stocks"
+      },
+      {
+        "term": "fund",
+        "means": "holds many companies at once"
+      },
+      {
+        "term": "annualized return",
+        "means": "the average growth per year over many years"
+      },
+      {
+        "term": "dividend",
+        "means": "money a company pays you"
+      },
+      {
+        "term": "withholding tax",
+        "means": "tax taken off before the money reaches you"
+      },
+      {
+        "term": "peak to bottom",
+        "means": "the drop from the highest point to the lowest"
+      },
+      {
+        "term": "fees",
+        "means": "what the fund keeps for running your money"
+      }
+    ]
+  },
+  "carousel": {
+    "cards": [
+      {
+        "top": "Two savers, same $100 a month. One waited.",
+        "big": "$156,700 less",
+        "note": "At 65: $129,700 against $286,500.",
+        "tone": "rose"
+      },
+      {
+        "top": "You started at 35 instead of 25.",
+        "big": "Ten years sat out",
+        "tone": "rose"
+      },
+      {
+        "top": "How much more did the early starter put in?",
+        "big": "$12,000",
+        "note": "Same $100 a month. They just started ten years sooner.",
+        "tone": "gold"
+      },
+      {
+        "top": "That $12,000 became a $156,700 gap.",
+        "big": "Time did the rest",
+        "note": "$100 a month, 7.31% a year, a worldwide list of big stocks.",
+        "tone": "gold"
+      },
+      {
+        "top": "That 7.31% a year was never smooth.",
+        "big": "Down 18.36% in 2022",
+        "note": "Past results are not a promise.",
+        "tone": "rose"
+      },
+      {
+        "top": "Write down your age and your monthly amount.",
+        "big": "Then find your row",
+        "tone": "gold"
+      },
+      {
+        "top": "The start now or wait calculator.",
+        "big": "Comment START",
+        "note": "or read it free at hama-money.vercel.app",
+        "tone": "gold"
+      }
+    ],
+    "made_by": "엔진/carousel.py (prompts/carousel.md via claude -p)"
+  },
+  "subject": "World stocks",
+  "deliver": {
+    "word": "START",
+    "gift": "the start-now vs wait calculator"
+  },
+  "check": [],
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 ledger, 끝맺음 myrow_cta) · 모션 매핑 GRAMMAR. 훅 방식 손해.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "World stocks took $156,700 from the late starter.",
+        "part": "cover",
+        "data": {
+          "pill": "THE START-NOW VS WAIT CALCULATOR",
+          "num": "$156,700",
+          "line": "World stocks took $156,700 from the late starter.",
+          "promise": "Give me 30 seconds. See what sitting out cost.",
+          "subj": "WORLD STOCKS",
+          "stamp": "DON'T WAIT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See what sitting out cost.",
+        "nocap": true
+      },
+      {
+        "say": "The start-now calculator, *yours* in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Same $100 a month in world stocks, from 25 or 35.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "START AT 35",
+            "v": "$129,700",
+            "sub": "$100 a month"
+          },
+          "b": {
+            "h": "START AT 25",
+            "v": "$286,500",
+            "sub": "same $100 a month"
+          },
+          "at": "$286,500"
+        },
+        "badge": "THE GAP",
+        "in": "pan"
+      },
+      {
+        "say": "At 65, the late starter has $129,700, the early one $286,500."
+      },
+      {
+        "say": "Just 10 extra *years* made the $156,700 gap.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "$100 a month",
+              "tone": "loss",
+              "h": "START AT 35",
+              "v": "$129,700",
+              "at": 0
+            },
+            {
+              "sub": "same $100 a month",
+              "tone": "win",
+              "h": "START AT 25",
+              "v": "$286,500",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "But here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "But here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "People think the early starter *saved* way more.",
+        "part": "badge",
+        "data": {
+          "old": "SAVED MORE",
+          "new": "$12,000 MORE",
+          "at": "$12,000",
+          "sub": "time did the rest.",
+          "sub_at": 1,
+          "k": "THE WHY"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Just $12,000 more went in."
+      },
+      {
+        "say": "World stocks, a list of big companies, grew 7.31% a year.",
+        "part": "strike",
+        "data": {
+          "old": "SAVED MORE",
+          "new": "$12,000 MORE",
+          "at": "World",
+          "k": "",
+          "sub": "time did the rest.",
+          "sub_at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "That 7.31% was never *smooth,* never a promise.",
+        "part": "tabs",
+        "data": {
+          "old": "SMOOTH",
+          "new": "BUMPY",
+          "at": 0,
+          "k": ""
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "*Waiting* 10 years cost $156,700.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$156,700",
+          "tail": "the cost of waiting",
+          "at": "$156,700"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Find your own row, $100 to $500 a month.",
+        "part": "split",
+        "data": {
+          "k": "YOUR $100 vs SAME $100",
+          "total": "$286,500",
+          "a": {
+            "v": "$129,700",
+            "l": "YOUR $100",
+            "w": 0.31162902450744834,
+            "at": 0
+          },
+          "b": {
+            "v": "$286,500",
+            "l": "SAME $100",
+            "at": 0,
+            "label_at": 0
+          }
+        },
+        "badge": "YOUR ROW"
+      },
+      {
+        "say": "Comment *START,* and I will send you the start-now calculator.",
+        "part": "tiles",
+        "data": {
+          "word": "START",
+          "at": "START",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the start-now vs wait calculator ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "World stocks took $156,700 from the late starter.",
+          "Give me 30 seconds. See what sitting out cost."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The start-now calculator, *yours* in 30 seconds."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "START AT 35",
+            "v": "$129,700",
+            "sub": "$100 a month",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "START AT 25",
+            "v": "$286,500",
+            "sub": "same $100 a month",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Same $100 a month in world stocks, from 25 or 35.",
+          "At 65, the late starter has $129,700, the early one $286,500."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "START AT 35",
+            "v": "$129,700",
+            "sub": "$100 a month",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "START AT 25",
+            "v": "$286,500",
+            "sub": "same $100 a month",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Just 10 extra *years* made the $156,700 gap."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "But here is the part nobody says."
+        ]
+      },
+      {
+        "role": "myth",
+        "badge": "THE WHY",
+        "data": {
+          "old": "SAVED MORE",
+          "new": "$12,000 MORE",
+          "sub": "time did the rest."
+        },
+        "lines": [
+          "People think the early starter *saved* way more.",
+          "Just $12,000 more went in."
+        ]
+      },
+      {
+        "role": "myth",
+        "data": {
+          "old": "SAVED MORE",
+          "new": "$12,000 MORE",
+          "sub": "time did the rest."
+        },
+        "lines": [
+          "World stocks, a list of big companies, grew 7.31% a year."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "SMOOTH",
+          "new": "BUMPY"
+        },
+        "lines": [
+          "That 7.31% was never *smooth,* never a promise."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$156,700",
+          "new": "the cost of waiting"
+        },
+        "lines": [
+          "*Waiting* 10 years cost $156,700."
+        ]
+      },
+      {
+        "role": "myrow",
+        "badge": "YOUR ROW",
+        "data": {
+          "a": {
+            "h": "YOUR $100",
+            "v": "$129,700",
+            "sub": "start at 35",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SAME $100",
+            "v": "$286,500",
+            "sub": "start at 25",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Find your own row, $100 to $500 a month."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "START",
+          "gift": "the start-now vs wait calculator"
+        },
+        "lines": [
+          "Comment *START,* and I will send you the start-now calculator."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "It follows the given arc exactly: loss hook and promise, a one-breath lock-in naming the calculator, a compare that shows both starts and the $156,700 gap, a rehook, a myth that flips 'saved more' into only $12,000 more at 7.31% a year, a bumpy-road rehook, the $ closing, then the given myrow and cta ending.",
+      "shape": "ledger",
+      "ending": "myrow_cta",
+      "caption": "karaoke",
+      "opener": "cover",
+      "parts": [
+        "cover",
+        "wipe",
+        "stack",
+        "callout",
+        "badge",
+        "strike",
+        "tabs",
+        "tail",
+        "split",
+        "tiles"
+      ],
+      "transitions": [
+        "pan",
+        "zoom",
+        "pan",
+        "zoom",
+        "pan",
+        "dissolve",
+        "zoom",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "myth",
+        "myth",
+        "rehook",
+        "closing",
+        "myrow",
+        "cta"
+      ],
+      "keyword": "START"
+    }
+  }
+}

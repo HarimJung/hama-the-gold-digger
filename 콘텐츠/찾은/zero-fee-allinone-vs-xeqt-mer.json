@@ -1,0 +1,1273 @@
+{
+  "key": "zero-fee-allinone-vs-xeqt-mer",
+  "category": "etf",
+  "status": "draft",
+  "title": "Same global stocks. One fee line is $14, the other is $0.",
+  "object": "THE ZERO FEE ALL-IN-ONE TABLE",
+  "made_by": "엔진/find.py 2026-11-05 · 신호 ['s24818cda', 's8f85e8a6', 's548e58a2', 's34791603'] · 퍼스나 The bank-branch fund holder",
+  "fact": {
+    "num": "14",
+    "unit": "$",
+    "thing": "yearly fee difference on $7,000 held in a 0% all-in-one ETF instead of XEQT",
+    "box": "TFSA",
+    "claim": "Scotia launched four all-in-one ETFs on October 26, 2026 (SBCN, SBBA, SBGR, SBEQ), and the manager is waiving fees so each one's MER is expected to be 0.00% until October 31, 2027. XEQT, the all-in-one most Canadians hold, has a 0.20% MER as of its June 19, 2026 ETF Facts. On one year of filled TFSA room, which is $7,000 for 2026, that gap is about $14 a year: roughly $14 of fees in XEQT versus about $0 in the Scotia funds while the waiver lasts. The waiver is temporary, and the standard 0.15% management fee plus other expenses starts November 1, 2027, so the saving only runs for the waiver period and the funds are new with short track records.",
+    "sources": [
+      "SCOTIA GAM NEWS RELEASE",
+      "SCOTIA GAM NEWS RELEASE",
+      "ISHARES XEQT ETF FACTS",
+      "CRA INDEXATION TABLE"
+    ],
+    "verified": "find.py · 대조 3/4",
+    "felt": {
+      "num": "14",
+      "unit": "$",
+      "a": "14",
+      "b": "0",
+      "how": "yearly fee on $7,000: XEQT at 0.20% vs Scotia's new four at 0.00% while the waiver lasts",
+      "from": "slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "SCOTIA GAM NEWS RELEASE",
+      "url": "https://scotiabank.investorroom.com/2026-10-26-Scotia-Global-Asset-Management-expands-ETF-lineup-with-new-asset-allocation-and-systematic-ETFs",
+      "what": "Scotia Global Asset Management will temporarily waive or absorb each Scotia Asset Allocation ETFs' management fee and certain other expenses until October 31, 2027 such that each ETF's management expense ratio is expected be 0.00% during this period.",
+      "confidence": "1차"
+    },
+    {
+      "label": "SCOTIA GAM NEWS RELEASE",
+      "url": "https://scotiabank.investorroom.com/2026-10-26-Scotia-Global-Asset-Management-expands-ETF-lineup-with-new-asset-allocation-and-systematic-ETFs",
+      "what": "The standard 0.15% management fee and other expenses will apply beginning November 1, 2027.",
+      "confidence": "1차"
+    },
+    {
+      "label": "ISHARES XEQT ETF FACTS",
+      "url": "https://www.blackrock.com/ca/investors/en/literature/etf-summary/xeqt-facts-en-ca.pdf",
+      "what": "Management expense ratio (MER) 0.20%",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA INDEXATION TABLE",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/frequently-asked-questions-individuals/adjustment-personal-income-tax-benefit-amounts.html",
+      "what": "Annual TFSA dollar limit $7,000",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "ETF · CANADA",
+      "topic": "THE ETF COMBO",
+      "hook": {
+        "pre": "XEQT's $",
+        "num": "14",
+        "post": " fee never stops. Scotia's $0 ends October 2027."
+      },
+      "promise": "Give me 30 seconds. See the full list."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME IDEA · TWO FEE LINES",
+      "title": "Same global stocks. One fee is *$14*, one is $0.",
+      "boxes": [
+        {
+          "h": "XEQT",
+          "v": "0.20%",
+          "d": "$14 a year on $7,000.",
+          "d2": "That is one year of filled TFSA room, $7,000 for 2026. The 0.20% comes off every year you hold it.",
+          "d3": "MER on the June 19, 2026 ETF Facts",
+          "lead": true
+        },
+        {
+          "h": "SCOTIA'S NEW FOUR",
+          "v": "0.00%",
+          "win": true,
+          "d": "About $0 a year on $7,000.",
+          "d2": "SBCN, SBBA, SBGR, SBEQ launched October 26, 2026. The manager is waiving fees, so the MER is expected to be 0.00% until October 31, 2027.",
+          "d3": "Waived, not free forever"
+        }
+      ],
+      "source_label": "SCOTIA GAM · ISHARES ETF FACTS",
+      "say": "Hama reads the fee line.|Then the end date."
+    },
+    {
+      "type": "grid",
+      "kicker": "THE ZERO FEE ALL-IN-ONE TABLE",
+      "title": "0.20% a year, in dollars.",
+      "rowlabel": "YOU HOLD",
+      "cols": [
+        "AT 0.20%",
+        "AT 0.00%",
+        "GAP A YEAR"
+      ],
+      "labw": 24,
+      "rows": [
+        {
+          "a": "$7,000",
+          "asub": "2026 TFSA room",
+          "cells": [
+            "$14",
+            "$0",
+            "$14"
+          ]
+        },
+        {
+          "a": "$14,000",
+          "asub": "two years of room",
+          "cells": [
+            "$28",
+            "$0",
+            "$28"
+          ]
+        },
+        {
+          "a": "$35,000",
+          "asub": "five years of room",
+          "cells": [
+            "$70",
+            "$0",
+            "$70"
+          ]
+        },
+        {
+          "a": "$100,000",
+          "asub": "a grown account",
+          "cells": [
+            "$200",
+            "$0",
+            "$200"
+          ]
+        }
+      ],
+      "hi": [
+        2
+      ],
+      "note": "0.20% and 0.00% times what you hold. Calculator math, not a promise. The 0% ends October 31, 2027, then 0.15% plus other expenses applies. <b>Save this. Find your row.</b>",
+      "source_label": "SCOTIA GAM · ISHARES ETF FACTS"
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "XEQT takes $14 a year. That's your money gone.",
+      "XEQT costs you $14 a year. Scared of paying more?",
+      "Everyone buys XEQT and pays $14 a year. Hama doesn't.",
+      "XEQT is cheap. It still takes $14 a year from you.",
+      "Hama checked XEQT's fee: $14 a year on a filled TFSA.",
+      "XEQT: $14 a year gone. Nobody told you.",
+      "SBCN, SBBA, SBGR, SBEQ: 0% fees until next October.",
+      "XEQT and Scotia's new four hold the same thing. $14 apart.",
+      "XEQT's $14 fee never stops. Scotia's $0 ends October 2027.",
+      "Never pay XEQT's $14 fee before you check this."
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "XEQT's $14 fee never stops. Scotia's $0 ends October 2027.",
+    "spoken": "XEQT's $14 fee never stops. Scotia's $0 ends October 2027.",
+    "promise": "Give me 30 seconds. See the full list.",
+    "pick_why": "The clock does the work: a fee that never stops next to a free window that closes in October 2027 makes people save the post to act before it ends.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-05",
+    "stamp": "STOP THE LEAK"
+  },
+  "lede": "Four new all-in-one ETFs are running at a 0.00% MER until October 31, 2027. The all-in-one most Canadians hold charges 0.20%. On one year of filled TFSA room, that is about $14.",
+  "series": "ETF FEE GAP",
+  "source_note": "SCOTIA GAM · NEWS RELEASE",
+  "caption": "🐶⛏️ If you put $7,000 in XEQT, a $14 fee leaves your box every year.\n\nScotia just started funds like it that skip the fee, so they cost you $0 for now. But that only lasts until October 31, 2027, and then a fee starts on funds that are brand new.\n\nComment ZERO and I'll send you the zero fee list 🪙\nChecked your fee yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#xeqt #etfcanada #tfsacanada",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 시간.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "XEQT's $14 fee never stops. Scotia's $0 ends October 2027.",
+        "part": "slam",
+        "data": {
+          "pill": "THE ZERO FEE ALL-IN-ONE TABLE",
+          "num": "$14",
+          "line": "XEQT's $14 fee never stops. Scotia's $0 ends October 2027.",
+          "promise": "Give me 30 seconds. See the full list.",
+          "subj": "XEQT",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the full list.",
+        "nocap": true
+      },
+      {
+        "say": "Stay, and the zero fee list is *yours.*",
+        "cap": "low"
+      },
+      {
+        "say": "Put $7,000 in a fund holding many companies at once.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "XEQT AT 0.20%",
+            "big": "$14",
+            "ft": "gone every year"
+          },
+          "b": {
+            "k": "SCOTIA'S FOUR",
+            "big": "$0",
+            "ft": "fee skipped, same $7,000",
+            "at": 1
+          },
+          "gap": "$14",
+          "gap_at": "$14"
+        },
+        "badge": "THE GAP",
+        "in": "zoom"
+      },
+      {
+        "say": "XEQT takes 0.20%, so $14 is gone."
+      },
+      {
+        "say": "Scotia's four *skip* the fee, so $0.",
+        "part": "table",
+        "data": {
+          "k": "THE ZERO FEE ALL-IN-ONE TABLE",
+          "cols": [
+            "AT 0.20%",
+            "AT 0.00%",
+            "GAP A YEAR"
+          ],
+          "rows": [
+            {
+              "lab": "$7,000",
+              "cells": [
+                "$14",
+                "$0",
+                "$14"
+              ]
+            },
+            {
+              "lab": "$14,000",
+              "cells": [
+                "$28",
+                "$0",
+                "$28"
+              ]
+            },
+            {
+              "lab": "$35,000",
+              "cells": [
+                "$70",
+                "$0",
+                "$70"
+              ]
+            },
+            {
+              "lab": "$100,000",
+              "cells": [
+                "$200",
+                "$0",
+                "$200"
+              ]
+            }
+          ],
+          "hi": 2,
+          "at": 0
+        },
+        "in": "iris"
+      },
+      {
+        "say": "So why not move today?",
+        "part": "callout",
+        "data": {
+          "word": "today",
+          "line": "So why not move today?",
+          "at": "today"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Scotia *only* skips the fee until October 31, 2027.",
+        "part": "badge",
+        "data": {
+          "old": "FREE FOREVER",
+          "new": "ENDS OCT 2027",
+          "at": 1,
+          "sub": "then 0.15% plus other costs.",
+          "sub_at": 1,
+          "k": "THE CATCH"
+        },
+        "badge": "THE CATCH",
+        "in": "iris"
+      },
+      {
+        "say": "Then 0.15% plus other costs starts on four brand new funds."
+      },
+      {
+        "say": "At $100,000, that gap is $200 a year.",
+        "part": "callout",
+        "data": {
+          "word": "year",
+          "line": "At $100,000, that gap is $200 a year.",
+          "at": "year"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "That $14 leaves your $7,000 *every* year.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$14",
+          "tail": "off every year",
+          "at": "$14"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Open the fund page for what you hold.",
+        "part": "hub",
+        "data": {
+          "items": [
+            "Fund page",
+            "The fee line",
+            "The date"
+          ],
+          "k": "THE ZERO FEE ALL-IN-ONE TABLE",
+          "from": 0,
+          "to": 1
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Write down its fee and date."
+      },
+      {
+        "say": "Comment *ZERO,* and I will send you the zero fee list.",
+        "part": "tiles",
+        "data": {
+          "word": "ZERO",
+          "at": "ZERO",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the zero fee list ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "XEQT's $14 fee never stops. Scotia's $0 ends October 2027.",
+          "Give me 30 seconds. See the full list."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Stay, and the zero fee list is *yours.*"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "XEQT AT 0.20%",
+            "v": "$14",
+            "sub": "gone every year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SCOTIA'S FOUR",
+            "v": "$0",
+            "sub": "fee skipped, same $7,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Put $7,000 in a fund holding many companies at once.",
+          "XEQT takes 0.20%, so $14 is gone."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "XEQT AT 0.20%",
+            "v": "$14",
+            "sub": "gone every year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SCOTIA'S FOUR",
+            "v": "$0",
+            "sub": "fee skipped, same $7,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Scotia's four *skip* the fee, so $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So why not move today?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE CATCH",
+        "data": {
+          "old": "FREE FOREVER",
+          "new": "ENDS OCT 2027",
+          "sub": "then 0.15% plus other costs."
+        },
+        "lines": [
+          "Scotia *only* skips the fee until October 31, 2027.",
+          "Then 0.15% plus other costs starts on four brand new funds."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "At $100,000, that gap is $200 a year."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$14",
+          "new": "off every year"
+        },
+        "lines": [
+          "That $14 leaves your $7,000 *every* year."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Fund page",
+            "The fee line",
+            "The date"
+          ]
+        },
+        "lines": [
+          "Open the fund page for what you hold.",
+          "Write down its fee and date."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "ZERO",
+          "gift": "the zero fee list"
+        },
+        "lines": [
+          "Comment *ZERO,* and I will send you the zero fee list."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open on the fee that never stops, the lock-in flips to the list they get, body 1 shows $14 against $0 on the same $7,000, a question rehooks into the catch that the skipped fee ends October 31, 2027, the $200 number rehooks into the $14 closing, then the given check and cta end it.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "compare",
+        "table",
+        "callout",
+        "badge",
+        "callout",
+        "tail",
+        "hub",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "iris",
+        "zoom",
+        "iris",
+        "wipe",
+        "zoom",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "ZERO"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 시간.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "XEQT's $14 fee never stops. Scotia's $0 ends October 2027.",
+        "part": "slam",
+        "data": {
+          "pill": "THE ZERO FEE ALL-IN-ONE TABLE",
+          "num": "$14",
+          "line": "XEQT's $14 fee never stops. Scotia's $0 ends October 2027.",
+          "promise": "Give me 30 seconds. See the full list.",
+          "subj": "XEQT",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the full list.",
+        "nocap": true
+      },
+      {
+        "say": "Stay, and the zero fee list is *yours.*",
+        "cap": "low"
+      },
+      {
+        "say": "Put $7,000 in a fund holding many companies at once.",
+        "part": "split",
+        "data": {
+          "k": "XEQT AT 0.20% vs SCOTIA'S FOUR",
+          "total": "$14",
+          "a": {
+            "v": "$14",
+            "l": "XEQT AT 0.20%",
+            "w": 0.88,
+            "at": "$14"
+          },
+          "b": {
+            "v": "$0",
+            "l": "SCOTIA'S FOUR",
+            "at": 1,
+            "label_at": 1
+          }
+        },
+        "badge": "THE GAP",
+        "in": "iris"
+      },
+      {
+        "say": "XEQT takes 0.20%, so $14 is gone."
+      },
+      {
+        "say": "Scotia's four *skip* the fee, so $0.",
+        "part": "table",
+        "data": {
+          "k": "THE ZERO FEE ALL-IN-ONE TABLE",
+          "cols": [
+            "AT 0.20%",
+            "AT 0.00%",
+            "GAP A YEAR"
+          ],
+          "rows": [
+            {
+              "lab": "$7,000",
+              "cells": [
+                "$14",
+                "$0",
+                "$14"
+              ]
+            },
+            {
+              "lab": "$14,000",
+              "cells": [
+                "$28",
+                "$0",
+                "$28"
+              ]
+            },
+            {
+              "lab": "$35,000",
+              "cells": [
+                "$70",
+                "$0",
+                "$70"
+              ]
+            },
+            {
+              "lab": "$100,000",
+              "cells": [
+                "$200",
+                "$0",
+                "$200"
+              ]
+            }
+          ],
+          "hi": 2,
+          "at": 0
+        }
+      },
+      {
+        "say": "So why not move today?",
+        "part": "callout",
+        "data": {
+          "word": "today",
+          "line": "So why not move today?",
+          "at": "today"
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Scotia *only* skips the fee until October 31, 2027.",
+        "part": "stamp",
+        "data": {
+          "old": "FREE FOREVER",
+          "new": "ENDS OCT 2027",
+          "at": 1,
+          "k": "THE CATCH",
+          "sub": "then 0.15% plus other costs.",
+          "sub_at": 1
+        },
+        "badge": "THE CATCH",
+        "in": "zoom"
+      },
+      {
+        "say": "Then 0.15% plus other costs starts on four brand new funds."
+      },
+      {
+        "say": "At $100,000, that gap is $200 a year.",
+        "part": "callout",
+        "data": {
+          "word": "year",
+          "line": "At $100,000, that gap is $200 a year.",
+          "at": "year"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "That $14 leaves your $7,000 *every* year.",
+        "part": "tail",
+        "data": {
+          "k": "",
+          "big": "$14",
+          "tail": "off every year",
+          "at": "$14"
+        }
+      },
+      {
+        "say": "Open the fund page for what you hold.",
+        "part": "hub",
+        "data": {
+          "items": [
+            "Fund page",
+            "The fee line",
+            "The date"
+          ],
+          "k": "THE ZERO FEE ALL-IN-ONE TABLE",
+          "from": 0,
+          "to": 1
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Write down its fee and date."
+      },
+      {
+        "say": "Comment *ZERO,* and I will send you the zero fee list.",
+        "part": "tiles",
+        "data": {
+          "word": "ZERO",
+          "at": "ZERO",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the zero fee list ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "XEQT's $14 fee never stops. Scotia's $0 ends October 2027.",
+          "Give me 30 seconds. See the full list."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Stay, and the zero fee list is *yours.*"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "XEQT AT 0.20%",
+            "v": "$14",
+            "sub": "gone every year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SCOTIA'S FOUR",
+            "v": "$0",
+            "sub": "fee skipped, same $7,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Put $7,000 in a fund holding many companies at once.",
+          "XEQT takes 0.20%, so $14 is gone."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "XEQT AT 0.20%",
+            "v": "$14",
+            "sub": "gone every year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SCOTIA'S FOUR",
+            "v": "$0",
+            "sub": "fee skipped, same $7,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Scotia's four *skip* the fee, so $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So why not move today?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE CATCH",
+        "data": {
+          "old": "FREE FOREVER",
+          "new": "ENDS OCT 2027",
+          "sub": "then 0.15% plus other costs."
+        },
+        "lines": [
+          "Scotia *only* skips the fee until October 31, 2027.",
+          "Then 0.15% plus other costs starts on four brand new funds."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "At $100,000, that gap is $200 a year."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$14",
+          "new": "off every year"
+        },
+        "lines": [
+          "That $14 leaves your $7,000 *every* year."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Fund page",
+            "The fee line",
+            "The date"
+          ]
+        },
+        "lines": [
+          "Open the fund page for what you hold.",
+          "Write down its fee and date."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "ZERO",
+          "gift": "the zero fee list"
+        },
+        "lines": [
+          "Comment *ZERO,* and I will send you the zero fee list."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open on the fee that never stops, the lock-in flips to the list they get, body 1 shows $14 against $0 on the same $7,000, a question rehooks into the catch that the skipped fee ends October 31, 2027, the $200 number rehooks into the $14 closing, then the given check and cta end it.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "split",
+        "table",
+        "callout",
+        "stamp",
+        "callout",
+        "tail",
+        "hub",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "fade",
+        "wipe",
+        "zoom",
+        "iris",
+        "fade",
+        "wipe",
+        "dissolve"
+      ],
+      "heavy": 0,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "ZERO"
+    }
+  },
+  "plain": {
+    "what": "XEQT is one fund that holds many companies at once. It takes a fee of 0.20% every year, which is about $14 a year on $7,000. On October 26, 2026, Scotia started four funds like it (SBCN, SBBA, SBGR, SBEQ), and the company running them is skipping the fee, so the cost shows as 0.00% until October 31, 2027.",
+    "so_what": "If you filled one year of TFSA room, which is $7,000 for 2026, that fee gap is about $14 a year, and the XEQT fee comes off every year while the Scotia one is only skipped until October 31, 2027.",
+    "do": "Open the fund page for whatever you already hold and write down its fee and the date on the page.",
+    "words": [
+      {
+        "term": "ETF",
+        "means": "one fund that holds many companies at once"
+      },
+      {
+        "term": "fund",
+        "means": "holds many companies at once"
+      },
+      {
+        "term": "MER",
+        "means": "the yearly fee the fund takes from your money"
+      },
+      {
+        "term": "TFSA",
+        "means": "an account where your gains are not taxed"
+      },
+      {
+        "term": "XEQT",
+        "means": "a fund holding companies worldwide, popular in Canada"
+      },
+      {
+        "term": "waiver",
+        "means": "the company skipping the fee for a set time"
+      },
+      {
+        "term": "track record",
+        "means": "how long it has run so you can judge it"
+      }
+    ]
+  },
+  "subject": "XEQT",
+  "deliver": {
+    "word": "ZERO",
+    "gift": "the zero fee list"
+  },
+  "check": [
+    "Fund page",
+    "The fee line",
+    "The date"
+  ],
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 zoom, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 시간.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "XEQT's $14 fee never stops. Scotia's $0 ends October 2027.",
+        "part": "slam",
+        "data": {
+          "pill": "THE ZERO FEE ALL-IN-ONE TABLE",
+          "num": "$14",
+          "line": "XEQT's $14 fee never stops. Scotia's $0 ends October 2027.",
+          "promise": "Give me 30 seconds. See the full list.",
+          "subj": "XEQT",
+          "stamp": "STOP THE LEAK"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. See the full list.",
+        "nocap": true
+      },
+      {
+        "say": "Stay, and the zero fee list is *yours.*",
+        "cap": "low"
+      },
+      {
+        "say": "Put $7,000 in a fund holding many companies at once.",
+        "part": "table",
+        "data": {
+          "k": "THE GAP",
+          "cols": [
+            "AT 0.20%",
+            "AT 0.00%",
+            "GAP A YEAR"
+          ],
+          "rows": [
+            {
+              "lab": "$7,000",
+              "cells": [
+                "$14",
+                "$0",
+                "$14"
+              ]
+            },
+            {
+              "lab": "$14,000",
+              "cells": [
+                "$28",
+                "$0",
+                "$28"
+              ]
+            },
+            {
+              "lab": "$35,000",
+              "cells": [
+                "$70",
+                "$0",
+                "$70"
+              ]
+            },
+            {
+              "lab": "$100,000",
+              "cells": [
+                "$200",
+                "$0",
+                "$200"
+              ]
+            }
+          ],
+          "hi": 2,
+          "at": 1
+        },
+        "badge": "THE GAP",
+        "in": "iris"
+      },
+      {
+        "say": "XEQT takes 0.20%, so $14 is gone."
+      },
+      {
+        "say": "Scotia's four *skip* the fee, so $0.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "gone every year",
+              "tone": "loss",
+              "h": "XEQT AT 0.20%",
+              "v": "$14",
+              "at": 0
+            },
+            {
+              "sub": "fee skipped, same $7,000",
+              "tone": "win",
+              "h": "SCOTIA'S FOUR",
+              "v": "$0",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        }
+      },
+      {
+        "say": "So why not move today?",
+        "part": "callout",
+        "data": {
+          "word": "today",
+          "line": "So why not move today?",
+          "at": "today"
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Scotia *only* skips the fee until October 31, 2027.",
+        "part": "stamp",
+        "data": {
+          "old": "FREE FOREVER",
+          "new": "ENDS OCT 2027",
+          "at": 1,
+          "k": "THE CATCH",
+          "sub": "then 0.15% plus other costs.",
+          "sub_at": 1
+        },
+        "badge": "THE CATCH"
+      },
+      {
+        "say": "Then 0.15% plus other costs starts on four brand new funds."
+      },
+      {
+        "say": "At $100,000, that gap is $200 a year.",
+        "part": "callout",
+        "data": {
+          "word": "year",
+          "line": "At $100,000, that gap is $200 a year.",
+          "at": "year"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "That $14 leaves your $7,000 *every* year.",
+        "part": "strike",
+        "data": {
+          "old": "$14",
+          "new": "off every year",
+          "at": "every",
+          "k": ""
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Open the fund page for what you hold.",
+        "part": "checklist",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Fund page",
+            "The fee line",
+            "The date",
+            "Save this post"
+          ],
+          "from": 0,
+          "to": 1,
+          "top": 420
+        }
+      },
+      {
+        "say": "Write down its fee and date."
+      },
+      {
+        "say": "Comment *ZERO,* and I will send you the zero fee list.",
+        "part": "tiles",
+        "data": {
+          "word": "ZERO",
+          "at": "ZERO",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the zero fee list ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "XEQT's $14 fee never stops. Scotia's $0 ends October 2027.",
+          "Give me 30 seconds. See the full list."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "Stay, and the zero fee list is *yours.*"
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "THE GAP",
+        "data": {
+          "a": {
+            "h": "XEQT AT 0.20%",
+            "v": "$14",
+            "sub": "gone every year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SCOTIA'S FOUR",
+            "v": "$0",
+            "sub": "fee skipped, same $7,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Put $7,000 in a fund holding many companies at once.",
+          "XEQT takes 0.20%, so $14 is gone."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "XEQT AT 0.20%",
+            "v": "$14",
+            "sub": "gone every year",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "SCOTIA'S FOUR",
+            "v": "$0",
+            "sub": "fee skipped, same $7,000",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Scotia's four *skip* the fee, so $0."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "So why not move today?"
+        ]
+      },
+      {
+        "role": "catch",
+        "badge": "THE CATCH",
+        "data": {
+          "old": "FREE FOREVER",
+          "new": "ENDS OCT 2027",
+          "sub": "then 0.15% plus other costs."
+        },
+        "lines": [
+          "Scotia *only* skips the fee until October 31, 2027.",
+          "Then 0.15% plus other costs starts on four brand new funds."
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "At $100,000, that gap is $200 a year."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$14",
+          "new": "off every year"
+        },
+        "lines": [
+          "That $14 leaves your $7,000 *every* year."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Fund page",
+            "The fee line",
+            "The date"
+          ]
+        },
+        "lines": [
+          "Open the fund page for what you hold.",
+          "Write down its fee and date."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "ZERO",
+          "gift": "the zero fee list"
+        },
+        "lines": [
+          "Comment *ZERO,* and I will send you the zero fee list."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open on the fee that never stops, the lock-in flips to the list they get, body 1 shows $14 against $0 on the same $7,000, a question rehooks into the catch that the skipped fee ends October 31, 2027, the $200 number rehooks into the $14 closing, then the given check and cta end it.",
+      "shape": "zoom",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "slam",
+      "parts": [
+        "slam",
+        "table",
+        "stack",
+        "callout",
+        "stamp",
+        "callout",
+        "strike",
+        "checklist",
+        "tiles"
+      ],
+      "transitions": [
+        "iris",
+        "fade",
+        "iris",
+        "fade",
+        "zoom",
+        "iris",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "compare",
+        "compare",
+        "rehook",
+        "catch",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "ZERO"
+    }
+  },
+  "caption_b": "🐶⛏️ What happens when Scotia's free funds start charging 0.15%?\n\nScotia only skips the fee until October 31, 2027. After that the regular fee comes off your money every year, and these four funds are so new they barely have a track record to judge.\n\nComment ZERO and I'll send you my zero fee list 🪙\nStill holding XEQT?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#etfcanada #tfsacanada #torontofinance",
+  "caption_family": "curious"
+}

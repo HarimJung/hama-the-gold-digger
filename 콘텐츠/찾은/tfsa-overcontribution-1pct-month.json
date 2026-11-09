@@ -1,0 +1,1287 @@
+{
+  "key": "tfsa-overcontribution-1pct-month",
+  "category": "tax",
+  "status": "draft",
+  "title": "Your TFSA leaks money every month. $300 gone.",
+  "object": "THE TFSA PENALTY CHECKLIST",
+  "made_by": "엔진/find.py 2026-11-04 · 신호 ['sc3e815bf', 's0c817519'] · 퍼스나 The late starter",
+  "fact": {
+    "num": "300",
+    "unit": "$",
+    "thing": "tax on a $5,000 TFSA overcontribution left in for six months",
+    "box": "TFSA",
+    "claim": "When your TFSA holds more than your contribution room, the CRA charges a tax of 1% per month on the highest excess amount in the account in each month. The tax keeps applying every month until you withdraw the whole excess or new contribution room in later years absorbs it. A $5,000 excess left in for six months costs $5,000 × 1% × 6 = $300. A month still counts even if you put the excess in and take it out within that same month.",
+    "sources": [
+      "CRA EXCESS TFSA EXAMPLES",
+      "CRA EXCESS TFSA EXAMPLES",
+      "CRA EXCESS TFSA EXAMPLES",
+      "CRA TFSA OVERCONTRIBUTION"
+    ],
+    "verified": "find.py · 대조 4/4",
+    "felt": {
+      "num": "300",
+      "unit": "$",
+      "a": null,
+      "b": null,
+      "how": "$5,000 overcontribution left in for six months, 1% per month",
+      "from": "fact, slides"
+    }
+  },
+  "sources": [
+    {
+      "label": "CRA EXCESS TFSA EXAMPLES",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/tax-payable-on-tfsas/examples-tax-payable-on-excess-tfsa-amount.html",
+      "what": "This tax of 1% per month is based on the highest excess TFSA amount in your account for each month in which an excess remains.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA EXCESS TFSA EXAMPLES",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/tax-payable-on-tfsas/examples-tax-payable-on-excess-tfsa-amount.html",
+      "what": "The tax of 1% per month will continue to apply for each month that the excess TFSA amount stays in the TFSA.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA EXCESS TFSA EXAMPLES",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/tax-payable-on-tfsas/examples-tax-payable-on-excess-tfsa-amount.html",
+      "what": "This means that the 1% tax applies for a particular month even if an excess TFSA amount was contributed and withdrawn later during the same month.",
+      "confidence": "1차"
+    },
+    {
+      "label": "CRA TFSA OVERCONTRIBUTION",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/contributing/overcontribute.html",
+      "what": "Do not wait for the CRA to inform you, as any excess amount in your TFSA is taxable at 1% per month for as long as it remains in your account.",
+      "confidence": "1차"
+    }
+  ],
+  "slides": [
+    {
+      "type": "hero",
+      "kicker": "TAX · CANADA",
+      "topic": "TAX-FREE BOXES",
+      "hook": {
+        "pre": "Your TFSA is tax-free, yet you paid $",
+        "num": "300",
+        "post": ". Want it back?"
+      },
+      "promise": "Give me 30 seconds. Make it truly tax-free."
+    },
+    {
+      "type": "two",
+      "kicker": "SAME $5,000 EXTRA · TWO SPEEDS",
+      "title": "Six months costs $300. Even one month *counts.*",
+      "boxes": [
+        {
+          "h": "LEFT IN 6 MONTHS",
+          "v": "−$300",
+          "d": "$5,000 × 1% × 6 = $300.",
+          "d2": "The 1% comes back every month until the whole extra is out or new room covers it.",
+          "d3": "1% of the highest extra in each month",
+          "lead": true
+        },
+        {
+          "h": "OUT SAME MONTH",
+          "v": "−$50",
+          "tone": "flat",
+          "d": "$5,000 × 1% × 1 = $50.",
+          "d2": "In and out in the same month still counts as a month.",
+          "d3": "A fast fix still costs one month"
+        }
+      ],
+      "source_label": "CRA EXCESS TFSA EXAMPLES",
+      "say": "Hama took it out fast.|Still paid $50."
+    },
+    {
+      "type": "table",
+      "kicker": "THE TFSA PENALTY CHECKLIST",
+      "title": "What 1% a month adds up to.",
+      "h1": "$5,000 OVER YOUR ROOM",
+      "h2": "THE CRA CUT",
+      "rows": [
+        {
+          "a": "1 month",
+          "asub": "even in and out that month",
+          "b": "$50",
+          "gone": "$5,000 × 1% × 1"
+        },
+        {
+          "a": "3 months",
+          "asub": "left in the box",
+          "b": "$150",
+          "gone": "$5,000 × 1% × 3"
+        },
+        {
+          "a": "6 months",
+          "asub": "left in the box",
+          "b": "$300",
+          "gone": "$5,000 × 1% × 6"
+        },
+        {
+          "a": "12 months",
+          "asub": "left in the box",
+          "b": "$600",
+          "gone": "$5,000 × 1% × 12"
+        }
+      ],
+      "note": "1% of the highest extra amount, every month it stays. The CRA says don't wait for them to tell you. <b>Save this. Check your room before your next deposit.</b>",
+      "source_label": "CRA EXCESS TFSA EXAMPLES · CRA TFSA OVERCONTRIBUTION",
+      "say": "Save this one. Check your room before you deposit."
+    }
+  ],
+  "hooks": {
+    "formula": "H2-stop-wasting",
+    "candidates": [
+      "Your TFSA lost $300 in six months. Want it back?",
+      "Your TFSA just paid $300. Want to keep it next time?",
+      "Your TFSA: one deposit mistake cost $300. Want it back?",
+      "Your TFSA is tax-free, yet you paid $300. Want it back?",
+      "Your TFSA bit Hama for $300. Scared it bit yours?",
+      "Your TFSA sent $300 to the CRA. Want it back?",
+      "Your TFSA penalty cost $300. Want it back?",
+      "Your TFSA: one checker kept $300, one didn't. Which are you?",
+      "Your TFSA lost $300 in six months, still counting. Want it stopped?",
+      "Your TFSA: never do this, it cost $300. Want it back?"
+    ],
+    "modes": [
+      "숫자",
+      "질문",
+      "흔한 실수",
+      "반전",
+      "경험",
+      "손해",
+      "이름",
+      "비교",
+      "시간",
+      "금지"
+    ],
+    "on_screen": "Your TFSA is tax-free, yet you paid $300. Want it back?",
+    "spoken": "Your TFSA is tax-free, yet you paid $300. Want it back?",
+    "promise": "Give me 30 seconds. Make it truly tax-free.",
+    "pick_why": "A tax-free box that still charged $300 is a contradiction every Canadian beginner feels at once, so they stop and save to see how.",
+    "made_by": "엔진/hook.py --make (prompts/hook.md via claude -p)",
+    "made_on": "2026-11-06",
+    "stamp": "DON'T LOSE IT"
+  },
+  "lede": "Put more in your TFSA than your room allows and the CRA cuts 1% a month on the extra.",
+  "series": "TFSA TAX TRAPS",
+  "source_note": "CRA · EXCESS TFSA AMOUNT RULES",
+  "caption": "🐶⛏️ If you owe $300 on a tax-free TFSA, you probably put in too much.\n\nThe CRA takes 1% of the extra every month, and it doesn't stop until the extra is out of your box. Taking it out the same month still costs you, so check before you add.\n\nComment ROOM and I'll send you my TFSA penalty checklist 🪙\nChecked your room yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#tfsacanada #canadiantaxes #torontofinance",
+  "rail": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your TFSA is tax-free, yet you paid $300. Want it back?",
+        "part": "window",
+        "data": {
+          "pill": "THE TFSA PENALTY CHECKLIST",
+          "num": "$300",
+          "line": "Your TFSA is tax-free, yet you paid $300. Want it back?",
+          "promise": "Give me 30 seconds. Make it truly tax-free.",
+          "subj": "YOUR TFSA",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Make it truly tax-free.",
+        "nocap": true
+      },
+      {
+        "say": "The penalty checklist is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Put $5,000 too much in your TFSA box.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "300",
+          "pre": "$",
+          "suf": "",
+          "label": "gone for good",
+          "at": "$300"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Six months in, that $5,000 extra cost $300."
+      },
+      {
+        "say": "*Gone.*",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$300",
+              "v": "−$300",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "gone for good",
+              "v": "gone for good",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Canada's tax office takes 1% of the extra *every* month.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "LEFT IN 6 MONTHS",
+            "big": "−$300",
+            "ft": "six months in the box"
+          },
+          "b": {
+            "k": "OUT SAME MONTH",
+            "big": "−$50",
+            "ft": "one month still counts",
+            "at": 1
+          }
+        },
+        "badge": "1% A MONTH"
+      },
+      {
+        "say": "Hama took it out the same month."
+      },
+      {
+        "say": "That $5,000 extra *still* cost $50.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "LEFT IN 6 MONTHS",
+            "big": "−$300",
+            "ft": "six months in the box"
+          },
+          "b": {
+            "k": "OUT SAME MONTH",
+            "big": "−$50",
+            "ft": "one month still counts",
+            "at": 0
+          }
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "It does not *stop* until the extra is out.",
+        "part": "tabs",
+        "data": {
+          "old": "ONE TIME",
+          "new": "EVERY MONTH",
+          "at": 0,
+          "k": ""
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "Check first, and that $300 stays *yours*.",
+        "part": "strike",
+        "data": {
+          "old": "$300",
+          "new": "stays in your box",
+          "at": "yours",
+          "k": ""
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Find your room, the amount you can add.",
+        "part": "checklist",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Room left",
+            "Put in this year",
+            "Save this post"
+          ],
+          "from": 0,
+          "to": 1,
+          "top": 420
+        }
+      },
+      {
+        "say": "Add up what you put in this year."
+      },
+      {
+        "say": "Comment *ROOM,* and I will send you the TFSA penalty checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "ROOM",
+          "at": "ROOM",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the TFSA penalty checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your TFSA is tax-free, yet you paid $300. Want it back?",
+          "Give me 30 seconds. Make it truly tax-free."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The penalty checklist is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "THE CUT",
+        "data": {
+          "old": "−$300",
+          "new": "gone for good"
+        },
+        "lines": [
+          "Put $5,000 too much in your TFSA box.",
+          "Six months in, that $5,000 extra cost $300."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$300",
+          "new": "gone for good"
+        },
+        "lines": [
+          "*Gone.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "1% A MONTH",
+        "data": {
+          "a": {
+            "h": "LEFT IN 6 MONTHS",
+            "v": "−$300",
+            "sub": "six months in the box",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OUT SAME MONTH",
+            "v": "−$50",
+            "sub": "one month still counts",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Canada's tax office takes 1% of the extra *every* month.",
+          "Hama took it out the same month."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "LEFT IN 6 MONTHS",
+            "v": "−$300",
+            "sub": "six months in the box",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OUT SAME MONTH",
+            "v": "−$50",
+            "sub": "one month still counts",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "That $5,000 extra *still* cost $50."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ONE TIME",
+          "new": "EVERY MONTH"
+        },
+        "lines": [
+          "It does not *stop* until the extra is out."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$300",
+          "new": "stays in your box"
+        },
+        "lines": [
+          "Check first, and that $300 stays *yours*."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Room left",
+            "Put in this year"
+          ]
+        },
+        "lines": [
+          "Find your room, the amount you can add.",
+          "Add up what you put in this year."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "ROOM",
+          "gift": "the TFSA penalty checklist"
+        },
+        "lines": [
+          "Comment *ROOM,* and I will send you the TFSA penalty checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, one-line lock-in names the checklist, body 1 shows the $300 gone, the first rehook turns to the 1% a month rule compared at two speeds, the second rehook is the trap that it never stops on its own, the closing hands back the $300, and the given check plus cta end it.",
+      "shape": "dark",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "window",
+      "parts": [
+        "window",
+        "odometer",
+        "shrink",
+        "callout",
+        "dumbbell",
+        "compare",
+        "tabs",
+        "strike",
+        "checklist",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "fade",
+        "dissolve",
+        "wipe",
+        "zoom",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "ROOM"
+    }
+  },
+  "rail_prev": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "karaoke",
+    "beats": [
+      {
+        "say": "Your TFSA is tax-free, yet you paid $300. Want it back?",
+        "part": "window",
+        "data": {
+          "pill": "THE TFSA PENALTY CHECKLIST",
+          "num": "$300",
+          "line": "Your TFSA is tax-free, yet you paid $300. Want it back?",
+          "promise": "Give me 30 seconds. Make it truly tax-free.",
+          "subj": "YOUR TFSA",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Make it truly tax-free.",
+        "nocap": true
+      },
+      {
+        "say": "The penalty checklist is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Put $5,000 too much in your TFSA box.",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "300",
+          "pre": "$",
+          "suf": "",
+          "label": "gone for good",
+          "at": "$300"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Six months in, that $5,000 extra cost $300."
+      },
+      {
+        "say": "*Gone.*",
+        "part": "shrink",
+        "data": {
+          "k": "",
+          "bars": [
+            {
+              "l": "−$300",
+              "v": "−$300",
+              "w": 1.0,
+              "at": 0
+            },
+            {
+              "l": "gone for good",
+              "v": "gone for good",
+              "w": 0.2,
+              "at": 0
+            }
+          ]
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "dissolve"
+      },
+      {
+        "say": "Canada's tax office takes 1% of the extra *every* month.",
+        "part": "compare",
+        "data": {
+          "a": {
+            "k": "LEFT IN 6 MONTHS",
+            "big": "−$300",
+            "ft": "six months in the box"
+          },
+          "b": {
+            "k": "OUT SAME MONTH",
+            "big": "−$50",
+            "ft": "one month still counts",
+            "at": 1
+          }
+        },
+        "badge": "1% A MONTH",
+        "in": "wipe"
+      },
+      {
+        "say": "Hama took it out the same month."
+      },
+      {
+        "say": "That $5,000 extra *still* cost $50.",
+        "part": "stack",
+        "data": {
+          "layers": [
+            {
+              "sub": "six months in the box",
+              "tone": "loss",
+              "h": "LEFT IN 6 MONTHS",
+              "v": "−$300",
+              "at": 0
+            },
+            {
+              "sub": "one month still counts",
+              "tone": "win",
+              "h": "OUT SAME MONTH",
+              "v": "−$50",
+              "at": 0
+            }
+          ],
+          "hi": 1,
+          "hi_at": 0,
+          "stand_at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "It does not *stop* until the extra is out.",
+        "part": "swap",
+        "data": {
+          "old": "ONE TIME",
+          "new": "EVERY MONTH",
+          "at": "stop"
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Check first, and that $300 stays *yours*.",
+        "part": "strike",
+        "data": {
+          "old": "$300",
+          "new": "stays in your box",
+          "at": "yours",
+          "k": ""
+        }
+      },
+      {
+        "say": "Find your room, the amount you can add.",
+        "part": "checklist",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Room left",
+            "Put in this year",
+            "Save this post"
+          ],
+          "from": 0,
+          "to": 1,
+          "top": 420
+        },
+        "in": "iris"
+      },
+      {
+        "say": "Add up what you put in this year."
+      },
+      {
+        "say": "Comment *ROOM,* and I will send you the TFSA penalty checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "ROOM",
+          "at": "ROOM",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the TFSA penalty checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your TFSA is tax-free, yet you paid $300. Want it back?",
+          "Give me 30 seconds. Make it truly tax-free."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The penalty checklist is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "THE CUT",
+        "data": {
+          "old": "−$300",
+          "new": "gone for good"
+        },
+        "lines": [
+          "Put $5,000 too much in your TFSA box.",
+          "Six months in, that $5,000 extra cost $300."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$300",
+          "new": "gone for good"
+        },
+        "lines": [
+          "*Gone.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "1% A MONTH",
+        "data": {
+          "a": {
+            "h": "LEFT IN 6 MONTHS",
+            "v": "−$300",
+            "sub": "six months in the box",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OUT SAME MONTH",
+            "v": "−$50",
+            "sub": "one month still counts",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Canada's tax office takes 1% of the extra *every* month.",
+          "Hama took it out the same month."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "LEFT IN 6 MONTHS",
+            "v": "−$300",
+            "sub": "six months in the box",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OUT SAME MONTH",
+            "v": "−$50",
+            "sub": "one month still counts",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "That $5,000 extra *still* cost $50."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ONE TIME",
+          "new": "EVERY MONTH"
+        },
+        "lines": [
+          "It does not *stop* until the extra is out."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$300",
+          "new": "stays in your box"
+        },
+        "lines": [
+          "Check first, and that $300 stays *yours*."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Room left",
+            "Put in this year"
+          ]
+        },
+        "lines": [
+          "Find your room, the amount you can add.",
+          "Add up what you put in this year."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "ROOM",
+          "gift": "the TFSA penalty checklist"
+        },
+        "lines": [
+          "Comment *ROOM,* and I will send you the TFSA penalty checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, one-line lock-in names the checklist, body 1 shows the $300 gone, the first rehook turns to the 1% a month rule compared at two speeds, the second rehook is the trap that it never stops on its own, the closing hands back the $300, and the given check plus cta end it.",
+      "shape": "dark",
+      "ending": "check_cta",
+      "caption": "karaoke",
+      "opener": "window",
+      "parts": [
+        "window",
+        "odometer",
+        "shrink",
+        "callout",
+        "compare",
+        "stack",
+        "swap",
+        "strike",
+        "checklist",
+        "tiles"
+      ],
+      "transitions": [
+        "dissolve",
+        "wipe",
+        "dissolve",
+        "wipe",
+        "pan",
+        "zoom",
+        "fade",
+        "iris",
+        "dissolve"
+      ],
+      "heavy": 2,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "ROOM"
+    }
+  },
+  "plain": {
+    "what": "A TFSA is a savings or investing account where your gains are not taxed, but it has a yearly limit on how much you can put in. If you put in more than your limit, the CRA (the tax office) charges you 1% of the extra amount every month. Putting in $5,000 too much and leaving it there for six months costs $300.",
+    "so_what": "That $300 comes straight out of your own money, and the charge keeps coming every month until the whole extra amount is out or new room in a later year covers it.",
+    "do": "Look up how much TFSA room you have left, then add up everything you have put in this year.",
+    "words": [
+      {
+        "term": "TFSA",
+        "means": "An account where your gains are not taxed, with a yearly limit."
+      },
+      {
+        "term": "CRA",
+        "means": "Canada's tax office."
+      },
+      {
+        "term": "contribution room",
+        "means": "How much you are allowed to put in."
+      },
+      {
+        "term": "overcontribution",
+        "means": "Money you put in above your allowed limit."
+      },
+      {
+        "term": "excess amount",
+        "means": "The part that sits above your limit."
+      },
+      {
+        "term": "withdraw",
+        "means": "Take money out of the account."
+      },
+      {
+        "term": "deposit",
+        "means": "Money you put into the account."
+      }
+    ]
+  },
+  "subject": "Your TFSA",
+  "deliver": {
+    "word": "ROOM",
+    "gift": "the TFSA penalty checklist"
+  },
+  "check": [
+    "Room left",
+    "Put in this year"
+  ],
+  "rail_prev2": {
+    "note_": "엔진/motion/rail/director.py 가 2026-11-07 에 만들었다. 대본 prompts/rail.md (kallaway 9칸, 꼴 dark, 끝맺음 check_cta) · 모션 매핑 GRAMMAR. 훅 방식 반전.",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "hold": 3.5,
+    "caption": "blur",
+    "beats": [
+      {
+        "say": "Your TFSA is tax-free, yet you paid $300. Want it back?",
+        "part": "tease",
+        "data": {
+          "pill": "THE TFSA PENALTY CHECKLIST",
+          "num": "$300",
+          "line": "Your TFSA is tax-free, yet you paid $300. Want it back?",
+          "promise": "Give me 30 seconds. Make it truly tax-free.",
+          "subj": "YOUR TFSA",
+          "stamp": "DON'T LOSE IT"
+        },
+        "nocap": true
+      },
+      {
+        "say": "Give me 30 seconds. Make it truly tax-free.",
+        "nocap": true
+      },
+      {
+        "say": "The penalty checklist is yours in 30 seconds.",
+        "cap": "low"
+      },
+      {
+        "say": "Put $5,000 too much in your TFSA box.",
+        "part": "tail",
+        "data": {
+          "k": "THE CUT",
+          "big": "−$300",
+          "tail": "gone for good",
+          "at": 1
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Six months in, that $5,000 extra cost $300."
+      },
+      {
+        "say": "*Gone.*",
+        "part": "odometer",
+        "data": {
+          "from": "0",
+          "to": "300",
+          "pre": "$",
+          "suf": "",
+          "label": "gone for good",
+          "at": 0
+        },
+        "dark": true,
+        "in": "wipe"
+      },
+      {
+        "say": "Here is the part nobody says.",
+        "part": "callout",
+        "data": {
+          "word": "says",
+          "line": "Here is the part nobody says.",
+          "at": "says"
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Canada's tax office takes 1% of the extra *every* month.",
+        "part": "table",
+        "data": {
+          "k": "1% A MONTH",
+          "cols": [
+            "THE CRA CUT"
+          ],
+          "rows": [
+            {
+              "lab": "1 month",
+              "cells": [
+                "$50"
+              ]
+            },
+            {
+              "lab": "3 months",
+              "cells": [
+                "$150"
+              ]
+            },
+            {
+              "lab": "6 months",
+              "cells": [
+                "$300"
+              ]
+            },
+            {
+              "lab": "12 months",
+              "cells": [
+                "$600"
+              ]
+            }
+          ],
+          "hi": 0,
+          "at": 1
+        },
+        "badge": "1% A MONTH",
+        "in": "zoom"
+      },
+      {
+        "say": "Hama took it out the same month."
+      },
+      {
+        "say": "That $5,000 extra *still* cost $50.",
+        "part": "dumbbell",
+        "data": {
+          "a": {
+            "k": "LEFT IN 6 MONTHS",
+            "big": "−$300",
+            "ft": "six months in the box"
+          },
+          "b": {
+            "k": "OUT SAME MONTH",
+            "big": "−$50",
+            "ft": "one month still counts",
+            "at": 0
+          }
+        },
+        "in": "wipe"
+      },
+      {
+        "say": "It does not *stop* until the extra is out.",
+        "part": "wipe",
+        "data": {
+          "a": {
+            "h": "ONE TIME",
+            "v": "ONE TIME",
+            "sub": ""
+          },
+          "b": {
+            "h": "EVERY MONTH",
+            "v": "EVERY MONTH",
+            "sub": ""
+          },
+          "at": 0
+        },
+        "in": "pan"
+      },
+      {
+        "say": "Check first, and that $300 stays *yours*.",
+        "part": "strike",
+        "data": {
+          "old": "$300",
+          "new": "stays in your box",
+          "at": "yours",
+          "k": ""
+        },
+        "in": "zoom"
+      },
+      {
+        "say": "Find your room, the amount you can add.",
+        "part": "checklist",
+        "data": {
+          "items": [
+            "Start · your account",
+            "Room left",
+            "Put in this year",
+            "Save this post"
+          ],
+          "from": 0,
+          "to": 1,
+          "top": 420
+        }
+      },
+      {
+        "say": "Add up what you put in this year."
+      },
+      {
+        "say": "Comment *ROOM,* and I will send you the TFSA penalty checklist.",
+        "part": "tiles",
+        "data": {
+          "word": "ROOM",
+          "at": "ROOM",
+          "bar": "Add a comment…",
+          "dm": [
+            "Hama the Gold Digger",
+            "sent you the TFSA penalty checklist ✨"
+          ],
+          "dm_at": "send",
+          "disc": "General education, not financial advice."
+        },
+        "in": "dissolve"
+      }
+    ],
+    "scenes": [
+      {
+        "role": "opener",
+        "lines": [
+          "Your TFSA is tax-free, yet you paid $300. Want it back?",
+          "Give me 30 seconds. Make it truly tax-free."
+        ]
+      },
+      {
+        "role": "lockin",
+        "lines": [
+          "The penalty checklist is yours in 30 seconds."
+        ]
+      },
+      {
+        "role": "loss",
+        "badge": "THE CUT",
+        "data": {
+          "old": "−$300",
+          "new": "gone for good"
+        },
+        "lines": [
+          "Put $5,000 too much in your TFSA box.",
+          "Six months in, that $5,000 extra cost $300."
+        ]
+      },
+      {
+        "role": "loss",
+        "data": {
+          "old": "−$300",
+          "new": "gone for good"
+        },
+        "lines": [
+          "*Gone.*"
+        ]
+      },
+      {
+        "role": "rehook",
+        "lines": [
+          "Here is the part nobody says."
+        ]
+      },
+      {
+        "role": "compare",
+        "badge": "1% A MONTH",
+        "data": {
+          "a": {
+            "h": "LEFT IN 6 MONTHS",
+            "v": "−$300",
+            "sub": "six months in the box",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OUT SAME MONTH",
+            "v": "−$50",
+            "sub": "one month still counts",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "Canada's tax office takes 1% of the extra *every* month.",
+          "Hama took it out the same month."
+        ]
+      },
+      {
+        "role": "compare",
+        "data": {
+          "a": {
+            "h": "LEFT IN 6 MONTHS",
+            "v": "−$300",
+            "sub": "six months in the box",
+            "tone": "loss"
+          },
+          "b": {
+            "h": "OUT SAME MONTH",
+            "v": "−$50",
+            "sub": "one month still counts",
+            "tone": "win"
+          },
+          "win": "b"
+        },
+        "lines": [
+          "That $5,000 extra *still* cost $50."
+        ]
+      },
+      {
+        "role": "rehook",
+        "data": {
+          "old": "ONE TIME",
+          "new": "EVERY MONTH"
+        },
+        "lines": [
+          "It does not *stop* until the extra is out."
+        ]
+      },
+      {
+        "role": "closing",
+        "data": {
+          "old": "$300",
+          "new": "stays in your box"
+        },
+        "lines": [
+          "Check first, and that $300 stays *yours*."
+        ]
+      },
+      {
+        "role": "check",
+        "data": {
+          "items": [
+            "Room left",
+            "Put in this year"
+          ]
+        },
+        "lines": [
+          "Find your room, the amount you can add.",
+          "Add up what you put in this year."
+        ]
+      },
+      {
+        "role": "cta",
+        "data": {
+          "word": "ROOM",
+          "gift": "the TFSA penalty checklist"
+        },
+        "lines": [
+          "Comment *ROOM,* and I will send you the TFSA penalty checklist."
+        ]
+      }
+    ],
+    "made_by": {
+      "why": "Hook and promise open, one-line lock-in names the checklist, body 1 shows the $300 gone, the first rehook turns to the 1% a month rule compared at two speeds, the second rehook is the trap that it never stops on its own, the closing hands back the $300, and the given check plus cta end it.",
+      "shape": "dark",
+      "ending": "check_cta",
+      "caption": "blur",
+      "opener": "tease",
+      "parts": [
+        "tease",
+        "tail",
+        "odometer",
+        "callout",
+        "table",
+        "dumbbell",
+        "wipe",
+        "strike",
+        "checklist",
+        "tiles"
+      ],
+      "transitions": [
+        "zoom",
+        "wipe",
+        "pan",
+        "zoom",
+        "wipe",
+        "pan",
+        "zoom",
+        "fade",
+        "dissolve"
+      ],
+      "heavy": 1,
+      "roles": [
+        "opener",
+        "lockin",
+        "loss",
+        "loss",
+        "rehook",
+        "compare",
+        "compare",
+        "rehook",
+        "closing",
+        "check",
+        "cta"
+      ],
+      "keyword": "ROOM"
+    }
+  },
+  "caption_b": "🐶⛏️ Don't add another dollar to your TFSA until you check your room.\n\nThe CRA charges 1% a month on the extra, even if it only sat there a few days. And it keeps coming every month until you take the whole extra out.\n\nComment ROOM and I'll send you my TFSA penalty checklist 🪙\nChecked yours yet?\n\nDig #N · a Toronto chihuahua on the road to $1M\n#tfsacanada #canadiantax #torontofinance",
+  "caption_family": "warning"
+}

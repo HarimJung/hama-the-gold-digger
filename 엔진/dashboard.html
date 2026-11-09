@@ -1,0 +1,251 @@
+<title>하마 올리기 판</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;700&display=swap">
+<style>
+/* 폰 한 줄 흐름: 오늘 할 일 → 날짜별 카드 → 사이트. 하마 피부(버터 판 · 골드잉크 · 로즈) */
+:root{
+  --bg:#FBF6E6; --card:#FFFFFF; --ink:#16140F; --soft:#6F6A5E; --line:#E8E0C8;
+  --gold:#9A7414; --goldbg:#F5E7B8; --rose:#C2334F; --rosebg:#FBE3E8; --ok:#2F7A4B; --okbg:#DFF1E5;
+  --sans:"IBM Plex Sans KR",system-ui,-apple-system,sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#15130E; --card:#201D16; --ink:#F3EEDF; --soft:#A59E8B; --line:#3A3428;
+  --gold:#E3BE5A; --goldbg:#3A3017; --rose:#EE7A8E; --rosebg:#3D1E25; --ok:#7BCB98; --okbg:#1C3324; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#15130E; --card:#201D16; --ink:#F3EEDF; --soft:#A59E8B; --line:#3A3428;
+  --gold:#E3BE5A; --goldbg:#3A3017; --rose:#EE7A8E; --rosebg:#3D1E25; --ok:#7BCB98; --okbg:#1C3324; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 56px}
+.wrap{max-width:680px;margin:0 auto;display:grid;gap:18px}
+h1{font-size:26px;line-height:1.2;margin:0;text-wrap:balance}
+h2{font-size:15px;margin:0;letter-spacing:.02em}
+.sub{color:var(--soft);margin:4px 0 0}
+.how{background:var(--goldbg);border-radius:14px;padding:14px 16px;display:grid;gap:8px}
+.how ol{margin:0;padding-left:20px;display:grid;gap:4px}
+.how b{color:var(--gold)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;min-width:0}
+.stat .n{font:700 24px/1.1 var(--sans);font-variant-numeric:tabular-nums}
+.stat .l{font-size:12px;color:var(--soft)}
+.stat.warn .n{color:var(--rose)}
+@media (max-width:420px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:500 14px var(--sans);padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.day{display:grid;gap:8px}
+.dayhead{display:flex;align-items:baseline;gap:8px;font-weight:700;font-variant-numeric:tabular-nums}
+.dayhead .tag{font:500 12px var(--sans);padding:2px 8px;border-radius:999px;background:var(--goldbg);color:var(--gold)}
+.dayhead .tag.late{background:var(--rosebg);color:var(--rose)}
+.post{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:grid;gap:8px;min-width:0}
+.post.done{background:var(--okbg);border-color:transparent}
+.post.done .hook{color:var(--soft)}
+.top{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.slot{font:700 12px var(--sans);color:var(--gold)}
+.key{font:12px var(--mono);color:var(--soft);overflow-wrap:anywhere;min-width:0}
+.ab{font:700 11px var(--sans);padding:1px 7px;border-radius:999px;background:var(--goldbg);color:var(--gold)}
+.ab-B{background:var(--rosebg);color:var(--rose)}
+.hook{font-size:17px;font-weight:700;line-height:1.35;margin:0;overflow-wrap:anywhere}
+.acts{display:flex;flex-wrap:wrap;gap:6px}
+.btn{font:500 13px var(--sans);padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer;text-decoration:none}
+.btn.main{background:var(--gold);border-color:var(--gold);color:var(--card);font-weight:700}
+:root[data-theme="dark"] .btn.main{color:#15130E}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn.main{color:#15130E}}
+.btn.on{background:var(--ok);border-color:var(--ok);color:var(--card)}
+.btn:focus-visible,.chip:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+details summary{cursor:pointer;color:var(--soft);font-size:13px}
+pre{white-space:pre-wrap;font:14px/1.5 var(--sans);margin:8px 0 0;overflow-wrap:anywhere}
+.vid{width:100%;max-width:320px;aspect-ratio:9/16;border-radius:12px;background:var(--line);justify-self:center}
+.path{font:12px/1.4 var(--mono);color:var(--soft);overflow-wrap:anywhere;user-select:all;margin:0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;display:grid;gap:8px}
+.box code{font:13px var(--mono);background:var(--bg);padding:6px 8px;border-radius:8px;overflow-wrap:anywhere;display:block}
+.out li{color:var(--soft)} .out b{color:var(--ink);font-weight:500}
+.empty{color:var(--soft);padding:16px;text-align:center;border:1px dashed var(--line);border-radius:14px}
+.foot{color:var(--soft);font-size:12px}
+a{color:var(--gold)}
+@media (prefers-reduced-motion:no-preference){.post{transition:background .2s}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>하마 올리기 판</h1>
+    <p class="sub" id="sub">관문을 통과한 릴스만 날짜별로 줄 세웠습니다.</p>
+  </header>
+
+  <section class="how" aria-label="쓰는 법">
+    <h2>매일 이렇게 하세요</h2>
+    <ol>
+      <li>아래 <b>오늘</b> 칸의 릴스 두 편을 봅니다.</li>
+      <li>맥에서 <b>MP4 경로 복사</b>를 누르고 Finder에서 ⌘⇧G에 붙여 넣으면 영상이 바로 열립니다.</li>
+      <li><b>캡션 복사</b>를 눌러 인스타에 붙여 넣고 올립니다.</li>
+      <li>올렸으면 <b>올렸다</b>를 누릅니다. 다음 세션의 Claude가 이 기록을 읽고 다음 큐를 짭니다.</li>
+      <li>11/23까지 캡션 <b>A</b>(지금 꼴)와 <b>B</b>(새 꼴)를 하루 하나씩 시험합니다. 11/23에 인사이트의 조회수와 키워드 댓글 수만 알려 주세요.</li>
+    </ol>
+  </section>
+
+  <section class="stats" aria-label="요약">
+    <div class="stat"><div class="n" id="s-today">—</div><div class="l">오늘 올릴 편</div></div>
+    <div class="stat"><div class="n" id="s-done">—</div><div class="l">올린 편</div></div>
+    <div class="stat"><div class="n" id="s-left">—</div><div class="l">남은 편</div></div>
+    <div class="stat" id="s-late-box"><div class="n" id="s-late">—</div><div class="l">밀린 편</div></div>
+  </section>
+
+  <nav class="chips" aria-label="보기">
+    <button class="chip" id="f-today" data-f="today" aria-pressed="true" type="button">오늘</button>
+    <button class="chip" id="f-left" data-f="left" aria-pressed="false" type="button">남은 것 전부</button>
+    <button class="chip" id="f-done" data-f="done" aria-pressed="false" type="button">올린 것</button>
+    <button class="chip" id="f-all" data-f="all" aria-pressed="false" type="button">전체</button>
+  </nav>
+
+  <main id="list"><div class="empty">큐를 불러오는 중입니다.</div></main>
+
+  <section class="box" aria-label="웹사이트">
+    <h2>하마 머니 사이트</h2>
+    <p style="margin:0"><a href="https://hama-money.vercel.app" target="_blank" rel="noopener">hama-money.vercel.app</a> · <span id="site-info">마지막 빌드 정보를 불러오는 중</span></p>
+    <p style="margin:0;color:var(--soft);font-size:13px">새 편이 반영되려면 맥 터미널에서 이 명령을 한 번 돌립니다. 배포는 하림님 손입니다.</p>
+    <code id="deploy">cd ~/Gaia/"하마 더 골드 디거"/사이트 &amp;&amp; vercel --prod</code>
+    <div class="acts"><button class="btn" type="button" id="copy-deploy">명령 복사</button></div>
+  </section>
+
+  <section class="box out" id="out-box" hidden aria-label="뺀 편">
+    <h2 id="out-title">뺀 편</h2>
+    <ul id="out-list" style="margin:0;padding-left:18px;display:grid;gap:4px"></ul>
+  </section>
+
+  <p class="foot" id="foot"></p>
+</div>
+
+<script>
+(function(){
+  var state = {queue: [], excluded: [], posted: {}, meta: {}, site: {}, filter: "today", loaded: false, canWrite: true, db: null};
+  var $ = function(id){ return document.getElementById(id); };
+  var DOW = "일월화수목금토";
+
+  function today(){ // 토론토 날짜 YYYY-MM-DD
+    var p = new Intl.DateTimeFormat("en-CA", {timeZone: "America/Toronto", year: "numeric", month: "2-digit", day: "2-digit"}).formatToParts(new Date());
+    var g = function(t){ return p.find(function(x){ return x.type === t; }).value; };
+    return g("year") + "-" + g("month") + "-" + g("day");
+  }
+  function label(d){ var dt = new Date(d + "T12:00:00"); return (dt.getMonth() + 1) + "/" + dt.getDate() + " (" + DOW[dt.getDay()] + ")"; }
+  function el(tag, cls, text){ var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+  function copy(text, btn, done){
+    var ok = function(){ btn.textContent = done || "복사됨"; setTimeout(function(){ btn.textContent = btn.dataset.label; }, 1600); };
+    if (!btn.dataset.label) btn.dataset.label = btn.textContent;
+    try {
+      navigator.clipboard.writeText(text).then(ok).catch(function(){ btn.textContent = "길게 눌러 복사하세요"; });
+    } catch (e) { btn.textContent = "길게 눌러 복사하세요"; }
+  }
+
+  function render(){
+    var t = today(), q = state.queue, P = state.posted;
+    var done = q.filter(function(r){ return P[r.key]; });
+    var left = q.filter(function(r){ return !P[r.key]; });
+    var late = left.filter(function(r){ return r.date < t; });
+    var todays = left.filter(function(r){ return r.date === t; });
+    if (state.loaded) {
+      $("s-today").textContent = todays.length; $("s-done").textContent = done.length + Object.keys(P).filter(function(k){ return !q.some(function(r){ return r.key === k; }); }).length;
+      $("s-left").textContent = left.length; $("s-late").textContent = late.length;
+      $("s-late-box").classList.toggle("warn", late.length > 0);
+      var last = q.length ? q[q.length - 1].date : null;
+      $("sub").textContent = q.length ? "통과한 릴스 " + q.length + "편, " + label(q[0].date) + "부터 " + label(last) + "까지 하루 " + (state.meta.per_day || 2) + "편." : "관문을 통과한 릴스만 날짜별로 줄 세웠습니다.";
+    }
+
+    var rows;
+    if (state.filter === "today") rows = late.concat(todays);
+    else if (state.filter === "left") rows = left;
+    else if (state.filter === "done") rows = done;
+    else rows = q;
+
+    var list = $("list"); list.textContent = "";
+    if (!state.loaded) { list.appendChild(el("div", "empty", state.err || "큐를 불러오는 중입니다.")); return; }
+    if (!q.length) { list.appendChild(el("div", "empty", "아직 큐가 없습니다. 엔진에서 find.py queue 를 돌린 뒤 Claude가 채웁니다.")); return; }
+    if (!rows.length) {
+      var msg = state.filter === "today" ? (left.length ? "오늘은 올릴 편이 없습니다. 다음은 " + label(left[0].date) + "입니다." : "남은 편이 없습니다. 다 올렸습니다.") : "여기에 해당하는 편이 없습니다.";
+      list.appendChild(el("div", "empty", msg)); return;
+    }
+    var byDay = {};
+    rows.forEach(function(r){ (byDay[r.date] = byDay[r.date] || []).push(r); });
+    Object.keys(byDay).sort().forEach(function(d){
+      var sec = el("section", "day"); var h = el("div", "dayhead"); h.appendChild(el("span", null, label(d)));
+      if (d === t) h.appendChild(el("span", "tag", "오늘"));
+      else if (d < t && byDay[d].some(function(r){ return !P[r.key]; })) h.appendChild(el("span", "tag late", "밀림"));
+      sec.appendChild(h);
+      byDay[d].sort(function(a, b){ return a.slot - b.slot; }).forEach(function(r){ sec.appendChild(card(r)); });
+      list.appendChild(sec);
+    });
+  }
+
+  function card(r){
+    var p = state.posted[r.key];
+    var c = el("article", "post" + (p ? " done" : ""));
+    var top = el("div", "top"); top.appendChild(el("span", "slot", r.slot + "번"));
+    if (r.ab) top.appendChild(el("span", "ab ab-" + r.ab, "캡션 " + r.ab));
+    top.appendChild(el("span", "key", r.key)); c.appendChild(top);
+    c.appendChild(el("p", "hook", r.hook));
+    c.appendChild(el("p", "path", "영상: " + r.mp4));
+    if (r.video) {
+      var v = el("video", "vid"); v.src = r.video; v.controls = true; v.playsInline = true; v.preload = "metadata"; c.appendChild(v);
+    }
+    var acts = el("div", "acts");
+    if (r.video) { var ov = el("a", "btn", "영상 새 창 (폰 저장)"); ov.href = r.video; ov.target = "_blank"; ov.rel = "noopener"; acts.appendChild(ov); }
+    var b1 = el("button", "btn main", "캡션 복사"); b1.type = "button"; b1.onclick = function(){ copy(r.caption, b1); }; acts.appendChild(b1);
+    var b2 = el("button", "btn", "MP4 경로 복사"); b2.type = "button"; b2.onclick = function(){ copy(r.mp4, b2); }; acts.appendChild(b2);
+    var a = el("a", "btn", "사이트 보기"); a.href = r.site; a.target = "_blank"; a.rel = "noopener"; acts.appendChild(a);
+    var b3 = el("button", "btn" + (p ? " on" : ""), p ? "올림 " + label(p.day) + " · 되돌리기" : "올렸다"); b3.type = "button";
+    b3.disabled = !state.canWrite || !state.db;
+    b3.onclick = function(){ toggle(r.key, b3); }; acts.appendChild(b3);
+    c.appendChild(acts);
+    var det = el("details"); det.appendChild(el("summary", null, "캡션 보기"));
+    det.appendChild(el("pre", null, r.caption)); det.appendChild(el("p", "path", r.mp4)); c.appendChild(det);
+    return c;
+  }
+
+  var busy = {};
+  function toggle(key, btn){
+    if (busy[key] || !state.db) return; busy[key] = true; btn.disabled = true;
+    var ref = state.db.doc("posted/" + key);
+    var op = state.posted[key] ? ref.delete() : ref.set({key: key, day: today(), at: new Date().toISOString()});
+    op.catch(function(e){ btn.textContent = (e && e.code === "not_granted") ? "저장 권한 없음" : "저장 못 함. 다시 눌러 주세요"; })
+      .then(function(){ busy[key] = false; btn.disabled = false; });
+  }
+
+  document.querySelector(".chips").addEventListener("click", function(e){
+    var b = e.target.closest(".chip"); if (!b) return; state.filter = b.dataset.f;
+    document.querySelectorAll(".chip").forEach(function(x){ x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+    render();
+  });
+  $("copy-deploy").onclick = function(){ copy($("deploy").textContent, $("copy-deploy")); };
+
+  function renderMeta(){
+    var s = state.site;
+    $("site-info").textContent = s.built ? "마지막 빌드 " + s.built + " · " + s.posts + "편" + (s.deployed ? " · 배포 " + s.deployed : " · 배포 대기") : "빌드 정보 없음";
+    var ex = state.excluded; $("out-box").hidden = !ex.length;
+    $("out-title").textContent = "큐에서 뺀 편 " + ex.length; var ul = $("out-list"); ul.textContent = "";
+    ex.forEach(function(x){ var li = el("li"); li.appendChild(el("b", null, x.key)); li.appendChild(document.createTextNode(" · " + x.why)); ul.appendChild(li); });
+    $("foot").textContent = state.meta.made ? "큐 만든 날 " + state.meta.made + " · 엔진 find.py queue · 올렸다 기록은 이 판에 저장됩니다." : "";
+  }
+
+  render();
+  var timer = setTimeout(function(){ if (!state.loaded) { state.err = "큐를 불러오지 못했습니다. 페이지를 새로 열어 주세요."; render(); } }, 10000);
+
+  window.claude && window.claude.use && window.claude.use("db").then(function(db){
+    if (!db) { clearTimeout(timer); state.err = "로그인한 상태에서 열어야 큐가 보입니다."; render(); return; }
+    state.db = db;
+    var fail = function(e){ clearTimeout(timer); state.err = "큐를 불러오지 못했습니다 (" + ((e && e.code) || "오류") + ")."; render(); };
+    db.collection("queue").onSnapshot(function(s){
+      clearTimeout(timer); state.loaded = true;
+      state.queue = s.docs.map(function(d){ return d.data(); }).filter(Boolean).sort(function(a, b){ return a.date < b.date ? -1 : a.date > b.date ? 1 : a.slot - b.slot; });
+      render();
+    }, fail);
+    db.collection("posted").onSnapshot(function(s){
+      var m = {}; s.docs.forEach(function(d){ var v = d.data(); if (v) m[d.id] = v; }); state.posted = m; render();
+    }, function(){});
+    db.collection("excluded").onSnapshot(function(s){ state.excluded = s.docs.map(function(d){ return d.data(); }).filter(Boolean); renderMeta(); }, function(){});
+    db.doc("meta/run").onSnapshot(function(s){ state.meta = s.data() || {}; renderMeta(); render(); }, function(){});
+    db.doc("meta/site").onSnapshot(function(s){ state.site = s.data() || {}; renderMeta(); }, function(){});
+    return window.claude.use("user");
+  }).then(function(u){
+    if (u && u.can) { var c = u.can("data.write"); if (c === false) { state.canWrite = false; render(); } }
+  }).catch(function(){});
+})();
+</script>
