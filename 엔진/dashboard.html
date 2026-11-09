@@ -189,6 +189,7 @@ a{color:var(--gold)}
     if (r.story && r.story.length) {
       var st = el("div", "story"); st.appendChild(el("b", null, "스토리 3장"));
       r.story.forEach(function(s){ st.appendChild(el("p", null, s)); });
+      st.appendChild(el("p", "path", "2·3장 배경: 엔진/out/스토리/" + r.date + "-2.png · -3.png (투표·질문 스티커는 2장 빈칸에)"));
       var bs = el("button", "btn", "3번 글자 복사"); bs.type = "button";
       bs.onclick = function(){ copy(r.story[2].replace(/^3\. 글자: /, ""), bs); }; st.appendChild(bs);
       c.appendChild(st);

@@ -23,6 +23,7 @@ last_review: 2026-11-07
 | 7 올리기 큐 | `python3 엔진/find.py queue` | `out/작업/upload-queue.json` → Claude 가 **하마 올리기 판**(https://claude.ai/artifact/8RZbWNxiiuyxheZiPoW2Ma, 원본 `엔진/dashboard.html`)의 db 에 넣는다. 통과(FAIL 아님·목소리 0·캡션·MP4)만, 내일부터 하루 2편 |
 | 7b 폰·메일 (11/09) | `find.py queue` 가 같이 함 | 영상은 맥 `out/릴스/` 경로 그대로(11/09 «컴으로 할라구», iCloud 복사 뺌) + `out/작업/발행표.txt`(10일치, 🐶·🪙 는 :dog:·:coin:). Claude 가 Drive «하마-발행표.txt»로 올린다(create_file → 옛 파일 휴지통. 루틴 trig_0186cqgJ 는 제목으로 최신 파일을 찾으니 고칠 것 없음). **10일마다 갱신 안 하면 아침 메일이 «발행표 갱신 필요»로 온다** |
 | 하루 1편 + 스토리 3장 · A/B (11/09~12/7) | `find.py caption <key> --b` | B 캡션은 `caption_b`. 큐가 하루 1편, A·B 번갈아(`ab`), 스토리 3장(`story`: 공유·투표 또는 질문·키워드). 12/7쯤 하림님 인사이트로 정본 결정. GitHub 비공개 HarimJung/hama-the-gold-digger |
+| 7c 스토리 배경 (11/09) | `python3 엔진/story.py [날짜]` | 2장(투표·질문 스티커 자리)·3장(댓글 키워드) PNG 1080×1920 → `out/스토리/<날짜>-2.png·-3.png`. 릴스 피부 그대로, 글은 큐 캡션에서만. 1장은 인스타 공유 버튼 |
 
 올릴 것: MP4 = `out/릴스/<key>-rail.mp4`, 캡션 = `콘텐츠/찾은/<key>.json` 의 `caption`. 게시는 하림님 손.
 하림님이 판에서 «올렸다»를 누르면 db `posted/<key>` 에 남는다. 새 큐를 짜기 전에 Claude 가 `posted` 를 읽어 `out/작업/posted.json`(키 목록)으로 적고 → `find.py queue` 가 올린 편은 다시 잡지 않는다 → 판의 `queue`·`excluded` 를 통째로 바꾼다(옛 문서는 지운다).
