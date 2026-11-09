@@ -443,7 +443,7 @@ def story(cap, k):
     q = next((l for l in lines if l.endswith("?") and not l.startswith("🐶")), "Did you know this?")
     word = (re.search(r"Comment (\S+)", cap) or [None, ""])[1]
     return [f"1. 오늘 릴스 공유 (릴스 아래 종이비행기 → 스토리에 추가)",
-            f"2. 투표 스티커: {q}  /  Yes · Not yet",
+            (f"2. 질문 스티커: {q}" if q.split()[0].lower().strip("'") in ("which", "what", "what's", "how", "when", "where", "why", "who") else f"2. 투표 스티커: {q}  /  Yes · Not yet"),   # 열린 질문은 투표가 안 맞는다
             f"3. 글자: Comment {word} under today's reel and I'll send it to you 🪙"]
 
 def publish_table(rows, W):

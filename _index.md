@@ -22,7 +22,7 @@ last_review: 2026-11-07
 
 자세한 순서와 파일은 `엔진/_index.md` 한 장.
 
-매일 아침 7:57 (토론토) 그날 영상+캡션이 Gmail로 온다 (클라우드 루틴 trig_0186cqgJCKWsvkG6hhiWH4Sp, 발행표는 Drive «하마-발행표.txt»(11/09 새 파일 1jrhutO98wA7tFuMolnx2KNOsh6mDC92y, `find.py queue` 산출물을 Claude 가 올림, 10일치), 영상은 맥 엔진/out/릴스/, 하루 2편 A/B 캡션). 게시는 하림님 손.
+매일 아침 7:57 (토론토) 그날 영상+캡션이 Gmail로 온다 (클라우드 루틴 trig_0186cqgJCKWsvkG6hhiWH4Sp, 발행표는 Drive «하마-발행표.txt»(루틴이 제목으로 최신 파일을 찾음, `find.py queue` 산출물을 Claude 가 올림, 10일치), 영상은 맥 엔진/out/릴스/, 릴스 하루 1편 + 스토리 3장, A/B 캡션). GitHub 비공개 https://github.com/HarimJung/hama-the-gold-digger (README.md 가 다른 AI 용 안내. 게시는 하림님 손.
 
 ## 폴더 (2026-11-04 정리)
 
